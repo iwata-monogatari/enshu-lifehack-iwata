@@ -4,6 +4,12 @@
 name = "enshu-lifehack-iwata"
 compatibility_date = "2025-06-01"
 
+# カスタムドメイン（Cloudflare管理ゾーン enshu-lifehack.com 配下）
+# deploy 時に DNS レコードと SSL を自動作成する。
+routes = [
+  { pattern = "iwata.enshu-lifehack.com", custom_domain = true }
+]
+
 [assets]
 directory = "."
 # 404 は 404.html を返す。ディレクトリ(/life/housing/)は index.html を自動配信。
