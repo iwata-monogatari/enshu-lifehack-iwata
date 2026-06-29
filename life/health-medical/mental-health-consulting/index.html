@@ -146,24 +146,24 @@ html{font-size:17px}
         <span class="chip chip-muni" style="background:var(--green); color:#fff; font-size:12px;">対象となる方</span>
         <p style="margin: 8px 0 0 0; font-weight:700;">自身のこころの不調を感じている方、または家族の精神状態が心配な方。</p>
        </div>
-    
-    
-    
-    
-    
+
+
+
+
+
       <h2 class="sec">手続きの窓口</h2>
       <div class="step" style="display: flex; flex-direction: column; gap: 12px;">
-        
+
           <div>
             <span class="chip chip-muni">市役所の窓口</span>
             <span style="font-weight:700; margin-left: 8px;">福祉課（または健康増進課）</span>
           </div>
-        
-        
+
+
       </div>
-    
-    
-    
+
+
+
     <h2 class="sec">電話する前チェック</h2>
     <div class="step">
       <ul class="items" style="margin: 0; padding-left: 20px; font-size:14px; line-height:1.6;">
@@ -173,19 +173,38 @@ html{font-size:17px}
         <li>市役所窓口の受付時間は通常 <b>平日 8:30 〜 17:15</b> です</li>
       </ul>
     </div>
-  
-    
+
+
       <h2 class="sec">公式情報</h2>
       <div style="display: flex; flex-wrap: wrap;">
         <a class="official-link" href="https://www.city.iwata.shizuoka.jp/kenkou_fukushi/fukushi/1001764.html" target="_blank" rel="noopener" style="margin-right: 10px; margin-bottom: 8px;">こころの健康相談（磐田市） ↗</a>
       </div>
-    
-    
+
+
     <p class="verified" style="font-size:12.5px; color:var(--mut); margin-top:20px;">
       最終確認日：2026/06/29 ／ 本サイトは公式情報を整理したものです。最新・正確な情報は必ず公式ページでご確認ください。
     </p>
-  
-    
+
+
+    <div class="ai-consult-cta" style="background:#f6f7f5; border:1px dashed var(--line); border-radius:14px; padding:18px; margin-top:24px; text-align:center;">
+      <h4 style="margin:0 0 8px 0; font-size:15px; color:var(--ink);">🔍 まだ見つかりませんか？</h4>
+      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <a class="print-btn" href="/life/troubles-consult/" style="cursor:pointer; background:#fff;">🤖 AIに相談する</a>
+        <a class="print-btn" href="/" style="cursor:pointer; background:#fff;">📋 キーワードから探す</a>
+      </div>
+    </div>
+
+
+    <div class="feedback" id="fb" style="margin-top: 32px; background:#fff; border: 1.5px solid var(--line); border-radius:14px; padding:20px; text-align:center;">
+      <h3 style="margin:0 0 14px 0; font-size:17px; color:var(--green-d);">このページの情報は役に立ちそうですか？</h3>
+      <div class="fb-btns" style="display:flex; flex-direction:row; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <button type="button" data-fb="solved" class="print-btn" style="border-color:var(--green); color:var(--green-d); cursor:pointer; min-width: 140px;">👍 解決しそう</button>
+        <button type="button" data-fb="still_worried" class="print-btn" style="cursor:pointer; min-width: 140px;">🤔 まだ不安</button>
+        <button type="button" data-fb="could_not_find" class="print-btn" style="cursor:pointer; min-width: 180px;">❌ 探す情報がない</button>
+      </div>
+      <div class="fb-thanks" id="fbThanks" style="display:none; font-weight:700; color:var(--green-d); padding:8px 0;">ありがとうございます。改善に役立てます。</div>
+    </div>
+
     <div class="consult-section" style="margin-top: 36px; border-top: 1.5px solid var(--line); padding-top: 24px;">
       <h3 style="font-size: 17px; font-weight: 800; color: var(--ink); margin: 0 0 10px 0; text-align: center;">
         お困りのときは、相談先の一つとしてご利用ください
@@ -195,7 +214,7 @@ html{font-size:17px}
         富士ヶ丘サービスでも、このようなご相談をお受けしています。
       </p>
       <div class="consult-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px;">
-        
+
           <!-- カード: 磐田物語 -->
           <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
             <div>
@@ -205,7 +224,7 @@ html{font-size:17px}
               <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
                 磐田の歴史や文化、地域の記憶を紹介しています。
               </p>
-              
+
               <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
                 <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
                 磐田物語<br>
@@ -220,7 +239,7 @@ html{font-size:17px}
               </a>
             </div>
           </div>
-  
+
           <!-- カード: 住まい -->
           <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
             <div>
@@ -230,7 +249,7 @@ html{font-size:17px}
               <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
                 富士ヶ丘サービスでも、相続した実家・空き家・親の家の整理についてご相談をお受けしています。介護と不動産の両方に関わる立場から、売却・管理・解体・今後の住まい方について整理のお手伝いをしています。必要に応じて、相談先の一つとしてご利用ください。
               </p>
-              
+
               <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
                 <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
                 富士ヶ丘サービス 不動産部<br>
@@ -247,7 +266,7 @@ html{font-size:17px}
               </a>
             </div>
           </div>
-  
+
           <!-- カード: 介護 -->
           <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
             <div>
@@ -257,7 +276,7 @@ html{font-size:17px}
               <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
                 ケアマネジャー、介護保険、介護施設、高齢者支援などのご相談を承っています。必要に応じて、相談先の一つとしてご利用ください。
               </p>
-              
+
               <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:11.5px; color:var(--mut); line-height:1.5;">
                 <span style="font-weight:700; color:var(--ink); font-size:12px;">お問い合わせ</span><br>
                 富士ヶ丘サービス 介護部門<br>
@@ -275,30 +294,11 @@ html{font-size:17px}
               </a>
             </div>
           </div>
-  
+
       </div>
     </div>
-  
-    
-    <div class="ai-consult-cta" style="background:#f6f7f5; border:1px dashed var(--line); border-radius:14px; padding:18px; margin-top:24px; text-align:center;">
-      <h4 style="margin:0 0 8px 0; font-size:15px; color:var(--ink);">🔍 まだ見つかりませんか？</h4>
-      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-        <a class="print-btn" href="/life/troubles-consult/" style="cursor:pointer; background:#fff;">🤖 AIに相談する</a>
-        <a class="print-btn" href="/" style="cursor:pointer; background:#fff;">📋 キーワードから探す</a>
-      </div>
-    </div>
-  
-    
-    <div class="feedback" id="fb" style="margin-top: 32px; background:#fff; border: 1.5px solid var(--line); border-radius:14px; padding:20px; text-align:center;">
-      <h3 style="margin:0 0 14px 0; font-size:17px; color:var(--green-d);">このページの情報は役に立ちそうですか？</h3>
-      <div class="fb-btns" style="display:flex; flex-direction:row; gap:10px; justify-content:center; flex-wrap:wrap;">
-        <button type="button" data-fb="solved" class="print-btn" style="border-color:var(--green); color:var(--green-d); cursor:pointer; min-width: 140px;">👍 解決しそう</button>
-        <button type="button" data-fb="still_worried" class="print-btn" style="cursor:pointer; min-width: 140px;">🤔 まだ不安</button>
-        <button type="button" data-fb="could_not_find" class="print-btn" style="cursor:pointer; min-width: 180px;">❌ 探す情報がない</button>
-      </div>
-      <div class="fb-thanks" id="fbThanks" style="display:none; font-weight:700; color:var(--green-d); padding:8px 0;">ありがとうございます。改善に役立てます。</div>
-    </div>
-  
+
+
   </div>
       <aside class="pcrail" style="display: flex; flex-direction: column; gap: 16px;">
     <div>
