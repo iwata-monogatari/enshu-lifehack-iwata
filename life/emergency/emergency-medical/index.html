@@ -1,0 +1,362 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>夜間・休日医療 | 磐田ライフハック | 磐田ライフハック</title>
+<meta name="description" content="磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+:root{--green:#1f6f54;--green-d:#15503c;--bg:#f6f7f5;--card:#fff;--ink:#222;--mut:#667;--line:#e3e6e1;--accent:#ffd34d}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI",Meiryo,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
+a{color:var(--green-d);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px}
+header.site{background:var(--green);color:#fff}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px}
+header.site .logo{font-weight:800;font-size:20px;color:#fff}
+header.site .tag{font-size:12px;opacity:.85}
+nav.cats{background:var(--green-d)}
+nav.cats .wrap{display:flex;flex-wrap:wrap;gap:2px;padding:0 16px}
+nav.cats a{color:#eafaf3;padding:10px 12px;font-size:14px;font-weight:600}
+nav.cats a:hover{background:rgba(255,255,255,.12);text-decoration:none}
+.disclaimer{background:#fff8e6;border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
+.disclaimer .wrap{padding:8px 16px}
+main{padding:22px 0 40px}
+h1.page{font-size:22px;margin:6px 0 4px}
+h2.sec{font-size:17px;border-left:5px solid var(--green);padding-left:10px;margin:26px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0}
+.card .meta{font-size:12px;color:var(--mut);margin-top:4px}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;margin-right:6px;vertical-align:middle}
+.b-Aplus{background:#1f6f54;color:#fff}.b-A{background:#3a8f72;color:#fff}.b-B{background:#7d8a83;color:#fff}.b-C{background:#e7ebe8;color:#445}
+.official-link{display:inline-flex;align-items:center;gap:6px;background:#eef6f2;border:1px solid #cfe5da;border-radius:8px;padding:8px 12px;font-size:13.5px;font-weight:600;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tile .n{font-size:12px;color:var(--mut)}
+.update-item{padding:9px 0;border-bottom:1px dashed var(--line)}
+.update-item:last-child{border-bottom:0}
+.update-item .ct{font-size:11px;font-weight:700;color:#fff;background:#3a8f72;border-radius:5px;padding:1px 6px;margin-right:6px}
+.ct-added{background:#1f6f54}.ct-updated{background:#c08a1e}.ct-title_changed{background:#7d8a83}.ct-category_changed{background:#7d8a83}
+.empty{color:var(--mut);font-size:14px;padding:10px 0}
+footer.site{background:#222;color:#cfd6d1;font-size:13px;margin-top:30px}
+footer.site .wrap{padding:20px 16px}
+footer.site a{color:#9fe3c8}
+.care-cta{background:#f0f7f3;border:1px solid #cfe5da;border-radius:10px;padding:14px 16px;margin:16px 0}
+.care-cta b{color:var(--green-d)}
+.muted{color:var(--mut)}
+
+/* ===== スマホファースト v1.0 ===== */
+html{font-size:17px}
+.wrap{max-width:760px}
+.lead{font-size:15px;color:var(--mut);margin:2px 0 14px}
+.askbig{font-size:21px;font-weight:800;margin:22px 0 6px;color:var(--green-d)}
+/* 困りごとカード（1画面1判断・タップ44px以上） */
+.sit-list{display:flex;flex-direction:column;gap:10px}
+.sit-card{display:flex;align-items:center;gap:12px;min-height:60px;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;font-size:17.5px;font-weight:700;color:var(--ink)}
+.sit-card:hover{text-decoration:none;border-color:var(--green);background:#f3faf6}
+.sit-card .arw{margin-left:auto;color:var(--green);font-weight:800;font-size:20px}
+.sit-card .ic{font-size:22px;line-height:1}
+/* 緊急・重要カード */
+.urgent-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.u-card{display:flex;flex-direction:column;gap:4px;min-height:64px;border-radius:14px;padding:13px 14px;font-weight:800;font-size:16px;color:#fff}
+.u-card .s{font-size:12px;font-weight:600;opacity:.92}
+.u-bousai{background:#c0461e}.u-care{background:#1f6f54}.u-gomi{background:#3a6ea5}.u-iryo{background:#8a3ea5}
+/* 検索（主役にしない・控えめ） */
+.searchbox{display:flex;gap:8px;margin:8px 0 4px}
+.searchbox input{flex:1;min-height:46px;border:1.5px solid var(--line);border-radius:12px;padding:0 14px;font-size:16px}
+.searchbox button{min-height:46px;min-width:64px;border:0;border-radius:12px;background:var(--green);color:#fff;font-weight:700;font-size:16px}
+/* 困りごとページ */
+.first-action{background:#eef6f2;border:1.5px solid #cfe5da;border-radius:14px;padding:16px;font-size:17px;font-weight:700;line-height:1.8;margin:10px 0 4px}
+.timing-block{margin:18px 0}
+.timing-head{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:800;margin:0 0 8px}
+.timing-today{color:#c0461e}.timing-week{color:#c08a1e}.timing-later{color:#3a6ea5}
+.tdot{width:12px;height:12px;border-radius:50%}
+.tdot.today{background:#c0461e}.tdot.week{background:#c08a1e}.tdot.later{background:#3a6ea5}
+.step{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin:8px 0}
+.step .task{font-size:16.5px;font-weight:700}
+.step .meta{font-size:13px;color:var(--mut);margin-top:5px;line-height:1.7}
+.chip{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px;margin-right:6px}
+.chip-muni{background:#e7f1ec;color:#1f6f54}.chip-out{background:#fdeede;color:#a8631a}.chip-deadline{background:#fbe2e2;color:#b3261e}
+.items{margin:6px 0 0;padding-left:18px}
+.items li{font-size:13.5px;color:#445}
+/* 3問ナビ */
+.nav3{background:#fff;border:1.5px solid var(--green);border-radius:14px;padding:14px 16px;margin:14px 0}
+.nav3 h3{margin:0 0 4px;font-size:16px;color:var(--green-d)}
+.nav3 .q{margin:12px 0 0}
+.nav3 .q p{margin:0 0 6px;font-weight:700;font-size:15.5px}
+.toggle{display:inline-flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
+.toggle button{min-height:44px;min-width:72px;border:0;background:#fff;font-size:15px;font-weight:700;color:#555;padding:0 14px;cursor:pointer}
+.toggle button.on{background:var(--green);color:#fff}
+.nav3 .qnote{font-size:13px;color:#a8631a;margin-top:6px;display:none}
+.step.hidden{display:none}
+/* フィードバック */
+.feedback{background:#f6f7f5;border:1px solid var(--line);border-radius:14px;padding:16px;margin:22px 0 0;text-align:center}
+.feedback h3{margin:0 0 10px;font-size:16px}
+.fb-btns{display:flex;flex-direction:column;gap:8px}
+.fb-btns button{min-height:50px;border:1.5px solid var(--line);border-radius:12px;background:#fff;font-size:15.5px;font-weight:700;color:#333;cursor:pointer}
+.fb-btns button:hover{border-color:var(--green)}
+.fb-thanks{display:none;font-weight:700;color:var(--green-d);padding:8px 0}
+/* 印刷ボタン・PC右カラム */
+.pcrail{display:none}
+.print-btn,.back-link{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;font-weight:700;font-size:14px;color:#333}
+.verified{font-size:13px;color:var(--mut);margin-top:12px}
+
+/* ===== PC派生（スマホ構造を保ったまま補助） ===== */
+@media (min-width:760px){
+  html{font-size:16px}
+  .urgent-grid{grid-template-columns:repeat(4,1fr)}
+  .with-rail{display:grid;grid-template-columns:1fr 270px;gap:24px;align-items:start}
+  .pcrail{display:block;position:sticky;top:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+  .pcrail h3{margin:0 0 8px;font-size:15px;color:var(--green-d)}
+  .pcrail ul{margin:0;padding-left:18px;font-size:14px;line-height:1.9}
+  .pcrail .rail-sec{margin-top:14px}
+}
+
+/* ===== 印刷（家族が一緒に確認・電話前チェック） ===== */
+@media print{
+  header.site,nav.cats,.disclaimer,.searchbox,.feedback,.print-btn,.back-link,.care-cta,footer.site,.nav3 .toggle{display:none !important}
+  .step.hidden{display:block !important}
+  .with-rail{display:block}
+  .pcrail{display:block;border:1px solid #999}
+  body{background:#fff;font-size:12pt}
+  .step,.first-action{break-inside:avoid}
+}
+</style>
+<style>
+  :root {
+    --green: #0074AE;
+    --green-d: #005986;
+  }
+</style>
+</head><body>
+<header class="site"><div class="wrap">
+  <a class="logo" href="/">磐田ライフハック</a>
+</div></header>
+<div class="disclaimer"><div class="wrap">⚠ 磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div>
+<main><div class="wrap">
+    <div class="with-rail">
+      <div>
+    <p class="muted" style="font-size:13px; margin-bottom:8px;">
+      <a href="/">磐田ライフハック</a> ／ 
+      <a href="/#life-categories-section">生活ナビ</a> ／ 
+      <span>夜間・休日医療</span>
+    </p>
+    <h1 class="page" style="font-size:24px; font-weight:800; margin-bottom:12px; color:var(--green-d);">夜間・休日医療</h1>
+    <p class="lead" style="font-size:15px; margin-bottom:20px;">夜間急病時の診療体制（夜間救急診療所、当番医、こども救急電話「#8000」）です。</p>
+
+    <div class="first-action">💡 <b>まずやること：</b>重症（呼吸困難、意識不明等）の場合は、ためらわずに「119」番で救急車を呼んでください。</div>
+    <div class="card" style="border-left: 5px solid var(--green); margin-bottom: 20px;">
+        <span class="chip chip-muni" style="background:var(--green); color:#fff; font-size:12px;">対象となる方</span>
+        <p style="margin: 8px 0 0 0; font-weight:700;">急な体調不良や怪我により、応急診療を受けたい市民。</p>
+       </div>
+    
+      <div class="timing-block" style="margin-top: 24px;">
+        <div class="timing-head timing-today" style="font-size:16px; font-weight:800; display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+          <span class="tdot today" style="width:12px; height:12px; border-radius:50%; display:inline-block;"></span>
+          今日やること
+        </div>
+        
+      <div class="step">
+        <div class="task">
+          <span class="chip chip-muni" style="background:#e7f1ec; color:#1f6f54;">手続き</span>
+          夜間救急診療所（0538-36-7099）へ事前に電話して症状を伝える
+        </div>
+      </div>
+    
+      </div>
+    
+    
+    
+    
+      <h2 class="sec">必要な持ち物・書類</h2>
+      <div class="step">
+        <ul class="items" style="margin: 0; padding-left: 20px;">
+          <li style="margin-bottom: 6px; font-weight:600;">健康保険証</li><li style="margin-bottom: 6px; font-weight:600;">福祉医療受給者証</li><li style="margin-bottom: 6px; font-weight:600;">現金</li>
+        </ul>
+      </div>
+    
+    
+    
+    
+    <h2 class="sec">電話する前チェック</h2>
+    <div class="step">
+      <ul class="items" style="margin: 0; padding-left: 20px; font-size:14px; line-height:1.6;">
+        <li>用件を一言でまとめる（「<b>夜間・休日医療</b>」について聞きたい等）</li>
+        <li>手元に<b>本人確認書類</b>（運転免許証やマイナンバーカード等）を用意する</li>
+        <li>関係する通知書や保険証があれば、事前に手元に置く</li>
+        <li>市役所窓口の受付時間は通常 <b>平日 8:30 〜 17:15</b> です</li>
+      </ul>
+    </div>
+  
+    
+      <h2 class="sec">公式情報</h2>
+      <div style="display: flex; flex-wrap: wrap;">
+        <a class="official-link" href="https://www.city.iwata.shizuoka.jp/kenkou_fukushi/iryou_kenkou/1001716.html" target="_blank" rel="noopener" style="margin-right: 10px; margin-bottom: 8px;">救急医療体制（磐田市） ↗</a>
+      </div>
+    
+    
+    <p class="verified" style="font-size:12.5px; color:var(--mut); margin-top:20px;">
+      最終確認日：2026/06/29 ／ 本サイトは公式情報を整理したものです。最新・正確な情報は必ず公式ページでご確認ください。
+    </p>
+  
+    
+    <div class="consult-section" style="margin-top: 36px; border-top: 1.5px solid var(--line); padding-top: 24px;">
+      <h3 style="font-size: 17px; font-weight: 800; color: var(--ink); margin: 0 0 10px 0; text-align: center;">
+        お困りのときは、相談先の一つとしてご利用ください
+      </h3>
+      <p style="font-size: 14px; line-height: 1.6; color: var(--mut); text-align: center; max-width: 600px; margin: 0 auto 24px auto;">
+        相続した実家や空き家、介護、住まいに関する悩みは、一人で抱え込まず、地域の相談窓口や専門家へ相談することで解決につながることがあります。
+        富士ヶ丘サービスでも、このようなご相談をお受けしています。
+      </p>
+      <div class="consult-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px;">
+        
+          <!-- カード: 磐田物語 -->
+          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
+            <div>
+              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
+                <span>📖</span> <span>磐田の歴史・文化を知りたい</span>
+              </h4>
+              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
+                磐田の歴史や文化、地域の記憶を紹介しています。
+              </p>
+              
+              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
+                <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
+                磐田物語<br>
+                <div style="margin-top:6px;">
+                  <a href="https://iwata-monogatari.pages.dev/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:16px;">
+              <a href="https://iwata-monogatari.pages.dev/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
+                磐田物語を見る
+              </a>
+            </div>
+          </div>
+  
+          <!-- カード: 住まい -->
+          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
+            <div>
+              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
+                <span>🏠</span> <span>家・住まいについて相談したい</span>
+              </h4>
+              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
+                富士ヶ丘サービスでも、相続した実家・空き家・親の家の整理についてご相談をお受けしています。介護と不動産の両方に関わる立場から、売却・管理・解体・今後の住まい方について整理のお手伝いをしています。必要に応じて、相談先の一つとしてご利用ください。
+              </p>
+              
+              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
+                <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
+                富士ヶ丘サービス 不動産部<br>
+                TEL：0538-31-3308<br>
+                <div style="margin-top:6px; display:flex; gap:10px; flex-wrap:wrap;">
+                  <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
+                  <a href="https://line.me/R/ti/p/%40487nnyec" target="_blank" rel="noopener" style="color:#05b04b; text-decoration:underline;">LINE公式 ↗</a>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:16px;">
+              <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
+                相続した実家・空き家について相談する
+              </a>
+            </div>
+          </div>
+  
+          <!-- カード: 介護 -->
+          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
+            <div>
+              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
+                <span>❤️</span> <span>介護・高齢者について相談したい</span>
+              </h4>
+              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
+                ケアマネジャー、介護保険、介護施設、高齢者支援などのご相談を承っています。必要に応じて、相談先の一つとしてご利用ください。
+              </p>
+              
+              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:11.5px; color:var(--mut); line-height:1.5;">
+                <span style="font-weight:700; color:var(--ink); font-size:12px;">お問い合わせ</span><br>
+                富士ヶ丘サービス 介護部門<br>
+                ・居宅介護支援 TEL: 0538-31-5551<br>
+                ・サ高住 見付 TEL: 0538-31-3308<br>
+                ・サ高住 安久路 TEL: 0538-37-1010<br>
+                <div style="margin-top:6px;">
+                  <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top:16px;">
+              <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
+                介護の相談先を見る
+              </a>
+            </div>
+          </div>
+  
+      </div>
+    </div>
+  
+    
+    <div class="ai-consult-cta" style="background:#f6f7f5; border:1px dashed var(--line); border-radius:14px; padding:18px; margin-top:24px; text-align:center;">
+      <h4 style="margin:0 0 8px 0; font-size:15px; color:var(--ink);">🔍 まだ見つかりませんか？</h4>
+      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <a class="print-btn" href="/life/troubles-consult/" style="cursor:pointer; background:#fff;">🤖 AIに相談する</a>
+        <a class="print-btn" href="/" style="cursor:pointer; background:#fff;">📋 キーワードから探す</a>
+      </div>
+    </div>
+  
+    
+    <div class="feedback" id="fb" style="margin-top: 32px; background:#fff; border: 1.5px solid var(--line); border-radius:14px; padding:20px; text-align:center;">
+      <h3 style="margin:0 0 14px 0; font-size:17px; color:var(--green-d);">このページの情報は役に立ちそうですか？</h3>
+      <div class="fb-btns" style="display:flex; flex-direction:row; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <button type="button" data-fb="solved" class="print-btn" style="border-color:var(--green); color:var(--green-d); cursor:pointer; min-width: 140px;">👍 解決しそう</button>
+        <button type="button" data-fb="still_worried" class="print-btn" style="cursor:pointer; min-width: 140px;">🤔 まだ不安</button>
+        <button type="button" data-fb="could_not_find" class="print-btn" style="cursor:pointer; min-width: 180px;">❌ 探す情報がない</button>
+      </div>
+      <div class="fb-thanks" id="fbThanks" style="display:none; font-weight:700; color:var(--green-d); padding:8px 0;">ありがとうございます。改善に役立てます。</div>
+    </div>
+  
+  </div>
+      <aside class="pcrail" style="display: flex; flex-direction: column; gap: 16px;">
+    <div>
+      <h3 style="margin:0 0 8px 0; font-size:15px; color:var(--green-d); border-bottom:1.5px solid var(--line); padding-bottom:4px;">今日やること</h3>
+      <ul style="margin:0; padding-left:18px; font-size:13.5px; line-height:1.6;">
+        <li>夜間救急診療所（0538-36-7099）へ事前に電話して症状を伝える</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin:0 0 8px 0; font-size:15px; color:var(--green-d); border-bottom:1.5px solid var(--line); padding-bottom:4px;">電話前チェック</h3>
+      <ul style="margin:0; padding-left:18px; font-size:13px; line-height:1.5;">
+        <li>用件を一言で</li>
+        <li>本人確認書類</li>
+        <li>関係書類</li>
+        <li>受付時間確認</li>
+      </ul>
+    </div>
+    <div style="margin-top:8px;">
+      <a class="print-btn" href="#" onclick="window.print();return false" style="display:flex; justify-content:center; cursor:pointer;">🖨️ 印刷して持参する</a>
+    </div>
+  </aside>
+    </div>
+    <script>
+  (function(){
+    document.querySelectorAll('.fb-btns button[data-fb]').forEach(function(b){
+      b.addEventListener('click', function(){
+        var type = b.getAttribute('data-fb');
+        fetch('/api/feedback', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            muni: "iwata",
+            guide: "iwata__tg__emergency-medical",
+            type: type
+          })
+        }).catch(function(){});
+        document.querySelector('.fb-btns').style.display = 'none';
+        document.getElementById('fbThanks').style.display = 'block';
+      });
+    });
+  })();
+  </script>
+  </div></main>
+<footer class="site"><div class="wrap">
+  <div><b style="color:#fff">磐田ライフハック</b></div>
+  <div class="muted" style="margin:6px 0 10px">運営：富士ヶ丘サービス ／ 代表：大石浩之</div>
+  <div><a href="https://www.city.iwata.shizuoka.jp/" rel="noopener" style="color:#fff;">磐田市公式サイト ↗</a></div>
+  <div class="muted" style="margin-top:10px;font-size:12px">本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</div>
+</div></footer>
+</body></html>
