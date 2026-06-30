@@ -62,6 +62,14 @@ html{font-size:17px}
 .searchbox{display:flex;gap:8px;margin:8px 0 4px}
 .searchbox input{flex:1;min-height:46px;border:1.5px solid var(--line);border-radius:12px;padding:0 14px;font-size:16px}
 .searchbox button{min-height:46px;min-width:64px;border:0;border-radius:12px;background:var(--green);color:#fff;font-weight:700;font-size:16px}
+.search-results{display:none;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 24px}
+.search-results.show{display:block}
+.search-results h2{font-size:15px;margin:0 0 10px;color:var(--green-d)}
+.search-results ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.search-results a{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--ink);font-weight:700}
+.search-results a:hover{background:#f3faf6;border-color:var(--green);text-decoration:none}
+.search-results .path{font-size:12px;color:var(--mut);font-weight:500}
+.search-results .empty{padding:4px 0;color:var(--mut)}
 /* 困りごとページ */
 .first-action{background:#eef6f2;border:1.5px solid #cfe5da;border-radius:14px;padding:16px;font-size:17px;font-weight:700;line-height:1.8;margin:10px 0 4px}
 .timing-block{margin:18px 0}
@@ -139,10 +147,11 @@ html{font-size:17px}
     <p class="lead" style="font-size:16px; line-height:1.6;">磐田市公式情報をもとに、暮らしの手続き・施設・防災・子育て・介護を、市民目線でわかりやすく案内します。</p>
   </div>
 
-  <form class="searchbox" action="https://www.google.com/search" method="get" role="search" target="_blank" rel="noopener" style="margin-bottom: 28px;"><input type="hidden" name="as_sitesearch" value="iwata.enshu-lifehack.com">
+  <form class="searchbox" action="/" method="get" role="search" style="margin-bottom: 12px;">
     <input name="q" type="search" placeholder="例：税金／住民票／ごみ／水道／おくやみ／介護／空き家" aria-label="知りたい手続きや困りごとを入力">
     <button type="submit">探す</button>
   </form>
+  <div class="search-results" id="search-results" aria-live="polite"></div>
 <h2 class="sec">くらしの場面・目的から選ぶ</h2>
   <div class="urgent-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 32px;">
     <a class="u-card " href="/life/living-soon/" data-code="001">
@@ -1428,6 +1437,71 @@ html{font-size:17px}
       100% { box-shadow: 0 0 0 0 rgba(179,38,30, 0); }
     }
   </style>
+  <script>
+    (() => {
+      const form = document.querySelector('.searchbox');
+      const input = form?.querySelector('input[name="q"]');
+      const results = document.getElementById('search-results');
+      if (!form || !input || !results) return;
+
+      const normalize = (value) => value
+        .toLowerCase()
+        .replace(/\s+/g, '')
+        .replace(/[・、，,／/]/g, '');
+
+      const links = Array.from(document.querySelectorAll('.u-card[href^="/life/"], .topic-list a[href^="/life/"]'))
+        .map((link) => {
+          const title = (link.querySelector('.t-title')?.textContent || link.textContent || '').trim();
+          const href = link.getAttribute('href');
+          return {
+            title,
+            href,
+            haystack: normalize(`${title} ${href}`)
+          };
+        })
+        .filter((item, index, all) => item.title && item.href && all.findIndex((other) => other.href === item.href) === index);
+
+      const render = (query) => {
+        const terms = normalize(query).split(/(?=[^\s])/).filter(Boolean);
+        const compact = normalize(query);
+        if (!compact) {
+          results.classList.remove('show');
+          results.innerHTML = '';
+          return;
+        }
+        const matched = links
+          .filter((item) => item.haystack.includes(compact) || Array.from(compact).every((char) => item.haystack.includes(char)))
+          .slice(0, 12);
+        const safeQuery = query.replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+        results.classList.add('show');
+        if (!matched.length) {
+          results.innerHTML = `<h2>「${safeQuery}」の候補</h2><div class="empty">サイト内に一致する項目が見つかりませんでした。言葉を短くして検索してください。</div>`;
+          return;
+        }
+        results.innerHTML = `<h2>「${safeQuery}」の候補</h2><ul>${matched.map((item) => `<li><a href="${item.href}"><span>${item.title}</span><span class="path">${item.href}</span></a></li>`).join('')}</ul>`;
+      };
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const query = input.value.trim();
+        const url = new URL(window.location.href);
+        if (query) {
+          url.searchParams.set('q', query);
+        } else {
+          url.searchParams.delete('q');
+        }
+        window.history.replaceState(null, '', url);
+        render(query);
+      });
+
+      input.addEventListener('input', () => render(input.value));
+      const initial = new URLSearchParams(window.location.search).get('q') || '';
+      if (initial) {
+        input.value = initial;
+        render(initial);
+      }
+    })();
+  </script>
   </div></main>
 <footer class="site"><div class="wrap">
   <div><b style="color:#fff">磐田ライフハック</b></div>
