@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://iwata.enshu-lifehack.com/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/</loc></url>
@@ -101,7 +101,6 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/</loc></url>
@@ -112,4 +111,153 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/start-farming/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/subsidies/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/tax/</loc></url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/tax-guide/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/city-tax-payment/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/tax-certificates/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/resident-tax/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/housing/property-tax/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/national-health-insurance-tax/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/light-vehicle-tax/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/certificates/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/moving-address-change/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/work-life/my-number-card/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/garbage-sorting-calendar/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/water-start-stop-fees/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/family-grow/nursery-childcare/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/education/school-district-transfer/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/health-medical/holiday-night-emergency-care/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/parents-care/care-certification-support-center/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/end-of-life/after-death-procedures/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/end-of-life/inherited-vacant-house/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/family-grow/child-allowance-medical/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/family-grow/single-parent-support/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/family-grow/developmental-support/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/education/school-expense-support/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/health-medical/cancer-specific-checkups/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/health-medical/vaccinations/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/parents-care/adult-guardianship/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/health-medical/disability-services/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/housing/public-housing-consultation/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/dog-registration-rabies/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/pets-lost-animals/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/emergency/evacuation-hazard-map/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/emergency/disaster-certificates-procedures/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/living-soon/bus-license-return/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/troubles-consult/road-repair-mirror/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/troubles-consult/consumer-fraud/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/troubles-consult/legal-general-consultation/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://iwata.enshu-lifehack.com/life/play-out/facilities-library-parks/</loc>
+    <lastmod>2026-06-30</lastmod>
+  </url>
 </urlset>
+

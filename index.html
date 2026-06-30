@@ -140,11 +140,24 @@ html{font-size:17px}
   </div>
 
   <form class="searchbox" action="https://www.google.com/search" method="get" role="search" target="_blank" rel="noopener" style="margin-bottom: 28px;"><input type="hidden" name="as_sitesearch" value="iwata.enshu-lifehack.com">
-    <input name="q" type="search" placeholder="例：ゴミの出し方／子育て支援／公園を探す／引っ越し" aria-label="知りたい手続きや困りごとを入力">
+    <input name="q" type="search" placeholder="例：税金／住民票／ごみ／水道／おくやみ／介護／空き家" aria-label="知りたい手続きや困りごとを入力">
     <button type="submit">探す</button>
   </form>
 
-  <h2 class="sec">くらしの場面・目的から選ぶ</h2>
+  <section class="card" id="popular-procedures" style="margin:0 0 28px 0; border-left:5px solid var(--green);">
+    <h2 class="sec" style="margin-top:0;">よく探される手続き</h2>
+    <p class="lead" style="margin-bottom:14px;">税金、証明書、ごみ、水道、おくやみなど、磐田市で暮らす中で迷いやすい手続きを生活場面別に整理しています。詳細や申請は、必ず磐田市公式ページで確認してください。</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));">
+      <a class="tile" href="/life/work-life/tax-guide/"><b>税金・保険料</b><div class="n">市税、住民税、国保税、納付、払えない相談</div></a>
+      <a class="tile" href="/life/start-living/certificates/"><b>住民票・戸籍・住所変更</b><div class="n">証明書、転入届、転出届、マイナンバーカード</div></a>
+      <a class="tile" href="/life/start-living/garbage-sorting-calendar/"><b>ごみ・水道</b><div class="n">ごみの日、分別、粗大ごみ、水道開始・中止</div></a>
+      <a class="tile" href="/life/family-grow/nursery-childcare/"><b>子育て・学校</b><div class="n">保育園、児童手当、学区、転校、就学援助</div></a>
+      <a class="tile" href="/life/parents-care/care-certification-support-center/"><b>介護・おくやみ・空き家</b><div class="n">介護認定、認知症、おくやみ、実家じまい</div></a>
+    </div>
+    <p class="muted" style="font-size:13px; margin:14px 0 0;">見つからない場合は、言葉を少し変えて検索してみてください。よく探される言葉：税金 / 住民票 / ごみ / 水道 / おくやみ / 介護 / 空き家</p>
+  </section>
+
+<h2 class="sec">くらしの場面・目的から選ぶ</h2>
   <div class="urgent-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 32px;">
     
     <a class="u-card " href="/life/living-soon/" style="background:var(--green); color:#fff;">
@@ -271,7 +284,14 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/living-soon/bus-license-return/">
+          <span class="ic">🚌</span>
+          <span class="t-title">バス・交通・免許返納</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-start-living">
@@ -338,7 +358,56 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/start-living/certificates/">
+          <span class="ic">📄</span>
+          <span class="t-title">住民票・戸籍・印鑑証明</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/moving-address-change/">
+          <span class="ic">🚚</span>
+          <span class="t-title">転入・転出・転居・住所変更</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/garbage-sorting-calendar/">
+          <span class="ic">🗑️</span>
+          <span class="t-title">ごみの出し方・分別・収集日</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/bulky-garbage-dropoff/">
+          <span class="ic">🛋️</span>
+          <span class="t-title">粗大ごみ・ごみの持ち込み</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/water-start-stop-fees/">
+          <span class="ic">🚰</span>
+          <span class="t-title">水道の開始・中止・料金</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/dog-registration-rabies/">
+          <span class="ic">🐕</span>
+          <span class="t-title">犬の登録・狂犬病予防注射</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/start-living/pets-lost-animals/">
+          <span class="ic">🐾</span>
+          <span class="t-title">ペット・迷い犬・野良猫</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-housing">
@@ -405,7 +474,21 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/housing/property-tax/">
+          <span class="ic">💵</span>
+          <span class="t-title">固定資産税・都市計画税</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/housing/public-housing-consultation/">
+          <span class="ic">🏘️</span>
+          <span class="t-title">市営住宅・住宅相談</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-family-grow">
@@ -472,7 +555,35 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/family-grow/nursery-childcare/">
+          <span class="ic">🏫</span>
+          <span class="t-title">保育園・こども園・子育て手続き</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/family-grow/child-allowance-medical/">
+          <span class="ic">💴</span>
+          <span class="t-title">児童手当・子ども医療費</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/family-grow/single-parent-support/">
+          <span class="ic">🤝</span>
+          <span class="t-title">ひとり親・児童扶養手当</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/family-grow/developmental-support/">
+          <span class="ic">🧒</span>
+          <span class="t-title">発達相談・障がい児支援</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-play-out">
@@ -539,7 +650,14 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/play-out/facilities-library-parks/">
+          <span class="ic">🏛️</span>
+          <span class="t-title">公共施設予約・図書館・公園</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-education">
@@ -599,7 +717,21 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/education/school-district-transfer/">
+          <span class="ic">🏫</span>
+          <span class="t-title">小学校・中学校・学区・転校</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/education/school-expense-support/">
+          <span class="ic">💴</span>
+          <span class="t-title">就学援助・給食費</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-health-medical">
@@ -666,7 +798,35 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/health-medical/holiday-night-emergency-care/">
+          <span class="ic">🚑</span>
+          <span class="t-title">休日当番医・夜間救急</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/health-medical/cancer-specific-checkups/">
+          <span class="ic">🩺</span>
+          <span class="t-title">がん検診・特定健診</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/health-medical/vaccinations/">
+          <span class="ic">💉</span>
+          <span class="t-title">予防接種</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/health-medical/disability-services/">
+          <span class="ic">♿</span>
+          <span class="t-title">障害者手帳・障害福祉サービス</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-work-life">
@@ -726,7 +886,56 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/work-life/tax-guide/">
+          <span class="ic">💵</span>
+          <span class="t-title">税金で困ったときの入口</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/city-tax-payment/">
+          <span class="ic">💳</span>
+          <span class="t-title">市税の納付方法・納期限</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/tax-certificates/">
+          <span class="ic">📄</span>
+          <span class="t-title">所得証明・課税証明・納税証明</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/resident-tax/">
+          <span class="ic">💵</span>
+          <span class="t-title">住民税・市県民税</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/national-health-insurance-tax/">
+          <span class="ic">🩺</span>
+          <span class="t-title">国民健康保険税</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/light-vehicle-tax/">
+          <span class="ic">🛵</span>
+          <span class="t-title">軽自動車税・原付の手続き</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/work-life/my-number-card/">
+          <span class="ic">🪪</span>
+          <span class="t-title">マイナンバーカード</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-parents-care">
@@ -786,7 +995,21 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/parents-care/care-certification-support-center/">
+          <span class="ic">🧓</span>
+          <span class="t-title">介護認定・地域包括支援センター</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/parents-care/adult-guardianship/">
+          <span class="ic">📄</span>
+          <span class="t-title">成年後見</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-emergency">
@@ -860,7 +1083,21 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/emergency/evacuation-hazard-map/">
+          <span class="ic">🗺️</span>
+          <span class="t-title">避難所・ハザードマップ</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/emergency/disaster-certificates-procedures/">
+          <span class="ic">📄</span>
+          <span class="t-title">罹災証明・災害時の手続き</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-troubles-consult">
@@ -868,7 +1105,7 @@ html{font-size:17px}
           <span class="ic">🧩</span>
           <span class="c-title">困った・相談したい</span>
         </h3>
-        <p class="cat-sub">生活費の困窮、税金の未納、子ども・介護・障害や外国人向けの専門相談窓口</p>
+        <p class="cat-sub">生活費の困窮、税金の未納、子ども・介護・障害、法律や消費生活の専門相談窓口</p>
         <ul class="topic-list">
           
       <li>
@@ -920,14 +1157,28 @@ html{font-size:17px}
         </a>
       </li>
     
+        
       <li>
-        <a href="/life/troubles-consult/foreign-resident-consultation/">
-          <span class="ic">🗣️</span>
-          <span class="t-title">外国人相談</span>
+        <a href="/life/troubles-consult/road-repair-mirror/">
+          <span class="ic">🛣️</span>
+          <span class="t-title">道路補修・側溝・カーブミラー</span>
         </a>
       </li>
-    
-        </ul>
+
+      <li>
+        <a href="/life/troubles-consult/consumer-fraud/">
+          <span class="ic">⚠️</span>
+          <span class="t-title">消費生活相談・詐欺</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/troubles-consult/legal-general-consultation/">
+          <span class="ic">⚖️</span>
+          <span class="t-title">法律相談・困りごと相談</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-end-of-life">
@@ -994,7 +1245,21 @@ html{font-size:17px}
         </a>
       </li>
     
-        </ul>
+        
+      <li>
+        <a href="/life/end-of-life/after-death-procedures/">
+          <span class="ic">🌸</span>
+          <span class="t-title">おくやみ・死亡後の手続き</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/life/end-of-life/inherited-vacant-house/">
+          <span class="ic">🏚️</span>
+          <span class="t-title">空き家・実家じまい・相続した家</span>
+        </a>
+      </li>
+</ul>
       </div>
     
       <div class="category-block" id="cat-moving-out">
@@ -1357,6 +1622,7 @@ html{font-size:17px}
   <div><b style="color:#fff">磐田ライフハック</b></div>
   <div class="muted" style="margin:6px 0 10px">運営：富士ヶ丘サービス株式会社/電話番号0538-31-3308</div>
   <div><a href="https://www.city.iwata.shizuoka.jp/" rel="noopener" style="color:#fff;">磐田市公式サイト ↗</a></div>
+  <div class="muted" style="margin-top:10px;font-size:12px">本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</div>
   <div class="muted" style="margin-top:14px;font-size:12px;line-height:1.7">
     <div style="color:#fff;font-weight:700;margin-bottom:4px">近日運用予定</div>
     <div>袋井ライフハック　準備中</div>
@@ -1369,6 +1635,5 @@ html{font-size:17px}
     <div>浜松市浜名区ライフハック　準備中</div>
     <div>浜松市天竜区ライフハック　準備中</div>
   </div>
-  <div class="muted" style="margin-top:10px;font-size:12px">本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</div>
 </div></footer>
 </body></html>

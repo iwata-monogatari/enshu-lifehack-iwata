@@ -2,3 +2,7 @@ wrangler.toml
 .assetsignore
 README.md
 .gitignore
+.git
+.git/**
+.wrangler
+.wrangler/**
