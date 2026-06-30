@@ -66,9 +66,12 @@ html{font-size:17px}
 .search-results.show{display:block}
 .search-results h2{font-size:15px;margin:0 0 10px;color:var(--green-d)}
 .search-results ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
-.search-results a{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--ink);font-weight:700}
+.search-results a{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px;color:var(--ink);font-weight:700}
 .search-results a:hover{background:#f3faf6;border-color:var(--green);text-decoration:none}
-.search-results .path{font-size:12px;color:var(--mut);font-weight:500}
+.search-results .result-ic{font-size:18px;line-height:1}
+.search-results .result-title{display:block;font-size:15px;line-height:1.45}
+.search-results .result-cat{display:block;margin-top:2px;font-size:12px;color:var(--mut);font-weight:600}
+.search-results .result-arrow{color:var(--green);font-size:18px;font-weight:800}
 .search-results .empty{padding:4px 0;color:var(--mut)}
 /* 困りごとページ */
 .first-action{background:#eef6f2;border:1.5px solid #cfe5da;border-radius:14px;padding:16px;font-size:17px;font-weight:700;line-height:1.8;margin:10px 0 4px}
@@ -1449,14 +1452,26 @@ html{font-size:17px}
         .replace(/\s+/g, '')
         .replace(/[・、，,／/]/g, '');
 
+      const categoryTitle = (element) => {
+        const block = element.closest('.category-block');
+        if (block) return (block.querySelector('.c-title')?.textContent || '').trim();
+        return 'くらしの場面';
+      };
+
       const links = Array.from(document.querySelectorAll('.u-card[href^="/life/"], .topic-list a[href^="/life/"]'))
         .map((link) => {
-          const title = (link.querySelector('.t-title')?.textContent || link.textContent || '').trim();
+          const firstLabel = link.querySelector(':scope > span:first-child');
+          const title = (link.querySelector('.t-title')?.textContent || firstLabel?.textContent || link.textContent || '').trim();
+          const icon = (link.querySelector('.ic')?.textContent || title.match(/^\S/)?.[0] || '・').trim();
+          const cleanTitle = title.replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\s]+/u, '').trim() || title;
           const href = link.getAttribute('href');
+          const category = categoryTitle(link);
           return {
-            title,
+            title: cleanTitle,
+            icon,
+            category,
             href,
-            haystack: normalize(`${title} ${href}`)
+            haystack: normalize(`${cleanTitle} ${category}`)
           };
         })
         .filter((item, index, all) => item.title && item.href && all.findIndex((other) => other.href === item.href) === index);
@@ -1478,7 +1493,7 @@ html{font-size:17px}
           results.innerHTML = `<h2>「${safeQuery}」の候補</h2><div class="empty">サイト内に一致する項目が見つかりませんでした。言葉を短くして検索してください。</div>`;
           return;
         }
-        results.innerHTML = `<h2>「${safeQuery}」の候補</h2><ul>${matched.map((item) => `<li><a href="${item.href}"><span>${item.title}</span><span class="path">${item.href}</span></a></li>`).join('')}</ul>`;
+        results.innerHTML = `<h2>「${safeQuery}」の候補</h2><ul>${matched.map((item) => `<li><a href="${item.href}"><span class="result-ic">${item.icon}</span><span><span class="result-title">${item.title}</span><span class="result-cat">${item.category}</span></span><span class="result-arrow">›</span></a></li>`).join('')}</ul>`;
       };
 
       form.addEventListener('submit', (event) => {
