@@ -1,7 +1,7 @@
 <!doctype html><html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>磐田ライフハック｜磐田市の暮らし・手続き・防災・介護・住まいを市民目線で整理</title>
-<meta name="description" content="磐田ライフハックは、磐田市の公式情報をもとに、暮らしの手続き・防災・子育て・介護・住まいに関する情報を市民目線で整理する生活ナビです。最新・正確な情報は磐田市公式サイトをご確認ください。">
+<title>磐田ライフハック｜磐田市の暮らし・手続き・防災・介護・住まいを目的別に整理</title>
+<meta name="description" content="磐田ライフハックは、磐田市の公式情報をもとに、暮らしの手続き・防災・子育て・介護・住まいに関する情報を目的別に整理する生活ナビです。最新・正確な情報は磐田市公式サイトをご確認ください。">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
 :root{--green:#1f6f54;--green-d:#15503c;--bg:#f6f7f5;--card:#fff;--ink:#222;--mut:#667;--line:#e3e6e1;--accent:#ffd34d}
@@ -62,6 +62,7 @@ html{font-size:17px}
 .searchbox{display:flex;gap:8px;margin:8px 0 4px}
 .searchbox input{flex:1;min-height:46px;border:1.5px solid var(--line);border-radius:12px;padding:0 14px;font-size:16px}
 .searchbox button{min-height:46px;min-width:64px;border:0;border-radius:12px;background:var(--green);color:#fff;font-weight:700;font-size:16px}
+.search-help{font-size:13px;color:var(--mut);margin:0 0 8px}.search-tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.search-tags button{border:1px solid var(--line);border-radius:18px;background:#fff;color:var(--green-d);font-size:12.5px;font-weight:700;padding:6px 10px;cursor:pointer}.search-tags button:hover{background:#f3faf6;border-color:var(--green)}
 .search-results{display:none;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;margin:0 0 24px}
 .search-results.show{display:block}
 .search-results h2{font-size:15px;margin:0 0 10px;color:var(--green-d)}
@@ -153,14 +154,27 @@ html{font-size:17px}
   
 
   <div class="hero-section">
-    <h2 class="askbig" style="font-size:26px; margin-top:10px;">今、何を知りたいですか？</h2>
-    <p class="lead" style="font-size:16px; line-height:1.6;">磐田市公式情報をもとに、暮らしの手続き・施設・防災・子育て・介護を、市民目線でわかりやすく案内します。</p>
+    <h2 class="askbig" style="font-size:26px; margin-top:10px;">今、何を調べたいですか？</h2>
+    <p class="lead" style="font-size:16px; line-height:1.6;">磐田市の公式情報をもとに、暮らしの手続き・施設・防災・子育て・介護・住まいの情報を、目的別に整理して案内します。</p>
   </div>
 
   <form class="searchbox" action="/" method="get" role="search" style="margin-bottom: 12px;">
-    <input name="q" type="search" placeholder="例：税金／住民票／ごみ／水道／おくやみ／介護／空き家" aria-label="知りたい手続きや困りごとを入力">
+    <input name="q" type="search" placeholder="例：税金／住民票／戸籍／ごみ／水道／おくやみ／介護／子育て／保育園／学校／防災／空き家／農地" aria-label="知りたい手続きや困りごとを入力">
     <button type="submit">探す</button>
   </form>
+  <p class="search-help">税金の納付、証明書、ごみ出し、死亡後の手続き、子育て、介護、空き家、農地のことも検索できます。</p>
+  <div class="search-tags" aria-label="よく探される言葉">
+    <button type="button" data-search-term="税金 納付 相談">税金の納付相談</button>
+    <button type="button" data-search-term="住民票 証明書 戸籍">住民票・証明書</button>
+    <button type="button" data-search-term="ごみ 分別 収集日">ごみの出し方</button>
+    <button type="button" data-search-term="水道 開始 中止">水道の開始・中止</button>
+    <button type="button" data-search-term="死亡後 手続き おくやみ">死亡後の手続き</button>
+    <button type="button" data-search-term="保育園 子育て">保育園・子育て</button>
+    <button type="button" data-search-term="介護 相談">介護の相談先</button>
+    <button type="button" data-search-term="空き家 住まい">空き家・住まい</button>
+    <button type="button" data-search-term="農地 田んぼ 田畑">農地・田畑の手続き</button>
+    <button type="button" data-search-term="避難所 防災">避難所・防災</button>
+  </div>
   <div class="search-results" id="search-results" aria-live="polite"></div>
 <h2 class="sec">くらしの場面・目的から選ぶ</h2>
   <div class="urgent-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 32px;">
@@ -430,13 +444,19 @@ html{font-size:17px}
         </a>
       </li>
       <li data-code="0030009">
-        <a href="/life/housing/clean-parents-house/" data-code="0030009">
+        <a href="/life/troubles-consult/farmland/" data-code="0030009" data-search-keywords="空き家 土地 農地 田んぼ 田畑 相続 管理">
+<span class="ic">🌾</span>
+          <span class="t-title">空き家・土地・農地の手続き</span>
+        </a>
+      </li>
+      <li data-code="0030010">
+        <a href="/life/housing/clean-parents-house/" data-code="0030010">
 <span class="ic">🧹</span>
           <span class="t-title">実家を整理したい</span>
         </a>
       </li>
       <li data-code="0030010">
-        <a href="/life/housing/sell-house/" data-code="0030010">
+        <a href="/life/housing/sell-house/" data-code="0030011">
 <span class="ic">🤝</span>
           <span class="t-title">家を売りたい</span>
         </a>
@@ -1024,7 +1044,13 @@ html{font-size:17px}
         </a>
       </li>
       <li data-code="0110010">
-        <a href="/life/troubles-consult/animal-pet-consultation/" data-code="0110010">
+        <a href="/life/troubles-consult/farmland/" data-code="0110010" data-search-keywords="農地 田んぼ 田畑 畑 農地が売れない 田んぼを相続した 畑を宅地にしたい 青地 白地 農振除外">
+<span class="ic">🌾</span>
+          <span class="t-title">農地・田畑に関する手続き</span>
+        </a>
+      </li>
+      <li data-code="0110011">
+        <a href="/life/troubles-consult/animal-pet-consultation/" data-code="0110011">
 <span class="ic">🐶</span>
           <span class="t-title">動物・ペットの相談</span>
         </a>
@@ -1400,6 +1426,8 @@ html{font-size:17px}
         .replace(/\s+/g, '')
         .replace(/[・、，,／/]/g, '');
 
+      const extraSearchItems = [{"title":"農地・田畑に関する手続きの入口","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/","keywords":["農地","田んぼ","田畑","畑","田","農地が売れない","田んぼが売れない","畑が売れない","農地を売りたい","田んぼを売りたい","農地を貸したい","農地を相続した","親の農地","祖父の田んぼ","実家の田んぼ","使っていない田んぼ","耕作できない","農業をやめたい","草刈りが大変","農地の草","近所から苦情","管理できない農地","農地を手放したい","農地を処分したい","農地法","農地法3条","農地法4条","農地法5条","農業委員会","農地転用","転用許可","転用届出","農地売買","農地貸借","使用貸借","賃貸借","農地中間管理事業","農地バンク","農地ナビ","eMAFF農地ナビ","農地台帳","農政関係証明","農家証明","耕作面積証明","農用地証明","農用地外証明","青地","白地","農振","農振除外","農業振興地域","農用地区域","農用地","農振農用地","農地を宅地にしたい","田んぼに家を建てたい","畑に家を建てたい","分家住宅","市街化調整区域","開発許可","建築許可","駐車場にしたい","資材置場にしたい","倉庫を建てたい","田を畑にしたい","農地改良","盛土","土を入れたい","かさ上げ","建設残土","一時転用","農地の相談","空き家と農地"]},{"title":"農地の売買・貸借に関する手続き","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/sell-or-rent/","keywords":["農地が売れない","田んぼが売れない","畑が売れない","農地を売りたい","田んぼを売りたい","畑を売りたい","農地を貸したい","田んぼを貸したい","畑を貸したい","農地を手放したい","農地を処分したい","農地売買","農地貸借","使用貸借","賃貸借","農地中間管理事業","農地バンク","静岡県農業振興公社"]},{"title":"相続した農地の届出","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/inheritance/","keywords":["農地を相続した","田んぼを相続した","畑を相続した","親の農地","祖父の田んぼ","実家の田んぼ","相続した農地","農地 相続 届出","農業委員会 届出","農地法第3条の3","相続発生後10か月","空き家と農地","固定資産税 農地"]},{"title":"農地転用に関する手続き","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/conversion/","keywords":["農地転用","転用許可","転用届出","農地法4条","農地法5条","農地を宅地にしたい","田んぼに家を建てたい","畑に家を建てたい","駐車場にしたい","資材置場にしたい","倉庫を建てたい","太陽光","営農型太陽光","市街化区域","市街化調整区域","開発許可"]},{"title":"農振・農用地区域の確認","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/noshin-exclusion/","keywords":["青地","白地","農振","農振除外","農業振興地域","農用地区域","農用地","農振農用地","青地を外したい","白地農地","農地を宅地にしたい","分家住宅","工場を建てたい","農振除外 受付期間","農振除外 6か月"]},{"title":"農地の利用目的変更・農地改良","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/change-use/","keywords":["田を畑にしたい","畑に変えたい","農地の利用目的変更","農地改良","盛土","土を入れたい","かさ上げ","建設残土","田んぼを埋めたい","畑に土を入れる","一時転用"]},{"title":"農地台帳・農政関係証明","icon":"🌾","category":"困った・相談したい","href":"/life/troubles-consult/farmland/certificates/","keywords":["農地台帳","農政関係証明","農家証明","耕作面積証明","農用地証明","農用地外証明","農地の証明","農業委員会 証明","農地基本台帳","農地ナビ","eMAFF農地ナビ"]}];
+
       const categoryTitle = (element) => {
         const block = element.closest('.category-block');
         if (block) return (block.querySelector('.c-title')?.textContent || '').trim();
@@ -1414,14 +1442,17 @@ html{font-size:17px}
           const cleanTitle = title.replace(/^[\p{Emoji_Presentation}\p{Extended_Pictographic}\s]+/u, '').trim() || title;
           const href = link.getAttribute('href');
           const category = categoryTitle(link);
+          const keywords = link.getAttribute('data-search-keywords') || '';
           return {
             title: cleanTitle,
             icon,
             category,
             href,
-            haystack: normalize(`${cleanTitle} ${category}`)
+            keywords,
+            haystack: normalize(`${cleanTitle} ${category} ${keywords}`)
           };
         })
+        .concat(extraSearchItems.map((item) => ({...item, haystack: normalize(`${item.title} ${item.category} ${(item.keywords || []).join(' ')}`)})))
         .filter((item, index, all) => item.title && item.href && all.findIndex((other) => other.href === item.href) === index);
 
       const render = (query) => {
@@ -1432,8 +1463,22 @@ html{font-size:17px}
           results.innerHTML = '';
           return;
         }
+        const scoreItem = (item) => {
+          const title = normalize(item.title || '');
+          const category = normalize(item.category || '');
+          const keywords = normalize(Array.isArray(item.keywords) ? item.keywords.join(' ') : (item.keywords || ''));
+          let score = 0;
+          if (title.includes(compact)) score += 400;
+          if (keywords.includes(compact)) score += 300;
+          if (category.includes(compact)) score += 80;
+          if (item.haystack.includes(compact)) score += 120;
+          if (!score && Array.from(compact).every((char) => item.haystack.includes(char))) score += 1;
+          return score;
+        };
         const matched = links
-          .filter((item) => item.haystack.includes(compact) || Array.from(compact).every((char) => item.haystack.includes(char)))
+          .map((item) => ({...item, score: scoreItem(item)}))
+          .filter((item) => item.score > 0)
+          .sort((a, b) => b.score - a.score || a.title.length - b.title.length)
           .slice(0, 12);
         const safeQuery = query.replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
         results.classList.add('show');
@@ -1458,6 +1503,13 @@ html{font-size:17px}
       });
 
       input.addEventListener('input', () => render(input.value));
+      document.querySelectorAll('.search-tags button[data-search-term]').forEach((button) => {
+        button.addEventListener('click', () => {
+          input.value = button.getAttribute('data-search-term') || button.textContent.trim();
+          form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+          input.focus();
+        });
+      });
       const initial = new URLSearchParams(window.location.search).get('q') || '';
       if (initial) {
         input.value = initial;
