@@ -172,11 +172,21 @@ html{font-size:17px}
 
   <div class="verified">農地・田畑に関する制度内容、受付期間、必要書類は公式ページで確認してください。</div>
   <div style="display:none">青地 / 白地 / 農振 / 農振除外 / 農業振興地域 / 農用地区域 / 農用地 / 農振農用地 / 青地を外したい / 白地農地 / 農地を宅地にしたい / 分家住宅 / 工場を建てたい / 農振除外 受付期間 / 農振除外 6か月 / 農地 / 田んぼ / 田畑 / 畑 / 田 / 農地が売れない / 田んぼが売れない / 畑が売れない / 農地を売りたい / 田んぼを売りたい / 農地を貸したい / 農地を相続した / 親の農地 / 祖父の田んぼ / 実家の田んぼ / 使っていない田んぼ / 耕作できない / 農業をやめたい / 草刈りが大変 / 農地の草 / 近所から苦情 / 管理できない農地 / 農地を手放したい / 農地を処分したい / 農地法 / 農地法3条 / 農地法4条 / 農地法5条 / 農業委員会 / 農地転用 / 転用許可 / 転用届出 / 農地売買 / 農地貸借 / 使用貸借 / 賃貸借 / 農地中間管理事業 / 農地バンク / 農地ナビ / eMAFF農地ナビ / 農地台帳 / 農政関係証明 / 農家証明 / 耕作面積証明 / 農用地証明 / 農用地外証明 / 田んぼに家を建てたい / 畑に家を建てたい / 市街化調整区域 / 開発許可 / 建築許可 / 駐車場にしたい / 資材置場にしたい / 倉庫を建てたい / 田を畑にしたい / 農地改良 / 盛土 / 土を入れたい / かさ上げ / 建設残土 / 一時転用</div>
-</div></main>
+</div>    <div class="feedback" id="fb" style="margin:32px 0 0; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:20px; text-align:center;">
+      <h3 style="margin:0 0 14px; font-size:17px; color:var(--green-d);">このページの情報は役に立ちそうですか？</h3>
+      <div class="fb-btns" style="display:flex; flex-direction:row; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <button type="button" data-fb="solved" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--green); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:var(--green-d); cursor:pointer; min-width:140px;">👍 解決しそう</button>
+        <button type="button" data-fb="still_worried" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--line); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:#333; cursor:pointer; min-width:140px;">🤔 まだ不安</button>
+        <button type="button" data-fb="could_not_find" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--line); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:#333; cursor:pointer; min-width:180px;">❌ 探す情報がない</button>
+      </div>
+      <div class="fb-thanks" id="fbThanks" style="display:none; font-weight:700; color:var(--green-d); padding:8px 0;">ありがとうございます。改善に役立てます。</div>
+    </div>
+</main>
 <footer class="site"><div class="wrap">
   <div><b style="color:#fff">磐田ライフハック</b></div>
   <div class="muted" style="margin:6px 0 10px">運営：富士ヶ丘サービス株式会社/電話番号0538-31-3308</div>
   <div><a href="https://www.city.iwata.shizuoka.jp/" rel="noopener" style="color:#fff;">磐田市公式サイト ↗</a></div>
   <div class="muted" style="margin-top:10px;font-size:12px">本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</div>
 </div></footer>
+<script>(function(){var box=document.getElementById("fb");if(!box){return;}box.addEventListener("click",function(e){var b=e.target.closest("button[data-fb]");if(!b){return;}var btns=box.querySelector(".fb-btns");if(btns){btns.style.display="none";}var t=document.getElementById("fbThanks");if(t){t.style.display="block";}});})();</script>
 </body></html>

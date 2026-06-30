@@ -159,7 +159,16 @@ html{font-size:17px}
         <div><h3 style="margin:0 0 8px 0; font-size:15px; color:var(--green-d); border-bottom:1.5px solid var(--line); padding-bottom:4px;">公式確認</h3><p style="font-size:13px; margin:0;">申請条件・金額・日程は公式ページで確認してください。</p></div>
       </aside>
     </div>
-<div class="consult-section" style="margin-top: 24px; border-top: 1.5px solid var(--line); padding-top: 24px;">
+    <div class="feedback" id="fb" style="margin:32px 0 0; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:20px; text-align:center;">
+      <h3 style="margin:0 0 14px; font-size:17px; color:var(--green-d);">このページの情報は役に立ちそうですか？</h3>
+      <div class="fb-btns" style="display:flex; flex-direction:row; gap:10px; justify-content:center; flex-wrap:wrap;">
+        <button type="button" data-fb="solved" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--green); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:var(--green-d); cursor:pointer; min-width:140px;">👍 解決しそう</button>
+        <button type="button" data-fb="still_worried" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--line); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:#333; cursor:pointer; min-width:140px;">🤔 まだ不安</button>
+        <button type="button" data-fb="could_not_find" style="min-height:48px; padding:10px 16px; border:1.5px solid var(--line); border-radius:12px; background:#fff; font-size:15px; font-weight:700; color:#333; cursor:pointer; min-width:180px;">❌ 探す情報がない</button>
+      </div>
+      <div class="fb-thanks" id="fbThanks" style="display:none; font-weight:700; color:var(--green-d); padding:8px 0;">ありがとうございます。改善に役立てます。</div>
+    </div>
+    <div class="consult-section" style="margin-top: 24px; border-top: 1.5px solid var(--line); padding-top: 24px;">
       <h3 style="font-size: 17px; font-weight: 800; color: var(--ink); margin: 0 0 10px 0; text-align: center;">
         お困りのときは、相談先の一つとしてご利用ください
       </h3>
@@ -380,4 +389,5 @@ html{font-size:17px}
     <div>浜松市天竜区ライフハック　準備中</div>
   </div>
 </div></footer>
+<script>(function(){var box=document.getElementById("fb");if(!box){return;}box.addEventListener("click",function(e){var b=e.target.closest("button[data-fb]");if(!b){return;}var btns=box.querySelector(".fb-btns");if(btns){btns.style.display="none";}var t=document.getElementById("fbThanks");if(t){t.style.display="block";}});})();</script>
 </body></html>
