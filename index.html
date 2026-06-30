@@ -55,8 +55,8 @@ html{font-size:17px}
 .sit-card .ic{font-size:22px;line-height:1}
 /* 緊急・重要カード */
 .urgent-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.u-card{display:flex;flex-direction:column;gap:4px;min-height:64px;border-radius:14px;padding:13px 14px;font-weight:800;font-size:16px;color:#fff}
-.u-card .s{font-size:12px;font-weight:600;opacity:.92}
+.u-card{display:flex;flex-direction:column;gap:4px;min-height:64px;background:#fff;border:1.5px solid var(--line);border-left:5px solid var(--green);border-radius:14px;padding:13px 14px;font-weight:800;font-size:16px;color:var(--ink)}
+.u-card .s{font-size:12px;font-weight:600;color:var(--mut);opacity:1}
 .u-bousai{background:#c0461e}.u-care{background:#1f6f54}.u-gomi{background:#3a6ea5}.u-iryo{background:#8a3ea5}
 /* 検索（主役にしない・控えめ） */
 .searchbox{display:flex;gap:8px;margin:8px 0 4px}
@@ -145,55 +145,55 @@ html{font-size:17px}
   </form>
 <h2 class="sec">くらしの場面・目的から選ぶ</h2>
   <div class="urgent-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 32px;">
-    <a class="u-card " href="/life/living-soon/" data-code="001" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/living-soon/" data-code="001">
       <span style="font-size:16.5px; font-weight:800;">🌱 これから暮らす</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">移住の検討や学校区、交通の便など、磐田での暮らしを計画されている方に</span>
     </a>
-    <a class="u-card " href="/life/start-living/" data-code="002" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/start-living/" data-code="002">
       <span style="font-size:16.5px; font-weight:800;">🚚 暮らし始めた</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">住民票の手続きやマイナンバー、ごみ出し、ライフラインなど引っ越し直後の手続き</span>
     </a>
-    <a class="u-card " href="/life/housing/" data-code="003" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/housing/" data-code="003">
       <span style="font-size:16.5px; font-weight:800;">🏠 家・住まい</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">賃貸、市営住宅、新築・購入、耐震化や空き家、実家の整理に関する情報</span>
     </a>
-    <a class="u-card " href="/life/family-grow/" data-code="004" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/family-grow/" data-code="004">
       <span style="font-size:16.5px; font-weight:800;">👶 家族が増える</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">結婚、妊娠、出産、子育て支援、各種手当や乳幼児健診などの手続き</span>
     </a>
-    <a class="u-card " href="/life/play-out/" data-code="005" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/play-out/" data-code="005">
       <span style="font-size:16.5px; font-weight:800;">🌳 遊ぶ・使う・出かける</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">公園、図書館、スポーツ施設や文化施設、駐車場などの公共施設の利用案内</span>
     </a>
-    <a class="u-card " href="/life/education/" data-code="006" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/education/" data-code="006">
       <span style="font-size:16.5px; font-weight:800;">🎒 学ぶ・育つ</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">公立小中学校、給食、就学援助や相談、放課後児童クラブなどの教育関連情報</span>
     </a>
-    <a class="u-card " href="/life/health-medical/" data-code="007" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/health-medical/" data-code="007">
       <span style="font-size:16.5px; font-weight:800;">❤️ 健康・医療</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">救急医療、健康診断、がん検診や予防接種、障害福祉に関する窓口と手続き</span>
     </a>
-    <a class="u-card " href="/life/work-life/" data-code="008" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/work-life/" data-code="008">
       <span style="font-size:16.5px; font-weight:800;">💼 働く・暮らす</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">仕事探し、起業や農業支援、税金・保険料・年金や各種補助金の情報</span>
     </a>
-    <a class="u-card " href="/life/parents-care/" data-code="009" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/parents-care/" data-code="009">
       <span style="font-size:16.5px; font-weight:800;">🧓 親のこと</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">親の介護が心配になったとき、地域包括支援センターへの相談や施設探し</span>
     </a>
-    <a class="u-card " href="/life/emergency/" data-code="010" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/emergency/" data-code="010">
       <span style="font-size:16.5px; font-weight:800;">🚨 もしもの時</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">台風、大雨、地震発生時などの災害避難情報や夜間・休日救急の案内</span>
     </a>
-    <a class="u-card " href="/life/troubles-consult/" data-code="011" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/troubles-consult/" data-code="011">
       <span style="font-size:16.5px; font-weight:800;">🧩 困った・相談したい</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">生活費の困窮、税金の未納、子ども・介護・障害、法律や消費生活の専門相談窓口</span>
     </a>
-    <a class="u-card " href="/life/end-of-life/" data-code="012" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/end-of-life/" data-code="012">
       <span style="font-size:16.5px; font-weight:800;">🌸 人生の終わり</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">ご家族が亡くなられたとき、相続登記や未支給年金、おくやみ手続きの案内</span>
     </a>
-    <a class="u-card " href="/life/moving-out/" data-code="013" style="background:var(--green); color:#fff;">
+    <a class="u-card " href="/life/moving-out/" data-code="013">
       <span style="font-size:16.5px; font-weight:800;">👋 新しい場所へ</span>
       <span class="s" style="margin-top:6px; font-size:12.5px; opacity:0.9; font-weight:500;">磐田市から転出するとき、転出届、水道停止、粗大ごみや学校・保育園の手続き</span>
     </a>
