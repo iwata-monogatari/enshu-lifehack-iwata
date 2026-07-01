@@ -36,14 +36,20 @@ p{margin:0 0 12px}
 .summary .card{border-top:4px solid var(--green)}
 .card-title{display:block;font-size:15px;font-weight:800;color:var(--green-d);line-height:1.45}
 .card-desc{display:block;font-size:13px;color:var(--mut);line-height:1.55;margin-top:4px}
+.lh-icon,.card-icon,.topic-icon,.footer-emoji,.municipality-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto}
+.heading-icon{margin-right:.4rem}
+.card-icon,.topic-icon{font-size:1.15rem;margin-right:.45rem}
+.footer-emoji,.municipality-emoji{font-size:1rem;margin-right:.35rem}
+.card-text{flex:1;min-width:0}
+.icon-title{display:flex;align-items:center;gap:.35rem;min-width:0}
 .priority-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.priority-card{display:block;border-top:4px solid var(--green);min-height:104px}
+.priority-card{display:flex;align-items:flex-start;gap:0;border-top:4px solid var(--green);min-height:104px}
 .priority-card:hover,.link-card:hover,.trouble-card:hover,.related-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .procedure-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
 .link-card{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px}
 .link-card .arrow,.related-card .arrow,.priority-card .arrow{color:var(--green);font-weight:900}
 .trouble-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.trouble-card{display:block}
+.trouble-card{display:flex;align-items:flex-start;gap:0}
 .choose{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
 .choose ul{margin:8px 0 0;padding-left:20px}
 .choose li{margin:5px 0;font-size:14px}
@@ -59,11 +65,17 @@ p{margin:0 0 12px}
 .btn-main{background:var(--green);border-color:var(--green);color:#fff}
 .btn-main:hover{background:var(--green-d);color:#fff}
 .search-words{font-size:12.5px;color:var(--mut);margin-top:12px}
+.site-search{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;margin:16px 0}
+.site-search label{display:block;font-weight:800;color:var(--green-d);margin-bottom:8px}
+.search-row{display:grid;grid-template-columns:1fr auto;gap:8px}
+.search-row input{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:16px}
+.search-row button{min-height:44px;border:0;border-radius:10px;background:var(--green);color:#fff;font-weight:800;padding:0 18px}
+.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:block}
+.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:flex;align-items:flex-start;gap:0}
 .quick-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
-.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:block;min-height:112px}
+.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;align-items:flex-start;gap:0;min-height:112px}
 .cat-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .updates{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
 .updates ul{margin:8px 0 0;padding-left:20px}
@@ -71,9 +83,15 @@ p{margin:0 0 12px}
 footer.site{background:#222;color:#cfd6d1;font-size:13px;margin-top:30px}
 footer.site .wrap{padding:20px 16px}
 footer.site a{color:#fff}
+.enshu-footer .wrap{display:grid;grid-template-columns:2fr 1fr 1.4fr;gap:18px}
+.enshu-footer h2,.enshu-footer h3{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}
+.enshu-footer p{margin:0 0 8px}
+.enshu-footer ul{list-style:none;margin:0;padding:0}
+.enshu-footer li{margin:4px 0}
+.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}
 .mini{font-size:12.5px;color:var(--mut)}
-@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
-@media(max-width:420px){.quick-grid{grid-template-columns:1fr}}
+@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid,.enshu-footer .wrap{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
+@media(max-width:420px){.quick-grid,.choice-grid,.search-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -82,14 +100,14 @@ footer.site a{color:#fff}
 <main class="category-page"><div class="wrap">
 <nav class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <span>家・住まい</span></nav>
 <section class="official-note"><p>このページは、磐田市の公式情報へ迷わず進むための非公式ナビです。申請可否、必要書類、受付時間は必ず公式ページで確認してください。</p></section>
-<section class="hero"><p class="eyebrow">磐田市の暮らしナビ</p><h1>家・住まい</h1><p class="lead">住まい探し、固定資産税、空き家、親の家の整理など、家に関する手続きと相談先を分けて確認できます。</p><p class="search-words">検索で使われやすい言葉：磐田市 空き家、磐田市 実家整理、磐田市 家 売却、磐田市 市営住宅、磐田市 固定資産税</p></section>
-<section><h2>このページでわかること</h2><div class="summary"><div class="card"><span class="card-title">借りる・買う・建てる入口を確認できます</span></div><div class="card"><span class="card-title">空き家や実家整理の相談先へ進めます</span></div><div class="card"><span class="card-title">税金や解体など関連手続きも見られます</span></div></div></section>
-<section><h2>まず確認したい3つの入口</h2><div class="priority-grid"><a class="priority-card" href="/life/housing/vacant-house/"><span><span class="card-title">空き家がある</span><span class="card-desc">相談・管理・制度</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/housing/clean-parents-house/"><span><span class="card-title">実家を整理したい</span><span class="card-desc">片付け・今後の住まい</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/housing/sell-house/"><span><span class="card-title">家を売りたい</span><span class="card-desc">売却前の整理</span></span><span class="arrow">›</span></a></div></section>
-<section><h2>手続き・困りごと一覧</h2><div class="procedure-grid"><a class="link-card" href="/life/housing/rent-house/"><span><span class="card-title">家を借りたい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/municipal-housing/"><span><span class="card-title">市営住宅を知りたい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/public-housing-consultation/"><span><span class="card-title">市営住宅・住宅相談</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/buy-house/"><span><span class="card-title">家を買いたい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/build-house/"><span><span class="card-title">家を建てたい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/property-tax/"><span><span class="card-title">固定資産税・都市計画税</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/earthquake-demolition/"><span><span class="card-title">耐震・解体・ブロック塀</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/vacant-house/"><span><span class="card-title">空き家がある</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/troubles-consult/farmland/"><span><span class="card-title">空き家・土地・農地の手続き</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/clean-parents-house/"><span><span class="card-title">実家を整理したい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/housing/sell-house/"><span><span class="card-title">家を売りたい</span></span><span class="arrow">›</span></a></div></section>
-<section><h2>よくある困りごと</h2><div class="trouble-grid"><a class="trouble-card" href="/life/housing/vacant-house/"><span><span class="card-title">空き家をどうしたらよいか分からない</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/housing/clean-parents-house/"><span><span class="card-title">親の家の片付けを始めたい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/housing/property-tax/"><span><span class="card-title">固定資産税を確認したい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/housing/public-housing-consultation/"><span><span class="card-title">市営住宅や住宅相談を探したい</span></span><span class="arrow">›</span></a></div></section>
+<section class="hero"><p class="eyebrow">磐田市の暮らしナビ</p><h1><span class="lh-icon heading-icon" aria-hidden="true">🏠</span><span>家・住まい</span></h1><p class="lead">住まい探し、固定資産税、空き家、親の家の整理など、家に関する手続きと相談先を分けて確認できます。</p><p class="search-words">検索で使われやすい言葉：磐田市 空き家、磐田市 実家整理、磐田市 家 売却、磐田市 市営住宅、磐田市 固定資産税</p></section>
+<section><h2>このページでわかること</h2><div class="summary"><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-title">借りる・買う・建てる入口を確認できます</span></span></div><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-title">空き家や実家整理の相談先へ進めます</span></span></div><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">🏠</span><span class="card-title">税金や解体など関連手続きも見られます</span></span></div></div></section>
+<section><h2>まず確認したい3つの入口</h2><div class="priority-grid"><a class="priority-card" href="/life/housing/vacant-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">空き家がある</span><span class="card-desc">相談・管理・制度</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="priority-card" href="/life/housing/clean-parents-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">実家を整理したい</span><span class="card-desc">片付け・今後の住まい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="priority-card" href="/life/housing/sell-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家を売りたい</span><span class="card-desc">売却前の整理</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
+<section><h2>手続き・困りごと一覧</h2><div class="procedure-grid"><a class="link-card" href="/life/housing/build-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家を建てる前に、土地・許可・補助金を先に確認する。</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/buy-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家を買う前に、補助金・税金・物件状態を分けて確認する。</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/clean-parents-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">親の家の片付けは、ごみ・相続・空き家を分けて進める。</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/earthquake-demolition/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">耐震や解体は、制度確認と現地判断を分けて進める。</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/municipal-housing/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">市営住宅は、募集条件・収入・必要書類を先に確認する。</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/property-tax/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">土地・家屋の税金は、課税内容と手続きを分けて確認する</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/public-housing-consultation/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">住まいに困ったら、状況と緊急度を先に分ける</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/rent-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">賃貸探しは、条件・費用・手続きの順に整理する</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/sell-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家を売る前に、税金・権利・現地状態をそろえる</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/housing/vacant-house/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">空き家は、管理・税金・今後の使い道を同時に整理する</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
+<section><h2>よくある困りごと</h2><div class="trouble-grid"><a class="trouble-card" href="/life/housing/vacant-house/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">空き家をどうしたらよいか分からない</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/housing/clean-parents-house/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">親の家の片付けを始めたい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/housing/property-tax/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">固定資産税を確認したい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/housing/public-housing-consultation/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">市営住宅や住宅相談を探したい</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
 <section class="choose"><h2>迷ったときの選び方</h2><p>急ぎの届出、期限のある申請、家族で決めることを分けて考えると、必要なページを選びやすくなります。</p><ul><li>制度や申請は公式ページで条件を確認する</li><li>自分の状況に近い言葉のページから開く</li><li>住まい・介護・相続が重なる場合は、行政手続きと民間相談を分ける</li></ul></section>
 <section class="official-box"><h2>公式情報の確認について</h2><p>磐田ライフハックは公式情報の転載サイトではありません。制度の対象、申請方法、必要書類、受付時間は変更されることがあります。詳細・申請・最新情報は、必ず磐田市公式ページまたは担当窓口で確認してください。</p><a class="btn" href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトを確認する</a></section>
-<section><h2>関連カテゴリ</h2><div class="related-grid"><a class="related-card" href="/life/end-of-life/"><span><span class="card-title">人生の終わり</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/parents-care/"><span><span class="card-title">親のこと</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/troubles-consult/"><span><span class="card-title">困った・相談したい</span></span><span class="arrow">›</span></a></div></section>
+<section><h2>関連カテゴリ</h2><div class="related-grid"><a class="related-card" href="/life/end-of-life/"><span class="topic-icon" aria-hidden="true">🕊️</span><span class="card-text"><span class="card-title">人生の終わり</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="related-card" href="/life/parents-care/"><span class="topic-icon" aria-hidden="true">👵</span><span class="card-text"><span class="card-title">親のこと</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="related-card" href="/life/troubles-consult/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">困った・相談したい</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
 <section class="company-strip">
 <h2>住まい・空き家で迷ったときの相談先</h2>
 <p>相続した実家、空き家、親の家、住まいの今後で迷うときは、公式制度の確認と民間相談を分けて使えます。</p>
@@ -99,4 +117,19 @@ footer.site a{color:#fff}
 <div class="company-card"><h3>公式情報</h3><p>制度や申請の可否は、必ず磐田市公式ページまたは担当窓口で確認してください。</p></div>
 </div>
 </section>
-</div></main><footer class="site"><div class="wrap"><b style="color:#fff">磐田ライフハック</b><div class="mini">本サイトは磐田市公式サイトではありません。制度・申請・受付時間の最新情報は必ず公式ページで確認してください。</div><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a></div></footer></body></html>
+</div></main><footer class="site enshu-footer"><div class="wrap">
+<section class="footer-brand" aria-labelledby="footer-title">
+<h2 id="footer-title">遠州ライフハック</h2>
+<p>運営：富士ヶ丘サービス株式会社 / 電話番号 0538-31-3308</p>
+<p>本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</p>
+<p><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a></p>
+</section>
+<section class="footer-network" aria-labelledby="footer-active">
+<h3 id="footer-active">運用中</h3>
+<ul><li><a href="https://iwata.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌱</span><span>磐田ライフハック</span></a></li></ul>
+</section>
+<section class="footer-network" aria-labelledby="footer-coming-soon">
+<h3 id="footer-coming-soon">近日運用予定</h3>
+<ul><li><span class="footer-emoji" aria-hidden="true">🍈</span><span>袋井ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🍵</span><span>掛川ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌲</span><span>森町ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌼</span><span>菊川市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌊</span><span>御前崎市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌅</span><span>湖西市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🎹</span><span>浜松市中央区ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🍊</span><span>浜松市浜名区ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌲</span><span>浜松市天竜区ライフハック　準備中</span></li></ul>
+</section>
+</div></footer></body></html>

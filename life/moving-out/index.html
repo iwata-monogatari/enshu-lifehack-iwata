@@ -36,14 +36,20 @@ p{margin:0 0 12px}
 .summary .card{border-top:4px solid var(--green)}
 .card-title{display:block;font-size:15px;font-weight:800;color:var(--green-d);line-height:1.45}
 .card-desc{display:block;font-size:13px;color:var(--mut);line-height:1.55;margin-top:4px}
+.lh-icon,.card-icon,.topic-icon,.footer-emoji,.municipality-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto}
+.heading-icon{margin-right:.4rem}
+.card-icon,.topic-icon{font-size:1.15rem;margin-right:.45rem}
+.footer-emoji,.municipality-emoji{font-size:1rem;margin-right:.35rem}
+.card-text{flex:1;min-width:0}
+.icon-title{display:flex;align-items:center;gap:.35rem;min-width:0}
 .priority-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.priority-card{display:block;border-top:4px solid var(--green);min-height:104px}
+.priority-card{display:flex;align-items:flex-start;gap:0;border-top:4px solid var(--green);min-height:104px}
 .priority-card:hover,.link-card:hover,.trouble-card:hover,.related-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .procedure-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
 .link-card{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px}
 .link-card .arrow,.related-card .arrow,.priority-card .arrow{color:var(--green);font-weight:900}
 .trouble-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.trouble-card{display:block}
+.trouble-card{display:flex;align-items:flex-start;gap:0}
 .choose{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
 .choose ul{margin:8px 0 0;padding-left:20px}
 .choose li{margin:5px 0;font-size:14px}
@@ -59,11 +65,17 @@ p{margin:0 0 12px}
 .btn-main{background:var(--green);border-color:var(--green);color:#fff}
 .btn-main:hover{background:var(--green-d);color:#fff}
 .search-words{font-size:12.5px;color:var(--mut);margin-top:12px}
+.site-search{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;margin:16px 0}
+.site-search label{display:block;font-weight:800;color:var(--green-d);margin-bottom:8px}
+.search-row{display:grid;grid-template-columns:1fr auto;gap:8px}
+.search-row input{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:16px}
+.search-row button{min-height:44px;border:0;border-radius:10px;background:var(--green);color:#fff;font-weight:800;padding:0 18px}
+.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:block}
+.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:flex;align-items:flex-start;gap:0}
 .quick-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
-.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:block;min-height:112px}
+.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;align-items:flex-start;gap:0;min-height:112px}
 .cat-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
 .updates{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
 .updates ul{margin:8px 0 0;padding-left:20px}
@@ -71,9 +83,15 @@ p{margin:0 0 12px}
 footer.site{background:#222;color:#cfd6d1;font-size:13px;margin-top:30px}
 footer.site .wrap{padding:20px 16px}
 footer.site a{color:#fff}
+.enshu-footer .wrap{display:grid;grid-template-columns:2fr 1fr 1.4fr;gap:18px}
+.enshu-footer h2,.enshu-footer h3{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}
+.enshu-footer p{margin:0 0 8px}
+.enshu-footer ul{list-style:none;margin:0;padding:0}
+.enshu-footer li{margin:4px 0}
+.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}
 .mini{font-size:12.5px;color:var(--mut)}
-@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
-@media(max-width:420px){.quick-grid{grid-template-columns:1fr}}
+@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid,.enshu-footer .wrap{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
+@media(max-width:420px){.quick-grid,.choice-grid,.search-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -82,13 +100,28 @@ footer.site a{color:#fff}
 <main class="category-page"><div class="wrap">
 <nav class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <span>新しい場所へ</span></nav>
 <section class="official-note"><p>このページは、磐田市の公式情報へ迷わず進むための非公式ナビです。申請可否、必要書類、受付時間は必ず公式ページで確認してください。</p></section>
-<section class="hero"><p class="eyebrow">磐田市の暮らしナビ</p><h1>新しい場所へ</h1><p class="lead">磐田市から引っ越すときの転出届、水道停止、粗大ごみ、学校・保育園、犬の登録変更をまとめて確認できます。</p><p class="search-words">検索で使われやすい言葉：磐田市 転出、磐田市 転出届、磐田市 水道停止、磐田市 粗大ごみ、磐田市 犬 登録変更</p></section>
-<section><h2>このページでわかること</h2><div class="summary"><div class="card"><span class="card-title">転出届と住所手続きを確認できます</span></div><div class="card"><span class="card-title">水道停止や粗大ごみへ進めます</span></div><div class="card"><span class="card-title">学校・保育園・犬の登録変更も見られます</span></div></div></section>
-<section><h2>まず確認したい3つの入口</h2><div class="priority-grid"><a class="priority-card" href="/life/moving-out/move-out-notice/"><span><span class="card-title">転出届</span><span class="card-desc">市外へ引っ越す</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/moving-out/stop-water/"><span><span class="card-title">水道を止める</span><span class="card-desc">中止・精算</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/moving-out/bulk-garbage-cleaning/"><span><span class="card-title">粗大ごみ・片付け</span><span class="card-desc">転出前の整理</span></span><span class="arrow">›</span></a></div></section>
-<section><h2>手続き・困りごと一覧</h2><div class="procedure-grid"><a class="link-card" href="/life/moving-out/moving-away/"><span><span class="card-title">磐田市から引っ越す</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/moving-out/move-out-notice/"><span><span class="card-title">転出届</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/moving-out/stop-water/"><span><span class="card-title">水道を止める</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/moving-out/bulk-garbage-cleaning/"><span><span class="card-title">粗大ごみ・片付け（転出）</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/moving-out/school-nursery-procedures/"><span><span class="card-title">学校・保育園の手続き</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/moving-out/dog-ownership-change/"><span><span class="card-title">犬の登録変更</span></span><span class="arrow">›</span></a></div></section>
-<section><h2>よくある困りごと</h2><div class="trouble-grid"><a class="trouble-card" href="/life/moving-out/moving-away/"><span><span class="card-title">磐田市から引っ越すとき何をする？</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/moving-out/school-nursery-procedures/"><span><span class="card-title">学校や保育園の手続きを確認したい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/moving-out/dog-ownership-change/"><span><span class="card-title">犬の登録変更をしたい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/moving-out/stop-water/"><span><span class="card-title">水道を止めたい</span></span><span class="arrow">›</span></a></div></section>
+<section class="hero"><p class="eyebrow">磐田市の暮らしナビ</p><h1><span class="lh-icon heading-icon" aria-hidden="true">📦</span><span>新しい場所へ</span></h1><p class="lead">磐田市から引っ越すときの転出届、水道停止、粗大ごみ、学校・保育園、犬の登録変更をまとめて確認できます。</p><p class="search-words">検索で使われやすい言葉：磐田市 転出、磐田市 転出届、磐田市 水道停止、磐田市 粗大ごみ、磐田市 犬 登録変更</p></section>
+<section><h2>このページでわかること</h2><div class="summary"><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">📦</span><span class="card-title">転出届と住所手続きを確認できます</span></span></div><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">📦</span><span class="card-title">水道停止や粗大ごみへ進めます</span></span></div><div class="card"><span class="icon-title"><span class="card-icon" aria-hidden="true">📦</span><span class="card-title">学校・保育園・犬の登録変更も見られます</span></span></div></div></section>
+<section><h2>まず確認したい3つの入口</h2><div class="priority-grid"><a class="priority-card" href="/life/moving-out/move-out-notice/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">転出届</span><span class="card-desc">市外へ引っ越す</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="priority-card" href="/life/moving-out/stop-water/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">水道を止める</span><span class="card-desc">中止・精算</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="priority-card" href="/life/moving-out/bulk-garbage-cleaning/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">粗大ごみ・片付け</span><span class="card-desc">転出前の整理</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
+<section><h2>手続き・困りごと一覧</h2><div class="procedure-grid"><a class="link-card" href="/life/moving-out/bulk-garbage-cleaning/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">転出前の片付けは、粗大ごみ・持ち込み・処理不可品を分ける</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/moving-out/dog-ownership-change/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">犬の登録変更は、転出先自治体での手続きも見越して確認する</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/moving-out/move-out-notice/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">転出届は、引っ越し先と届出方法を確認してから進める</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/moving-out/moving-away/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">磐田市から引っ越すときは、転出届と暮らしの停止手続きを一緒に確認する</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/moving-out/school-nursery-procedures/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">子どもの転出は、学校と園の手続きを別々に確認する</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="link-card" href="/life/moving-out/stop-water/"><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">水道の中止は、使用をやめる日と精算方法を先に決める</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
+<section><h2>よくある困りごと</h2><div class="trouble-grid"><a class="trouble-card" href="/life/moving-out/moving-away/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">磐田市から引っ越すとき何をする？</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/moving-out/school-nursery-procedures/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">学校や保育園の手続きを確認したい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/moving-out/dog-ownership-change/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">犬の登録変更をしたい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="trouble-card" href="/life/moving-out/stop-water/"><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">水道を止めたい</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
 <section class="choose"><h2>迷ったときの選び方</h2><p>急ぎの届出、期限のある申請、家族で決めることを分けて考えると、必要なページを選びやすくなります。</p><ul><li>制度や申請は公式ページで条件を確認する</li><li>自分の状況に近い言葉のページから開く</li><li>住まい・介護・相続が重なる場合は、行政手続きと民間相談を分ける</li></ul></section>
 <section class="official-box"><h2>公式情報の確認について</h2><p>磐田ライフハックは公式情報の転載サイトではありません。制度の対象、申請方法、必要書類、受付時間は変更されることがあります。詳細・申請・最新情報は、必ず磐田市公式ページまたは担当窓口で確認してください。</p><a class="btn" href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトを確認する</a></section>
-<section><h2>関連カテゴリ</h2><div class="related-grid"><a class="related-card" href="/life/start-living/"><span><span class="card-title">暮らし始めた</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/housing/"><span><span class="card-title">家・住まい</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/education/"><span><span class="card-title">学ぶ・育つ</span></span><span class="arrow">›</span></a></div></section>
+<section><h2>関連カテゴリ</h2><div class="related-grid"><a class="related-card" href="/life/start-living/"><span class="topic-icon" aria-hidden="true">🧭</span><span class="card-text"><span class="card-title">暮らし始めた</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="related-card" href="/life/housing/"><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家・住まい</span></span><span class="arrow" aria-hidden="true">›</span></a><a class="related-card" href="/life/education/"><span class="topic-icon" aria-hidden="true">🎒</span><span class="card-text"><span class="card-title">学ぶ・育つ</span></span><span class="arrow" aria-hidden="true">›</span></a></div></section>
 
-</div></main><footer class="site"><div class="wrap"><b style="color:#fff">磐田ライフハック</b><div class="mini">本サイトは磐田市公式サイトではありません。制度・申請・受付時間の最新情報は必ず公式ページで確認してください。</div><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a></div></footer></body></html>
+</div></main><footer class="site enshu-footer"><div class="wrap">
+<section class="footer-brand" aria-labelledby="footer-title">
+<h2 id="footer-title">遠州ライフハック</h2>
+<p>運営：富士ヶ丘サービス株式会社 / 電話番号 0538-31-3308</p>
+<p>本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</p>
+<p><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a></p>
+</section>
+<section class="footer-network" aria-labelledby="footer-active">
+<h3 id="footer-active">運用中</h3>
+<ul><li><a href="https://iwata.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌱</span><span>磐田ライフハック</span></a></li></ul>
+</section>
+<section class="footer-network" aria-labelledby="footer-coming-soon">
+<h3 id="footer-coming-soon">近日運用予定</h3>
+<ul><li><span class="footer-emoji" aria-hidden="true">🍈</span><span>袋井ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🍵</span><span>掛川ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌲</span><span>森町ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌼</span><span>菊川市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌊</span><span>御前崎市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌅</span><span>湖西市ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🎹</span><span>浜松市中央区ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🍊</span><span>浜松市浜名区ライフハック　準備中</span></li><li><span class="footer-emoji" aria-hidden="true">🌲</span><span>浜松市天竜区ライフハック　準備中</span></li></ul>
+</section>
+</div></footer></body></html>
