@@ -1,436 +1,94 @@
-﻿<!doctype html><html lang="ja"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>磐田ライフハック｜磐田市の暮らし・手続き・防災・介護・住まいを市民目線で整理</title>
-<meta name="description" content="磐田ライフハックは、磐田市の公式情報をもとに、暮らしの手続き・防災・子育て・介護・住まいに関する情報を市民目線で整理する生活ナビです。最新・正確な情報は磐田市公式サイトをご確認ください。">
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>健康・医療｜磐田市の休日当番医・救急・健診・予防接種｜磐田ライフハック</title>
+<meta name="description" content="磐田市の休日当番医、夜間救急、健診、予防接種、障害福祉、こころの相談を整理します。磐田市公式サイトではない案内ページです。詳細・申請・最新情報は必ず公式ページで確認してください。">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
-:root{--green:#1f6f54;--green-d:#15503c;--bg:#f6f7f5;--card:#fff;--ink:#222;--mut:#667;--line:#e3e6e1;--accent:#ffd34d}
+:root{--green:#0074AE;--green-d:#005986;--bg:#f6f7f5;--card:#fff;--ink:#222;--mut:#667;--line:#e3e6e1;--soft:#eef6f2;--warn:#fff8e6}
 *{box-sizing:border-box}
-body{margin:0;font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI",Meiryo,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
-a{color:var(--green-d);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:920px;margin:0 auto;padding:0 16px}
+html,body{max-width:100%;overflow-x:hidden}
+body{margin:0;font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI",Meiryo,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75}
+a{color:var(--green-d);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
 header.site{background:var(--green);color:#fff}
-header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px;flex-wrap:nowrap;overflow:hidden}
-header.site .logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap;flex:0 0 auto}
-header.site .tag{font-size:12px;opacity:.85;white-space:nowrap;line-height:1.2;min-width:0;overflow:hidden;text-overflow:ellipsis}
-nav.cats{background:var(--green-d)}
-nav.cats .wrap{display:flex;flex-wrap:wrap;gap:2px;padding:0 16px}
-nav.cats a{color:#eafaf3;padding:10px 12px;font-size:14px;font-weight:600}
-nav.cats a:hover{background:rgba(255,255,255,.12);text-decoration:none}
-.disclaimer{background:#fff8e6;border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
-.disclaimer .wrap{padding:8px 16px}
-main{padding:22px 0 40px}
-h1.page{font-size:22px;margin:6px 0 4px}
-h2.sec{font-size:17px;border-left:5px solid var(--green);padding-left:10px;margin:26px 0 12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0}
-.card .meta{font-size:12px;color:var(--mut);margin-top:4px}
-.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;margin-right:6px;vertical-align:middle}
-.b-Aplus{background:#1f6f54;color:#fff}.b-A{background:#3a8f72;color:#fff}.b-B{background:#7d8a83;color:#fff}.b-C{background:#e7ebe8;color:#445}
-.official-link{display:inline-flex;align-items:center;gap:6px;background:#eef6f2;border:1px solid #cfe5da;border-radius:8px;padding:8px 12px;font-size:13.5px;font-weight:600;margin-top:8px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
-.tile{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.tile .n{font-size:12px;color:var(--mut)}
-.update-item{padding:7px 0;border-bottom:1px dashed var(--line);font-size:13px;line-height:1.55}
-.update-item:last-child{border-bottom:0}
-.update-item .ct{font-size:11px;font-weight:700;color:#fff;background:#3a8f72;border-radius:5px;padding:1px 6px;margin-right:6px}
-.ct-added{background:#1f6f54}.ct-updated{background:#c08a1e}.ct-title_changed{background:#7d8a83}.ct-category_changed{background:#7d8a83}
-.empty{color:var(--mut);font-size:14px;padding:10px 0}
+header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px;overflow:hidden}
+.logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap}
+.tag{font-size:12px;opacity:.9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice{background:var(--warn);border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
+.notice .wrap{padding:8px 16px}
+main{padding:22px 0 44px}
+.breadcrumb{font-size:13px;color:var(--mut);margin:0 0 10px}
+.breadcrumb a{color:var(--green-d)}
+.hero{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:0 0 16px}
+.eyebrow{margin:0 0 6px;color:var(--green-d);font-size:12px;font-weight:800;letter-spacing:0}
+h1{font-size:28px;line-height:1.28;margin:0 0 10px;color:var(--green-d)}
+h2{font-size:18px;border-left:5px solid var(--green);padding-left:10px;margin:30px 0 12px}
+h3{font-size:16px;margin:0 0 8px}
+p{margin:0 0 12px}
+.lead{font-size:15.5px;color:#445;margin:0}
+.official-note{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:#665a1f;font-size:13.5px;margin:0 0 16px}
+.summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.summary .card,.priority-card,.link-card,.trouble-card,.related-card,.company-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
+.summary .card{border-top:4px solid var(--green)}
+.card-title{display:block;font-size:15px;font-weight:800;color:var(--green-d);line-height:1.45}
+.card-desc{display:block;font-size:13px;color:var(--mut);line-height:1.55;margin-top:4px}
+.priority-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.priority-card{display:block;border-top:4px solid var(--green);min-height:104px}
+.priority-card:hover,.link-card:hover,.trouble-card:hover,.related-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
+.procedure-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.link-card{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px}
+.link-card .arrow,.related-card .arrow,.priority-card .arrow{color:var(--green);font-weight:900}
+.trouble-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.trouble-card{display:block}
+.choose{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
+.choose ul{margin:8px 0 0;padding-left:20px}
+.choose li{margin:5px 0;font-size:14px}
+.official-box{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
+.official-box p{font-size:14px;color:#445}
+.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.related-card{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:58px}
+.company-strip{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:28px}
+.company-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
+.company-card p{font-size:13px;color:var(--mut)}
+.btn{display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:10px;border:1.5px solid var(--line);background:#fff;color:var(--green-d);font-size:13.5px;font-weight:800;text-align:center;padding:9px 12px}
+.btn:hover{background:#f3faf6;border-color:var(--green);text-decoration:none}
+.btn-main{background:var(--green);border-color:var(--green);color:#fff}
+.btn-main:hover{background:var(--green-d);color:#fff}
+.search-words{font-size:12.5px;color:var(--mut);margin-top:12px}
+.quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:block}
+.quick-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:block;min-height:112px}
+.cat-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
+.updates{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
+.updates ul{margin:8px 0 0;padding-left:20px}
+.updates li{font-size:14px;margin:4px 0}
 footer.site{background:#222;color:#cfd6d1;font-size:13px;margin-top:30px}
 footer.site .wrap{padding:20px 16px}
-footer.site a{color:#9fe3c8}
-.care-cta{background:#f0f7f3;border:1px solid #cfe5da;border-radius:10px;padding:14px 16px;margin:16px 0}
-.care-cta b{color:var(--green-d)}
-.muted{color:var(--mut)}
-
-/* ===== スマホファースト v1.0 ===== */
-html{font-size:17px}
-.wrap{max-width:760px}
-.lead{font-size:15px;color:var(--mut);margin:2px 0 14px}
-.askbig{font-size:21px;font-weight:800;margin:22px 0 6px;color:var(--green-d)}
-/* 困りごとカード（1画面1判断・タップ44px以上） */
-.sit-list{display:flex;flex-direction:column;gap:10px}
-.sit-card{display:flex;align-items:center;gap:12px;min-height:60px;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;font-size:17.5px;font-weight:700;color:var(--ink)}
-.sit-card:hover{text-decoration:none;border-color:var(--green);background:#f3faf6}
-.sit-card .arw{margin-left:auto;color:var(--green);font-weight:800;font-size:20px}
-.sit-card .ic{font-size:22px;line-height:1}
-/* 緊急・重要カード */
-.urgent-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.u-card{display:flex;flex-direction:column;gap:4px;min-height:64px;border-radius:14px;padding:13px 14px;font-weight:800;font-size:16px;color:#fff}
-.u-card .s{font-size:12px;font-weight:600;opacity:.92}
-.u-bousai{background:#c0461e}.u-care{background:#1f6f54}.u-gomi{background:#3a6ea5}.u-iryo{background:#8a3ea5}
-/* 検索（主役にしない・控えめ） */
-.searchbox{display:flex;gap:8px;margin:8px 0 4px}
-.searchbox input{flex:1;min-height:46px;border:1.5px solid var(--line);border-radius:12px;padding:0 14px;font-size:16px}
-.searchbox button{min-height:46px;min-width:64px;border:0;border-radius:12px;background:var(--green);color:#fff;font-weight:700;font-size:16px}
-/* 困りごとページ */
-.first-action{background:#eef6f2;border:1.5px solid #cfe5da;border-radius:14px;padding:16px;font-size:17px;font-weight:700;line-height:1.8;margin:10px 0 4px}
-.timing-block{margin:18px 0}
-.timing-head{display:flex;align-items:center;gap:8px;font-size:16px;font-weight:800;margin:0 0 8px}
-.timing-today{color:#c0461e}.timing-week{color:#c08a1e}.timing-later{color:#3a6ea5}
-.tdot{width:12px;height:12px;border-radius:50%}
-.tdot.today{background:#c0461e}.tdot.week{background:#c08a1e}.tdot.later{background:#3a6ea5}
-.step{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin:8px 0}
-.step .task{font-size:16.5px;font-weight:700}
-.step .meta{font-size:13px;color:var(--mut);margin-top:5px;line-height:1.7}
-.chip{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px;margin-right:6px}
-.chip-muni{background:#e7f1ec;color:#1f6f54}.chip-out{background:#fdeede;color:#a8631a}.chip-deadline{background:#fbe2e2;color:#b3261e}
-.items{margin:6px 0 0;padding-left:18px}
-.items li{font-size:13.5px;color:#445}
-/* 3問ナビ */
-.nav3{background:#fff;border:1.5px solid var(--green);border-radius:14px;padding:14px 16px;margin:14px 0}
-.nav3 h3{margin:0 0 4px;font-size:16px;color:var(--green-d)}
-.nav3 .q{margin:12px 0 0}
-.nav3 .q p{margin:0 0 6px;font-weight:700;font-size:15.5px}
-.toggle{display:inline-flex;border:1.5px solid var(--line);border-radius:10px;overflow:hidden}
-.toggle button{min-height:44px;min-width:72px;border:0;background:#fff;font-size:15px;font-weight:700;color:#555;padding:0 14px;cursor:pointer}
-.toggle button.on{background:var(--green);color:#fff}
-.nav3 .qnote{font-size:13px;color:#a8631a;margin-top:6px;display:none}
-.step.hidden{display:none}
-/* フィードバック */
-.feedback{background:#f6f7f5;border:1px solid var(--line);border-radius:14px;padding:16px;margin:22px 0 0;text-align:center}
-.feedback h3{margin:0 0 10px;font-size:16px}
-.fb-btns{display:flex;flex-direction:column;gap:8px}
-.fb-btns button{min-height:50px;border:1.5px solid var(--line);border-radius:12px;background:#fff;font-size:15.5px;font-weight:700;color:#333;cursor:pointer}
-.fb-btns button:hover{border-color:var(--green)}
-.fb-thanks{display:none;font-weight:700;color:var(--green-d);padding:8px 0}
-/* 印刷ボタン・PC右カラム */
-.pcrail{display:none}
-.print-btn,.back-link{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--line);border-radius:12px;background:#fff;font-weight:700;font-size:14px;color:#333}
-.verified{font-size:13px;color:var(--mut);margin-top:12px}
-
-/* ===== PC派生（スマホ構造を保ったまま補助） ===== */
-@media (min-width:760px){
-  html{font-size:16px}
-  .urgent-grid{grid-template-columns:repeat(4,1fr)}
-  .with-rail{display:grid;grid-template-columns:1fr 270px;gap:24px;align-items:start}
-  .pcrail{display:block;position:sticky;top:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
-  .pcrail h3{margin:0 0 8px;font-size:15px;color:var(--green-d)}
-  .pcrail ul{margin:0;padding-left:18px;font-size:14px;line-height:1.9}
-  .pcrail .rail-sec{margin-top:14px}
-}
-
-/* ===== 印刷（家族が一緒に確認・電話前チェック） ===== */
-@media print{
-  header.site,nav.cats,.disclaimer,.searchbox,.feedback,.print-btn,.back-link,.care-cta,footer.site,.nav3 .toggle{display:none !important}
-  .step.hidden{display:block !important}
-  .with-rail{display:block}
-  .pcrail{display:block;border:1px solid #999}
-  body{background:#fff;font-size:12pt}
-  .step,.first-action{break-inside:avoid}
-}
+footer.site a{color:#fff}
+.mini{font-size:12.5px;color:var(--mut)}
+@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
+@media(max-width:420px){.quick-grid{grid-template-columns:1fr}}
 </style>
-<style>
-  :root {
-    --green: #0074AE;
-    --green-d: #005986;
-  }
-</style>
-</head><body>
-<header class="site"><div class="wrap">
-  <a class="logo" href="/">磐田ライフハック</a>
-  <span class="tag">磐田市の暮らしと手続きが、すぐわかる</span>
-</div></header>
-<div class="disclaimer"><div class="wrap">⚠ 磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div>
-<main><div class="wrap">
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span></div></header>
+<div class="notice"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。暮らしの手続きや相談先を探しやすく整理し、最後は必ず公式ページへ案内します。</div></div>
+<main class="category-page"><div class="wrap">
+<nav class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <span>健康・医療</span></nav>
+<section class="official-note"><p>このページは、磐田市の公式情報へ迷わず進むための非公式ナビです。申請可否、必要書類、受付時間は必ず公式ページで確認してください。</p></section>
+<section class="hero"><p class="eyebrow">磐田市の暮らしナビ</p><h1>健康・医療</h1><p class="lead">病院探し、休日・夜間の医療、健診、予防接種、障害福祉、こころの相談先を分けて確認できます。</p><p class="search-words">検索で使われやすい言葉：磐田市 休日当番医、磐田市 夜間救急、磐田市 健診、磐田市 予防接種、磐田市 障害福祉</p></section>
+<section><h2>このページでわかること</h2><div class="summary"><div class="card"><span class="card-title">急ぐ医療と制度確認を分けられます</span></div><div class="card"><span class="card-title">健診・予防接種の入口へ進めます</span></div><div class="card"><span class="card-title">障害福祉や相談先を確認できます</span></div></div></section>
+<section><h2>まず確認したい3つの入口</h2><div class="priority-grid"><a class="priority-card" href="/life/health-medical/find-hospitals/"><span><span class="card-title">病院を探したい</span><span class="card-desc">医療機関</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/health-medical/holiday-night-emergency-care/"><span><span class="card-title">休日・夜間医療</span><span class="card-desc">急な症状</span></span><span class="arrow">›</span></a><a class="priority-card" href="/life/health-medical/health-checkups/"><span><span class="card-title">健診を確認</span><span class="card-desc">健康診断</span></span><span class="arrow">›</span></a></div></section>
+<section><h2>手続き・困りごと一覧</h2><div class="procedure-grid"><a class="link-card" href="/life/health-medical/find-hospitals/"><span><span class="card-title">病院を探したい</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/holiday-night-emergency-care/"><span><span class="card-title">休日当番医・夜間救急</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/night-holiday-medical/"><span><span class="card-title">夜間・休日医療</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/cancer-specific-checkups/"><span><span class="card-title">がん検診・特定健診</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/health-checkups/"><span><span class="card-title">健康診断</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/vaccinations/"><span><span class="card-title">予防接種</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/adult-vaccination/"><span><span class="card-title">予防接種（大人）</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/health-promotion/"><span><span class="card-title">健康づくり</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/dental-care/"><span><span class="card-title">歯科・口腔ケア</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/mental-health-consulting/"><span><span class="card-title">こころの相談</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/disability-services/"><span><span class="card-title">障害者手帳・障害福祉サービス</span></span><span class="arrow">›</span></a><a class="link-card" href="/life/health-medical/disability-welfare/"><span><span class="card-title">障害福祉</span></span><span class="arrow">›</span></a></div></section>
+<section><h2>よくある困りごと</h2><div class="trouble-grid"><a class="trouble-card" href="/life/health-medical/holiday-night-emergency-care/"><span><span class="card-title">夜間や休日に受診先を探したい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/health-medical/cancer-specific-checkups/"><span><span class="card-title">健診やがん検診を確認したい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/health-medical/vaccinations/"><span><span class="card-title">予防接種を確認したい</span></span><span class="arrow">›</span></a><a class="trouble-card" href="/life/health-medical/mental-health-consulting/"><span><span class="card-title">こころの相談先を探したい</span></span><span class="arrow">›</span></a></div></section>
+<section class="choose"><h2>迷ったときの選び方</h2><p>急ぎの届出、期限のある申請、家族で決めることを分けて考えると、必要なページを選びやすくなります。</p><ul><li>制度や申請は公式ページで条件を確認する</li><li>自分の状況に近い言葉のページから開く</li><li>住まい・介護・相続が重なる場合は、行政手続きと民間相談を分ける</li></ul></section>
+<section class="official-box"><h2>公式情報の確認について</h2><p>磐田ライフハックは公式情報の転載サイトではありません。制度の対象、申請方法、必要書類、受付時間は変更されることがあります。詳細・申請・最新情報は、必ず磐田市公式ページまたは担当窓口で確認してください。</p><a class="btn" href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトを確認する</a></section>
+<section><h2>関連カテゴリ</h2><div class="related-grid"><a class="related-card" href="/life/family-grow/"><span><span class="card-title">家族が増える</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/parents-care/"><span><span class="card-title">親のこと</span></span><span class="arrow">›</span></a><a class="related-card" href="/life/troubles-consult/"><span><span class="card-title">困った・相談したい</span></span><span class="arrow">›</span></a></div></section>
 
-    <p class="muted" style="font-size:13px; margin-bottom:8px;">
-      <a href="/">磐田ライフハック</a> ／ 
-      <span>健康・医療</span>
-    </p>
-
-    <div style="margin-bottom: 24px;" data-code="007">
-      <h1 class="page" style="font-size:24px; font-weight:800; color:var(--green-d);">健康・医療</h1>
-      <p class="lead" style="font-size:15px; margin-top:8px; color:var(--mut);">救急医療、健康診断、がん検診や予防接種、障害福祉に関する窓口と手続き</p>
-    </div>
-
-    <h2 class="sec">手続き・困りごと一覧</h2>
-    <div class="sit-list" style="margin-bottom: 24px;">
-    <a class="sit-card" href="/life/health-medical/find-hospitals/" data-code="0070001" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🏥</span>
-      <span>病院を探したい</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/holiday-night-emergency-care/" data-code="0070002" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🚑</span>
-      <span>休日当番医・夜間救急</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/night-holiday-medical/" data-code="0070003" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🚨</span>
-      <span>夜間・休日医療</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/cancer-specific-checkups/" data-code="0070004" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🩺</span>
-      <span>がん検診・特定健診</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/health-checkups/" data-code="0070005" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🩺</span>
-      <span>健康診断</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/vaccinations/" data-code="0070006" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">💉</span>
-      <span>予防接種</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/adult-vaccination/" data-code="0070007" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">💉</span>
-      <span>予防接種（大人）</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/health-promotion/" data-code="0070008" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🏃</span>
-      <span>健康づくり</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/dental-care/" data-code="0070009" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🪥</span>
-      <span>歯科・口腔ケア</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/mental-health-consulting/" data-code="0070010" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">🧠</span>
-      <span>こころの相談</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/disability-services/" data-code="0070011" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">♿</span>
-      <span>障害者手帳・障害福祉サービス</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-    <a class="sit-card" href="/life/health-medical/disability-welfare/" data-code="0070012" style="display:flex; align-items:center; gap:12px; min-height:60px; background:#fff; border:1.5px solid var(--line); border-radius:14px; padding:14px 16px; font-size:17.5px; font-weight:700; color:var(--ink); margin-bottom:10px;">
-      <span class="ic" style="font-size:22px;">♿</span>
-      <span>障害福祉</span>
-      <span class="arw" style="margin-left:auto; color:var(--green); font-weight:800; font-size:20px;">›</span>
-    </a>
-
-    </div>
-
-    <div class="card">
-      <b>公式情報の確認について</b>
-      <p style="margin:8px 0 0;">磐田ライフハックは、手続きの探し方を生活場面別に整理する案内ページです。詳細・申請・最新情報は、必ず磐田市公式ページで確認してください。</p>
-    </div>
-<div class="consult-section" style="margin-top: 24px; border-top: 1.5px solid var(--line); padding-top: 24px;">
-      <h3 style="font-size: 17px; font-weight: 800; color: var(--ink); margin: 0 0 10px 0; text-align: center;">
-        お困りのときは、相談先の一つとしてご利用ください
-      </h3>
-      <p style="font-size: 14px; line-height: 1.6; color: var(--mut); text-align: center; max-width: 600px; margin: 0 auto 24px auto;">
-        相続した実家や空き家、介護、住まいに関する悩みは、一人で抱え込まず、地域の相談窓口や専門家へ相談することで解決につながることがあります。
-        富士ヶ丘サービスでも、このようなご相談をお受けしています。
-      </p>
-      <div class="consult-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px;">
-
-          <!-- カード: 磐田物語 -->
-          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
-            <div>
-              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
-                <span>📖</span> <span>磐田の歴史・文化を知りたい</span>
-              </h4>
-              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
-                磐田の歴史や文化、地域の記憶を紹介しています。
-              </p>
-
-              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
-                <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
-                磐田物語<br>
-                <div style="margin-top:6px;">
-                  <a href="https://iwata-monogatari.pages.dev/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
-                </div>
-              </div>
-            </div>
-            <div style="margin-top:16px;">
-              <a href="https://iwata-monogatari.pages.dev/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
-                磐田物語を見る
-              </a>
-            </div>
-          </div>
-
-          <!-- カード: 住まい -->
-          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
-            <div>
-              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
-                <span>🏠</span> <span>家・住まいについて相談したい</span>
-              </h4>
-              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
-                富士ヶ丘サービスでも、相続した実家・空き家・親の家の整理についてご相談をお受けしています。介護と不動産の両方に関わる立場から、売却・管理・解体・今後の住まい方について整理のお手伝いをしています。必要に応じて、相談先の一つとしてご利用ください。
-              </p>
-
-              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:12px; color:var(--mut); line-height:1.5;">
-                <span style="font-weight:700; color:var(--ink);">お問い合わせ</span><br>
-                富士ヶ丘サービス 不動産部<br>
-                TEL：0538-31-3308<br>
-                <div style="margin-top:6px; display:flex; gap:10px; flex-wrap:wrap;">
-                  <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
-                  <a href="https://line.me/R/ti/p/%40487nnyec" target="_blank" rel="noopener" style="color:#05b04b; text-decoration:underline;">LINE公式 ↗</a>
-                </div>
-              </div>
-            </div>
-            <div style="margin-top:16px;">
-              <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
-                相続した実家・空き家について相談する
-              </a>
-            </div>
-          </div>
-
-          <!-- カード: 介護 -->
-          <div class="consult-card" style="background:#fafafa; border: 1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 1px 4px rgba(0,0,0,0.01);">
-            <div>
-              <h4 style="margin:0 0 8px 0; font-size:15.5px; font-weight:700; color:var(--ink); display:flex; align-items:center; gap:6px;">
-                <span>❤️</span> <span>介護・高齢者について相談したい</span>
-              </h4>
-              <p style="margin:0 0 16px 0; font-size:13px; line-height:1.5; color:var(--mut);">
-                ケアマネジャー、介護保険、介護施設、高齢者支援などのご相談を承っています。必要に応じて、相談先の一つとしてご利用ください。
-              </p>
-
-              <div style="border-top:1px solid var(--line); padding-top:10px; margin-top:10px; font-size:11.5px; color:var(--mut); line-height:1.5;">
-                <span style="font-weight:700; color:var(--ink); font-size:12px;">お問い合わせ</span><br>
-                富士ヶ丘サービス 介護部門<br>
-                ・居宅介護支援 TEL: 0538-31-5551<br>
-                ・サ高住 見付 TEL: 0538-31-3308<br>
-                ・サ高住 安久路 TEL: 0538-37-1010<br>
-                <div style="margin-top:6px;">
-                  <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener" style="color:var(--green-d); text-decoration:underline;">ホームページ ↗</a>
-                </div>
-              </div>
-            </div>
-            <div style="margin-top:16px;">
-              <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener" class="print-btn" style="display:flex; justify-content:center; text-align:center; background:#fff; border:1px solid var(--line); color:var(--green-d); border-radius:6px; padding:8px; font-size:13px; font-weight:700; cursor:pointer; text-decoration:none; width:100%; transition: background 0.2s;">
-                介護の相談先を見る
-              </a>
-            </div>
-          </div>
-
-      </div>
-    </div>
-
-  <style>
-    .life-categories-collapsible {
-      background: transparent;
-    }
-    .life-categories-summary {
-      list-style: none;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin: 26px 0 12px;
-    }
-    .life-categories-summary::-webkit-details-marker {
-      display: none;
-    }
-    .life-categories-summary .summary-title {
-      margin: 0;
-      flex: 1;
-    }
-    .summary-hint {
-      min-height: 36px;
-      display: inline-flex;
-      align-items: center;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 0 12px;
-      background: #fff;
-      color: var(--green-d);
-      font-size: 13px;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-    .life-categories-collapsible[open] .summary-hint {
-      font-size: 0;
-    }
-    .life-categories-collapsible[open] .summary-hint::before {
-      content: '閉じる';
-      font-size: 13px;
-    }
-    .category-block {
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px;
-    }
-    .cat-title {
-      margin: 0 0 6px 0;
-      font-size: 18px;
-      color: var(--green-d);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .cat-sub {
-      font-size: 12.5px;
-      color: var(--mut);
-      margin: 0 0 12px 0;
-      line-height: 1.4;
-    }
-    .topic-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-    .topic-list li {
-      border-bottom: 1px solid #f6f7f5;
-      padding-bottom: 6px;
-    }
-    .topic-list li:last-child {
-      border-bottom: 0;
-      padding-bottom: 0;
-    }
-    .topic-list a {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--ink);
-    }
-    .topic-list a:hover {
-      color: var(--green-d);
-      text-decoration: none;
-    }
-    .topic-list .ic {
-      font-size: 18px;
-    }
-    .u-card {
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .u-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      text-decoration: none;
-    }
-    .emergency-alert {
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(179,38,30, 0.4); }
-      70% { box-shadow: 0 0 0 10px rgba(179,38,30, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(179,38,30, 0); }
-    }
-  </style>
-
-</div></main>
-<footer class="site"><div class="wrap">
-  <div><b style="color:#fff">磐田ライフハック</b></div>
-  <div class="muted" style="margin:6px 0 10px">運営：富士ヶ丘サービス株式会社/電話番号0538-31-3308</div>
-  <div><a href="https://www.city.iwata.shizuoka.jp/" rel="noopener" style="color:#fff;">磐田市公式サイト ↗</a></div>
-  <div class="muted" style="margin-top:10px;font-size:12px">本サイトは公式情報の転載サイトではありません。公式情報を整理・分類し、最終的に必ず公式ページへご案内します。</div>
-  <div class="muted" style="margin-top:14px;font-size:12px;line-height:1.7">
-    <div style="color:#fff;font-weight:700;margin-bottom:4px">近日運用予定</div>
-    <div>袋井ライフハック　準備中</div>
-    <div>掛川ライフハック　準備中</div>
-    <div>森町ライフハック　準備中</div>
-    <div>菊川市ライフハック　準備中</div>
-    <div>御前崎市ライフハック　準備中</div>
-    <div>湖西市ライフハック　準備中</div>
-    <div>浜松市中央区ライフハック　準備中</div>
-    <div>浜松市浜名区ライフハック　準備中</div>
-    <div>浜松市天竜区ライフハック　準備中</div>
-  </div>
-</div></footer>
-</body></html>
+</div></main><footer class="site"><div class="wrap"><b style="color:#fff">磐田ライフハック</b><div class="mini">本サイトは磐田市公式サイトではありません。制度・申請・受付時間の最新情報は必ず公式ページで確認してください。</div><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a></div></footer></body></html>
