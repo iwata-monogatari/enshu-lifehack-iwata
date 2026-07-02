@@ -6,3 +6,11 @@ README.md
 .git/**
 .wrangler
 .wrangler/**
+parts
+parts/**
+reports
+reports/**
+.github
+.github/**
+docs
+docs/**
