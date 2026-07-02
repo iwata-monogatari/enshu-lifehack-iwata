@@ -6,95 +6,9 @@
 <title>学ぶ・育つ｜磐田市の小中学校・学区・転校・就学支援｜磐田ライフハック</title>
 <meta name="description" content="磐田市の小学校、中学校、通学区、転校、給食、就学援助、放課後児童クラブを整理します。磐田市公式サイトではない案内ページです。詳細・申請・最新情報は必ず公式ページで確認してください。">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<style>
-:root{--green:#0074AE;--green-d:#005986;--bg:#f6f7f5;--card:#fff;--ink:#222;--mut:#667;--line:#e3e6e1;--soft:#eef6f2;--warn:#fff8e6}
-*{box-sizing:border-box}
-html,body{max-width:100%;overflow-x:hidden}
-body{margin:0;font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI",Meiryo,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75}
-a{color:var(--green-d);text-decoration:none}
-a:hover{text-decoration:underline}
-.wrap{max-width:980px;margin:0 auto;padding:0 16px}
-header.site{background:var(--green);color:#fff}
-header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px;overflow:hidden}
-.logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap}
-.tag{font-size:12px;opacity:.9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.notice{background:var(--warn);border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
-.notice .wrap{padding:8px 16px}
-main{padding:22px 0 44px}
-.breadcrumb{font-size:13px;color:var(--mut);margin:0 0 10px}
-.breadcrumb a{color:var(--green-d)}
-.hero{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:0 0 16px}
-.eyebrow{margin:0 0 6px;color:var(--green-d);font-size:12px;font-weight:800;letter-spacing:0}
-h1{font-size:28px;line-height:1.28;margin:0 0 10px;color:var(--green-d)}
-h2{font-size:18px;border-left:5px solid var(--green);padding-left:10px;margin:30px 0 12px}
-h3{font-size:16px;margin:0 0 8px}
-p{margin:0 0 12px}
-.lead{font-size:15.5px;color:#445;margin:0}
-.official-note{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:#665a1f;font-size:13.5px;margin:0 0 16px}
-.summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.summary .card,.priority-card,.link-card,.trouble-card,.related-card,.company-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
-.summary .card{border-top:4px solid var(--green)}
-.card-title{display:block;font-size:15px;font-weight:800;color:var(--green-d);line-height:1.45}
-.card-desc{display:block;font-size:13px;color:var(--mut);line-height:1.55;margin-top:4px}
-.lh-icon,.card-icon,.topic-icon,.footer-emoji,.municipality-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto}
-.heading-icon{margin-right:.4rem}
-.card-icon,.topic-icon{font-size:1.15rem;margin-right:.45rem}
-.footer-emoji,.municipality-emoji{font-size:1rem;margin-right:.35rem}
-.card-text{flex:1;min-width:0}
-.icon-title{display:flex;align-items:center;gap:.35rem;min-width:0}
-.priority-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.priority-card{display:flex;align-items:flex-start;gap:0;border-top:4px solid var(--green);min-height:104px}
-.priority-card:hover,.link-card:hover,.trouble-card:hover,.related-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
-.procedure-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
-.link-card{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px}
-.link-card .arrow,.related-card .arrow,.priority-card .arrow{color:var(--green);font-weight:900}
-.trouble-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.trouble-card{display:flex;align-items:flex-start;gap:0}
-.choose{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
-.choose ul{margin:8px 0 0;padding-left:20px}
-.choose li{margin:5px 0;font-size:14px}
-.official-box{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px}
-.official-box p{font-size:14px;color:#445}
-.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.related-card{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:58px}
-.company-strip{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:28px}
-.company-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
-.company-card p{font-size:13px;color:var(--mut)}
-.btn{display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:10px;border:1.5px solid var(--line);background:#fff;color:var(--green-d);font-size:13.5px;font-weight:800;text-align:center;padding:9px 12px}
-.btn:hover{background:#f3faf6;border-color:var(--green);text-decoration:none}
-.btn-main{background:var(--green);border-color:var(--green);color:#fff}
-.btn-main:hover{background:var(--green-d);color:#fff}
-.search-words{font-size:12.5px;color:var(--mut);margin-top:12px}
-.site-search{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;margin:16px 0}
-.site-search label{display:block;font-weight:800;color:var(--green-d);margin-bottom:8px}
-.search-row{display:grid;grid-template-columns:1fr auto;gap:8px}
-.search-row input{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:16px}
-.search-row button{min-height:44px;border:0;border-radius:10px;background:var(--green);color:#fff;font-weight:800;padding:0 18px}
-.choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:flex;align-items:flex-start;gap:0}
-.quick-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
-.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
-.cat-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;align-items:flex-start;gap:0;min-height:112px}
-.cat-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
-.updates{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
-.updates ul{margin:8px 0 0;padding-left:20px}
-.updates li{font-size:14px;margin:4px 0}
-footer.site{background:#222;color:#cfd6d1;font-size:13px;margin-top:30px}
-footer.site .wrap{padding:20px 16px}
-footer.site a{color:#fff}
-.enshu-footer .wrap{display:grid;grid-template-columns:2fr 1fr 1.4fr;gap:18px}
-.enshu-footer h2,.enshu-footer h3{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}
-.enshu-footer p{margin:0 0 8px}
-.enshu-footer ul{list-style:none;margin:0;padding:0}
-.enshu-footer li{margin:4px 0}
-.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}
-.mini{font-size:12.5px;color:var(--mut)}
-@media(max-width:760px){h1{font-size:24px}.summary,.priority-grid,.trouble-grid,.related-grid,.company-grid,.enshu-footer .wrap{grid-template-columns:1fr}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.procedure-grid,.cat-grid{grid-template-columns:1fr}.hero{padding:16px}.quick-card{min-height:82px}}
-@media(max-width:420px){.quick-grid,.choice-grid,.search-row{grid-template-columns:1fr}}
-</style>
+<!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260702"><!-- PART:head-css:END -->
 </head>
-<body>
+<body class="hub">
 <!-- PART:header:START --><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span></div></header><!-- PART:header:END -->
 <div class="notice"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。暮らしの手続きや相談先を探しやすく整理し、最後は必ず公式ページへ案内します。</div></div>
 <main class="category-page"><div class="wrap">
