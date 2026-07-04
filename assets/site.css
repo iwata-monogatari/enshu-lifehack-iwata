@@ -173,6 +173,7 @@ body.hub header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px
 body.hub .logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap}
 body.hub .tag{font-size:12px;opacity:.9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 body.hub .notice{background:var(--warn);border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
+body.hub .notice.notice-gap{margin-top:28px}
 body.hub .notice .wrap{padding:8px 16px}
 body.hub main{padding:22px 0 44px}
 body.hub .breadcrumb{font-size:13px;color:var(--mut);margin:0 0 10px}
