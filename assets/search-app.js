@@ -30,7 +30,7 @@ async function runSearch(query) {
             `<li><a class="search-hit" href="${page.href}"><span class="result-ic" aria-hidden="true">${page.icon}</span><span><strong>${page.title}</strong><span>${page.category}</span></span><span aria-hidden="true">›</span></a></li>`
         )
         .join('')}</ul>`
-    : `<h2>「${safeQuery}」の候補</h2><p class="mini">サイト内に一致する項目が見つかりませんでした。言葉を短くして検索してください。</p>`;
+    : `<h2>「${safeQuery}」の候補</h2><p class="mini">サイト内に一致する項目が見つかりませんでした。言葉を短くして検索してください。</p><p class="mini"><a href="/#category-links">カテゴリ一覧から探す →</a></p>`;
 }
 
 window.iwataSiteSearch = function iwataSiteSearch(event) {
