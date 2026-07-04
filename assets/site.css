@@ -265,6 +265,11 @@ body.home .search-hit>span[aria-hidden="true"]:last-child{margin-left:auto}
 body.hub.home .quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 body.home .company-strip{border:0;background:none;padding:0}
 .hero-center .hero-visual{justify-content:center;text-align:center}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #0059AE;outline-offset:2px}
+header.site .logo{display:inline-flex;align-items:center;min-height:44px}
+.notice a{padding:6px 2px;display:inline-block}
+.skip-link{position:absolute;left:-9999px;top:0;background:#0074AE;color:#fff;padding:8px 16px;z-index:1000;border-radius:0 0 8px 0}
+.skip-link:focus{left:0;top:0}
 @media(max-width:420px){
 body.home .quick-grid,body.home .search-row{grid-template-columns:1fr}
 }
