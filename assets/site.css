@@ -263,6 +263,7 @@ body.home .search-hit .result-ic{font-size:18px;line-height:1;flex:0 0 auto}
 body.home .search-hit>span:nth-child(2){flex:1 1 auto;text-align:left}
 body.home .search-hit>span[aria-hidden="true"]:last-child{margin-left:auto}
 body.hub.home .quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+body.home .company-strip{border:0;background:none;padding:0}
 @media(max-width:420px){
 body.home .quick-grid,body.home .search-row{grid-template-columns:1fr}
 }
