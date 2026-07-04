@@ -14,3 +14,5 @@ reports/**
 .github/**
 docs
 docs/**
+_staging
+_staging/**
