@@ -1,13 +1,3 @@
 # 旧 /iwata/ 配下を新サブドメイン直下へ
 /iwata/  /  301
 /iwata/*  /:splat  301
-
-# Prototype old links compatibility (temporary while legacy /pages links exist)
-/pages/emergency.html       /life/emergency/             301
-/pages/moving.html         /life/start-living/          301
-/pages/daily-life.html     /life/start-living/          301
-/pages/family-care.html    /life/parents-care/          301
-/pages/vacant-home.html    /life/housing/vacant-house/   301
-/pages/kids-school.html    /life/education/             301
-/pages/money.html         /life/work-life/             301
-/pages/consultation.html  /life/troubles-consult/       301
