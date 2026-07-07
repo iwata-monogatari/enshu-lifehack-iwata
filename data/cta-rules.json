@@ -1,0 +1,35 @@
+﻿{
+  "official": {
+    "label": "公式情報へ",
+    "strength": "weak",
+    "description": "最新性・正確性は公式窓口を確認。",
+    "button_text": "公式を見る"
+  },
+  "care": {
+    "label": "介護の相談窓口へ",
+    "strength": "middle",
+    "description": "親のケア判断が必要な場合は、公式情報と並行して相談先も確認します。",
+    "button_text": "介護の相談へ",
+    "url": "https://www.fujigaoka-service.info/"
+  },
+  "real_estate": {
+    "label": "住まい・相続の相談",
+    "strength": "strong",
+    "description": "空き家や実家整理の判断に進む前に、制度と相談先を確認します。",
+    "button_text": "住まい相談へ",
+    "url": "https://www.fujigaoka-service.info/fudosan"
+  },
+  "both": {
+    "label": "住まい・介護の相談",
+    "strength": "strong",
+    "description": "公式情報を確認しながら、必要に応じて専門相談につなげます。",
+    "button_text": "相談先へ進む",
+    "url": "https://www.fujigaoka-service.info/"
+  },
+  "none": {
+    "label": "先に内容確認",
+    "strength": "weak",
+    "description": "まず公式情報の確認が必要な場合の導線。",
+    "button_text": "詳しく見る"
+  }
+}

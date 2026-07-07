@@ -1,0 +1,111 @@
+﻿.lh-quick {
+  margin: 14px 0 12px;
+}
+
+.renewal-quick {
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.renewal-quick h2 {
+  margin: 0 0 8px;
+  font-size: 1.45rem;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.lh-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 120px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #e3ecde;
+  background: #ffffff;
+  color: #21302a;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(33, 48, 42, 0.06);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.lh-card strong {
+  display: block;
+  font-size: 1.01rem;
+  letter-spacing: -0.02em;
+}
+
+.lh-card small {
+  color: #59665f;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.lh-card .lh-meta {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.lh-card .lh-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.96rem;
+  background: #f1f4f1;
+}
+
+.lh-card.is-red .lh-icon { background: #fdeceb; color: #c8524a; }
+.lh-card.is-green .lh-icon { background: #e7f5ec; color: #2f8f5b; }
+.lh-card.is-blue .lh-icon { background: #eaf2fb; color: #2f74c0; }
+.lh-card.is-orange .lh-icon { background: #fff1df; color: #d9842b; }
+.lh-card.is-purple .lh-icon { background: #f1ecfb; color: #7554b8; }
+
+.lh-card .lh-tag {
+  font-size: 0.76rem;
+  color: #6f7d74;
+  background: #f6f4ec;
+  border: 1px solid #e3ecde;
+  border-radius: 999px;
+  padding: 4px 8px;
+}
+
+.lh-card .lh-desc {
+  color: #66736c;
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.lh-card:hover,
+.lh-card:focus-visible {
+  border-color: #c6d3c8;
+  transform: translateY(-1px);
+}
+
+.renewal-fallback {
+  margin: 0;
+  color: #66736c;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 720px) {
+  .quick-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+
+
+
