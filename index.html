@@ -1,70 +1,108 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>磐田ライフハック｜磐田市の手続き・相談先・防災・介護・住まい</title>
-<meta name="description" content="磐田市の手続き、相談先、防災、子育て、介護、住まいを目的別に整理する非公式ナビです。詳細・最新情報は公式ページで確認してください。磐田市公式サイトではない案内ページです。詳細・申請・最新情報は必ず公式ページで確認してください。">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<!-- PART:head-css:START -->
-<link rel="stylesheet" href="/assets/site.css?v=20260706c">
-<link rel="stylesheet" href="/assets/renewal.css?v=20260707">
-<!-- PART:head-css:END -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>磐田ライフハック｜磐田で困ったら、まずここ。</title>
+  <meta name="description" content="磐田市のごみ、病院、引っ越し、親の介護、実家・空き家を、公式情報へ進む前に探しやすく整理する非公式ガイドです。">
+  <style>
+    :root{--bg:#f7f5ed;--ink:#21302a;--muted:#66736c;--line:#dfe6dc;--green:#2f8f5b;--blue:#2f74c0;--orange:#d9842b;--red:#c8524a;--purple:#7554b8;--shadow:0 12px 30px rgba(33,48,42,.08)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;color:var(--ink);background:radial-gradient(circle at top left,rgba(47,143,91,.14),transparent 30rem),var(--bg);line-height:1.7}
+    a{color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:auto}
+    header{position:sticky;top:0;background:rgba(247,245,237,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:10}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0}.brand{font-weight:900}.nav a{font-size:13px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 10px;color:var(--muted)}
+    .hero{padding:44px 0 18px}.hero-box{background:#fff;border:1px solid var(--line);border-radius:32px;padding:clamp(24px,5vw,44px);box-shadow:var(--shadow)}
+    .eyebrow{display:inline-flex;background:#e7f5ec;color:var(--green);border-radius:999px;padding:6px 12px;font-weight:800;font-size:13px}
+    h1{font-size:clamp(36px,7vw,64px);line-height:1.08;letter-spacing:-.06em;margin:16px 0 10px}p{margin:0;color:var(--muted)}
+    .search{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.search input{flex:1 1 280px;min-height:50px;border:1px solid var(--line);border-radius:16px;padding:0 16px;font:inherit}.search button{min-height:50px;border:0;border-radius:16px;background:var(--green);color:#fff;font-weight:900;padding:0 18px}
+    section{padding:18px 0}h2{font-size:clamp(24px,4vw,34px);line-height:1.25;letter-spacing:-.04em;margin:0 0 12px}.grid{display:grid;gap:14px}.cards{grid-template-columns:repeat(4,1fr)}
+    .card{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:24px;padding:17px;box-shadow:0 8px 22px rgba(33,48,42,.06)}.card span{font-size:28px}.card strong{display:block;font-size:17px;margin:8px 0 2px}.card small{display:block;color:var(--muted);font-size:13px}
+    .red{border-top:5px solid var(--red)}.blue{border-top:5px solid var(--blue)}.green{border-top:5px solid var(--green)}.orange{border-top:5px solid var(--orange)}.purple{border-top:5px solid var(--purple)}
+    .choices{grid-template-columns:repeat(2,1fr)}.choice{display:flex;justify-content:space-between;gap:12px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px 16px;font-weight:800}
+    .feature{grid-template-columns:repeat(2,1fr)}.feature article,.notice,.more{background:#fff;border:1px solid var(--line);border-radius:24px;padding:20px}.feature p{margin:6px 0 12px}.link{font-weight:900;color:var(--green);text-decoration:none}.notice{border-left:6px solid var(--green)}
+    .more{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:#21302a;color:#fff}.more p{color:rgba(255,255,255,.75)}.more a{background:#fff;color:#21302a;text-decoration:none;border-radius:14px;padding:10px 13px;font-weight:900}
+    footer{padding:26px 0 40px;color:var(--muted);font-size:13px}@media(max-width:850px){.cards,.choices,.feature{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}}
+  </style>
 </head>
-<body class="hub home">
-<!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span></div></header><!-- PART:header:END -->
-<div class="notice"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。暮らしの手続きや相談先を探しやすく整理し、最後は必ず公式ページへ案内します。</div></div>
-<main id="main"><div class="wrap">
-<section class="hero"><p class="eyebrow">磐田市の暮らしと手続きが、すぐわかる</p><h1>磐田市の手続きや相談先を、暮らしの場面から探す</h1><p class="lead">住民票、税金、ごみ、子育て、介護、空き家、おくやみなど、磐田市の公式情報へ進むための入口を整理しています。</p></section>
-<section class="site-search" aria-labelledby="search-title"><label id="search-title" for="site-search-input">調べたい言葉を入力してください</label><form class="search-row" role="search" action="/" method="get" onsubmit="return iwataSiteSearch(event)"><input id="site-search-input" name="q" type="search" list="search-examples" placeholder="例：住民票、粗大ごみ、介護認定"><button type="submit">探す</button></form><datalist id="search-examples"><option value="住民票"><option value="粗大ごみ"><option value="介護認定"><option value="相続"><option value="税金が払えない"><option value="死亡後の手続き"><option value="空き家"></datalist><p class="mini">見出し・カテゴリ・要約から検索します。</p><div class="search-results" id="search-results" aria-live="polite"></div></section>
-<section class="renewal-quick">
-  <h2>今すぐ使える入口</h2>
-  <p class="lead">困りごとに近い入口から、最短で公式情報へ進めます。</p>
-  <div class="quick-grid" data-lifehack-cards>
-    <p class="renewal-fallback">読み込み中...</p>
-  </div>
-</section>
-<section id="category-links"><h2>暮らしの場面・目的から選ぶ</h2><p class="lead">13カテゴリは、磐田市で暮らす場面ごとに手続きや相談先を探すための入口です。</p><div class="category-accordion"><details class="category" data-id="living-soon"><summary><span class="topic-icon" aria-hidden="true">🏡</span><span class="card-text"><span class="card-title">これから暮らす</span><span class="card-desc">磐田市への移住や住み始める前の不安を、学校区、交通、災害リスク、暮らしやすさの入口に分けて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/living-soon/about-iwata/">磐田の暮らしを知る</a></li><li><a href="/life/living-soon/bus-license-return/">免許返納後の移動手段</a></li><li><a href="/life/living-soon/disaster-risk/">災害リスクを確認</a></li><li><a href="/life/living-soon/moving-decided/">引っ越し前後のスケジュール</a></li><li><a href="/life/living-soon/school-districts/">学校区を知りたい</a></li><li><a href="/life/living-soon/transportation/">磐田の交通手段</a></li><li><a href="/life/living-soon/want-to-live/">磐田市に住みたい</a></li><li class="subitems-more"><a href="/life/living-soon/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="start-living"><summary><span class="topic-icon" aria-hidden="true">🧭</span><span class="card-text"><span class="card-title">暮らし始めた</span><span class="card-desc">転入直後に必要になりやすい住所変更、証明書、水道、ごみ、ペット、市役所窓口をまとめて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/start-living/bulky-garbage-dropoff/">粗大ごみの持ち込み・回収</a></li><li><a href="/life/start-living/certificates/">住民票・証明書</a></li><li><a href="/life/start-living/city-hall-branches/">市役所の窓口案内</a></li><li><a href="/life/start-living/dog-registration/">犬の登録・鑑札</a></li><li><a href="/life/start-living/dog-registration-rabies/">狂犬病予防注射</a></li><li><a href="/life/start-living/garbage-sorting-calendar/">ごみ分別・収集日</a></li><li><a href="/life/start-living/how-to-garbage/">ごみの出し方</a></li><li><a href="/life/start-living/moved-in/">転入後の手続き一覧</a></li><li><a href="/life/start-living/moving-address-change/">転入・住所変更</a></li><li><a href="/life/start-living/mynumber/">マイナンバーカード</a></li><li><a href="/life/start-living/pets-lost-animals/">迷子のペット</a></li><li><a href="/life/start-living/public-transit/">バス・電車での移動</a></li><li><a href="/life/start-living/resident-registration/">住民票を今すぐ取得</a></li><li><a href="/life/start-living/water-sewer/">水道料金の仕組み</a></li><li><a href="/life/start-living/water-start-stop-fees/">水道の開始・中止</a></li><li class="subitems-more"><a href="/life/start-living/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="housing"><summary><span class="topic-icon" aria-hidden="true">🏠</span><span class="card-text"><span class="card-title">家・住まい</span><span class="card-desc">住まい探し、固定資産税、空き家、親の家の整理など、家に関する手続きと相談先を分けて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/housing/build-house/">家を建てる</a></li><li><a href="/life/housing/buy-house/">家を買う</a></li><li><a href="/life/housing/clean-parents-house/">実家を整理したい</a></li><li><a href="/life/housing/earthquake-demolition/">耐震・解体</a></li><li><a href="/life/housing/municipal-housing/">市営住宅</a></li><li><a href="/life/housing/property-tax/">固定資産税（土地・家屋）</a></li><li><a href="/life/housing/public-housing-consultation/">住まいの困りごと相談</a></li><li><a href="/life/housing/rent-house/">賃貸探し</a></li><li><a href="/life/housing/sell-house/">家を売りたい</a></li><li><a href="/life/housing/vacant-house/">空き家がある</a></li><li class="subitems-more"><a href="/life/housing/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="family-grow"><summary><span class="topic-icon" aria-hidden="true">👶</span><span class="card-text"><span class="card-title">家族が増える</span><span class="card-desc">結婚、妊娠、出産、子育て支援、保育園、相談先を、家族の変化に合わせて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/family-grow/child-allowance/">児童手当</a></li><li><a href="/life/family-grow/child-allowance-medical/">児童手当・こども医療費</a></li><li><a href="/life/family-grow/child-vaccination/">子どもの予防接種</a></li><li><a href="/life/family-grow/childbirth/">子どもが生まれた</a></li><li><a href="/life/family-grow/developmental-support/">子どもの発達相談</a></li><li><a href="/life/family-grow/infant-health-check/">乳幼児健診</a></li><li><a href="/life/family-grow/marriage/">結婚・婚姻届</a></li><li><a href="/life/family-grow/nursery-childcare/">一時預かり</a></li><li><a href="/life/family-grow/nursery-school/">保育園を探す</a></li><li><a href="/life/family-grow/parenting-support/">子育ての相談</a></li><li><a href="/life/family-grow/pregnancy/">妊娠した</a></li><li><a href="/life/family-grow/single-parent-support/">ひとり親家庭の支援</a></li><li class="subitems-more"><a href="/life/family-grow/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="play-out"><summary><span class="topic-icon" aria-hidden="true">🌳</span><span class="card-text"><span class="card-title">遊ぶ・使う・出かける</span><span class="card-desc">公園、図書館、文化施設、スポーツ施設、公共施設予約など、出かける前に確認したい入口をまとめています。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/play-out/cultural-facilities/">文化施設</a></li><li><a href="/life/play-out/facilities-library-parks/">公共施設ガイド</a></li><li><a href="/life/play-out/find-parks/">公園を探したい</a></li><li><a href="/life/play-out/kids-playgrounds/">子どもの遊び場</a></li><li><a href="/life/play-out/parking-access/">駐車場・アクセス</a></li><li><a href="/life/play-out/rent-public-facilities/">公共施設を借りたい</a></li><li><a href="/life/play-out/sports-facilities/">スポーツ施設</a></li><li><a href="/life/play-out/swimming-pools/">プール</a></li><li><a href="/life/play-out/visit-library/">図書館へ行きたい</a></li><li class="subitems-more"><a href="/life/play-out/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="education"><summary><span class="topic-icon" aria-hidden="true">🎒</span><span class="card-text"><span class="card-title">学ぶ・育つ</span><span class="card-desc">学校、学区、転校、給食、就学援助、放課後児童クラブなど、子どもの学びに関する入口を確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/education/after-school-club/">放課後児童クラブ</a></li><li><a href="/life/education/educational-consulting/">教育相談</a></li><li><a href="/life/education/elementary-middle-school/">小学校・中学校</a></li><li><a href="/life/education/school-attendance-support/">就学の相談・支援</a></li><li><a href="/life/education/school-district-transfer/">転校・学区変更</a></li><li><a href="/life/education/school-expense-support/">就学援助（学校費用）</a></li><li><a href="/life/education/school-meals/">学校給食</a></li><li><a href="/life/education/school-zones/">通学区域</a></li><li><a href="/life/education/study-facilities/">学習スペース</a></li><li class="subitems-more"><a href="/life/education/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="health-medical"><summary><span class="topic-icon" aria-hidden="true">🏥</span><span class="card-text"><span class="card-title">健康・医療</span><span class="card-desc">病院探し、休日・夜間の医療、健診、予防接種、障害福祉、こころの相談先を分けて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/health-medical/adult-vaccination/">おとなの予防接種</a></li><li><a href="/life/health-medical/cancer-specific-checkups/">がん検診</a></li><li><a href="/life/health-medical/dental-care/">歯科・口の健康</a></li><li><a href="/life/health-medical/disability-services/">障がい福祉サービスの窓口</a></li><li><a href="/life/health-medical/disability-welfare/">障がい者の手当・助成</a></li><li><a href="/life/health-medical/find-hospitals/">病院を探したい</a></li><li><a href="/life/health-medical/health-checkups/">健診を確認</a></li><li><a href="/life/health-medical/health-promotion/">健康づくり相談</a></li><li><a href="/life/health-medical/holiday-night-emergency-care/">休日・夜間の当番医</a></li><li><a href="/life/health-medical/mental-health-consulting/">こころの相談</a></li><li><a href="/life/health-medical/night-holiday-medical/">救急診療所の連絡先</a></li><li><a href="/life/health-medical/vaccinations/">予防接種スケジュール</a></li><li class="subitems-more"><a href="/life/health-medical/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="work-life"><summary><span class="topic-icon" aria-hidden="true">💴</span><span class="card-text"><span class="card-title">働く・暮らす</span><span class="card-desc">税金、国保、年金、就職、起業、農業、補助金など、働くことと暮らしのお金に関わる入口を確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/work-life/city-tax-payment/">市税の納付方法</a></li><li><a href="/life/work-life/job-change/">就職・転職</a></li><li><a href="/life/work-life/job-recruitment/">市職員採用</a></li><li><a href="/life/work-life/light-vehicle-tax/">軽自動車税</a></li><li><a href="/life/work-life/my-number-card/">マイナンバーカードの申請窓口</a></li><li><a href="/life/work-life/national-health-insurance-tax/">国保・保険料</a></li><li><a href="/life/work-life/nhk-pension/">国保・年金の資格喪失手続き</a></li><li><a href="/life/work-life/resident-tax/">住民税</a></li><li><a href="/life/work-life/start-business/">起業・創業支援</a></li><li><a href="/life/work-life/start-farming/">就農相談</a></li><li><a href="/life/work-life/subsidies/">補助金申請</a></li><li><a href="/life/work-life/tax/">税金</a></li><li><a href="/life/work-life/tax-certificates/">税の証明書</a></li><li><a href="/life/work-life/tax-guide/">税金の相談窓口</a></li><li class="subitems-more"><a href="/life/work-life/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="parents-care"><summary><span class="topic-icon" aria-hidden="true">👵</span><span class="card-text"><span class="card-title">親のこと</span><span class="card-desc">親の様子が気になるとき、介護認定、地域包括支援センター、認知症相談、介護施設の入口を確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/parents-care/adult-guardianship/">成年後見制度</a></li><li><a href="/life/parents-care/care-certification-support-center/">介護認定</a></li><li><a href="/life/parents-care/care-started/">介護が急に始まったとき</a></li><li><a href="/life/parents-care/check-parents/">親の様子が気になる</a></li><li><a href="/life/parents-care/community-support-center/">地域包括支援センター</a></li><li><a href="/life/parents-care/dementia-consultation/">認知症の相談</a></li><li><a href="/life/parents-care/elderly-transportation/">高齢者の移動手段</a></li><li><a href="/life/parents-care/find-nursing-home/">介護施設を探す</a></li><li><a href="/life/parents-care/long-term-care-insurance/">要介護認定の申請</a></li><li class="subitems-more"><a href="/life/parents-care/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="emergency"><summary><span class="topic-icon" aria-hidden="true">⚠️</span><span class="card-text"><span class="card-title">もしもの時</span><span class="card-desc">台風、大雨、地震、避難所、ハザードマップ、罹災証明、救急など、急ぎの確認先を分けて見られます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/emergency/disaster-certificates-procedures/">り災証明書・被災後の手続き</a></li><li><a href="/life/emergency/disaster-mail-line/">防災メール・LINE登録</a></li><li><a href="/life/emergency/earthquake/">地震・津波の備え</a></li><li><a href="/life/emergency/emergency-medical/">救急・医療</a></li><li><a href="/life/emergency/evacuation-centers/">避難所</a></li><li><a href="/life/emergency/evacuation-hazard-map/">避難のタイミング</a></li><li><a href="/life/emergency/fire-ambulance/">119番通報</a></li><li><a href="/life/emergency/hazard-maps/">ハザードマップ</a></li><li><a href="/life/emergency/pet-disaster-prevention/">ペットとの避難</a></li><li><a href="/life/emergency/road-river-info/">通行止め・河川水位</a></li><li><a href="/life/emergency/storm-heavy-rain/">台風・大雨</a></li><li class="subitems-more"><a href="/life/emergency/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="troubles-consult"><summary><span class="topic-icon" aria-hidden="true">🧩</span><span class="card-text"><span class="card-title">困った・相談したい</span><span class="card-desc">生活費、税金、法律、消費生活、子ども、介護、障害、空き家など、困りごと別に相談先を探せます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/troubles-consult/animal-pet-consultation/">動物・ペットの相談</a></li><li><a href="/life/troubles-consult/cannot-pay-tax/">税金が払えない</a></li><li><a href="/life/troubles-consult/care-consultation/">介護の相談窓口</a></li><li><a href="/life/troubles-consult/child-consultation/">子どもの相談窓口</a></li><li><a href="/life/troubles-consult/consumer-fraud/">消費生活トラブル</a></li><li><a href="/life/troubles-consult/disability-consultation/">障害の相談窓口</a></li><li><a href="/life/troubles-consult/farmland/">相続した農地</a></li><li><a href="/life/troubles-consult/foreign-resident-consultation/">外国人住民の相談窓口</a></li><li><a href="/life/troubles-consult/legal-general-consultation/">法律相談</a></li><li><a href="/life/troubles-consult/living-costs-trouble/">生活費に困っている</a></li><li><a href="/life/troubles-consult/road-repair-mirror/">道路・街灯の不具合通報</a></li><li><a href="/life/troubles-consult/vacant-house-consultation/">実家・空き家の相談</a></li><li class="subitems-more"><a href="/life/troubles-consult/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="end-of-life"><summary><span class="topic-icon" aria-hidden="true">🕊️</span><span class="card-text"><span class="card-title">人生の終わり</span><span class="card-desc">死亡後の手続き、相続、年金、固定資産税、実家や空き家の整理を、急ぐものと後日進めるものに分けて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/end-of-life/after-death-procedures/">死亡後の手続き一覧</a></li><li><a href="/life/end-of-life/bereavement/">家族が亡くなった</a></li><li><a href="/life/end-of-life/bereavement-procedures/">おくやみ手続き</a></li><li><a href="/life/end-of-life/grave-memorial/">お墓・供養</a></li><li><a href="/life/end-of-life/house-became-vacant/">空き家になった</a></li><li><a href="/life/end-of-life/inheritance/">相続</a></li><li><a href="/life/end-of-life/inherited-house/">相続した家の使い道</a></li><li><a href="/life/end-of-life/inherited-vacant-house/">相続した空き家</a></li><li><a href="/life/end-of-life/pension-inheritance/">年金の手続き（死亡後）</a></li><li><a href="/life/end-of-life/property-tax-inheritance/">固定資産税の相続手続き</a></li><li class="subitems-more"><a href="/life/end-of-life/">この分野についてもっと詳しく見る</a></li></ul></details><details class="category" data-id="moving-out"><summary><span class="topic-icon" aria-hidden="true">📦</span><span class="card-text"><span class="card-title">新しい場所へ</span><span class="card-desc">磐田市から引っ越すときの転出届、水道停止、粗大ごみ、学校・保育園、犬の登録変更をまとめて確認できます。</span></span><span class="acc-arrow" aria-hidden="true"></span></summary><ul class="subitems"><li><a href="/life/moving-out/bulk-garbage-cleaning/">粗大ごみ・片付け</a></li><li><a href="/life/moving-out/dog-ownership-change/">犬の登録変更</a></li><li><a href="/life/moving-out/move-out-notice/">転出届</a></li><li><a href="/life/moving-out/moving-away/">引っ越し手続き一覧</a></li><li><a href="/life/moving-out/school-nursery-procedures/">子どもの転校・転園</a></li><li><a href="/life/moving-out/stop-water/">水道を止める</a></li><li class="subitems-more"><a href="/life/moving-out/">この分野についてもっと詳しく見る</a></li></ul></details></div></section>
-<div class="notice notice-gap"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。制度・申請・受付時間の最新情報は、必ず<a href="https://www.city.iwata.shizuoka.jp/">磐田市公式ページ</a>で確認してください。</div></div>
-<section class="company-strip">
-<h2>住まい・空き家のご相談窓口</h2>
-<p>相続した実家や空き家、親の住まいのことで迷ったら、公式の制度確認とあわせて専門の相談窓口も活用できます。</p>
-<div class="company-grid">
-<div class="company-card"><h3>富士ヶ丘サービス（不動産）</h3><p>空き家や相続した実家の売却・整理を、地域密着で相談できます。</p><a class="btn btn-main" href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener">不動産ページを見る</a></div>
-<div class="company-card"><h3>富士ヶ丘サービス（介護）</h3><p>高齢者向け住宅や親の住まいのことを、介護の視点から相談できます。</p><a class="btn btn-main" href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener">介護ページを見る</a></div>
-<div class="company-card"><h3>公式情報</h3><p>制度の詳細や申請の可否は、必ず磐田市公式ページまたは担当窓口でご確認ください。</p><a class="btn btn-main" href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトを見る</a></div>
-</div>
-</section>
-</div></main><script type="module" src="/assets/search-app.js?v=20260704"></script>
-<script defer src="/assets/renewal.js?v=20260707"></script><!-- PART:footer:START --><style>.enshu-footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px}.enshu-footer h3,.enshu-footer .footer-brand h2{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}.enshu-footer p{margin:0 0 8px}.enshu-footer ul{list-style:none;margin:0;padding:0}.enshu-footer li{margin:4px 0}.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}.enshu-footer a{min-height:44px;padding:6px 4px;margin:-6px -4px}.enshu-footer .footer-munis a{min-height:44px;padding:8px 10px;margin:-8px -10px}.footer-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto;font-size:1rem;margin-right:.35rem}.footer-favicon{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-left:4px;border-radius:2px}.enshu-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);margin-top:6px;padding-top:14px;text-align:center}.enshu-footer .footer-bottom>p>a{display:inline-flex;justify-content:center}.enshu-footer .footer-munis{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:8px}.enshu-footer .footer-munis a{white-space:nowrap}.enshu-footer .footer-subheading{margin-top:14px}.enshu-footer .footer-network{padding-left:14px}@media(max-width:720px){.enshu-footer .wrap{grid-template-columns:1fr}.enshu-footer .footer-network{padding-left:0}}</style>
-<footer class="site enshu-footer"><div class="wrap">
-<section class="footer-brand" aria-labelledby="footer-title">
-<h2 id="footer-title"><a href="https://enshu-lifehack.com/">遠州ライフハック</a></h2>
-<p>遠州ライフハックは、磐田・袋井・掛川・森町・菊川・御前崎・湖西・浜松の各市町版ライフハックを束ねるプロジェクト名です。</p>
-<p>運営：富士ヶ丘サービス株式会社 / 電話番号 0538-31-3308</p>
-<p>住民票やごみ、税金、子育て、介護、空き家など、暮らしの手続きや相談先を公式情報をもとに整理した非公式の道しるべです。最終的な判断は必ず各市町の公式ページでご確認ください。</p>
-<p>暮らしの場面や困りごとから探せるよう、ページ内の検索や各カテゴリからいつでも入口を選べます。掲載内容に気づいた点があれば、各ページ下部のフィードバックからお寄せください。</p>
-<p>同じ遠州地域でも、市町によって窓口の場所やごみの出し方、助成制度の内容は少しずつ異なります。引っ越しや相続、空き家の管理などで「まず何から確認すればいいか」に迷ったときの入口としてお使いください。</p>
-</section>
-<section class="footer-network" aria-labelledby="footer-active">
-<h3 id="footer-active">くらしの知恵袋</h3>
-<ul><li><a href="https://iwata.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌱</span><span>磐田ライフハック</span><img src="/favicons/iwata.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://fukuroi.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🍈</span><span>袋井ライフハック</span><img src="/favicons/fukuroi.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://kakegawa.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🍵</span><span>掛川ライフハック</span><img src="/favicons/kakegawa.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://morimachi.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌲</span><span>森町ライフハック</span><img src="/favicons/mori.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://kikugawa.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌼</span><span>菊川ライフハック</span><img src="/favicons/kikugawa.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://omaezaki.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌊</span><span>御前崎ライフハック</span><img src="/favicons/omaezaki.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://kosai.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌅</span><span>湖西ライフハック</span><img src="/favicons/kosai.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li><li><a href="https://hamamatsu.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🎹</span><span>浜松ライフハック</span><img src="/favicons/hamamatsu.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li></ul>
-<h3 class="footer-subheading">まちの物語</h3>
-<ul><li><a href="https://iwata-monogatari.net/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">📜</span><span>磐田物語</span></a></li></ul>
-</section>
-<section class="footer-related" aria-labelledby="footer-related-title">
-<h3 id="footer-related-title">関連サイト</h3>
-<ul><li><a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">🏠</span><span>富士ヶ丘サービス（不動産）</span></a></li><li><a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">👵</span><span>富士ヶ丘サービス（介護）</span></a></li><li><a href="https://hiroyukio0122.wixsite.com/for202904" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">🗳️</span><span>磐田市政、ちょっと一言。</span></a></li><li><a href="https://note.com/fujigaoka_oishi" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">📝</span><span>note（大石浩之）</span></a></li><li><a href="https://iwata-monogatari.github.io/fujigaoka-jikka-soudan/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">🧹</span><span>実家じまい・空き家相談室</span></a></li><li><a href="https://iwata-monogatari.github.io/fujigaoka-souzoku-soudan/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">🧾</span><span>相続はじめ・空き家相談室</span></a></li><li><a href="https://atawimusic.link/" target="_blank" rel="noopener"><span class="footer-emoji" aria-hidden="true">🎵</span><span>ATAWI MUSIC</span></a></li></ul>
-</section>
-<div class="footer-bottom">
-<p>© 富士ヶ丘サービス株式会社／無断転載・複製を禁じます</p>
-<p><a href="/terms/">磐田ライフハック利用規約</a></p>
-<nav class="footer-munis" aria-label="遠州地域の市町公式サイト"><a href="https://www.city.iwata.shizuoka.jp/">磐田市公式サイト</a><a href="https://www.city.fukuroi.shizuoka.jp/">袋井市公式サイト</a><a href="https://www.city.kakegawa.shizuoka.jp/">掛川市公式サイト</a><a href="https://www.town.morimachi.shizuoka.jp/">森町公式サイト</a><a href="https://www.city.kikugawa.shizuoka.jp/">菊川市公式サイト</a><a href="https://www.city.omaezaki.shizuoka.jp/">御前崎市公式サイト</a><a href="https://www.city.kosai.shizuoka.jp/">湖西市公式サイト</a><a href="https://www.city.hamamatsu.shizuoka.jp/">浜松市公式サイト</a></nav>
-</div>
-</div></footer><!-- PART:footer:END --></body></html>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">磐田ライフハック</div>
+      <nav><a href="/categories/">詳しく探す</a><a href="/about/">このサイトについて</a></nav>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="wrap hero-box">
+        <span class="eyebrow">磐田市公式へ行く前の入口</span>
+        <h1>磐田で困ったら、まずここ。</h1>
+        <p>ごみ、病院、引っ越し、親のこと。知りたいことを、入口から選べます。</p>
+        <form class="search" action="/search/" method="get">
+          <input name="q" type="search" placeholder="例：粗大ごみ、介護、空き家">
+          <button type="submit">探す</button>
+        </form>
+      </div>
+    </section>
 
+    <section>
+      <div class="wrap">
+        <h2>まず、近いものを選ぶ</h2>
+        <div class="grid cards">
+          <a class="card red" href="/pages/emergency.html"><span>🚑</span><strong>今すぐ困った</strong><small>病院・避難所</small></a>
+          <a class="card blue" href="/pages/moving.html"><span>📦</span><strong>引っ越し</strong><small>住民票・水道</small></a>
+          <a class="card green" href="/pages/daily-life.html"><span>🗑️</span><strong>ごみ・暮らし</strong><small>分別・粗大ごみ</small></a>
+          <a class="card green" href="/pages/family-care.html"><span>🤝</span><strong>親が心配</strong><small>介護・見守り</small></a>
+          <a class="card purple" href="/pages/vacant-home.html"><span>🏠</span><strong>実家・空き家</strong><small>片付け・相続</small></a>
+          <a class="card orange" href="/pages/kids-school.html"><span>🎒</span><strong>子ども・学校</strong><small>保育・図書館</small></a>
+          <a class="card blue" href="/pages/money.html"><span>💴</span><strong>お金・保険</strong><small>税金・国保</small></a>
+          <a class="card" href="/pages/consultation.html"><span>💬</span><strong>相談したい</strong><small>生活・法律</small></a>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="wrap">
+        <h2>どれに近い？</h2>
+        <div class="grid choices">
+          <a class="choice" href="/pages/family-care.html">親や祖父母が心配 <span>→</span></a>
+          <a class="choice" href="/pages/vacant-home.html">実家が空きそう <span>→</span></a>
+          <a class="choice" href="/pages/emergency.html">急ぎで確認したい <span>→</span></a>
+          <a class="choice" href="/pages/consultation.html">相談先がわからない <span>→</span></a>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="wrap grid feature">
+        <article>
+          <h2>親のこと</h2>
+          <p>施設を探す前に、相談先・介護認定・住まいを整理します。</p>
+          <a class="link" href="/pages/family-care.html">まず整理する →</a>
+        </article>
+        <article>
+          <h2>実家のこと</h2>
+          <p>売る、貸す、片付ける前に、家族で確認することを整理します。</p>
+          <a class="link" href="/pages/vacant-home.html">空き家を考える →</a>
+        </article>
+      </div>
+    </section>
 
+    <section>
+      <div class="wrap notice">磐田市公式サイトではありません。制度・申請・受付時間は、必ず公式ページで確認してください。</div>
+    </section>
 
+    <section>
+      <div class="wrap more">
+        <p><strong>詳しいリンク集へ</strong><br>従来の13カテゴリは別ページにまとめます。</p>
+        <a href="/categories/">13カテゴリを見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">運営：富士ヶ丘サービス株式会社</div>
+  </footer>
+</body>
+</html>
