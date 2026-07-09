@@ -30,6 +30,22 @@ body:not(.hub) .breadcrumb{font-size:13px;margin:0 0 10px}
 body:not(.hub) .hero{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:10px 0 18px}
 body:not(.hub) .hero-visual{min-height:155px;background:linear-gradient(135deg,rgba(0,116,174,.94),rgba(21,80,60,.84)),radial-gradient(circle at 20% 35%,rgba(255,255,255,.28),transparent 30%),linear-gradient(0deg,#e9f4f7,#fff);color:#fff;padding:22px 18px;display:flex;align-items:flex-end}
 body:not(.hub) .hero-visual h1{color:#fff;margin:0;font-size:29px;line-height:1.28;max-width:660px;text-shadow:0 1px 8px rgba(0,0,0,.18)}
+body:not(.hub) .checklist-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:18px 0}
+body:not(.hub) .checklist-box.is-complete{border-color:var(--green);background:#f3faf6}
+body:not(.hub) .checklist-progress{margin:0 0 16px}
+body:not(.hub) .checklist-progress-track{background:#eef1ee;border-radius:999px;height:12px;overflow:hidden}
+body:not(.hub) .checklist-progress-bar{background:var(--green);height:100%;width:0;transition:width .25s ease}
+body:not(.hub) .checklist-progress-label{margin:8px 0 0;font-weight:800;color:var(--green-d);font-size:13.5px}
+body:not(.hub) .checklist-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+body:not(.hub) .checklist-item{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px}
+body:not(.hub) .checklist-item.is-done{background:#f3faf6;border-color:#cfe5da}
+body:not(.hub) .checklist-item.is-done .checklist-text{text-decoration:line-through;color:var(--mut)}
+body:not(.hub) .checklist-label{display:flex;align-items:center;gap:10px;cursor:pointer;flex:1;min-width:0}
+body:not(.hub) .checklist-check{width:22px;height:22px;flex:0 0 auto;accent-color:var(--green)}
+body:not(.hub) .checklist-text{font-weight:700;font-size:14.5px}
+body:not(.hub) .checklist-link{flex:0 0 auto;font-size:12.5px;font-weight:800;color:var(--green-d);white-space:nowrap;min-height:44px;display:flex;align-items:center;padding:0 4px}
+body:not(.hub) .checklist-note{margin:14px 0 0}
+@media(max-width:480px){body:not(.hub) .checklist-item{flex-wrap:wrap}}
 body:not(.hub) .share-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0}
 body:not(.hub) .share-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 body:not(.hub) .share-btn{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;padding:10px 14px;font-weight:800;text-align:center;border:1.5px solid var(--line);background:#fff;color:var(--green-d);cursor:pointer;font-family:inherit;font-size:14px}

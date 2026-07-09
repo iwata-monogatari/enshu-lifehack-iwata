@@ -1,0 +1,62 @@
+{
+  "checklists": [
+    {
+      "slug": "moved-in",
+      "emoji": "🏡",
+      "title": "磐田市に引っ越してきた",
+      "lead": "転入届からマイナンバー、水道、ごみ、学校・保育園まで。引っ越し後にやることを順番にチェックできます。",
+      "tasks": [
+        { "id": "notice", "label": "転入届を出す", "href": "/life/start-living/moving-address-change/" },
+        { "id": "mynumber", "label": "マイナンバーカードの住所変更をする", "href": "/life/start-living/mynumber/" },
+        { "id": "water", "label": "水道の使用を開始する", "href": "/life/start-living/water-start-stop-fees/" },
+        { "id": "garbage-how", "label": "ごみの出し方を確認する", "href": "/life/start-living/how-to-garbage/" },
+        { "id": "garbage-calendar", "label": "ごみ収集カレンダーを入手する", "href": "/life/start-living/garbage-sorting-calendar/" },
+        { "id": "school", "label": "（子どもがいる場合）通学区域を確認する", "href": "/life/living-soon/school-districts/" },
+        { "id": "nursery", "label": "（未就学児がいる場合）保育園を探す", "href": "/life/family-grow/nursery-school/" },
+        { "id": "dog", "label": "（犬を飼っている場合）登録・住所変更をする", "href": "/life/start-living/dog-registration/" }
+      ]
+    },
+    {
+      "slug": "married",
+      "emoji": "💍",
+      "title": "結婚した",
+      "lead": "婚姻届の提出から、氏名・住所変更に伴う各種手続き、税・保険まで。結婚後にやることを順番にチェックできます。",
+      "tasks": [
+        { "id": "notice", "label": "婚姻届を提出する", "href": "/life/family-grow/marriage/" },
+        { "id": "mynumber", "label": "マイナンバーカードの氏名・住所変更をする", "href": "/life/start-living/mynumber/" },
+        { "id": "insurance", "label": "健康保険（国保）の変更を確認する", "href": "/life/work-life/national-health-insurance-tax/" },
+        { "id": "pension", "label": "年金の氏名変更・手続きを確認する", "href": "/life/work-life/nhk-pension/" },
+        { "id": "resident-tax", "label": "住民税の氏名・宛先変更を確認する", "href": "/life/work-life/resident-tax/" },
+        { "id": "certificates", "label": "印鑑登録・住民票の変更を確認する", "href": "/life/start-living/certificates/" }
+      ]
+    },
+    {
+      "slug": "baby",
+      "emoji": "👶",
+      "title": "子どもが生まれた",
+      "lead": "出生届から児童手当、こども医療費、予防接種まで。出産後にやることを順番にチェックできます。",
+      "tasks": [
+        { "id": "notice", "label": "出生届を提出する", "href": "/life/family-grow/childbirth/" },
+        { "id": "allowance", "label": "児童手当を申請する", "href": "/life/family-grow/child-allowance/" },
+        { "id": "medical", "label": "こども医療費助成を申請する", "href": "/life/family-grow/child-allowance-medical/" },
+        { "id": "vaccination", "label": "予防接種のスケジュールを確認する", "href": "/life/family-grow/child-vaccination/" },
+        { "id": "checkup", "label": "乳幼児健診の予定を確認する", "href": "/life/family-grow/infant-health-check/" },
+        { "id": "nursery", "label": "（復職予定の場合）保育園を探す", "href": "/life/family-grow/nursery-school/" }
+      ]
+    },
+    {
+      "slug": "job-change",
+      "emoji": "💼",
+      "title": "転職した・退職した",
+      "lead": "健康保険・年金の切り替えから住民税、失業給付まで。仕事が変わったときにやることを順番にチェックできます。",
+      "tasks": [
+        { "id": "insurance", "label": "健康保険を切り替える（国保 or 会社の保険）", "href": "/life/work-life/national-health-insurance-tax/" },
+        { "id": "pension", "label": "年金の切り替え手続きをする", "href": "/life/work-life/nhk-pension/" },
+        { "id": "resident-tax", "label": "住民税の支払い方法を確認する", "href": "/life/work-life/resident-tax/" },
+        { "id": "job-consult", "label": "（離職の場合）失業給付・再就職を相談する", "href": "/life/work-life/job-change/" },
+        { "id": "city-tax", "label": "市税の納付方法を確認する", "href": "/life/work-life/city-tax-payment/" },
+        { "id": "mynumber", "label": "マイナンバーカードの手続きを確認する", "href": "/life/work-life/my-number-card/" }
+      ]
+    }
+  ]
+}
