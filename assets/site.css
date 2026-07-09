@@ -30,6 +30,12 @@ body:not(.hub) .breadcrumb{font-size:13px;margin:0 0 10px}
 body:not(.hub) .hero{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:10px 0 18px}
 body:not(.hub) .hero-visual{min-height:155px;background:linear-gradient(135deg,rgba(0,116,174,.94),rgba(21,80,60,.84)),radial-gradient(circle at 20% 35%,rgba(255,255,255,.28),transparent 30%),linear-gradient(0deg,#e9f4f7,#fff);color:#fff;padding:22px 18px;display:flex;align-items:flex-end}
 body:not(.hub) .hero-visual h1{color:#fff;margin:0;font-size:29px;line-height:1.28;max-width:660px;text-shadow:0 1px 8px rgba(0,0,0,.18)}
+body:not(.hub) .share-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0}
+body:not(.hub) .share-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+body:not(.hub) .share-btn{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:12px;padding:10px 14px;font-weight:800;text-align:center;border:1.5px solid var(--line);background:#fff;color:var(--green-d);cursor:pointer;font-family:inherit;font-size:14px}
+body:not(.hub) .share-line{background:#06C755;border-color:#06C755;color:#fff}
+body:not(.hub) .share-copied{margin:10px 0 0;color:var(--green-d);font-weight:700;font-size:13.5px}
+@media(max-width:480px){body:not(.hub) .share-actions{grid-template-columns:1fr}}
 body:not(.hub) .channel-badges{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
 body:not(.hub) .channel-badge{display:inline-flex;align-items:center;gap:4px;min-height:28px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.42);border-radius:999px;padding:5px 12px;font-size:12.5px;font-weight:700;color:#fff}
 body:not(.hub) .channel-badge .emoji{font-size:13px;line-height:1}
