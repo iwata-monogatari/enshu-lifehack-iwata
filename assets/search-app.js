@@ -49,4 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
     runSearch(initial);
   }
   input?.addEventListener('input', () => runSearch(input.value));
+
+  document.querySelectorAll('.search-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const term = chip.getAttribute('data-chip') || '';
+      if (input) input.value = term;
+      runSearch(term);
+      document.getElementById('search-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 });
