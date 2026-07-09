@@ -162,7 +162,7 @@
             "counter": null,
             "cost": null,
             "tel": "0538-37-4751",
-            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html"
           },
           "faq": [
             {
@@ -174,7 +174,7 @@
               "a": "自治デザイン課交通政策グループ(0538-37-4751)へ。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "want-to-live",
@@ -381,7 +381,7 @@
             "counter": "市役所環境課・ごみ資源循環課・各支所市民生活課・地区交流センターで配布",
             "cost": null,
             "tel": "0538-37-4812",
-            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014449/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html"
           },
           "faq": [
             {
@@ -393,7 +393,7 @@
               "a": "磐田市LINE公式アカウントで家庭ごみ収集日のお知らせを受け取れます。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "how-to-garbage",
@@ -1684,7 +1684,7 @@
             "counter": "西庁舎3階 学校教育課で申請書を入手・提出",
             "cost": null,
             "tel": "0538-37-2760",
-            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/soudan_tetsuzuki/1001831/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002403.html"
           },
           "faq": [
             {
@@ -1696,7 +1696,7 @@
               "a": "学区外(区域外)就学の認可基準に該当するか学校教育課へ相談。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "school-expense-support",
@@ -1793,9 +1793,9 @@
             "online": null,
             "konbini": null,
             "counter": "本人確認書類を持参し窓口で利用者登録(無料)",
-            "cost": "登録無料",
+            "cost": "無料(登録・利用とも無料。カード再発行のみ有料)",
             "tel": "0538-32-5254",
-            "source": "https://www.lib-iwata-shizuoka.jp/annai/"
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002404.html"
           },
           "faq": [
             {
@@ -1807,7 +1807,7 @@
               "a": "中央図書館は火〜金9時〜19時、土日祝9時〜17時。休館日は月曜など。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         }
       ]
     },
@@ -1832,7 +1832,7 @@
             "counter": "協力医療機関の窓口で予診票を提出し接種",
             "cost": null,
             "tel": "0538-37-2011",
-            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/1012990/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/kenshin_yobousesshu_soudan/1012978.html"
           },
           "faq": [
             {
@@ -1844,7 +1844,7 @@
               "a": "協力医療機関に直接電話で予約します。費用や対象年齢は制度ごとに異なるため、詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "cancer-specific-checkups",
@@ -2000,7 +2000,7 @@
             "online": "初めて受診する方等は申込フォームから受付可",
             "konbini": null,
             "counter": "指定医療機関または集団バス健診で受診（受診券持参）",
-            "cost": "国保加入者は自己負担1700円、40歳・50歳の方は無料",
+            "cost": "国保加入者は自己負担1,700円、40歳・50歳の方は無料",
             "tel": "0538-37-2011",
             "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/kenshin_yobousesshu_soudan/1012978.html"
           },
@@ -2014,7 +2014,7 @@
               "a": "開業医健診または集団バス健診から選び、申込フォームか電話で申し込みます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "health-promotion",
@@ -2142,7 +2142,7 @@
             "counter": "個別接種協力医療機関で予診票を持参し接種（要予約）",
             "cost": null,
             "tel": "0538-37-2012",
-            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/1009094/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/1009094/1010274.html"
           },
           "faq": [
             {
@@ -2154,7 +2154,7 @@
               "a": "こども未来課子育てサポートグループ（0538-37-2012）や公式サイトの定期予防接種スケジュールで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         }
       ]
     },
@@ -2498,7 +2498,7 @@
             "counter": "市民税課・収納課窓口や金融機関窓口で対応",
             "cost": null,
             "tel": "0538-37-3767",
-            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002371.html"
           },
           "faq": [
             {
@@ -2510,7 +2510,7 @@
               "a": "市民税課諸税管理グループ(0538-37-3767)へ問い合わせ可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "tax-certificates",
@@ -2604,7 +2604,7 @@
               "a": "本人負担が原則ですが、身寄りがなく市長申立てのときは市が負担する場合があります。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "care-certification-support-center",
@@ -3527,7 +3527,7 @@
             "counter": "死亡届提出後、相続人代表者届出等の手続きが必要",
             "cost": null,
             "tel": "0538-37-4816",
-            "source": "https://www.city.iwata.shizuoka.jp/1014568/1014580.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/juuminhyou/1001309.html"
           },
           "faq": [
             {
@@ -3539,7 +3539,7 @@
               "a": "固定資産の名義人が死亡した際に資産税課へ提出する。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "grave-memorial",
@@ -3896,7 +3896,7 @@
             "counter": "転校は学校教育課、転園は幼児教育保育課の窓口へ相談",
             "cost": null,
             "tel": "0538-37-2760",
-            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/soudan_tetsuzuki/1001831/index.html"
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002403.html"
           },
           "faq": [
             {
@@ -3908,7 +3908,7 @@
               "a": "幼児教育保育課（0538-37-4858）へ相談します。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "draft"
+          "conclusion_status": "machine-verified"
         },
         {
           "id": "stop-water",

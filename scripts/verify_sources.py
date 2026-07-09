@@ -97,8 +97,10 @@ def check_item(cat_id, item, issues):
     tel = concl.get("tel")
     if tel:
         digits = tel.replace("-", "")
-        body_digits = re.sub(r"\d", lambda m: m.group(0), body)
-        if tel not in body and digits not in re.sub(r"[^\d]", "", body):
+        local_part = "-".join(tel.split("-")[1:])  # 市外局番(0538)を省略した表記も許容
+        if tel not in body and digits not in re.sub(r"[^\d]", "", body) and (
+            not local_part or local_part not in body
+        ):
             issues.append((item_key, "tel not found in source body: %s" % tel))
             return False
 
