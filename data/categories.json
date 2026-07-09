@@ -7,13 +7,204 @@
       "description": "磐田市への移住や住み始める前の不安を、学校区、交通、災害リスク、暮らしやすさの入口に分けて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/living-soon/",
       "items": [
-        {"id": "about-iwata", "label": "磐田の暮らしを知る", "url": "https://iwata.enshu-lifehack.com/life/living-soon/about-iwata/"},
-        {"id": "bus-license-return", "label": "免許返納後の移動手段", "url": "https://iwata.enshu-lifehack.com/life/living-soon/bus-license-return/"},
-        {"id": "disaster-risk", "label": "災害リスクを確認", "url": "https://iwata.enshu-lifehack.com/life/living-soon/disaster-risk/"},
-        {"id": "moving-decided", "label": "引っ越し前後のスケジュール", "url": "https://iwata.enshu-lifehack.com/life/living-soon/moving-decided/"},
-        {"id": "school-districts", "label": "学校区を知りたい", "url": "https://iwata.enshu-lifehack.com/life/living-soon/school-districts/"},
-        {"id": "transportation", "label": "磐田の交通手段", "url": "https://iwata.enshu-lifehack.com/life/living-soon/transportation/"},
-        {"id": "want-to-live", "label": "磐田市に住みたい", "url": "https://iwata.enshu-lifehack.com/life/living-soon/want-to-live/"}
+        {
+          "id": "about-iwata",
+          "label": "磐田の暮らしを知る",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/about-iwata/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "移住相談はオンラインでも受付",
+            "konbini": null,
+            "counter": "本庁舎4階 政策推進課、要事前連絡",
+            "cost": null,
+            "tel": "0538-37-4805",
+            "source": "https://www.city.iwata.shizuoka.jp/iiwatashi/1014847.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市に住むってどんな感じ?",
+              "a": "子育て支援や移住相談窓口が充実。電話・窓口・オンラインで相談できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田市の移住相談は電話でできる?",
+              "a": "0538-37-4805(政策推進課)で電話相談を受け付け中。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "bus-license-return",
+          "label": "免許返納後の移動手段",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/bus-license-return/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "県内警察署窓口で運転経歴証明書を申請",
+            "cost": "お助け号運賃が半額",
+            "tel": "0538-37-4751",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html"
+          },
+          "faq": [
+            {
+              "q": "免許返納したらお助け号は安くなる?",
+              "a": "運転経歴証明書を提示すると運賃が半額に。免許取消・失効から5年以内が対象。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "免許返納の手続きはどこでする?",
+              "a": "県内の警察署免許窓口で運転経歴証明書を申請する。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "disaster-risk",
+          "label": "災害リスクを確認",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/disaster-risk/",
+          "channels": [
+            "online"
+          ],
+          "conclusion": {
+            "online": "ハザードマップはWebで確認可",
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市のハザードマップはネットで見れる?",
+              "a": "市公式サイトでWeb版ハザードマップを公開。耳で聴くハザードマップもある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "避難所の場所はどこで確認する?",
+              "a": "指定避難所一覧表(PDF)や地区別ページで確認できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "moving-decided",
+          "label": "引っ越し前後のスケジュール",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/moving-decided/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "LINEで転入出届の事前申請可",
+            "konbini": null,
+            "counter": "本庁舎1階市民課、本人確認書類持参",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html"
+          },
+          "faq": [
+            {
+              "q": "引っ越しの届出はオンラインでできる?",
+              "a": "LINE公式アカウントで転入・転出・転居届の事前申請ができる。窓口では最終手続きが必要。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "転入届はどこで手続きする?",
+              "a": "本庁舎1階市民課、または福田・竜洋・豊岡支所で手続きできる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-districts",
+          "label": "学校区を知りたい",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/school-districts/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "通学区域一覧をWebで確認可",
+            "konbini": null,
+            "counter": "西庁舎3階 学校教育課",
+            "cost": null,
+            "tel": "0538-37-2760",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/tsugaku/1004411.html"
+          },
+          "faq": [
+            {
+              "q": "自分の家の学校区はネットで調べられる?",
+              "a": "市公式サイトに小学校の通学区域一覧を掲載。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "学校区について相談したい",
+              "a": "西庁舎3階 学校教育課(0538-37-2760)で相談できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "transportation",
+          "label": "磐田の交通手段",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/transportation/",
+          "channels": [
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-4751",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市内の移動手段は何がある?",
+              "a": "民間路線バス・自主運行バス・タクシーなどが利用できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "バスについて問い合わせたい",
+              "a": "自治デザイン課交通政策グループ(0538-37-4751)へ。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "want-to-live",
+          "label": "磐田市に住みたい",
+          "url": "https://iwata.enshu-lifehack.com/life/living-soon/want-to-live/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "移住相談はオンライン対応あり",
+            "konbini": null,
+            "counter": "本庁舎4階、要事前連絡",
+            "cost": null,
+            "tel": "0538-37-4805",
+            "source": "https://www.city.iwata.shizuoka.jp/iiwatashi/1014847.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市への移住相談はどこでできる?",
+              "a": "本庁舎4階窓口、電話、メール、オンラインで相談できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "移住支援の補助金はある?",
+              "a": "既存住宅取得補助や就業支援金など複数の制度がある。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -23,21 +214,468 @@
       "description": "転入直後に必要になりやすい住所変更、証明書、水道、ごみ、ペット、市役所窓口をまとめて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/start-living/",
       "items": [
-        {"id": "bulky-garbage-dropoff", "label": "粗大ごみの持ち込み・回収", "url": "https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/"},
-        {"id": "certificates", "label": "住民票・証明書", "url": "https://iwata.enshu-lifehack.com/life/start-living/certificates/"},
-        {"id": "city-hall-branches", "label": "市役所の窓口案内", "url": "https://iwata.enshu-lifehack.com/life/start-living/city-hall-branches/"},
-        {"id": "dog-registration", "label": "犬の登録・鑑札", "url": "https://iwata.enshu-lifehack.com/life/start-living/dog-registration/"},
-        {"id": "dog-registration-rabies", "label": "狂犬病予防注射", "url": "https://iwata.enshu-lifehack.com/life/start-living/dog-registration-rabies/"},
-        {"id": "garbage-sorting-calendar", "label": "ごみ分別・収集日", "url": "https://iwata.enshu-lifehack.com/life/start-living/garbage-sorting-calendar/"},
-        {"id": "how-to-garbage", "label": "ごみの出し方", "url": "https://iwata.enshu-lifehack.com/life/start-living/how-to-garbage/"},
-        {"id": "moved-in", "label": "転入後の手続き一覧", "url": "https://iwata.enshu-lifehack.com/life/start-living/moved-in/"},
-        {"id": "moving-address-change", "label": "転入・住所変更", "url": "https://iwata.enshu-lifehack.com/life/start-living/moving-address-change/"},
-        {"id": "mynumber", "label": "マイナンバーカード", "url": "https://iwata.enshu-lifehack.com/life/start-living/mynumber/"},
-        {"id": "pets-lost-animals", "label": "迷子のペット", "url": "https://iwata.enshu-lifehack.com/life/start-living/pets-lost-animals/"},
-        {"id": "public-transit", "label": "バス・電車での移動", "url": "https://iwata.enshu-lifehack.com/life/start-living/public-transit/"},
-        {"id": "resident-registration", "label": "住民票を今すぐ取得", "url": "https://iwata.enshu-lifehack.com/life/start-living/resident-registration/"},
-        {"id": "water-sewer", "label": "水道料金の仕組み", "url": "https://iwata.enshu-lifehack.com/life/start-living/water-sewer/"},
-        {"id": "water-start-stop-fees", "label": "水道の開始・中止", "url": "https://iwata.enshu-lifehack.com/life/start-living/water-start-stop-fees/"}
+        {
+          "id": "bulky-garbage-dropoff",
+          "label": "粗大ごみの持ち込み・回収",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "戸別収集はLINEで電子申請可能",
+            "konbini": null,
+            "counter": "持ち込みは中遠広域粗大ごみ処理施設(磐田市新貝59-1)、袋・箱は持ち帰り",
+            "cost": "持ち込みは車両重量別520円〜、戸別収集は基本1,040円+品物代210円/個",
+            "tel": "0538-37-4812",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html"
+          },
+          "faq": [
+            {
+              "q": "粗大ごみは自分で持ち込める?",
+              "a": "中遠広域粗大ごみ処理施設へ持ち込み可能。料金は車両の最大積載重量で520円〜。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "粗大ごみの回収はLINEで申し込める?",
+              "a": "磐田市公式LINEから戸別収集の電子申請が可能。電話申込は0538-37-4812。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "粗大ごみの回収料金はいくら?",
+              "a": "基本料金1,040円に品物1個につき210円が加算される(家電リサイクル品は別料金)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "certificates",
+          "label": "住民票・証明書",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/certificates/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "スマホ申請で住民票等を郵送取得可能",
+            "konbini": "マイナンバーカードでコンビニ交付可能(1通300円〜450円)",
+            "counter": "本庁舎1階市民課ほか各支所、受付は平日8時30分〜17時15分",
+            "cost": "住民票の写し1通300円",
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/juuminhyou/1001309.html"
+          },
+          "faq": [
+            {
+              "q": "住民票はコンビニで取れる?",
+              "a": "マイナンバーカードがあればセブンイレブン等のマルチコピー機で取得可能。1通300円。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民票の発行手数料はいくら?",
+              "a": "1通300円。窓口・コンビニ交付とも同額。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民票をオンラインで申請できる?",
+              "a": "スマートフォンから申請し郵送で受け取れるサービスがある。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "city-hall-branches",
+          "label": "市役所の窓口案内",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/city-hall-branches/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "本庁舎1階ほか各支所、平日8:30〜17:15",
+            "cost": null,
+            "tel": "0538-37-2111",
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/choushaannai/1004455.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市役所の営業時間は?",
+              "a": "平日午前8時30分から午後5時15分まで。土日祝・年末年始は休み。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "支所ではどんな手続きができる?",
+              "a": "福田・豊岡・豊田・竜洋の各支所の市民生活課で住民票交付など一部手続きが可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "dog-registration",
+          "label": "犬の登録・鑑札",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/dog-registration/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "西庁舎1階環境課または各支所市民生活課、平日8時30分〜17時15分",
+            "cost": "登録手数料3,000円",
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1001519.html"
+          },
+          "faq": [
+            {
+              "q": "犬の登録はどこでする?",
+              "a": "磐田市役所西庁舎1階環境課、または福田・豊岡・豊田・竜洋支所の市民生活課で手続き可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "犬の登録費用はいくら?",
+              "a": "登録手数料3,000円(生涯1回)。オンライン申請は不可で窓口手続きが必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "dog-registration-rabies",
+          "label": "狂犬病予防注射",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/dog-registration-rabies/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "かかりつけ動物病院で接種、注射済票は環境課または各支所へ届出",
+            "cost": "注射済票交付手数料550円",
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1001519.html"
+          },
+          "faq": [
+            {
+              "q": "狂犬病予防注射はいつまでに受ける?",
+              "a": "毎年4月から6月の間に受けさせることが法律で義務づけられている。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "狂犬病予防注射はどこで受けられる?",
+              "a": "かかりつけの動物病院で接種可能。注射済票がもらえない場合は環境課等へ届出が必要。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "注射済票の交付手数料はいくら?",
+              "a": "550円。愛犬手帳と注射済証(または猶予証)が必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "garbage-sorting-calendar",
+          "label": "ごみ分別・収集日",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/garbage-sorting-calendar/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "磐田市LINE公式アカウントで家庭ごみ収集日をお知らせ",
+            "konbini": null,
+            "counter": "市役所環境課・ごみ資源循環課・各支所市民生活課・地区交流センターで配布",
+            "cost": null,
+            "tel": "0538-37-4812",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014449/index.html"
+          },
+          "faq": [
+            {
+              "q": "ごみ収集カレンダーはどこでもらえる？",
+              "a": "市役所環境課、ごみ資源循環課、各支所市民生活課、地区交流センターで配布しています。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "ごみの収集日をスマホで確認できる？",
+              "a": "磐田市LINE公式アカウントで家庭ごみ収集日のお知らせを受け取れます。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "how-to-garbage",
+          "label": "ごみの出し方",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/how-to-garbage/",
+          "channels": [
+            "online",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "粗大ごみ回収は磐田市公式LINEで申込可能",
+            "konbini": null,
+            "counter": null,
+            "cost": "基本1,040円+品目210円/個（家電は1,100円加算）",
+            "tel": "0538-37-4812",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html"
+          },
+          "faq": [
+            {
+              "q": "粗大ごみはどうやって出す？",
+              "a": "磐田市公式LINEまたは電話で希望日の2週間前までに予約します。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "粗大ごみの料金はいくら？",
+              "a": "基本料金1,040円に品目1個210円、家電リサイクル品は1,100円/個が加算されます。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "moved-in",
+          "label": "転入後の手続き一覧",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/moved-in/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/1014568/1014569.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市に引っ越したらまず何をすればいい？",
+              "a": "住所変更（転入届）、学校の転入学、上下水道の届出などが必要です。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "転入時の手続きはどこにまとまってる？",
+              "a": "磐田市公式サイトの「引越し」ページに住所変更・学校・上下水道などの手続きがまとめられています。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "moving-address-change",
+          "label": "転入・住所変更",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/moving-address-change/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "転入・転出・転居届はLINEで事前申請可能（二次元バーコード発行）",
+            "konbini": null,
+            "counter": "本庁舎1階市民課・各支所市民生活課で届出（転出証明書と本人確認書類持参）",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html"
+          },
+          "faq": [
+            {
+              "q": "転入届はオンラインでできる？",
+              "a": "磐田市LINE公式アカウントで事前申請ができ、二次元バーコードを窓口で読み込めば手続きが簡略化されます。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "転入届の持ち物は？",
+              "a": "転出証明書と本人確認書類が必要です。窓口は本庁舎1階市民課または各支所市民生活課です。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "住所変更の問い合わせ先は？",
+              "a": "市民課(0538-37-4816)。福田・竜洋・豊岡の各支所でも受付しています。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "mynumber",
+          "label": "マイナンバーカード",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/mynumber/",
+          "channels": [
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": "住民票等はコンビニのマルチコピー機で取得可（1通300円〜）",
+            "counter": "本庁舎1階市民課交付窓口で受取（交付通知書・本人確認書類持参）",
+            "cost": "初回発行無料。紛失後の再交付は1,000円",
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/mynumber/1009711.html"
+          },
+          "faq": [
+            {
+              "q": "マイナンバーカードはコンビニで証明書取れる？",
+              "a": "住民票や印鑑登録証明書はセブンイレブン等のマルチコピー機で取得できます（1通300円）。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "マイナンバーカードの受け取りに何がいる？",
+              "a": "交付通知書（ハガキ）・通知カード・本人確認書類が必要です。窓口は本庁舎1階市民課。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "マイナンバーカードの発行費用は？",
+              "a": "初回発行は無料です。紛失後の再交付は1,000円かかります。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "pets-lost-animals",
+          "label": "迷子のペット",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/pets-lost-animals/",
+          "channels": [
+            "phone",
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田市役所環境課窓口（平日8:30〜17:15）で相談可",
+            "cost": null,
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1001518.html"
+          },
+          "faq": [
+            {
+              "q": "犬が逃げたらどこに電話すればいい？",
+              "a": "磐田市環境課(0538-37-2702)、西部保健所(0538-37-2245)、磐田警察署(0538-37-0110)へ早めに連絡を。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "迷子の猫を保護したらどうすればいい？",
+              "a": "勝手に飼い始めず、まず市役所環境課や保健所・警察へ連絡。飼い主の手がかりを確認しましょう。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "野良猫の去勢手術に補助はある？",
+              "a": "磐田市には飼い主のいない猫の不妊去勢手術費補助制度があります。環境課へ相談を。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "public-transit",
+          "label": "バス・電車での移動",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/public-transit/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "お助け号は磐田中央線・豊田線でネット予約可",
+            "konbini": null,
+            "counter": "登録は自治デザイン課・支所・交流センターへ提出",
+            "cost": null,
+            "tel": "0538-37-4751",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html"
+          },
+          "faq": [
+            {
+              "q": "お助け号はネット予約できる？",
+              "a": "磐田中央線・豊田線は2025年2月からインターネット予約が可能。他路線は電話予約です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "お助け号の登録はどこでする？",
+              "a": "利用登録票を自治デザイン課・各支所・交流センターへ提出。利用者証は約2週間で郵送されます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "お助け号は日曜も走ってる？",
+              "a": "運行は月〜土曜のみ。日曜・祝日・年末年始(12/31〜1/3)は運休です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "resident-registration",
+          "label": "住民票を今すぐ取得",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/resident-registration/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "電子申請で住民票の写しなどを申請可能",
+            "konbini": "マイナンバーカードでコンビニ交付、1通300円",
+            "counter": "市民課窓口（本庁1階）で本人確認書類提示、平日受付",
+            "cost": "1通300円",
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/juuminhyou/1001309.html"
+          },
+          "faq": [
+            {
+              "q": "住民票はコンビニで取れる？",
+              "a": "マイナンバーカードと暗証番号があれば全国のコンビニで取得可能。手数料は1通300円です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民票の手数料はいくら？",
+              "a": "1通300円が基本です。窓口・コンビニとも同額。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民票はオンライン申請できる？",
+              "a": "磐田市の電子申請サービスで住民票の写しなどを申請できます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "water-sewer",
+          "label": "水道料金の仕組み",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/water-sewer/",
+          "channels": [
+            "konbini",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": "バーコード付き納入通知書でコンビニ支払い可",
+            "counter": "上下水道料金センター（福田支所2階）で相談、平日8:30〜17:15",
+            "cost": "基本料金＋従量料金（口径・使用量で変動）",
+            "tel": "0538-58-3070",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/jougesuidou/jousuidou/1001536.html"
+          },
+          "faq": [
+            {
+              "q": "水道料金はどうやって決まるの？",
+              "a": "2カ月ごとの検針で基本料金＋従量料金を合算。口径・使用量で単価が変わります。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "水道料金はスマホ決済できる？",
+              "a": "PayPay・d払い・au PAYなど複数のスマホ決済に対応（バーコード読取式）。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "下水道使用料は水道と別料金？",
+              "a": "下水道整備区域では水道料金とは別に下水道使用料がかかります。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "water-start-stop-fees",
+          "label": "水道の開始・中止",
+          "url": "https://iwata.enshu-lifehack.com/life/start-living/water-start-stop-fees/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "インターネット受付で24時間365日申込可",
+            "konbini": null,
+            "counter": "上下水道料金センター（福田支所2階）窓口、平日8:30〜17:15",
+            "cost": null,
+            "tel": "0538-58-3070",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/jougesuidou/jousuidou/1005582/1004278.html"
+          },
+          "faq": [
+            {
+              "q": "水道の開始手続きは何日前までに必要？",
+              "a": "使用開始の3日前までに上下水道料金センターへ届出が必要です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "水道の手続きはネットでできる？",
+              "a": "インターネット受付は24時間365日利用可能（システム保守日を除く）。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "引っ越しで水道を止めるにはどうする？",
+              "a": "中止の3日前までに上下水道料金センターへ電話・窓口・FAX・ネットのいずれかで届出を。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -47,16 +685,257 @@
       "description": "住まい探し、固定資産税、空き家、親の家の整理など、家に関する手続きと相談先を分けて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/housing/",
       "items": [
-        {"id": "build-house", "label": "家を建てる", "url": "https://iwata.enshu-lifehack.com/life/housing/build-house/"},
-        {"id": "buy-house", "label": "家を買う", "url": "https://iwata.enshu-lifehack.com/life/housing/buy-house/"},
-        {"id": "clean-parents-house", "label": "実家を整理したい", "url": "https://iwata.enshu-lifehack.com/life/housing/clean-parents-house/"},
-        {"id": "earthquake-demolition", "label": "耐震・解体", "url": "https://iwata.enshu-lifehack.com/life/housing/earthquake-demolition/"},
-        {"id": "municipal-housing", "label": "市営住宅", "url": "https://iwata.enshu-lifehack.com/life/housing/municipal-housing/"},
-        {"id": "property-tax", "label": "固定資産税（土地・家屋）", "url": "https://iwata.enshu-lifehack.com/life/housing/property-tax/"},
-        {"id": "public-housing-consultation", "label": "住まいの困りごと相談", "url": "https://iwata.enshu-lifehack.com/life/housing/public-housing-consultation/"},
-        {"id": "rent-house", "label": "賃貸探し", "url": "https://iwata.enshu-lifehack.com/life/housing/rent-house/"},
-        {"id": "sell-house", "label": "家を売りたい", "url": "https://iwata.enshu-lifehack.com/life/housing/sell-house/"},
-        {"id": "vacant-house", "label": "空き家がある", "url": "https://iwata.enshu-lifehack.com/life/housing/vacant-house/"}
+        {
+          "id": "build-house",
+          "label": "家を建てる",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/build-house/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "都市計画課で市街化調整区域内建築の確認を電子申請可能",
+            "konbini": null,
+            "counter": "西庁舎2階都市計画課で建築可否を確認",
+            "cost": null,
+            "tel": "0538-37-4935",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001511.html"
+          },
+          "faq": [
+            {
+              "q": "市街化調整区域でも家は建てられますか？",
+              "a": "既存宅地や分家住宅など条件を満たせば建築可能。都市計画課(0538-37-4935)で要確認。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "buy-house",
+          "label": "家を買う",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/buy-house/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "既存住宅取得等事業費補助金を電子申請可能",
+            "konbini": null,
+            "counter": "西庁舎2階建築住宅課で申請書を提出可能",
+            "cost": "補助上限は最大150万円（要件による）",
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001513.html"
+          },
+          "faq": [
+            {
+              "q": "中古住宅を買うと補助金はもらえますか？",
+              "a": "既存住宅取得＋リフォームで最大150万円補助（若者・子育て世帯）。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "clean-parents-house",
+          "label": "実家を整理したい",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/clean-parents-house/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "クリーンセンター等へごみを持ち込み可能",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/index.html"
+          },
+          "faq": [
+            {
+              "q": "実家の片付けごみはどこに持ち込めますか？",
+              "a": "可燃・不燃・資源ごみはクリーンセンター等へ持込可能。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "earthquake-demolition",
+          "label": "耐震・解体",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/earthquake-demolition/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "危険空き家解体費用助成などを電子申請可能",
+            "konbini": null,
+            "counter": "西庁舎2階建築住宅課で耐震・解体を相談可能",
+            "cost": "解体費補助は工事費1/2以内・上限50万円",
+            "tel": "0538-37-4899",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/index.html"
+          },
+          "faq": [
+            {
+              "q": "古い家の耐震診断や解体に補助はありますか？",
+              "a": "耐震改修・危険空き家解体とも助成あり。解体費は上限50万円。建築住宅課(0538-37-4899)で確認を。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "municipal-housing",
+          "label": "市営住宅",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/municipal-housing/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "市営住宅入居申込を電子申込フォームで受付",
+            "konbini": null,
+            "counter": "西庁舎2階建築住宅課で申込書を提出可能",
+            "cost": null,
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001503/1001504.html"
+          },
+          "faq": [
+            {
+              "q": "市営住宅はいつでも申し込めますか？",
+              "a": "定期募集は5・9・1月、はまぼう団地は通年受付。建築住宅課(0538-37-4851)で確認を。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "property-tax",
+          "label": "固定資産税（土地・家屋）",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/property-tax/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "証明書はマイナンバーカードで電子申請・郵送受取可能",
+            "konbini": "証明書はコンビニ交付、納付もコンビニ払い可能",
+            "counter": "本庁舎市民税課で証明書申請・納付が可能",
+            "cost": "証明書は1件300円",
+            "tel": "0538-37-3767",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html"
+          },
+          "faq": [
+            {
+              "q": "固定資産税の証明書はコンビニで取れますか？",
+              "a": "マイナンバーカードがあればコンビニ交付サービスで取得可能。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "固定資産税はコンビニで払えますか？",
+              "a": "バーコード付き納付書があればコンビニ納付可能（30万円超は不可）。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "public-housing-consultation",
+          "label": "住まいの困りごと相談",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/public-housing-consultation/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "生活困窮者自立支援制度など各相談窓口で相談可能",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/seikatsu_fukushi/index.html"
+          },
+          "faq": [
+            {
+              "q": "住む場所に困ったらどこに相談すればいいですか？",
+              "a": "生活困窮者自立支援制度など生活・健康福祉部の窓口で相談可能。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "rent-house",
+          "label": "賃貸探し",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/rent-house/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "西庁舎2階建築住宅課でセーフティネット住宅を相談可能",
+            "cost": null,
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001503/1013262.html"
+          },
+          "faq": [
+            {
+              "q": "賃貸が借りにくい人向けの制度はありますか？",
+              "a": "セーフティネット住宅として県登録済みの民間賃貸を紹介。建築住宅課(0538-37-4851)で確認を。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "sell-house",
+          "label": "家を売りたい",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/sell-house/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "評価証明書はマイナンバーカードで電子申請・郵送受取可能",
+            "konbini": "証明書はコンビニ交付サービスで取得可能",
+            "counter": "市民税課で証明書を申請、本人確認書類が必要",
+            "cost": "証明書は1件300円",
+            "tel": "0538-37-3767",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html"
+          },
+          "faq": [
+            {
+              "q": "家を売る前に固定資産税の証明書は必要ですか？",
+              "a": "評価証明書等は売却時の必要書類。市民税課(0538-37-3767)で取得可。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "vacant-house",
+          "label": "空き家がある",
+          "url": "https://iwata.enshu-lifehack.com/life/housing/vacant-house/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "危険空き家解体費用助成を電子申請可能",
+            "konbini": null,
+            "counter": "西庁舎2階建築住宅課で解体助成を相談可能",
+            "cost": "対象工事費の1/2以内・上限50万円",
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/1010112/1001515.html"
+          },
+          "faq": [
+            {
+              "q": "空き家の解体費用に補助は出ますか？",
+              "a": "危険空き家解体費用助成で対象工事費の1/2以内・上限50万円を補助。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "空き家の相談はどこでできますか？",
+              "a": "専門家による個別相談会や建築住宅課(0538-37-4851)で相談可能。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -66,18 +945,338 @@
       "description": "結婚、妊娠、出産、子育て支援、保育園、相談先を、家族の変化に合わせて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/family-grow/",
       "items": [
-        {"id": "child-allowance", "label": "児童手当", "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-allowance/"},
-        {"id": "child-allowance-medical", "label": "児童手当・こども医療費", "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-allowance-medical/"},
-        {"id": "child-vaccination", "label": "子どもの予防接種", "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-vaccination/"},
-        {"id": "childbirth", "label": "子どもが生まれた", "url": "https://iwata.enshu-lifehack.com/life/family-grow/childbirth/"},
-        {"id": "developmental-support", "label": "子どもの発達相談", "url": "https://iwata.enshu-lifehack.com/life/family-grow/developmental-support/"},
-        {"id": "infant-health-check", "label": "乳幼児健診", "url": "https://iwata.enshu-lifehack.com/life/family-grow/infant-health-check/"},
-        {"id": "marriage", "label": "結婚・婚姻届", "url": "https://iwata.enshu-lifehack.com/life/family-grow/marriage/"},
-        {"id": "nursery-childcare", "label": "一時預かり", "url": "https://iwata.enshu-lifehack.com/life/family-grow/nursery-childcare/"},
-        {"id": "nursery-school", "label": "保育園を探す", "url": "https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/"},
-        {"id": "parenting-support", "label": "子育ての相談", "url": "https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/"},
-        {"id": "pregnancy", "label": "妊娠した", "url": "https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/"},
-        {"id": "single-parent-support", "label": "ひとり親家庭の支援", "url": "https://iwata.enshu-lifehack.com/life/family-grow/single-parent-support/"}
+        {
+          "id": "child-allowance",
+          "label": "児童手当",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-allowance/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ3階こども未来課や各支所窓口で申請、保険証・通帳持参",
+            "cost": null,
+            "tel": "0538-37-4896",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/1001779.html"
+          },
+          "faq": [
+            {
+              "q": "児童手当はいつ振り込まれる？",
+              "a": "年6回偶数月に前月までの2か月分を振込。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "児童手当の申請はどこでする？",
+              "a": "iプラザ3階こども未来課または各支所窓口で申請。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "child-allowance-medical",
+          "label": "児童手当・こども医療費",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-allowance-medical/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ3階こども未来課や各支所窓口で受給者証発行、資格確認書等持参",
+            "cost": "通院・入院とも無料",
+            "tel": "0538-37-4896",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/iryouhi_josei/1001766.html"
+          },
+          "faq": [
+            {
+              "q": "子どもの医療費は本当に無料？",
+              "a": "対象年齢の通院・入院とも自己負担なし。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "こども医療費の受給者証はどこでもらえる？",
+              "a": "iプラザ3階こども未来課や各支所窓口で申請・発行。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "child-vaccination",
+          "label": "子どもの予防接種",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/child-vaccination/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ2階こども若者家庭センターへ電話確認のうえ来所",
+            "cost": "定期予防接種は無料",
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/1009094/1010274.html"
+          },
+          "faq": [
+            {
+              "q": "子どもの予防接種は無料？",
+              "a": "定期予防接種は自己負担なし。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "予防接種の予約はどうする？",
+              "a": "こども若者家庭センター(0538-37-2012)へ電話で確認を。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "childbirth",
+          "label": "子どもが生まれた",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/childbirth/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "本庁舎1階市民課または豊岡支所へ、母子健康手帳と出生連絡票持参",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001323.html"
+          },
+          "faq": [
+            {
+              "q": "出生届はどこに出す？",
+              "a": "本庁舎1階市民課または豊岡支所で受付。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "出生届に必要なものは？",
+              "a": "母子健康手帳と出生連絡票が必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "developmental-support",
+          "label": "子どもの発達相談",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/developmental-support/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ2階「はあと」へ電話予約制、平日8時30分〜17時",
+            "cost": null,
+            "tel": "0538-37-2014",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/1005168.html"
+          },
+          "faq": [
+            {
+              "q": "子どもの発達が心配、どこに相談？",
+              "a": "磐田市発達支援センター「はあと」(0538-37-2014)へ電話予約を。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "発達相談は予約制？",
+              "a": "予約制のため事前に電話予約が必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "infant-health-check",
+          "label": "乳幼児健診",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/infant-health-check/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "1歳6か月児健診等はLINEから24時間予約可",
+            "konbini": null,
+            "counter": "iプラザ2階で受診、対象月前月に郵送通知が届く",
+            "cost": null,
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kodomo_kenshin_yobousesshu/1011924.html"
+          },
+          "faq": [
+            {
+              "q": "乳幼児健診はLINEで予約できる？",
+              "a": "1歳6か月児健診など一部はLINEで24時間予約可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "乳幼児健診の会場はどこ？",
+              "a": "iプラザ(総合健康福祉会館)2階が主な会場。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "marriage",
+          "label": "結婚・婚姻届",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/marriage/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "本庁舎1階市民課のみ受付、平日8時30分〜17時15分、夜間・休日は宿直室",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001321.html"
+          },
+          "faq": [
+            {
+              "q": "婚姻届は休日でも出せる？",
+              "a": "夜間・土日祝は本庁宿直室で預かり可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "婚姻届はどこに提出する？",
+              "a": "本庁舎1階市民課で受付(支所不可)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "nursery-childcare",
+          "label": "一時預かり",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/nursery-childcare/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "利用は各実施園へ直接連絡、園ごとに曜日・時間が異なる",
+            "cost": "3歳以上250円/時間、3歳未満300円/時間",
+            "tel": "0538-37-4858",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/1011082.html"
+          },
+          "faq": [
+            {
+              "q": "一時預かりの料金はいくら？",
+              "a": "3歳以上250円/時間、3歳未満300円/時間が目安。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "一時預かりはどこで申し込む？",
+              "a": "利用したい園に直接連絡して確認。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "nursery-school",
+          "label": "保育園を探す",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "スマホ・PCから電子申請可(市外保育園を除く)",
+            "konbini": null,
+            "counter": "幼児教育保育課(iプラザ3階)で申請、就労証明等の必要書類持参",
+            "cost": null,
+            "tel": "0538-37-4858",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1001798.html"
+          },
+          "faq": [
+            {
+              "q": "保育園の申込はオンラインでできる？",
+              "a": "市内保育園はスマホ・PCから電子申請可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "保育園の申込先はどこ？",
+              "a": "幼児教育保育課(iプラザ3階、0538-37-4858)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "parenting-support",
+          "label": "子育ての相談",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "いわた子育てアプリでオンライン子育て相談が可能",
+            "konbini": null,
+            "counter": "iプラザ2階こども若者家庭センターで相談受付",
+            "cost": null,
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_shien/1001748.html"
+          },
+          "faq": [
+            {
+              "q": "子育ての悩みはどこに相談できる？",
+              "a": "こども若者家庭センター(0538-37-2012)へ。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "オンラインで子育て相談できる？",
+              "a": "いわた子育てアプリのオンライン相談が利用可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "pregnancy",
+          "label": "妊娠した",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "いわた子育てアプリ「母子モ」でオンライン予約可",
+            "konbini": null,
+            "counter": "iプラザ2階こども若者家庭センターで母子健康手帳交付",
+            "cost": null,
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/ninshin_shussan_shien/1001738.html"
+          },
+          "faq": [
+            {
+              "q": "妊娠届はオンラインでできる？",
+              "a": "母子モアプリでオンライン予約後、来所で手続き。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "母子健康手帳はどこでもらえる？",
+              "a": "iプラザ2階こども若者家庭センターで交付。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "single-parent-support",
+          "label": "ひとり親家庭の支援",
+          "url": "https://iwata.enshu-lifehack.com/life/family-grow/single-parent-support/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ3階こども未来課で申請、戸籍・通帳・マイナンバー持参",
+            "cost": null,
+            "tel": "0538-37-4896",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/hitorioya_shien/1001780.html"
+          },
+          "faq": [
+            {
+              "q": "児童扶養手当はいつ振り込まれる？",
+              "a": "年6回奇数月11日に各2か月分支給。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "ひとり親家庭の相談はどこにする？",
+              "a": "こども未来課(0538-37-4896)へ相談を。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -87,15 +1286,270 @@
       "description": "公園、図書館、文化施設、スポーツ施設、公共施設予約など、出かける前に確認したい入口をまとめています。",
       "url": "https://iwata.enshu-lifehack.com/life/play-out/",
       "items": [
-        {"id": "cultural-facilities", "label": "文化施設", "url": "https://iwata.enshu-lifehack.com/life/play-out/cultural-facilities/"},
-        {"id": "facilities-library-parks", "label": "公共施設ガイド", "url": "https://iwata.enshu-lifehack.com/life/play-out/facilities-library-parks/"},
-        {"id": "find-parks", "label": "公園を探したい", "url": "https://iwata.enshu-lifehack.com/life/play-out/find-parks/"},
-        {"id": "kids-playgrounds", "label": "子どもの遊び場", "url": "https://iwata.enshu-lifehack.com/life/play-out/kids-playgrounds/"},
-        {"id": "parking-access", "label": "駐車場・アクセス", "url": "https://iwata.enshu-lifehack.com/life/play-out/parking-access/"},
-        {"id": "rent-public-facilities", "label": "公共施設を借りたい", "url": "https://iwata.enshu-lifehack.com/life/play-out/rent-public-facilities/"},
-        {"id": "sports-facilities", "label": "スポーツ施設", "url": "https://iwata.enshu-lifehack.com/life/play-out/sports-facilities/"},
-        {"id": "swimming-pools", "label": "プール", "url": "https://iwata.enshu-lifehack.com/life/play-out/swimming-pools/"},
-        {"id": "visit-library", "label": "図書館へ行きたい", "url": "https://iwata.enshu-lifehack.com/life/play-out/visit-library/"}
+        {
+          "id": "cultural-facilities",
+          "label": "文化施設",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/cultural-facilities/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "ホール以外は予約システムで抽選後に申込可",
+            "konbini": null,
+            "counter": "来館し使用申込書を提出、窓口は平日8時30分〜17時15分",
+            "cost": "部屋・時間帯で異なる。ホール1階平日午前32,860円など",
+            "tel": "0538-37-8550",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/bunka/bunka/1010489/1010488.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市民文化会館かたりあはどう予約する？",
+              "a": "ホール以外は公共施設予約システムで抽選後申込、ホールは来館し使用申込書を提出する。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "かたりあの利用料金はいくら？",
+              "a": "部屋・時間帯により異なり、ホール1階平日午前は32,860円など。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "facilities-library-parks",
+          "label": "公共施設ガイド",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/facilities-library-parks/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "施設ガイドで種類・地区別に施設を検索できる",
+            "konbini": null,
+            "counter": "各施設窓口で直接利用申込・問い合わせが可能",
+            "cost": "施設により異なり無料〜有料",
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市の公共施設を種類ごとに探すには？",
+              "a": "磐田市公式サイトの施設ガイドで図書館・公園・スポーツ施設などカテゴリ別に検索できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "施設ガイドの地図検索は使える？",
+              "a": "条件を絞り込んで地図上から施設を探せる仕組みがある。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "find-parks",
+          "label": "公園を探したい",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/find-parks/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "施設ガイドで80以上の公園一覧を検索できる",
+            "konbini": null,
+            "counter": "多くの公園は予約不要で現地に直接立ち寄れる",
+            "cost": "無料（多くの公園は入園無料）",
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市にはどんな公園がある？",
+              "a": "竜洋海洋公園や豊田ラブリバー公園など80以上の公園が公式サイト一覧で確認できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "公園の利用に予約は必要？",
+              "a": "基本的に予約不要で無料開放されている公園が多い。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "kids-playgrounds",
+          "label": "子どもの遊び場",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/kids-playgrounds/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "就学前児童と保護者向けの交流の場、予約不要で来所可",
+            "cost": "無料",
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/1006547/1006548/1001754.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市の子育て支援センターはどこにある？",
+              "a": "にっこにこ・こどもの家など市内12カ所にあり就学前の子と保護者が遊べる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "子育て支援センターの利用は無料？",
+              "a": "利用料は無料。開館時間は施設ごとに異なる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "parking-access",
+          "label": "駐車場・アクセス",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/parking-access/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "リベーラ磐田市営駐車場はJR磐田駅北口徒歩3分、189台収容",
+            "cost": "有料（時間貸・定期あり）",
+            "tel": "0538-37-3858",
+            "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/cfuusa/1003174.html"
+          },
+          "faq": [
+            {
+              "q": "磐田駅周辺の市営駐車場はどこ？",
+              "a": "JR磐田駅北口徒歩3分のリベーラ磐田市営駐車場（189台）が利用できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田駅の駐輪場はある？",
+              "a": "磐田駅南自転車等駐車場があり自転車440台・原付100台収容できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "rent-public-facilities",
+          "label": "公共施設を借りたい",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/rent-public-facilities/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "公共施設予約システムで毎日6時〜24時に予約申込可",
+            "konbini": null,
+            "counter": "初回は窓口で本人確認書類提示、団体は構成員名簿提出が必要",
+            "cost": null,
+            "tel": "0538-37-4811",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/kouryuu_center/1012927.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市の交流センターを借りるには？",
+              "a": "磐田市公共施設予約システムに登録し、窓口で本人確認後に本登録する。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "公共施設予約システムは何時まで使える？",
+              "a": "毎日午前6時から午前0時まで利用できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "sports-facilities",
+          "label": "スポーツ施設",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/sports-facilities/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "磐田市公共施設予約システムで空き状況確認・予約ができる",
+            "konbini": null,
+            "counter": "利用には団体登録と構成員名簿の提出が必要",
+            "cost": null,
+            "tel": "0538-37-4832",
+            "source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1006855/1014137.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市のスポーツ施設はどう予約する？",
+              "a": "磐田市公共施設予約システムで空き状況確認・申込ができる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "スポーツ施設を団体で使うには？",
+              "a": "事前に団体登録と構成員名簿の提出が必要になる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "swimming-pools",
+          "label": "プール",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/swimming-pools/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田温水プールは午前9時〜午後9時、予約不要で直接利用可",
+            "cost": "一般520円、高校生以下・70歳以上300円",
+            "tel": "0538-33-8855",
+            "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/pool/1003483.html"
+          },
+          "faq": [
+            {
+              "q": "磐田温水プールの料金は？",
+              "a": "一般520円、高校生以下・70歳以上は300円。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田温水プールの休館日は？",
+              "a": "毎週月曜と年末年始(12/29〜1/3)、例年10月頃にメンテナンス休館もある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "竜洋海洋センタープールはいつ開いてる？",
+              "a": "開場期間は7月1日〜8月31日ごろの夏季限定。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "visit-library",
+          "label": "図書館へ行きたい",
+          "url": "https://iwata.enshu-lifehack.com/life/play-out/visit-library/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "ウェブサイトから蔵書検索・予約手続きができる",
+            "konbini": null,
+            "counter": "窓口・館内端末(OPAC)で貸出手続き可、一人10冊2週間",
+            "cost": "無料",
+            "tel": null,
+            "source": "https://www.lib-iwata-shizuoka.jp/annai/"
+          },
+          "faq": [
+            {
+              "q": "磐田市の図書館は何冊まで借りられる？",
+              "a": "図書は一人10冊、CD・DVDは2点、電子書籍は2点まで、いずれも2週間借りられる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田市立図書館は何時まで開いてる？",
+              "a": "中央図書館は火〜金21時、土日祝17時まで。館により時間が異なる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "図書館の予約はオンラインでできる？",
+              "a": "ウェブサイト・窓口・館内端末・電話で予約手続きができる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -105,15 +1559,256 @@
       "description": "学校、学区、転校、給食、就学援助、放課後児童クラブなど、子どもの学びに関する入口を確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/education/",
       "items": [
-        {"id": "after-school-club", "label": "放課後児童クラブ", "url": "https://iwata.enshu-lifehack.com/life/education/after-school-club/"},
-        {"id": "educational-consulting", "label": "教育相談", "url": "https://iwata.enshu-lifehack.com/life/education/educational-consulting/"},
-        {"id": "elementary-middle-school", "label": "小学校・中学校", "url": "https://iwata.enshu-lifehack.com/life/education/elementary-middle-school/"},
-        {"id": "school-attendance-support", "label": "就学の相談・支援", "url": "https://iwata.enshu-lifehack.com/life/education/school-attendance-support/"},
-        {"id": "school-district-transfer", "label": "転校・学区変更", "url": "https://iwata.enshu-lifehack.com/life/education/school-district-transfer/"},
-        {"id": "school-expense-support", "label": "就学援助（学校費用）", "url": "https://iwata.enshu-lifehack.com/life/education/school-expense-support/"},
-        {"id": "school-meals", "label": "学校給食", "url": "https://iwata.enshu-lifehack.com/life/education/school-meals/"},
-        {"id": "school-zones", "label": "通学区域", "url": "https://iwata.enshu-lifehack.com/life/education/school-zones/"},
-        {"id": "study-facilities", "label": "学習スペース", "url": "https://iwata.enshu-lifehack.com/life/education/study-facilities/"}
+        {
+          "id": "after-school-club",
+          "label": "放課後児童クラブ",
+          "url": "https://iwata.enshu-lifehack.com/life/education/after-school-club/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "電子申請(Logoフォーム)で24時間申込み可能",
+            "konbini": null,
+            "counter": "西庁舎3階 放課後活動課へ書類提出も可能",
+            "cost": null,
+            "tel": "0538-37-2773",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/shougakkou/houkago_jidouclub/1014133.html"
+          },
+          "faq": [
+            {
+              "q": "放課後児童クラブの申し込みはネットでできる？",
+              "a": "電子申請フォームで24時間申込み可能。窓口や各クラブへの提出もできる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "放課後児童クラブの申込期限はいつ？",
+              "a": "利用希望日の1か月前までが目安。年度の一斉募集は時期が決まっている。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "放課後児童クラブの問い合わせ先は？",
+              "a": "教育部放課後活動課児童クラブグループ(0538-37-2773)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "educational-consulting",
+          "label": "教育相談",
+          "url": "https://iwata.enshu-lifehack.com/life/education/educational-consulting/",
+          "channels": [
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-4923",
+            "source": "https://www.city.iwata.shizuoka.jp/kyoiku/1014889/1014893/1015836.html"
+          },
+          "faq": [
+            {
+              "q": "学校のことで誰に相談すればいい？",
+              "a": "児童生徒支援課(0538-37-4923)へ電話やファクスで相談できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "不登校で悩んでいる場合の相談先は？",
+              "a": "教育部児童生徒支援課が不登校支援プランの相談窓口を担当。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "elementary-middle-school",
+          "label": "小学校・中学校",
+          "url": "https://iwata.enshu-lifehack.com/life/education/elementary-middle-school/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市の小学校・中学校の一覧はどこで見られる？",
+              "a": "磐田市公式サイトの小学校・中学校・高校ページに一覧がある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "通学区域や転校のことはどこで確認する？",
+              "a": "同ページ内の通学区・相談手続きリンクから確認できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-attendance-support",
+          "label": "就学の相談・支援",
+          "url": "https://iwata.enshu-lifehack.com/life/education/school-attendance-support/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "健診当日に案内書類を持参して受診(申込不要)",
+            "cost": null,
+            "tel": "0538-37-4923",
+            "source": "https://www.city.iwata.shizuoka.jp/kyoiku/1014989/1007280.html"
+          },
+          "faq": [
+            {
+              "q": "就学時健康診断はいつ、どうやって受ける？",
+              "a": "10〜11月実施。9月に郵送される案内を持参すれば申込不要。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "就学前の不安はどこに相談すればいい？",
+              "a": "児童生徒支援課(0538-37-4923)や子育て相談窓口へ。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-district-transfer",
+          "label": "転校・学区変更",
+          "url": "https://iwata.enshu-lifehack.com/life/education/school-district-transfer/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "西庁舎3階 学校教育課で申請書を入手・提出",
+            "cost": null,
+            "tel": "0538-37-2760",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/soudan_tetsuzuki/1001831/index.html"
+          },
+          "faq": [
+            {
+              "q": "引っ越しで転校するときの手続きは？",
+              "a": "学校教育課(0538-37-2760)で転校手続きを確認し、住所変更とあわせて進める。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "指定校を変更したい場合はどうする？",
+              "a": "学区外(区域外)就学の認可基準に該当するか学校教育課へ相談。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "school-expense-support",
+          "label": "就学援助（学校費用）",
+          "url": "https://iwata.enshu-lifehack.com/life/education/school-expense-support/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "オンライン申請フォームで随時申請できる",
+            "konbini": null,
+            "counter": "電子申請が難しい場合は在籍校か教育総務課へ相談",
+            "cost": null,
+            "tel": "0538-37-4821",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/shuugakuenjo/1001782.html"
+          },
+          "faq": [
+            {
+              "q": "就学援助はどんな人が対象？",
+              "a": "生活保護受給世帯や市民税非課税世帯など準要保護の要件に該当する保護者。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "就学援助はいつ申請できる？",
+              "a": "随時申請可能。オンライン申請フォームか在籍校・教育総務課へ相談。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "就学援助で何が支給される？",
+              "a": "給食費・学用品費・修学旅行費などが学期ごとに口座へ振込。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-meals",
+          "label": "学校給食",
+          "url": "https://iwata.enshu-lifehack.com/life/education/school-meals/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": "小学校は2026年4月から無償、中学校は1食344円が目安",
+            "tel": "0538-37-4780",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kyuushoku/1010586.html"
+          },
+          "faq": [
+            {
+              "q": "給食費はいくらくらい？",
+              "a": "小学校は2026年4月から無償化。中学校は1食344円、月4,472〜10,664円が目安。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "給食費の支払い方法は？",
+              "a": "原則、指定金融機関の口座振替で納入する。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-zones",
+          "label": "通学区域",
+          "url": "https://iwata.enshu-lifehack.com/life/education/school-zones/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "学校教育課窓口で通学区域や学区外就学を確認",
+            "cost": null,
+            "tel": "0538-37-2760",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/tsugaku/1004413/index.html"
+          },
+          "faq": [
+            {
+              "q": "自分の家の学区(通学区域)はどこで確認できる？",
+              "a": "磐田市公式サイトの通学区域ページか学校教育課(0538-37-2760)で確認。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "学区外の学校に通いたい場合は？",
+              "a": "学区外(区域外)就学の認可基準を満たすか学校教育課へ相談。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "study-facilities",
+          "label": "学習スペース",
+          "url": "https://iwata.enshu-lifehack.com/life/education/study-facilities/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "本人確認書類を持参し窓口で利用者登録(無料)",
+            "cost": "登録無料",
+            "tel": "0538-32-5254",
+            "source": "https://www.lib-iwata-shizuoka.jp/annai/"
+          },
+          "faq": [
+            {
+              "q": "図書館カードはどうやって作る？",
+              "a": "本人確認書類を持って窓口へ。市内在住・在勤在学者は無料で登録できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "図書館の開館時間は？",
+              "a": "中央図書館は火〜金9時〜19時、土日祝9時〜17時。休館日は月曜など。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        }
       ]
     },
     {
@@ -123,18 +1818,344 @@
       "description": "病院探し、休日・夜間の医療、健診、予防接種、障害福祉、こころの相談先を分けて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/health-medical/",
       "items": [
-        {"id": "adult-vaccination", "label": "おとなの予防接種", "url": "https://iwata.enshu-lifehack.com/life/health-medical/adult-vaccination/"},
-        {"id": "cancer-specific-checkups", "label": "がん検診", "url": "https://iwata.enshu-lifehack.com/life/health-medical/cancer-specific-checkups/"},
-        {"id": "dental-care", "label": "歯科・口の健康", "url": "https://iwata.enshu-lifehack.com/life/health-medical/dental-care/"},
-        {"id": "disability-services", "label": "障がい福祉サービスの窓口", "url": "https://iwata.enshu-lifehack.com/life/health-medical/disability-services/"},
-        {"id": "disability-welfare", "label": "障がい者の手当・助成", "url": "https://iwata.enshu-lifehack.com/life/health-medical/disability-welfare/"},
-        {"id": "find-hospitals", "label": "病院を探したい", "url": "https://iwata.enshu-lifehack.com/life/health-medical/find-hospitals/"},
-        {"id": "health-checkups", "label": "健診を確認", "url": "https://iwata.enshu-lifehack.com/life/health-medical/health-checkups/"},
-        {"id": "health-promotion", "label": "健康づくり相談", "url": "https://iwata.enshu-lifehack.com/life/health-medical/health-promotion/"},
-        {"id": "holiday-night-emergency-care", "label": "休日・夜間の当番医", "url": "https://iwata.enshu-lifehack.com/life/health-medical/holiday-night-emergency-care/"},
-        {"id": "mental-health-consulting", "label": "こころの相談", "url": "https://iwata.enshu-lifehack.com/life/health-medical/mental-health-consulting/"},
-        {"id": "night-holiday-medical", "label": "救急診療所の連絡先", "url": "https://iwata.enshu-lifehack.com/life/health-medical/night-holiday-medical/"},
-        {"id": "vaccinations", "label": "予防接種スケジュール", "url": "https://iwata.enshu-lifehack.com/life/health-medical/vaccinations/"}
+        {
+          "id": "adult-vaccination",
+          "label": "おとなの予防接種",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/adult-vaccination/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "協力医療機関の窓口で予診票を提出し接種",
+            "cost": null,
+            "tel": "0538-37-2011",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/1012990/index.html"
+          },
+          "faq": [
+            {
+              "q": "おとなの予防接種は何が対象になりますか",
+              "a": "風しん対策、帯状疱疹、成人用肺炎球菌、新型コロナワクチンなどがあります。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "予防接種の予約はどこにすればいい？",
+              "a": "協力医療機関に直接電話で予約します。費用や対象年齢は制度ごとに異なるため、詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "cancer-specific-checkups",
+          "label": "がん検診",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/cancer-specific-checkups/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "がん患者医療用補整具購入費助成は電子申請も可能",
+            "konbini": null,
+            "counter": "健康増進課（iプラザ3階）窓口で申請書を提出",
+            "cost": "ウィッグ・補整下着は各上限2万円、人工乳房は上限10万円",
+            "tel": "0538-37-2011",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/1007569.html"
+          },
+          "faq": [
+            {
+              "q": "がん治療でウィッグを買ったら助成は出る？",
+              "a": "医療用ウィッグは上限2万円まで購入費助成があります。申請期限や必要書類は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "がん患者医療用補整具の助成はどこで申請する？",
+              "a": "健康増進課の窓口または電子申請で申請できます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "dental-care",
+          "label": "歯科・口の健康",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/dental-care/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "協力歯科医院に電話予約し無料受診券で受診",
+            "cost": "無料（対象年齢は無料受診券で受診可）",
+            "tel": "0538-37-2011",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/kenshin_yobousesshu_soudan/1001869.html"
+          },
+          "faq": [
+            {
+              "q": "歯の健診はいつ受けられる？",
+              "a": "20・30・40・50・60・70歳の方が対象で、4月下旬に無料受診券が届きます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "歯科健診の予約はどうすればいい？",
+              "a": "受診券を受け取ったら、協力歯科医院一覧から選んで電話予約します。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "disability-services",
+          "label": "障がい福祉サービスの窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/disability-services/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "障がい者相談支援センター（iプラザ3階等）窓口で相談",
+            "cost": null,
+            "tel": "0538-84-6661",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/shougaisha_fukushi/soudan/1006662.html"
+          },
+          "faq": [
+            {
+              "q": "障がい福祉サービスはどこに相談すればいい？",
+              "a": "磐田市障がい者相談支援センター（iプラザ3階）で相談できます。地区により南部相談支援センターも利用可。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "障がい者手帳がなくても相談できる？",
+              "a": "障がいの疑いがある方やその家族も相談対象です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "disability-welfare",
+          "label": "障がい者の手当・助成",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/disability-welfare/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "福祉相談課障がい福祉グループ（iプラザ3階）窓口で申請",
+            "cost": null,
+            "tel": "0538-37-4919",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/shougaisha_fukushi/hojo_josei_yuushi/1001918.html"
+          },
+          "faq": [
+            {
+              "q": "障がい者向けの手当にはどんな種類がある？",
+              "a": "特別障害者手当、障害児福祉手当、タクシー利用料金助成など制度があります。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "障がい者福祉の手当の申請窓口は？",
+              "a": "福祉相談課障がい福祉グループ（iプラザ3階）が窓口です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "find-hospitals",
+          "label": "病院を探したい",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/find-hospitals/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田市急患センター（上大之郷51）で受診",
+            "cost": null,
+            "tel": "0538-32-5267",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
+          },
+          "faq": [
+            {
+              "q": "夜間や休日に病院を探すにはどうすればいい？",
+              "a": "磐田市急患センター（上大之郷51）が休日・夜間に対応しています。受診前に必ず電話を。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "急患センターは何科まで対応している？",
+              "a": "休日は内科・小児科・外科、夜間は内科・小児科です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "health-checkups",
+          "label": "健診を確認",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/health-checkups/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "初めて受診する方等は申込フォームから受付可",
+            "konbini": null,
+            "counter": "指定医療機関または集団バス健診で受診（受診券持参）",
+            "cost": "国保加入者は自己負担1700円、40歳・50歳の方は無料",
+            "tel": "0538-37-2011",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/kenshin_yobousesshu_soudan/1012978.html"
+          },
+          "faq": [
+            {
+              "q": "国保の健康診断はいくらかかる？",
+              "a": "自己負担は1700円ですが、40歳・50歳の方（令和9年3月31日時点）は無料です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "健康診断はどこで申し込める？",
+              "a": "開業医健診または集団バス健診から選び、申込フォームか電話で申し込みます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "health-promotion",
+          "label": "健康づくり相談",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/health-promotion/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "まちの保健室NEOの会場（iプラザ等）で測定・相談",
+            "cost": null,
+            "tel": "0538-37-2013",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/otona_kenkou_kenshinsoudan/1010674/index.html"
+          },
+          "faq": [
+            {
+              "q": "健康づくりの相談はどこでできる？",
+              "a": "まちの保健室NEOで血圧・骨密度などの測定や健康相談ができます。開催場所は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "まちの保健室NEOは予約が必要？",
+              "a": "予約要否の明記はありません。開催日時・会場は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "holiday-night-emergency-care",
+          "label": "休日・夜間の当番医",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/holiday-night-emergency-care/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田市急患センター（上大之郷51）で受診、受診前に要電話",
+            "cost": null,
+            "tel": "0538-32-5267",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
+          },
+          "faq": [
+            {
+              "q": "休日に急病になったらどこに行けばいい？",
+              "a": "磐田市急患センター（上大之郷51、電話0538-32-5267）へ事前に電話のうえ受診します。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "休日当番医の受付時間は？",
+              "a": "休日は午前8時45分～11時30分、午後1時45分～4時30分が受付時間です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "mental-health-consulting",
+          "label": "こころの相談",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/mental-health-consulting/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "iプラザ（総合健康福祉会館）3階で精神科医による面接相談（予約制）",
+            "cost": null,
+            "tel": "0538-37-2252",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/kenkou_soudan/1001622.html"
+          },
+          "faq": [
+            {
+              "q": "気分の落ち込みや不眠を誰かに相談したい",
+              "a": "精神保健福祉総合相談（予約制）で精神科医に相談できます。西部健康福祉センター（0538-37-2252）へ。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "こころの相談は無料で受けられる？",
+              "a": "費用の明記はありません。予約や詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "night-holiday-medical",
+          "label": "救急診療所の連絡先",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/night-holiday-medical/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田市急患センター（上大之郷51）で受診、受診前に要電話",
+            "cost": null,
+            "tel": "0538-32-5267",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
+          },
+          "faq": [
+            {
+              "q": "夜間に急病になったらどこに連絡すればいい？",
+              "a": "磐田市急患センター（電話0538-32-5267）へまず電話します。夜間（月～土）受付は19時15分～22時。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "夜間救急は何科が対応している？",
+              "a": "夜間は内科・小児科が対応しています。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "vaccinations",
+          "label": "予防接種スケジュール",
+          "url": "https://iwata.enshu-lifehack.com/life/health-medical/vaccinations/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "個別接種協力医療機関で予診票を持参し接種（要予約）",
+            "cost": null,
+            "tel": "0538-37-2012",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/1009094/index.html"
+          },
+          "faq": [
+            {
+              "q": "子どもの予防接種はどこで受けられる？",
+              "a": "磐田市・袋井市・森町等の個別接種協力医療機関で受けられます。予約要否は医療機関に確認を。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "予防接種のスケジュールはどこで確認できる？",
+              "a": "こども未来課子育てサポートグループ（0538-37-2012）や公式サイトの定期予防接種スケジュールで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        }
       ]
     },
     {
@@ -144,20 +2165,410 @@
       "description": "税金、国保、年金、就職、起業、農業、補助金など、働くことと暮らしのお金に関わる入口を確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/work-life/",
       "items": [
-        {"id": "city-tax-payment", "label": "市税の納付方法", "url": "https://iwata.enshu-lifehack.com/life/work-life/city-tax-payment/"},
-        {"id": "job-change", "label": "就職・転職", "url": "https://iwata.enshu-lifehack.com/life/work-life/job-change/"},
-        {"id": "job-recruitment", "label": "市職員採用", "url": "https://iwata.enshu-lifehack.com/life/work-life/job-recruitment/"},
-        {"id": "light-vehicle-tax", "label": "軽自動車税", "url": "https://iwata.enshu-lifehack.com/life/work-life/light-vehicle-tax/"},
-        {"id": "my-number-card", "label": "マイナンバーカードの申請窓口", "url": "https://iwata.enshu-lifehack.com/life/work-life/my-number-card/"},
-        {"id": "national-health-insurance-tax", "label": "国保・保険料", "url": "https://iwata.enshu-lifehack.com/life/work-life/national-health-insurance-tax/"},
-        {"id": "nhk-pension", "label": "国保・年金の資格喪失手続き", "url": "https://iwata.enshu-lifehack.com/life/work-life/nhk-pension/"},
-        {"id": "resident-tax", "label": "住民税", "url": "https://iwata.enshu-lifehack.com/life/work-life/resident-tax/"},
-        {"id": "start-business", "label": "起業・創業支援", "url": "https://iwata.enshu-lifehack.com/life/work-life/start-business/"},
-        {"id": "start-farming", "label": "就農相談", "url": "https://iwata.enshu-lifehack.com/life/work-life/start-farming/"},
-        {"id": "subsidies", "label": "補助金申請", "url": "https://iwata.enshu-lifehack.com/life/work-life/subsidies/"},
-        {"id": "tax", "label": "税金", "url": "https://iwata.enshu-lifehack.com/life/work-life/tax/"},
-        {"id": "tax-certificates", "label": "税の証明書", "url": "https://iwata.enshu-lifehack.com/life/work-life/tax-certificates/"},
-        {"id": "tax-guide", "label": "税金の相談窓口", "url": "https://iwata.enshu-lifehack.com/life/work-life/tax-guide/"}
+        {
+          "id": "city-tax-payment",
+          "label": "市税の納付方法",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/city-tax-payment/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可",
+            "konbini": "バーコード納付書でコンビニ納付可（30万円超は不可）",
+            "counter": "本庁舎・支所や金融機関窓口で納付書により納付",
+            "cost": null,
+            "tel": "0538-37-4810",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_noufu/1001375.html"
+          },
+          "faq": [
+            {
+              "q": "市税 コンビニ 払えない 高額",
+              "a": "1枚30万円超の納付書はコンビニ払い不可。窓口や口座振替を利用。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "市税 スマホ 払う方法",
+              "a": "PayPay請求書払いなどeL-QR対応アプリで納付書バーコードを読取り納付可。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "市税 口座振替 申し込み",
+              "a": "指定金融機関窓口またはWeb申請で申込可（Web申請は2026年4月開始）。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "job-change",
+          "label": "就職・転職",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/job-change/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "ワークピア磐田1階職業総合相談室、火〜土曜9時〜17時",
+            "cost": "無料",
+            "tel": "0538-36-8383",
+            "source": "https://www.city.iwata.shizuoka.jp/sangyou_business/shushoku/1014687.html"
+          },
+          "faq": [
+            {
+              "q": "転職 相談 磐田市 無料",
+              "a": "ワークピア磐田1階の職業総合相談室で無料相談可。ハローワーク磐田も利用可。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "内職 探したい 磐田",
+              "a": "ワークピア磐田で火・木曜に内職相談を実施。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "job-recruitment",
+          "label": "市職員採用",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/job-recruitment/",
+          "channels": [
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-4807",
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002360.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 職員採用 いつ募集",
+              "a": "試験区分や日程は年度ごとに公式サイトで公表される。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田市 職員課 問い合わせ先",
+              "a": "総務部職員課(0538-37-4807)へ問い合わせ可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "light-vehicle-tax",
+          "label": "軽自動車税",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/light-vehicle-tax/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可（市税共通）",
+            "konbini": "バーコード納付書でコンビニ納付可（30万円超は不可）",
+            "counter": "本庁舎・支所や金融機関窓口で納付書により納付",
+            "cost": null,
+            "tel": "0538-37-3767",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/keijidoushazei/1001424.html"
+          },
+          "faq": [
+            {
+              "q": "軽自動車税 いくら",
+              "a": "税率は年度ごとに公式PDFで案内。市民税課(0538-37-3767)へ確認可。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "軽自動車税 減免 対象",
+              "a": "障害者手帳所持者等一定条件で減免制度あり。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "my-number-card",
+          "label": "マイナンバーカードの申請窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/my-number-card/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "J-LISサイトからスマホ・パソコンで申請、郵送申請も可",
+            "konbini": null,
+            "counter": "本庁舎1階市民課、平日8時30分〜17時15分(木曜19時まで)",
+            "cost": "初回発行は無料",
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/mynumber/1001347.html"
+          },
+          "faq": [
+            {
+              "q": "マイナンバーカード 申請窓口 磐田",
+              "a": "本庁舎1階市民課マイナンバー交付窓口で受付。木曜は19時まで延長。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "マイナンバーカード 発行 費用",
+              "a": "初回発行は無料。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "マイナンバーカード オンライン申請できる",
+              "a": "スマホやパソコンからJ-LIS経由で申請可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "national-health-insurance-tax",
+          "label": "国保・保険料",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/national-health-insurance-tax/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "PayPay等スマホ決済アプリで納付可",
+            "konbini": "コンビニで納付可（納期限内のみ）",
+            "counter": "市指定金融機関窓口で納付書により納付",
+            "cost": null,
+            "tel": "0538-37-4863",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/kokuminkenkouhokenzei/1006943.html"
+          },
+          "faq": [
+            {
+              "q": "国保税 スマホ 払う",
+              "a": "PayPayやモバイルレジ等スマホ決済アプリで納付可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "国保税 払えない 相談",
+              "a": "納付困難な場合は収納課(0538-37-4906)へ相談を。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "nhk-pension",
+          "label": "国保・年金の資格喪失手続き",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/nhk-pension/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "電子申請(LoGoフォーム)で異動届の提出が可能",
+            "konbini": null,
+            "counter": "本庁舎1階国保年金課、各支所(福田・竜洋・豊田・豊岡)",
+            "cost": null,
+            "tel": "0538-37-4833",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/kokuho_nenkin/kokuminkenkouhoken/1014094/1014098.html"
+          },
+          "faq": [
+            {
+              "q": "会社辞めた 国保 手続き",
+              "a": "退職翌日から14日以内に国保年金課で手続きが必要。電子申請も可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "国保 脱退 郵送でできる",
+              "a": "異動届と必要書類を国保年金課へ郵送して手続き可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "resident-tax",
+          "label": "住民税",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/resident-tax/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "納税通知書で金融機関等へ納付、または給与・年金天引き",
+            "cost": "均等割は年5,400円、所得割は市民税6%＋県民税4%",
+            "tel": "0538-37-4826",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/kojinshiminzei/1001383.html"
+          },
+          "faq": [
+            {
+              "q": "住民税 いくら 目安",
+              "a": "均等割は年5,400円、所得割は市民税6%＋県民税4%が目安。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民税 給料から天引き 特別徴収とは",
+              "a": "給与や公的年金から差し引かれる方式を特別徴収という。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "start-business",
+          "label": "起業・創業支援",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/start-business/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "ワークピア磐田内はじまりのオフィス、9時〜21時(年末年始除く)",
+            "cost": null,
+            "tel": "0538-30-6255",
+            "source": "https://www.city.iwata.shizuoka.jp/sangyou_business/sougyou_shien/1005879/1002240.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 起業 相談 無料",
+              "a": "はじまり窓口(専門家創業相談)は電話かワークピアの申込フォームで予約可。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "創業支援 証明書 もらえる",
+              "a": "特定創業支援等事業の要件を満たすと証明書が交付され登録免許税軽減等が受けられる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "start-farming",
+          "label": "就農相談",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/start-farming/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "西庁舎1階農林水産課農地管理グループ、平日8時30分〜17時15分",
+            "cost": null,
+            "tel": "0538-37-4813",
+            "source": "https://www.city.iwata.shizuoka.jp/sangyou_business/nougyou/1010427/1010431.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 就農 相談 どこ",
+              "a": "西庁舎1階の農林水産課農地管理グループで相談可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "農地 借りたい 磐田",
+              "a": "農地銀行制度で貸借情報を確認でき、農林水産課(0538-37-4813)へ相談可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "subsidies",
+          "label": "補助金申請",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/subsidies/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "電話・メール・窓口・オンラインで相談可能(移住相談窓口の例)",
+            "konbini": null,
+            "counter": "本庁舎 企画部政策推進課、平日8時30分〜17時15分",
+            "cost": null,
+            "tel": "0538-37-4805",
+            "source": "https://www.city.iwata.shizuoka.jp/iiwatashi/1014830.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 補助金 一覧 どこで見る",
+              "a": "支援情報一覧ページで各種補助金・支援制度がまとまっている。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "補助金 相談 オンラインでできる",
+              "a": "移住相談窓口など一部制度は電話・メール・オンラインでも相談可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "tax",
+          "label": "税金",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/tax/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可",
+            "konbini": "バーコード納付書でコンビニ納付可（30万円超は不可）",
+            "counter": "市民税課・収納課窓口や金融機関窓口で対応",
+            "cost": null,
+            "tel": "0538-37-3767",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 税金 何がある",
+              "a": "個人市民税・固定資産税・軽自動車税など税目別に納付・証明方法を確認できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "税金 相談したい 電話番号",
+              "a": "市民税課諸税管理グループ(0538-37-3767)へ問い合わせ可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "tax-certificates",
+          "label": "税の証明書",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/tax-certificates/",
+          "channels": [
+            "online",
+            "konbini",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "マイナンバーカードで本人確認しスマホ申請、証明書は郵送で受取可",
+            "konbini": "マイナンバーカードでコンビニのマルチコピー機から取得可(毎日6時30分〜23時)",
+            "counter": "市民税課・各支所窓口で申請可",
+            "cost": "所得・課税・納税証明書は各300円、完納証明書300円",
+            "tel": "0538-37-3767",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1001381.html"
+          },
+          "faq": [
+            {
+              "q": "納税証明書 コンビニで取れる",
+              "a": "マイナンバーカードがあれば毎日6時30分〜23時、コンビニのマルチコピー機で取得可能。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "所得証明書 発行 手数料",
+              "a": "1年度1件につき300円。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "tax-guide",
+          "label": "税金の相談窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/work-life/tax-guide/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "本庁舎1階市民税課(一般相談)、収納課(納付困難時の相談)",
+            "cost": null,
+            "tel": "0538-37-4826",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/kojinshiminzei/1001383.html"
+          },
+          "faq": [
+            {
+              "q": "税金 払えない 分割 相談",
+              "a": "納付が困難な場合は収納課(0538-37-4906)へ早めに相談を。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "住民税 相談 窓口 どこ",
+              "a": "本庁舎1階市民税課(0538-37-4826)で相談可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -167,15 +2578,250 @@
       "description": "親の様子が気になるとき、介護認定、地域包括支援センター、認知症相談、介護施設の入口を確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/parents-care/",
       "items": [
-        {"id": "adult-guardianship", "label": "成年後見制度", "url": "https://iwata.enshu-lifehack.com/life/parents-care/adult-guardianship/"},
-        {"id": "care-certification-support-center", "label": "介護認定", "url": "https://iwata.enshu-lifehack.com/life/parents-care/care-certification-support-center/"},
-        {"id": "care-started", "label": "介護が急に始まったとき", "url": "https://iwata.enshu-lifehack.com/life/parents-care/care-started/"},
-        {"id": "check-parents", "label": "親の様子が気になる", "url": "https://iwata.enshu-lifehack.com/life/parents-care/check-parents/"},
-        {"id": "community-support-center", "label": "地域包括支援センター", "url": "https://iwata.enshu-lifehack.com/life/parents-care/community-support-center/"},
-        {"id": "dementia-consultation", "label": "認知症の相談", "url": "https://iwata.enshu-lifehack.com/life/parents-care/dementia-consultation/"},
-        {"id": "elderly-transportation", "label": "高齢者の移動手段", "url": "https://iwata.enshu-lifehack.com/life/parents-care/elderly-transportation/"},
-        {"id": "find-nursing-home", "label": "介護施設を探す", "url": "https://iwata.enshu-lifehack.com/life/parents-care/find-nursing-home/"},
-        {"id": "long-term-care-insurance", "label": "要介護認定の申請", "url": "https://iwata.enshu-lifehack.com/life/parents-care/long-term-care-insurance/"}
+        {
+          "id": "adult-guardianship",
+          "label": "成年後見制度",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/adult-guardianship/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "社会福祉協議会内(国府台57-7)、来所は要予約",
+            "cost": "相談無料",
+            "tel": "0538-37-2792",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/ninchishou/1011026.html"
+          },
+          "faq": [
+            {
+              "q": "成年後見の相談はどこにすればいい？",
+              "a": "磐田市成年後見支援センター（国府台57-7・来所は要予約）へ。相談は無料です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "後見人を選ぶ費用は誰が払うの？",
+              "a": "本人負担が原則ですが、身寄りがなく市長申立てのときは市が負担する場合があります。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "care-certification-support-center",
+          "label": "介護認定",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/care-certification-support-center/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "高齢者支援課(iプラザ3階)または支所市民生活課へ申請書提出",
+            "cost": null,
+            "tel": "0538-37-4769",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/kaigohoken_service/1001935.html"
+          },
+          "faq": [
+            {
+              "q": "介護認定の申請はどこに出す？",
+              "a": "高齢者支援課(iプラザ3階)または各支所市民生活課へ申請書を提出します。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "本人が動けなくても申請できる？",
+              "a": "家族や地域包括支援センター、ケアマネジャーが代わりに申請できます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "care-started",
+          "label": "介護が急に始まったとき",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/care-started/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "地域包括支援センターへ相談（市内7カ所、担当地区で異なる）",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001892.html"
+          },
+          "faq": [
+            {
+              "q": "親の介護が急に始まった、まず何をすればいい？",
+              "a": "まず地域包括支援センターか高齢者支援課に相談を。認定前でも相談できます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "どこの地域包括支援センターに相談すればいい？",
+              "a": "担当は住所の中学校区で決まります。磐田市内に7カ所あるので公式サイトの一覧で確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "check-parents",
+          "label": "親の様子が気になる",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/check-parents/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "地域包括支援センターへ相談（担当は親の住所で決定）",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001892.html"
+          },
+          "faq": [
+            {
+              "q": "離れて暮らす親のことも相談できる？",
+              "a": "できます。本人が同席していなくても家族からの相談を受け付けています。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "まだ介護というほどでもないけど相談していい？",
+              "a": "大丈夫です。地域包括支援センターは介護前の心配な段階でも相談できます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "community-support-center",
+          "label": "地域包括支援センター",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/community-support-center/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "担当地区のセンターへ（磐田市内7カ所、中学校区ごと）",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001892.html"
+          },
+          "faq": [
+            {
+              "q": "地域包括支援センターはどこにある？",
+              "a": "磐田市内に中学校区ごと7カ所あります。担当は住所で決まるため公式サイトの一覧で確認を。"
+            },
+            {
+              "q": "相談にお金はかかる？",
+              "a": "相談自体の費用は公式ページに明記がありません。詳細は窓口で確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "dementia-consultation",
+          "label": "認知症の相談",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/dementia-consultation/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "地域包括支援センターまたは福祉政策課(iプラザ3階)へ",
+            "cost": null,
+            "tel": "0538-37-4831",
+            "source": "https://www.city.iwata.shizuoka.jp/faq/kenkou_fukushi/koureisha_fukushi/1001079.html"
+          },
+          "faq": [
+            {
+              "q": "家族が認知症になったらどこに相談する？",
+              "a": "お住まいの地区の地域包括支援センターか福祉政策課(iプラザ3階)へ。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "診断がついてなくても相談できる？",
+              "a": "できます。もの忘れが気になる段階でも地域包括支援センターに相談できます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "elderly-transportation",
+          "label": "高齢者の移動手段",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/elderly-transportation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "高齢者支援課給付グループ(iプラザ3階)で申請",
+            "cost": "助成券48枚/年、1枚600円、1乗車2枚まで",
+            "tel": "0538-37-4869",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001891.html"
+          },
+          "faq": [
+            {
+              "q": "高齢者のタクシー助成はいくらもらえる？",
+              "a": "要支援・要介護の方に年48枚（1枚600円）の助成券。1乗車2枚まで使えます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "助成の申請はどこでする？",
+              "a": "高齢者支援課給付グループ(iプラザ3階)で申請します。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "find-nursing-home",
+          "label": "介護施設を探す",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/find-nursing-home/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "オンライン相談フォームで問い合わせ可",
+            "konbini": null,
+            "counter": "高齢者支援課高齢者福祉グループ(iプラザ3階)で相談",
+            "cost": null,
+            "tel": "0538-37-2789",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/kaigohoken_service/1005190/index.html"
+          },
+          "faq": [
+            {
+              "q": "介護施設はどこに相談すればいい？",
+              "a": "高齢者支援課高齢者福祉グループ(iプラザ3階)へ。オンライン相談フォームもあります。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "施設の種類はどこで確認できる？",
+              "a": "特養・老健・サ高住など種類ごとの一覧が磐田市公式サイトにあります。詳細はそちらで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "long-term-care-insurance",
+          "label": "要介護認定の申請",
+          "url": "https://iwata.enshu-lifehack.com/life/parents-care/long-term-care-insurance/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "高齢者支援課(iプラザ3階)または支所市民生活課へ申請",
+            "cost": null,
+            "tel": "0538-37-4769",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/kaigohoken_service/1001935.html"
+          },
+          "faq": [
+            {
+              "q": "要介護認定はどこで申請する？",
+              "a": "高齢者支援課(iプラザ3階)または各支所市民生活課で申請書を提出します。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "申請にお金はかかる？",
+              "a": "申請の手数料について公式ページに記載はありません。詳細は窓口で確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -185,17 +2831,268 @@
       "description": "台風、大雨、地震、避難所、ハザードマップ、罹災証明、救急など、急ぎの確認先を分けて見られます。",
       "url": "https://iwata.enshu-lifehack.com/life/emergency/",
       "items": [
-        {"id": "disaster-certificates-procedures", "label": "り災証明書・被災後の手続き", "url": "https://iwata.enshu-lifehack.com/life/emergency/disaster-certificates-procedures/"},
-        {"id": "disaster-mail-line", "label": "防災メール・LINE登録", "url": "https://iwata.enshu-lifehack.com/life/emergency/disaster-mail-line/"},
-        {"id": "earthquake", "label": "地震・津波の備え", "url": "https://iwata.enshu-lifehack.com/life/emergency/earthquake/"},
-        {"id": "emergency-medical", "label": "救急・医療", "url": "https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/"},
-        {"id": "evacuation-centers", "label": "避難所", "url": "https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/"},
-        {"id": "evacuation-hazard-map", "label": "避難のタイミング", "url": "https://iwata.enshu-lifehack.com/life/emergency/evacuation-hazard-map/"},
-        {"id": "fire-ambulance", "label": "119番通報", "url": "https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/"},
-        {"id": "hazard-maps", "label": "ハザードマップ", "url": "https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/"},
-        {"id": "pet-disaster-prevention", "label": "ペットとの避難", "url": "https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/"},
-        {"id": "road-river-info", "label": "通行止め・河川水位", "url": "https://iwata.enshu-lifehack.com/life/emergency/road-river-info/"},
-        {"id": "storm-heavy-rain", "label": "台風・大雨", "url": "https://iwata.enshu-lifehack.com/life/emergency/storm-heavy-rain/"}
+        {
+          "id": "disaster-certificates-procedures",
+          "label": "り災証明書・被災後の手続き",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/disaster-certificates-procedures/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "罹災証明書・被災証明書とも電子申請フォームから申請可能",
+            "konbini": null,
+            "counter": "資産税課(本庁舎1階)へ罹災または被災、身分証と被害写真持参",
+            "cost": null,
+            "tel": "0538-37-4809",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisan_toshikeikakuzei/1011699.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 り災証明書 申請方法",
+              "a": "電子申請フォームまたは資産税課窓口・郵送で申請可能。申請期限は災害発生日から6か月以内。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "り災証明書 必要書類",
+              "a": "申請書(紙申請時)、本人確認書類、被害状況がわかる写真が必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "disaster-mail-line",
+          "label": "防災メール・LINE登録",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/disaster-mail-line/",
+          "channels": [
+            "online"
+          ],
+          "conclusion": {
+            "online": "空メール送信で仮登録後、URLアクセスし本登録して完了",
+            "konbini": null,
+            "counter": null,
+            "cost": "登録無料、通信料は利用者負担",
+            "tel": "0538-37-4827",
+            "source": "https://www.city.iwata.shizuoka.jp/shiseijouhou/kouhou_kouchou/1011310.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 防災メール 登録方法",
+              "a": "「いわたホッとメール」へ空メール送信し、届いたURLから配信希望情報を選んで本登録する。登録は無料。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "磐田市 防災LINE 登録できる?",
+              "a": "磐田市公式LINEを友だち追加し、受信設定で「防災情報」を選択すると配信される。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "earthquake",
+          "label": "地震・津波の備え",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/earthquake/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 地震 津波 備え",
+              "a": "耐震補助制度、海抜確認、津波避難施設、警報システムなどの情報が公開されている。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "emergency-medical",
+          "label": "救急・医療",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/",
+          "channels": [
+            "phone",
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "磐田市急患センター、平日夜間19:30-22:30",
+            "cost": null,
+            "tel": "0538-32-5267",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 夜間 休日 急病 どこ",
+              "a": "磐田市急患センター(電話0538-32-5267)で日祝・平日夜間に内科小児科外科を診療。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "救急車呼ぶか迷う 相談先",
+              "a": "救急安心電話相談#7119、子どもの急病は#8000で医師・看護師に電話相談できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "evacuation-centers",
+          "label": "避難所",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "指定避難所一覧表(地区別)をオンラインで確認可能",
+            "konbini": null,
+            "counter": "最寄りの指定避難所へ直接避難",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/hinanjo/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 避難所 一覧 どこ",
+              "a": "磐田市公式サイトで地区別の指定避難所一覧表(PDF)が確認できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "evacuation-hazard-map",
+          "label": "避難のタイミング",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/evacuation-hazard-map/",
+          "channels": [
+            "online"
+          ],
+          "conclusion": {
+            "online": "「マイ・タイムライン」作成ツールで避難計画を確認可能",
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-2116",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/1008966/1008967.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 避難 タイミング いつ",
+              "a": "警戒レベルに応じたマイ・タイムラインで自分の避難計画を事前に確認できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "fire-ambulance",
+          "label": "119番通報",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/",
+          "channels": [
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-36-9919",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/119tsuuhou/1001220.html"
+          },
+          "faq": [
+            {
+              "q": "119番 通報の仕方 わからない",
+              "a": "「救急です」から始め、住所・症状・年齢・連絡先の順に落ち着いて伝える。指令員の指示に従えばよい。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "hazard-maps",
+          "label": "ハザードマップ",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/",
+          "channels": [
+            "online"
+          ],
+          "conclusion": {
+            "online": "磐田市地図情報提供サービス等でオンライン閲覧可能",
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-2116",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/1008966/1008973.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 ハザードマップ どこで見る",
+              "a": "磐田市地図情報提供サービスや国交省ハザードマップポータルでオンライン閲覧できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "pet-disaster-prevention",
+          "label": "ペットとの避難",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1010091.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 ペット 同行避難 できる",
+              "a": "避難所では屋外スペースでの受け入れとなり、世話や鳴き声管理は飼い主の責任。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "road-river-info",
+          "label": "通行止め・河川水位",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/road-river-info/",
+          "channels": [
+            "online"
+          ],
+          "conclusion": {
+            "online": "浸水センサ表示システムで市内22カ所をリアルタイム確認可能",
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-37-2114",
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/ooame_sonae/1014943.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 河川 水位 通行止め 確認",
+              "a": "浸水センサ表示システムや道路冠水想定マップでリアルタイムに近い状況を確認できる。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "storm-heavy-rain",
+          "label": "台風・大雨",
+          "url": "https://iwata.enshu-lifehack.com/life/emergency/storm-heavy-rain/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/ooame_sonae/1001150/index.html"
+          },
+          "faq": [
+            {
+              "q": "磐田市 台風 大雨 備え 何する",
+              "a": "冠水危険箇所や避難所、警戒レベルなどの情報が公式サイトにまとまっている。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -205,18 +3102,348 @@
       "description": "生活費、税金、法律、消費生活、子ども、介護、障害、空き家など、困りごと別に相談先を探せます。",
       "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/",
       "items": [
-        {"id": "animal-pet-consultation", "label": "動物・ペットの相談", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/"},
-        {"id": "cannot-pay-tax", "label": "税金が払えない", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/"},
-        {"id": "care-consultation", "label": "介護の相談窓口", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/"},
-        {"id": "child-consultation", "label": "子どもの相談窓口", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/"},
-        {"id": "consumer-fraud", "label": "消費生活トラブル", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/consumer-fraud/"},
-        {"id": "disability-consultation", "label": "障害の相談窓口", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/"},
-        {"id": "farmland", "label": "相続した農地", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/farmland/"},
-        {"id": "foreign-resident-consultation", "label": "外国人住民の相談窓口", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/"},
-        {"id": "legal-general-consultation", "label": "法律相談", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/legal-general-consultation/"},
-        {"id": "living-costs-trouble", "label": "生活費に困っている", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/"},
-        {"id": "road-repair-mirror", "label": "道路・街灯の不具合通報", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/road-repair-mirror/"},
-        {"id": "vacant-house-consultation", "label": "実家・空き家の相談", "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/"}
+        {
+          "id": "animal-pet-consultation",
+          "label": "動物・ペットの相談",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "専用問い合わせフォームで相談受付",
+            "konbini": null,
+            "counter": "環境課(西庁舎1階)で相談可",
+            "cost": null,
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1001521.html"
+          },
+          "faq": [
+            {
+              "q": "犬や猫の相談はどこにすればいい？",
+              "a": "環境課生活環境グループへ電話または窓口で相談を。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "野良猫の去勢手術の相談は？",
+              "a": "環境課で不妊・去勢手術補助金制度の相談を受付。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "cannot-pay-tax",
+          "label": "税金が払えない",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "スマホ決済アプリ等でオンライン納付可",
+            "konbini": null,
+            "counter": "収納課(本庁舎1階)で納税相談可",
+            "cost": null,
+            "tel": "0538-37-4906",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_noufu/1001378.html"
+          },
+          "faq": [
+            {
+              "q": "税金が払えない時はどこに相談すればいい？",
+              "a": "収納課へ電話か窓口で相談を。徴収猶予制度あり。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "税金の分割払いはできる？",
+              "a": "災害・病気等で納付困難な場合、徴収猶予制度で相談可。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "care-consultation",
+          "label": "介護の相談窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "市内7圏域の地域包括支援センターで相談可",
+            "cost": null,
+            "tel": "0538-37-4831",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001892.html"
+          },
+          "faq": [
+            {
+              "q": "介護の相談はどこにすればいい？",
+              "a": "お住まいの地域包括支援センターへ電話か窓口で相談を。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "地域包括支援センターの連絡先は？",
+              "a": "福祉政策課0538-37-4831か各圏域センターへ。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "child-consultation",
+          "label": "子どもの相談窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "こども若者家庭センターで相談可",
+            "cost": null,
+            "tel": "0538-37-2018",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/1005799.html"
+          },
+          "faq": [
+            {
+              "q": "子育ての悩みはどこに相談できる？",
+              "a": "こども若者家庭センターへ電話・窓口で相談可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "虐待かもと思ったら？",
+              "a": "児童相談所虐待対応ダイヤル189へ24時間通報可。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "consumer-fraud",
+          "label": "消費生活トラブル",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/consumer-fraud/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "専用フォームで相談受付",
+            "konbini": null,
+            "counter": "市民相談センター(本庁舎1階)で面談相談可",
+            "cost": "無料",
+            "tel": "0538-37-4746",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/shouhi_soudan/1001642.html"
+          },
+          "faq": [
+            {
+              "q": "詐欺にあったかもしれない時は？",
+              "a": "消費者ホットライン188か市民相談センターへ相談を。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "消費生活センターの相談は無料？",
+              "a": "無料(通話料等は自己負担)。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "disability-consultation",
+          "label": "障害の相談窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "障がい者相談支援センター(iプラザ3階等)で相談可",
+            "cost": null,
+            "tel": "0538-84-6661",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/shougaisha_fukushi/soudan/1006662.html"
+          },
+          "faq": [
+            {
+              "q": "障害の相談はどこにすればいい？",
+              "a": "磐田市障がい者相談支援センターへ電話・窓口で相談可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "南部エリアの障害相談窓口は？",
+              "a": "南部障がい者相談支援センター0538-24-7766へ。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "farmland",
+          "label": "相続した農地",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/farmland/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "問い合わせフォームで相談受付可",
+            "konbini": null,
+            "counter": "農林水産課(西庁舎1階)で相談可",
+            "cost": null,
+            "tel": "0538-37-4813",
+            "source": "https://www.city.iwata.shizuoka.jp/sangyou_business/nougyou/1010426/1005506.html"
+          },
+          "faq": [
+            {
+              "q": "農地を相続したら何をすればいい？",
+              "a": "相続発生後10ヶ月以内に農業委員会へ届出が必要。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "相続した農地を売りたい・貸したい時は？",
+              "a": "農地銀行への登録を農林水産課で相談可。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "foreign-resident-consultation",
+          "label": "外国人住民の相談窓口",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "外国人情報窓口(本庁舎1階)で多言語相談可",
+            "cost": null,
+            "tel": "0538-37-4785",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/tabunkakyousei/1001712.html"
+          },
+          "faq": [
+            {
+              "q": "外国人向けの相談窓口はある？",
+              "a": "本庁舎1階の外国人情報窓口で多言語相談可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "何語に対応している？",
+              "a": "ポルトガル語・英語・中国語等に対応。テレビ通訳で他言語も可。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "legal-general-consultation",
+          "label": "法律相談",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/legal-general-consultation/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "市民相談センター(本庁舎1階)で弁護士相談可(要予約)",
+            "cost": null,
+            "tel": "0538-37-4746",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/gyousei_soudan/1001630.html"
+          },
+          "faq": [
+            {
+              "q": "無料で弁護士に相談できる？",
+              "a": "市民相談センターの弁護士法律相談を電話予約制で利用可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "法律相談の予約はいつから？",
+              "a": "相談日の1週間前の木曜から電話で先着順受付。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "living-costs-trouble",
+          "label": "生活費に困っている",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "くらしと仕事相談センター(iプラザ3階)で相談可",
+            "cost": null,
+            "tel": "0538-32-8880",
+            "source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/seikatsu_fukushi/1012080/index.html"
+          },
+          "faq": [
+            {
+              "q": "生活費が厳しい時はどこに相談できる？",
+              "a": "くらしと仕事相談センターへ電話・窓口で相談可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "相談内容の秘密は守られる？",
+              "a": "秘密厳守で対応。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "road-repair-mirror",
+          "label": "道路・街灯の不具合通報",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/road-repair-mirror/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "お問合せフォーム・公式LINEで通報可",
+            "konbini": null,
+            "counter": "道路河川課(西庁舎2階)で通報・相談可",
+            "cost": null,
+            "tel": "0538-37-4808",
+            "source": "https://www.city.iwata.shizuoka.jp/sangyou_business/tochi_douro_kasen/1002177.html"
+          },
+          "faq": [
+            {
+              "q": "道路の穴やカーブミラーの破損はどこに通報？",
+              "a": "道路河川課へ電話・フォーム・LINEで通報可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "夜間や休日の緊急連絡先は？",
+              "a": "時間外は市役所宿直0538-37-2111へ連絡を。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "vacant-house-consultation",
+          "label": "実家・空き家の相談",
+          "url": "https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "専用問い合わせフォームで相談受付可",
+            "konbini": null,
+            "counter": "建築住宅課(西庁舎2階)で相談可",
+            "cost": "解体費助成は工事費の2分の1以内・上限50万円",
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/1010112/1001515.html"
+          },
+          "faq": [
+            {
+              "q": "実家の空き家をどうすればいいか相談したい",
+              "a": "建築住宅課へ電話・窓口で相談可。詳細は磐田市公式サイトで確認を"
+            },
+            {
+              "q": "危険な空き家の解体費用は補助される？",
+              "a": "対象工事費の2分の1以内、上限50万円の助成あり。詳細は磐田市公式サイトで確認を"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -226,16 +3453,315 @@
       "description": "死亡後の手続き、相続、年金、固定資産税、実家や空き家の整理を、急ぐものと後日進めるものに分けて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/end-of-life/",
       "items": [
-        {"id": "after-death-procedures", "label": "死亡後の手続き一覧", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/after-death-procedures/"},
-        {"id": "bereavement", "label": "家族が亡くなった", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/bereavement/"},
-        {"id": "bereavement-procedures", "label": "おくやみ手続き", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/bereavement-procedures/"},
-        {"id": "grave-memorial", "label": "お墓・供養", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/grave-memorial/"},
-        {"id": "house-became-vacant", "label": "空き家になった", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/house-became-vacant/"},
-        {"id": "inheritance", "label": "相続", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inheritance/"},
-        {"id": "inherited-house", "label": "相続した家の使い道", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inherited-house/"},
-        {"id": "inherited-vacant-house", "label": "相続した空き家", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inherited-vacant-house/"},
-        {"id": "pension-inheritance", "label": "年金の手続き（死亡後）", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/pension-inheritance/"},
-        {"id": "property-tax-inheritance", "label": "固定資産税の相続手続き", "url": "https://iwata.enshu-lifehack.com/life/end-of-life/property-tax-inheritance/"}
+        {
+          "id": "after-death-procedures",
+          "label": "死亡後の手続き一覧",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/after-death-procedures/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "市民課(本庁舎1階)・豊岡支所で死亡届を提出",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html"
+          },
+          "faq": [
+            {
+              "q": "死亡届はいつまでに出す？",
+              "a": "死亡の事実を知った日から7日以内に提出。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "死亡届はどこに出す？",
+              "a": "本庁舎1階市民課または豊岡支所、休日は本庁宿直室へ。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "死亡後の手続きは何がある？",
+              "a": "死亡届のほか年金・相続・墓地など複数の手続きがある。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "bereavement",
+          "label": "家族が亡くなった",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/bereavement/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "死亡届は本庁舎1階市民課・豊岡支所へ提出",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html"
+          },
+          "faq": [
+            {
+              "q": "家族が亡くなったらまず何をする？",
+              "a": "死亡届を7日以内に提出し、火葬予約などへ進む。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "死亡届の提出先は？",
+              "a": "本庁舎1階市民課、豊岡支所、休日は宿直室。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "bereavement-procedures",
+          "label": "おくやみ手続き",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/bereavement-procedures/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "死亡届提出後、相続人代表者届出等の手続きが必要",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/1014568/1014580.html"
+          },
+          "faq": [
+            {
+              "q": "おくやみの手続きはどこで案内してもらえる？",
+              "a": "磐田市公式サイトの「おくやみガイド」で一覧が確認できる。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "相続人代表者届出書は誰が必要？",
+              "a": "固定資産の名義人が死亡した際に資産税課へ提出する。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "grave-memorial",
+          "label": "お墓・供養",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/grave-memorial/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "環境課(西庁舎1階)で申請、許可証を持参",
+            "cost": "使用料17万〜30万円、管理料年2,090円",
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/bochi/1001525.html"
+          },
+          "faq": [
+            {
+              "q": "市営霊園の使用料はいくら？",
+              "a": "17万〜30万円(初年度のみ)、管理料は年2,090円。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "改葬(お墓の引っ越し)の手数料は？",
+              "a": "1件300円。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "お墓の相談窓口は？",
+              "a": "環境水道部環境課生活環境グループ(西庁舎1階)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "house-became-vacant",
+          "label": "空き家になった",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/house-became-vacant/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "解体費用助成は電子申請も可能",
+            "konbini": null,
+            "counter": "建築住宅課(西庁舎2階)で申請書類を提出",
+            "cost": "助成上限50万円(対象工事費の1/2以内)",
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/1010112/1001515.html"
+          },
+          "faq": [
+            {
+              "q": "空き家の解体費用は補助が出る？",
+              "a": "対象工事費の2分の1以内、上限50万円の助成がある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "空き家の相談はどこにする？",
+              "a": "建設部建築住宅課住宅管理グループへ。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "空き家の解体助成はオンライン申請できる？",
+              "a": "電子申請も可能。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "inheritance",
+          "label": "相続",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inheritance/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "市民相談センターで司法書士相談(要予約)",
+            "cost": null,
+            "tel": "0538-37-4746",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/gyousei_soudan/1001631.html"
+          },
+          "faq": [
+            {
+              "q": "相続の無料相談はある？",
+              "a": "毎月第1・第3火曜に司法書士による相続・登記相談(予約制)がある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "相続登記はいつまでにする？",
+              "a": "取得を知った日から3年以内が原則(令和6年4月義務化)。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "相続相談の予約はどうやってとる？",
+              "a": "前月25日から電話先着順で受付、0538-37-4746。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "inherited-house",
+          "label": "相続した家の使い道",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inherited-house/",
+          "channels": [
+            "counter"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "建築住宅課(西庁舎2階)で空き家活用を相談",
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/1010112/index.html"
+          },
+          "faq": [
+            {
+              "q": "相続した家はどうすればいい？",
+              "a": "空き家バンクへの登録、活用、解体助成など複数の選択肢がある。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "相続した家の相談窓口は？",
+              "a": "建設部建築住宅課(西庁舎2階)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "inherited-vacant-house",
+          "label": "相続した空き家",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/inherited-vacant-house/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "確認書はスマホ申請・クレジット決済に対応",
+            "konbini": null,
+            "counter": "建築住宅課(西庁舎2階)で確認書を申請",
+            "cost": "確認書発行手数料300円(郵送は+110円)",
+            "tel": "0538-37-4851",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/1010112/1010719.html"
+          },
+          "faq": [
+            {
+              "q": "相続空き家の3000万円控除って何？",
+              "a": "相続開始から3年以内に譲渡すると譲渡所得から最大3000万円控除。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "被相続人居住用家屋等確認書の手数料は？",
+              "a": "1通300円、郵送は郵送料110円が別途必要。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "確認書はオンライン申請できる？",
+              "a": "スマホからオンライン申請可能でクレジットカード決済にも対応。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "pension-inheritance",
+          "label": "年金の手続き（死亡後）",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/pension-inheritance/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "国保年金課(本庁舎1階)で相談、手続は年金機構",
+            "cost": null,
+            "tel": "0538-37-4833",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/kokuho_nenkin/kokuminnenkin/1013150.html"
+          },
+          "faq": [
+            {
+              "q": "年金受給者が死亡したらどうする？",
+              "a": "手続きは日本年金機構(浜松東年金事務所)で行う。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "死亡一時金とは？",
+              "a": "保険料3年以上納付し年金未受給のまま死亡した際、遺族基礎年金非該当なら支給。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "寡婦年金は誰がもらえる？",
+              "a": "婚姻10年以上の妻が60〜65歳の間受給可(第1号被保険者のみの夫が対象)。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "property-tax-inheritance",
+          "label": "固定資産税の相続手続き",
+          "url": "https://iwata.enshu-lifehack.com/life/end-of-life/property-tax-inheritance/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "資産税課土地グループ(本庁1階)へ届出書提出",
+            "cost": null,
+            "tel": "0538-37-4809",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisan_toshikeikakuzei/1010004.html"
+          },
+          "faq": [
+            {
+              "q": "固定資産税の名義人が死亡したらどうする？",
+              "a": "相続人代表者(変更)届出書を資産税課へ提出する。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "相続人代表者届出書はいつ届く？",
+              "a": "死亡からおおむね2か月後に送付される。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "この届出だけで名義変更は完了する？",
+              "a": "完了しない、別途法務局での相続登記が必要。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     },
     {
@@ -245,12 +3771,173 @@
       "description": "磐田市から引っ越すときの転出届、水道停止、粗大ごみ、学校・保育園、犬の登録変更をまとめて確認できます。",
       "url": "https://iwata.enshu-lifehack.com/life/moving-out/",
       "items": [
-        {"id": "bulk-garbage-cleaning", "label": "粗大ごみ・片付け", "url": "https://iwata.enshu-lifehack.com/life/moving-out/bulk-garbage-cleaning/"},
-        {"id": "dog-ownership-change", "label": "犬の登録変更", "url": "https://iwata.enshu-lifehack.com/life/moving-out/dog-ownership-change/"},
-        {"id": "move-out-notice", "label": "転出届", "url": "https://iwata.enshu-lifehack.com/life/moving-out/move-out-notice/"},
-        {"id": "moving-away", "label": "引っ越し手続き一覧", "url": "https://iwata.enshu-lifehack.com/life/moving-out/moving-away/"},
-        {"id": "school-nursery-procedures", "label": "子どもの転校・転園", "url": "https://iwata.enshu-lifehack.com/life/moving-out/school-nursery-procedures/"},
-        {"id": "stop-water", "label": "水道を止める", "url": "https://iwata.enshu-lifehack.com/life/moving-out/stop-water/"}
+        {
+          "id": "bulk-garbage-cleaning",
+          "label": "粗大ごみ・片付け",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/bulk-garbage-cleaning/",
+          "channels": [
+            "online",
+            "phone",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "公式LINE「家庭ごみ」から粗大ごみ収集を申請可",
+            "konbini": null,
+            "counter": "可燃はクリーンセンター、不燃は中遠広域施設へ持込み可",
+            "cost": "基本料金1,040円＋品物1個210円",
+            "tel": "0538-37-4812",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html"
+          },
+          "faq": [
+            {
+              "q": "粗大ごみはLINEで申し込める？",
+              "a": "磐田市公式LINEの「家庭ごみ」メニューから申請できます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "粗大ごみの収集費用はいくら？",
+              "a": "基本料金1,040円に加え、品物1個につき210円かかります。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "急ぎで粗大ごみを処分したい時は？",
+              "a": "可燃はクリーンセンター、不燃は中遠広域粗大ごみ処理施設へ持ち込めます。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "dog-ownership-change",
+          "label": "犬の登録変更",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/dog-ownership-change/",
+          "channels": [
+            "online",
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "磐田市電子申請サービスで登録事項変更届が可能",
+            "konbini": null,
+            "counter": "環境課または各支所窓口で鑑札・愛犬手帳を提示",
+            "cost": null,
+            "tel": "0538-37-2702",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1004277.html"
+          },
+          "faq": [
+            {
+              "q": "犬の登録変更はオンラインでできる？",
+              "a": "磐田市電子申請サービスで住所変更・飼主変更の届出ができます。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "犬の登録変更の窓口はどこ？",
+              "a": "環境課または各支所窓口です。鑑札と愛犬手帳を持参してください。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "move-out-notice",
+          "label": "転出届",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/move-out-notice/",
+          "channels": [
+            "online",
+            "counter"
+          ],
+          "conclusion": {
+            "online": "LINE事前申請で二次元コード発行、来庁は必要",
+            "konbini": null,
+            "counter": "本庁市民課または福田・竜洋・豊岡各支所、本人確認書類持参",
+            "cost": null,
+            "tel": "0538-37-4816",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html"
+          },
+          "faq": [
+            {
+              "q": "転出届はオンラインで完結できる？",
+              "a": "LINE事前申請でバーコードを発行できますが、最終的に窓口来庁が必要です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "転出届の窓口はどこ？",
+              "a": "本庁舎1階市民課、または福田・竜洋・豊岡の各支所です。本人確認書類が必要です。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "moving-away",
+          "label": "引っ越し手続き一覧",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/moving-away/",
+          "channels": [],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": null,
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html"
+          },
+          "faq": [
+            {
+              "q": "引っ越しの手続きは何から始めればいい？",
+              "a": "まず転出届を提出し、水道・ごみ・学校・犬の登録などを順に確認します。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        },
+        {
+          "id": "school-nursery-procedures",
+          "label": "子どもの転校・転園",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/school-nursery-procedures/",
+          "channels": [
+            "counter",
+            "phone"
+          ],
+          "conclusion": {
+            "online": null,
+            "konbini": null,
+            "counter": "転校は学校教育課、転園は幼児教育保育課の窓口へ相談",
+            "cost": null,
+            "tel": "0538-37-2760",
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/shougakkou_cfuugakkou/soudan_tetsuzuki/1001831/index.html"
+          },
+          "faq": [
+            {
+              "q": "転校の手続きはどこに相談する？",
+              "a": "学校教育課（0538-37-2760）へ相談します。市外転校は在学証明書等が必要です。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "保育園の転園はどこに相談する？",
+              "a": "幼児教育保育課（0538-37-4858）へ相談します。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "draft"
+        },
+        {
+          "id": "stop-water",
+          "label": "水道を止める",
+          "url": "https://iwata.enshu-lifehack.com/life/moving-out/stop-water/",
+          "channels": [
+            "online",
+            "phone"
+          ],
+          "conclusion": {
+            "online": "インターネット受付で使用中止の申込み可（海外転出等除く）",
+            "konbini": null,
+            "counter": null,
+            "cost": null,
+            "tel": "0538-58-3070",
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/jougesuidou/jousuidou/1005582/index.html"
+          },
+          "faq": [
+            {
+              "q": "水道の中止はいつまでに連絡すればいい？",
+              "a": "使用を中止する3日前までに上下水道料金センターへ連絡します。詳細は磐田市公式サイトで確認を。"
+            },
+            {
+              "q": "水道の中止手続きはネットでできる？",
+              "a": "インターネット受付で可能です（海外転出・現地精算等を除く）。詳細は磐田市公式サイトで確認を。"
+            }
+          ],
+          "conclusion_status": "machine-verified"
+        }
       ]
     }
   ]
