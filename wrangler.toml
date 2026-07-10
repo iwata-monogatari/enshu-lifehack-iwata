@@ -19,6 +19,9 @@ binding = "ASSETS"
 not_found_handling = "404-page"
 
 # Phase 0: 検索クエリ・0件ヒットログ(KVは使用禁止。書き込み集中に耐えないため)
-[[analytics_engine_datasets]]
-binding = "SEARCH_LOGS"
-dataset = "iwata_search_logs"
+# ⚠️ Analytics EngineがCloudflareダッシュボードで未有効化のため一時コメントアウト中。
+# https://dash.cloudflare.com/cb6abc010086728524a32d501be54fa9/workers/analytics-engine で有効化後、
+# 下記4行を復活させてデプロイすること(src/worker.jsはenv.SEARCH_LOGS未定義でも安全に動作する)。
+# [[analytics_engine_datasets]]
+# binding = "SEARCH_LOGS"
+# dataset = "iwata_search_logs"
