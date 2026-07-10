@@ -12,6 +12,36 @@ function escapeHtml(text) {
   return text.replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 }
 
+const ANALYTICS_ENDPOINT = 'https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/api/click';
+const ANALYTICS_SITE_ID = 'iwata-lifehack';
+let searchTrackTimer = null;
+
+function trackSearch(term) {
+  const value = (term || '').trim().slice(0, 60);
+  if (!value) return;
+  clearTimeout(searchTrackTimer);
+  searchTrackTimer = setTimeout(() => {
+    try {
+      fetch(ANALYTICS_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          site_id: ANALYTICS_SITE_ID,
+          path: window.location.pathname + window.location.search,
+          url: window.location.href,
+          referrer: document.referrer || '',
+          event_name: `search:${value}`,
+        }),
+        mode: 'cors',
+        credentials: 'omit',
+        keepalive: true,
+      }).catch(() => {});
+    } catch (e) {
+      /* noop */
+    }
+  }, 700);
+}
+
 async function runSearch(query) {
   const resultsEl = document.getElementById('search-results');
   if (!resultsEl) return;
@@ -22,6 +52,7 @@ async function runSearch(query) {
   }
   const items = await loadIndex();
   const matched = searchTopics(items, value);
+  trackSearch(value);
   const safeQuery = escapeHtml(value);
   resultsEl.innerHTML = matched.length
     ? `<h2>「${safeQuery}」の候補</h2><ul>${matched

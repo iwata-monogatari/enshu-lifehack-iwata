@@ -41,7 +41,7 @@ def build_page(checklist, parts):
     items_html = "".join(
         '<li class="checklist-item" data-task-id="%s">'
         '<label class="checklist-label">'
-        '<input type="checkbox" class="checklist-check" data-task-id="%s">'
+        '<input type="checkbox" class="checklist-check" data-task-id="%s" data-track-click="checklist_check">'
         '<span class="checklist-text">%s</span>'
         "</label>"
         '<a class="checklist-link" href="%s">くわしく見る</a>'

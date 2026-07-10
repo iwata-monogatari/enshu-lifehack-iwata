@@ -41,8 +41,8 @@ def build_share_box(label, page_url):
         '<section class="share-box" aria-label="このページをシェア">'
         '<h2 class="sec" style="margin-top:0">友人・家族に送る</h2>'
         '<div class="share-actions">'
-        '<a class="share-btn share-line" href="%s" target="_blank" rel="noopener">LINEで送る</a>'
-        '<button type="button" class="share-btn share-copy" data-share-url="%s">リンクをコピー</button>'
+        '<a class="share-btn share-line" href="%s" target="_blank" rel="noopener" data-track-click="share_line">LINEで送る</a>'
+        '<button type="button" class="share-btn share-copy" data-share-url="%s" data-track-click="share_copy">リンクをコピー</button>'
         "</div>"
         '<p class="share-copied" hidden>コピーしました</p>'
         "</section>"
