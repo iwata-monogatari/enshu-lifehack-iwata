@@ -256,6 +256,11 @@ body.hub .search-row button{min-height:44px;border:0;border-radius:10px;backgrou
 body.hub .search-chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
 body.hub .search-chip{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:var(--green-d);font-weight:700;font-size:13px;padding:0 16px;cursor:pointer;font-family:inherit}
 body.hub .search-chip:hover{background:#e6f2ec}
+body.hub .top-tasks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+body.hub .top-task{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:76px;border-radius:12px;background:var(--soft);border:1px solid #cfe5da;color:var(--green-d);font-weight:800;font-size:13.5px;text-align:center;padding:10px 6px}
+body.hub .top-task .emoji{font-size:22px;line-height:1}
+body.hub .top-task:hover{background:#e0f0e8}
+@media(min-width:520px){body.hub .top-tasks{grid-template-columns:repeat(4,minmax(0,1fr))}}
 body.hub .choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 body.hub .quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 body.hub .quick-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;min-height:88px;display:flex;align-items:flex-start;gap:0}
