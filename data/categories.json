@@ -34,7 +34,11 @@
               "a": "0538-37-4805(政策推進課)で電話相談を受け付け中。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "移住相談はオンラインでも受付",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎4階 政策推進課、要事前連絡。電話：0538-37-4805"
         },
         {
           "id": "bus-license-return",
@@ -62,7 +66,11 @@
               "a": "県内の警察署免許窓口で運転経歴証明書を申請する。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "県内警察署窓口で運転経歴証明書を申請。電話：0538-37-4751"
         },
         {
           "id": "disaster-risk",
@@ -89,7 +97,11 @@
               "a": "指定避難所一覧表(PDF)や地区別ページで確認できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "ハザードマップはWebで確認可",
+          "time_estimate": "n/a",
+          "counter_info": null
         },
         {
           "id": "moving-decided",
@@ -118,7 +130,11 @@
               "a": "本庁舎1階市民課、または福田・竜洋・豊岡支所で手続きできる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "LINEで転入出届の事前申請可",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課、本人確認書類持参。電話：0538-37-4816"
         },
         {
           "id": "school-districts",
@@ -147,7 +163,11 @@
               "a": "西庁舎3階 学校教育課(0538-37-2760)で相談できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "通学区域一覧をWebで確認可",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎3階 学校教育課。電話：0538-37-2760"
         },
         {
           "id": "transportation",
@@ -174,7 +194,11 @@
               "a": "自治デザイン課交通政策グループ(0538-37-4751)へ。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4751"
         },
         {
           "id": "want-to-live",
@@ -203,7 +227,11 @@
               "a": "既存住宅取得補助や就業支援金など複数の制度がある。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "移住相談はオンライン対応あり",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎4階、要事前連絡。電話：0538-37-4805"
         }
       ]
     },
@@ -245,7 +273,11 @@
               "a": "基本料金1,040円に品物1個につき210円が加算される(家電リサイクル品は別料金)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "戸別収集はLINEで電子申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "持ち込みは中遠広域粗大ごみ処理施設(磐田市新貝59-1)、袋・箱は持ち帰り。電話：0538-37-4812"
         },
         {
           "id": "certificates",
@@ -278,7 +310,11 @@
               "a": "スマートフォンから申請し郵送で受け取れるサービスがある。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "スマホ申請で住民票等を郵送取得可能",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課ほか各支所、受付は平日8時30分〜17時15分。電話：0538-37-4816"
         },
         {
           "id": "city-hall-branches",
@@ -306,7 +342,11 @@
               "a": "福田・豊岡・豊田・竜洋の各支所の市民生活課で住民票交付など一部手続きが可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階ほか各支所、平日8:30〜17:15。電話：0538-37-2111"
         },
         {
           "id": "dog-registration",
@@ -333,7 +373,11 @@
               "a": "登録手数料3,000円(生涯1回)。オンライン申請は不可で窓口手続きが必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎1階環境課または各支所市民生活課、平日8時30分〜17時15分。電話：0538-37-2702"
         },
         {
           "id": "dog-registration-rabies",
@@ -365,7 +409,11 @@
               "a": "550円。愛犬手帳と注射済証(または猶予証)が必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "かかりつけ動物病院で接種、注射済票は環境課または各支所へ届出。電話：0538-37-2702"
         },
         {
           "id": "garbage-sorting-calendar",
@@ -393,7 +441,11 @@
               "a": "磐田市LINE公式アカウントで家庭ごみ収集日のお知らせを受け取れます。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "磐田市LINE公式アカウントで家庭ごみ収集日をお知らせ",
+          "time_estimate": "n/a",
+          "counter_info": "市役所環境課・ごみ資源循環課・各支所市民生活課・地区交流センターで配布。電話：0538-37-4812"
         },
         {
           "id": "how-to-garbage",
@@ -421,7 +473,11 @@
               "a": "基本料金1,040円に品目1個210円、家電リサイクル品は1,100円/個が加算されます。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "粗大ごみ回収は磐田市公式LINEで申込可能",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4812"
         },
         {
           "id": "moved-in",
@@ -446,7 +502,11 @@
               "a": "磐田市公式サイトの「引越し」ページに住所変更・学校・上下水道などの手続きがまとめられています。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": null
         },
         {
           "id": "moving-address-change",
@@ -478,7 +538,11 @@
               "a": "市民課(0538-37-4816)。福田・竜洋・豊岡の各支所でも受付しています。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "転入・転出・転居届はLINEで事前申請可能（二次元バーコード発行）",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課・各支所市民生活課で届出（転出証明書と本人確認書類持参）。電話：0538-37-4816"
         },
         {
           "id": "mynumber",
@@ -510,7 +574,11 @@
               "a": "初回発行は無料です。紛失後の再交付は1,000円かかります。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "partial",
+          "online_note": "住民票等はコンビニのマルチコピー機で取得可（1通300円〜）",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課交付窓口で受取（交付通知書・本人確認書類持参）。電話：0538-37-4816"
         },
         {
           "id": "pets-lost-animals",
@@ -542,7 +610,11 @@
               "a": "磐田市には飼い主のいない猫の不妊去勢手術費補助制度があります。環境課へ相談を。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田市役所環境課窓口（平日8:30〜17:15）で相談可。電話：0538-37-2702"
         },
         {
           "id": "public-transit",
@@ -575,7 +647,11 @@
               "a": "運行は月〜土曜のみ。日曜・祝日・年末年始(12/31〜1/3)は運休です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "お助け号は磐田中央線・豊田線でネット予約可",
+          "time_estimate": "n/a",
+          "counter_info": "登録は自治デザイン課・支所・交流センターへ提出。電話：0538-37-4751"
         },
         {
           "id": "resident-registration",
@@ -608,7 +684,11 @@
               "a": "磐田市の電子申請サービスで住民票の写しなどを申請できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "電子申請で住民票の写しなどを申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "市民課窓口（本庁1階）で本人確認書類提示、平日受付。電話：0538-37-4816"
         },
         {
           "id": "water-sewer",
@@ -641,7 +721,11 @@
               "a": "下水道整備区域では水道料金とは別に下水道使用料がかかります。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "partial",
+          "online_note": "バーコード付き納入通知書でコンビニ支払い可",
+          "time_estimate": "n/a",
+          "counter_info": "上下水道料金センター（福田支所2階）で相談、平日8:30〜17:15。電話：0538-58-3070"
         },
         {
           "id": "water-start-stop-fees",
@@ -674,7 +758,11 @@
               "a": "中止の3日前までに上下水道料金センターへ電話・窓口・FAX・ネットのいずれかで届出を。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "インターネット受付で24時間365日申込可",
+          "time_estimate": "n/a",
+          "counter_info": "上下水道料金センター（福田支所2階）窓口、平日8:30〜17:15。電話：0538-58-3070"
         }
       ]
     },
@@ -708,7 +796,11 @@
               "a": "既存宅地や分家住宅など条件を満たせば建築可能。都市計画課(0538-37-4935)で要確認。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "都市計画課で市街化調整区域内建築の確認を電子申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階都市計画課で建築可否を確認。電話：0538-37-4935"
         },
         {
           "id": "buy-house",
@@ -733,7 +825,11 @@
               "a": "既存住宅取得＋リフォームで最大150万円補助（若者・子育て世帯）。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "既存住宅取得等事業費補助金を電子申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階建築住宅課で申請書を提出可能。電話：0538-37-4851"
         },
         {
           "id": "clean-parents-house",
@@ -754,7 +850,11 @@
               "a": "可燃・不燃・資源ごみはクリーンセンター等へ持込可能。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "クリーンセンター等へごみを持ち込み可能"
         },
         {
           "id": "earthquake-demolition",
@@ -779,7 +879,11 @@
               "a": "耐震改修・危険空き家解体とも助成あり。解体費は上限50万円。建築住宅課(0538-37-4899)で確認を。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "危険空き家解体費用助成などを電子申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階建築住宅課で耐震・解体を相談可能。電話：0538-37-4899"
         },
         {
           "id": "municipal-housing",
@@ -804,7 +908,11 @@
               "a": "定期募集は5・9・1月、はまぼう団地は通年受付。建築住宅課(0538-37-4851)で確認を。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "市営住宅入居申込を電子申込フォームで受付",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階建築住宅課で申込書を提出可能。電話：0538-37-4851"
         },
         {
           "id": "property-tax",
@@ -834,7 +942,11 @@
               "a": "バーコード付き納付書があればコンビニ納付可能（30万円超は不可）。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "証明書はマイナンバーカードで電子申請・郵送受取可能",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎市民税課で証明書申請・納付が可能。電話：0538-37-3767"
         },
         {
           "id": "public-housing-consultation",
@@ -855,7 +967,11 @@
               "a": "生活困窮者自立支援制度など生活・健康福祉部の窓口で相談可能。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "生活困窮者自立支援制度など各相談窓口で相談可能"
         },
         {
           "id": "rent-house",
@@ -879,7 +995,11 @@
               "a": "セーフティネット住宅として県登録済みの民間賃貸を紹介。建築住宅課(0538-37-4851)で確認を。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階建築住宅課でセーフティネット住宅を相談可能。電話：0538-37-4851"
         },
         {
           "id": "sell-house",
@@ -905,7 +1025,11 @@
               "a": "評価証明書等は売却時の必要書類。市民税課(0538-37-3767)で取得可。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "評価証明書はマイナンバーカードで電子申請・郵送受取可能",
+          "time_estimate": "n/a",
+          "counter_info": "市民税課で証明書を申請、本人確認書類が必要。電話：0538-37-3767"
         },
         {
           "id": "vacant-house",
@@ -934,7 +1058,11 @@
               "a": "専門家による個別相談会や建築住宅課(0538-37-4851)で相談可能。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "危険空き家解体費用助成を電子申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎2階建築住宅課で解体助成を相談可能。電話：0538-37-4851"
         }
       ]
     },
@@ -970,7 +1098,11 @@
               "a": "iプラザ3階こども未来課または各支所窓口で申請。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ3階こども未来課や各支所窓口で申請、保険証・通帳持参。電話：0538-37-4896"
         },
         {
           "id": "child-allowance-medical",
@@ -997,7 +1129,11 @@
               "a": "iプラザ3階こども未来課や各支所窓口で申請・発行。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ3階こども未来課や各支所窓口で受給者証発行、資格確認書等持参。電話：0538-37-4896"
         },
         {
           "id": "child-vaccination",
@@ -1025,7 +1161,11 @@
               "a": "こども若者家庭センター(0538-37-2012)へ電話で確認を。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ2階こども若者家庭センターへ電話確認のうえ来所。電話：0538-37-2012"
         },
         {
           "id": "childbirth",
@@ -1052,7 +1192,11 @@
               "a": "母子健康手帳と出生連絡票が必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課または豊岡支所へ、母子健康手帳と出生連絡票持参。電話：0538-37-4816"
         },
         {
           "id": "developmental-support",
@@ -1080,7 +1224,11 @@
               "a": "予約制のため事前に電話予約が必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ2階「はあと」へ電話予約制、平日8時30分〜17時。電話：0538-37-2014"
         },
         {
           "id": "infant-health-check",
@@ -1108,7 +1256,11 @@
               "a": "iプラザ(総合健康福祉会館)2階が主な会場。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "1歳6か月児健診等はLINEから24時間予約可",
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ2階で受診、対象月前月に郵送通知が届く。電話：0538-37-2012"
         },
         {
           "id": "marriage",
@@ -1135,7 +1287,11 @@
               "a": "本庁舎1階市民課で受付(支所不可)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課のみ受付、平日8時30分〜17時15分、夜間・休日は宿直室。電話：0538-37-4816"
         },
         {
           "id": "nursery-childcare",
@@ -1163,7 +1319,11 @@
               "a": "利用したい園に直接連絡して確認。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "利用は各実施園へ直接連絡、園ごとに曜日・時間が異なる。電話：0538-37-4858"
         },
         {
           "id": "nursery-school",
@@ -1191,7 +1351,11 @@
               "a": "幼児教育保育課(iプラザ3階、0538-37-4858)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "スマホ・PCから電子申請可(市外保育園を除く)",
+          "time_estimate": "n/a",
+          "counter_info": "幼児教育保育課(iプラザ3階)で申請、就労証明等の必要書類持参。電話：0538-37-4858"
         },
         {
           "id": "parenting-support",
@@ -1220,7 +1384,11 @@
               "a": "いわた子育てアプリのオンライン相談が利用可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "いわた子育てアプリでオンライン子育て相談が可能",
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ2階こども若者家庭センターで相談受付。電話：0538-37-2012"
         },
         {
           "id": "pregnancy",
@@ -1248,7 +1416,11 @@
               "a": "iプラザ2階こども若者家庭センターで交付。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "いわた子育てアプリ「母子モ」でオンライン予約可",
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ2階こども若者家庭センターで母子健康手帳交付。電話：0538-37-2012"
         },
         {
           "id": "single-parent-support",
@@ -1275,7 +1447,11 @@
               "a": "こども未来課(0538-37-4896)へ相談を。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ3階こども未来課で申請、戸籍・通帳・マイナンバー持参。電話：0538-37-4896"
         }
       ]
     },
@@ -1313,7 +1489,11 @@
               "a": "部屋・時間帯により異なり、ホール1階平日午前は32,860円など。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "ホール以外は予約システムで抽選後に申込可",
+          "time_estimate": "n/a",
+          "counter_info": "来館し使用申込書を提出、窓口は平日8時30分〜17時15分。電話：0538-37-8550"
         },
         {
           "id": "facilities-library-parks",
@@ -1342,7 +1522,11 @@
               "a": "条件を絞り込んで地図上から施設を探せる仕組みがある。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "施設ガイドで種類・地区別に施設を検索できる",
+          "time_estimate": "n/a",
+          "counter_info": "各施設窓口で直接利用申込・問い合わせが可能"
         },
         {
           "id": "find-parks",
@@ -1370,7 +1554,11 @@
               "a": "基本的に予約不要で無料開放されている公園が多い。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "施設ガイドで80以上の公園一覧を検索できる",
+          "time_estimate": "n/a",
+          "counter_info": "多くの公園は予約不要で現地に直接立ち寄れる"
         },
         {
           "id": "kids-playgrounds",
@@ -1398,7 +1586,11 @@
               "a": "利用料は無料。開館時間は施設ごとに異なる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "就学前児童と保護者向けの交流の場、予約不要で来所可。電話：0538-37-2012"
         },
         {
           "id": "parking-access",
@@ -1426,7 +1618,11 @@
               "a": "磐田駅南自転車等駐車場があり自転車440台・原付100台収容できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "リベーラ磐田市営駐車場はJR磐田駅北口徒歩3分、189台収容。電話：0538-37-3858"
         },
         {
           "id": "rent-public-facilities",
@@ -1455,7 +1651,11 @@
               "a": "毎日午前6時から午前0時まで利用できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "公共施設予約システムで毎日6時〜24時に予約申込可",
+          "time_estimate": "n/a",
+          "counter_info": "初回は窓口で本人確認書類提示、団体は構成員名簿提出が必要。電話：0538-37-4811"
         },
         {
           "id": "sports-facilities",
@@ -1484,7 +1684,11 @@
               "a": "事前に団体登録と構成員名簿の提出が必要になる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "磐田市公共施設予約システムで空き状況確認・予約ができる",
+          "time_estimate": "n/a",
+          "counter_info": "利用には団体登録と構成員名簿の提出が必要。電話：0538-37-4832"
         },
         {
           "id": "swimming-pools",
@@ -1516,7 +1720,11 @@
               "a": "開場期間は7月1日〜8月31日ごろの夏季限定。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田温水プールは午前9時〜午後9時、予約不要で直接利用可。電話：0538-33-8855"
         },
         {
           "id": "visit-library",
@@ -1548,7 +1756,11 @@
               "a": "ウェブサイト・窓口・館内端末・電話で予約手続きができる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "ウェブサイトから蔵書検索・予約手続きができる",
+          "time_estimate": "n/a",
+          "counter_info": "窓口・館内端末(OPAC)で貸出手続き可、一人10冊2週間"
         }
       ]
     },
@@ -1589,7 +1801,11 @@
               "a": "教育部放課後活動課児童クラブグループ(0538-37-2773)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "電子申請(Logoフォーム)で24時間申込み可能",
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎3階 放課後活動課へ書類提出も可能。電話：0538-37-2773"
         },
         {
           "id": "educational-consulting",
@@ -1616,7 +1832,11 @@
               "a": "教育部児童生徒支援課が不登校支援プランの相談窓口を担当。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4923"
         },
         {
           "id": "elementary-middle-school",
@@ -1641,7 +1861,11 @@
               "a": "同ページ内の通学区・相談手続きリンクから確認できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": null
         },
         {
           "id": "school-attendance-support",
@@ -1669,7 +1893,11 @@
               "a": "児童生徒支援課(0538-37-4923)や子育て相談窓口へ。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "健診当日に案内書類を持参して受診(申込不要)。電話：0538-37-4923"
         },
         {
           "id": "school-district-transfer",
@@ -1696,7 +1924,11 @@
               "a": "学区外(区域外)就学の認可基準に該当するか学校教育課へ相談。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎3階 学校教育課で申請書を入手・提出。電話：0538-37-2760"
         },
         {
           "id": "school-expense-support",
@@ -1728,7 +1960,11 @@
               "a": "給食費・学用品費・修学旅行費などが学期ごとに口座へ振込。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "オンライン申請フォームで随時申請できる",
+          "time_estimate": "n/a",
+          "counter_info": "電子申請が難しい場合は在籍校か教育総務課へ相談。電話：0538-37-4821"
         },
         {
           "id": "school-meals",
@@ -1753,7 +1989,11 @@
               "a": "原則、指定金融機関の口座振替で納入する。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4780"
         },
         {
           "id": "school-zones",
@@ -1780,7 +2020,11 @@
               "a": "学区外(区域外)就学の認可基準を満たすか学校教育課へ相談。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "学校教育課窓口で通学区域や学区外就学を確認。電話：0538-37-2760"
         },
         {
           "id": "study-facilities",
@@ -1807,7 +2051,11 @@
               "a": "中央図書館は火〜金9時〜19時、土日祝9時〜17時。休館日は月曜など。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "本人確認書類を持参し窓口で利用者登録(無料)。電話：0538-32-5254"
         }
       ]
     },
@@ -1844,7 +2092,11 @@
               "a": "協力医療機関に直接電話で予約します。費用や対象年齢は制度ごとに異なるため、詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "協力医療機関の窓口で予診票を提出し接種。電話：0538-37-2011"
         },
         {
           "id": "cancer-specific-checkups",
@@ -1873,7 +2125,11 @@
               "a": "健康増進課の窓口または電子申請で申請できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "がん患者医療用補整具購入費助成は電子申請も可能",
+          "time_estimate": "n/a",
+          "counter_info": "健康増進課（iプラザ3階）窓口で申請書を提出。電話：0538-37-2011"
         },
         {
           "id": "dental-care",
@@ -1901,7 +2157,11 @@
               "a": "受診券を受け取ったら、協力歯科医院一覧から選んで電話予約します。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "協力歯科医院に電話予約し無料受診券で受診。電話：0538-37-2011"
         },
         {
           "id": "disability-services",
@@ -1929,7 +2189,11 @@
               "a": "障がいの疑いがある方やその家族も相談対象です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "障がい者相談支援センター（iプラザ3階等）窓口で相談。電話：0538-84-6661"
         },
         {
           "id": "disability-welfare",
@@ -1957,7 +2221,11 @@
               "a": "福祉相談課障がい福祉グループ（iプラザ3階）が窓口です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "福祉相談課障がい福祉グループ（iプラザ3階）窓口で申請。電話：0538-37-4919"
         },
         {
           "id": "find-hospitals",
@@ -1985,7 +2253,11 @@
               "a": "休日は内科・小児科・外科、夜間は内科・小児科です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田市急患センター（上大之郷51）で受診。電話：0538-32-5267"
         },
         {
           "id": "health-checkups",
@@ -2014,7 +2286,11 @@
               "a": "開業医健診または集団バス健診から選び、申込フォームか電話で申し込みます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "初めて受診する方等は申込フォームから受付可",
+          "time_estimate": "n/a",
+          "counter_info": "指定医療機関または集団バス健診で受診（受診券持参）。電話：0538-37-2011"
         },
         {
           "id": "health-promotion",
@@ -2042,7 +2318,11 @@
               "a": "予約要否の明記はありません。開催日時・会場は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "まちの保健室NEOの会場（iプラザ等）で測定・相談。電話：0538-37-2013"
         },
         {
           "id": "holiday-night-emergency-care",
@@ -2070,7 +2350,11 @@
               "a": "休日は午前8時45分～11時30分、午後1時45分～4時30分が受付時間です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田市急患センター（上大之郷51）で受診、受診前に要電話。電話：0538-32-5267"
         },
         {
           "id": "mental-health-consulting",
@@ -2098,7 +2382,11 @@
               "a": "費用の明記はありません。予約や詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "iプラザ（総合健康福祉会館）3階で精神科医による面接相談（予約制）。電話：0538-37-2252"
         },
         {
           "id": "night-holiday-medical",
@@ -2126,7 +2414,11 @@
               "a": "夜間は内科・小児科が対応しています。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田市急患センター（上大之郷51）で受診、受診前に要電話。電話：0538-32-5267"
         },
         {
           "id": "vaccinations",
@@ -2154,7 +2446,11 @@
               "a": "こども未来課子育てサポートグループ（0538-37-2012）や公式サイトの定期予防接種スケジュールで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "個別接種協力医療機関で予診票を持参し接種（要予約）。電話：0538-37-2012"
         }
       ]
     },
@@ -2196,7 +2492,11 @@
               "a": "指定金融機関窓口またはWeb申請で申込可（Web申請は2026年4月開始）。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎・支所や金融機関窓口で納付書により納付。電話：0538-37-4810"
         },
         {
           "id": "job-change",
@@ -2224,7 +2524,11 @@
               "a": "ワークピア磐田で火・木曜に内職相談を実施。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "ワークピア磐田1階職業総合相談室、火〜土曜9時〜17時。電話：0538-36-8383"
         },
         {
           "id": "job-recruitment",
@@ -2251,7 +2555,11 @@
               "a": "総務部職員課(0538-37-4807)へ問い合わせ可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4807"
         },
         {
           "id": "light-vehicle-tax",
@@ -2280,7 +2588,11 @@
               "a": "障害者手帳所持者等一定条件で減免制度あり。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可（市税共通）",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎・支所や金融機関窓口で納付書により納付。電話：0538-37-3767"
         },
         {
           "id": "my-number-card",
@@ -2312,7 +2624,11 @@
               "a": "スマホやパソコンからJ-LIS経由で申請可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "J-LISサイトからスマホ・パソコンで申請、郵送申請も可",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民課、平日8時30分〜17時15分(木曜19時まで)。電話：0538-37-4816"
         },
         {
           "id": "national-health-insurance-tax",
@@ -2341,7 +2657,11 @@
               "a": "納付困難な場合は収納課(0538-37-4906)へ相談を。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "PayPay等スマホ決済アプリで納付可",
+          "time_estimate": "n/a",
+          "counter_info": "市指定金融機関窓口で納付書により納付。電話：0538-37-4863"
         },
         {
           "id": "nhk-pension",
@@ -2369,7 +2689,11 @@
               "a": "異動届と必要書類を国保年金課へ郵送して手続き可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "電子申請(LoGoフォーム)で異動届の提出が可能",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階国保年金課、各支所(福田・竜洋・豊田・豊岡)。電話：0538-37-4833"
         },
         {
           "id": "resident-tax",
@@ -2396,7 +2720,11 @@
               "a": "給与や公的年金から差し引かれる方式を特別徴収という。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "納税通知書で金融機関等へ納付、または給与・年金天引き。電話：0538-37-4826"
         },
         {
           "id": "start-business",
@@ -2424,7 +2752,11 @@
               "a": "特定創業支援等事業の要件を満たすと証明書が交付され登録免許税軽減等が受けられる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "ワークピア磐田内はじまりのオフィス、9時〜21時(年末年始除く)。電話：0538-30-6255"
         },
         {
           "id": "start-farming",
@@ -2452,7 +2784,11 @@
               "a": "農地銀行制度で貸借情報を確認でき、農林水産課(0538-37-4813)へ相談可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "西庁舎1階農林水産課農地管理グループ、平日8時30分〜17時15分。電話：0538-37-4813"
         },
         {
           "id": "subsidies",
@@ -2481,7 +2817,11 @@
               "a": "移住相談窓口など一部制度は電話・メール・オンラインでも相談可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "電話・メール・窓口・オンラインで相談可能(移住相談窓口の例)",
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎 企画部政策推進課、平日8時30分〜17時15分。電話：0538-37-4805"
         },
         {
           "id": "tax",
@@ -2510,7 +2850,11 @@
               "a": "市民税課諸税管理グループ(0538-37-3767)へ問い合わせ可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "地方税お支払いサイトやeL-QR対応スマホ決済で納付可",
+          "time_estimate": "n/a",
+          "counter_info": "市民税課・収納課窓口や金融機関窓口で対応。電話：0538-37-3767"
         },
         {
           "id": "tax-certificates",
@@ -2539,7 +2883,11 @@
               "a": "1年度1件につき300円。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "マイナンバーカードで本人確認しスマホ申請、証明書は郵送で受取可",
+          "time_estimate": "n/a",
+          "counter_info": "市民税課・各支所窓口で申請可。電話：0538-37-3767"
         },
         {
           "id": "tax-guide",
@@ -2567,7 +2915,11 @@
               "a": "本庁舎1階市民税課(0538-37-4826)で相談可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "本庁舎1階市民税課(一般相談)、収納課(納付困難時の相談)。電話：0538-37-4826"
         }
       ]
     },
@@ -2604,7 +2956,11 @@
               "a": "本人負担が原則ですが、身寄りがなく市長申立てのときは市が負担する場合があります。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "社会福祉協議会内(国府台57-7)、来所は要予約。電話：0538-37-2792"
         },
         {
           "id": "care-certification-support-center",
@@ -2632,7 +2988,11 @@
               "a": "家族や地域包括支援センター、ケアマネジャーが代わりに申請できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "高齢者支援課(iプラザ3階)または支所市民生活課へ申請書提出。電話：0538-37-4769"
         },
         {
           "id": "care-started",
@@ -2657,7 +3017,11 @@
               "a": "担当は住所の中学校区で決まります。磐田市内に7カ所あるので公式サイトの一覧で確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "地域包括支援センターへ相談（市内7カ所、担当地区で異なる）"
         },
         {
           "id": "check-parents",
@@ -2682,7 +3046,11 @@
               "a": "大丈夫です。地域包括支援センターは介護前の心配な段階でも相談できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "地域包括支援センターへ相談（担当は親の住所で決定）"
         },
         {
           "id": "community-support-center",
@@ -2710,7 +3078,11 @@
               "a": "相談自体の費用は公式ページに明記がありません。詳細は窓口で確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "担当地区のセンターへ（磐田市内7カ所、中学校区ごと）"
         },
         {
           "id": "dementia-consultation",
@@ -2735,7 +3107,11 @@
               "a": "できます。もの忘れが気になる段階でも地域包括支援センターに相談できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "地域包括支援センターまたは福祉政策課(iプラザ3階)へ。電話：0538-37-4831"
         },
         {
           "id": "elderly-transportation",
@@ -2763,7 +3139,11 @@
               "a": "高齢者支援課給付グループ(iプラザ3階)で申請します。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "高齢者支援課給付グループ(iプラザ3階)で申請。電話：0538-37-4869"
         },
         {
           "id": "find-nursing-home",
@@ -2792,7 +3172,11 @@
               "a": "特養・老健・サ高住など種類ごとの一覧が磐田市公式サイトにあります。詳細はそちらで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "オンライン相談フォームで問い合わせ可",
+          "time_estimate": "n/a",
+          "counter_info": "高齢者支援課高齢者福祉グループ(iプラザ3階)で相談。電話：0538-37-2789"
         },
         {
           "id": "long-term-care-insurance",
@@ -2820,7 +3204,11 @@
               "a": "申請の手数料について公式ページに記載はありません。詳細は窓口で確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "高齢者支援課(iプラザ3階)または支所市民生活課へ申請。電話：0538-37-4769"
         }
       ]
     },
@@ -2857,7 +3245,11 @@
               "a": "申請書(紙申請時)、本人確認書類、被害状況がわかる写真が必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "罹災証明書・被災証明書とも電子申請フォームから申請可能",
+          "time_estimate": "n/a",
+          "counter_info": "資産税課(本庁舎1階)へ罹災または被災、身分証と被害写真持参。電話：0538-37-4809"
         },
         {
           "id": "disaster-mail-line",
@@ -2884,7 +3276,11 @@
               "a": "磐田市公式LINEを友だち追加し、受信設定で「防災情報」を選択すると配信される。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "空メール送信で仮登録後、URLアクセスし本登録して完了",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-4827"
         },
         {
           "id": "earthquake",
@@ -2905,7 +3301,11 @@
               "a": "耐震補助制度、海抜確認、津波避難施設、警報システムなどの情報が公開されている。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": null
         },
         {
           "id": "emergency-medical",
@@ -2933,7 +3333,11 @@
               "a": "救急安心電話相談#7119、子どもの急病は#8000で医師・看護師に電話相談できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "磐田市急患センター、平日夜間19:30-22:30。電話：0538-32-5267"
         },
         {
           "id": "evacuation-centers",
@@ -2957,7 +3361,11 @@
               "a": "磐田市公式サイトで地区別の指定避難所一覧表(PDF)が確認できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "指定避難所一覧表(地区別)をオンラインで確認可能",
+          "time_estimate": "n/a",
+          "counter_info": "最寄りの指定避難所へ直接避難"
         },
         {
           "id": "evacuation-hazard-map",
@@ -2980,7 +3388,11 @@
               "a": "警戒レベルに応じたマイ・タイムラインで自分の避難計画を事前に確認できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "「マイ・タイムライン」作成ツールで避難計画を確認可能",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-2116"
         },
         {
           "id": "fire-ambulance",
@@ -3003,7 +3415,11 @@
               "a": "「救急です」から始め、住所・症状・年齢・連絡先の順に落ち着いて伝える。指令員の指示に従えばよい。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-36-9919"
         },
         {
           "id": "hazard-maps",
@@ -3026,7 +3442,11 @@
               "a": "磐田市地図情報提供サービスや国交省ハザードマップポータルでオンライン閲覧できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "磐田市地図情報提供サービス等でオンライン閲覧可能",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-2116"
         },
         {
           "id": "pet-disaster-prevention",
@@ -3047,7 +3467,11 @@
               "a": "避難所では屋外スペースでの受け入れとなり、世話や鳴き声管理は飼い主の責任。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-2702"
         },
         {
           "id": "road-river-info",
@@ -3070,7 +3494,11 @@
               "a": "浸水センサ表示システムや道路冠水想定マップでリアルタイムに近い状況を確認できる。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "浸水センサ表示システムで市内22カ所をリアルタイム確認可能",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-37-2114"
         },
         {
           "id": "storm-heavy-rain",
@@ -3091,7 +3519,11 @@
               "a": "冠水危険箇所や避難所、警戒レベルなどの情報が公式サイトにまとまっている。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": null
         }
       ]
     },
@@ -3129,7 +3561,11 @@
               "a": "環境課で不妊・去勢手術補助金制度の相談を受付。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "専用問い合わせフォームで相談受付",
+          "time_estimate": "n/a",
+          "counter_info": "環境課(西庁舎1階)で相談可。電話：0538-37-2702"
         },
         {
           "id": "cannot-pay-tax",
@@ -3158,7 +3594,11 @@
               "a": "災害・病気等で納付困難な場合、徴収猶予制度で相談可。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "スマホ決済アプリ等でオンライン納付可",
+          "time_estimate": "n/a",
+          "counter_info": "収納課(本庁舎1階)で納税相談可。電話：0538-37-4906"
         },
         {
           "id": "care-consultation",
@@ -3186,7 +3626,11 @@
               "a": "福祉政策課0538-37-4831か各圏域センターへ。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "市内7圏域の地域包括支援センターで相談可。電話：0538-37-4831"
         },
         {
           "id": "child-consultation",
@@ -3214,7 +3658,11 @@
               "a": "児童相談所虐待対応ダイヤル189へ24時間通報可。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "こども若者家庭センターで相談可。電話：0538-37-2018"
         },
         {
           "id": "consumer-fraud",
@@ -3243,7 +3691,11 @@
               "a": "無料(通話料等は自己負担)。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "専用フォームで相談受付",
+          "time_estimate": "n/a",
+          "counter_info": "市民相談センター(本庁舎1階)で面談相談可。電話：0538-37-4746"
         },
         {
           "id": "disability-consultation",
@@ -3271,7 +3723,11 @@
               "a": "南部障がい者相談支援センター0538-24-7766へ。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "障がい者相談支援センター(iプラザ3階等)で相談可。電話：0538-84-6661"
         },
         {
           "id": "farmland",
@@ -3300,7 +3756,11 @@
               "a": "農地銀行への登録を農林水産課で相談可。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "問い合わせフォームで相談受付可",
+          "time_estimate": "n/a",
+          "counter_info": "農林水産課(西庁舎1階)で相談可。電話：0538-37-4813"
         },
         {
           "id": "foreign-resident-consultation",
@@ -3328,7 +3788,11 @@
               "a": "ポルトガル語・英語・中国語等に対応。テレビ通訳で他言語も可。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "外国人情報窓口(本庁舎1階)で多言語相談可。電話：0538-37-4785"
         },
         {
           "id": "legal-general-consultation",
@@ -3356,7 +3820,11 @@
               "a": "相談日の1週間前の木曜から電話で先着順受付。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "市民相談センター(本庁舎1階)で弁護士相談可(要予約)。電話：0538-37-4746"
         },
         {
           "id": "living-costs-trouble",
@@ -3384,7 +3852,11 @@
               "a": "秘密厳守で対応。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "くらしと仕事相談センター(iプラザ3階)で相談可。電話：0538-32-8880"
         },
         {
           "id": "road-repair-mirror",
@@ -3413,7 +3885,11 @@
               "a": "時間外は市役所宿直0538-37-2111へ連絡を。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "お問合せフォーム・公式LINEで通報可",
+          "time_estimate": "n/a",
+          "counter_info": "道路河川課(西庁舎2階)で通報・相談可。電話：0538-37-4808"
         },
         {
           "id": "vacant-house-consultation",
@@ -3442,7 +3918,11 @@
               "a": "対象工事費の2分の1以内、上限50万円の助成あり。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "専用問い合わせフォームで相談受付可",
+          "time_estimate": "n/a",
+          "counter_info": "建築住宅課(西庁舎2階)で相談可。電話：0538-37-4851"
         }
       ]
     },
@@ -3483,7 +3963,11 @@
               "a": "死亡届のほか年金・相続・墓地など複数の手続きがある。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "市民課(本庁舎1階)・豊岡支所で死亡届を提出。電話：0538-37-4816"
         },
         {
           "id": "bereavement",
@@ -3511,7 +3995,11 @@
               "a": "本庁舎1階市民課、豊岡支所、休日は宿直室。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "死亡届は本庁舎1階市民課・豊岡支所へ提出。電話：0538-37-4816"
         },
         {
           "id": "bereavement-procedures",
@@ -3539,7 +4027,11 @@
               "a": "固定資産の名義人が死亡した際に資産税課へ提出する。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "死亡届提出後、相続人代表者届出等の手続きが必要。電話：0538-37-4816"
         },
         {
           "id": "grave-memorial",
@@ -3571,7 +4063,11 @@
               "a": "環境水道部環境課生活環境グループ(西庁舎1階)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "環境課(西庁舎1階)で申請、許可証を持参。電話：0538-37-2702"
         },
         {
           "id": "house-became-vacant",
@@ -3604,7 +4100,11 @@
               "a": "電子申請も可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "解体費用助成は電子申請も可能",
+          "time_estimate": "n/a",
+          "counter_info": "建築住宅課(西庁舎2階)で申請書類を提出。電話：0538-37-4851"
         },
         {
           "id": "inheritance",
@@ -3636,7 +4136,11 @@
               "a": "前月25日から電話先着順で受付、0538-37-4746。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "市民相談センターで司法書士相談(要予約)。電話：0538-37-4746"
         },
         {
           "id": "inherited-house",
@@ -3663,7 +4167,11 @@
               "a": "建設部建築住宅課(西庁舎2階)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "建築住宅課(西庁舎2階)で空き家活用を相談"
         },
         {
           "id": "inherited-vacant-house",
@@ -3696,7 +4204,11 @@
               "a": "スマホからオンライン申請可能でクレジットカード決済にも対応。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "確認書はスマホ申請・クレジット決済に対応",
+          "time_estimate": "n/a",
+          "counter_info": "建築住宅課(西庁舎2階)で確認書を申請。電話：0538-37-4851"
         },
         {
           "id": "pension-inheritance",
@@ -3728,7 +4240,11 @@
               "a": "婚姻10年以上の妻が60〜65歳の間受給可(第1号被保険者のみの夫が対象)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "国保年金課(本庁舎1階)で相談、手続は年金機構。電話：0538-37-4833"
         },
         {
           "id": "property-tax-inheritance",
@@ -3760,7 +4276,11 @@
               "a": "完了しない、別途法務局での相続登記が必要。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "資産税課土地グループ(本庁1階)へ届出書提出。電話：0538-37-4809"
         }
       ]
     },
@@ -3802,7 +4322,11 @@
               "a": "可燃はクリーンセンター、不燃は中遠広域粗大ごみ処理施設へ持ち込めます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "公式LINE「家庭ごみ」から粗大ごみ収集を申請可",
+          "time_estimate": "n/a",
+          "counter_info": "可燃はクリーンセンター、不燃は中遠広域施設へ持込み可。電話：0538-37-4812"
         },
         {
           "id": "dog-ownership-change",
@@ -3831,7 +4355,11 @@
               "a": "環境課または各支所窓口です。鑑札と愛犬手帳を持参してください。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "磐田市電子申請サービスで登録事項変更届が可能",
+          "time_estimate": "n/a",
+          "counter_info": "環境課または各支所窓口で鑑札・愛犬手帳を提示。電話：0538-37-2702"
         },
         {
           "id": "move-out-notice",
@@ -3859,7 +4387,11 @@
               "a": "本庁舎1階市民課、または福田・竜洋・豊岡の各支所です。本人確認書類が必要です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "LINE事前申請で二次元コード発行、来庁は必要",
+          "time_estimate": "n/a",
+          "counter_info": "本庁市民課または福田・竜洋・豊岡各支所、本人確認書類持参。電話：0538-37-4816"
         },
         {
           "id": "moving-away",
@@ -3880,7 +4412,11 @@
               "a": "まず転出届を提出し、水道・ごみ・学校・犬の登録などを順に確認します。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "n/a",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": null
         },
         {
           "id": "school-nursery-procedures",
@@ -3908,7 +4444,11 @@
               "a": "幼児教育保育課（0538-37-4858）へ相談します。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "no",
+          "online_note": null,
+          "time_estimate": "n/a",
+          "counter_info": "転校は学校教育課、転園は幼児教育保育課の窓口へ相談。電話：0538-37-2760"
         },
         {
           "id": "stop-water",
@@ -3936,7 +4476,11 @@
               "a": "インターネット受付で可能です（海外転出・現地精算等を除く）。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified"
+          "conclusion_status": "machine-verified",
+          "online_status": "yes",
+          "online_note": "インターネット受付で使用中止の申込み可（海外転出等除く）",
+          "time_estimate": "n/a",
+          "counter_info": "電話：0538-58-3070"
         }
       ]
     }
