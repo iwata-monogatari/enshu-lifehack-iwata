@@ -6,17 +6,18 @@
 html,body{max-width:100%;overflow-x:hidden}
 *{box-sizing:border-box}
 html.font-large body{zoom:1.15}
-.font-size-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;margin-left:auto;padding:6px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.6);background:rgba(255,255,255,.12);color:#fff;font-weight:700;font-size:12.5px;white-space:nowrap;cursor:pointer;flex:0 0 auto}
-.font-size-toggle:hover{background:rgba(255,255,255,.22)}
+.font-size-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;margin-left:auto;padding:6px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.75);background:rgba(0,0,0,.18);color:#fff;font-weight:700;font-size:13px;white-space:nowrap;cursor:pointer;flex:0 0 auto}
+.font-size-toggle:hover{background:rgba(0,0,0,.28)}
 /* ===== 詳細ページ ===== */
 body:not(.hub){margin:0;font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI",Meiryo,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
 body:not(.hub) a{color:var(--green-d);text-decoration:none}
+body:not(.hub) main p a,body:not(.hub) main li a,body:not(.hub) main details a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding:6px 2px;margin:-6px -2px}
 body:not(.hub) a:hover{text-decoration:underline}
 body:not(.hub) .wrap{max-width:920px;margin:0 auto;padding:0 16px}
 body:not(.hub) header.site{background:var(--green);color:#fff}
 body:not(.hub) header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px;flex-wrap:nowrap;overflow:hidden}
 body:not(.hub) header.site .logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap}
-body:not(.hub) header.site .tag{font-size:12px;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body:not(.hub) header.site .tag{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 body:not(.hub) .disclaimer{background:#fff8e6;border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
 body:not(.hub) .disclaimer .wrap{padding:8px 16px}
 body:not(.hub) main{padding:22px 0 42px}
@@ -27,6 +28,7 @@ body:not(.hub) p{margin:0 0 12px}
 body:not(.hub) .muted{color:var(--mut)}
 body:not(.hub) .lead{font-size:15px;color:var(--mut);margin:0 0 14px}
 body:not(.hub) .breadcrumb{font-size:13px;margin:0 0 10px}
+body:not(.hub) .breadcrumb a{display:inline-flex;align-items:center;min-height:44px;padding:6px 2px;margin:-6px -2px}
 body:not(.hub) .hero{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:10px 0 18px}
 body:not(.hub) .hero-visual{min-height:155px;background:linear-gradient(135deg,rgba(0,116,174,.94),rgba(21,80,60,.84)),radial-gradient(circle at 20% 35%,rgba(255,255,255,.28),transparent 30%),linear-gradient(0deg,#e9f4f7,#fff);color:#fff;padding:22px 18px;display:flex;align-items:flex-end}
 body:not(.hub) .hero-visual h1{color:#fff;margin:0;font-size:29px;line-height:1.28;max-width:660px;text-shadow:0 1px 8px rgba(0,0,0,.18)}
@@ -199,13 +201,13 @@ body.hub .wrap{max-width:980px;margin:0 auto;padding:0 16px}
 body.hub header.site{background:var(--green);color:#fff}
 body.hub header.site .wrap{display:flex;align-items:center;gap:12px;padding:14px 16px;overflow:hidden}
 body.hub .logo{font-weight:800;font-size:20px;color:#fff;white-space:nowrap}
-body.hub .tag{font-size:12px;opacity:.9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.hub .tag{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 body.hub .notice{background:var(--warn);border-bottom:1px solid #f0e2b8;color:#705a13;font-size:12.5px}
 body.hub .notice.notice-gap{margin-top:28px}
 body.hub .notice .wrap{padding:8px 16px}
 body.hub main{padding:22px 0 44px}
 body.hub .breadcrumb{font-size:13px;color:var(--mut);margin:0 0 10px}
-body.hub .breadcrumb a{color:var(--green-d)}
+body.hub .breadcrumb a{color:var(--green-d);display:inline-flex;align-items:center;min-height:44px;padding:6px 2px;margin:-6px -2px}
 body.hub .hero{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:0 0 16px}
 body.hub .eyebrow{margin:0 0 6px;color:var(--green-d);font-size:12px;font-weight:800;letter-spacing:0}
 body.hub h1{font-size:28px;line-height:1.28;margin:0 0 10px;color:var(--green-d)}
