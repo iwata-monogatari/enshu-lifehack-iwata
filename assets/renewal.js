@@ -21,7 +21,8 @@ function normalizeColor(rawColor) {
 
 function resolveCta(page, ctaRules) {
   const byType = ctaRules[page.cta_type] || {};
-  const byCompany = page.related_company ? ctaRules[page.related_company] || {} : {};
+  const hasCompany = page.related_company && page.related_company !== "none";
+  const byCompany = hasCompany ? ctaRules[page.related_company] || {} : {};
   const fallback = ctaRules.official || {};
   const merged = { ...fallback, ...byType, ...byCompany };
 
@@ -56,7 +57,7 @@ function renderCard(page, ctaRules) {
         <span class="lh-tag">${group || cta.tagLabel}</span>
         <span>${htmlEscape(cta.buttonText)} ▸</span>
       </div>
-      ${cta.description ? `<small class="lh-desc">${htmlEscape(cta.description)}</small>` : ""}
+      ${cta.description && cta.strength !== "weak" ? `<small class="lh-desc">${htmlEscape(cta.description)}</small>` : ""}
     </a>
   `;
 }
