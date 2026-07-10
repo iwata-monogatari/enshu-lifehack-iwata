@@ -1,0 +1,155 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ライフイベント・タイムライン | 磐田ライフハック</title>
+<meta name="description" content="結婚・妊娠・出産、いつ何の手続きが必要か。起点の時期を選ぶだけで時系列カードで表示する磐田ライフハックのタイムラインツールです。">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260710l"><!-- PART:head-css:END -->
+<style>
+.lt-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.lt-tab{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--green-d);font-weight:800;font-size:13.5px;padding:8px 14px;cursor:pointer}
+.lt-tab.is-active{background:var(--green);color:#fff;border-color:var(--green)}
+.lt-track{display:none}
+.lt-track.is-active{display:block}
+.lt-select-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0 18px}
+.lt-select-row select{min-height:44px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:16px}
+.lt-timeline{display:flex;flex-direction:column;gap:0;border-left:3px solid var(--line);padding-left:16px;margin-left:6px}
+.lt-card{position:relative;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:0 0 16px}
+.lt-card::before{content:'';position:absolute;left:-23px;top:16px;width:12px;height:12px;border-radius:50%;background:var(--green)}
+.lt-when{font-size:12.5px;font-weight:800;color:var(--green-d);margin:0 0 4px}
+.lt-title{font-weight:800;font-size:15px;margin:0 0 4px}
+</style>
+</head><body>
+<!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span><button type="button" id="font-size-toggle" class="font-size-toggle" aria-pressed="false">文字 大</button></div></header><script>(function(){var KEY='enshu-font-large';var btn=document.getElementById('font-size-toggle');function apply(on){document.documentElement.classList.toggle('font-large',on);if(btn){btn.setAttribute('aria-pressed',on?'true':'false');btn.textContent=on?'文字 標準':'文字 大';}}apply(localStorage.getItem(KEY)==='1');if(btn){btn.addEventListener('click',function(){var on=!document.documentElement.classList.contains('font-large');apply(on);try{localStorage.setItem(KEY,on?'1':'0');}catch(e){}});}})();</script><!-- PART:header:END -->
+<!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
+<main id="main"><div class="wrap">
+<p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ ライフイベント・タイムライン</p>
+<h1>ライフイベント・タイムライン</h1>
+<p class="lead">結婚・妊娠がわかった時期を選ぶと、いつ何の手続きが必要かを時系列で確認できます。</p>
+
+<noscript>
+<h2 class="sec">結婚</h2>
+<ul><li><a href="/life/family-grow/marriage/">婚姻届を提出する（時期の決まりはなし、必要なタイミングで）</a></li><li><a href="/life/start-living/mynumber/">氏名・住所変更に伴うマイナンバーカードの手続き</a></li><li><a href="/life/work-life/national-health-insurance-tax/">健康保険（国保）の変更</a></li><li><a href="/life/work-life/resident-tax/">住民税の氏名変更</a></li></ul>
+<h2 class="sec">妊娠・出産</h2>
+<ul><li><a href="/life/family-grow/pregnancy/">妊娠届を出す（妊娠がわかったらすぐ）</a></li><li><a href="/life/family-grow/infant-health-check/">妊婦健診・乳幼児健診の予定を確認</a></li><li><a href="/life/family-grow/childbirth/">出生届を提出する（生まれてから14日以内）</a></li><li><a href="/life/family-grow/child-allowance/">児童手当を申請する</a></li><li><a href="/life/family-grow/child-allowance-medical/">こども医療費助成を申請する</a></li><li><a href="/life/family-grow/child-vaccination/">予防接種のスケジュールを確認する</a></li><li><a href="/life/family-grow/nursery-school/">（復職予定の場合）保育園を探す</a></li></ul>
+</noscript>
+
+<div id="lt-app"></div>
+
+</div></main>
+<!-- PART:footer:START --><style>.enshu-footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px}.enshu-footer h3,.enshu-footer .footer-brand h2{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}.enshu-footer p{margin:0 0 8px}.enshu-footer ul{list-style:none;margin:0;padding:0}.enshu-footer li{margin:4px 0}.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}.enshu-footer a{min-height:44px;padding:6px 4px;margin:-6px -4px}.enshu-footer .footer-munis a{min-height:44px;padding:8px 10px;margin:-8px -10px}.footer-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto;font-size:1rem;margin-right:.35rem}.footer-favicon{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-left:4px;border-radius:2px}.enshu-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);margin-top:6px;padding-top:14px;text-align:center}.enshu-footer .footer-bottom>p>a{display:inline-flex;justify-content:center}.enshu-footer .footer-munis{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:8px}.enshu-footer .footer-munis a{white-space:nowrap}.enshu-footer .footer-subheading{margin-top:14px}.enshu-footer .footer-network{padding-left:14px}@media(max-width:720px){.enshu-footer .wrap{grid-template-columns:1fr}.enshu-footer .footer-network{padding-left:0}}</style>
+<footer class="site enshu-footer"><div class="wrap">
+<section class="footer-brand" aria-labelledby="footer-title">
+<h2 id="footer-title"><a href="https://enshu-lifehack.com/">遠州ライフハック</a></h2>
+<p>遠州ライフハックは、磐田・袋井・掛川・森町・菊川・御前崎・湖西・浜松の各市町版ライフハックを束ねるプロジェクト名です。</p>
+<p>運営：富士ヶ丘サービス株式会社 / 電話番号 0538-31-3308</p>
+</section>
+<section class="footer-network" aria-labelledby="footer-active">
+<h3 id="footer-active">くらしの知恵袋</h3>
+<ul><li><a href="https://iwata.enshu-lifehack.com/"><span class="footer-emoji" aria-hidden="true">🌱</span><span>磐田ライフハック</span><img src="/favicons/iwata.svg" alt="" aria-hidden="true" class="footer-favicon"></a></li></ul>
+</section>
+<section class="footer-related" aria-labelledby="footer-related-title">
+<h3 id="footer-related-title">運営者・関連サイト</h3>
+<ul><li><a href="/links/"><span class="footer-emoji" aria-hidden="true">🔗</span><span>運営者・関連サイトを見る</span></a></li></ul>
+</section>
+<div class="footer-bottom">
+<p>© 富士ヶ丘サービス株式会社／無断転載・複製を禁じます</p>
+<p><a href="/terms/">磐田ライフハック利用規約</a></p>
+</div>
+</div></footer><!-- PART:footer:END -->
+<script>
+(function(){
+  var MONTH_NAMES = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+
+  var TRACKS = [
+    {
+      id: 'marriage',
+      label: '結婚',
+      triggerLabel: '婚姻届を出す予定の月',
+      events: [
+        { offset: 0, when: '婚姻届を出す月', title: '婚姻届を提出する', href: '/life/family-grow/marriage/' },
+        { offset: 0, when: '同じ頃', title: '氏名・住所変更に伴うマイナンバーカードの手続き', href: '/life/start-living/mynumber/' },
+        { offset: 0, when: '同じ頃', title: '健康保険（国保）の変更を確認', href: '/life/work-life/national-health-insurance-tax/' },
+        { offset: 1, when: '1ヶ月以内の目安', title: '年金の氏名変更手続きを確認', href: '/life/work-life/nhk-pension/' },
+        { offset: 1, when: '1ヶ月以内の目安', title: '住民税の氏名・宛先変更を確認', href: '/life/work-life/resident-tax/' }
+      ]
+    },
+    {
+      id: 'baby',
+      label: '妊娠・出産',
+      triggerLabel: '妊娠がわかった月',
+      events: [
+        { offset: 0, when: '妊娠がわかったら', title: '妊娠届を出す', href: '/life/family-grow/pregnancy/' },
+        { offset: 2, when: '2ヶ月後ごろ', title: '妊婦健診の予定を確認', href: '/life/family-grow/infant-health-check/' },
+        { offset: 9, when: '出産予定月ごろ', title: '出産・入院の準備を進める', href: '/life/family-grow/childbirth/' },
+        { offset: 9, when: '生まれてから14日以内', title: '出生届を提出する', href: '/life/family-grow/childbirth/' },
+        { offset: 9, when: '出生後すぐ', title: '児童手当を申請する', href: '/life/family-grow/child-allowance/' },
+        { offset: 9, when: '出生後すぐ', title: 'こども医療費助成を申請する', href: '/life/family-grow/child-allowance-medical/' },
+        { offset: 10, when: '生後1ヶ月頃から', title: '予防接種のスケジュールを確認する', href: '/life/family-grow/child-vaccination/' },
+        { offset: 10, when: '復職予定がある場合', title: '保育園を探す', href: '/life/family-grow/nursery-school/' }
+      ]
+    }
+  ];
+
+  function esc(s){ return s.replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+  function monthOptionsHtml(){
+    var now = new Date();
+    var html = '';
+    for (var i = 0; i < 12; i++) {
+      var idx = (now.getMonth() + i) % 12;
+      html += '<option value="' + idx + '">' + MONTH_NAMES[idx] + '</option>';
+    }
+    return html;
+  }
+
+  function render() {
+    var app = document.getElementById('lt-app');
+    var tabsHtml = TRACKS.map(function(t, i) {
+      return '<button type="button" class="lt-tab' + (i === 0 ? ' is-active' : '') + '" data-track="' + t.id + '">' + esc(t.label) + '</button>';
+    }).join('');
+
+    var tracksHtml = TRACKS.map(function(t, i) {
+      return (
+        '<div class="lt-track' + (i === 0 ? ' is-active' : '') + '" data-track="' + t.id + '">' +
+        '<div class="lt-select-row"><label for="lt-month-' + t.id + '">' + esc(t.triggerLabel) + '：</label>' +
+        '<select id="lt-month-' + t.id + '" data-track="' + t.id + '">' + monthOptionsHtml() + '</select></div>' +
+        '<div class="lt-timeline" id="lt-timeline-' + t.id + '"></div>' +
+        '</div>'
+      );
+    }).join('');
+
+    app.innerHTML = '<div class="lt-tabs">' + tabsHtml + '</div>' + tracksHtml;
+
+    app.querySelectorAll('.lt-tab').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        var id = tab.getAttribute('data-track');
+        app.querySelectorAll('.lt-tab').forEach(function(t) { t.classList.toggle('is-active', t === tab); });
+        app.querySelectorAll('.lt-track').forEach(function(p) { p.classList.toggle('is-active', p.getAttribute('data-track') === id); });
+      });
+    });
+
+    TRACKS.forEach(function(t) {
+      var select = document.getElementById('lt-month-' + t.id);
+      select.addEventListener('change', function() { renderTimeline(t); });
+      renderTimeline(t);
+    });
+  }
+
+  function renderTimeline(track) {
+    var select = document.getElementById('lt-month-' + track.id);
+    var startMonth = parseInt(select.value, 10);
+    var el = document.getElementById('lt-timeline-' + track.id);
+    el.innerHTML = track.events.map(function(ev) {
+      var m = (startMonth + ev.offset) % 12;
+      return (
+        '<div class="lt-card"><p class="lt-when">' + MONTH_NAMES[m] + '頃・' + esc(ev.when) + '</p>' +
+        '<p class="lt-title">' + esc(ev.title) + '</p>' +
+        '<a class="official-link" href="' + ev.href + '"><span>くわしく見る</span></a></div>'
+      );
+    }).join('');
+  }
+
+  render();
+})();
+</script>
+</body></html>

@@ -1,0 +1,42 @@
+{
+  "modes": [
+    {
+      "id": "moved-in",
+      "label": "転入（市外から引っ越してきた）",
+      "tasks": [
+        { "label": "転入届を出す（14日以内）", "href": "/life/start-living/moving-address-change/" },
+        { "label": "マイナンバーカードの住所変更", "href": "/life/start-living/mynumber/" },
+        { "label": "水道の使用を開始する", "href": "/life/start-living/water-start-stop-fees/" },
+        { "label": "ごみの出し方・収集日を確認", "href": "/life/start-living/how-to-garbage/" },
+        { "label": "ごみ収集カレンダーを入手する", "href": "/life/start-living/garbage-sorting-calendar/" },
+        { "label": "（子どもがいる場合）通学区域を確認", "href": "/life/living-soon/school-districts/" },
+        { "label": "（未就学児がいる場合）保育園を探す", "href": "/life/family-grow/nursery-school/" },
+        { "label": "（犬を飼っている場合）登録・住所変更", "href": "/life/start-living/dog-registration/" }
+      ]
+    },
+    {
+      "id": "moved-out",
+      "label": "転出（市外へ引っ越す）",
+      "tasks": [
+        { "label": "転出届を出す（引っ越し前後14日以内）", "href": "/life/moving-out/move-out-notice/" },
+        { "label": "水道を止める", "href": "/life/moving-out/stop-water/" },
+        { "label": "粗大ごみ・不用品を片付ける", "href": "/life/moving-out/bulk-garbage-cleaning/" },
+        { "label": "（子どもがいる場合）転校・転園の手続き", "href": "/life/moving-out/school-nursery-procedures/" },
+        { "label": "（犬を飼っている場合）登録変更", "href": "/life/moving-out/dog-ownership-change/" },
+        { "label": "引っ越し手続き一覧をもう一度確認", "href": "/life/moving-out/moving-away/" }
+      ]
+    },
+    {
+      "id": "relocate",
+      "label": "市内転居（磐田市内で引っ越す）",
+      "tasks": [
+        { "label": "転居届を出す（引っ越し後14日以内）", "href": "/life/start-living/moving-address-change/" },
+        { "label": "マイナンバーカードの住所変更", "href": "/life/start-living/mynumber/" },
+        { "label": "水道の使用場所変更（開始・中止）", "href": "/life/start-living/water-start-stop-fees/" },
+        { "label": "新しい住所のごみ収集日を確認", "href": "/life/start-living/garbage-sorting-calendar/" },
+        { "label": "（子どもがいる場合）通学区域が変わるか確認", "href": "/life/living-soon/school-districts/" },
+        { "label": "（犬を飼っている場合）登録住所の変更", "href": "/life/start-living/dog-registration/" }
+      ]
+    }
+  ]
+}
