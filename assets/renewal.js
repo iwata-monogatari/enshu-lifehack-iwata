@@ -57,7 +57,6 @@ function renderCard(page, ctaRules) {
         <span class="lh-tag">${group || cta.tagLabel}</span>
         <span>${htmlEscape(cta.buttonText)} ▸</span>
       </div>
-      ${cta.description && cta.strength !== "weak" ? `<small class="lh-desc">${htmlEscape(cta.description)}</small>` : ""}
     </a>
   `;
 }
