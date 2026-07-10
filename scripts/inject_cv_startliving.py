@@ -45,6 +45,10 @@ def main():
 
         if MARKER_RE.search(html):
             new_html = MARKER_RE.sub(lambda m: marker_block, html, count=1)
+        elif "company-strip" in html:
+            # 既存の(マーカー無し)company-stripが手作りで既にあるページは二重掲載を避けスキップ
+            skipped.append(os.path.relpath(path, ROOT) + "(既存company-strip有)")
+            continue
         else:
             m = re.search(r'<section class="feedback-box"', html)
             if not m:
