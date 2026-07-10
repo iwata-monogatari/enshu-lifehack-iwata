@@ -1,7 +1,9 @@
-# Cloudflare Workers (Static Assets) 設定
-# このリポジトリは静的HTMLのみ。Worker コードは持たず、assets を配信する。
+# Cloudflare Workers (Static Assets + 検索ログAPI) 設定
+# 静的アセットは env.ASSETS 経由でsrc/worker.jsから配信する。
+# /api/search-log のみWorker側で処理し、Analytics Engineへ書き込む(Phase 0計測基盤)。
 # GitHub 連携の Workers Builds が `npx wrangler deploy` でこの設定を読みデプロイする。
 name = "enshu-lifehack-iwata"
+main = "src/worker.js"
 compatibility_date = "2025-06-01"
 
 # カスタムドメイン（Cloudflare管理ゾーン enshu-lifehack.com 配下）
@@ -12,5 +14,11 @@ routes = [
 
 [assets]
 directory = "."
+binding = "ASSETS"
 # 404 は 404.html を返す。ディレクトリ(/life/housing/)は index.html を自動配信。
 not_found_handling = "404-page"
+
+# Phase 0: 検索クエリ・0件ヒットログ(KVは使用禁止。書き込み集中に耐えないため)
+[[analytics_engine_datasets]]
+binding = "SEARCH_LOGS"
+dataset = "iwata_search_logs"

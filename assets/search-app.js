@@ -42,6 +42,24 @@ function trackSearch(term) {
   }, 700);
 }
 
+function logSearchQuery(query, hits) {
+  try {
+    const payload = JSON.stringify({
+      query: (query || '').slice(0, 100),
+      hits,
+      path: window.location.pathname,
+    });
+    const url = '/api/search-log';
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(url, new Blob([payload], { type: 'application/json' }));
+    } else {
+      fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload, keepalive: true }).catch(() => {});
+    }
+  } catch (e) {
+    /* noop */
+  }
+}
+
 async function runSearch(query) {
   const resultsEl = document.getElementById('search-results');
   if (!resultsEl) return;
@@ -53,6 +71,7 @@ async function runSearch(query) {
   const items = await loadIndex();
   const matched = searchTopics(items, value);
   trackSearch(value);
+  logSearchQuery(value, matched.length);
   const safeQuery = escapeHtml(value);
   resultsEl.innerHTML = matched.length
     ? `<h2>「${safeQuery}」の候補</h2><ul>${matched
