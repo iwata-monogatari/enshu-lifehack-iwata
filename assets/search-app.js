@@ -60,6 +60,46 @@ function logSearchQuery(query, hits) {
   }
 }
 
+const TOP_TASKS = [
+  { emoji: '🗑', label: 'ごみ分別・収集日', href: '/life/start-living/garbage-sorting-calendar/' },
+  { emoji: '📄', label: '住民票をとる', href: '/life/start-living/resident-registration/' },
+  { emoji: '🚚', label: '引っ越してきた', href: '/life/start-living/moved-in/' },
+  { emoji: '👶', label: '保育園を探す', href: '/life/family-grow/nursery-school/' },
+  { emoji: '💍', label: '婚姻届を出す', href: '/life/family-grow/marriage/' },
+  { emoji: '🛋', label: '粗大ごみを出す', href: '/life/start-living/bulky-garbage-dropoff/' },
+  { emoji: '💳', label: 'マイナンバーカード', href: '/life/start-living/mynumber/' },
+  { emoji: '🏥', label: '休日・夜間の病院', href: '/life/health-medical/holiday-night-emergency-care/' },
+];
+
+function renderHitList(safeQuery, matched) {
+  return `<h2>「${safeQuery}」の候補</h2><ul>${matched
+    .map(
+      (page) =>
+        `<li><a class="search-hit" href="${page.href}"><span class="result-ic" aria-hidden="true">${page.icon}</span><span><strong>${page.title}</strong><span>${page.category}</span></span><span aria-hidden="true">›</span></a></li>`
+    )
+    .join('')}</ul>`;
+}
+
+function renderNoHits(safeQuery) {
+  const tasksHtml = TOP_TASKS.map(
+    (t) => `<a class="top-task" href="${t.href}"><span class="emoji" aria-hidden="true">${t.emoji}</span>${t.label}</a>`
+  ).join('');
+  return (
+    `<h2>「${safeQuery}」の候補</h2>` +
+    `<p class="mini">サイト内に一致する項目が見つかりませんでした。よく使われる手続きから探すか、言葉を変えて検索してください。</p>` +
+    `<div class="top-tasks">${tasksHtml}</div>` +
+    `<p class="mini" style="margin-top:10px"><a href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトで探す →</a></p>`
+  );
+}
+
+// 断片一致の再検索: スペース区切りの先頭語のみで再試行する(元検索は既にN-gram部分一致を
+// 含んでいるため、単語区切りが無いクエリをさらに短く刻んでもノイズが増えるだけで行わない)
+function fallbackRetryQuery(value) {
+  const tokens = value.split(/[\s　]+/).filter(Boolean);
+  if (tokens.length > 1) return tokens[0];
+  return null;
+}
+
 async function runSearch(query) {
   const resultsEl = document.getElementById('search-results');
   if (!resultsEl) return;
@@ -69,18 +109,19 @@ async function runSearch(query) {
     return;
   }
   const items = await loadIndex();
-  const matched = searchTopics(items, value);
+  let matched = searchTopics(items, value);
+
+  if (!matched.length) {
+    const retryQuery = fallbackRetryQuery(value);
+    if (retryQuery) {
+      matched = searchTopics(items, retryQuery);
+    }
+  }
+
   trackSearch(value);
   logSearchQuery(value, matched.length);
   const safeQuery = escapeHtml(value);
-  resultsEl.innerHTML = matched.length
-    ? `<h2>「${safeQuery}」の候補</h2><ul>${matched
-        .map(
-          (page) =>
-            `<li><a class="search-hit" href="${page.href}"><span class="result-ic" aria-hidden="true">${page.icon}</span><span><strong>${page.title}</strong><span>${page.category}</span></span><span aria-hidden="true">›</span></a></li>`
-        )
-        .join('')}</ul>`
-    : `<h2>「${safeQuery}」の候補</h2><p class="mini">サイト内に一致する項目が見つかりませんでした。言葉を短くして検索してください。</p><p class="mini"><a href="/#category-links">カテゴリ一覧から探す →</a></p>`;
+  resultsEl.innerHTML = matched.length ? renderHitList(safeQuery, matched) : renderNoHits(safeQuery);
 }
 
 window.iwataSiteSearch = function iwataSiteSearch(event) {
