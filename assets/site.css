@@ -251,6 +251,11 @@ body.hub .related-card{display:flex;align-items:center;justify-content:space-bet
 body.hub .company-strip{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:28px}
 body.hub .company-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
 body.hub .company-card p{font-size:13px;color:var(--mut)}
+/* トップの実家カルテCTAだけアンバー系にし、公的情報のブルー系と区別する */
+.company-card .btn[data-track-click="cta_karte_top"]{background:#d97b29;border-color:#d97b29;color:#fff}
+.company-card .btn[data-track-click="cta_karte_top"]:hover{background:#b96317;border-color:#b96317;color:#fff}
+.company-card-sub{margin:10px 0 0;font-size:12.5px;line-height:2}
+.company-card-sub a{display:inline-block;padding:9px 0;text-decoration:underline}
 body.hub .btn{display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:10px;border:1.5px solid var(--line);background:#fff;color:var(--green-d);font-size:13.5px;font-weight:800;text-align:center;padding:9px 12px}
 body.hub .btn:hover{background:#f3faf6;border-color:var(--green);text-decoration:none}
 body.hub .btn-main{background:var(--green);border-color:var(--green);color:#fff}
@@ -358,6 +363,30 @@ body.hub.home .know-more{font-size:12.5px;color:#0074AE}
 .karte-cta-sub{display:inline-block;color:#7a3f0f;font-size:14px;text-decoration:underline;padding:10px 4px}
 .karte-cta .mini{margin:0;color:#8a7358;font-size:12px;line-height:1.7}
 @media(max-width:640px){.karte-cta-actions{flex-direction:column;align-items:stretch}.karte-cta-btn{text-align:center}}
+.karte-cta-tel{margin:0 0 12px;color:#5a4632;font-size:14px;line-height:1.8}
+.karte-cta-tel a{color:#7a3f0f;font-weight:700;font-size:17px;text-decoration:underline}
+
+/* ヒーロー直下の軽量CTA（下部の強CTAはスクロール深度87%で届かないため上部にも置く） */
+.karte-lead{background:#fffaf0;border:1px solid #e2b184;border-left:5px solid #d97b29;border-radius:10px;padding:14px 16px;margin:16px 0 6px}
+.karte-lead-text{margin:0 0 10px;color:#5a4632;font-size:14.5px;line-height:1.8}
+.karte-lead-text b{color:#7a3f0f}
+.karte-lead-actions{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.karte-lead-btn{display:inline-block;background:#d97b29;color:#fff;font-weight:700;border-radius:8px;padding:11px 18px;text-decoration:none;min-height:44px;line-height:22px}
+.karte-lead-btn:hover{background:#b96317;color:#fff;text-decoration:none}
+.karte-lead-tel{display:inline-flex;align-items:center;gap:.3rem;color:#7a3f0f;font-size:14px;text-decoration:underline;min-height:44px;padding:0 4px}
+@media(max-width:640px){.karte-lead-actions{flex-direction:column;align-items:stretch}.karte-lead-btn{text-align:center}.karte-lead-tel{justify-content:center}}
+
+/* モバイル追従バー（PCでは非表示。spacerでフッター末尾が隠れるのを防ぐ） */
+.karte-bar,.karte-bar-space{display:none}
+@media(max-width:720px){
+  .karte-bar-space{display:block;height:72px}
+  .karte-bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;gap:8px;align-items:stretch;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(255,250,240,.97);border-top:2px solid #d97b29;box-shadow:0 -2px 10px rgba(0,0,0,.12)}
+  .karte-bar-btn{flex:1 1 auto;display:flex;align-items:center;justify-content:center;background:#d97b29;color:#fff;font-weight:700;font-size:15px;border-radius:8px;padding:12px 10px;min-height:48px;text-decoration:none;text-align:center}
+  .karte-bar-btn:hover{color:#fff;text-decoration:none}
+  .karte-bar-tel{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:60px;min-height:48px;padding:6px 8px;border:1px solid #d97b29;border-radius:8px;color:#7a3f0f;font-size:11px;text-decoration:none;background:#fff}
+  .karte-bar-tel:hover{color:#7a3f0f;text-decoration:none}
+}
+@media print{.karte-bar,.karte-bar-space{display:none}}
 
 /* 三本柱ナビ（トップ・暮らす／知る／家と土地） */
 body.hub.home .pillar-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 28px}
