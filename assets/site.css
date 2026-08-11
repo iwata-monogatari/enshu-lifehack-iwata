@@ -358,3 +358,13 @@ body.hub.home .know-more{font-size:12.5px;color:#0074AE}
 .karte-cta-sub{display:inline-block;color:#7a3f0f;font-size:14px;text-decoration:underline;padding:10px 4px}
 .karte-cta .mini{margin:0;color:#8a7358;font-size:12px;line-height:1.7}
 @media(max-width:640px){.karte-cta-actions{flex-direction:column;align-items:stretch}.karte-cta-btn{text-align:center}}
+
+/* 三本柱ナビ（トップ・暮らす／知る／家と土地） */
+body.hub.home .pillar-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 28px}
+body.hub.home .pillar-card{display:flex;align-items:flex-start;gap:10px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;text-decoration:none;color:var(--ink)}
+body.hub.home .pillar-card:hover{text-decoration:none;background:#f3faf6;border-color:#b9d9ca}
+body.hub.home .pillar-icon{font-size:1.35rem;line-height:1.2;flex:0 0 auto}
+body.hub.home .pillar-text{display:flex;flex-direction:column;gap:3px;min-width:0}
+body.hub.home .pillar-title{font-weight:700;font-size:16px}
+body.hub.home .pillar-desc{font-size:12.5px;line-height:1.65;color:#4b5a55}
+@media(max-width:720px){body.hub.home .pillar-nav{grid-template-columns:1fr}}

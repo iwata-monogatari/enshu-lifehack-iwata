@@ -1,0 +1,61 @@
+# 磐田ライフハック（iwata.enshu-lifehack.com）
+
+> 静岡県磐田市の暮らしの手続き・相談先を、暮らしの場面から探せるように整理した非公式の道しるべです。磐田市公式サイトではありません。最終的な判断は必ず磐田市公式ページでご確認ください。
+
+運営：富士ヶ丘サービス株式会社（静岡県磐田市見付5789番地1／電話 0538-31-3308）
+遠州ライフハック（磐田・袋井・掛川・森町・菊川・御前崎・湖西・浜松）の磐田市版です。
+
+## このサイトの構成（三本柱）
+
+1. **暮らす** — 磐田市の手続き・相談先を13カテゴリ165ページで整理。当サイトの中心です。
+2. **知る** — 磐田の神社・寺院・歴史は、同じ運営会社の専門サイトで公開しています。当サイトからリンクで案内します。
+3. **家と土地** — 実家・空き家・相続の整理は、同社の不動産サイトへ案内します。
+
+## 暮らす（手続き・相談先）
+
+- [暮らし始めた](https://iwata.enshu-lifehack.com/life/start-living/)：転入届、住民票、マイナンバーカード、水道の開始・停止、ごみの出し方
+- [家族が増える](https://iwata.enshu-lifehack.com/life/family-grow/)：婚姻届、妊娠・出産、児童手当、保育園、予防接種
+- [学ぶ・育つ](https://iwata.enshu-lifehack.com/life/education/)：小中学校、通学区域、転校、学校給食、就学援助
+- [遊ぶ・使う・出かける](https://iwata.enshu-lifehack.com/life/play-out/)：公園、図書館、スポーツ施設、公共施設の予約
+- [働く・暮らす](https://iwata.enshu-lifehack.com/life/work-life/)：住民税、国民健康保険、軽自動車税、就職、起業
+- [健康・医療](https://iwata.enshu-lifehack.com/life/health-medical/)：休日夜間の当番医、健診、予防接種、こころの相談
+- [家・住まい](https://iwata.enshu-lifehack.com/life/housing/)：家を売る・買う・建てる、固定資産税、空き家、実家の整理
+- [これから暮らす](https://iwata.enshu-lifehack.com/life/living-soon/)：学校区、交通、災害リスク、移住の検討
+- [もしもの時](https://iwata.enshu-lifehack.com/life/emergency/)：避難所、ハザードマップ、り災証明、台風・地震
+- [困った・相談したい](https://iwata.enshu-lifehack.com/life/troubles-consult/)：生活費、法律相談、消費生活、税金が払えない、農地、空き家
+- [親のこと](https://iwata.enshu-lifehack.com/life/parents-care/)：介護認定、地域包括支援センター、認知症、施設探し
+- [人生の終わり](https://iwata.enshu-lifehack.com/life/end-of-life/)：死亡後の手続き、おくやみ、相続、お墓、空き家
+- [新しい場所へ](https://iwata.enshu-lifehack.com/life/moving-out/)：転出届、水道の停止、粗大ごみ、子どもの転校
+
+## その場で使えるツール
+
+- [ごみ分別クイック検索](https://iwata.enshu-lifehack.com/tools/gomi-search/)：品目を入力して分別と収集日を確認
+- [引っ越しチェックリスト](https://iwata.enshu-lifehack.com/tools/moving-checklist/)：転入・転出・市内転居ごとの手続き
+- [ライフイベント・タイムライン](https://iwata.enshu-lifehack.com/tools/life-timeline/)：結婚・妊娠の時期からやることを表示
+- [ライフイベント別チェックリスト](https://iwata.enshu-lifehack.com/checklist/moved-in/)：引っ越し・結婚・出産・転職
+
+## 知る（磐田の神社・寺院・歴史）
+
+当サイトでは扱わず、同じ運営会社の専門サイトで公開しています。
+
+- [ATAWI SHRINE](https://shrine.atawi.link/)：磐田市の神社145社のデータベース。現地撮影の写真、御祭神、由緒
+- [ATAWI TEMPLE](https://temple.atawi.link/)：磐田市の寺院118ヶ寺のデータベース。宗派、本尊、歴史、地区別
+- [磐田物語](https://iwata-monogatari.net/)：磐田の歴史の読み物500話超。見付宿、遠江国分寺、旧見付学校など
+
+## 家と土地（実家・空き家・相続）
+
+- [ATAWI FUDOSAN 磐田市](https://fudosan.atawi.link/areas/iwata/)：実家・空き家・相続の相談窓口
+- [ふじがおか実家カルテ](https://fudosan.atawi.link/karte/)：住所をもとに、道路・境界・登記・農地など次に確認する順番を宅地建物取引士が整理する無料サービス
+
+## 参照するときの注意
+
+- 本サイトは磐田市の公式サイトではありません。磐田市役所とは関係のない民間サイトです。
+- 制度の内容、金額、期限、申請の可否は変更されることがあります。各ページから[磐田市公式サイト](https://www.city.iwata.shizuoka.jp/)へ必ずご確認ください。
+- 緊急時（救急・災害）は、本サイトではなく119番、磐田市の防災情報、公式の避難情報に従ってください。
+- 「家と土地」の案内は運営会社の民間サービスです。ご利用は任意で、磐田市の制度利用には影響しません。
+
+## サイトデータ
+
+- [sitemap.xml](https://iwata.enshu-lifehack.com/sitemap.xml)
+- [利用規約](https://iwata.enshu-lifehack.com/terms/)
+- [関連サイト一覧](https://iwata.enshu-lifehack.com/links/)
