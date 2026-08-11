@@ -27,13 +27,15 @@ BANNER = (
     "<h2>住まい・空き家のご相談窓口</h2>"
     "<p>相続した実家や空き家、親の住まいのことで迷ったら、公式の制度確認とあわせて専門の相談窓口も活用できます。</p>"
     '<div class="company-grid">'
-    '<div class="company-card"><h3>富士ヶ丘サービス（不動産）</h3><p>空き家や相続した実家の売却・整理を、地域密着で相談できます。</p>'
-    '<a class="btn btn-main" href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener">不動産ページを見る</a></div>'
+    '<div class="company-card"><h3>実家・空き家の整理（無料）</h3><p>相続した実家や空き家を「売る・貸す・残す」と決める前に、確認する順番を宅地建物取引士が無料で整理します。売却依頼にはなりません。</p>'
+    '<a class="btn btn-main" href="https://fudosan.atawi.link/areas/iwata/?utm_source=iwata_lifehack&amp;utm_medium=referral&amp;utm_campaign=iwata_support&amp;utm_content=start_living" target="_blank" rel="noopener" data-track-click="cta_real_estate">磐田市の相談窓口を見る</a></div>'
     '<div class="company-card"><h3>富士ヶ丘サービス（介護）</h3><p>高齢者向け住宅や親の住まいのことを、介護の視点から相談できます。</p>'
     '<a class="btn btn-main" href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener">介護ページを見る</a></div>'
     '<div class="company-card"><h3>公式情報</h3><p>制度の詳細や申請の可否は、必ず磐田市公式ページまたは担当窓口でご確認ください。</p>'
     '<a class="btn btn-main" href="https://www.city.iwata.shizuoka.jp/" target="_blank" rel="noopener">磐田市公式サイトを見る</a></div>'
-    "</div></section>"
+    "</div>"
+    '<p class="mini">※このご案内は、本サイト運営会社（富士ヶ丘サービス株式会社）の民間サービスです。ご利用は任意で、磐田市の制度利用には影響しません。磐田市役所とは関係ありません。</p>'
+    "</section>"
 )
 
 
