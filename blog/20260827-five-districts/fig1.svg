@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="磐田市の北の丘陵から南の遠州灘までの広がりと、市役所および福田・豊岡・豊田・竜洋の四つの支所の位置関係を模式的に描いた挿絵" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dceaf2"/><stop offset="1" stop-color="#f6f4e6"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fb9d6"/><stop offset="1" stop-color="#3f8cb4"/></linearGradient>
+<filter id="card"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".18"/></filter>
+<style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.pin{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style>
+</defs>
+<rect width="1000" height="560" rx="22" fill="url(#sky)"/>
+<circle cx="856" cy="80" r="44" fill="#fff8dc" opacity=".9"/>
+<path d="M0 168 L120 96 L242 162 L372 92 L510 160 L640 104 L780 166 L1000 100 L1000 250 L0 250 Z" fill="#9dbfa9"/>
+<path d="M0 206 L150 142 L280 204 L420 140 L566 208 L700 150 L850 208 L1000 156 L1000 262 L0 262 Z" fill="#6f9c7e"/>
+<path d="M0 262 C180 246 340 288 520 268 C700 248 860 284 1000 262 L1000 392 L0 392 Z" fill="#8fbb79"/>
+<path d="M118 262 C150 320 132 356 168 392 L120 392 C92 352 100 312 78 262 Z" fill="#77aec9" opacity=".85"/>
+<path d="M0 392 C190 372 360 412 540 392 C720 372 870 404 1000 388 L1000 560 L0 560 Z" fill="url(#sea)"/>
+<path d="M0 424 C190 404 360 444 540 424 C720 404 870 436 1000 420" fill="none" stroke="#ffffff" stroke-width="6" opacity=".55"/>
+<path d="M0 470 C190 450 360 490 540 470 C720 450 870 482 1000 466" fill="none" stroke="#ffffff" stroke-width="5" opacity=".4"/>
+<g filter="url(#card)"><rect x="40" y="36" width="600" height="150" rx="18" fill="#ffffff" opacity=".95"/></g>
+<text x="70" y="76" class="cap" font-size="19">地区めぐり ── 磐田市の広さを暮らしの距離として見る</text>
+<text x="68" y="116" class="ttl" font-size="25">磐田市は南北27キロある。市役所と四つの</text>
+<text x="68" y="150" class="ttl" font-size="25">支所から、暮らしの距離を測る</text>
+<g stroke="#123a52" stroke-width="7" stroke-linecap="round"><path d="M760 236 V500"/></g>
+<g><circle cx="760" cy="252" r="17" fill="#005986"/><text x="736" y="258" class="pin" font-size="15" text-anchor="end">北</text></g>
+<g><circle cx="760" cy="330" r="21" fill="#c9522f" stroke="#123a52" stroke-width="5"/><text x="732" y="336" class="cap" font-size="17" text-anchor="end" font-weight="700">市役所</text></g>
+<g><circle cx="760" cy="392" r="14" fill="#0074AE"/><text x="738" y="398" class="cap" font-size="16" text-anchor="end">支所</text></g>
+<g><circle cx="760" cy="440" r="14" fill="#0074AE"/><text x="738" y="446" class="cap" font-size="16" text-anchor="end">支所</text></g>
+<g><circle cx="760" cy="488" r="17" fill="#005986"/><text x="736" y="494" class="pin" font-size="15" text-anchor="end">南</text></g>
+<text x="806" y="258" class="cap" font-size="17">丘陵・天竜浜名湖線</text>
+<text x="806" y="336" class="cap" font-size="17">東海道本線・国道1号</text>
+<text x="806" y="446" class="cap" font-size="17">国道150号</text>
+<text x="806" y="494" class="cap" font-size="17">遠州灘</text>
+<g filter="url(#card)"><rect x="60" y="300" width="300" height="86" rx="14" fill="#ffffff" opacity=".95"/></g>
+<text x="86" y="336" class="ttl" font-size="24">27.1km</text>
+<text x="86" y="366" class="cap" font-size="16">南北の長さ／面積163.34km²</text>
+</svg>

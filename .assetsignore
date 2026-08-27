@@ -16,3 +16,5 @@ docs
 docs/**
 _staging
 _staging/**
+blog/_template
+blog/_template/**

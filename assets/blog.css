@@ -1,0 +1,36 @@
+/* 磐田ライフハック ブログ専用スタイル (/blog/ 配下と /blog/index.html だけが読み込む)
+   site.css の後に読み込む前提。site.css の :root 変数(--green/--green-d/--line/--mut)を利用する。
+   ※ site.css を触らないので既存160ページの ?v= を上げ直す必要が無い。
+   更新時はこのファイルの ?v= を scripts/build_blog.py の CSS_HREF と各記事の <link> で揃えること。 */
+
+/* --- 記事本体 -------------------------------------------------------------- */
+body:not(.hub) .post-date,body.hub .post-date{font-size:16px;color:var(--mut);margin:0 0 6px;font-weight:700}
+body:not(.hub) .post-cover,body.hub .post-cover{margin:16px 0}
+body:not(.hub) .post-cover img,body.hub .post-cover img{width:100%;max-width:420px;height:auto;border-radius:14px;display:block;margin:0 auto}
+/* 記事冒頭のQ&A要点(AIO/LLMO対策) */
+body:not(.hub) .post-point,body.hub .post-point{background:#eef6fb;border:1px solid #cfe4f1;border-left:5px solid var(--green);border-radius:0 12px 12px 0;padding:14px 16px;margin:18px 0}
+body:not(.hub) .post-point-label,body.hub .post-point-label{margin:0 0 8px;font-weight:800;color:var(--green-d);font-size:16px}
+body:not(.hub) .post-point-q,body.hub .post-point-q{margin:0 0 10px;font-weight:800;font-size:16px}
+body:not(.hub) .post-point-a,body.hub .post-point-a{margin:0;font-size:16px;line-height:1.9}
+body:not(.hub) .post-quote,body.hub .post-quote{margin:16px 0;padding:12px 16px;background:#fafafa;border-left:4px solid var(--line);color:#333;font-size:16px}
+body:not(.hub) .post-steps,body.hub .post-steps{padding-left:1.3em}
+body:not(.hub) .post-steps li,body.hub .post-steps li{margin:10px 0;font-size:16px;line-height:1.9}
+body:not(.hub) .post-summary,body.hub .post-summary{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 34px;margin:16px 0}
+body:not(.hub) .post-summary li,body.hub .post-summary li{margin:6px 0;font-size:16px}
+body:not(.hub) .post-sources,body.hub .post-sources{padding-left:1.3em;font-size:16px}
+body:not(.hub) .post-sources li,body.hub .post-sources li{margin:6px 0}
+body:not(.hub) .post-author,body.hub .post-author{margin:20px 0 0;font-size:16px;font-weight:700;color:var(--green-d)}
+body:not(.hub) .post-author-box,body.hub .post-author-box{border-top:1px solid var(--line);padding:18px 0 0;margin:24px 0 0}
+body:not(.hub) .post-figure,body.hub .post-figure{margin:28px 0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+body:not(.hub) .post-figure img,body.hub .post-figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block}
+body:not(.hub) .post-figure figcaption,body.hub .post-figure figcaption{font-size:12.5px;color:var(--mut);margin-top:8px;line-height:1.65}
+body:not(.hub) .verified,body.hub .verified{margin-top:20px;font-size:13px;color:var(--mut);line-height:1.8}
+
+/* --- 一覧(/blog/) ---------------------------------------------------------- */
+body:not(.hub) .post-list,body.hub .post-list{list-style:none;margin:18px 0;padding:0;display:flex;flex-direction:column;gap:12px}
+body:not(.hub) .post-item-link,body.hub .post-item-link{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:inherit;min-height:44px}
+body:not(.hub) .post-item-link:hover,body.hub .post-item-link:hover{background:var(--soft);text-decoration:none}
+body:not(.hub) .post-item-date,body.hub .post-item-date{font-size:16px;color:var(--mut);font-weight:700;margin-right:8px}
+body:not(.hub) .post-axis,body.hub .post-axis{display:inline-block;font-size:16px;font-weight:800;color:var(--green-d);background:var(--soft);border-radius:999px;padding:2px 9px}
+body:not(.hub) .post-item-title,body.hub .post-item-title{display:block;margin:8px 0 4px;font-weight:800;font-size:16px;color:var(--green-d)}
+body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:block;font-size:16px;color:var(--mut);line-height:1.8}

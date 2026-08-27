@@ -1,0 +1,20 @@
+{
+  "_note": "磐田ブログの記事台帳。記事の実体は blog/<slug>/index.html（手書き）。ここに1件足して python scripts/build_blog.py を実行すると /blog/ の一覧に載る。slug は YYYYMMDD-テーマ英語。",
+  "_url_convention": "記事URLはディレクトリ方式 /blog/{slug}/ 。森町ライフハック・ATAWI FUDOSAN と同じ運用に揃えている。",
+  "_axis": "曜日別テーマ軸: mon=手続き・制度 / tue=空き家・実家・相続 / wed=歴史・文化財 / thu=子育て・学び / fri=地区めぐり / sat=スポーツ・イベント / sun=移住・暮らし・データ",
+  "_fields": "slug/date/axis/title/description は必須。home_description はトップ掲載用の短い説明、cta は導線の種類、primary_source は一次情報の確認記録、cover_alt は表紙画像の代替テキスト。",
+  "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
+  "posts": [
+    {
+      "slug": "20260827-five-districts",
+      "date": "2026-08-27",
+      "axis": "fri",
+      "title": "磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測る",
+      "description": "磐田市は面積163.34平方キロメートル、南北27.1キロの市です。市役所と福田・豊岡・豊田・竜洋の四つの支所という形から、住む場所ごとに変わる暮らしの距離感を考えます。",
+      "home_description": "磐田市は南北27.1キロ。市役所と四つの支所という形から、住む場所ごとに変わる暮らしの距離感を考えます。",
+      "cta": "official",
+      "primary_source": "磐田市の概要／磐田市を2026-08-27に確認",
+      "cover_alt": "磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測るの記事表紙"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+<!doctype html><html lang="ja"><head>
+<!--
+  磐田ブログ 記事テンプレート（このディレクトリは _ 始まりなので公開されず、台帳チェックの対象外）
+  使い方:
+   1. このディレクトリを blog/<YYYYMMDD-テーマ英語>/ へコピーする
+   2. {{...}} を全部置き換える（残っていると公開事故になるので必ず検索して確認する）
+   3. data/blog-posts.json に1件追記する
+   4. python scripts/make_blog_cover.py <slug>     … 表紙 cover.jpg を作る
+   5. fig1.svg / fig2.svg を用意する（data-illustration="iwata-editorial" が必須）
+   6. python scripts/inject_parts.py               … header/footer を流し込む
+   7. python scripts/build_blog.py                 … 品質ゲート＋一覧生成
+  品質ゲート: 編集本文5,000文字以上／段落35以上／磐田市公式の出典2本以上／
+              良い点・注文したい点・対案・結論・大石の視点／post-author／cover.jpg／
+              fig1.svg・fig2.svg／/assets/blog.css／禁止語なし
+-->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{タイトル}} | 磐田ライフハック</title>
+<meta name="description" content="{{説明文・120文字前後・台帳のdescriptionと揃える}}">
+<link rel="canonical" href="https://iwata.enshu-lifehack.com/blog/{{slug}}/">
+<meta property="og:type" content="article"><meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="磐田ライフハック"><meta property="og:title" content="{{タイトル}}">
+<meta property="og:description" content="{{説明文}}">
+<meta property="og:image" content="https://iwata.enshu-lifehack.com/blog/{{slug}}/cover.jpg">
+<meta property="og:url" content="https://iwata.enshu-lifehack.com/blog/{{slug}}/"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"{{タイトル}}","datePublished":"{{YYYY-MM-DD}}","dateModified":"{{YYYY-MM-DD}}","author":{"@type":"Person","name":"大石浩之"},"image":"https://iwata.enshu-lifehack.com/blog/{{slug}}/cover.jpg","mainEntityOfPage":"https://iwata.enshu-lifehack.com/blog/{{slug}}/","publisher":{"@type":"Organization","name":"富士ヶ丘サービス株式会社"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"磐田ライフハック","item":"https://iwata.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://iwata.enshu-lifehack.com/blog/"},{"@type":"ListItem","position":3,"name":"{{タイトル}}","item":"https://iwata.enshu-lifehack.com/blog/{{slug}}/"}]}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260710l"><!-- PART:head-css:END -->
+<link rel="stylesheet" href="/assets/blog.css?v=20260827a">
+</head><body>
+<!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span><button type="button" id="font-size-toggle" class="font-size-toggle" aria-pressed="false">文字 大</button></div></header><script>(function(){var KEY='enshu-font-large';var btn=document.getElementById('font-size-toggle');function apply(on){document.documentElement.classList.toggle('font-large',on);if(btn){btn.setAttribute('aria-pressed',on?'true':'false');btn.textContent=on?'文字 標準':'文字 大';}}apply(localStorage.getItem(KEY)==='1');if(btn){btn.addEventListener('click',function(){var on=!document.documentElement.classList.contains('font-large');apply(on);try{localStorage.setItem(KEY,on?'1':'0');}catch(e){}});}})();</script><!-- PART:header:END -->
+<!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
+<main id="main"><div class="wrap">
+<p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <a href="/blog/">ブログ</a> ／ {{タイトル}}</p>
+<article class="post">
+<p class="post-date"><time datetime="{{YYYY-MM-DD}}">{{YYYY年M月D日}}</time>　<span>{{曜日軸ラベル: 手続き・制度／空き家・実家・相続／歴史・文化財／子育て・学び／地区めぐり／スポーツ・イベント／移住・暮らし・データ}}</span></p>
+<h1>{{タイトル}}</h1>
+<p class="post-cover"><img src="cover.jpg" alt="{{タイトル}}の記事表紙" width="760" height="760" fetchpriority="high" decoding="async"></p>
+<div class="post-point"><p class="post-point-label">この記事の要点</p>
+<p class="post-point-q">Q. {{読者が最初に抱く問い}}</p>
+<p class="post-point-a">A. <strong>{{その答えを1〜2文で}}</strong></p></div>
+<!-- ▼ ここから post-editorial-body。直後に action-grid を置くこと（build_blog.py の正規表現がこの並びを見る）。
+     この中に <div> を入れてはいけない（本文の切り出しが壊れる）。<p> は35個以上、空白を除いて5,000文字以上。 -->
+<div class="post-editorial-body">
+<h2 class="sec">導入——{{見出し}}</h2><p>{{段落}}</p>
+<p>{{段落}}</p>
+<figure class="post-figure"><img src="/blog/{{slug}}/fig1.svg" alt="{{図1の説明}}"><figcaption>図1　{{図1のキャプション}}</figcaption></figure>
+<h2 class="sec">まず、公式資料から事実を整理する</h2><p>{{磐田市公式ページに何が書いてあるかを、引用と出典を明示して書く}}</p>
+<p>{{段落}}</p>
+<h2 class="sec">磐田の暮らしに置き換える</h2><p>{{段落}}</p>
+<figure class="post-figure"><img src="/blog/{{slug}}/fig2.svg" alt="{{図2の説明}}"><figcaption>図2　{{図2のキャプション}}</figcaption></figure>
+<h2 class="sec">評価——良い点と、注文したい点</h2><p>良い点は{{……}}です。</p>
+<p>注文したい点は{{……}}です。</p>
+<h2 class="sec">対案・結論——{{見出し}}</h2><p>{{段落}}</p>
+<h2 class="sec">確認する順番</h2>
+<ol class="post-steps"><li>{{手順}}</li><li>{{手順}}</li><li>{{手順}}</li></ol>
+<h2 class="sec">家族で共有するための記録</h2><p>{{段落}}</p>
+<h2 class="sec">大石の視点</h2><p>{{公表情報ではなく執筆者の見解であることが分かるように書く}}</p>
+<h2 class="sec">まとめ</h2><p>{{段落}}</p>
+<ul class="post-summary"><li>{{要点}}</li><li>{{要点}}</li><li>{{要点}}</li></ul>
+</div>
+<div class="action-grid"><a class="btn" href="{{/life/... 関連する既存ページ}}">{{リンク文言}}</a><a class="btn" href="/blog/">ブログの記事一覧へ戻る</a></div>
+<h2 class="sec">参考にした公式情報</h2>
+<!-- 磐田市公式(https://www.city.iwata.shizuoka.jp/)のURLが2本以上必要。href は実在URLに差し替える。
+     scripts/check_official_links.py が全HTMLのhrefを叩くので、ダミーURLは置かないこと。 -->
+<ul class="post-sources"><li><a href="https://www.city.iwata.shizuoka.jp/shiseijouhou/profile/1002303.html" target="_blank" rel="noopener">{{ページ名}}／磐田市</a>（{{YYYY年M月D日}}確認）</li><li><a href="https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/choushaannai/index.html" target="_blank" rel="noopener">{{ページ名}}／磐田市</a>（{{YYYY年M月D日}}確認）</li></ul>
+<div class="post-author-box">
+<p class="post-author">この記事の執筆：大石浩之（宅地建物取引士）／富士ヶ丘サービス株式会社　<a href="/terms/">運営者・利用条件</a></p>
+</div>
+<p class="verified">最終確認日：{{YYYY-MM-DD}} ／ 本記事は公表情報と執筆者の見解を分けて記載しています。制度・数値・公開状況は変更される場合があるため、最新情報は磐田市公式ページでご確認ください。</p>
+</article></div></main>
+<!-- PART:footer:START --><style>.enshu-footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px}.enshu-footer h3,.enshu-footer .footer-brand h2{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}.enshu-footer p{margin:0 0 8px}.enshu-footer ul{list-style:none;margin:0;padding:0}.enshu-footer li{margin:4px 0}.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}.enshu-footer a{min-height:44px;padding:6px 4px;margin:-6px -4px}.enshu-footer .footer-munis a{min-height:44px;padding:8px 10px;margin:-8px -10px}.footer-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto;font-size:1rem;margin-right:.35rem}.footer-favicon{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-left:4px;border-radius:2px}.enshu-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);margin-top:6px;padding-top:14px;text-align:center}.enshu-footer .footer-bottom>p>a{display:inline-flex;justify-content:center}.enshu-footer .footer-munis{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:8px}.enshu-footer .footer-munis a{white-space:nowrap}.enshu-footer .footer-subheading{margin-top:14px}.enshu-footer .footer-network{padding-left:14px}@media(max-width:720px){.enshu-footer .wrap{grid-template-columns:1fr}.enshu-footer .footer-network{padding-left:0}}</style>
+<!-- managed-footer:start -->
+<footer class="fgo-managed-footer" data-managed-footer="true" data-generated-at="2026-07-20">
+<style>
+.fgo-managed-footer {
+  border-top: 1px solid rgba(17, 24, 39, 0.14);
+  background: #f7f7f2;
+  color: #20242a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.32;
+  margin: 0;
+  padding: 8px 0;
+}
+.fgo-managed-footer * {
+  box-sizing: border-box;
+}
+.fgo-managed-footer__inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 22px 0 63px;
+}
+body:not(.hub) .fgo-managed-footer__inner {
+  padding-left: 93px;
+}
+@media (max-width: 1039px) and (min-width: 981px) {
+  body.hub .fgo-managed-footer__inner {
+    padding-left: calc((100vw - 980px) / 2 + 33px);
+  }
+}
+@media (max-width: 1039px) and (min-width: 921px) {
+  body:not(.hub) .fgo-managed-footer__inner {
+    padding-left: calc((100vw - 920px) / 2 + 33px);
+  }
+}
+@media (max-width: 980px) {
+  body.hub .fgo-managed-footer__inner {
+    padding-left: 33px;
+  }
+}
+@media (max-width: 920px) {
+  body:not(.hub) .fgo-managed-footer__inner {
+    padding-left: 33px;
+  }
+}
+.fgo-managed-footer__kicker {
+  color: #5f6b76;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 5px;
+}
+.fgo-managed-footer__grid {
+  display: grid;
+  align-items: start;
+  gap: 8px 24px;
+  grid-template-columns: minmax(220px, 0.95fr) minmax(200px, 0.85fr) minmax(320px, 1.35fr);
+}
+.fgo-managed-footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fgo-managed-footer__section {
+  display: block;
+}
+.fgo-managed-footer__section h2 {
+  color: #20242a;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0 0 3px;
+}
+.fgo-managed-footer__section ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.65em;
+}
+.fgo-managed-footer__section li {
+  display: block;
+  margin: 2px 0;
+  min-width: 0;
+}
+.fgo-managed-footer__section li + li::before {
+  content: none;
+}
+.fgo-managed-footer__section a {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  display: inline;
+  gap: 3px;
+  max-width: 100%;
+  padding: 0;
+  text-decoration: none;
+}
+.fgo-managed-footer__section a:focus,
+.fgo-managed-footer__section a:hover {
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.fgo-managed-footer__label {
+  color: #1f4d63;
+  flex: 0 1 auto;
+  font-size: 16px;
+  font-weight: 800;
+  min-width: 0;
+}
+.fgo-managed-footer__desc {
+  color: #66717c;
+  display: none;
+  flex: 0 1 auto;
+  font-size: 10px;
+  min-width: 0;
+}
+.fgo-managed-footer__desc::before {
+  content: "(";
+}
+.fgo-managed-footer__desc::after {
+  content: ")";
+}
+.fgo-managed-footer__note {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+  color: #66717c;
+  font-size: 12px;
+  margin: 7px 0 0;
+  padding-top: 5px;
+}
+.fgo-managed-footer__lifehack-row {
+  display: block;
+  white-space: normal;
+}
+.fgo-managed-footer__separator {
+  color: #98a2ad;
+  margin: 0 6px;
+}
+@media (max-width: 720px) {
+  .fgo-managed-footer__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .fgo-managed-footer {
+    padding: 8px 0;
+  }
+  .fgo-managed-footer__grid {
+    gap: 8px;
+    grid-template-columns: 1fr;
+  }
+  .fgo-managed-footer__section a {
+    padding: 0;
+  }
+}
+</style>
+  <div class="fgo-managed-footer__inner">
+    <p class="fgo-managed-footer__kicker">大石ひろゆき関連サイト</p>
+    <div class="fgo-managed-footer__grid">
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section" aria-label="大石ひろゆき">
+          <h2>大石ひろゆき</h2>
+          <ul>
+            <li>
+              <a href="https://oishi-hiroyuki.org/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">大石ひろゆき公式サイト</span>
+                <span class="fgo-managed-footer__desc">oishi-hiroyuki.org</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="fgo-managed-footer__section" aria-label="相談窓口">
+          <h2>相談窓口</h2>
+          <ul>
+            <li>
+              <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">富士ヶ丘サービス（不動産）</span>
+                <span class="fgo-managed-footer__desc">磐田・袋井の不動産売却支援</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">富士ヶ丘サービス（介護）</span>
+                <span class="fgo-managed-footer__desc">高齢者向け住宅・親の家の相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://iwata-monogatari.github.io/fujigaoka-jikka-soudan/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">実家じまい・空き家相談室</span>
+                <span class="fgo-managed-footer__desc">親の家・実家じまい・空き家のご相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://iwata-monogatari.github.io/fujigaoka-souzoku-soudan/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">相続はじめ・空き家相談室</span>
+                <span class="fgo-managed-footer__desc">親の家・相続はじめ・空き家のご相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://fudosan.atawi.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI FUDOSAN</span>
+                <span class="fgo-managed-footer__desc">fudosan.atawi.link</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section" aria-label="文化・芸術・スポーツ">
+          <h2>文化・芸術・スポーツ</h2>
+          <ul>
+            <li>
+              <a href="https://iwata-monogatari.net/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">磐田物語</span>
+                <span class="fgo-managed-footer__desc">iwata-monogatari.net</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://atawimusic.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI MUSIC</span>
+                <span class="fgo-managed-footer__desc">atawimusic.link</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://atawicomedy.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI COMEDY</span>
+                <span class="fgo-managed-footer__desc">atawicomedy.link</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section fgo-managed-footer__section--lifehack" aria-label="地域情報・ライフハック">
+          <h2>地域情報・ライフハック</h2>
+          <ul>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">遠州ライフハック</span>
+                <span class="fgo-managed-footer__desc">enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://iwata.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">磐田ライフハック</span>
+                <span class="fgo-managed-footer__desc">iwata.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://fukuroi.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">袋井ライフハック</span>
+                <span class="fgo-managed-footer__desc">fukuroi.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kakegawa.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">掛川ライフハック</span>
+                <span class="fgo-managed-footer__desc">kakegawa.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://morimachi.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">森町ライフハック</span>
+                <span class="fgo-managed-footer__desc">morimachi.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kikugawa.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">菊川ライフハック</span>
+                <span class="fgo-managed-footer__desc">kikugawa.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://omaezaki.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">御前崎ライフハック</span>
+                <span class="fgo-managed-footer__desc">omaezaki.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kosai.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">湖西ライフハック</span>
+                <span class="fgo-managed-footer__desc">kosai.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://hamamatsu.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">浜松ライフハック</span>
+                <span class="fgo-managed-footer__desc">hamamatsu.enshu-lifehack.com</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <p class="fgo-managed-footer__note">地域情報、音楽、スポーツ、相談窓口をまとめています。 / Copyright 大石ひろゆき / 富士ヶ丘サービス</p>
+  </div>
+</footer>
+<!-- managed-footer:end --><script defer src="https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js" data-site="iwata-lifehack" data-fujigaoka-analytics="true"></script><!-- PART:footer:END -->
+</body></html>

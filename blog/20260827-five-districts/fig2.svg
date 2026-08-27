@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-label="毎日の通勤通学、週や月ごとの買い物と通院、数年に一度の手続きと避難という三つの確認場面を、道で結んで順番に並べた挿絵" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2eef4"/><stop offset="1" stop-color="#f7f5ea"/></linearGradient>
+<filter id="card2"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.ttl2{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cap2{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.num{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}</style>
+</defs>
+<rect width="1000" height="480" rx="22" fill="url(#sky2)"/>
+<path d="M0 372 C200 340 320 402 520 366 C716 330 852 386 1000 352 L1000 480 L0 480 Z" fill="#8fbb79"/>
+<path d="M0 404 C200 372 320 434 520 398 C716 362 852 418 1000 384" fill="none" stroke="#e7dd9a" stroke-width="10" opacity=".9"/>
+<text x="60" y="66" class="cap2" font-size="19">確認は三段階に分ける ── 影響の大きい順に見る</text>
+<path d="M180 196 H360" stroke="#123a52" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 16"/>
+<path d="M540 196 H720" stroke="#123a52" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 16"/>
+<g filter="url(#card2)"><rect x="46" y="110" width="252" height="172" rx="16" fill="#ffffff"/></g>
+<circle cx="82" cy="146" r="20" fill="#c9522f"/><text x="82" y="153" class="num" font-size="19" text-anchor="middle">1</text>
+<text x="116" y="153" class="ttl2" font-size="21">毎日</text>
+<text x="76" y="196" class="cap2" font-size="17">通勤・通学・送迎</text>
+<text x="76" y="226" class="cap2" font-size="17">平日の実際の時間帯に</text>
+<text x="76" y="254" class="cap2" font-size="17">走って計測する</text>
+<g filter="url(#card2)"><rect x="374" y="110" width="252" height="172" rx="16" fill="#ffffff"/></g>
+<circle cx="410" cy="146" r="20" fill="#0074AE"/><text x="410" y="153" class="num" font-size="19" text-anchor="middle">2</text>
+<text x="444" y="153" class="ttl2" font-size="21">週・月ごと</text>
+<text x="404" y="196" class="cap2" font-size="17">買い物・通院</text>
+<text x="404" y="226" class="cap2" font-size="17">運転しない日でも</text>
+<text x="404" y="254" class="cap2" font-size="17">動けるかを見る</text>
+<g filter="url(#card2)"><rect x="702" y="110" width="252" height="172" rx="16" fill="#ffffff"/></g>
+<circle cx="738" cy="146" r="20" fill="#005986"/><text x="738" y="153" class="num" font-size="19" text-anchor="middle">3</text>
+<text x="772" y="153" class="ttl2" font-size="21">数年に一度</text>
+<text x="732" y="196" class="cap2" font-size="17">手続き・避難</text>
+<text x="732" y="226" class="cap2" font-size="17">支所で済むか本庁か</text>
+<text x="732" y="254" class="cap2" font-size="17">先に電話で確かめる</text>
+<circle cx="172" cy="386" r="15" fill="#c9522f"/><circle cx="500" cy="376" r="15" fill="#0074AE"/><circle cx="828" cy="380" r="15" fill="#005986"/>
+</svg>
