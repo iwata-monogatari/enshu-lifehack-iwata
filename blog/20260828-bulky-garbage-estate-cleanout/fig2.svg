@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-label="磐田市で片付けを始める前に先に抜いておくものを二列で示した図。左列は家電リサイクル法の対象4区分としてテレビが15型以下1,870円と16型以上2,970円、冷蔵庫・冷凍庫が170リットル以下3,740円と171リットル以上4,730円、洗濯機・衣類乾燥機が2,530円、エアコンが室外機を含めて990円という目安料金を挙げ、右列は適正処理困難物としてプロパンガスボンベ、ガソリン・灯油・オイル、バッテリー、消火器、弦が張ってあるピアノ、太陽光パネル、石膏ボード、農薬などの薬品を挙げている" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bgB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2eef4"/><stop offset="1" stop-color="#f7f5ea"/></linearGradient>
+<filter id="cardB"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.yB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="520" rx="22" fill="url(#bgB)"/>
+<text x="60" y="58" class="cB" font-size="18">片付けを始める前に ── 市の集積所にも施設にも出せないもの</text>
+<text x="58" y="98" class="tB" font-size="26">この2列を先に抜くと、日程が崩れにくい</text>
+
+<g filter="url(#cardB)"><rect x="46" y="126" width="440" height="304" rx="16" fill="#ffffff"/></g>
+<rect x="46" y="126" width="440" height="50" rx="16" fill="#005986"/>
+<rect x="46" y="160" width="440" height="16" fill="#005986"/>
+<text x="72" y="160" class="wB" font-size="19">家電リサイクル法の対象4区分</text>
+<text x="72" y="212" class="tB" font-size="18">テレビ（液晶・ブラウン管・プラズマ・有機EL）</text>
+<text x="72" y="240" class="cB" font-size="17">15型以下 1,870円 ／ 16型以上 2,970円</text>
+<text x="72" y="282" class="tB" font-size="18">冷蔵庫・冷凍庫</text>
+<text x="72" y="310" class="cB" font-size="17">170ℓ以下 3,740円 ／ 171ℓ以上 4,730円</text>
+<text x="72" y="352" class="tB" font-size="18">洗濯機・衣類乾燥機　2,530円</text>
+<text x="72" y="386" class="tB" font-size="18">エアコン（室外機含む）　990円</text>
+<text x="72" y="414" class="nB" font-size="15">目安。メーカー・大きさで変わる（0120-319640）</text>
+
+<g filter="url(#cardB)"><rect x="514" y="126" width="440" height="304" rx="16" fill="#ffffff"/></g>
+<rect x="514" y="126" width="440" height="50" rx="16" fill="#c9522f"/>
+<rect x="514" y="160" width="440" height="16" fill="#c9522f"/>
+<text x="540" y="160" class="wB" font-size="19">適正処理困難物（市では収集も処理もできない）</text>
+<text x="540" y="212" class="cB" font-size="18">・プロパンガスボンベ（カセットボンベを除く）</text>
+<text x="540" y="244" class="cB" font-size="18">・ガソリン、灯油、オイル、機械油</text>
+<text x="540" y="276" class="cB" font-size="18">・バッテリー、消火器</text>
+<text x="540" y="308" class="cB" font-size="18">・ピアノ（弦が張ってあるもの）</text>
+<text x="540" y="340" class="cB" font-size="18">・太陽光パネル、石膏ボード</text>
+<text x="540" y="372" class="cB" font-size="18">・農薬などの薬品、注射針など</text>
+<text x="540" y="410" class="nB" font-size="15">磐田市廃棄物の減量及び適正処理に関する条例 第21条第1項</text>
+
+<text x="60" y="470" class="yB" font-size="18">物置と納屋から最終日に出てくるのが、いちばん困ります。</text>
+<text x="60" y="498" class="nB" font-size="16">出典：磐田市「市で収集・処理できないごみ」「テレビ、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機、エアコンの出し方（家電リサイクル）」（2026年8月28日確認）</text>
+</svg>
