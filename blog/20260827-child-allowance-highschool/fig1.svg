@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="磐田市の児童手当の月額を年齢区分ごとに三段の帯で示した図。0歳から2歳が月額15,000円、3歳から18歳到達後最初の3月31日までが月額10,000円、第3子以降にあたる子は年齢を問わず月額30,000円であることを表している" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#f7f6ee"/></linearGradient>
+<linearGradient id="bar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c9522f"/><stop offset="1" stop-color="#e07a4f"/></linearGradient>
+<filter id="c1"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.amt{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.note{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}</style>
+</defs>
+<rect width="1000" height="560" rx="22" fill="url(#bg1)"/>
+<g filter="url(#c1)"><rect x="40" y="34" width="700" height="112" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="72" class="cap" font-size="18">子育て・学び ── 磐田市の児童手当（2026年8月27日確認）</text>
+<text x="68" y="116" class="ttl" font-size="27">月額は、年齢の区分と「第3子以降」で分かれる</text>
+
+<rect x="60" y="188" width="640" height="76" rx="12" fill="#0074AE"/>
+<text x="86" y="222" class="amt" font-size="21">0歳 〜 2歳</text>
+<text x="86" y="250" class="cap" font-size="16" fill="#dceaf2">3歳未満の区分</text>
+<text x="672" y="238" class="amt" font-size="30" text-anchor="end">月 15,000円</text>
+
+<rect x="60" y="284" width="640" height="76" rx="12" fill="#005986"/>
+<text x="86" y="318" class="amt" font-size="21">3歳 〜 18歳到達後最初の3月31日まで</text>
+<text x="86" y="346" class="cap" font-size="16" fill="#dceaf2">高校生年代までが対象</text>
+<text x="672" y="334" class="amt" font-size="30" text-anchor="end">月 10,000円</text>
+
+<rect x="60" y="380" width="640" height="88" rx="12" fill="url(#bar3)"/>
+<text x="86" y="414" class="amt" font-size="21">第3子以降にあたる子（年齢の区分を問わない）</text>
+<text x="86" y="444" class="cap" font-size="16" fill="#ffe7dc">0〜22歳到達後最初の3月31日までの子が3人以上いる場合</text>
+<text x="672" y="434" class="amt" font-size="30" text-anchor="end">月 30,000円</text>
+
+<g filter="url(#c1)"><rect x="736" y="188" width="212" height="280" rx="16" fill="#ffffff" opacity=".96"/></g>
+<text x="762" y="226" class="ttl" font-size="19">高校生年代の3年で</text>
+<text x="762" y="278" class="ttl" font-size="34">36万円</text>
+<text x="762" y="308" class="note" font-size="15">月1万円×36か月</text>
+<line x1="762" y1="330" x2="922" y2="330" stroke="#cfdde6" stroke-width="2"/>
+<text x="762" y="366" class="ttl" font-size="19">第3子以降なら</text>
+<text x="762" y="416" class="ttl" font-size="34">108万円</text>
+<text x="762" y="446" class="note" font-size="15">月3万円×36か月</text>
+
+<text x="60" y="510" class="note" font-size="16">出典：磐田市「児童手当」（ページ更新日 2026年2月5日）／金額・区分は変わることがあります</text>
+<text x="60" y="536" class="note" font-size="16">支給は偶数月に2か月分ずつ、年6回。月1万円なら1回の入金は2万円になります。</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-label="磐田市の児童手当の支給カレンダーと第3子の数え方を並べた図。左側は10月・12月・2月・4月・6月・8月の偶数月に2か月分ずつ年6回支給されること、右側は20歳の子・高校2年生・小学4年生の家庭で、支給対象外の20歳の子も第1子として数えるため小学4年生が第3子となり月額30,000円になることを示している" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f6ee"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+<filter id="c2"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.ttl{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cap{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wt{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.note{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}</style>
+</defs>
+<rect width="1000" height="560" rx="22" fill="url(#bg2)"/>
+<text x="60" y="58" class="ttl" font-size="24">支給される月と、第3子の数え方</text>
+<text x="60" y="88" class="cap" font-size="16">出典：磐田市「児童手当」（2026年8月27日確認）</text>
+
+<g filter="url(#c2)"><rect x="44" y="112" width="440" height="392" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="72" y="152" class="ttl" font-size="20">支給は年6回。偶数月の10日</text>
+<text x="72" y="180" class="cap" font-size="15">それぞれ直前の2か月分をまとめて支給します</text>
+
+<rect x="72" y="200" width="384" height="42" rx="9" fill="#0074AE"/>
+<text x="92" y="228" class="wt" font-size="18">10月</text><text x="436" y="228" class="wt" font-size="17" text-anchor="end">8〜9月分</text>
+<rect x="72" y="250" width="384" height="42" rx="9" fill="#005986"/>
+<text x="92" y="278" class="wt" font-size="18">12月</text><text x="436" y="278" class="wt" font-size="17" text-anchor="end">10〜11月分</text>
+<rect x="72" y="300" width="384" height="42" rx="9" fill="#0074AE"/>
+<text x="92" y="328" class="wt" font-size="18">2月</text><text x="436" y="328" class="wt" font-size="17" text-anchor="end">12〜1月分</text>
+<rect x="72" y="350" width="384" height="42" rx="9" fill="#005986"/>
+<text x="92" y="378" class="wt" font-size="18">4月</text><text x="436" y="378" class="wt" font-size="17" text-anchor="end">2〜3月分</text>
+<rect x="72" y="400" width="384" height="42" rx="9" fill="#0074AE"/>
+<text x="92" y="428" class="wt" font-size="18">6月</text><text x="436" y="428" class="wt" font-size="17" text-anchor="end">4〜5月分</text>
+<rect x="72" y="450" width="384" height="42" rx="9" fill="#005986"/>
+<text x="92" y="478" class="wt" font-size="18">8月</text><text x="436" y="478" class="wt" font-size="17" text-anchor="end">6〜7月分</text>
+
+<g filter="url(#c2)"><rect x="516" y="112" width="440" height="392" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="544" y="152" class="ttl" font-size="20">磐田市が示す例で数えてみる</text>
+<text x="544" y="180" class="cap" font-size="15">20歳の子・高校2年生・小学4年生を養育している場合</text>
+
+<rect x="544" y="200" width="384" height="82" rx="12" fill="#e9eff3" stroke="#c3d3dd" stroke-width="2"/>
+<circle cx="586" cy="241" r="21" fill="#9fb3bf"/><text x="586" y="248" class="wt" font-size="17" text-anchor="middle">1</text>
+<text x="622" y="232" class="ttl" font-size="18">20歳の子</text>
+<text x="622" y="260" class="cap" font-size="15">支給の対象外。ただし第1子として数える</text>
+
+<rect x="544" y="292" width="384" height="82" rx="12" fill="#005986"/>
+<circle cx="586" cy="333" r="21" fill="#ffffff"/><text x="586" y="340" class="ttl" font-size="17" text-anchor="middle">2</text>
+<text x="622" y="324" class="wt" font-size="18">高校2年生</text>
+<text x="622" y="352" class="cap" font-size="16" fill="#dceaf2">第2子 ── 月 10,000円</text>
+
+<rect x="544" y="384" width="384" height="82" rx="12" fill="#c9522f"/>
+<circle cx="586" cy="425" r="21" fill="#ffffff"/><text x="586" y="432" class="ttl" font-size="17" text-anchor="middle">3</text>
+<text x="622" y="416" class="wt" font-size="18">小学4年生</text>
+<text x="622" y="444" class="cap" font-size="16" fill="#ffe7dc">第3子 ── 月 30,000円</text>
+
+<text x="544" y="490" class="note" font-size="14">数える範囲は0〜22歳到達後最初の3月31日までの子</text>
+
+<text x="44" y="536" class="note" font-size="16">支払日は支給期の10日。土曜・日曜・祝日にあたる場合は直前の平日になります。</text>
+</svg>
