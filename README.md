@@ -56,7 +56,8 @@ python scripts/make_blog_cover.py 20260901-example   # 4. 表紙を作る
 python scripts/inject_parts.py                       # 6. header/footer を流し込む
 python scripts/build_blog.py --check                 # 7. 検査だけ（書き込みなし）
 python scripts/build_blog.py                         # 8. 一覧＋sitemap を生成
-git add -A && git commit && git push                 # 9. main へ push → Cloudflare が自動デプロイ
+python scripts/ensure_canonical.py                    # 9. 全公開HTMLのcanonicalを正規化
+git add -A && git commit && git push                 # 10. main へ push → Cloudflare が自動デプロイ
 ```
 
 ### 品質ゲート（`build_blog.py` が機械で見る範囲）
