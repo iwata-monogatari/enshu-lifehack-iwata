@@ -268,6 +268,15 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/farmland/noshin-exclusion/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/farmland/change-use/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/farmland/certificates/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/checklist/baby/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/checklist/job-change/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/checklist/married/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/checklist/moved-in/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/tools/gomi-search/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/tools/life-timeline/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/tools/moving-checklist/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260828-bulky-garbage-estate-cleanout/</loc><lastmod>2026-08-28</lastmod></url>
