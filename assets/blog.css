@@ -28,9 +28,12 @@ body:not(.hub) .verified,body.hub .verified{margin-top:20px;font-size:13px;color
 
 /* --- 一覧(/blog/) ---------------------------------------------------------- */
 body:not(.hub) .post-list,body.hub .post-list{list-style:none;margin:18px 0;padding:0;display:flex;flex-direction:column;gap:12px}
-body:not(.hub) .post-item-link,body.hub .post-item-link{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:inherit;min-height:44px}
+body:not(.hub) .post-item-link,body.hub .post-item-link{display:grid;grid-template-columns:156px minmax(0,1fr);gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;text-decoration:none;color:inherit;min-height:44px}
 body:not(.hub) .post-item-link:hover,body.hub .post-item-link:hover{background:var(--soft);text-decoration:none}
+body:not(.hub) .post-item-thumb,body.hub .post-item-thumb{display:block;width:156px;height:104px;object-fit:cover;border:1px solid var(--line);border-radius:9px;background:#eef3f5}
+body:not(.hub) .post-item-body,body.hub .post-item-body{display:block;min-width:0}
 body:not(.hub) .post-item-date,body.hub .post-item-date{font-size:16px;color:var(--mut);font-weight:700;margin-right:8px}
 body:not(.hub) .post-axis,body.hub .post-axis{display:inline-block;font-size:16px;font-weight:800;color:var(--green-d);background:var(--soft);border-radius:999px;padding:2px 9px}
 body:not(.hub) .post-item-title,body.hub .post-item-title{display:block;margin:8px 0 4px;font-weight:800;font-size:16px;color:var(--green-d)}
 body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:block;font-size:16px;color:var(--mut);line-height:1.8}
+@media(max-width:600px){body:not(.hub) .post-item-link,body.hub .post-item-link{grid-template-columns:96px minmax(0,1fr);gap:11px;align-items:start;padding:10px}body:not(.hub) .post-item-thumb,body.hub .post-item-thumb{width:96px;height:96px}body:not(.hub) .post-item-date,body.hub .post-item-date,body:not(.hub) .post-axis,body.hub .post-axis{font-size:12px}body:not(.hub) .post-item-title,body.hub .post-item-title{margin:6px 0 0;font-size:14px;line-height:1.55}body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:none}}

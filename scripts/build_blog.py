@@ -45,7 +45,7 @@ SITE = "https://iwata.enshu-lifehack.com"
 SITE_NAME = "磐田ライフハック"
 HOME_LABEL = "磐田ライフハック"
 OFFICIAL_PREFIX = "https://www.city.iwata.shizuoka.jp/"
-CSS_HREF = "/assets/blog.css?v=20260827a"
+CSS_HREF = "/assets/blog.css?v=20260828b"
 FIG_MARKER = 'data-illustration="iwata-editorial"'
 
 MIN_EDITORIAL_CHARS = 5000
@@ -189,12 +189,15 @@ def build_index(posts, parts):
         items.append(
             '<li class="post-item">'
             '<a class="post-item-link" href="/blog/%s/">'
+            '<img class="post-item-thumb" src="/blog/%s/cover.jpg" alt="" width="760" height="760" loading="lazy" decoding="async">'
+            '<span class="post-item-body">'
             '<span class="post-item-date"><time datetime="%s">%s</time></span>'
             "%s"
             '<span class="post-item-title">%s</span>'
             '<span class="post-item-desc">%s</span>'
-            "</a></li>"
+            "</span></a></li>"
             % (
+                p["slug"],
                 p["slug"],
                 p["date"],
                 p["date"].replace("-", "."),
