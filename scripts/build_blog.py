@@ -6,8 +6,9 @@
 本スクリプトは
   1. 台帳と実ファイルの突き合わせ
   2. 品質ゲートの機械チェック
-  3. 一覧ページ blog/index.html の生成
-だけを担当する。生成物は blog/index.html のみ。記事本体は絶対に書き換えない。
+  3. 一覧ページ blog/index.html と Atom フィードの生成
+  4. 記事末尾の関連記事ブロックとフィード検出タグの同期
+を担当する。記事本文(post-editorial-body)は書き換えない。
 
 品質ゲート(機械で見られる範囲):
   - 編集本文(post-editorial-body)が空白除外で5,000文字以上あるか
@@ -38,14 +39,16 @@ LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
 PARTS_DIR = os.path.join(ROOT, "parts")
 BLOG_DIR = os.path.join(ROOT, "blog")
 SITEMAP = os.path.join(ROOT, "sitemap.xml")
+FEED = os.path.join(BLOG_DIR, "feed.xml")
 SITEMAP_START = "  <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->"
 SITEMAP_END = "  <!-- BLOG:END -->"
 
 SITE = "https://iwata.enshu-lifehack.com"
 SITE_NAME = "磐田ライフハック"
 HOME_LABEL = "磐田ライフハック"
+AUTHOR_URL = SITE + "/author/oishi-hiroyuki/"
 OFFICIAL_PREFIX = "https://www.city.iwata.shizuoka.jp/"
-CSS_HREF = "/assets/blog.css?v=20260828b"
+CSS_HREF = "/assets/blog.css?v=20260828c"
 FIG_MARKER = 'data-illustration="iwata-editorial"'
 
 MIN_EDITORIAL_CHARS = 5000
@@ -115,8 +118,19 @@ def audit(posts):
             problems.append((slug, "slug は YYYYMMDD-英小文字ハイフン の形にする"))
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["date"]):
             problems.append((slug, "date は YYYY-MM-DD の形にする"))
+        if p.get("modified") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", p["modified"]):
+            problems.append((slug, "modified は YYYY-MM-DD の形にする"))
         if p["axis"] not in AXIS_LABEL:
             problems.append((slug, "axis が未定義: %s(使えるのは %s)" % (p["axis"], "/".join(AXIS_LABEL))))
+        for related in p.get("related_life", []):
+            href = related.get("href", "")
+            label = related.get("label", "")
+            if not href.startswith("/") or not label:
+                problems.append((slug, "related_life は / から始まる href と label が必要"))
+                continue
+            target = os.path.join(ROOT, href.strip("/").replace("/", os.sep), "index.html")
+            if not os.path.isfile(target):
+                problems.append((slug, "related_life のリンク先が無い: %s" % href))
 
         d = os.path.join(BLOG_DIR, slug)
         idx = os.path.join(d, "index.html")
@@ -182,12 +196,13 @@ def audit(posts):
 
 
 def build_index(posts, parts):
+    sorted_posts = sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True)
     items = []
-    for p in sorted(posts, key=lambda x: x["date"], reverse=True):
+    for p in sorted_posts:
         axis = AXIS_LABEL.get(p.get("axis"), "")
         badge = '<span class="post-axis">%s</span>' % html.escape(axis) if axis else ""
         items.append(
-            '<li class="post-item">'
+            '<li class="post-item" id="post-%s">'
             '<a class="post-item-link" href="/blog/%s/">'
             '<img class="post-item-thumb" src="/blog/%s/cover.jpg" alt="" width="760" height="760" loading="lazy" decoding="async">'
             '<span class="post-item-body">'
@@ -197,74 +212,145 @@ def build_index(posts, parts):
             '<span class="post-item-desc">%s</span>'
             "</span></a></li>"
             % (
-                p["slug"],
-                p["slug"],
-                p["date"],
-                p["date"].replace("-", "."),
-                badge,
-                html.escape(p["title"]),
-                html.escape(p["description"]),
+                p["slug"], p["slug"], p["slug"], p["date"], p["date"].replace("-", "."),
+                badge, html.escape(p["title"]), html.escape(p["description"]),
             )
         )
 
     lead = "静岡県磐田市の暮らし・手続き・住まい・地区について、市の公表情報を確認しながら書いています。"
     index_title = "磐田ブログ｜暮らし・住まい・手続きを一次情報で読む"
-    newest = sorted(posts, key=lambda x: x["date"], reverse=True)[0] if posts else None
-    index_image = (
-        "%s/blog/%s/cover.jpg" % (SITE, newest["slug"]) if newest else "%s/favicon.svg" % SITE
-    )
-    body = (
-        '<ul class="post-list">%s</ul>' % "".join(items)
-        if items
-        else '<p class="lead">記事はまだありません。</p>'
-    )
+    newest = sorted_posts[0] if sorted_posts else None
+    index_image = "%s/blog/%s/cover.jpg" % (SITE, newest["slug"]) if newest else "%s/favicon.svg" % SITE
+    topic_links = []
+    seen_axes = set()
+    for p in sorted_posts:
+        axis = p.get("axis")
+        if axis in seen_axes:
+            continue
+        seen_axes.add(axis)
+        topic_links.append('<a href="#post-%s">%s</a>' % (html.escape(p["slug"]), html.escape(AXIS_LABEL.get(axis, axis))))
+    topic_nav = '<nav class="blog-topics" aria-label="ブログのテーマ"><span>テーマから読む</span>%s</nav>' % "".join(topic_links) if topic_links else ""
+    body = '%s<ul class="post-list">%s</ul><p class="blog-feed-link"><a href="/blog/feed.xml">新着記事をAtomフィードで受け取る</a></p>' % (topic_nav, "".join(items)) if items else '<p class="lead">記事はまだありません。</p>'
 
-    return (
-        '<!doctype html><html lang="ja"><head>\n'
-        '<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
-        "<title>%s</title>\n"
-        '<meta name="description" content="%s">\n'
-        '<link rel="canonical" href="%s/blog/">\n'
-        '<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP">'
-        '<meta property="og:site_name" content="%s">'
-        '<meta property="og:title" content="%s"><meta property="og:description" content="%s">'
-        '<meta property="og:url" content="%s/blog/"><meta property="og:image" content="%s">'
-        '<meta name="twitter:card" content="summary_large_image">\n'
-        '<script type="application/ld+json">'
-        '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":'
-        '[{"@type":"ListItem","position":1,"name":"%s","item":"%s/"},'
-        '{"@type":"ListItem","position":2,"name":"ブログ","item":"%s/blog/"}]}</script>\n'
-        '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n'
-        "%s\n"
-        '<link rel="stylesheet" href="%s">\n'
-        "</head><body>\n%s\n%s\n"
-        '<main id="main"><div class="wrap">\n'
-        '<p class="breadcrumb"><a href="/">%s</a> ／ ブログ</p>\n'
-        '<section class="hero"><div class="hero-visual">'
-        '<h1><span aria-hidden="true">📝</span> ブログ</h1></div>'
-        '<div class="hero-body"><p class="lead">%s</p></div></section>\n'
-        "%s\n</div></main>\n%s\n</body></html>\n"
-    ) % (
-        index_title,
-        lead,
-        SITE,
-        SITE_NAME,
-        index_title,
-        lead,
-        SITE,
-        index_image,
-        HOME_LABEL,
-        SITE,
-        SITE,
-        part_markup("head-css", parts["head-css"]),
-        CSS_HREF,
-        part_markup("header", parts["header"]),
-        part_markup("disclaimer", parts["disclaimer"]),
-        HOME_LABEL,
-        lead,
-        body,
-        part_markup("footer", parts["footer"]),
-    )
+    graph = [
+        {
+            "@type": "Blog", "@id": "%s/blog/#blog" % SITE, "url": "%s/blog/" % SITE,
+            "name": "磐田ブログ", "description": lead, "inLanguage": "ja",
+            "publisher": {"@type": "Organization", "name": "富士ヶ丘サービス株式会社"},
+            "blogPost": [
+                {
+                    "@type": "BlogPosting", "@id": "%s/blog/%s/#article" % (SITE, p["slug"]),
+                    "url": "%s/blog/%s/" % (SITE, p["slug"]), "headline": p["title"],
+                    "description": p["description"], "datePublished": p["date"],
+                    "dateModified": p.get("modified", p["date"]),
+                    "image": "%s/blog/%s/cover.jpg" % (SITE, p["slug"]),
+                    "author": {"@type": "Person", "name": "大石浩之", "url": AUTHOR_URL},
+                }
+                for p in sorted_posts
+            ],
+        },
+        {
+            "@type": "ItemList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": i + 1, "url": "%s/blog/%s/" % (SITE, p["slug"])}
+                for i, p in enumerate(sorted_posts)
+            ],
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": HOME_LABEL, "item": "%s/" % SITE},
+                {"@type": "ListItem", "position": 2, "name": "ブログ", "item": "%s/blog/" % SITE},
+            ],
+        },
+    ]
+    json_ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":"))
+    return f'''<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{html.escape(index_title)}</title>
+<meta name="description" content="{html.escape(lead)}">
+<meta name="robots" content="max-image-preview:large">
+<link rel="canonical" href="{SITE}/blog/">
+<link rel="alternate" type="application/atom+xml" title="磐田ブログ" href="/blog/feed.xml">
+<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="{html.escape(SITE_NAME)}"><meta property="og:title" content="{html.escape(index_title)}"><meta property="og:description" content="{html.escape(lead)}"><meta property="og:url" content="{SITE}/blog/"><meta property="og:image" content="{index_image}"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{json_ld}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{part_markup("head-css", parts["head-css"])}
+<link rel="stylesheet" href="{CSS_HREF}">
+</head><body>
+{part_markup("header", parts["header"])}
+{part_markup("disclaimer", parts["disclaimer"])}
+<main id="main"><div class="wrap">
+<p class="breadcrumb"><a href="/">{html.escape(HOME_LABEL)}</a> ／ ブログ</p>
+<section class="hero"><div class="hero-visual"><h1><span aria-hidden="true">📝</span> ブログ</h1></div><div class="hero-body"><p class="lead">{html.escape(lead)}</p></div></section>
+{body}
+</div></main>
+{part_markup("footer", parts["footer"])}
+</body></html>
+'''
+
+
+def build_feed(posts):
+    sorted_posts = sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True)
+    updated = (sorted_posts[0].get("modified", sorted_posts[0]["date"]) if sorted_posts else "2026-08-28") + "T00:00:00+09:00"
+    entries = []
+    for p in sorted_posts:
+        url = "%s/blog/%s/" % (SITE, p["slug"])
+        entries.append(
+            '<entry><title>%s</title><id>%s</id><link href="%s"/><published>%sT00:00:00+09:00</published><updated>%sT00:00:00+09:00</updated><author><name>大石浩之</name></author><summary>%s</summary></entry>'
+            % (html.escape(p["title"]), url, url, p["date"], p.get("modified", p["date"]), html.escape(p["description"]))
+        )
+    return '<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>磐田ブログ</title><id>%s/blog/</id><link href="%s/blog/"/><link rel="self" type="application/atom+xml" href="%s/blog/feed.xml"/><updated>%s</updated>%s</feed>\n' % (SITE, SITE, SITE, updated, "".join(entries))
+
+
+def build_related_block(current, posts):
+    cards = []
+    for related in current.get("related_life", []):
+        cards.append('<a class="post-related-card" href="%s"><span>手続きガイド</span><strong>%s</strong></a>' % (html.escape(related["href"]), html.escape(related["label"])))
+    others = [p for p in sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True) if p["slug"] != current["slug"]][:2]
+    for p in others:
+        cards.append('<a class="post-related-card" href="/blog/%s/"><span>磐田ブログ</span><strong>%s</strong></a>' % (html.escape(p["slug"]), html.escape(p["title"])))
+    return '<!-- BLOG_RELATED:START --><section class="post-related" aria-labelledby="post-related-title"><h2 class="sec" id="post-related-title">関連記事・次に読む</h2><div class="post-related-grid">%s</div></section><!-- BLOG_RELATED:END -->' % "".join(cards)
+
+
+def update_article_discovery(posts):
+    updated = 0
+    for p in posts:
+        path = os.path.join(BLOG_DIR, p["slug"], "index.html")
+        with open(path, encoding="utf-8", newline="") as f:
+            src = f.read()
+        new = src
+        block = build_related_block(p, posts)
+        pattern = re.compile(r"<!-- BLOG_RELATED:START -->.*?<!-- BLOG_RELATED:END -->", re.S)
+        if pattern.search(new):
+            new = pattern.sub(lambda m: block, new)
+        else:
+            new = new.replace('<div class="post-author-box">', block + '\n<div class="post-author-box">', 1)
+        if 'type="application/atom+xml"' not in new:
+            new = new.replace("</head>", '<link rel="alternate" type="application/atom+xml" title="磐田ブログ" href="/blog/feed.xml">\n</head>', 1)
+        if 'name="robots"' not in new:
+            new = new.replace("</head>", '<meta name="robots" content="max-image-preview:large">\n</head>', 1)
+        new = new.replace(
+            '"name":"大石浩之","url":"%s/terms/"' % SITE,
+            '"name":"大石浩之","url":"%s"' % AUTHOR_URL,
+            1,
+        )
+        modified = p.get("modified", p["date"])
+        date_line = re.compile(
+            r'(<p class="post-date"><time datetime="%s">.*?</time>)(?:<span class="post-updated">.*?</span>)?'
+            % re.escape(p["date"])
+        )
+        if modified != p["date"]:
+            label = '<span class="post-updated">更新：%s</span>' % modified.replace("-", ".")
+            new = date_line.sub(lambda m: m.group(1) + label, new, count=1)
+        else:
+            new = date_line.sub(lambda m: m.group(1), new, count=1)
+        new = re.sub(r'("dateModified":")\d{4}-\d{2}-\d{2}(")', r'\g<1>%s\2' % p.get("modified", p["date"]), new, count=1)
+        if new != src:
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                f.write(new)
+            updated += 1
+    return updated
 
 
 def update_sitemap(posts):
@@ -278,11 +364,19 @@ def update_sitemap(posts):
     with open(SITEMAP, encoding="utf-8-sig", newline="") as f:
         src = f.read()
     eol = "\r\n" if "\r\n" in src else "\n"
+    if 'xmlns:image=' not in src:
+        src = src.replace(
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+            1,
+        )
 
-    lines = [SITEMAP_START, "  <url><loc>%s/blog/</loc></url>" % SITE]
+    newest_modified = max((p.get("modified", p["date"]) for p in posts), default="2026-08-28")
+    lines = [SITEMAP_START, "  <url><loc>%s/blog/</loc><lastmod>%s</lastmod></url>" % (SITE, newest_modified)]
     for p in sorted(posts, key=lambda x: x["date"], reverse=True):
         lines.append(
-            "  <url><loc>%s/blog/%s/</loc><lastmod>%s</lastmod></url>" % (SITE, p["slug"], p["date"])
+            "  <url><loc>%s/blog/%s/</loc><lastmod>%s</lastmod><image:image><image:loc>%s/blog/%s/cover.jpg</image:loc><image:title>%s</image:title></image:image></url>"
+            % (SITE, p["slug"], p.get("modified", p["date"]), SITE, p["slug"], html.escape(p["title"]))
         )
     lines.append(SITEMAP_END)
     block = eol.join(lines)
@@ -322,13 +416,19 @@ def main():
     out = os.path.join(BLOG_DIR, "index.html")
     os.makedirs(BLOG_DIR, exist_ok=True)
     sitemap_note = "未更新:--check"
+    article_note = "未更新:--check"
+    feed_note = "未更新:--check"
     if not args.check:
         with open(out, "w", encoding="utf-8", newline="") as f:
             f.write(html_out)
+        with open(FEED, "w", encoding="utf-8", newline="") as f:
+            f.write(build_feed(posts))
+        feed_note = "更新"
+        article_note = "%d件更新" % update_article_discovery(posts)
         sitemap_note = "更新" if update_sitemap(posts) else "変更なし"
     print(
-        "記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s / sitemap.xml: %s"
-        % (len(posts), "（未書き込み:--check）" if args.check else "", sitemap_note)
+        "記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s / Atom: %s / 関連導線: %s / sitemap.xml: %s"
+        % (len(posts), "（未書き込み:--check）" if args.check else "", feed_note, article_note, sitemap_note)
     )
     return 0
 

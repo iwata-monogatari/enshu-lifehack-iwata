@@ -1,77 +1,40 @@
-<!doctype html><html lang="ja"><head>
-<!--
-  磐田ブログ 記事テンプレート（このディレクトリは _ 始まりなので公開されず、台帳チェックの対象外）
-  使い方:
-   1. このディレクトリを blog/<YYYYMMDD-テーマ英語>/ へコピーする
-   2. {{...}} を全部置き換える（残っていると公開事故になるので必ず検索して確認する）
-   3. data/blog-posts.json に1件追記する
-   4. python scripts/make_blog_cover.py <slug>     … 表紙 cover.jpg を作る
-   5. fig1.svg / fig2.svg を用意する（data-illustration="iwata-editorial" が必須）
-   6. python scripts/inject_parts.py               … header/footer を流し込む
-   7. python scripts/build_blog.py                 … 品質ゲート＋一覧生成
-  品質ゲート: 編集本文5,000文字以上／段落35以上／磐田市公式の出典2本以上／
-              良い点・注文したい点・対案・結論・大石の視点／post-author／cover.jpg／
-              fig1.svg・fig2.svg／/assets/blog.css／禁止語なし
--->
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{{タイトル}} | 磐田ライフハック</title>
-<meta name="description" content="{{説明文・120文字前後・台帳のdescriptionと揃える}}">
-<link rel="canonical" href="https://iwata.enshu-lifehack.com/blog/{{slug}}/">
-<link rel="alternate" type="application/atom+xml" title="磐田ブログ" href="/blog/feed.xml">
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大石浩之｜磐田ブログ執筆者・宅地建物取引士</title>
+<meta name="description" content="磐田ブログ執筆者・大石浩之のプロフィール。磐田市で不動産業に携わる宅地建物取引士として、暮らし・住まい・空き家・相続を一次情報から解説します。">
 <meta name="robots" content="max-image-preview:large">
-<meta property="og:type" content="article"><meta property="og:locale" content="ja_JP">
-<meta property="og:site_name" content="磐田ライフハック"><meta property="og:title" content="{{タイトル}}">
-<meta property="og:description" content="{{説明文}}">
-<meta property="og:image" content="https://iwata.enshu-lifehack.com/blog/{{slug}}/cover.jpg">
-<meta property="og:url" content="https://iwata.enshu-lifehack.com/blog/{{slug}}/"><meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"{{タイトル}}","description":"{{説明文}}","datePublished":"{{YYYY-MM-DD}}","dateModified":"{{YYYY-MM-DD}}","inLanguage":"ja","author":{"@type":"Person","name":"大石浩之","url":"https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/"},"image":"https://iwata.enshu-lifehack.com/blog/{{slug}}/cover.jpg","mainEntityOfPage":"https://iwata.enshu-lifehack.com/blog/{{slug}}/","publisher":{"@type":"Organization","name":"富士ヶ丘サービス株式会社"},"isPartOf":{"@type":"Blog","name":"磐田ライフハック ブログ","url":"https://iwata.enshu-lifehack.com/blog/"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"磐田ライフハック","item":"https://iwata.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://iwata.enshu-lifehack.com/blog/"},{"@type":"ListItem","position":3,"name":"{{タイトル}}","item":"https://iwata.enshu-lifehack.com/blog/{{slug}}/"}]}</script>
+<link rel="canonical" href="https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","dateCreated":"2026-08-28","dateModified":"2026-08-28","mainEntity":{"@type":"Person","name":"大石浩之","jobTitle":"宅地建物取引士","description":"静岡県磐田市で不動産業に携わり、磐田市の暮らし・住まい・空き家・相続について一次情報を確認して執筆している。","address":{"@type":"PostalAddress","addressLocality":"磐田市","addressRegion":"静岡県","addressCountry":"JP"},"worksFor":{"@type":"Organization","name":"富士ヶ丘サービス株式会社","url":"https://www.fujigaoka-service.co.jp/"},"url":"https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/","sameAs":["https://oishi-hiroyuki.org/","https://fudosan.atawi.link/","https://www.fujigaoka-service.co.jp/"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"磐田ライフハック","item":"https://iwata.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"磐田ブログ","item":"https://iwata.enshu-lifehack.com/blog/"},{"@type":"ListItem","position":3,"name":"大石浩之","item":"https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/"}]}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260828a"><!-- PART:head-css:END -->
-<link rel="stylesheet" href="/assets/blog.css?v=20260828c">
-</head><body>
+</head>
+<body>
 <!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span><nav class="site-nav" aria-label="主要メニュー"><a href="/blog/"><span aria-hidden="true">✍️</span>ブログ</a></nav><button type="button" id="font-size-toggle" class="font-size-toggle" aria-pressed="false">文字 大</button></div></header><script>(function(){var KEY='enshu-font-large';var btn=document.getElementById('font-size-toggle');function apply(on){document.documentElement.classList.toggle('font-large',on);if(btn){btn.setAttribute('aria-pressed',on?'true':'false');btn.textContent=on?'文字 標準':'文字 大';}}apply(localStorage.getItem(KEY)==='1');if(btn){btn.addEventListener('click',function(){var on=!document.documentElement.classList.contains('font-large');apply(on);try{localStorage.setItem(KEY,on?'1':'0');}catch(e){}});}})();</script><!-- PART:header:END -->
 <!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
 <main id="main"><div class="wrap">
-<p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <a href="/blog/">ブログ</a> ／ {{タイトル}}</p>
-<article class="post">
-<p class="post-date"><time datetime="{{YYYY-MM-DD}}">{{YYYY年M月D日}}</time>　<span>{{曜日軸ラベル: 手続き・制度／空き家・実家・相続／歴史・文化財／子育て・学び／地区めぐり／スポーツ・イベント／移住・暮らし・データ}}</span></p>
-<h1>{{タイトル}}</h1>
-<p class="post-cover"><img src="cover.jpg" alt="{{タイトル}}の記事表紙" width="760" height="760" fetchpriority="high" decoding="async"></p>
-<div class="post-point"><p class="post-point-label">この記事の要点</p>
-<p class="post-point-q">Q. {{読者が最初に抱く問い}}</p>
-<p class="post-point-a">A. <strong>{{その答えを1〜2文で}}</strong></p></div>
-<!-- ▼ ここから post-editorial-body。直後に action-grid を置くこと（build_blog.py の正規表現がこの並びを見る）。
-     この中に <div> を入れてはいけない（本文の切り出しが壊れる）。<p> は35個以上、空白を除いて5,000文字以上。 -->
-<div class="post-editorial-body">
-<h2 class="sec">導入——{{見出し}}</h2><p>{{段落}}</p>
-<p>{{段落}}</p>
-<figure class="post-figure"><img src="/blog/{{slug}}/fig1.svg" alt="{{図1の説明}}"><figcaption>図1　{{図1のキャプション}}</figcaption></figure>
-<h2 class="sec">まず、公式資料から事実を整理する</h2><p>{{磐田市公式ページに何が書いてあるかを、引用と出典を明示して書く}}</p>
-<p>{{段落}}</p>
-<h2 class="sec">磐田の暮らしに置き換える</h2><p>{{段落}}</p>
-<figure class="post-figure"><img src="/blog/{{slug}}/fig2.svg" alt="{{図2の説明}}"><figcaption>図2　{{図2のキャプション}}</figcaption></figure>
-<h2 class="sec">評価——良い点と、注文したい点</h2><p>良い点は{{……}}です。</p>
-<p>注文したい点は{{……}}です。</p>
-<h2 class="sec">対案・結論——{{見出し}}</h2><p>{{段落}}</p>
-<h2 class="sec">確認する順番</h2>
-<ol class="post-steps"><li>{{手順}}</li><li>{{手順}}</li><li>{{手順}}</li></ol>
-<h2 class="sec">家族で共有するための記録</h2><p>{{段落}}</p>
-<h2 class="sec">大石の視点</h2><p>{{公表情報ではなく執筆者の見解であることが分かるように書く}}</p>
-<h2 class="sec">まとめ</h2><p>{{段落}}</p>
-<ul class="post-summary"><li>{{要点}}</li><li>{{要点}}</li><li>{{要点}}</li></ul>
-</div>
-<div class="action-grid"><a class="btn" href="{{/life/... 関連する既存ページ}}">{{リンク文言}}</a><a class="btn" href="/blog/">ブログの記事一覧へ戻る</a></div>
-<h2 class="sec">参考にした公式情報</h2>
-<!-- 磐田市公式(https://www.city.iwata.shizuoka.jp/)のURLが2本以上必要。href は実在URLに差し替える。
-     scripts/check_official_links.py が全HTMLのhrefを叩くので、ダミーURLは置かないこと。 -->
-<ul class="post-sources"><li><a href="https://www.city.iwata.shizuoka.jp/shiseijouhou/profile/1002303.html" target="_blank" rel="noopener">{{ページ名}}／磐田市</a>（{{YYYY年M月D日}}確認）</li><li><a href="https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/choushaannai/index.html" target="_blank" rel="noopener">{{ページ名}}／磐田市</a>（{{YYYY年M月D日}}確認）</li></ul>
-<!-- BLOG_RELATED:START --><section class="post-related" aria-labelledby="post-related-title"><h2 class="sec" id="post-related-title">関連記事・次に読む</h2><div class="post-related-grid"></div></section><!-- BLOG_RELATED:END -->
-<div class="post-author-box">
-<p class="post-author">この記事の執筆：<a href="/author/oishi-hiroyuki/">大石浩之</a>（宅地建物取引士）／富士ヶ丘サービス株式会社　<a href="/terms/">運営者・利用条件</a></p>
-</div>
-<p class="verified">最終確認日：{{YYYY-MM-DD}} ／ 本記事は公表情報と執筆者の見解を分けて記載しています。制度・数値・公開状況は変更される場合があるため、最新情報は磐田市公式ページでご確認ください。</p>
-</article></div></main>
+<p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <a href="/blog/">ブログ</a> ／ 執筆者</p>
+<section class="hero"><div class="hero-visual"><h1>大石浩之</h1></div><div class="hero-body"><p class="lead">磐田ブログ執筆者／宅地建物取引士／富士ヶ丘サービス株式会社</p></div></section>
+<section class="card">
+<h2 class="sec">磐田市の暮らしを、一次情報から読み解く</h2>
+<p>静岡県磐田市で不動産業に携わり、実家・空き家・相続・住まいに関する相談を受けています。磐田ブログでは、磐田市が公表する制度や統計、担当窓口の情報を確認し、暮らしの判断に使える形へ整理して執筆します。</p>
+<p>制度の事実と執筆者の見解を分け、確認日と参照した公式情報を記事ごとに明記します。申請条件や金額は変わることがあるため、最終判断では磐田市公式ページまたは担当窓口の確認を案内しています。</p>
+</section>
+<section class="card">
+<h2 class="sec">主な執筆分野</h2>
+<ul><li>磐田市の暮らしと手続き</li><li>実家じまい・空き家・相続・住まい</li><li>地区ごとの暮らしやすさと移動</li><li>子育て・家計に関わる公的制度</li></ul>
+</section>
+<section class="card">
+<h2 class="sec">記事と運営情報</h2>
+<p><a href="/blog/">磐田ブログの記事一覧を見る</a></p>
+<p><a href="/terms/">運営者・利用条件・免責事項を確認する</a></p>
+<p><a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener">富士ヶ丘サービス株式会社</a></p>
+<p><a href="https://oishi-hiroyuki.org/" target="_blank" rel="noopener">大石ひろゆき公式サイト</a></p>
+</section>
+</div></main>
 <!-- PART:footer:START --><style>.enshu-footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px}.enshu-footer h3,.enshu-footer .footer-brand h2{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}.enshu-footer p{margin:0 0 8px}.enshu-footer ul{list-style:none;margin:0;padding:0}.enshu-footer li{margin:4px 0}.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}.enshu-footer a{min-height:44px;padding:6px 4px;margin:-6px -4px}.enshu-footer .footer-munis a{min-height:44px;padding:8px 10px;margin:-8px -10px}.footer-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto;font-size:1rem;margin-right:.35rem}.footer-favicon{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-left:4px;border-radius:2px}.enshu-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);margin-top:6px;padding-top:14px;text-align:center}.enshu-footer .footer-bottom>p>a{display:inline-flex;justify-content:center}.enshu-footer .footer-munis{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:8px}.enshu-footer .footer-munis a{white-space:nowrap}.enshu-footer .footer-subheading{margin-top:14px}.enshu-footer .footer-network{padding-left:14px}@media(max-width:720px){.enshu-footer .wrap{grid-template-columns:1fr}.enshu-footer .footer-network{padding-left:0}}</style>
 <!-- managed-footer:start -->
 <footer class="fgo-managed-footer" data-managed-footer="true" data-generated-at="2026-08-24">
@@ -386,4 +349,5 @@ body:not(.hub) .fgo-managed-footer__inner {
   </div>
 </footer>
 <!-- managed-footer:end --><script defer src="https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js" data-site="iwata-lifehack" data-fujigaoka-analytics="true"></script><!-- PART:footer:END -->
-</body></html>
+</body>
+</html>

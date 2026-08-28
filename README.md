@@ -31,7 +31,7 @@ favicon.svg
 ## ブログ `/blog/`
 
 森町ライフハック（`enshu-lifehack-morimachi`）と同じ「台帳＋手書き記事＋品質ゲート」方式。
-**記事本体は手書き。生成物は `blog/index.html` と `sitemap.xml` のブログ区画だけ。**
+**記事本文は手書き。一覧・Atomフィード・関連記事・サイトマップのブログ区画は台帳から生成します。**
 
 ```
 data/blog-posts.json        記事台帳（手で1行足す）
@@ -40,8 +40,10 @@ blog/<slug>/cover.jpg       表紙 760x760（make_blog_cover.py が生成）
 blog/<slug>/fig1.svg,fig2.svg  記事固有の挿絵（data-illustration="iwata-editorial" 必須）
 blog/_template/             記事テンプレート（.assetsignore 済みで非公開）
 blog/index.html             ★生成物★ build_blog.py が作る。手編集しない
+blog/feed.xml              ★生成物★ 新着記事のAtomフィード
+author/oishi-hiroyuki/     執筆者プロフィール（Article構造化データのauthor.url）
 assets/blog.css             ブログ専用CSS（site.css は触らないので既存ページの ?v= 据え置き）
-scripts/build_blog.py       品質ゲート＋一覧＋sitemap のブログ区画を生成
+scripts/build_blog.py       品質ゲート＋一覧＋Atom＋関連記事＋sitemap のブログ区画を生成
 scripts/make_blog_cover.py  表紙 cover.jpg を生成
 ```
 
@@ -50,12 +52,12 @@ scripts/make_blog_cover.py  表紙 cover.jpg を生成
 ```bash
 cp -r blog/_template blog/20260901-example      # 1. 雛形をコピー
 #   2. {{...}} を全部置き換えて記事を書く（残置チェック: grep -r "{{" blog/<slug>/）
-#   3. data/blog-posts.json の posts に1件追記
+#   3. data/blog-posts.json の posts に1件追記（related_life も設定）
 python scripts/make_blog_cover.py 20260901-example   # 4. 表紙を作る
 #   5. fig1.svg / fig2.svg を用意
 python scripts/inject_parts.py                       # 6. header/footer を流し込む
 python scripts/build_blog.py --check                 # 7. 検査だけ（書き込みなし）
-python scripts/build_blog.py                         # 8. 一覧＋sitemap を生成
+python scripts/build_blog.py                         # 8. 一覧＋Atom＋関連記事＋sitemap を生成
 python scripts/ensure_canonical.py                    # 9. 全公開HTMLのcanonicalを正規化
 git add -A && git commit && git push                 # 10. main へ push → Cloudflare が自動デプロイ
 ```

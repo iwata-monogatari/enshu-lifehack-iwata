@@ -5,6 +5,7 @@
 
 /* --- 記事本体 -------------------------------------------------------------- */
 body:not(.hub) .post-date,body.hub .post-date{font-size:16px;color:var(--mut);margin:0 0 6px;font-weight:700}
+.post-updated{display:inline-block;margin-left:8px;font-size:13px;font-weight:400;color:var(--mut)}
 body:not(.hub) .post-cover,body.hub .post-cover{margin:16px 0}
 body:not(.hub) .post-cover img,body.hub .post-cover img{width:100%;max-width:420px;height:auto;border-radius:14px;display:block;margin:0 auto}
 /* 記事冒頭のQ&A要点(AIO/LLMO対策) */
@@ -27,6 +28,10 @@ body:not(.hub) .post-figure figcaption,body.hub .post-figure figcaption{font-siz
 body:not(.hub) .verified,body.hub .verified{margin-top:20px;font-size:13px;color:var(--mut);line-height:1.8}
 
 /* --- 一覧(/blog/) ---------------------------------------------------------- */
+.blog-topics{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:18px 0 12px;padding:12px 14px;background:#eef6fb;border:1px solid #cfe4f1;border-radius:12px}
+.blog-topics>span{font-size:13px;font-weight:800;color:var(--green-d);margin-right:2px}
+.blog-topics a{display:inline-flex;align-items:center;min-height:38px;padding:5px 11px;background:#fff;border:1px solid var(--line);border-radius:999px;font-size:13px;font-weight:700;text-decoration:none}
+.blog-topics a:hover{background:var(--soft);text-decoration:none}
 body:not(.hub) .post-list,body.hub .post-list{list-style:none;margin:18px 0;padding:0;display:flex;flex-direction:column;gap:12px}
 body:not(.hub) .post-item-link,body.hub .post-item-link{display:grid;grid-template-columns:156px minmax(0,1fr);gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;text-decoration:none;color:inherit;min-height:44px}
 body:not(.hub) .post-item-link:hover,body.hub .post-item-link:hover{background:var(--soft);text-decoration:none}
@@ -36,4 +41,15 @@ body:not(.hub) .post-item-date,body.hub .post-item-date{font-size:16px;color:var
 body:not(.hub) .post-axis,body.hub .post-axis{display:inline-block;font-size:16px;font-weight:800;color:var(--green-d);background:var(--soft);border-radius:999px;padding:2px 9px}
 body:not(.hub) .post-item-title,body.hub .post-item-title{display:block;margin:8px 0 4px;font-weight:800;font-size:16px;color:var(--green-d)}
 body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:block;font-size:16px;color:var(--mut);line-height:1.8}
+.blog-feed-link{margin:18px 0 0;text-align:right;font-size:13px}
+.blog-feed-link a{display:inline-flex;align-items:center;min-height:44px;padding:6px 2px}
 @media(max-width:600px){body:not(.hub) .post-item-link,body.hub .post-item-link{grid-template-columns:96px minmax(0,1fr);gap:11px;align-items:start;padding:10px}body:not(.hub) .post-item-thumb,body.hub .post-item-thumb{width:96px;height:96px}body:not(.hub) .post-item-date,body.hub .post-item-date,body:not(.hub) .post-axis,body.hub .post-axis{font-size:12px}body:not(.hub) .post-item-title,body.hub .post-item-title{margin:6px 0 0;font-size:14px;line-height:1.55}body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:none}}
+
+/* --- 記事末尾の内部リンク -------------------------------------------------- */
+.post-related{margin:30px 0 6px}
+.post-related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.post-related-card{display:flex!important;flex-direction:column;align-items:flex-start!important;justify-content:center;gap:5px;min-height:92px!important;margin:0!important;padding:13px 15px!important;background:#fff;border:1px solid var(--line);border-radius:11px;text-decoration:none!important}
+.post-related-card:hover{background:var(--soft);text-decoration:none!important}
+.post-related-card span{font-size:12px;color:var(--mut);font-weight:700}
+.post-related-card strong{font-size:14px;line-height:1.6;color:var(--green-d)}
+@media(max-width:600px){.blog-topics{align-items:flex-start;flex-direction:column}.blog-topics a{width:100%;border-radius:9px}.post-related-grid{grid-template-columns:1fr}.post-related-card{min-height:76px!important}}

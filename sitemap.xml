@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://iwata.enshu-lifehack.com/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/terms/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/after-school-club/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/educational-consulting/</loc></url>
@@ -278,10 +279,10 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/blog/20260828-bulky-garbage-estate-cleanout/</loc><lastmod>2026-08-28</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-five-districts/</loc><lastmod>2026-08-27</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20260828-bulky-garbage-estate-cleanout/</loc><lastmod>2026-08-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260828-bulky-garbage-estate-cleanout/cover.jpg</image:loc><image:title>磐田市の粗大ごみは1世帯月1回。実家じまいは出し方が違う</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/</loc><lastmod>2026-08-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/cover.jpg</image:loc><image:title>磐田市の児童手当、高校生年代まで月1万円。第3子以降は月3万円</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-five-districts/</loc><lastmod>2026-08-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260827-five-districts/cover.jpg</image:loc><image:title>磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測る</image:title></image:image></url>
   <!-- BLOG:END -->
 </urlset>
 
