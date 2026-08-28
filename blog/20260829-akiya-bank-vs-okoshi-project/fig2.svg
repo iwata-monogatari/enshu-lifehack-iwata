@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="磐田市の空き家に関する数字を並べた図。磐田市空家等対策計画は戸建て住宅の空き家数を令和2年度1,880戸から令和8年度に2,000戸未満へ、管理不全空き家の改善割合を39パーセントから50パーセント以上にする目標を掲げている。磐田市の世帯数は72,421世帯・人口163,224人で令和8年7月末現在、1,880戸を世帯数で割ると約38世帯に1戸の割合になる。空き家バンクの掲載は2026年8月29日時点で6件、危険空き家等除却事業費補助金は対象工事費の2分の1以内で限度額50万円、既存住宅取得等事業費補助金は若者世帯・子育て世帯が市外からの転居で限度額150万円であることを示している" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f6ee"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+<filter id="cardC"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tC{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cC{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wC{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nC{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}</style>
+</defs>
+<rect width="1000" height="600" rx="22" fill="url(#bgC)"/>
+<g filter="url(#cardC)"><rect x="40" y="30" width="920" height="104" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="68" class="cC" font-size="18">磐田市空家等対策計画（令和4年度〜令和8年度）と、市の空き家の数字</text>
+<text x="68" y="110" class="tC" font-size="27">1,880戸と6件。世帯数で割り戻すと、約38世帯に1戸</text>
+
+<g filter="url(#cardC)"><rect x="40" y="164" width="920" height="146" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="164" width="920" height="46" rx="16" fill="#005986"/>
+<rect x="40" y="194" width="920" height="16" fill="#005986"/>
+<text x="64" y="195" class="wC" font-size="19">磐田市空家等対策計画の目標（令和2年度 → 令和8年度）</text>
+<text x="80" y="248" class="cC" font-size="17">戸建て住宅の空き家数</text>
+<text x="80" y="284" class="tC" font-size="28">1,880戸　→　2,000戸未満におさえる</text>
+<text x="560" y="248" class="cC" font-size="17">管理不全空き家の改善割合</text>
+<text x="560" y="284" class="tC" font-size="28">39%　→　50%以上</text>
+
+<g filter="url(#cardC)"><rect x="40" y="336" width="288" height="168" rx="16" fill="#ffffff"/></g>
+<text x="64" y="374" class="cC" font-size="16">磐田市の世帯数（令和8年7月末）</text>
+<text x="64" y="414" class="tC" font-size="30">72,421世帯</text>
+<line x1="64" y1="434" x2="304" y2="434" stroke="#cfdde6" stroke-width="2"/>
+<text x="64" y="464" class="tC" font-size="21">約38世帯に1戸</text>
+<text x="64" y="490" class="nC" font-size="15">1,880戸 ÷ 72,421世帯 ≒ 2.6%</text>
+
+<g filter="url(#cardC)"><rect x="356" y="336" width="288" height="168" rx="16" fill="#ffffff"/></g>
+<text x="380" y="374" class="cC" font-size="16">空き家バンク掲載（2026年8月29日）</text>
+<text x="380" y="414" class="tC" font-size="30">6件</text>
+<line x1="380" y1="434" x2="620" y2="434" stroke="#cfdde6" stroke-width="2"/>
+<text x="380" y="464" class="tC" font-size="21">1,880戸の約0.3%</text>
+<text x="380" y="490" class="nC" font-size="15">調査時点が違うため概算</text>
+
+<g filter="url(#cardC)"><rect x="672" y="336" width="288" height="168" rx="16" fill="#ffffff"/></g>
+<text x="696" y="374" class="cC" font-size="16">使える補助（限度額）</text>
+<text x="696" y="408" class="tC" font-size="22">危険空き家の解体 50万円</text>
+<text x="696" y="432" class="nC" font-size="15">対象工事費の2分の1以内</text>
+<line x1="696" y1="446" x2="936" y2="446" stroke="#cfdde6" stroke-width="2"/>
+<text x="696" y="474" class="tC" font-size="22">既存住宅の取得 150万円</text>
+<text x="696" y="496" class="nC" font-size="15">若者・子育て世帯が市外から転居の場合</text>
+
+<text x="60" y="544" class="nC" font-size="16">出典：磐田市「空家等対策計画」（更新日2026年3月5日）／「空き家バンク」／「危険空き家解体費用の助成」／「既存住宅取得等事業費補助金」</text>
+<text x="60" y="572" class="nC" font-size="16">世帯数・人口は磐田市「磐田市の人口　令和8年度」（更新日2026年8月17日、令和8年7月末現在 163,224人）。空き家数の調査時点は令和2年度。</text>
+</svg>

@@ -6,6 +6,22 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260829-akiya-bank-vs-okoshi-project",
+      "date": "2026-08-29",
+      "modified": "2026-08-29",
+      "axis": "tue",
+      "title": "磐田市の空き家バンクと空き家おこしプロジェクトの違い",
+      "description": "磐田市空き家バンクは「不動産関係事業者からの情報を掲載したもの」で、載せるのは所有者ではなく事業者です。空き家おこしプロジェクトは市が所有者に働きかけ、契約事業者が無償で査定する取り組み。二つの違いを所有者の側から整理しました。",
+      "home_description": "磐田市の空き家バンクは事業者が登録する掲載の場。空き家おこしプロジェクトは市から所有者に働きかけ、査定は無償です。",
+      "cta": "official",
+      "primary_source": "空き家おこしプロジェクト／磐田市（ページ更新日2026年8月26日）、空き家バンク／磐田市（ページ更新日2026年8月7日）、空家等対策計画／磐田市（ページ更新日2026年3月5日）を2026-08-29に確認",
+      "cover_alt": "磐田市の空き家バンクと空き家おこしプロジェクトの違いの記事表紙",
+      "related_life": [
+        {"href": "/life/troubles-consult/vacant-house-consultation/", "label": "磐田市の空き家の相談先（親の家・実家をどうするか）"},
+        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "磐田市の空き家・実家じまい・相続した家を整理する"}
+      ]
+    },
+    {
       "slug": "20260828-bulky-garbage-estate-cleanout",
       "date": "2026-08-28",
       "modified": "2026-08-28",

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="磐田市の空き家バンクと空き家おこしプロジェクトを左右に並べて比較した図。空き家バンクは不動産関係事業者が登録申請し、対象は市内の一戸建てで新築でない空き家、2026年8月29日時点の掲載は6件で価格帯は8,800,000円から23,300,000円、市は購入トラブルの責任を一切負わないと明記している。空き家おこしプロジェクトは市が自治会等から情報を集めて所有者へ通知し、契約締結事業者が査定を提案する流れで、査定等は無償・想定は平均1から3戸毎週、契約締結事業者は令和7年度3者・令和6年度2者。窓口はどちらも建築住宅課住宅管理グループ0538-37-4851であることを示している" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="bgB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#f7f6ee"/></linearGradient>
+<filter id="cardB"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}</style>
+</defs>
+<rect width="1000" height="600" rx="22" fill="url(#bgB)"/>
+<g filter="url(#cardB)"><rect x="40" y="30" width="920" height="104" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="68" class="cB" font-size="18">空き家・実家・相続 ── 磐田市の空き家（2026年8月29日確認）</text>
+<text x="68" y="110" class="tB" font-size="27">動き出す向きが逆。バンクは事業者から、おこしは市から</text>
+
+<g filter="url(#cardB)"><rect x="40" y="164" width="440" height="340" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="164" width="440" height="52" rx="16" fill="#0074AE"/>
+<rect x="40" y="200" width="440" height="16" fill="#0074AE"/>
+<text x="64" y="198" class="wB" font-size="20">① 磐田市空き家バンク</text>
+<text x="64" y="252" class="tB" font-size="23">登録するのは事業者</text>
+<text x="64" y="284" class="cB" font-size="16">「不動産関係事業者が所有、もしくは</text>
+<text x="64" y="308" class="cB" font-size="16">媒介契約を締結しているもの」が要件</text>
+<line x1="64" y1="330" x2="456" y2="330" stroke="#cfdde6" stroke-width="2"/>
+<text x="64" y="362" class="cB" font-size="17">対象：市内の一戸建て・新築でない空き家</text>
+<text x="64" y="392" class="tB" font-size="22">掲載 6件（2026年8月29日時点）</text>
+<text x="64" y="422" class="cB" font-size="17">8,800,000円 〜 23,300,000円</text>
+<text x="64" y="456" class="cB" font-size="16">市は購入トラブルの責任を一切負わない</text>
+<text x="64" y="484" class="nB" font-size="15">所有者向けに事業者の紹介フォームあり</text>
+
+<g filter="url(#cardB)"><rect x="520" y="164" width="440" height="340" rx="16" fill="#ffffff"/></g>
+<rect x="520" y="164" width="440" height="52" rx="16" fill="#c9522f"/>
+<rect x="520" y="200" width="440" height="16" fill="#c9522f"/>
+<text x="544" y="198" class="wB" font-size="20">② 空き家おこしプロジェクト</text>
+<text x="544" y="252" class="tB" font-size="23">働きかけるのは市</text>
+<text x="544" y="284" class="cB" font-size="16">自治会等から情報収集 → 市から所有者へ</text>
+<text x="544" y="308" class="cB" font-size="16">通知 → 査定提案 → マッチング支援</text>
+<line x1="544" y1="330" x2="936" y2="330" stroke="#cfdde6" stroke-width="2"/>
+<text x="544" y="362" class="tB" font-size="22">査定等は無償</text>
+<text x="544" y="392" class="cB" font-size="17">「想定　平均1〜3戸／週」（契約上の想定）</text>
+<text x="544" y="424" class="tB" font-size="20">契約締結事業者 令和7年度 3者</text>
+<text x="544" y="452" class="cB" font-size="17">令和6年度 2者（実績戸数は未公表）</text>
+<text x="544" y="484" class="nB" font-size="15">売買を仲介する仕組みではない</text>
+
+<text x="60" y="544" class="nB" font-size="16">窓口はどちらも同じ：磐田市 建設部 建築住宅課 住宅管理グループ　0538-37-4851（午前8時30分〜午後5時15分）</text>
+<text x="60" y="572" class="nB" font-size="16">出典：磐田市「空き家バンク」（更新日2026年8月7日）／「空き家おこしプロジェクト」（更新日2026年8月26日）</text>
+</svg>
