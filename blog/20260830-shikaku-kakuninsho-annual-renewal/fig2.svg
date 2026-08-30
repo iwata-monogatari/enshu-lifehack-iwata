@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-label="磐田市の国民健康保険を数字で示した図。令和6年度末の加入は19,536戸・29,136人で、1世帯あたり1.49人。これは29,136を19,536で割った当方の算出値で、磐田市全体の1世帯あたり2.25人より小さい。加入者は令和2年度末の35,182人から令和6年度末の29,136人まで4年間で6,046人減り、年平均1,511人の減少にあたる。世帯数も22,137戸から19,536戸へ2,601戸減った。直近1年では磐田市の公表どおり1,483人の減少で、1日あたり約4人にあたる。年齢構成は70歳から74歳が8,929人で加入者の30.6パーセント、60代が8,318人で、60代以上が全体の約6割を占める。医療費は令和6年度で125億1,207万円、1人あたり月額34,692円、前年度より約800円の増加。窓口は磐田市役所本庁舎1階の国保年金課資格管理グループで電話は0538-37-4833であることを示している" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bgT" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f6ee"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+<filter id="cardT"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tT{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cT{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wT{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nT{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.rT{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="640" rx="22" fill="url(#bgT)"/>
+<g filter="url(#cardT)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cT" font-size="18">磐田市の国民健康保険（令和6年度末・磐田市統計書 令和7年版／医療費分析より）</text>
+<text x="68" y="105" class="tT" font-size="27">約2万世帯・約2万9千人。毎年7月に動く郵便物の規模</text>
+
+<g filter="url(#cardT)"><rect x="40" y="156" width="288" height="150" rx="16" fill="#ffffff"/></g>
+<text x="64" y="192" class="cT" font-size="16">加入世帯数</text>
+<text x="64" y="234" class="tT" font-size="34">19,536戸</text>
+<line x1="64" y1="252" x2="304" y2="252" stroke="#cfdde6" stroke-width="2"/>
+<text x="64" y="278" class="cT" font-size="15">令和2年度末は22,137戸</text>
+<text x="64" y="298" class="rT" font-size="15">4年で2,601戸の減</text>
+
+<g filter="url(#cardT)"><rect x="356" y="156" width="288" height="150" rx="16" fill="#ffffff"/></g>
+<text x="380" y="192" class="cT" font-size="16">加入者数</text>
+<text x="380" y="234" class="tT" font-size="34">29,136人</text>
+<line x1="380" y1="252" x2="620" y2="252" stroke="#cfdde6" stroke-width="2"/>
+<text x="380" y="278" class="cT" font-size="15">令和2年度末は35,182人</text>
+<text x="380" y="298" class="rT" font-size="15">4年で6,046人の減</text>
+
+<g filter="url(#cardT)"><rect x="672" y="156" width="288" height="150" rx="16" fill="#ffffff"/></g>
+<text x="696" y="192" class="cT" font-size="16">1世帯あたりの加入者</text>
+<text x="696" y="234" class="tT" font-size="34">1.49人</text>
+<line x1="696" y1="252" x2="936" y2="252" stroke="#cfdde6" stroke-width="2"/>
+<text x="696" y="278" class="cT" font-size="15">29,136 ÷ 19,536（当方算出）</text>
+<text x="696" y="298" class="nT" font-size="15">市全体の2.25人より小さい</text>
+
+<g filter="url(#cardT)"><rect x="40" y="334" width="440" height="176" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="334" width="440" height="44" rx="16" fill="#0074AE"/>
+<rect x="40" y="364" width="440" height="14" fill="#0074AE"/>
+<text x="64" y="364" class="wT" font-size="19">年齢の偏り（60代以上が約6割）</text>
+<text x="66" y="404" class="cT" font-size="16">70〜74歳</text>
+<text x="230" y="408" class="tT" font-size="26">8,929人</text>
+<text x="380" y="408" class="rT" font-size="20">30.6%</text>
+<text x="66" y="446" class="cT" font-size="16">60代</text>
+<text x="230" y="450" class="tT" font-size="26">8,318人</text>
+<line x1="64" y1="466" x2="456" y2="466" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="494" class="nT" font-size="15">30.6%は 8,929 ÷ 29,136（当方算出）</text>
+
+<g filter="url(#cardT)"><rect x="520" y="334" width="440" height="176" rx="16" fill="#ffffff"/></g>
+<rect x="520" y="334" width="440" height="44" rx="16" fill="#005986"/>
+<rect x="520" y="364" width="440" height="14" fill="#005986"/>
+<text x="544" y="364" class="wT" font-size="19">医療費（令和6年度）</text>
+<text x="546" y="404" class="cT" font-size="16">総額</text>
+<text x="660" y="408" class="tT" font-size="26">125億1,207万円</text>
+<text x="546" y="446" class="cT" font-size="16">1人あたり月額</text>
+<text x="720" y="450" class="tT" font-size="26">34,692円</text>
+<line x1="544" y1="466" x2="936" y2="466" stroke="#cfdde6" stroke-width="2"/>
+<text x="546" y="494" class="rT" font-size="15">前年度より約800円・年約9,000円の増</text>
+
+<text x="60" y="546" class="cT" font-size="16">直近1年は1,483人の減少（磐田市公表）。1日あたり約4人にあたる（1,483 ÷ 365、当方算出）。</text>
+<text x="60" y="574" class="cT" font-size="16">窓口：磐田市役所本庁舎1階 国保年金課 資格管理グループ（0538-37-4833）／各支所でも再交付を受け付け。</text>
+<text x="60" y="602" class="nT" font-size="15">※市全体の1世帯2.25人は令和8年7月末現在の値。国民健康保険の数字は令和6年度末で、時点が異なる。</text>
+<text x="60" y="626" class="nT" font-size="15">出典：磐田市統計書 令和7年版（更新日2026年3月25日）、磐田市「国民健康保険　医療費分析」（更新日2025年12月16日）</text>
+</svg>

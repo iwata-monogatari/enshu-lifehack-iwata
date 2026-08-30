@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-label="磐田市の資格確認書の年間サイクルと、届く書類の分かれ方を示した図。資格確認書の有効期限は毎年7月31日で、8月1日に一斉更新される。7月中に新しいものが送付され、70歳以上には7月中旬に送られる。更新の申請は不要で、磐田市が職権で交付する。国民健康保険では、マイナ保険証を利用登録していない人には資格確認書が届き、70歳以上でマイナ保険証を利用登録している人には資格情報通知書が届き、70歳未満でマイナ保険証を利用登録していてすでに交付を受けている人には何も送られない。後期高齢者医療では、85歳以上の人またはマイナ保険証を利用登録していない人に資格確認書が届き、84歳以下でマイナ保険証を利用登録している人には資格情報のお知らせが7月中に送られる。資格情報通知書は医療機関や薬局に提示しても保険診療を受けられない点を注意として示している" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="bgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#f7f6ee"/></linearGradient>
+<filter id="cardS"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tS{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cS{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wS{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nS{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.rS{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="640" rx="22" fill="url(#bgS)"/>
+<g filter="url(#cardS)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cS" font-size="18">手続き・制度 ── 磐田市の資格確認書（2026年8月30日確認・ページ更新日2026年6月4日）</text>
+<text x="68" y="105" class="tS" font-size="27">7月31日に切れて、8月1日に切り替わる。動くのは市の側</text>
+
+<g filter="url(#cardS)"><rect x="40" y="158" width="920" height="104" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="158" width="920" height="44" rx="16" fill="#005986"/>
+<rect x="40" y="188" width="920" height="14" fill="#005986"/>
+<text x="64" y="188" class="wS" font-size="19">年に一度のサイクル（申請は要らない）</text>
+<text x="80" y="228" class="cS" font-size="16">7月中に発送</text>
+<text x="80" y="252" class="nS" font-size="14">70歳以上は7月中旬</text>
+<text x="300" y="228" class="cS" font-size="16">有効期限</text>
+<text x="300" y="252" class="rS" font-size="21">毎年7月31日</text>
+<text x="530" y="228" class="cS" font-size="16">一斉更新</text>
+<text x="530" y="252" class="tS" font-size="21">毎年8月1日</text>
+<text x="760" y="228" class="cS" font-size="16">更新の申請</text>
+<text x="760" y="252" class="tS" font-size="21">不要（職権交付）</text>
+
+<g filter="url(#cardS)"><rect x="40" y="290" width="440" height="252" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="290" width="440" height="44" rx="16" fill="#0074AE"/>
+<rect x="40" y="320" width="440" height="14" fill="#0074AE"/>
+<text x="64" y="320" class="wS" font-size="19">国民健康保険は三つに分かれる</text>
+<text x="66" y="360" class="cS" font-size="15">マイナ保険証を利用登録していない</text>
+<text x="66" y="386" class="tS" font-size="20">→ 資格確認書が届く</text>
+<line x1="64" y1="404" x2="456" y2="404" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="432" class="cS" font-size="15">70歳以上でマイナ保険証を利用登録</text>
+<text x="66" y="458" class="tS" font-size="20">→ 資格情報通知書が届く</text>
+<line x1="64" y1="476" x2="456" y2="476" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="504" class="cS" font-size="15">70歳未満で利用登録・交付済み</text>
+<text x="66" y="530" class="rS" font-size="20">→ 何も届かない（それが正常）</text>
+
+<g filter="url(#cardS)"><rect x="520" y="290" width="440" height="252" rx="16" fill="#ffffff"/></g>
+<rect x="520" y="290" width="440" height="44" rx="16" fill="#0074AE"/>
+<rect x="520" y="320" width="440" height="14" fill="#0074AE"/>
+<text x="544" y="320" class="wS" font-size="19">後期高齢者医療は年齢の線が違う</text>
+<text x="546" y="360" class="cS" font-size="15">85歳以上、または利用登録していない</text>
+<text x="546" y="386" class="tS" font-size="20">→ 資格確認書が届く</text>
+<line x1="544" y1="404" x2="936" y2="404" stroke="#cfdde6" stroke-width="2"/>
+<text x="546" y="432" class="cS" font-size="15">84歳以下でマイナ保険証を利用登録</text>
+<text x="546" y="458" class="tS" font-size="20">→ 資格情報のお知らせ（7月中）</text>
+<line x1="544" y1="476" x2="936" y2="476" stroke="#cfdde6" stroke-width="2"/>
+<text x="546" y="504" class="cS" font-size="15">75歳の誕生日で全員が移る</text>
+<text x="546" y="530" class="tS" font-size="20">→ 手続きの必要なし</text>
+
+<text x="60" y="576" class="rS" font-size="16">※「資格情報通知書」は医療機関・薬局に提示しても保険診療を受けられない。マイナンバーカードと併せて提示する紙。</text>
+<text x="60" y="602" class="nS" font-size="15">※発送が簡易書留か普通郵便かは磐田市のページからは確認できなかった。7月のいつ発送かも「7月中」「7月中旬」より細かい記載は無い。</text>
+<text x="60" y="626" class="nS" font-size="15">出典：磐田市「国民健康保険・後期高齢者医療加入のみなさまへ」「資格確認書・資格情報通知書（資格情報のお知らせ）」</text>
+</svg>
