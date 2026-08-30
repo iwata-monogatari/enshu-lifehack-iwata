@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="磐田市の令和8年7月の人口の動きを分解した図。7月末の人口は163,224人、世帯数は72,421世帯で、6月末の163,321人から97人減った。内訳は自然動態が出生76人に対して死亡174人でマイナス98人、社会動態が転入480人に対して転出479人でプラス1人。自然増減と社会増減の欄は磐田市のページには無く、公表されている出生・死亡・転入・転出の4項目から当方が引き算した値であること、転入・転出には帰化や国籍取得などその他の増減が含まれることを注記している。死亡は出生の2.3倍で、減少の主因は転出ではなく自然減であることを示している" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="bgP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#f7f6ee"/></linearGradient>
+<filter id="cardP"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tP{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cP{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wP{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nP{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.rP{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="600" rx="22" fill="url(#bgP)"/>
+<g filter="url(#cardP)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cP" font-size="18">移住・暮らし・データ ── 磐田市の人口（令和8年7月末現在・2026年8月30日確認）</text>
+<text x="68" y="105" class="tP" font-size="27">97人減のうち98人分は自然減。出ていったからではない</text>
+
+<g filter="url(#cardP)"><rect x="40" y="158" width="440" height="196" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="158" width="440" height="48" rx="16" fill="#c9522f"/>
+<rect x="40" y="190" width="440" height="16" fill="#c9522f"/>
+<text x="64" y="190" class="wP" font-size="20">自然動態（生まれる・亡くなる）</text>
+<text x="66" y="240" class="cP" font-size="17">出生</text>
+<text x="150" y="243" class="tP" font-size="28">76人</text>
+<text x="270" y="240" class="cP" font-size="17">死亡</text>
+<text x="354" y="243" class="rP" font-size="28">174人</text>
+<line x1="64" y1="264" x2="456" y2="264" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="298" class="cP" font-size="17">差し引き</text>
+<text x="180" y="302" class="rP" font-size="32">−98人</text>
+<text x="66" y="332" class="nP" font-size="15">死亡は出生の2.3倍（174 ÷ 76、当方算出）</text>
+
+<g filter="url(#cardP)"><rect x="520" y="158" width="440" height="196" rx="16" fill="#ffffff"/></g>
+<rect x="520" y="158" width="440" height="48" rx="16" fill="#0074AE"/>
+<rect x="520" y="190" width="440" height="16" fill="#0074AE"/>
+<text x="544" y="190" class="wP" font-size="20">社会動態（引っ越してくる・出ていく）</text>
+<text x="546" y="240" class="cP" font-size="17">転入</text>
+<text x="630" y="243" class="tP" font-size="28">480人</text>
+<text x="762" y="240" class="cP" font-size="17">転出</text>
+<text x="846" y="243" class="tP" font-size="28">479人</text>
+<line x1="544" y1="264" x2="936" y2="264" stroke="#cfdde6" stroke-width="2"/>
+<text x="546" y="298" class="cP" font-size="17">差し引き</text>
+<text x="660" y="302" class="tP" font-size="32">＋1人</text>
+<text x="546" y="332" class="nP" font-size="15">出入りはほぼ同数。1日あたり約15人ずつ</text>
+
+<g filter="url(#cardP)"><rect x="40" y="380" width="920" height="124" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="380" width="920" height="46" rx="16" fill="#005986"/>
+<rect x="40" y="410" width="920" height="16" fill="#005986"/>
+<text x="64" y="411" class="wP" font-size="19">合わせると（令和8年7月末現在）</text>
+<text x="80" y="458" class="cP" font-size="17">6月末</text>
+<text x="80" y="492" class="tP" font-size="27">163,321人</text>
+<text x="290" y="458" class="cP" font-size="17">7月末</text>
+<text x="290" y="492" class="tP" font-size="27">163,224人</text>
+<text x="530" y="458" class="cP" font-size="17">前月末との増減</text>
+<text x="530" y="492" class="rP" font-size="27">−97人</text>
+<text x="760" y="458" class="cP" font-size="17">世帯数</text>
+<text x="760" y="492" class="tP" font-size="27">72,421世帯</text>
+
+<text x="60" y="540" class="nP" font-size="15">※自然増減−98人・社会増減＋1人の欄は磐田市のページには無い。公表されている出生・死亡・転入・転出の4項目から当方が引き算した値。</text>
+<text x="60" y="566" class="nP" font-size="15">※市の注記に「転入・転出には帰化や国籍取得、国籍離脱などによるその他の増減を含みます」とある。出典：磐田市「磐田市の人口　令和8年度」（更新日2026年8月17日）</text>
+</svg>

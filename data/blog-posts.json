@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260830-population-163224-natural-decline",
+      "date": "2026-08-30",
+      "modified": "2026-08-30",
+      "axis": "sun",
+      "title": "磐田市の人口16万3224人、7万2421世帯。7月は自然減",
+      "description": "磐田市の人口は163,224人、世帯数は72,421世帯（令和8年7月末現在）。7月は出生76人に対し死亡174人、転入480人に対し転出479人で、前月末から97人減りました。減っているのは出ていくからではありません。数字を1世帯・1日に割り戻して、相続した実家の話に置き換えます。",
+      "home_description": "磐田市の人口は163,224人・72,421世帯。7月の97人減は転出ではなく、出生76人に対し死亡174人という差から出ています。",
+      "cta": "official",
+      "primary_source": "磐田市の人口　令和8年度／磐田市（ページ更新日2026年8月17日、令和8年7月末現在）、年齢別人口（令和8年7月31日現在）／磐田市 を2026-08-30に確認",
+      "cover_alt": "磐田市の人口16万3224人、7万2421世帯。7月は自然減の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "磐田市の空き家・実家じまい・相続した家を整理する"
+        },
+        {
+          "href": "/life/living-soon/about-iwata/",
+          "label": "磐田ってどんなまち？移住前に見る暮らしの判断材料"
+        }
+      ]
+    },
+    {
       "slug": "20260829-akiya-bank-vs-okoshi-project",
       "date": "2026-08-29",
       "modified": "2026-08-29",
@@ -17,8 +39,14 @@
       "primary_source": "空き家おこしプロジェクト／磐田市（ページ更新日2026年8月26日）、空き家バンク／磐田市（ページ更新日2026年8月7日）、空家等対策計画／磐田市（ページ更新日2026年3月5日）を2026-08-29に確認",
       "cover_alt": "磐田市の空き家バンクと空き家おこしプロジェクトの違いの記事表紙",
       "related_life": [
-        {"href": "/life/troubles-consult/vacant-house-consultation/", "label": "磐田市の空き家の相談先（親の家・実家をどうするか）"},
-        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "磐田市の空き家・実家じまい・相続した家を整理する"}
+        {
+          "href": "/life/troubles-consult/vacant-house-consultation/",
+          "label": "磐田市の空き家の相談先（親の家・実家をどうするか）"
+        },
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "磐田市の空き家・実家じまい・相続した家を整理する"
+        }
       ]
     },
     {
@@ -33,8 +61,14 @@
       "primary_source": "粗大ごみの戸別収集／磐田市（ページ更新日2026年4月24日）、民間許可業者による有料粗大ごみ戸別収集／磐田市（ページ更新日2026年4月24日）を2026-08-28に確認",
       "cover_alt": "磐田市の粗大ごみは1世帯月1回。実家じまいは出し方が違うの記事表紙",
       "related_life": [
-        {"href": "/life/start-living/bulky-garbage-dropoff/", "label": "磐田市で粗大ごみを持ち込み・回収してもらう方法"},
-        {"href": "/life/housing/clean-parents-house/", "label": "磐田市の実家を整理するときの確認事項"}
+        {
+          "href": "/life/start-living/bulky-garbage-dropoff/",
+          "label": "磐田市で粗大ごみを持ち込み・回収してもらう方法"
+        },
+        {
+          "href": "/life/housing/clean-parents-house/",
+          "label": "磐田市の実家を整理するときの確認事項"
+        }
       ]
     },
     {
@@ -49,8 +83,14 @@
       "primary_source": "児童手当／磐田市（ページ更新日2026年2月5日）を2026-08-27に確認",
       "cover_alt": "磐田市の児童手当、高校生年代まで月1万円。第3子以降は月3万円の記事表紙",
       "related_life": [
-        {"href": "/life/family-grow/child-allowance/", "label": "磐田市の児童手当の手続きと確認先"},
-        {"href": "/life/family-grow/child-allowance-medical/", "label": "児童手当・こども医療費の手続きを確認する"}
+        {
+          "href": "/life/family-grow/child-allowance/",
+          "label": "磐田市の児童手当の手続きと確認先"
+        },
+        {
+          "href": "/life/family-grow/child-allowance-medical/",
+          "label": "児童手当・こども医療費の手続きを確認する"
+        }
       ]
     },
     {
@@ -65,8 +105,14 @@
       "primary_source": "磐田市の概要／磐田市を2026-08-27に確認",
       "cover_alt": "磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測るの記事表紙",
       "related_life": [
-        {"href": "/life/start-living/city-hall-branches/", "label": "磐田市役所と各支所の窓口案内"},
-        {"href": "/life/living-soon/about-iwata/", "label": "磐田市で暮らす前に地域の特徴を確認する"}
+        {
+          "href": "/life/start-living/city-hall-branches/",
+          "label": "磐田市役所と各支所の窓口案内"
+        },
+        {
+          "href": "/life/living-soon/about-iwata/",
+          "label": "磐田市で暮らす前に地域の特徴を確認する"
+        }
       ]
     }
   ]

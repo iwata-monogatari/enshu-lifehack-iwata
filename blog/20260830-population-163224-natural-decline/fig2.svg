@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-label="磐田市の人口163,224人と世帯数72,421世帯を暮らしの単位に割り戻した図。1世帯あたりの人数は2.25人で、これは163,224を72,421で割った当方の算出値。7月の減少97人を1世帯2.25人で割ると約43世帯分にあたる。地区別の1世帯あたり人数は豊岡地区が2.51人で最も多く、豊田地区2.34人、福田地区2.28人、磐田地区2.21人、竜洋地区2.19人の順。65歳以上は49,092人で高齢化率30.1パーセント、これは年齢別人口表の5歳階級を当方が加算した値で市の公表値ではない。外国人住民は10,118人で総人口の6.2パーセント、5,597世帯。人口のピークは2008年の177,249人で、現在までに14,025人、7.9パーセント減っているが、当時は日本人の住民基本台帳と外国人登録が別集計だったため単純比較には注意が要ることを示している" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bgQ" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f6ee"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+<filter id="cardQ"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tQ{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cQ{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wQ{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nQ{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}</style>
+</defs>
+<rect width="1000" height="620" rx="22" fill="url(#bgQ)"/>
+<g filter="url(#cardQ)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cQ" font-size="18">163,224人と72,421世帯を、暮らしの単位に割り戻す（令和8年7月末現在）</text>
+<text x="68" y="105" class="tQ" font-size="27">1世帯2.25人。7月の97人減は、約43世帯が消えた計算</text>
+
+<g filter="url(#cardQ)"><rect x="40" y="156" width="288" height="164" rx="16" fill="#ffffff"/></g>
+<text x="64" y="194" class="cQ" font-size="16">1世帯あたりの人数</text>
+<text x="64" y="238" class="tQ" font-size="34">2.25人</text>
+<line x1="64" y1="258" x2="304" y2="258" stroke="#cfdde6" stroke-width="2"/>
+<text x="64" y="286" class="cQ" font-size="16">163,224人 ÷ 72,421世帯</text>
+<text x="64" y="308" class="nQ" font-size="15">（当方算出・小数第3位切り捨て）</text>
+
+<g filter="url(#cardQ)"><rect x="356" y="156" width="288" height="164" rx="16" fill="#ffffff"/></g>
+<text x="380" y="194" class="cQ" font-size="16">7月の97人減を世帯に直すと</text>
+<text x="380" y="238" class="tQ" font-size="34">約43世帯分</text>
+<line x1="380" y1="258" x2="620" y2="258" stroke="#cfdde6" stroke-width="2"/>
+<text x="380" y="286" class="cQ" font-size="16">97人 ÷ 2.25人（当方算出）</text>
+<text x="380" y="308" class="nQ" font-size="15">世帯数の実際の増減とは別の概算</text>
+
+<g filter="url(#cardQ)"><rect x="672" y="156" width="288" height="164" rx="16" fill="#ffffff"/></g>
+<text x="696" y="194" class="cQ" font-size="16">65歳以上（当方算出）</text>
+<text x="696" y="234" class="tQ" font-size="30">49,092人</text>
+<text x="696" y="266" class="tQ" font-size="24">高齢化率 30.1%</text>
+<line x1="696" y1="282" x2="936" y2="282" stroke="#cfdde6" stroke-width="2"/>
+<text x="696" y="308" class="nQ" font-size="15">年齢別人口表の5歳階級を加算した値</text>
+
+<g filter="url(#cardQ)"><rect x="40" y="346" width="580" height="180" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="346" width="580" height="44" rx="16" fill="#005986"/>
+<rect x="40" y="376" width="580" height="14" fill="#005986"/>
+<text x="64" y="377" class="wQ" font-size="18">地区別の1世帯あたり人数（当方算出）</text>
+<text x="66" y="418" class="cQ" font-size="16">豊岡</text>
+<rect x="130" y="404" width="251" height="18" rx="4" fill="#0074AE"/><text x="392" y="419" class="tQ" font-size="18">2.51人</text>
+<text x="500" y="419" class="nQ" font-size="14">10,254人／4,081世帯</text>
+<text x="66" y="446" class="cQ" font-size="16">豊田</text>
+<rect x="130" y="432" width="234" height="18" rx="4" fill="#3894c8"/><text x="392" y="447" class="tQ" font-size="18">2.34人</text>
+<text x="500" y="447" class="nQ" font-size="14">29,327人／12,518世帯</text>
+<text x="66" y="474" class="cQ" font-size="16">福田</text>
+<rect x="130" y="460" width="228" height="18" rx="4" fill="#3894c8"/><text x="392" y="475" class="tQ" font-size="18">2.28人</text>
+<text x="500" y="475" class="nQ" font-size="14">16,129人／7,089世帯</text>
+<text x="66" y="502" class="cQ" font-size="16">磐田</text>
+<rect x="130" y="488" width="221" height="18" rx="4" fill="#7fb6d6"/><text x="392" y="503" class="tQ" font-size="18">2.21人</text>
+<text x="500" y="503" class="nQ" font-size="14">89,771人／40,618世帯</text>
+<text x="66" y="524" class="cQ" font-size="16">竜洋　2.19人（17,743人／8,115世帯）</text>
+
+<g filter="url(#cardQ)"><rect x="648" y="346" width="312" height="180" rx="16" fill="#ffffff"/></g>
+<rect x="648" y="346" width="312" height="44" rx="16" fill="#c9522f"/>
+<rect x="648" y="376" width="312" height="14" fill="#c9522f"/>
+<text x="672" y="377" class="wQ" font-size="18">ピークからの距離</text>
+<text x="672" y="416" class="cQ" font-size="15">2008年（平成20年）ピーク</text>
+<text x="672" y="446" class="tQ" font-size="25">177,249人</text>
+<text x="672" y="476" class="cQ" font-size="15">令和8年7月末</text>
+<text x="672" y="504" class="tQ" font-size="25">163,224人（−7.9%）</text>
+
+<text x="60" y="560" class="nQ" font-size="15">※2008年当時は日本人の住民基本台帳（167,313人）と外国人登録（9,936人）の別集計の合計。集計の枠組みが今と違うため、単純比較には注意が要る。</text>
+<text x="60" y="584" class="nQ" font-size="15">※外国人住民は10,118人・5,597世帯（総人口の6.2%、当方算出）。日本人は153,106人・66,824世帯。</text>
+<text x="60" y="608" class="nQ" font-size="15">出典：磐田市「磐田市の人口　令和8年度」（更新日2026年8月17日）、同「年齢別人口（令和8年7月31日現在）」、磐田市総合計画関連資料。2026年8月30日確認。</text>
+</svg>
