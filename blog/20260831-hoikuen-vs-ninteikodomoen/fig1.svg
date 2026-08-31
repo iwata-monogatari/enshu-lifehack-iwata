@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-label="磐田市の就学前施設の内訳を示した図。認定こども園は公立10園と私立11園の合計21園、保育園は公立2園と私立11園の合計13園、幼稚園は公立6園と私立2園の合計8園、地域型保育は小規模保育所11園と事業所内保育所2園の合計13園。0歳から2歳の子が3号認定で通える施設は保育園13園、認定こども園21園、地域型保育13園を合わせた47園で、そのうち地域型保育の13園、割合にして約28パーセントは2歳の年度末で卒園になる。認定こども園21園は保育園13園の約1.6倍にあたる。数字はいずれも磐田市の公表ページの園名を数え上げたもので、2026年8月31日確認" data-illustration="iwata-editorial" data-variant="1">
+<defs>
+<linearGradient id="bgA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#f7f6ee"/></linearGradient>
+<filter id="cardA"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tA{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cA{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wA{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nA{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.rA{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="640" rx="22" fill="url(#bgA)"/>
+<g filter="url(#cardA)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cA" font-size="18">手続き・制度 ── 磐田市の就学前施設（2026年8月31日確認・園名の数え上げ）</text>
+<text x="68" y="105" class="tA" font-size="27">0〜2歳が通えるのは47園。うち13園は2歳で卒園になる</text>
+
+<g filter="url(#cardA)"><rect x="40" y="158" width="446" height="212" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="158" width="446" height="44" rx="16" fill="#005986"/>
+<rect x="40" y="188" width="446" height="14" fill="#005986"/>
+<text x="64" y="188" class="wA" font-size="19">就学前まで通える施設</text>
+<text x="66" y="230" class="cA" font-size="15">認定こども園（公立10・私立11）</text>
+<text x="380" y="232" class="tA" font-size="26" text-anchor="end">21園</text>
+<line x1="64" y1="248" x2="462" y2="248" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="278" class="cA" font-size="15">保育園（公立2・私立11）</text>
+<text x="380" y="280" class="tA" font-size="26" text-anchor="end">13園</text>
+<line x1="64" y1="296" x2="462" y2="296" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="326" class="cA" font-size="15">幼稚園（公立6・私立2）</text>
+<text x="380" y="328" class="tA" font-size="26" text-anchor="end">8園</text>
+<text x="66" y="356" class="nA" font-size="14">こども園は保育園の約1.6倍（当方の計算）</text>
+
+<g filter="url(#cardA)"><rect x="514" y="158" width="446" height="212" rx="16" fill="#ffffff"/></g>
+<rect x="514" y="158" width="446" height="44" rx="16" fill="#0074AE"/>
+<rect x="514" y="188" width="446" height="14" fill="#0074AE"/>
+<text x="538" y="188" class="wA" font-size="19">2歳までの施設（地域型保育）</text>
+<text x="540" y="230" class="cA" font-size="15">小規模保育所（定員6〜19人）</text>
+<text x="854" y="232" class="tA" font-size="26" text-anchor="end">11園</text>
+<line x1="538" y1="248" x2="936" y2="248" stroke="#cfdde6" stroke-width="2"/>
+<text x="540" y="278" class="cA" font-size="15">事業所内保育所</text>
+<text x="854" y="280" class="tA" font-size="26" text-anchor="end">2園</text>
+<line x1="538" y1="296" x2="936" y2="296" stroke="#cfdde6" stroke-width="2"/>
+<text x="540" y="326" class="rA" font-size="17">2歳の年度末で卒園 → 3歳で入園手続きをやり直す</text>
+<text x="540" y="356" class="nA" font-size="14">連携施設は「設定している園もあります」（全園ではない）</text>
+
+<g filter="url(#cardA)"><rect x="40" y="398" width="920" height="118" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="398" width="920" height="44" rx="16" fill="#0074AE"/>
+<rect x="40" y="428" width="920" height="14" fill="#0074AE"/>
+<text x="64" y="428" class="wA" font-size="19">0〜2歳（3号認定）で申し込める施設の合計</text>
+<text x="80" y="472" class="cA" font-size="16">保育園</text>
+<text x="80" y="500" class="tA" font-size="24">13園</text>
+<text x="240" y="472" class="cA" font-size="16">認定こども園（保育園枠）</text>
+<text x="240" y="500" class="tA" font-size="24">21園</text>
+<text x="520" y="472" class="cA" font-size="16">地域型保育</text>
+<text x="520" y="500" class="rA" font-size="24">13園</text>
+<text x="720" y="472" class="cA" font-size="16">合計</text>
+<text x="720" y="500" class="tA" font-size="24">47園（うち約28%が2歳まで）</text>
+
+<text x="60" y="552" class="rA" font-size="16">※0〜2歳の子には1号認定も2号認定も存在しない。使えるのは3号認定だけなので、保育園とこども園で手続きは変わらない。</text>
+<text x="60" y="580" class="nA" font-size="15">※認定こども園と保育園のページには園数の総数が書かれていないため、園名を数え上げた。幼稚園8園はページに明記あり。</text>
+<text x="60" y="608" class="nA" font-size="15">出典：磐田市「認定こども園の紹介」「公立保育園」「私立保育園」「小規模保育所」「事業所内保育所」「幼稚園の紹介」</text>
+</svg>

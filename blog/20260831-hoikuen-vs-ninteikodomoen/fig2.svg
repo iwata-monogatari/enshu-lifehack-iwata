@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660" role="img" aria-label="磐田市の1号認定、2号認定、3号認定の違いと、3歳で分かれる進路を示した図。1号認定は満3歳から小学校就学前までが対象で保護者の条件は特になく、幼稚園と認定こども園の幼稚園枠に通える。2号認定は満3歳から小学校就学前までが対象で保育を必要とする事由に該当する場合に限られ、保育園と認定こども園の保育園枠に通える。3号認定は0歳から2歳までが対象で、条件は2号と同じで、保育園、認定こども園の保育園枠、地域型保育に通える。0歳から2歳の時点では3号認定しか選択肢がないため、保育園と認定こども園の手続き上の違いはない。3歳になると、認定こども園には1号認定の枠があるため、仕事を辞めても同じ園に通い続けられる可能性がある一方、保育園には1号の受け皿がない。地域型保育は2歳の年度末で卒園となり、連携施設を設定している園もあるが全園ではない。入り方も分かれ、2号と3号の入園は利用調整指数による順位づけ、公立幼稚園と公立認定こども園の幼稚園枠は募集人数を超えた場合に抽選となる。就労は月64時間以上が目安で、保育標準時間は上限11時間、保育短時間は上限8時間" data-illustration="iwata-editorial" data-variant="2">
+<defs>
+<linearGradient id="bgB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f6ee"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+<filter id="cardB"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#123a52" flood-opacity=".16"/></filter>
+<style>.tB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#123a52}.cB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#3c5b6d}.wB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#fff}.nB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;fill:#5c7688}.rB{font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif;font-weight:700;fill:#c9522f}</style>
+</defs>
+<rect width="1000" height="660" rx="22" fill="url(#bgB)"/>
+<g filter="url(#cardB)"><rect x="40" y="26" width="920" height="102" rx="18" fill="#ffffff" opacity=".96"/></g>
+<text x="70" y="63" class="cB" font-size="18">手続き・制度 ── 磐田市の教育・保育給付認定（令和8年度 磐田市保育園等入園案内より）</text>
+<text x="68" y="105" class="tB" font-size="27">0〜2歳は3号だけ。分かれ道は3歳の入り口にある</text>
+
+<g filter="url(#cardB)"><rect x="40" y="158" width="920" height="216" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="158" width="920" height="44" rx="16" fill="#005986"/>
+<rect x="40" y="188" width="920" height="14" fill="#005986"/>
+<text x="64" y="188" class="wB" font-size="19">認定の三区分</text>
+<text x="66" y="228" class="nB" font-size="14">区分</text>
+<text x="220" y="228" class="nB" font-size="14">対象年齢</text>
+<text x="420" y="228" class="nB" font-size="14">保護者の条件</text>
+<text x="660" y="228" class="nB" font-size="14">通える施設</text>
+<line x1="64" y1="240" x2="936" y2="240" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="272" class="tB" font-size="21">1号認定</text>
+<text x="220" y="272" class="cB" font-size="15">満3歳〜就学前</text>
+<text x="420" y="272" class="cB" font-size="15">特になし</text>
+<text x="660" y="272" class="cB" font-size="15">幼稚園／こども園（幼稚園枠）</text>
+<line x1="64" y1="288" x2="936" y2="288" stroke="#e6edf2" stroke-width="2"/>
+<text x="66" y="320" class="tB" font-size="21">2号認定</text>
+<text x="220" y="320" class="cB" font-size="15">満3歳〜就学前</text>
+<text x="420" y="320" class="cB" font-size="15">保育を必要とする事由</text>
+<text x="660" y="320" class="cB" font-size="15">保育園／こども園（保育園枠）</text>
+<line x1="64" y1="336" x2="936" y2="336" stroke="#e6edf2" stroke-width="2"/>
+<text x="66" y="366" class="rB" font-size="21">3号認定</text>
+<text x="220" y="366" class="cB" font-size="15">0歳〜2歳</text>
+<text x="420" y="366" class="cB" font-size="15">保育を必要とする事由</text>
+<text x="660" y="366" class="cB" font-size="15">保育園／こども園／地域型保育</text>
+
+<g filter="url(#cardB)"><rect x="40" y="402" width="446" height="164" rx="16" fill="#ffffff"/></g>
+<rect x="40" y="402" width="446" height="44" rx="16" fill="#0074AE"/>
+<rect x="40" y="432" width="446" height="14" fill="#0074AE"/>
+<text x="64" y="432" class="wB" font-size="19">3歳で分かれる</text>
+<text x="66" y="472" class="cB" font-size="15">認定こども園 → 1号枠あり</text>
+<text x="66" y="496" class="tB" font-size="18">仕事を辞めても通い続けられる可能性</text>
+<line x1="64" y1="512" x2="462" y2="512" stroke="#cfdde6" stroke-width="2"/>
+<text x="66" y="538" class="cB" font-size="15">保育園 → 1号枠なし</text>
+<text x="66" y="558" class="rB" font-size="16">地域型保育 → 2歳の年度末で卒園</text>
+
+<g filter="url(#cardB)"><rect x="514" y="402" width="446" height="164" rx="16" fill="#ffffff"/></g>
+<rect x="514" y="402" width="446" height="44" rx="16" fill="#0074AE"/>
+<rect x="514" y="432" width="446" height="14" fill="#0074AE"/>
+<text x="538" y="432" class="wB" font-size="19">入り方も違う</text>
+<text x="540" y="472" class="cB" font-size="15">2号・3号認定の入園</text>
+<text x="540" y="496" class="tB" font-size="18">利用調整指数による順位づけ</text>
+<line x1="538" y1="512" x2="936" y2="512" stroke="#cfdde6" stroke-width="2"/>
+<text x="540" y="538" class="cB" font-size="15">公立幼稚園・こども園（幼稚園枠）</text>
+<text x="540" y="558" class="rB" font-size="18">募集人数を超えたら抽選</text>
+
+<text x="60" y="600" class="cB" font-size="16">※就労で認定を受ける場合は月64時間以上が目安。保育時間は保育標準時間（上限11時間）と保育短時間（上限8時間）の二つ。</text>
+<text x="60" y="628" class="nB" font-size="15">出典：磐田市「令和8年度 磐田市保育園等入園案内」「令和8年4月入園の保育園等入園申込み」「令和8年4月入園の公立幼稚園・公立認定こども園(幼稚園枠)入園申込み」（2026年8月31日確認）</text>
+</svg>
