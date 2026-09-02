@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">旧見付学校を訪れる日の判断順</title><desc id="desc">公式確認から駐車、満車時の施設確認や予定変更までの順を示す図</desc>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#0074ae"/></marker></defs>
+<rect width="1200" height="675" rx="30" fill="#eef6fb"/><text x="600" y="75" font-family="sans-serif" font-size="42" font-weight="700" text-anchor="middle" fill="#123a52">当日の見学順</text>
+<g font-family="sans-serif" text-anchor="middle"><rect x="55" y="145" width="270" height="150" rx="22" fill="#fff" stroke="#0074ae" stroke-width="4"/><text x="190" y="205" font-size="30" font-weight="700" fill="#123a52">1 公式確認</text><text x="190" y="250" font-size="24" fill="#365b70">開館日・利用時間</text>
+<rect x="465" y="145" width="270" height="150" rx="22" fill="#fff" stroke="#0074ae" stroke-width="4"/><text x="600" y="205" font-size="30" font-weight="700" fill="#123a52">2 駐車できた</text><text x="600" y="250" font-size="24" fill="#365b70">旧見付学校を先に</text>
+<rect x="875" y="145" width="270" height="150" rx="22" fill="#fff4da" stroke="#d58a00" stroke-width="4"/><text x="1010" y="205" font-size="30" font-weight="700" fill="#744b00">満車だった</text><text x="1010" y="250" font-size="24" fill="#744b00">周辺を回り続けない</text>
+<path d="M325 220 H450" stroke="#0074ae" stroke-width="8" marker-end="url(#arrow)"/><path d="M735 220 H860" stroke="#0074ae" stroke-width="8" marker-end="url(#arrow)"/>
+<rect x="120" y="410" width="270" height="140" rx="22" fill="#fff" stroke="#0074ae" stroke-width="4"/><text x="255" y="465" font-size="29" font-weight="700" fill="#123a52">施設へ確認</text><text x="255" y="510" font-size="23" fill="#365b70">安全な場所から電話</text>
+<rect x="465" y="410" width="270" height="140" rx="22" fill="#fff" stroke="#0074ae" stroke-width="4"/><text x="600" y="465" font-size="29" font-weight="700" fill="#123a52">予定を変更</text><text x="600" y="510" font-size="23" fill="#365b70">別の目的地を先に</text>
+<rect x="810" y="410" width="270" height="140" rx="22" fill="#fff" stroke="#0074ae" stroke-width="4"/><text x="945" y="465" font-size="29" font-weight="700" fill="#123a52">別日に再訪</text><text x="945" y="510" font-size="23" fill="#365b70">路線バスも選択肢</text></g>
+<path d="M1010 295 V350 H255 V395" fill="none" stroke="#0074ae" stroke-width="8" marker-end="url(#arrow)"/><path d="M1010 350 H600 V395" fill="none" stroke="#0074ae" stroke-width="8" marker-end="url(#arrow)"/><path d="M1010 350 H945 V395" fill="none" stroke="#0074ae" stroke-width="8" marker-end="url(#arrow)"/>
+</svg>

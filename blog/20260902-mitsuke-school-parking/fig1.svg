@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">旧見付学校の駐車場10台</title><desc id="desc">十個の駐車枠と、バス駐車時の残り台数が未確認であることを示す図</desc>
+<rect width="1200" height="675" rx="30" fill="#eef6fb"/><text x="70" y="90" font-family="sans-serif" font-size="42" font-weight="700" fill="#123a52">公式案内は「10台（バス駐車可）」</text>
+<g fill="#fff" stroke="#0074ae" stroke-width="5">
+<rect x="80" y="150" width="180" height="120" rx="14"/><rect x="290" y="150" width="180" height="120" rx="14"/><rect x="500" y="150" width="180" height="120" rx="14"/><rect x="710" y="150" width="180" height="120" rx="14"/><rect x="920" y="150" width="180" height="120" rx="14"/>
+<rect x="80" y="300" width="180" height="120" rx="14"/><rect x="290" y="300" width="180" height="120" rx="14"/><rect x="500" y="300" width="180" height="120" rx="14"/><rect x="710" y="300" width="180" height="120" rx="14"/><rect x="920" y="300" width="180" height="120" rx="14"/>
+</g>
+<g font-family="sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#0074ae"><text x="170" y="225">1</text><text x="380" y="225">2</text><text x="590" y="225">3</text><text x="800" y="225">4</text><text x="1010" y="225">5</text><text x="170" y="375">6</text><text x="380" y="375">7</text><text x="590" y="375">8</text><text x="800" y="375">9</text><text x="1010" y="375">10</text></g>
+<rect x="80" y="480" width="1020" height="125" rx="18" fill="#fff4da" stroke="#d58a00" stroke-width="3"/><text x="590" y="535" font-family="sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#744b00">車種別の内訳・バス駐車時の残り台数・満車の時間帯</text><text x="590" y="580" font-family="sans-serif" font-size="30" text-anchor="middle" fill="#744b00">公式ページでは未確認</text>
+</svg>
