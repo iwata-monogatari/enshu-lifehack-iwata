@@ -6,6 +6,22 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260902-buried-cultural-property-notification",
+      "date": "2026-09-02",
+      "modified": "2026-09-02",
+      "axis": "wed",
+      "title": "磐田市の埋蔵文化財届出｜工事前に地番と地図を確認",
+      "description": "磐田市で住宅の新築や造成など土地を掘る工事をする前は、地番と対象地の地図を用意して遺跡範囲を確認します。電話での範囲確認は不可。該当時の60日前届出まで、土地所有者の段取りに翻訳します。",
+      "home_description": "磐田市の遺跡範囲確認は電話不可。地番と対象地の地図を用意し、該当時は工事着手60日前までの届出を確認します。",
+      "cta": "official",
+      "primary_source": "開発に伴う埋蔵文化財の取り扱い／磐田市（ページ更新日2026年4月1日）、いわた文化財だより第253号／磐田市（2026年4月1日発行）、埋蔵文化財発掘届出書、遺跡が発見されていない地域（大字）一覧表を2026-09-02に確認",
+      "cover_alt": "磐田市の埋蔵文化財届出で地番と地図を確認する記事の表紙",
+      "related_life": [
+        {"href": "/life/housing/build-house/", "label": "磐田市で家を建てる前の確認事項"},
+        {"href": "/life/housing/earthquake-demolition/", "label": "磐田市で耐震・解体を考える"}
+      ]
+    },
+    {
       "slug": "20260830-shikaku-kakuninsho-annual-renewal",
       "date": "2026-08-30",
       "modified": "2026-08-31",
