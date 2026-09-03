@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" role="img" aria-label="磐田市のこども誰でも通園制度と一時預かりを目的、対象、料金、上限、申込みで比較した図" data-illustration="iwata-editorial" data-variant="1">
+<defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef7f4"/><stop offset="1" stop-color="#f8f2e7"/></linearGradient><filter id="s1"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#173f4f" flood-opacity=".15"/></filter><style>.title{font:700 30px 'Yu Gothic',sans-serif;fill:#163e51}.head{font:700 22px 'Yu Gothic',sans-serif;fill:#fff}.label{font:700 17px 'Yu Gothic',sans-serif;fill:#163e51}.body{font:16px 'Yu Gothic',sans-serif;fill:#365766}.note{font:700 18px 'Yu Gothic',sans-serif;fill:#b34d32}</style></defs>
+<rect width="1000" height="640" rx="24" fill="url(#bg1)"/><text x="60" y="62" class="body">磐田市・2026年9月3日確認</text><text x="60" y="105" class="title">0〜2歳は同じ300円。違いは目的と入口</text>
+<g filter="url(#s1)"><rect x="45" y="145" width="435" height="400" rx="18" fill="#fff"/><rect x="520" y="145" width="435" height="400" rx="18" fill="#fff"/></g>
+<rect x="45" y="145" width="435" height="62" rx="18" fill="#007a78"/><rect x="45" y="185" width="435" height="22" fill="#007a78"/><text x="75" y="184" class="head">こども誰でも通園制度</text>
+<rect x="520" y="145" width="435" height="62" rx="18" fill="#376e9a"/><rect x="520" y="185" width="435" height="22" fill="#376e9a"/><text x="550" y="184" class="head">一時預かり</text>
+<text x="75" y="245" class="label">目的</text><text x="180" y="245" class="body">子どもの育ち・家庭外の経験</text><text x="550" y="245" class="label">目的</text><text x="655" y="245" class="body">保護者の事情への対応</text>
+<text x="75" y="300" class="label">対象</text><text x="180" y="300" class="body">生後6か月〜満3歳未満</text><text x="550" y="300" class="label">対象</text><text x="655" y="300" class="body">未就学児</text>
+<text x="75" y="355" class="label">料金</text><text x="180" y="355" class="note">1時間300円</text><text x="550" y="355" class="label">料金</text><text x="655" y="355" class="note">3歳未満は1時間300円</text>
+<text x="75" y="410" class="label">上限</text><text x="180" y="410" class="body">月10時間・繰越不可</text><text x="550" y="410" class="label">上限</text><text x="655" y="410" class="body">園ごとに確認</text>
+<text x="75" y="465" class="label">入口</text><text x="180" y="465" class="body">市の認定＋初回面談</text><text x="550" y="465" class="label">入口</text><text x="655" y="465" class="body">各園へ直接申込み</text>
+<text x="75" y="515" class="body">就労要件なし／未就園児</text><text x="550" y="515" class="body">急な仕事・病気・冠婚葬祭・休息</text>
+<text x="60" y="590" class="note">料金で選ばない。「子どもの経験」か「特定日の事情」かを先に決める。</text>
+</svg>

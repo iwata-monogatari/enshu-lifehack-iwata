@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260903-kodomo-daredemo-tsuen",
+      "date": "2026-09-03",
+      "modified": "2026-09-03",
+      "axis": "thu",
+      "title": "磐田市のこども誰でも通園制度｜一時預かりとの違い",
+      "description": "磐田市のこども誰でも通園制度は、生後6か月から満3歳未満の未就園児が月10時間、1時間300円で利用できます。一時預かりも3歳未満は同額。目的、対象、申込み、上限の違いを生活の段取りに翻訳します。",
+      "home_description": "誰でも通園と一時預かりは0〜2歳なら1時間300円。違うのは目的、月10時間の上限、市の認定と初回面談です。",
+      "cta": "official",
+      "primary_source": "乳児等通園支援事業（こども誰でも通園制度）／磐田市（ページ更新日2026年8月13日）、利用者向け案内、一時預かり事業、幼児教育・保育無償化を2026-09-03に確認",
+      "cover_alt": "磐田市のこども誰でも通園制度と一時預かりの違いを整理する記事の表紙",
+      "related_life": [
+        {"href": "/life/family-grow/nursery-childcare/", "label": "磐田市の保育園・一時預かりを確認する"},
+        {"href": "/life/family-grow/nursery-school/", "label": "幼稚園・保育園・こども園の入園を見る"},
+        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"},
+        {"href": "/life/troubles-consult/child-consultation/", "label": "子ども・家庭の相談窓口を確認する"}
+      ]
+    },
+    {
       "slug": "20260902-mitsuke-school-parking",
       "date": "2026-09-02",
       "modified": "2026-09-02",
