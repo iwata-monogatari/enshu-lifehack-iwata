@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260903-child-vaccination-app-check",
+      "date": "2026-09-03",
+      "modified": "2026-09-03",
+      "axis": "thu",
+      "title": "磐田市の子ども予防接種｜9月にアプリで確認する順番",
+      "description": "磐田市の子ども予防接種を、2026年4月1日更新の標準スケジュールといわた子育てアプリで9月に確認する順番に整理します。母子モの登録、未接種日の照合、医療機関への予約、予診票と母子健康手帳の準備まで、乳幼児の保護者が今日できる段取りを紹介します。",
+      "home_description": "9月は母子モの登録だけで終わらせず、市公式の標準スケジュール、接種歴、医療機関の予約、持ち物まで一度に照合します。",
+      "cta": "official",
+      "primary_source": "定期予防接種の種類とスケジュール／磐田市（ページ更新日2026年4月1日）、いわた子育てアプリ／磐田市（ページ更新日2025年7月23日）、接種における注意事項／磐田市、磐田市個別接種協力医療機関を2026-09-03に確認",
+      "cover_alt": "磐田市の子ども予防接種を9月にアプリで確認する順番を整理する記事の表紙",
+      "related_life": [
+        {"href": "/life/family-grow/child-vaccination/", "label": "磐田市の子どもの予防接種の手続きと確認先"},
+        {"href": "/life/health-medical/vaccinations/", "label": "磐田市の予防接種全体の入口を見る"},
+        {"href": "/life/family-grow/infant-health-check/", "label": "磐田市の乳幼児健診を確認する"},
+        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"}
+      ]
+    },
+    {
       "slug": "20260903-shugakuji-kenko-shindan",
       "date": "2026-09-03",
       "modified": "2026-09-03",

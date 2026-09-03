@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">9月3日に予防接種を確認する四段階</title>
+<desc id="desc">登録、照合、予約、持ち物の四段階を横並びにした予防接種の段取り図。</desc>
+<rect width="1200" height="675" fill="#f7fbfc"/><text x="600" y="105" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="700" fill="#123a52">今日できる一歩を、四つに分ける</text>
+<g font-family="sans-serif" text-anchor="middle"><circle cx="180" cy="300" r="105" fill="#d9eff7" stroke="#0074ae" stroke-width="5"/><text x="180" y="280" font-size="27" font-weight="700" fill="#123a52">1 登録</text><text x="180" y="325" font-size="20" fill="#456">子どもの情報</text>
+<circle cx="460" cy="300" r="105" fill="#e5f2e2" stroke="#5e9367" stroke-width="5"/><text x="460" y="280" font-size="27" font-weight="700" fill="#123a52">2 照合</text><text x="460" y="325" font-size="20" fill="#456">公式表と手帳</text>
+<circle cx="740" cy="300" r="105" fill="#fff0d8" stroke="#d59031" stroke-width="5"/><text x="740" y="280" font-size="27" font-weight="700" fill="#123a52">3 予約</text><text x="740" y="325" font-size="20" fill="#456">医療機関へ電話</text>
+<circle cx="1020" cy="300" r="105" fill="#f1e6f5" stroke="#8a5a9a" stroke-width="5"/><text x="1020" y="280" font-size="27" font-weight="700" fill="#123a52">4 準備</text><text x="1020" y="325" font-size="20" fill="#456">予診票・手帳</text>
+<path d="M300 300h55M580 300h55M860 300h55" stroke="#7895a4" stroke-width="8"/><path d="m345 276 30 24-30 24M625 276l30 24-30 24M905 276l30 24-30 24" fill="none" stroke="#7895a4" stroke-width="8"/></g>
+<rect x="180" y="500" width="840" height="70" rx="35" fill="#123a52"/><text x="600" y="545" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#fff">アプリだけで確定せず、公式ページと医師に確認</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">予防接種の確認は四つの資料を照合する</title>
+<desc id="desc">母子モを入口に、磐田市公式スケジュール、母子健康手帳、医療機関の順に確認する流れを示す図。</desc>
+<rect width="1200" height="675" fill="#f4f8fa"/><rect x="55" y="55" width="1090" height="565" rx="28" fill="#fff" stroke="#c7dce6" stroke-width="4"/>
+<text x="95" y="125" font-family="sans-serif" font-size="34" font-weight="700" fill="#123a52">9月の予防接種チェック</text>
+<g font-family="sans-serif" text-anchor="middle"><rect x="100" y="215" width="210" height="220" rx="24" fill="#e8f4f9" stroke="#0074ae" stroke-width="4"/><text x="205" y="285" font-size="58">📱</text><text x="205" y="345" font-size="28" font-weight="700" fill="#123a52">母子モ</text><text x="205" y="390" font-size="20" fill="#456">生年月日・接種歴</text>
+<path d="M330 325h80" stroke="#0074ae" stroke-width="8"/><path d="m395 300 30 25-30 25" fill="none" stroke="#0074ae" stroke-width="8"/>
+<rect x="445" y="215" width="210" height="220" rx="24" fill="#eef7ed" stroke="#5e9367" stroke-width="4"/><text x="550" y="285" font-size="58">📄</text><text x="550" y="345" font-size="28" font-weight="700" fill="#123a52">市公式表</text><text x="550" y="390" font-size="20" fill="#456">対象年齢・間隔</text>
+<path d="M675 325h80" stroke="#0074ae" stroke-width="8"/><path d="m740 300 30 25-30 25" fill="none" stroke="#0074ae" stroke-width="8"/>
+<rect x="790" y="215" width="210" height="220" rx="24" fill="#fff4e5" stroke="#d59031" stroke-width="4"/><text x="895" y="285" font-size="58">📔</text><text x="895" y="345" font-size="28" font-weight="700" fill="#123a52">母子健康手帳</text><text x="895" y="390" font-size="20" fill="#456">実際の接種日</text></g>
+<rect x="160" y="505" width="880" height="64" rx="32" fill="#123a52"/><text x="600" y="547" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="700" fill="#fff">最後は医療機関へ予約条件を確認</text>
+</svg>
