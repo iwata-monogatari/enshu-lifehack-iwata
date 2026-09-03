@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260903-shugakuji-kenko-shindan",
+      "date": "2026-09-03",
+      "modified": "2026-09-03",
+      "axis": "thu",
+      "title": "磐田市の就学時健康診断｜2026年は10月1日から",
+      "description": "磐田市の就学時健康診断は2026年、全20校で10月1日から11月20日まで。案内通知、水色封筒、持ち物、会場の見方、通知が届かないときの連絡先を保護者向けに整理します。",
+      "home_description": "磐田市の就学時健康診断は2026年、全20校で10月1日から11月20日まで。水色封筒の案内、持ち物、会場の見方を整理します。",
+      "cta": "official",
+      "primary_source": "就学時健康診断／磐田市（ページ更新日2026年8月19日）、令和8年度就学時健康診断日時／磐田市、手続き／磐田市教育委員会を2026-09-03に確認",
+      "cover_alt": "磐田市の就学時健康診断の時期、持ち物、通知の流れを整理する記事の表紙",
+      "related_life": [
+        {"href": "/life/education/elementary-middle-school/", "label": "小学校・中学校のことを見る"},
+        {"href": "/life/education/school-attendance-support/", "label": "就学支援・就学相談を見る"},
+        {"href": "/life/education/school-zones/", "label": "通学区を確認する"},
+        {"href": "/life/education/educational-consulting/", "label": "教育相談を確認する"}
+      ]
+    },
+    {
       "slug": "20260903-kodomo-daredemo-tsuen",
       "date": "2026-09-03",
       "modified": "2026-09-03",
