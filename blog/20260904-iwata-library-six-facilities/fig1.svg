@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">磐田市の図書館6施設を地区と目的で見る</title><desc id="desc">中央、福田、竜洋、豊岡、にこっと、ながふじの6施設を、地区と利用目的の違いで整理した模式図。</desc>
+<rect width="1200" height="675" fill="#eef6f8"/><rect x="55" y="48" width="1090" height="579" rx="28" fill="#fff" stroke="#b6d4dc" stroke-width="4"/>
+<text x="95" y="112" font-family="sans-serif" font-size="32" font-weight="700" fill="#124b62">磐田市の図書館 6施設</text><text x="95" y="151" font-family="sans-serif" font-size="22" fill="#55717b">近い場所と目的を重ねて選ぶ</text>
+<path d="M180 220 C320 180 420 250 540 215 S770 180 1010 250" fill="none" stroke="#78b9c3" stroke-width="10" stroke-linecap="round"/>
+<g font-family="sans-serif" text-anchor="middle"><g fill="#e8f4f0" stroke="#3b8b7d" stroke-width="3"><circle cx="170" cy="300" r="76"/><circle cx="375" cy="265" r="76"/><circle cx="580" cy="320" r="76"/><circle cx="785" cy="265" r="76"/><circle cx="990" cy="320" r="76"/><circle cx="585" cy="500" r="76"/></g>
+<g font-size="25" font-weight="700" fill="#164f60"><text x="170" y="294">中央</text><text x="170" y="327">資料・展示</text><text x="375" y="259">福田</text><text x="375" y="292">子育て・大活字</text><text x="580" y="314">竜洋</text><text x="580" y="347">音楽資料</text><text x="785" y="259">豊岡</text><text x="785" y="292">地域の文庫</text><text x="990" y="314">にこっと</text><text x="990" y="347">本・相談</text><text x="585" y="494">ながふじ</text><text x="585" y="527">平日昼・学校</text></g></g>
+<text x="600" y="602" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#55717b">「一番大きい館」ではなく「続けて行ける館」が日常の入口</text>
+</svg>

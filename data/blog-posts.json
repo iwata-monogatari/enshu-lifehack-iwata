@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260904-iwata-library-six-facilities",
+      "date": "2026-09-04",
+      "modified": "2026-09-04",
+      "axis": "fri",
+      "title": "磐田市の図書館6施設｜近い館の使い分け",
+      "description": "磐田市の図書館6施設は、中央・福田・竜洋・豊岡・にこっと・ながふじです。開館時間、休館日、場所、得意分野、2026年9月の特別展示を比べ、近い館を選ぶ順番に整理します。",
+      "home_description": "磐田市の図書館6施設を、近さ・開館時間・得意分野で比較。2026年9月の特別展示と、予約・受取・返却の使い分けも整理します。",
+      "cta": "official",
+      "primary_source": "施設ガイド 図書館／磐田市、各6施設の施設ガイド、利用案内・各種サービス／磐田市立図書館、認知症月間／磐田市を2026-09-04に確認",
+      "cover_alt": "磐田市の図書館6施設を場所と目的で使い分ける記事の表紙",
+      "related_life": [
+        {"href": "/life/play-out/facilities-library-parks/", "label": "磐田市の公共施設・図書館・公園を探す"},
+        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"},
+        {"href": "/blog/20260902-mitsuke-school-parking/", "label": "旧見付学校の駐車場と見学順を見る"},
+        {"href": "/blog/20260902-buried-cultural-property-notification/", "label": "磐田市の埋蔵文化財届出を確認する"}
+      ]
+    },
+    {
       "slug": "20260903-child-vaccination-app-check",
       "date": "2026-09-03",
       "modified": "2026-09-03",
