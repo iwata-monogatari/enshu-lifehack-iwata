@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">スポーツ施設を予約する前の確認図</title><desc id="desc">学校体育館を含むスポーツ施設について、利用目的、空調対象校、料金、予約、利用後の報告を確認する図。</desc>
+<rect width="1200" height="675" fill="#eef3f1"/><rect x="60" y="45" width="1080" height="585" rx="30" fill="#fff" stroke="#294c60" stroke-width="5"/>
+<text x="100" y="112" font-family="sans-serif" font-size="36" font-weight="700" fill="#294c60">予約前から利用後まで</text><text x="100" y="150" font-family="sans-serif" font-size="21" fill="#53636b">一人に作業を集めず、終わりまで見通す</text>
+<g font-family="sans-serif"><rect x="115" y="215" width="250" height="105" rx="18" fill="#d9eadf"/><text x="240" y="260" text-anchor="middle" font-size="25" font-weight="700" fill="#214c3d">目的・人数</text><text x="240" y="294" text-anchor="middle" font-size="18" fill="#214c3d">何を何人で使うか</text>
+<rect x="475" y="215" width="250" height="105" rx="18" fill="#e7dfc8"/><text x="600" y="260" text-anchor="middle" font-size="25" font-weight="700" fill="#634f2d">空調・料金</text><text x="600" y="294" text-anchor="middle" font-size="18" fill="#634f2d">学校と時間帯を照合</text>
+<rect x="835" y="215" width="250" height="105" rx="18" fill="#d6e8ed"/><text x="960" y="260" text-anchor="middle" font-size="25" font-weight="700" fill="#294c60">予約・支払い</text><text x="960" y="294" text-anchor="middle" font-size="18" fill="#294c60">システムと受付施設</text>
+<rect x="295" y="430" width="250" height="105" rx="18" fill="#f1ddc9"/><text x="420" y="475" text-anchor="middle" font-size="25" font-weight="700" fill="#70442b">利用する</text><text x="420" y="509" text-anchor="middle" font-size="18" fill="#70442b">施錠・消灯を確認</text>
+<rect x="655" y="430" width="250" height="105" rx="18" fill="#e4d9ec"/><text x="780" y="475" text-anchor="middle" font-size="25" font-weight="700" fill="#503c62">報告する</text><text x="780" y="509" text-anchor="middle" font-size="18" fill="#503c62">利用報告書を提出</text></g>
+<path d="M365 268h110M725 268h110M960 325v68M545 482h105" stroke="#c17a46" stroke-width="9" stroke-linecap="round"/><path d="M240 325v50l180 0v50M780 535v35l-540 0v-35" fill="none" stroke="#c17a46" stroke-width="7" stroke-linecap="round"/>
+<text x="600" y="604" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#294c60">最新条件は、磐田市公式ページで確認</text>
+</svg>

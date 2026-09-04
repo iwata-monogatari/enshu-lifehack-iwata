@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260905-iwata-sports-facilities",
+      "date": "2026-09-05",
+      "modified": "2026-09-05",
+      "axis": "sat",
+      "title": "磐田市のスポーツ施設｜初めての選び方",
+      "description": "磐田市のスポーツ施設を、体育館・グラウンド・プール・トレーニングの目的別に整理。2026年6月1日から9校で始まった学校体育館の空調、予約・料金・距離の見方を、初めて運動を始める市民の段取りに翻訳します。",
+      "home_description": "磐田市のスポーツ施設は、競技名だけでなく目的・人数・屋内外・予約・距離で選びます。学校体育館の空調9校も確認します。",
+      "cta": "official",
+      "primary_source": "施設ガイド スポーツ・みどころ関連施設／磐田市、施設ガイド 体育館／磐田市、施設ガイド グラウンド／磐田市、学校体育施設の利用／磐田市を2026-09-05に確認",
+      "cover_alt": "磐田市のスポーツ施設を目的と距離で選ぶ記事の表紙",
+      "related_life": [
+        {"href": "/life/play-out/facilities-library-parks/", "label": "磐田市の公共施設・図書館・公園を探す"},
+        {"href": "/blog/20260827-five-districts/", "label": "磐田市の五つの地区と暮らしの違いを見る"},
+        {"href": "/blog/20260904-iwata-library-six-facilities/", "label": "磐田市の図書館6施設の使い分けを見る"},
+        {"href": "/life/play-out/parking-access/", "label": "施設へ出かける前に駐車場・アクセスを確認する"}
+      ]
+    },
+    {
       "slug": "20260904-iwata-library-six-facilities",
       "date": "2026-09-04",
       "modified": "2026-09-04",
