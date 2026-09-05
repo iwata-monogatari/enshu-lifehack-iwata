@@ -1,0 +1,450 @@
+<!doctype html><html lang="ja"><head>
+<!--
+  磐田ブログ 記事テンプレート（このディレクトリは _ 始まりなので公開されず、台帳チェックの対象外）
+  使い方:
+   1. このディレクトリを blog/<YYYYMMDD-テーマ英語>/ へコピーする
+   2. テンプレート記号を全部置き換える（残っていると公開事故になるので必ず検索して確認する）
+   3. data/blog-posts.json に1件追記する
+   4. python scripts/make_blog_cover.py <slug>     … 表紙 cover.jpg を作る
+   5. fig1.svg / fig2.svg を用意する（data-illustration="iwata-editorial" が必須）
+   6. python scripts/inject_parts.py               … header/footer を流し込む
+   7. python scripts/build_blog.py                 … 品質ゲート＋一覧生成
+  品質ゲート: 編集本文5,000文字以上／段落35以上／磐田市公式の出典2本以上／
+              良い点・注文したい点・対案・結論・大石の視点／post-author／cover.jpg／
+              fig1.svg・fig2.svg／/assets/blog.css／禁止語なし
+-->
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ジュビロ磐田メモリアルマラソン2026｜申込手順 | 磐田ライフハック</title>
+<meta name="description" content="ジュビロ磐田メモリアルマラソン2026は11月22日開催、申込は9月14日23時59分までです。5種目の対象・料金とRUNNETで決済を終えるまでの手順を、初参加者向けに整理します。">
+<link rel="canonical" href="https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/">
+<link rel="alternate" type="application/atom+xml" title="磐田ブログ" href="/blog/feed.xml">
+<meta name="robots" content="max-image-preview:large">
+<meta property="og:type" content="article"><meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="磐田ライフハック"><meta property="og:title" content="ジュビロ磐田メモリアルマラソン2026｜申込手順">
+<meta property="og:description" content="ジュビロ磐田メモリアルマラソン2026は11月22日開催、申込は9月14日23時59分までです。5種目の対象・料金とRUNNETで決済を終えるまでの手順を、初参加者向けに整理します。">
+<meta property="og:image" content="https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/cover.jpg">
+<meta property="og:url" content="https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/"><meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"ジュビロ磐田メモリアルマラソン2026｜申込手順","description":"ジュビロ磐田メモリアルマラソン2026は11月22日開催、申込は9月14日23時59分までです。5種目の対象・料金とRUNNETで決済を終えるまでの手順を、初参加者向けに整理します。","datePublished":"2026-09-05","dateModified":"2026-09-05","inLanguage":"ja","author":{"@type":"Person","name":"大石浩之","url":"https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/"},"image":"https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/cover.jpg","mainEntityOfPage":"https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/","publisher":{"@type":"Organization","name":"富士ヶ丘サービス株式会社"},"isPartOf":{"@type":"Blog","name":"磐田ライフハック ブログ","url":"https://iwata.enshu-lifehack.com/blog/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"磐田ライフハック","item":"https://iwata.enshu-lifehack.com/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://iwata.enshu-lifehack.com/blog/"},{"@type":"ListItem","position":3,"name":"ジュビロ磐田メモリアルマラソン2026｜申込手順","item":"https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ジュビロ磐田メモリアルマラソン2026の申込期限はいつですか。","acceptedAnswer":{"@type":"Answer","text":"通常申込は2026年9月14日23時59分までです。ただし、申込期間内でも定員に達した時点で締め切られます。RUNNETで入力しただけでは確定せず、参加料の決済完了で出走権が確定します。最新状況は磐田市と大会の公式ページで確認してください。"}},{"@type":"Question","name":"初参加ならどの種目を選べばよいですか。","acceptedAnswer":{"@type":"Answer","text":"記録を競わず3kmを楽しむなら小学生以上のファンラン、親子なら小学生1人と18歳以上の保護者1人のファミリーが候補です。5kmは中学生以上、ハーフは高校生以上です。年齢、制限時間、料金を照合して決めてください。"}},{"@type":"Question","name":"申込後、大会当日に受付はありますか。","acceptedAnswer":{"@type":"Answer","text":"大会当日の選手受付はありません。開催日の約2週間前を目安に、アスリートビブス、計測チップ、参加者案内、参加賞引換券などが郵送されます。届いた内容と緊急連絡先の記入を確認し、当日に忘れず持参してください。"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"大石浩之","jobTitle":"宅地建物取引士","description":"静岡県磐田市で不動産業を営む。実家じまい・空き家・相続・介護に関わる相談を現場で受けている。","address":{"@type":"PostalAddress","addressLocality":"磐田市","addressRegion":"静岡県","addressCountry":"JP"},"worksFor":{"@type":"Organization","name":"富士ヶ丘サービス株式会社","url":"https://www.fujigaoka-service.co.jp/"},"url":"https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/","sameAs":["https://oishi-hiroyuki.org/","https://fudosan.atawi.link/","https://www.fujigaoka-service.co.jp/","https://iwata.enshu-lifehack.com/terms/"]}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- PART:head-css:START --><link rel="stylesheet" href="/assets/site.css?v=20260828a"><!-- PART:head-css:END -->
+<link rel="stylesheet" href="/assets/blog.css?v=20260828c">
+</head><body>
+<!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span><nav class="site-nav" aria-label="主要メニュー"><a href="/blog/"><span aria-hidden="true">✍️</span>ブログ</a></nav><button type="button" id="font-size-toggle" class="font-size-toggle" aria-pressed="false">文字 大</button></div></header><script>(function(){var KEY='enshu-font-large';var btn=document.getElementById('font-size-toggle');function apply(on){document.documentElement.classList.toggle('font-large',on);if(btn){btn.setAttribute('aria-pressed',on?'true':'false');btn.textContent=on?'文字 標準':'文字 大';}}apply(localStorage.getItem(KEY)==='1');if(btn){btn.addEventListener('click',function(){var on=!document.documentElement.classList.contains('font-large');apply(on);try{localStorage.setItem(KEY,on?'1':'0');}catch(e){}});}})();</script><!-- PART:header:END -->
+<!-- PART:disclaimer:START --><div class="disclaimer"><div class="wrap">磐田ライフハックは磐田市公式サイトではありません。最新・正確な情報は必ず公式ページで確認してください。</div></div><!-- PART:disclaimer:END -->
+<main id="main"><div class="wrap">
+<p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ <a href="/blog/">ブログ</a> ／ ジュビロ磐田メモリアルマラソン2026｜申込手順</p>
+<article class="post">
+<p class="post-date"><time datetime="2026-09-05">2026年9月5日</time>　<span>スポーツ・イベント</span></p>
+<h1>ジュビロ磐田メモリアルマラソン2026｜申込手順</h1>
+<p class="post-cover"><img src="cover.jpg" alt="ジュビロ磐田メモリアルマラソン2026の開催日、申込期限、種目を確認する記事の表紙" width="760" height="760" fetchpriority="high" decoding="async"></p>
+<div class="post-point"><p class="post-point-label">この記事の要点</p>
+<p class="post-point-q">Q. 初参加です。いつまでに、何を決めて申し込めばいいですか。</p>
+<p class="post-point-a">A. <strong>第29回大会は2026年11月22日開催、通常申込は9月14日23時59分までです。先に5種目から対象と制限時間に合うものを選び、RUNNETで参加料の決済まで終えてください。定員到達で早く締まるため、最新状況は公式ページで確認します。</strong></p></div>
+<!-- ▼ ここから post-editorial-body。直後に action-grid を置くこと（build_blog.py の正規表現がこの並びを見る）。
+     この中に <div> を入れてはいけない（本文の切り出しが壊れる）。<p> は35個以上、空白を除いて5,000文字以上。 -->
+<div class="post-editorial-body">
+<h2 class="sec">結論——9月14日までに「種目」と「決済」を終える</h2>
+<p>第29回ジュビロ磐田メモリアルマラソンは、2026年11月22日（日曜）に開催されます。通常申込は2026年9月14日（月曜）23時59分までです。申込期間中でも定員に達した時点で募集は終わります。</p>
+<p>会場はヤマハスタジアム周辺です。市の案内では、ヤマハスタジアムがスタートとフィニッシュの会場として示されています。開会式は午前8時20分です。</p>
+<p>申込方法はインターネットのRUNNETだけです。電話やファクスでは申し込めません。画面へ情報を入れただけでは足りず、参加料の決済完了で出走権が確定します。</p>
+<p>初参加で最初に決めることは、速さではありません。本人の年齢、走る距離、制限時間、参加料の四つです。ここが合えば、申込画面の迷いはかなり減ります。</p>
+<p>走る準備より先に、申込を終える。期限を過ぎれば、参加するか迷う自由までなくなります。今日は種目を一つ決め、RUNNETの決済完了画面まで進む。私は、その段取りが一番実用的だと考えます。</p>
+<figure class="post-figure"><img src="/blog/20260905-jubilo-iwata-memorial-marathon-2026/fig1.svg" alt="2026年9月14日23時59分までに種目選択、RUNNET入力、参加料決済を完了し、11月22日の大会へ進む流れ"><figcaption>図1　申込は「入力」ではなく「決済完了」まで</figcaption></figure>
+<h2 class="sec">公式情報で確認した開催日と申込期限</h2>
+<p>磐田市の「第29回ジュビロ磐田メモリアルマラソン」は、2026年7月1日更新です。開催日を11月22日、申込締切日を9月14日と案内しています。2026年9月5日に内容とリンクの表示を確認しました。</p>
+<p>市のページには「申し込みはオンラインのみで受付しています」と明記されています。続けて、定員になり次第締め切るとも案内されています。最終日まで必ず枠が残るという意味ではありません。</p>
+<p>RUNNETの大会ページでは、通常のエントリー期間が2026年7月1日0時から9月14日23時59分までと示されています。市の「9月14日」を、時刻まで確認できる形です。</p>
+<p>募集規模は8,000件、参加者では8,600人です。件数と人数が違うのは、3kmファミリーが1組2人で申し込むためです。大会全体の数字を読むときに、ここは意外に見落としやすいところです。</p>
+<p>磐田市は、市内外から7,000人以上が参加する市を代表するスポーツイベントと紹介しています。ヤマハスタジアムを起点に、見付、国府台、今之浦、福田方面など、普段の生活圏に近い道をランナーが進みます。</p>
+<p>大会公式サイト上部には、日付が未入力のように見える表示もありました。しかし、磐田市の本文、大会公式の開催概要、RUNNETは11月22日（日曜）で一致しています。この記事では一致した三つの情報を基準にしています。</p>
+<h2 class="sec">5種目を年齢・料金・制限時間で比べる</h2>
+<p>第29回大会の種目は、ハーフマラソン、5km、3km小学生、3kmファミリー、3kmファンランの五つです。距離だけでなく、対象年齢と計測の有無が違います。</p>
+<p>ハーフマラソンは高校生以上が対象です。定員は4,600人、参加料は6,000円、制限時間は3時間です。男子と女子で年齢別の部門があります。</p>
+<p>5kmは中学生以上が対象です。定員は1,600人、制限時間は40分です。参加料は中学生2,500円、高校生以上4,500円です。</p>
+<p>3km小学生は、小学1年生から6年生までが対象です。男女別で、定員は700人、参加料は2,000円、制限時間は30分です。4～6年生と1～3年生ではスタート時刻が分かれます。</p>
+<p>3kmファミリーは、小学生1人と18歳以上の保護者1人の組です。定員は600組、合計1,200人です。参加料は1組6,000円で、申込は出走する保護者の名義で行います。</p>
+<p>3kmファンランは小学生以上が対象です。定員500人、参加料3,500円、制限時間30分で、記録計測はありません。順位より、3kmを楽しんで走り切りたい人の選択肢です。</p>
+<p>大人が個人で3kmの記録を残す部門はありません。大人が3kmを走るなら、親子のファミリーか、非計測のファンランを検討します。記録を残したい大人は5kmかハーフです。</p>
+<p>仮装で参加できるのは3kmと5kmです。ハーフマラソンは対象外です。服装を先に考えている人も、種目の条件を逆算して選ぶ必要があります。</p>
+<figure class="post-figure"><img src="/blog/20260905-jubilo-iwata-memorial-marathon-2026/fig2.svg" alt="ハーフ6,000円、5kmは中学生2,500円と高校生以上4,500円、小学生3km2,000円、ファミリー1組6,000円、ファンラン3,500円を対象年齢とともに比べた図"><figcaption>図2　初参加者向けの種目・対象・参加料の比較</figcaption></figure>
+<h2 class="sec">RUNNETで申し込む7段階</h2>
+<p>ジュビロ磐田メモリアルマラソン2026の申込は、種目確認から決済完了まで七段階に分けると抜けを防げます。家族分を扱うときは、誰の名義で申し込むかを最初に決めます。</p>
+<ol class="post-steps"><li>磐田市または大会公式ページから、第29回大会のRUNNETページを開く。</li><li>本人の年齢と希望距離を、参加資格・制限時間と照らして種目を決める。</li><li>RUNNETへログインし、申込者情報と参加者情報を入力する。</li><li>3kmを除く種目では、無理のない予想タイムを入力する。</li><li>参加賞、駐車券の希望、緊急時に必要な項目を確認する。</li><li>種目、氏名、料金、入力内容を見直して参加料を支払う。</li><li>決済完了と申込履歴を確認し、受付番号や画面を保存する。</li></ol>
+<p>RUNNETの会員登録がまだなら、メールアドレスとログイン情報を用意します。家族や友人の分をまとめて扱う機能もありますが、出走者の氏名、年齢、連絡先を取り違えないよう、一人ずつ確認します。</p>
+<p>ファミリー部門は、子どもの名前だけで申し込むのではありません。出走する保護者名義で申し込みます。小学生1人と保護者1人の組で、二人が手をつないでフィニッシュする種目です。</p>
+<p>ハーフと5kmでは、予想タイムがスタート時のグループ分けに使われます。実力から大きく離れたタイムは、周囲との接触につながります。未入力なら最終グループからの出走です。</p>
+<p>コンビニ払いを選ぶ場合は、申込期限とは別に支払期限を確認します。入力を9月14日までに終えても、指定された支払期限を過ぎれば決済完了にはなりません。</p>
+<p>決済前に、部門と参加者をもう一度見ます。参加料決済後の部門変更や返金はできません。誰がどの距離を走るか、家族の会話と画面の選択が一致しているかが最後の確認です。</p>
+<h2 class="sec">申込画面で決める交通手段と参加賞</h2>
+<p>申込時には、走る種目だけでなく当日の車利用も決めます。ランナー用駐車場を希望する人は、RUNNETで駐車場利用を申し込みます。希望者には無料の駐車券が事前郵送されます。</p>
+<p>駐車券には指定駐車場が記載されます。大会当日は渋滞が起きやすいと公式FAQが案内しています。普段ヤマハスタジアムへ車で行く感覚のまま、好きな駐車場へ停める仕組みではありません。</p>
+<p>公共交通なら、JR御厨駅から会場まで約1.5km、徒歩約20分です。3kmと5kmのコースに交差するため、御厨駅から会場へ向かう途中で一時的に横断できない時間があります。</p>
+<p>車と鉄道のどちらにするか迷う場合は、<a href="/life/start-living/public-transit/">磐田市で公共交通を使うときの確認先</a>と、<a href="/life/play-out/parking-access/">駐車場・アクセスの調べ方</a>を見比べてください。大会の交通案内と規制情報を優先します。</p>
+<p>参加賞は申込画面で選びます。RUNNETはTシャツ、ビッグタオル、地場産品詰め合わせ、磐田銘菓詰め合わせ、チャリティー、本人の大会写真を案内しています。ファミリーは二人分を自由に選べない組み合わせがあります。</p>
+<p>交通規制の詳細は、大会のおよそ1か月前に大会公式サイトで案内される予定です。2026年9月5日時点では、後から出る案内を確認する余地が残っています。申込時の情報だけで当日の移動を確定しない方が安全です。</p>
+<h2 class="sec">申込後に届くものと当日の持ち物</h2>
+<p>第29回大会は当日の選手受付がありません。開催日の約2週間前を目安に、アスリートビブス、計測チップ、参加者案内、参加賞引換券などが郵送されます。</p>
+<p>「当日に会場で受付すればよい」と思っていると、準備の順番が逆になります。郵便物が届いたら、氏名、種目、ビブス、計測チップ、駐車券の有無を一度に照合します。</p>
+<p>アスリートビブスの裏面には緊急連絡先を記入します。体調確認を行い、保険証はコピーでもよいので持参するよう募集要項に記載されています。</p>
+<p>練習場所をこれから決める人は、<a href="/blog/20260905-iwata-sports-facilities/">磐田市のスポーツ施設を初めて選ぶ手順</a>で、目的、予約、料金、距離の順に候補を絞れます。大会へ申し込むことと、無理のない練習計画は分けて考えます。</p>
+<p>施設の手続きだけを先に確認したい人は、<a href="/life/play-out/sports-facilities/">磐田市のスポーツ施設ガイド</a>も使えます。大会までの体調や走力は個人差が大きいため、無理な距離を一律には勧めません。</p>
+<h2 class="sec">評価——良い点を先に数える</h2>
+<p>第29回大会の良い点は、初参加者が距離を選びやすいことです。小学生の3km、親子のファミリー、非計測のファンラン、5km、ハーフまで入口が分かれています。</p>
+<p>制限時間も数字で示されています。ハーフ3時間、5km40分、3km30分です。速い人だけの大会に見せず、自分の走力に合わせて判断する材料があります。</p>
+<p>申込から当日までの役割分担も明確です。RUNNETで決済し、ビブスなどは事前郵送されます。当日受付がないため、会場で並ぶ手間を減らせます。</p>
+<p>駐車券の希望を申込時に取る点も、台数と人の流れを事前に整理する仕組みです。市内外から8,600人規模が動く大会では、自由駐車より現実的です。</p>
+<h2 class="sec">注文したい点——公式三か所を往復させないでほしい</h2>
+<p>注文したい点は、申込期限、種目表、申込操作、当日の交通が、磐田市、大会公式、RUNNETに分かれていることです。初参加者は、どのページを最終回答にするか迷います。</p>
+<p>磐田市のページは開催日と締切が見やすく、パンフレットには料金表があります。大会公式FAQは変更・返金や駐車券に詳しく、決済はRUNNETです。役割はありますが、申込途中の人には三つの地図を同時に開く状態です。</p>
+<p>私は、磐田市の案内に「種目を選ぶ」「RUNNETで入力する」「決済完了を確認する」「郵送物を待つ」という短い進行表があると助かると考えます。担当する人への批判ではなく、入口の並べ方への注文です。</p>
+<p>大会公式サイト上部の未入力に見える開催日表示も、初参加者を迷わせます。本文では正しい日付を確認できました。目立つ場所と本文の表示が早くそろうことを、一市民として望みます。</p>
+<h2 class="sec">対案・結論——今日やるのは四項目のメモ</h2>
+<p>ジュビロ磐田メモリアルマラソン2026へ申し込む人が今日できる一歩は、紙かスマートフォンに「出走者、種目、参加料、交通手段」の四項目を書くことです。そのままRUNNETの入力順になります。</p>
+<p>たとえば「本人、5km、4,500円、御厨駅から徒歩」と一行にします。家族なら「保護者名義、3kmファミリー、1組6,000円、駐車券希望」と書けば、名義と駐車券の見落としを減らせます。</p>
+<p>次に、RUNNETで決済を終え、申込履歴を保存します。コンビニ払いなら支払期限も同じメモへ足します。申込完了メールだけに頼らず、家族が見つけられる場所へ控えを置きます。</p>
+<p>11月に入ったら、郵送物と交通規制の案内を確認します。届かない、種目が違う、駐車券がないといった場合は、平日9時から17時に実行委員会へ確認できます。</p>
+<h2 class="sec">大石の視点——申込は走力ではなく段取りで詰まる</h2>
+<p>ここからは公表情報ではなく、大石浩之（磐田市／不動産業）の意見です。今回のテーマに使える実体験は体験台帳にないため、私が参加した、申込画面を操作したという話は書きません。</p>
+<p>私自身、開催日の根拠を磐田市、大会公式、RUNNETのどこに置くか迷いました。三つの本文が11月22日で一致する一方、大会公式の上部には未入力に見える日付表示が残っていたからです。だから、見出しの大きさではなく一致する一次情報を選びました。</p>
+<p>私は、初参加の申込で詰まりやすいのは走力より段取りだと考えます。親子の名義、年齢区分、予想タイム、駐車券、支払期限は、走る練習とは別の仕事です。</p>
+<p>市民は、申込画面へ進む前から、仕事や家事の合間に家族の予定を合わせています。その手間を「簡単なオンライン申込」の一言で片づけてはいけません。</p>
+<p>だから、今日の成果はトレーニング計画を完成させることではありません。種目と交通手段を家族で決め、決済を終えることです。申込後に、体調と生活に合う練習量を考えれば間に合います。</p>
+<h2 class="sec">FAQ——初参加者から出やすい3問</h2>
+<p>ジュビロ磐田メモリアルマラソン2026の初参加者が確認したい内容を、申込期限、種目選び、当日受付の三つに絞ります。回答は2026年9月5日に確認した公式情報に基づきます。</p>
+<h3>Q1. 申込期限はいつですか。</h3>
+<p>通常申込は2026年9月14日23時59分までです。ただし、申込期間内でも定員に達した時点で締め切られます。RUNNETで入力しただけでは確定せず、参加料の決済完了で出走権が確定します。最新状況は磐田市と大会の公式ページで確認してください。</p>
+<h3>Q2. 初参加ならどの種目を選べばよいですか。</h3>
+<p>記録を競わず3kmを楽しむなら小学生以上のファンラン、親子なら小学生1人と18歳以上の保護者1人のファミリーが候補です。5kmは中学生以上、ハーフは高校生以上です。年齢、制限時間、料金を照合して決めてください。</p>
+<h3>Q3. 申込後、大会当日に受付はありますか。</h3>
+<p>大会当日の選手受付はありません。開催日の約2週間前を目安に、アスリートビブス、計測チップ、参加者案内、参加賞引換券などが郵送されます。届いた内容と緊急連絡先の記入を確認し、当日に忘れず持参してください。</p>
+<h2 class="sec">申込前の最終確認</h2>
+<p>第29回大会は2026年11月22日開催、通常申込は9月14日23時59分までです。期限、定員、本人の対象種目を公式ページで確認し、RUNNETの決済完了まで進めます。</p>
+<ul class="post-summary"><li>五つの種目から年齢、距離、制限時間、料金が合うものを一つ選ぶ</li><li>ファミリーの保護者名義、予想タイム、駐車券希望を入力前に決める</li><li>決済完了後は郵送物と大会約1か月前の交通規制案内を確認する</li></ul>
+</div>
+<div class="action-grid"><a class="btn" href="https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1012920.html">磐田市公式で申込状況を確認する</a><a class="btn" href="https://runnet.jp/entry/runtes/smp/competitiondetail.do?div=1&amp;raceId=392536">RUNNETの大会ページを開く</a><a class="btn" href="/blog/">ブログの記事一覧へ戻る</a></div>
+<h2 class="sec">参考にした公式情報</h2>
+<!-- 磐田市公式(https://www.city.iwata.shizuoka.jp/)のURLが2本以上必要。href は実在URLに差し替える。
+     scripts/check_official_links.py が全HTMLのhrefを叩くので、ダミーURLは置かないこと。 -->
+<ul class="post-sources"><li><a href="https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1012920.html" target="_blank" rel="noopener">第29回ジュビロ磐田メモリアルマラソン／磐田市</a>（2026年9月5日確認・ページ更新日2026年7月1日）</li><li><a href="https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/920/Pamphlet.pdf" target="_blank" rel="noopener">第29回大会パンフレット／磐田市</a>（2026年9月5日確認）</li><li><a href="https://www.jubilo-marathon.com/runners/" target="_blank" rel="noopener">ランナー案内／ジュビロ磐田メモリアルマラソン実行委員会</a>（2026年9月5日確認）</li><li><a href="https://www.jubilo-marathon.com/qa/" target="_blank" rel="noopener">よくある質問・お問い合わせ／ジュビロ磐田メモリアルマラソン実行委員会</a>（2026年9月5日確認）</li><li><a href="https://runnet.jp/entry/runtes/smp/competitiondetail.do?div=1&amp;raceId=392536" target="_blank" rel="noopener">第29回ジュビロ磐田メモリアルマラソン／RUNNET</a>（2026年9月5日確認）</li></ul>
+<!-- BLOG_RELATED:START --><section class="post-related" aria-labelledby="post-related-title"><h2 class="sec" id="post-related-title">関連記事・次に読む</h2><div class="post-related-grid"><a class="post-related-card" href="/blog/20260905-iwata-sports-facilities/"><span>手続きガイド</span><strong>磐田市のスポーツ施設を初めて選ぶ手順</strong></a><a class="post-related-card" href="/life/play-out/parking-access/"><span>手続きガイド</span><strong>駐車場・アクセスの調べ方を確認する</strong></a><a class="post-related-card" href="/life/start-living/public-transit/"><span>手続きガイド</span><strong>磐田市の公共交通の確認先を見る</strong></a><a class="post-related-card" href="/life/play-out/sports-facilities/"><span>手続きガイド</span><strong>磐田市のスポーツ施設ガイドを見る</strong></a><a class="post-related-card" href="/blog/20260905-iwata-sports-facilities/"><span>磐田ブログ</span><strong>磐田市のスポーツ施設｜初めての選び方</strong></a><a class="post-related-card" href="/blog/20260904-iwata-library-six-facilities/"><span>磐田ブログ</span><strong>磐田市の図書館6施設｜近い館の使い分け</strong></a></div></section><!-- BLOG_RELATED:END -->
+<div class="post-author-box"><p><img src="/assets/author-oishi.jpg" alt="" width="120" height="120" loading="lazy" decoding="async" style="width:120px;height:120px;object-fit:cover;border-radius:50%;display:block"></p><p class="post-author">この記事の執筆：<a href="/author/oishi-hiroyuki/">大石浩之</a>（磐田市／不動産業・宅地建物取引士）／富士ヶ丘サービス株式会社　<a href="/terms/">運営者・利用条件</a></p></div>
+<p class="verified">最終確認日：2026-09-05 ／ 本記事は公表情報と執筆者の見解を分けて記載しています。参加条件・数値・公開状況は変更される場合があります。個別の参加可否は大会実行委員会へ問い合わせ、最新情報は必ず磐田市と大会の公式ページでご確認ください。</p>
+</article></div></main>
+<!-- PART:footer:START --><style>.enshu-footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px}.enshu-footer h3,.enshu-footer .footer-brand h2{border:0;padding:0;margin:0 0 8px;color:#fff;font-size:16px}.enshu-footer p{margin:0 0 8px}.enshu-footer ul{list-style:none;margin:0;padding:0}.enshu-footer li{margin:4px 0}.enshu-footer a,.enshu-footer li{display:flex;align-items:center;gap:.2rem}.enshu-footer a{min-height:44px;padding:6px 4px;margin:-6px -4px}.enshu-footer .footer-munis a{min-height:44px;padding:8px 10px;margin:-8px -10px}.footer-emoji{display:inline-flex;align-items:center;justify-content:center;line-height:1;flex:0 0 auto;font-size:1rem;margin-right:.35rem}.footer-favicon{display:inline-block;width:13px;height:13px;vertical-align:middle;margin-left:4px;border-radius:2px}.enshu-footer .footer-bottom{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);margin-top:6px;padding-top:14px;text-align:center}.enshu-footer .footer-bottom>p>a{display:inline-flex;justify-content:center}.enshu-footer .footer-munis{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin-top:8px}.enshu-footer .footer-munis a{white-space:nowrap}.enshu-footer .footer-subheading{margin-top:14px}.enshu-footer .footer-network{padding-left:14px}@media(max-width:720px){.enshu-footer .wrap{grid-template-columns:1fr}.enshu-footer .footer-network{padding-left:0}}</style>
+<!-- managed-footer:start -->
+<footer class="fgo-managed-footer" data-managed-footer="true" data-generated-at="2026-08-24">
+<style>
+.fgo-managed-footer {
+  border-top: 1px solid rgba(17, 24, 39, 0.14);
+  background: #f7f7f2;
+  color: #20242a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.32;
+  margin: 0;
+  padding: 8px 0;
+}
+.fgo-managed-footer * {
+  box-sizing: border-box;
+}
+.fgo-managed-footer__inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 22px 0 63px;
+}
+body:not(.hub) .fgo-managed-footer__inner {
+  padding-left: 93px;
+}
+@media (max-width: 1039px) and (min-width: 981px) {
+  body.hub .fgo-managed-footer__inner {
+    padding-left: calc((100vw - 980px) / 2 + 33px);
+  }
+}
+@media (max-width: 1039px) and (min-width: 921px) {
+  body:not(.hub) .fgo-managed-footer__inner {
+    padding-left: calc((100vw - 920px) / 2 + 33px);
+  }
+}
+@media (max-width: 980px) {
+  body.hub .fgo-managed-footer__inner {
+    padding-left: 33px;
+  }
+}
+@media (max-width: 920px) {
+  body:not(.hub) .fgo-managed-footer__inner {
+    padding-left: 33px;
+  }
+}
+.fgo-managed-footer__kicker {
+  color: #5f6b76;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 5px;
+}
+.fgo-managed-footer__grid {
+  display: grid;
+  align-items: start;
+  gap: 8px 24px;
+  grid-template-columns: minmax(220px, 0.95fr) minmax(200px, 0.85fr) minmax(320px, 1.35fr);
+}
+.fgo-managed-footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fgo-managed-footer__section {
+  display: block;
+}
+.fgo-managed-footer__section h2 {
+  color: #20242a;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0 0 3px;
+}
+.fgo-managed-footer__section ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.65em;
+}
+.fgo-managed-footer__section li {
+  display: block;
+  margin: 2px 0;
+  min-width: 0;
+}
+.fgo-managed-footer__section li + li::before {
+  content: none;
+}
+.fgo-managed-footer__section a {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  display: inline;
+  gap: 3px;
+  max-width: 100%;
+  padding: 0;
+  text-decoration: none;
+}
+.fgo-managed-footer__section a:focus,
+.fgo-managed-footer__section a:hover {
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.fgo-managed-footer__label {
+  color: #1f4d63;
+  flex: 0 1 auto;
+  font-size: 16px;
+  font-weight: 800;
+  min-width: 0;
+}
+.fgo-managed-footer__desc {
+  color: #66717c;
+  display: none;
+  flex: 0 1 auto;
+  font-size: 10px;
+  min-width: 0;
+}
+.fgo-managed-footer__desc::before {
+  content: "(";
+}
+.fgo-managed-footer__desc::after {
+  content: ")";
+}
+.fgo-managed-footer__note {
+  border-top: 1px solid rgba(17, 24, 39, 0.08);
+  color: #66717c;
+  font-size: 12px;
+  margin: 7px 0 0;
+  padding-top: 5px;
+}
+.fgo-managed-footer__lifehack-row {
+  display: block;
+  white-space: normal;
+}
+.fgo-managed-footer__separator {
+  color: #98a2ad;
+  margin: 0 6px;
+}
+@media (max-width: 720px) {
+  .fgo-managed-footer__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .fgo-managed-footer {
+    padding: 8px 0;
+  }
+  .fgo-managed-footer__grid {
+    gap: 8px;
+    grid-template-columns: 1fr;
+  }
+  .fgo-managed-footer__section a {
+    padding: 0;
+  }
+}
+</style>
+  <div class="fgo-managed-footer__inner">
+    <p class="fgo-managed-footer__kicker">大石ひろゆき関連サイト</p>
+    <div class="fgo-managed-footer__grid">
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section" aria-label="大石ひろゆき">
+          <h2>大石ひろゆき</h2>
+          <ul>
+            <li>
+              <a href="https://oishi-hiroyuki.org/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">大石ひろゆき公式サイト</span>
+                <span class="fgo-managed-footer__desc">oishi-hiroyuki.org</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="fgo-managed-footer__section" aria-label="相談窓口">
+          <h2>相談窓口</h2>
+          <ul>
+            <li>
+              <a href="https://www.fujigaoka-service.co.jp/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">富士ヶ丘サービス（不動産）</span>
+                <span class="fgo-managed-footer__desc">磐田・袋井の不動産売却支援</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.fujigaoka-service.info/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">富士ヶ丘サービス（介護）</span>
+                <span class="fgo-managed-footer__desc">高齢者向け住宅・親の家の相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://iwata-monogatari.github.io/fujigaoka-jikka-soudan/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">実家じまい・空き家相談室</span>
+                <span class="fgo-managed-footer__desc">親の家・実家じまい・空き家のご相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://iwata-monogatari.github.io/fujigaoka-souzoku-soudan/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">相続はじめ・空き家相談室</span>
+                <span class="fgo-managed-footer__desc">親の家・相続はじめ・空き家のご相談</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://fudosan.atawi.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI FUDOSAN</span>
+                <span class="fgo-managed-footer__desc">fudosan.atawi.link</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://ninbai.atawi.link/?fga_internal=1" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI 任意売却相談室</span>
+                <span class="fgo-managed-footer__desc">ninbai.atawi.link</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section" aria-label="文化・芸術・スポーツ">
+          <h2>文化・芸術・スポーツ</h2>
+          <ul>
+            <li>
+              <a href="https://iwata-monogatari.net/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">磐田物語</span>
+                <span class="fgo-managed-footer__desc">iwata-monogatari.net</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://shrine.atawi.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label"><span aria-hidden="true">⛩️</span> 磐田の神社145社（ATAWI SHRINE）</span>
+                <span class="fgo-managed-footer__desc">shrine.atawi.link</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://temple.atawi.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label"><span aria-hidden="true">🪷</span> 磐田の寺院118ヶ寺（ATAWI TEMPLE）</span>
+                <span class="fgo-managed-footer__desc">temple.atawi.link</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://atawimusic.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI MUSIC</span>
+                <span class="fgo-managed-footer__desc">atawimusic.link</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://atawicomedy.link/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">ATAWI COMEDY</span>
+                <span class="fgo-managed-footer__desc">atawicomedy.link</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="fgo-managed-footer__column">
+        <nav class="fgo-managed-footer__section fgo-managed-footer__section--lifehack" aria-label="地域情報・ライフハック">
+          <h2>地域情報・ライフハック</h2>
+          <ul>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">遠州ライフハック</span>
+                <span class="fgo-managed-footer__desc">enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://iwata.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">磐田ライフハック</span>
+                <span class="fgo-managed-footer__desc">iwata.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://fukuroi.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">袋井ライフハック</span>
+                <span class="fgo-managed-footer__desc">fukuroi.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kakegawa.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">掛川ライフハック</span>
+                <span class="fgo-managed-footer__desc">kakegawa.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://morimachi.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">森町ライフハック</span>
+                <span class="fgo-managed-footer__desc">morimachi.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kikugawa.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">菊川ライフハック</span>
+                <span class="fgo-managed-footer__desc">kikugawa.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://omaezaki.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">御前崎ライフハック</span>
+                <span class="fgo-managed-footer__desc">omaezaki.enshu-lifehack.com</span>
+              </a>
+            </li>
+            <li class="fgo-managed-footer__lifehack-row">
+              <a href="https://kosai.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">湖西ライフハック</span>
+                <span class="fgo-managed-footer__desc">kosai.enshu-lifehack.com</span>
+              </a>
+              <span class="fgo-managed-footer__separator">/</span>
+              <a href="https://hamamatsu.enshu-lifehack.com/" target="_blank" rel="noopener">
+                <span class="fgo-managed-footer__label">浜松ライフハック</span>
+                <span class="fgo-managed-footer__desc">hamamatsu.enshu-lifehack.com</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <p class="fgo-managed-footer__note">地域情報、音楽、スポーツ、相談窓口をまとめています。 / Copyright 大石ひろゆき / 富士ヶ丘サービス</p>
+  </div>
+</footer>
+<!-- managed-footer:end --><script defer src="https://fujigaoka-analytics-worker.hiroyukio0122.workers.dev/tracker.js" data-site="iwata-lifehack" data-fujigaoka-analytics="true"></script><!-- PART:footer:END -->
+</body></html>

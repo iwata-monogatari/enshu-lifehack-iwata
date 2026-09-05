@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260905-jubilo-iwata-memorial-marathon-2026",
+      "date": "2026-09-05",
+      "modified": "2026-09-05",
+      "axis": "sat",
+      "title": "ジュビロ磐田メモリアルマラソン2026｜申込手順",
+      "description": "ジュビロ磐田メモリアルマラソン2026は11月22日開催、申込は9月14日23時59分までです。5種目の対象・料金とRUNNETで決済を終えるまでの手順を、初参加者向けに整理します。",
+      "home_description": "11月22日開催の第29回大会は9月14日23時59分まで。5種目の対象と料金、RUNNETで決済を終える順番を整理します。",
+      "cta": "official",
+      "primary_source": "第29回ジュビロ磐田メモリアルマラソン／磐田市（ページ更新日2026年7月1日）、第29回大会パンフレット／磐田市、大会公式ランナー案内・FAQ、RUNNETを2026-09-05に確認",
+      "cover_alt": "ジュビロ磐田メモリアルマラソン2026の開催日、申込期限、種目を確認する記事の表紙",
+      "related_life": [
+        {"href": "/blog/20260905-iwata-sports-facilities/", "label": "磐田市のスポーツ施設を初めて選ぶ手順"},
+        {"href": "/life/play-out/parking-access/", "label": "駐車場・アクセスの調べ方を確認する"},
+        {"href": "/life/start-living/public-transit/", "label": "磐田市の公共交通の確認先を見る"},
+        {"href": "/life/play-out/sports-facilities/", "label": "磐田市のスポーツ施設ガイドを見る"}
+      ]
+    },
+    {
       "slug": "20260905-iwata-sports-facilities",
       "date": "2026-09-05",
       "modified": "2026-09-05",
