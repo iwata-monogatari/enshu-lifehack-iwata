@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">発災直後の初期対応の流れ</title>
+  <desc id="desc">地震発生後に身の安全、避難、安否確認、救出と救助の順に進み、安否確認を必ず行うことを示す図。</desc>
+  <rect width="1200" height="675" rx="36" fill="#f4f7f1"/>
+  <text x="600" y="82" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#173f45">発災直後は、順番を崩さない</text>
+  <text x="600" y="127" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" fill="#486269">2026年度 磐田市総合防災訓練の初期対応</text>
+  <g font-family="system-ui,sans-serif" text-anchor="middle">
+    <rect x="55" y="235" width="190" height="128" rx="22" fill="#dcebef" stroke="#286677" stroke-width="4"/><text x="150" y="287" font-size="24" fill="#173f45">地震発生</text><text x="150" y="330" font-size="27" font-weight="700" fill="#173f45">震度6強以上</text>
+    <path d="M255 299H300" stroke="#286677" stroke-width="8"/><path d="M300 299l-18-13v26z" fill="#286677"/>
+    <rect x="310" y="235" width="190" height="128" rx="22" fill="#fff4d6" stroke="#c27a13" stroke-width="4"/><text x="405" y="286" font-size="25" fill="#573c14">まず自分の</text><text x="405" y="330" font-size="34" font-weight="700" fill="#573c14">身の安全</text>
+    <path d="M510 299H555" stroke="#286677" stroke-width="8"/><path d="M555 299l-18-13v26z" fill="#286677"/>
+    <rect x="565" y="235" width="150" height="128" rx="22" fill="#e7f2df" stroke="#4d7b39" stroke-width="4"/><text x="640" y="316" font-size="36" font-weight="700" fill="#27461f">避難</text>
+    <path d="M725 299H770" stroke="#286677" stroke-width="8"/><path d="M770 299l-18-13v26z" fill="#286677"/>
+    <rect x="780" y="215" width="190" height="168" rx="22" fill="#fbe2df" stroke="#ad4b42" stroke-width="6"/><text x="875" y="280" font-size="27" fill="#6b2420">必ず行う</text><text x="875" y="330" font-size="36" font-weight="800" fill="#6b2420">安否確認</text>
+    <path d="M980 299H1025" stroke="#286677" stroke-width="8"/><path d="M1025 299l-18-13v26z" fill="#286677"/>
+    <rect x="1035" y="235" width="120" height="128" rx="22" fill="#dcebef" stroke="#286677" stroke-width="4"/><text x="1095" y="286" font-size="23" fill="#173f45">救出</text><text x="1095" y="330" font-size="23" fill="#173f45">救助</text>
+  </g>
+  <rect x="150" y="464" width="900" height="110" rx="24" fill="#ffffff" stroke="#b8c9c5" stroke-width="3"/>
+  <text x="600" y="515" text-anchor="middle" font-family="system-ui,sans-serif" font-size="29" font-weight="700" fill="#173f45">家族で決める：無事なら何を出すか・誰が確認するか</text>
+  <text x="600" y="554" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#486269">自治会・自主防災会の方法を先に確認</text>
+</svg>

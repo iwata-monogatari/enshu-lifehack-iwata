@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">防災訓練日に家族で確かめる六項目</title>
+  <desc id="desc">安否の示し方、避難先と経路、水と食料7日分、携帯トイレ1人35回分、支援担当、情報手段の六項目を一枚に整理した図。</desc>
+  <rect width="1200" height="675" rx="36" fill="#f6f4ee"/>
+  <text x="600" y="74" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#173f45">9月6日、家族版一枚を埋める</text>
+  <text x="600" y="116" text-anchor="middle" font-family="system-ui,sans-serif" font-size="23" fill="#53666b">全部ではなく、一つ決まれば今日の成果</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="70" y="160" width="330" height="140" rx="24" fill="#ffffff" stroke="#2f7180" stroke-width="4"/><circle cx="118" cy="208" r="26" fill="#2f7180"/><text x="118" y="218" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">1</text><text x="165" y="211" font-size="31" font-weight="700" fill="#173f45">安否の示し方</text><text x="105" y="260" font-size="21" fill="#53666b">方法・置き場所・担当と代役</text>
+    <rect x="435" y="160" width="330" height="140" rx="24" fill="#ffffff" stroke="#4d7b39" stroke-width="4"/><circle cx="483" cy="208" r="26" fill="#4d7b39"/><text x="483" y="218" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">2</text><text x="530" y="211" font-size="31" font-weight="700" fill="#173f45">避難先と経路</text><text x="470" y="260" font-size="21" fill="#53666b">第一候補・第二候補・危険な道</text>
+    <rect x="800" y="160" width="330" height="140" rx="24" fill="#ffffff" stroke="#c27a13" stroke-width="4"/><circle cx="848" cy="208" r="26" fill="#c27a13"/><text x="848" y="218" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">3</text><text x="895" y="211" font-size="31" font-weight="700" fill="#173f45">水・食料</text><text x="835" y="260" font-size="25" font-weight="700" fill="#8b540b">7日分</text>
+    <rect x="70" y="340" width="330" height="140" rx="24" fill="#ffffff" stroke="#ad4b42" stroke-width="4"/><circle cx="118" cy="388" r="26" fill="#ad4b42"/><text x="118" y="398" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">4</text><text x="165" y="391" font-size="29" font-weight="700" fill="#173f45">携帯トイレ</text><text x="105" y="442" font-size="25" font-weight="700" fill="#8a342e">1人35回分</text>
+    <rect x="435" y="340" width="330" height="140" rx="24" fill="#ffffff" stroke="#6c61a8" stroke-width="4"/><circle cx="483" cy="388" r="26" fill="#6c61a8"/><text x="483" y="398" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">5</text><text x="530" y="391" font-size="31" font-weight="700" fill="#173f45">支援担当</text><text x="470" y="442" font-size="21" fill="#53666b">最初に声をかける人を決める</text>
+    <rect x="800" y="340" width="330" height="140" rx="24" fill="#ffffff" stroke="#2f7180" stroke-width="4"/><circle cx="848" cy="388" r="26" fill="#2f7180"/><text x="848" y="398" text-anchor="middle" font-size="26" font-weight="700" fill="#fff">6</text><text x="895" y="391" font-size="31" font-weight="700" fill="#173f45">情報手段</text><text x="835" y="442" font-size="21" fill="#53666b">中止・変更を受け取れるか試す</text>
+  </g>
+  <path d="M260 548H940" stroke="#b8c9c5" stroke-width="4" stroke-linecap="round"/>
+  <text x="600" y="603" text-anchor="middle" font-family="system-ui,sans-serif" font-size="29" font-weight="700" fill="#173f45">買う前に数える。決める前に自治会案内を見る。</text>
+</svg>
