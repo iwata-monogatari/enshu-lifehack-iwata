@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260905-spocul-iwata-club-difference",
+      "date": "2026-09-05",
+      "modified": "2026-09-05",
+      "axis": "sat",
+      "title": "SPO☆CUL IWATA｜2026年9月、休日部活との違い",
+      "description": "SPO☆CUL IWATAと学校部活動の違いを、2026年9月の切替え、月額2,000円からの参加費、別途費用、校区外会場への送迎、保険、申込みの順に保護者向けに整理します。",
+      "home_description": "2026年9月から休日は学校部活を行わずSPO☆CUL IWATAへ。月額負担、別途費用、送迎、保険の違いを整理します。",
+      "cta": "official",
+      "primary_source": "磐田市の部活動改革／磐田市（ページ更新日2026年6月22日）、磐田市地域クラブ活動「SPO☆CUL IWATA」活動ガイドライン（令和8年3月一部改訂）、クラブ運営規程、ロードマップを2026-09-05に確認",
+      "cover_alt": "SPO☆CUL IWATAと学校の休日部活動の違いを月額負担と送迎の面から整理する記事の表紙",
+      "related_life": [
+        {"href": "/blog/20260905-iwata-sports-facilities/", "label": "磐田市のスポーツ施設を初めて選ぶ手順"},
+        {"href": "/blog/20260903-shugakuji-kenko-shindan/", "label": "2026年の就学時健康診断と家族の予定を確認する"},
+        {"href": "/life/play-out/sports-facilities/", "label": "磐田市のスポーツ施設ガイドを見る"},
+        {"href": "/life/education/elementary-middle-school/", "label": "磐田市の小学校・中学校の情報を確認する"}
+      ]
+    },
+    {
       "slug": "20260905-jubilo-iwata-memorial-marathon-2026",
       "date": "2026-09-05",
       "modified": "2026-09-05",

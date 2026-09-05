@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">平日の学校部活動と休日のSPO☆CUL IWATAの違い</title>
+  <desc id="desc">平日は学校管理の部活動、休日は学校管理外のSPO☆CUL IWATAとなり、申込み、費用、移動が変わることを示す。</desc>
+  <rect width="1200" height="675" fill="#f5f2e8"/>
+  <text x="600" y="68" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#183b4e">2026年9月以降の中学生の活動</text>
+  <rect x="70" y="120" width="470" height="450" rx="28" fill="#dcecf2" stroke="#2d6f89" stroke-width="4"/>
+  <rect x="660" y="120" width="470" height="450" rx="28" fill="#fff1cf" stroke="#ba7426" stroke-width="4"/>
+  <text x="305" y="180" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#1d5269">平日：学校部活動</text>
+  <text x="895" y="180" text-anchor="middle" font-family="sans-serif" font-size="32" font-weight="700" fill="#8a4a13">休日：SPO☆CUL IWATA</text>
+  <g font-family="sans-serif" font-size="25" fill="#20313a">
+    <text x="120" y="250">学校の管理下</text><text x="120" y="315">学校単位の活動</text><text x="120" y="380">学校側の連絡</text><text x="120" y="445">災害共済給付制度</text>
+    <text x="710" y="250">学校管理外の地域クラブ</text><text x="710" y="315">Webで希望クラブへ申込み</text><text x="710" y="380">月2,000円から＋別途費用</text><text x="710" y="445">保護者責任で会場へ移動</text><text x="710" y="510">スポーツ安全保険</text>
+  </g>
+  <path d="M560 345h80" stroke="#53646c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M625 325l25 20-25 20" fill="none" stroke="#53646c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="628" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#53646c">平日と休日は、別の仕組みとして確認する</text>
+</svg>
