@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">磐田市営住宅の募集時期を二つに分けた図</title>
+  <desc id="desc">定期募集は5月、9月、1月の広報掲載で、2026年9月6日は期間外。福田地区のはまぼう団地は年間を通じて随時受付であることを示す。</desc>
+  <rect width="1200" height="675" fill="#f4f1e8"/>
+  <rect x="55" y="55" width="1090" height="565" rx="28" fill="#fffdf8" stroke="#1f5d50" stroke-width="5"/>
+  <text x="95" y="120" fill="#163f38" font-family="sans-serif" font-size="42" font-weight="700">2026年9月6日の入口を分ける</text>
+  <rect x="95" y="170" width="650" height="360" rx="24" fill="#e6f1ed"/>
+  <text x="130" y="225" fill="#163f38" font-family="sans-serif" font-size="32" font-weight="700">定期募集</text>
+  <line x1="160" y1="330" x2="675" y2="330" stroke="#638b80" stroke-width="8"/>
+  <circle cx="210" cy="330" r="35" fill="#fff" stroke="#1f5d50" stroke-width="6"/>
+  <circle cx="420" cy="330" r="35" fill="#fff" stroke="#1f5d50" stroke-width="6"/>
+  <circle cx="630" cy="330" r="35" fill="#fff" stroke="#1f5d50" stroke-width="6"/>
+  <text x="183" y="341" fill="#163f38" font-family="sans-serif" font-size="28" font-weight="700">5月</text>
+  <text x="393" y="341" fill="#163f38" font-family="sans-serif" font-size="28" font-weight="700">9月</text>
+  <text x="595" y="341" fill="#163f38" font-family="sans-serif" font-size="28" font-weight="700">1月</text>
+  <text x="130" y="410" fill="#355c54" font-family="sans-serif" font-size="25">「広報いわた」に募集内容を掲載</text>
+  <rect x="130" y="445" width="550" height="58" rx="14" fill="#b95245"/>
+  <text x="405" y="483" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="27" font-weight="700">9月6日時点は募集期間外</text>
+  <rect x="785" y="170" width="320" height="360" rx="24" fill="#fff0c8"/>
+  <text x="945" y="225" text-anchor="middle" fill="#6d4b00" font-family="sans-serif" font-size="31" font-weight="700">はまぼう団地</text>
+  <circle cx="945" cy="338" r="85" fill="#fffdf8" stroke="#d49500" stroke-width="8"/>
+  <path d="M945 275a63 63 0 1 1-54 31" fill="none" stroke="#d49500" stroke-width="13" stroke-linecap="round"/>
+  <path d="M875 290l20 42 36-28" fill="none" stroke="#d49500" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="945" y="455" text-anchor="middle" fill="#6d4b00" font-family="sans-serif" font-size="30" font-weight="700">通年で随時受付</text>
+  <text x="945" y="495" text-anchor="middle" fill="#6d4b00" font-family="sans-serif" font-size="22">空き・資格は市へ確認</text>
+  <text x="600" y="583" text-anchor="middle" fill="#52645f" font-family="sans-serif" font-size="23">「9月掲載」と「9月中いつでも申込可」は同じではない</text>
+</svg>

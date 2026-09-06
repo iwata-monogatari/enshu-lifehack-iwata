@@ -6,6 +6,25 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260906-iwata-municipal-housing-september",
+      "date": "2026-09-06",
+      "modified": "2026-09-06",
+      "axis": "sun",
+      "title": "磐田市営住宅｜9月6日時点は募集期間外",
+      "description": "2026年9月6日時点、磐田市営住宅の定期募集は期間外です。5月・9月・1月の掲載時期と、福田地区はまぼう団地の通年受付を分け、空き戸数、家賃、申込資格、電子申込、窓口の順に整理します。",
+      "home_description": "9月6日時点は定期募集の期間外。福田地区はまぼう団地の通年受付と分け、今日確認する入口を整理します。",
+      "cta": "official",
+      "primary_source": "市営住宅入居者の募集／磐田市（ページ更新日2026年6月9日）、市営住宅入居の募集案内、施設ガイド はまぼう団地を2026-09-06に確認",
+      "cover_alt": "磐田市営住宅の9月定期募集と、はまぼう団地の通年受付を分けて確認する記事の表紙",
+      "related_life": [
+        {"href": "/life/housing/municipal-housing/", "label": "磐田市営住宅の条件と申込みを確認する"},
+        {"href": "/life/housing/public-housing-consultation/", "label": "住まいに困ったときの相談先を確認する"},
+        {"href": "/blog/20260827-five-districts/", "label": "市役所と四つの支所から暮らしの距離を測る"},
+        {"href": "/blog/20260830-population-163224-natural-decline/", "label": "磐田市の人口と世帯数から暮らしを考える"},
+        {"href": "/life/start-living/moving-address-change/", "label": "入居後の住所変更を確認する"}
+      ]
+    },
+    {
       "slug": "20260906-iwata-disaster-drill-family-check",
       "date": "2026-09-06",
       "modified": "2026-09-06",

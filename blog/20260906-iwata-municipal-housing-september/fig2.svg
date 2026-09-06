@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">市営住宅を確認する五段階の図</title>
+  <desc id="desc">現在の募集表示を見て、はまぼう団地または次回定期募集を選び、申込資格、空き戸数、家賃以外の負担を順に確認する。</desc>
+  <rect width="1200" height="675" fill="#eef3f2"/>
+  <text x="600" y="85" text-anchor="middle" fill="#173f38" font-family="sans-serif" font-size="42" font-weight="700">今日止まらずに進める五段階</text>
+  <path d="M145 345H1055" stroke="#7b9e96" stroke-width="12" stroke-linecap="round"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <circle cx="145" cy="345" r="72" fill="#1f5d50"/>
+    <text x="145" y="335" fill="#fff" font-size="27" font-weight="700">現在表示</text><text x="145" y="371" fill="#fff" font-size="22">期間内か</text>
+    <circle cx="372" cy="345" r="72" fill="#32796b"/>
+    <text x="372" y="335" fill="#fff" font-size="27" font-weight="700">入口</text><text x="372" y="371" fill="#fff" font-size="22">随時か次回か</text>
+    <circle cx="600" cy="345" r="72" fill="#d49500"/>
+    <text x="600" y="335" fill="#fff" font-size="27" font-weight="700">資格</text><text x="600" y="371" fill="#fff" font-size="22">六項目を照合</text>
+    <circle cx="828" cy="345" r="72" fill="#b86b27"/>
+    <text x="828" y="335" fill="#fff" font-size="27" font-weight="700">空き</text><text x="828" y="371" fill="#fff" font-size="22">戸数を確認</text>
+    <circle cx="1055" cy="345" r="72" fill="#9f4f45"/>
+    <text x="1055" y="335" fill="#fff" font-size="27" font-weight="700">総負担</text><text x="1055" y="371" fill="#fff" font-size="22">家賃以外も</text>
+    <text x="145" y="475" fill="#355c54" font-size="22">市公式ページ</text>
+    <text x="372" y="475" fill="#355c54" font-size="22">はまぼう／定期</text>
+    <text x="600" y="475" fill="#355c54" font-size="22">世帯ごとに確認</text>
+    <text x="828" y="475" fill="#355c54" font-size="22">通年＝空室ではない</text>
+    <text x="1055" y="475" fill="#355c54" font-size="22">敷金・共益費・移動</text>
+  </g>
+  <rect x="195" y="535" width="810" height="74" rx="20" fill="#fff" stroke="#1f5d50" stroke-width="4"/>
+  <text x="600" y="582" text-anchor="middle" fill="#173f38" font-family="sans-serif" font-size="29" font-weight="700">今日の一歩：使う入口を一つ決め、公式ページを保存</text>
+</svg>
