@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260907-public-assistance-additional-payment",
+      "date": "2026-09-07",
+      "modified": "2026-09-07",
+      "axis": "mon",
+      "title": "磐田市の生活保護費追加給付｜申出は2027年7月31日まで",
+      "description": "磐田市の生活保護費追加給付は、過去の受給者も対象になる場合があります。申出期限は2027年7月31日。対象期間、書類を取る前に専用電話へ確認する理由、オンライン・郵送・窓口の手順を整理します。",
+      "home_description": "過去の受給者も対象になる場合があります。申出は2027年7月31日まで。戸籍謄本より先に専用電話へ確認する順番を整理します。",
+      "cta": "official",
+      "primary_source": "最高裁判決を踏まえた生活保護費の追加給付／磐田市（ページ更新日2026年8月25日）、生活保護／磐田市（ページ更新日2024年4月10日）、生活にお困りの方／磐田市を2026-09-07に確認",
+      "cover_alt": "磐田市の生活保護費追加給付で、対象期間と2027年7月31日の申出期限、電話確認の順番を確かめる記事の表紙",
+      "related_life": [
+        {"href": "/life/troubles-consult/living-costs-trouble/", "label": "生活費に困ったときの相談先を確認する"},
+        {"href": "/blog/20260831-kokuho-29136-decline/", "label": "磐田市の国保加入者数と資格の動きを見る"},
+        {"href": "/blog/20260906-iwata-municipal-housing-september/", "label": "磐田市営住宅の募集状況を確認する"},
+        {"href": "/life/housing/public-housing-consultation/", "label": "住まいに困ったときの相談先を確認する"}
+      ]
+    },
+    {
       "slug": "20260907-gentsuki-number-online-application",
       "date": "2026-09-07",
       "modified": "2026-09-07",
@@ -375,7 +393,7 @@
     {
       "slug": "20260831-kokuho-29136-decline",
       "date": "2026-08-31",
-      "modified": "2026-08-31",
+      "modified": "2026-09-07",
       "axis": "sun",
       "title": "磐田市の国保加入者2万9136人、5年で6559人減った理由",
       "description": "磐田市の国民健康保険は令和6年度末で29,136人。令和元年度末の35,695人から5年で6,559人減りました。ところが磐田市が公表した令和6年度の異動内訳では、社会保険との出入りは914人のプラス。減らしているのは後期高齢者医療への移行2,286人です。加入者が減っても負担は増えています。",
