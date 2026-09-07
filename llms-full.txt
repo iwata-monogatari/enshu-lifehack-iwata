@@ -1,0 +1,55 @@
+# 磐田ライフハック 全文参照用索引
+
+> 磐田市の暮らしの手続き・相談先を、生活の段取りに置き換えた非公式サイトです。制度の適用は個別条件で変わります。最終判断は磐田市公式ページで確認してください。
+
+運営：富士ヶ丘サービス株式会社
+執筆：大石浩之（磐田市／不動産業・宅地建物取引士）
+サイト：https://iwata.enshu-lifehack.com/
+
+## 主要入口
+
+- [暮らし始めた](https://iwata.enshu-lifehack.com/life/start-living/)
+- [家族が増える](https://iwata.enshu-lifehack.com/life/family-grow/)
+- [学ぶ・育つ](https://iwata.enshu-lifehack.com/life/education/)
+- [遊ぶ・使う・出かける](https://iwata.enshu-lifehack.com/life/play-out/)
+- [働く・暮らす](https://iwata.enshu-lifehack.com/life/work-life/)
+- [健康・医療](https://iwata.enshu-lifehack.com/life/health-medical/)
+- [家・住まい](https://iwata.enshu-lifehack.com/life/housing/)
+- [これから暮らす](https://iwata.enshu-lifehack.com/life/living-soon/)
+- [もしもの時](https://iwata.enshu-lifehack.com/life/emergency/)
+- [困った・相談したい](https://iwata.enshu-lifehack.com/life/troubles-consult/)
+- [親のこと](https://iwata.enshu-lifehack.com/life/parents-care/)
+- [人生の終わり](https://iwata.enshu-lifehack.com/life/end-of-life/)
+- [新しい場所へ](https://iwata.enshu-lifehack.com/life/moving-out/)
+
+## 磐田ブログ記事
+
+- [磐田市の原付ナンバー電子申請｜9月1日開始](https://iwata.enshu-lifehack.com/blog/20260907-gentsuki-number-online-application/)（2026-09-07）
+- [磐田市営住宅｜9月6日時点は募集期間外](https://iwata.enshu-lifehack.com/blog/20260906-iwata-municipal-housing-september/)（2026-09-06）
+- [磐田市の防災訓練｜9月6日に家族で確かめる](https://iwata.enshu-lifehack.com/blog/20260906-iwata-disaster-drill-family-check/)（2026-09-06）
+- [SPO☆CUL IWATA｜2026年9月、休日部活との違い](https://iwata.enshu-lifehack.com/blog/20260905-spocul-iwata-club-difference/)（2026-09-05）
+- [ジュビロ磐田メモリアルマラソン2026｜申込手順](https://iwata.enshu-lifehack.com/blog/20260905-jubilo-iwata-memorial-marathon-2026/)（2026-09-05）
+- [磐田市のスポーツ施設｜初めての選び方](https://iwata.enshu-lifehack.com/blog/20260905-iwata-sports-facilities/)（2026-09-05）
+- [磐田市の図書館6施設｜近い館の使い分け](https://iwata.enshu-lifehack.com/blog/20260904-iwata-library-six-facilities/)（2026-09-04）
+- [磐田市の子ども予防接種｜9月にアプリで確認する順番](https://iwata.enshu-lifehack.com/blog/20260903-child-vaccination-app-check/)（2026-09-03）
+- [磐田市の就学時健康診断｜2026年は10月1日から](https://iwata.enshu-lifehack.com/blog/20260903-shugakuji-kenko-shindan/)（2026-09-03）
+- [磐田市のこども誰でも通園制度｜一時預かりとの違い](https://iwata.enshu-lifehack.com/blog/20260903-kodomo-daredemo-tsuen/)（2026-09-03）
+- [旧見付学校の駐車場は10台｜満車を避ける見学順](https://iwata.enshu-lifehack.com/blog/20260902-mitsuke-school-parking/)（2026-09-02）
+- [磐田市の埋蔵文化財届出｜工事前に地番と地図を確認](https://iwata.enshu-lifehack.com/blog/20260902-buried-cultural-property-notification/)（2026-09-02）
+- [磐田市の空き家は被災証明書。申請期限は6か月](https://iwata.enshu-lifehack.com/blog/20260901-vacant-house-disaster-certificate/)（2026-09-01）
+- [磐田市の保育園と認定こども園の違いは、0〜2歳では出ない](https://iwata.enshu-lifehack.com/blog/20260831-hoikuen-vs-ninteikodomoen/)（2026-08-31）
+- [磐田市の国保加入者2万9136人、5年で6559人減った理由](https://iwata.enshu-lifehack.com/blog/20260831-kokuho-29136-decline/)（2026-08-31）
+- [磐田市の資格確認書は申請不要。毎年7月31日で期限切れ](https://iwata.enshu-lifehack.com/blog/20260830-shikaku-kakuninsho-annual-renewal/)（2026-08-30）
+- [磐田市の人口16万3224人、7万2421世帯。7月は自然減](https://iwata.enshu-lifehack.com/blog/20260830-population-163224-natural-decline/)（2026-08-30）
+- [磐田市の空き家バンクと空き家おこしプロジェクトの違い](https://iwata.enshu-lifehack.com/blog/20260829-akiya-bank-vs-okoshi-project/)（2026-08-29）
+- [磐田市の粗大ごみは1世帯月1回。実家じまいは出し方が違う](https://iwata.enshu-lifehack.com/blog/20260828-bulky-garbage-estate-cleanout/)（2026-08-28）
+- [磐田市の児童手当、高校生年代まで月1万円。第3子以降は月3万円](https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/)（2026-08-27）
+- [磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測る](https://iwata.enshu-lifehack.com/blog/20260827-five-districts/)（2026-08-27）
+
+## 参照時の注意
+
+- 磐田市公式サイトではありません。
+- 金額、期限、対象、申請方法は変わる場合があります。
+- 各記事の出典欄から磐田市公式ページを開き、最新情報を確認してください。
+- [サイトマップ](https://iwata.enshu-lifehack.com/sitemap.xml)
+- [Atomフィード](https://iwata.enshu-lifehack.com/blog/feed.xml)

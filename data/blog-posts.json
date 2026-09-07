@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260907-gentsuki-number-online-application",
+      "date": "2026-09-07",
+      "modified": "2026-09-07",
+      "axis": "mon",
+      "title": "磐田市の原付ナンバー電子申請｜9月1日開始",
+      "description": "磐田市では2026年9月1日に原付ナンバーの電子申請が始まりました。対象、マイナンバーカード、郵便料430円、到着1週間〜10日、窓口との選び分けを整理します。",
+      "home_description": "9月1日から原付などの新規登録は電子申請も可能。郵便料430円、到着1週間〜10日と窓口を選ぶ基準を整理します。",
+      "cta": "official",
+      "primary_source": "軽自動車税の概要／磐田市（ページ更新日2026年9月1日）、原動機付自転車の登録（標識交付）の手続きを教えてほしい／磐田市（ページ更新日2024年4月1日）、住民票の写しや税の証明書などの電子申請／磐田市（ページ更新日2026年2月24日）を2026-09-07に確認",
+      "cover_alt": "磐田市の原付ナンバー電子申請で、9月1日の開始日、郵便料430円、到着まで1週間〜10日を確かめる記事の表紙",
+      "related_life": [
+        {"href": "/life/work-life/light-vehicle-tax/", "label": "軽自動車税・原付の手続きを確認する"},
+        {"href": "/life/start-living/city-hall-branches/", "label": "市役所・支所の場所と受付時間を確認する"},
+        {"href": "/blog/20260827-five-districts/", "label": "市役所と四つの支所から暮らしの距離を測る"},
+        {"href": "/blog/20260830-shikaku-kakuninsho-annual-renewal/", "label": "資格確認書の更新と電子申請の入口を見る"}
+      ]
+    },
+    {
       "slug": "20260906-iwata-municipal-housing-september",
       "date": "2026-09-06",
       "modified": "2026-09-06",
@@ -313,7 +331,7 @@
     {
       "slug": "20260827-five-districts",
       "date": "2026-08-27",
-      "modified": "2026-09-06",
+      "modified": "2026-09-07",
       "axis": "fri",
       "title": "磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測る",
       "description": "磐田市は面積163.34平方キロメートル、南北27.1キロの市です。市役所と福田・豊岡・豊田・竜洋の四つの支所という形から、住む場所ごとに変わる暮らしの距離感を考えます。",
