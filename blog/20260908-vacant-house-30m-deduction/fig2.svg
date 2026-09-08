@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">確認書の必要資料を三つの束に分ける図</title>
+  <desc id="desc">家族と住所、家屋と敷地、売却と使用状況の三つの資料束をそろえ、オンラインまたは窓口で磐田市建築住宅課へ申請する流れを示した図。</desc>
+  <rect width="1200" height="675" rx="32" fill="#eef4f2"/>
+  <path d="M0 0h1200v118H0z" fill="#173f4f"/>
+  <text x="64" y="57" fill="#ffffff" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="30" font-weight="700">確認書の資料は「三つの束」で不足を見る</text>
+  <text x="64" y="91" fill="#d9ebee" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="18">書類名の暗記より、何を証明する資料かで分ける</text>
+  <g font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif">
+    <g transform="translate(54 164)">
+      <rect x="12" y="12" width="294" height="318" rx="22" fill="#cbdedd"/>
+      <rect x="0" y="0" width="294" height="318" rx="22" fill="#ffffff" stroke="#83a6a5" stroke-width="3"/>
+      <rect x="0" y="0" width="294" height="76" rx="22" fill="#2f7280"/>
+      <path d="M0 54h294v22H0z" fill="#2f7280"/>
+      <text x="28" y="47" fill="#ffffff" font-size="24" font-weight="700">1　家族・住所</text>
+      <text x="28" y="121" fill="#173f4f" font-size="19" font-weight="700">被相続人</text>
+      <text x="28" y="153" fill="#4a5f66" font-size="17">住民票の除票の写し</text>
+      <line x1="28" y1="175" x2="266" y2="175" stroke="#d7e2e1" stroke-width="2"/>
+      <text x="28" y="214" fill="#173f4f" font-size="19" font-weight="700">相続人</text>
+      <text x="28" y="246" fill="#4a5f66" font-size="17">住民票の写し</text>
+      <text x="28" y="283" fill="#8a5310" font-size="16" font-weight="700">一部は原則コピー不可</text>
+    </g>
+    <g transform="translate(379 164)">
+      <rect x="12" y="12" width="294" height="318" rx="22" fill="#e1d5b6"/>
+      <rect x="0" y="0" width="294" height="318" rx="22" fill="#fffdf8" stroke="#d4b66e" stroke-width="3"/>
+      <rect x="0" y="0" width="294" height="76" rx="22" fill="#b07820"/>
+      <path d="M0 54h294v22H0z" fill="#b07820"/>
+      <text x="28" y="47" fill="#ffffff" font-size="24" font-weight="700">2　家屋・敷地</text>
+      <text x="28" y="121" fill="#563a0d" font-size="19" font-weight="700">家屋を取り壊した場合</text>
+      <text x="28" y="153" fill="#6e542a" font-size="17">閉鎖事項証明書</text>
+      <line x1="28" y1="175" x2="266" y2="175" stroke="#e5d8b8" stroke-width="2"/>
+      <text x="28" y="214" fill="#563a0d" font-size="19" font-weight="700">敷地</text>
+      <text x="28" y="246" fill="#6e542a" font-size="17">登記事項証明書</text>
+      <text x="28" y="283" fill="#8a5310" font-size="16" font-weight="700">建築日・名義も照合</text>
+    </g>
+    <g transform="translate(704 164)">
+      <rect x="12" y="12" width="294" height="318" rx="22" fill="#dfc9c4"/>
+      <rect x="0" y="0" width="294" height="318" rx="22" fill="#fffafa" stroke="#c57a6d" stroke-width="3"/>
+      <rect x="0" y="0" width="294" height="76" rx="22" fill="#a84a3a"/>
+      <path d="M0 54h294v22H0z" fill="#a84a3a"/>
+      <text x="28" y="47" fill="#ffffff" font-size="24" font-weight="700">3　売却・使用状況</text>
+      <text x="28" y="121" fill="#642e25" font-size="19" font-weight="700">売却の裏付け</text>
+      <text x="28" y="153" fill="#76504a" font-size="17">売買契約書のコピー等</text>
+      <line x1="28" y1="175" x2="266" y2="175" stroke="#ead5d1" stroke-width="2"/>
+      <text x="28" y="214" fill="#642e25" font-size="19" font-weight="700">相続後の状態</text>
+      <text x="28" y="246" fill="#76504a" font-size="17">撮影日入りの写真等</text>
+      <text x="28" y="283" fill="#8d3428" font-size="16" font-weight="700">工事完了の証明も確認</text>
+    </g>
+    <path d="M1017 323h55" fill="none" stroke="#517981" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1052 303l28 20-28 20" fill="none" stroke="#517981" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(1010 194)">
+      <rect x="72" y="0" width="72" height="258" rx="24" fill="#173f4f"/>
+      <text x="108" y="43" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">磐</text>
+      <text x="108" y="73" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">田</text>
+      <text x="108" y="103" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">市</text>
+      <text x="108" y="147" text-anchor="middle" fill="#d9ebee" font-size="15">へ</text>
+      <text x="108" y="183" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">申</text>
+      <text x="108" y="213" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">請</text>
+    </g>
+  </g>
+  <rect x="72" y="526" width="1056" height="92" rx="22" fill="#ffffff" stroke="#b8ccca" stroke-width="2"/>
+  <text x="600" y="564" text-anchor="middle" fill="#173f4f" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" font-weight="700">オンライン または 西庁舎2階の窓口</text>
+  <text x="600" y="596" text-anchor="middle" fill="#566a70" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="17">個別条件で追加資料あり　送信前に住宅管理グループへ確認</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">相続空き家の売却から確定申告までの時系列</title>
+  <desc id="desc">相続開始、売却期限、買主工事の期限、磐田市への確認書申請、確定申告を横一列に示し、確認書の発行に2週間程度かかることを強調した図。</desc>
+  <rect width="1200" height="675" rx="32" fill="#f5f1e8"/>
+  <path d="M0 0h1200v118H0z" fill="#173f4f"/>
+  <text x="64" y="57" fill="#ffffff" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="30" font-weight="700">売却期限と「確認書の2週間」は別の時計</text>
+  <text x="64" y="91" fill="#d9ebee" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="18">2026年9月8日確認　磐田市の相続空き家・3,000万円特別控除</text>
+  <line x1="115" y1="330" x2="1085" y2="330" stroke="#7d9aa3" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1062 312l30 18-30 18" fill="none" stroke="#7d9aa3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif">
+    <g transform="translate(55 165)">
+      <rect width="200" height="260" rx="22" fill="#ffffff" stroke="#cad7d8" stroke-width="3"/>
+      <circle cx="100" cy="165" r="30" fill="#2f7280"/>
+      <text x="100" y="175" text-anchor="middle" fill="#ffffff" font-size="27" font-weight="700">1</text>
+      <text x="100" y="51" text-anchor="middle" fill="#173f4f" font-size="23" font-weight="700">相続開始</text>
+      <text x="100" y="87" text-anchor="middle" fill="#4a5f66" font-size="17">開始日・建築日</text>
+      <text x="100" y="113" text-anchor="middle" fill="#4a5f66" font-size="17">同居人・利用状況</text>
+      <text x="100" y="226" text-anchor="middle" fill="#173f4f" font-size="17" font-weight="700">先に事実を一枚へ</text>
+    </g>
+    <g transform="translate(278 165)">
+      <rect width="200" height="260" rx="22" fill="#fff7e3" stroke="#e3bd65" stroke-width="3"/>
+      <circle cx="100" cy="165" r="30" fill="#c88120"/>
+      <text x="100" y="175" text-anchor="middle" fill="#ffffff" font-size="27" font-weight="700">2</text>
+      <text x="100" y="51" text-anchor="middle" fill="#563a0d" font-size="23" font-weight="700">売却期限</text>
+      <text x="100" y="87" text-anchor="middle" fill="#6e542a" font-size="17">3年経過日の</text>
+      <text x="100" y="113" text-anchor="middle" fill="#6e542a" font-size="17">属する年の12/31</text>
+      <text x="100" y="226" text-anchor="middle" fill="#8a5310" font-size="17" font-weight="700">36か月とは違う</text>
+    </g>
+    <g transform="translate(501 165)">
+      <rect width="200" height="260" rx="22" fill="#ffffff" stroke="#cad7d8" stroke-width="3"/>
+      <circle cx="100" cy="165" r="30" fill="#2f7280"/>
+      <text x="100" y="175" text-anchor="middle" fill="#ffffff" font-size="27" font-weight="700">3</text>
+      <text x="100" y="51" text-anchor="middle" fill="#173f4f" font-size="23" font-weight="700">買主の工事</text>
+      <text x="100" y="87" text-anchor="middle" fill="#4a5f66" font-size="17">売却後に行うなら</text>
+      <text x="100" y="113" text-anchor="middle" fill="#4a5f66" font-size="17">翌年2/15まで</text>
+      <text x="100" y="226" text-anchor="middle" fill="#173f4f" font-size="17" font-weight="700">完了証明も回収</text>
+    </g>
+    <g transform="translate(724 165)">
+      <rect width="200" height="260" rx="22" fill="#e8f3f4" stroke="#2f7280" stroke-width="4"/>
+      <circle cx="100" cy="165" r="30" fill="#bd4a37"/>
+      <text x="100" y="175" text-anchor="middle" fill="#ffffff" font-size="27" font-weight="700">4</text>
+      <text x="100" y="51" text-anchor="middle" fill="#173f4f" font-size="23" font-weight="700">磐田市へ申請</text>
+      <text x="100" y="87" text-anchor="middle" fill="#335b64" font-size="17">オンライン または</text>
+      <text x="100" y="113" text-anchor="middle" fill="#335b64" font-size="17">西庁舎2階の窓口</text>
+      <text x="100" y="226" text-anchor="middle" fill="#a13d2f" font-size="19" font-weight="700">発行2週間程度</text>
+    </g>
+    <g transform="translate(947 165)">
+      <rect width="200" height="260" rx="22" fill="#ffffff" stroke="#cad7d8" stroke-width="3"/>
+      <circle cx="100" cy="165" r="30" fill="#2f7280"/>
+      <text x="100" y="175" text-anchor="middle" fill="#ffffff" font-size="27" font-weight="700">5</text>
+      <text x="100" y="51" text-anchor="middle" fill="#173f4f" font-size="23" font-weight="700">確定申告</text>
+      <text x="100" y="87" text-anchor="middle" fill="#4a5f66" font-size="17">市の確認書を</text>
+      <text x="100" y="113" text-anchor="middle" fill="#4a5f66" font-size="17">申告書へ添付</text>
+      <text x="100" y="226" text-anchor="middle" fill="#173f4f" font-size="17" font-weight="700">適用判断は税務署</text>
+    </g>
+  </g>
+  <rect x="72" y="482" width="1056" height="126" rx="24" fill="#fffdf8" stroke="#d9cba8" stroke-width="2"/>
+  <text x="600" y="528" text-anchor="middle" fill="#8d3428" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="24" font-weight="700">2週間を締切から逆算しない</text>
+  <text x="600" y="566" text-anchor="middle" fill="#42565d" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="20">不備・記載漏れ・照会があれば延びるため、売却後すぐに資料を分ける</text>
+  <text x="600" y="596" text-anchor="middle" fill="#64767c" font-family="Yu Gothic, Hiragino Kaku Gothic ProN, sans-serif" font-size="16">確認書の交付だけでは、税の特例利用は確定しません</text>
+</svg>
