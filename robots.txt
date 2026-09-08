@@ -9,21 +9,24 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# --- AI学習用クローラーは拒否(AI検索用のOAI-SearchBot等は先頭の*で許可を維持) ---
+# --- AIクローラーを明示的に許可 ---
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: CCBot
 Disallow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: Bytespider
 Disallow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 User-agent: anthropic-ai
 Disallow: /
