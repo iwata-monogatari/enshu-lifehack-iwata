@@ -6,6 +6,23 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260908-iwata-vacant-house-count-1880",
+      "date": "2026-09-08",
+      "modified": "2026-09-08",
+      "axis": "tue",
+      "title": "磐田市の空き家数｜1,880戸と2026年度目標",
+      "description": "磐田市の空き家1,880戸は、2018年調査の「その他住宅」のうち戸建てだけです。全区分は8,500戸で、2026年度目標は2,000戸未満。数字の定義、目標が削減ではない理由、相続実家の持ち主が今日決める管理の一歩を整理します。",
+      "home_description": "磐田市の1,880戸は2018年調査の戸建て・その他住宅。全空き家8,500戸との違いと2026年度目標を読み解きます。",
+      "cta": "official",
+      "primary_source": "磐田市空家等対策計画／磐田市（2022年4月）、空家等対策計画掲載ページ／磐田市（ページ更新日2026年3月5日）、空き家に関する相談会等／磐田市を2026-09-08に確認",
+      "cover_alt": "磐田市の2018年の戸建て空き家1,880戸と2026年度目標2,000戸未満を読み解く記事の表紙",
+      "related_life": [
+        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "磐田市の空き家・実家じまい・相続した家を整理する"},
+        {"href": "/life/troubles-consult/vacant-house-consultation/", "label": "磐田市の空き家の相談先を確認する"},
+        {"href": "/life/end-of-life/house-became-vacant/", "label": "実家が空き家になった直後の確認手順を見る"}
+      ]
+    },
+    {
       "slug": "20260908-vacant-house-30m-deduction",
       "date": "2026-09-08",
       "modified": "2026-09-08",

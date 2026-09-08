@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="磐田市空家等対策計画の時間軸。2018年調査の戸建て・その他住宅1,880戸から、2022年度の計画開始を経て、2026年度は2,000戸未満が目標。1,999戸なら119戸増でも目標内で、2026年9月8日時点の達成実績は掲載されていない" data-illustration="iwata-editorial" data-variant="2">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f8fc"/><stop offset="1" stop-color="#fffaf0"/></linearGradient>
+    <style>.title{font:700 35px system-ui,sans-serif;fill:#123b53}.sub{font:500 20px system-ui,sans-serif;fill:#4c6c7c}.year{font:800 25px system-ui,sans-serif;fill:#006a9e}.num{font:800 38px system-ui,sans-serif;fill:#123b53}.body{font:600 20px system-ui,sans-serif;fill:#365767}.small{font:500 17px system-ui,sans-serif;fill:#557481}</style>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg2)"/>
+  <text x="60" y="72" class="title">2026年度目標は「減らす」ではなく「2,000戸未満」</text>
+  <text x="60" y="108" class="sub">同じ指標を整数で比べたときの読み方</text>
+  <line x1="145" y1="305" x2="1055" y2="305" stroke="#7ca4b5" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="190" cy="305" r="27" fill="#0074ae"/>
+  <circle cx="600" cy="305" r="27" fill="#2e8b57"/>
+  <circle cx="1010" cy="305" r="27" fill="#d8872d"/>
+  <text x="190" y="195" text-anchor="middle" class="year">2018年調査</text>
+  <text x="190" y="245" text-anchor="middle" class="num">1,880戸</text>
+  <text x="190" y="375" text-anchor="middle" class="body">戸建て・その他住宅</text>
+  <text x="600" y="195" text-anchor="middle" class="year">2022年度</text>
+  <text x="600" y="245" text-anchor="middle" class="num">計画開始</text>
+  <text x="600" y="375" text-anchor="middle" class="body">5年間の初年度</text>
+  <text x="1010" y="185" text-anchor="middle" class="year">2026年度</text>
+  <text x="1010" y="235" text-anchor="middle" class="num">2,000戸未満</text>
+  <text x="1010" y="375" text-anchor="middle" class="body">最終年度の目標</text>
+  <rect x="80" y="455" width="500" height="130" rx="20" fill="#fff" stroke="#c6dce7" stroke-width="3"/>
+  <text x="330" y="505" text-anchor="middle" class="body">1,999戸なら目標内</text>
+  <text x="330" y="555" text-anchor="middle" class="num">2018年比 ＋119戸</text>
+  <rect x="620" y="455" width="500" height="130" rx="20" fill="#fff7e9" stroke="#e1ad62" stroke-width="3"/>
+  <text x="870" y="505" text-anchor="middle" class="body">2026年9月8日時点</text>
+  <text x="870" y="555" text-anchor="middle" class="num">達成実績は未掲載</text>
+  <text x="600" y="635" text-anchor="middle" class="small">出典：磐田市空家等対策計画。現在値ではなく、調査年・計画期間・目標値を分けて読む。</text>
+</svg>
