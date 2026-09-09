@@ -6,6 +6,22 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260909-nakahara-b-kofun-exhibition-access",
+      "date": "2026-09-09",
+      "modified": "2026-09-09",
+      "axis": "wed",
+      "title": "中原B古墳群展の行き方｜磐田市・無料",
+      "description": "中原B古墳群展は磐田市埋蔵文化財センターで2026年10月25日まで。8時30分〜17時、祝日・振替休日は休館、無料・申込不要です。駐車10台と磐田駅からのバスを含め、迷わない行き方を整理します。",
+      "home_description": "中原B古墳群展は2026年10月25日まで無料・申込不要。休館日、見付の会場、駐車10台と磐田駅からのバスを整理します。",
+      "cta": "official",
+      "primary_source": "向陽学府に古墳があった！中原B古墳群発掘調査成果展／磐田市（ページ更新日2026年7月30日）、施設ガイド 埋蔵文化財センター／磐田市（ページ更新日2026年6月30日）、文化財課展示・イベント情報／磐田市（ページ更新日2026年8月31日）を2026-09-09に確認",
+      "cover_alt": "中原B古墳群展の会期、会場、無料、申込不要、車とバスの行き方を整理する記事の表紙",
+      "related_life": [
+        {"href": "/life/play-out/cultural-facilities/", "label": "磐田市の文化施設へ行く前に開館日・予約・アクセスを確認する"},
+        {"href": "/life/play-out/parking-access/", "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"}
+      ]
+    },
+    {
       "slug": "20260908-inheritance-registration-vs-heir-declaration",
       "date": "2026-09-08",
       "modified": "2026-09-08",
@@ -290,7 +306,7 @@
     {
       "slug": "20260902-buried-cultural-property-notification",
       "date": "2026-09-02",
-      "modified": "2026-09-02",
+      "modified": "2026-09-09",
       "axis": "wed",
       "title": "磐田市の埋蔵文化財届出｜工事前に地番と地図を確認",
       "description": "磐田市で住宅の新築や造成など土地を掘る工事をする前は、地番と対象地の地図を用意して遺跡範囲を確認します。電話での範囲確認は不可。該当時の60日前届出まで、土地所有者の段取りに翻訳します。",
