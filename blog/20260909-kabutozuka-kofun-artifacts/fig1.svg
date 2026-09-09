@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">兜塚古墳の復元規模</title>
+  <desc id="desc">築造時の円墳を上から見た概念図に、直径約84メートル、本来の高さ約8メートル、5世紀初めの三つの数値と100メートルの比較目盛りを示す。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f1df"/>
+      <stop offset="1" stop-color="#e3eee4"/>
+    </linearGradient>
+    <radialGradient id="mound" cx="42%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#9fbd78"/>
+      <stop offset="0.72" stop-color="#6f925d"/>
+      <stop offset="1" stop-color="#496a49"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#263829" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+  <text x="70" y="76" fill="#20372d" font-family="sans-serif" font-size="34" font-weight="700">測量調査から復元した、築造時の兜塚古墳</text>
+  <text x="70" y="112" fill="#52645a" font-family="sans-serif" font-size="20">現在の墳丘形状や見学経路を示す地図ではありません</text>
+  <circle cx="365" cy="355" r="216" fill="url(#mound)" filter="url(#shadow)"/>
+  <circle cx="365" cy="355" r="181" fill="none" stroke="#d8e8b6" stroke-width="3" stroke-dasharray="8 12" opacity=".75"/>
+  <path d="M149 355H581" stroke="#fff" stroke-width="5"/>
+  <path d="M149 338V372M581 338V372" stroke="#fff" stroke-width="5"/>
+  <rect x="246" y="324" width="238" height="61" rx="30" fill="#243d31" opacity=".94"/>
+  <text x="365" y="365" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="30" font-weight="700">直径 約84m</text>
+  <g transform="translate(668 168)">
+    <rect width="452" height="272" rx="24" fill="#fff" opacity=".92"/>
+    <text x="34" y="58" fill="#7a4d27" font-family="sans-serif" font-size="25" font-weight="700">復元で分かった三つの基準</text>
+    <circle cx="50" cy="112" r="11" fill="#b76539"/>
+    <text x="78" y="121" fill="#27362f" font-family="sans-serif" font-size="26">円墳：直径 約84m</text>
+    <circle cx="50" cy="174" r="11" fill="#b76539"/>
+    <text x="78" y="183" fill="#27362f" font-family="sans-serif" font-size="26">本来の高さ：約8m</text>
+    <circle cx="50" cy="236" r="11" fill="#b76539"/>
+    <text x="78" y="245" fill="#27362f" font-family="sans-serif" font-size="26">築造：5世紀初め</text>
+  </g>
+  <g transform="translate(668 492)">
+    <text x="0" y="0" fill="#3a4c43" font-family="sans-serif" font-size="22" font-weight="700">100mの距離との比較</text>
+    <path d="M0 46H452" stroke="#445f52" stroke-width="9" stroke-linecap="round"/>
+    <path d="M0 31V61M452 31V61" stroke="#445f52" stroke-width="4"/>
+    <path d="M0 94H380" stroke="#b76539" stroke-width="9" stroke-linecap="round"/>
+    <path d="M0 79V109M380 79V109" stroke="#b76539" stroke-width="4"/>
+    <text x="466" y="53" fill="#445f52" font-family="sans-serif" font-size="20">100m</text>
+    <text x="394" y="101" fill="#9a4f2e" font-family="sans-serif" font-size="20" font-weight="700">84m</text>
+  </g>
+</svg>

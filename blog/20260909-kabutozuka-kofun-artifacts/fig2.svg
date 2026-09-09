@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+  <title id="title">兜塚古墳出土資料の四つのまとまり</title>
+  <desc id="desc">銅鏡1面、玉類50点、鉄刀2振以上、円筒埴輪片を四枚のカードで示し、築造時期、首長墓、周溝の理解へつながる関係を表す。</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee4"/>
+      <stop offset="1" stop-color="#e8edf2"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#283438" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg2)"/>
+  <text x="70" y="72" fill="#26383d" font-family="sans-serif" font-size="34" font-weight="700">指定された「出土資料」の四つのまとまり</text>
+  <text x="70" y="108" fill="#5c696d" font-family="sans-serif" font-size="20">実物の形状や出土位置を正確に再現した図ではありません</text>
+  <g transform="translate(62 154)" filter="url(#cardShadow)">
+    <rect width="250" height="286" rx="23" fill="#fff"/>
+    <circle cx="125" cy="101" r="60" fill="#b87343"/>
+    <circle cx="125" cy="101" r="42" fill="none" stroke="#f2d2a5" stroke-width="5"/>
+    <circle cx="125" cy="101" r="11" fill="#754328"/>
+    <path d="M95 72L155 130M155 72L95 130" stroke="#f2d2a5" stroke-width="5" stroke-linecap="round"/>
+    <text x="125" y="197" text-anchor="middle" fill="#26383d" font-family="sans-serif" font-size="27" font-weight="700">銅鏡 1面</text>
+    <text x="125" y="234" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">三神三獣鏡</text>
+    <text x="125" y="263" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">径20.1cm</text>
+  </g>
+  <g transform="translate(338 154)" filter="url(#cardShadow)">
+    <rect width="250" height="286" rx="23" fill="#fff"/>
+    <circle cx="89" cy="76" r="30" fill="#5d8d78"/>
+    <circle cx="89" cy="76" r="11" fill="#fff"/>
+    <ellipse cx="151" cy="91" rx="29" ry="38" fill="#8a6fa3"/>
+    <circle cx="151" cy="91" r="9" fill="#fff"/>
+    <rect x="72" y="129" width="108" height="34" rx="17" fill="#668daa"/>
+    <circle cx="93" cy="146" r="6" fill="#fff"/>
+    <circle cx="125" cy="146" r="6" fill="#fff"/>
+    <circle cx="158" cy="146" r="6" fill="#fff"/>
+    <text x="125" y="197" text-anchor="middle" fill="#26383d" font-family="sans-serif" font-size="27" font-weight="700">玉類 50点</text>
+    <text x="125" y="234" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">勾玉・棗玉</text>
+    <text x="125" y="263" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">管玉など</text>
+  </g>
+  <g transform="translate(614 154)" filter="url(#cardShadow)">
+    <rect width="250" height="286" rx="23" fill="#fff"/>
+    <path d="M74 52L147 150" stroke="#6e7780" stroke-width="15" stroke-linecap="round"/>
+    <path d="M145 39L74 151" stroke="#8c969e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M52 139L92 169M128 142L165 164" stroke="#8c5738" stroke-width="12" stroke-linecap="round"/>
+    <text x="125" y="197" text-anchor="middle" fill="#26383d" font-family="sans-serif" font-size="27" font-weight="700">鉄刀 2振以上</text>
+    <text x="125" y="242" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">市資料の「以上」</text>
+    <text x="125" y="269" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">まで含めて確認</text>
+  </g>
+  <g transform="translate(890 154)" filter="url(#cardShadow)">
+    <rect width="250" height="286" rx="23" fill="#fff"/>
+    <path d="M77 55H173L160 151H90Z" fill="#c88155"/>
+    <path d="M91 74H159M88 103H164M85 132H161" stroke="#f5d9bf" stroke-width="5"/>
+    <path d="M111 55V151M139 55V151" stroke="#9f573a" stroke-width="4"/>
+    <text x="125" y="197" text-anchor="middle" fill="#26383d" font-family="sans-serif" font-size="27" font-weight="700">円筒埴輪片</text>
+    <text x="125" y="242" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">周溝から出土</text>
+    <text x="125" y="269" text-anchor="middle" fill="#687579" font-family="sans-serif" font-size="21">総点数は未記載</text>
+  </g>
+  <path d="M187 466V514M463 466V514M739 466V514M1015 466V514" stroke="#718087" stroke-width="4"/>
+  <path d="M187 514H1015" stroke="#718087" stroke-width="4"/>
+  <path d="M601 514V547" stroke="#718087" stroke-width="4"/>
+  <path d="M587 536L601 552L615 536" fill="none" stroke="#718087" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="252" y="558" width="698" height="72" rx="36" fill="#315b55"/>
+  <text x="601" y="603" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="27" font-weight="700">築造時期・首長墓・周溝を一まとまりで理解する</text>
+</svg>
