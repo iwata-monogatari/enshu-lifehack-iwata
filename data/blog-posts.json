@@ -43,8 +43,14 @@
       "primary_source": "向陽学府に古墳があった！中原B古墳群発掘調査成果展／磐田市（ページ更新日2026年7月30日）、施設ガイド 埋蔵文化財センター／磐田市（ページ更新日2026年6月30日）、文化財課展示・イベント情報／磐田市（ページ更新日2026年8月31日）を2026-09-09に確認",
       "cover_alt": "中原B古墳群展の会期、会場、無料、申込不要、車とバスの行き方を整理する記事の表紙",
       "related_life": [
-        {"href": "/life/play-out/cultural-facilities/", "label": "磐田市の文化施設へ行く前に開館日・予約・アクセスを確認する"},
-        {"href": "/life/play-out/parking-access/", "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"}
+        {
+          "href": "/life/play-out/cultural-facilities/",
+          "label": "磐田市の文化施設へ行く前に開館日・予約・アクセスを確認する"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"
+        }
       ]
     },
     {
@@ -59,9 +65,18 @@
       "primary_source": "相続人代表者（変更）届出書 兼 現所有者（変更）申告書／磐田市（ページ更新日2025年3月4日）、固定資産税に関する届出／磐田市（ページ更新日2026年5月29日）、相続・登記相談（予約制）／磐田市（ページ更新日2025年10月2日）、相続登記の申請義務化について／法務省（ページ更新日2026年4月1日）、相続人申告登記について／法務省（ページ更新日2026年3月24日）、相続登記の申請義務化に関するQ＆A／法務省（ページ更新日2025年3月27日）、静岡地方法務局磐田出張所を2026-09-08に確認",
       "cover_alt": "磐田市に親名義の家がある相続人が、相続登記と相続人申告登記の違い、2027年3月31日の期限、遺産分割後の手順を確認する記事の表紙",
       "related_life": [
-        {"href": "/life/end-of-life/inheritance/", "label": "磐田市の相続手続きを順番に確認する"},
-        {"href": "/life/end-of-life/property-tax-inheritance/", "label": "相続後の固定資産税の手続きを確認する"},
-        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "相続した家の管理と実家じまいを確認する"}
+        {
+          "href": "/life/end-of-life/inheritance/",
+          "label": "磐田市の相続手続きを順番に確認する"
+        },
+        {
+          "href": "/life/end-of-life/property-tax-inheritance/",
+          "label": "相続後の固定資産税の手続きを確認する"
+        },
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "相続した家の管理と実家じまいを確認する"
+        }
       ]
     },
     {
@@ -76,9 +91,18 @@
       "primary_source": "磐田市空家等対策計画／磐田市（2022年4月）、空家等対策計画掲載ページ／磐田市（ページ更新日2026年3月5日）、空き家に関する相談会等／磐田市を2026-09-08に確認",
       "cover_alt": "磐田市の2018年の戸建て空き家1,880戸と2026年度目標2,000戸未満を読み解く記事の表紙",
       "related_life": [
-        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "磐田市の空き家・実家じまい・相続した家を整理する"},
-        {"href": "/life/troubles-consult/vacant-house-consultation/", "label": "磐田市の空き家の相談先を確認する"},
-        {"href": "/life/end-of-life/house-became-vacant/", "label": "実家が空き家になった直後の確認手順を見る"}
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "磐田市の空き家・実家じまい・相続した家を整理する"
+        },
+        {
+          "href": "/life/troubles-consult/vacant-house-consultation/",
+          "label": "磐田市の空き家の相談先を確認する"
+        },
+        {
+          "href": "/life/end-of-life/house-became-vacant/",
+          "label": "実家が空き家になった直後の確認手順を見る"
+        }
       ]
     },
     {
@@ -93,9 +117,18 @@
       "primary_source": "家屋または土地を譲渡した場合の優遇税制／磐田市（ページ更新日2026年6月19日）、空き家に関する相談会等・空き家／磐田市、被相続人の居住用財産（空き家）を売ったときの特例／国税庁（2026年4月1日現在法令等）、空き家の譲渡所得の3,000万円特別控除／国土交通省を2026-09-08に確認",
       "cover_alt": "磐田市で相続した空き家を売った後、3,000万円特別控除の確認書をオンライン申請し、確定申告へ進む順番を示す記事の表紙",
       "related_life": [
-        {"href": "/life/end-of-life/inherited-vacant-house/", "label": "磐田市の空き家・実家じまい・相続した家を整理する"},
-        {"href": "/life/housing/sell-house/", "label": "磐田市で家を売る前の確認項目を見る"},
-        {"href": "/life/end-of-life/property-tax-inheritance/", "label": "相続後の固定資産税の手続きを確認する"}
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "磐田市の空き家・実家じまい・相続した家を整理する"
+        },
+        {
+          "href": "/life/housing/sell-house/",
+          "label": "磐田市で家を売る前の確認項目を見る"
+        },
+        {
+          "href": "/life/end-of-life/property-tax-inheritance/",
+          "label": "相続後の固定資産税の手続きを確認する"
+        }
       ]
     },
     {
@@ -110,8 +143,14 @@
       "primary_source": "所有不動産記録証明制度について／法務省、固定資産税に関する証明および閲覧／磐田市（ページ更新日2026年4月1日）、令和8年度税証明発行開始日のご案内／磐田市（ページ更新日2026年5月12日）、相続人代表者届出書兼現所有者申告書の提出書類確認フローチャート／磐田市、固定資産課税台帳、土地・家屋価格等縦覧帳簿の縦覧／磐田市（ページ更新日2025年3月26日）を2026-09-08に確認",
       "cover_alt": "所有不動産記録証明書と磐田市の名寄帳について、全国の登記検索と市内の課税資産一覧という違いを比べる記事の表紙",
       "related_life": [
-        {"href": "/life/end-of-life/inheritance/", "label": "磐田市の相続手続きを順番に確認する"},
-        {"href": "/life/end-of-life/property-tax-inheritance/", "label": "相続後の固定資産税の手続きを確認する"}
+        {
+          "href": "/life/end-of-life/inheritance/",
+          "label": "磐田市の相続手続きを順番に確認する"
+        },
+        {
+          "href": "/life/end-of-life/property-tax-inheritance/",
+          "label": "相続後の固定資産税の手続きを確認する"
+        }
       ]
     },
     {
@@ -126,10 +165,22 @@
       "primary_source": "最高裁判決を踏まえた生活保護費の追加給付／磐田市（ページ更新日2026年8月25日）、生活保護／磐田市（ページ更新日2024年4月10日）、生活にお困りの方／磐田市を2026-09-07に確認",
       "cover_alt": "磐田市の生活保護費追加給付で、対象期間と2027年7月31日の申出期限、電話確認の順番を確かめる記事の表紙",
       "related_life": [
-        {"href": "/life/troubles-consult/living-costs-trouble/", "label": "生活費に困ったときの相談先を確認する"},
-        {"href": "/blog/20260831-kokuho-29136-decline/", "label": "磐田市の国保加入者数と資格の動きを見る"},
-        {"href": "/blog/20260906-iwata-municipal-housing-september/", "label": "磐田市営住宅の募集状況を確認する"},
-        {"href": "/life/housing/public-housing-consultation/", "label": "住まいに困ったときの相談先を確認する"}
+        {
+          "href": "/life/troubles-consult/living-costs-trouble/",
+          "label": "生活費に困ったときの相談先を確認する"
+        },
+        {
+          "href": "/blog/20260831-kokuho-29136-decline/",
+          "label": "磐田市の国保加入者数と資格の動きを見る"
+        },
+        {
+          "href": "/blog/20260906-iwata-municipal-housing-september/",
+          "label": "磐田市営住宅の募集状況を確認する"
+        },
+        {
+          "href": "/life/housing/public-housing-consultation/",
+          "label": "住まいに困ったときの相談先を確認する"
+        }
       ]
     },
     {
@@ -144,10 +195,22 @@
       "primary_source": "軽自動車税の概要／磐田市（ページ更新日2026年9月1日）、原動機付自転車の登録（標識交付）の手続きを教えてほしい／磐田市（ページ更新日2024年4月1日）、住民票の写しや税の証明書などの電子申請／磐田市（ページ更新日2026年2月24日）を2026-09-07に確認",
       "cover_alt": "磐田市の原付ナンバー電子申請で、9月1日の開始日、郵便料430円、到着まで1週間〜10日を確かめる記事の表紙",
       "related_life": [
-        {"href": "/life/work-life/light-vehicle-tax/", "label": "軽自動車税・原付の手続きを確認する"},
-        {"href": "/life/start-living/city-hall-branches/", "label": "市役所・支所の場所と受付時間を確認する"},
-        {"href": "/blog/20260827-five-districts/", "label": "市役所と四つの支所から暮らしの距離を測る"},
-        {"href": "/blog/20260830-shikaku-kakuninsho-annual-renewal/", "label": "資格確認書の更新と電子申請の入口を見る"}
+        {
+          "href": "/life/work-life/light-vehicle-tax/",
+          "label": "軽自動車税・原付の手続きを確認する"
+        },
+        {
+          "href": "/life/start-living/city-hall-branches/",
+          "label": "市役所・支所の場所と受付時間を確認する"
+        },
+        {
+          "href": "/blog/20260827-five-districts/",
+          "label": "市役所と四つの支所から暮らしの距離を測る"
+        },
+        {
+          "href": "/blog/20260830-shikaku-kakuninsho-annual-renewal/",
+          "label": "資格確認書の更新と電子申請の入口を見る"
+        }
       ]
     },
     {
@@ -162,11 +225,26 @@
       "primary_source": "市営住宅入居者の募集／磐田市（ページ更新日2026年6月9日）、市営住宅入居の募集案内、施設ガイド はまぼう団地を2026-09-06に確認",
       "cover_alt": "磐田市営住宅の9月定期募集と、はまぼう団地の通年受付を分けて確認する記事の表紙",
       "related_life": [
-        {"href": "/life/housing/municipal-housing/", "label": "磐田市営住宅の条件と申込みを確認する"},
-        {"href": "/life/housing/public-housing-consultation/", "label": "住まいに困ったときの相談先を確認する"},
-        {"href": "/blog/20260827-five-districts/", "label": "市役所と四つの支所から暮らしの距離を測る"},
-        {"href": "/blog/20260830-population-163224-natural-decline/", "label": "磐田市の人口と世帯数から暮らしを考える"},
-        {"href": "/life/start-living/moving-address-change/", "label": "入居後の住所変更を確認する"}
+        {
+          "href": "/life/housing/municipal-housing/",
+          "label": "磐田市営住宅の条件と申込みを確認する"
+        },
+        {
+          "href": "/life/housing/public-housing-consultation/",
+          "label": "住まいに困ったときの相談先を確認する"
+        },
+        {
+          "href": "/blog/20260827-five-districts/",
+          "label": "市役所と四つの支所から暮らしの距離を測る"
+        },
+        {
+          "href": "/blog/20260830-population-163224-natural-decline/",
+          "label": "磐田市の人口と世帯数から暮らしを考える"
+        },
+        {
+          "href": "/life/start-living/moving-address-change/",
+          "label": "入居後の住所変更を確認する"
+        }
       ]
     },
     {
@@ -181,10 +259,22 @@
       "primary_source": "防災訓練／磐田市（ページ更新日2026年8月5日）、令和8年度 総合防災訓練 概要、地域の防災対策に関する各種資料を2026-09-06に確認",
       "cover_alt": "磐田市の防災訓練で家族が安否確認、避難先、7日分の備えを確かめる記事の表紙",
       "related_life": [
-        {"href": "/life/emergency/hazard-maps/", "label": "自宅周辺のハザードマップを確認する"},
-        {"href": "/life/emergency/evacuation-centers/", "label": "避難所・避難場所を確認する"},
-        {"href": "/life/emergency/disaster-mail-line/", "label": "災害時の情報入手方法を確認する"},
-        {"href": "/blog/20260901-vacant-house-disaster-certificate/", "label": "空き家が被害を受けた後の証明と写真を確認する"}
+        {
+          "href": "/life/emergency/hazard-maps/",
+          "label": "自宅周辺のハザードマップを確認する"
+        },
+        {
+          "href": "/life/emergency/evacuation-centers/",
+          "label": "避難所・避難場所を確認する"
+        },
+        {
+          "href": "/life/emergency/disaster-mail-line/",
+          "label": "災害時の情報入手方法を確認する"
+        },
+        {
+          "href": "/blog/20260901-vacant-house-disaster-certificate/",
+          "label": "空き家が被害を受けた後の証明と写真を確認する"
+        }
       ]
     },
     {
@@ -199,10 +289,22 @@
       "primary_source": "磐田市の部活動改革／磐田市（ページ更新日2026年6月22日）、磐田市地域クラブ活動「SPO☆CUL IWATA」活動ガイドライン（令和8年3月一部改訂）、クラブ運営規程、ロードマップを2026-09-05に確認",
       "cover_alt": "SPO☆CUL IWATAと学校の休日部活動の違いを月額負担と送迎の面から整理する記事の表紙",
       "related_life": [
-        {"href": "/blog/20260905-iwata-sports-facilities/", "label": "磐田市のスポーツ施設を初めて選ぶ手順"},
-        {"href": "/blog/20260903-shugakuji-kenko-shindan/", "label": "2026年の就学時健康診断と家族の予定を確認する"},
-        {"href": "/life/play-out/sports-facilities/", "label": "磐田市のスポーツ施設ガイドを見る"},
-        {"href": "/life/education/elementary-middle-school/", "label": "磐田市の小学校・中学校の情報を確認する"}
+        {
+          "href": "/blog/20260905-iwata-sports-facilities/",
+          "label": "磐田市のスポーツ施設を初めて選ぶ手順"
+        },
+        {
+          "href": "/blog/20260903-shugakuji-kenko-shindan/",
+          "label": "2026年の就学時健康診断と家族の予定を確認する"
+        },
+        {
+          "href": "/life/play-out/sports-facilities/",
+          "label": "磐田市のスポーツ施設ガイドを見る"
+        },
+        {
+          "href": "/life/education/elementary-middle-school/",
+          "label": "磐田市の小学校・中学校の情報を確認する"
+        }
       ]
     },
     {
@@ -217,10 +319,22 @@
       "primary_source": "第29回ジュビロ磐田メモリアルマラソン／磐田市（ページ更新日2026年7月1日）、第29回大会パンフレット／磐田市、大会公式ランナー案内・FAQ、RUNNETを2026-09-05に確認",
       "cover_alt": "ジュビロ磐田メモリアルマラソン2026の開催日、申込期限、種目を確認する記事の表紙",
       "related_life": [
-        {"href": "/blog/20260905-iwata-sports-facilities/", "label": "磐田市のスポーツ施設を初めて選ぶ手順"},
-        {"href": "/life/play-out/parking-access/", "label": "駐車場・アクセスの調べ方を確認する"},
-        {"href": "/life/start-living/public-transit/", "label": "磐田市の公共交通の確認先を見る"},
-        {"href": "/life/play-out/sports-facilities/", "label": "磐田市のスポーツ施設ガイドを見る"}
+        {
+          "href": "/blog/20260905-iwata-sports-facilities/",
+          "label": "磐田市のスポーツ施設を初めて選ぶ手順"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "駐車場・アクセスの調べ方を確認する"
+        },
+        {
+          "href": "/life/start-living/public-transit/",
+          "label": "磐田市の公共交通の確認先を見る"
+        },
+        {
+          "href": "/life/play-out/sports-facilities/",
+          "label": "磐田市のスポーツ施設ガイドを見る"
+        }
       ]
     },
     {
@@ -235,10 +349,22 @@
       "primary_source": "施設ガイド スポーツ・みどころ関連施設／磐田市、施設ガイド 体育館／磐田市、施設ガイド グラウンド／磐田市、学校体育施設の利用／磐田市を2026-09-05に確認",
       "cover_alt": "磐田市のスポーツ施設を目的と距離で選ぶ記事の表紙",
       "related_life": [
-        {"href": "/life/play-out/facilities-library-parks/", "label": "磐田市の公共施設・図書館・公園を探す"},
-        {"href": "/blog/20260827-five-districts/", "label": "磐田市の五つの地区と暮らしの違いを見る"},
-        {"href": "/blog/20260904-iwata-library-six-facilities/", "label": "磐田市の図書館6施設の使い分けを見る"},
-        {"href": "/life/play-out/parking-access/", "label": "施設へ出かける前に駐車場・アクセスを確認する"}
+        {
+          "href": "/life/play-out/facilities-library-parks/",
+          "label": "磐田市の公共施設・図書館・公園を探す"
+        },
+        {
+          "href": "/blog/20260827-five-districts/",
+          "label": "磐田市の五つの地区と暮らしの違いを見る"
+        },
+        {
+          "href": "/blog/20260904-iwata-library-six-facilities/",
+          "label": "磐田市の図書館6施設の使い分けを見る"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "施設へ出かける前に駐車場・アクセスを確認する"
+        }
       ]
     },
     {
@@ -253,10 +379,22 @@
       "primary_source": "施設ガイド 図書館／磐田市、各6施設の施設ガイド、利用案内・各種サービス／磐田市立図書館、認知症月間／磐田市を2026-09-04に確認",
       "cover_alt": "磐田市の図書館6施設を場所と目的で使い分ける記事の表紙",
       "related_life": [
-        {"href": "/life/play-out/facilities-library-parks/", "label": "磐田市の公共施設・図書館・公園を探す"},
-        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"},
-        {"href": "/blog/20260902-mitsuke-school-parking/", "label": "旧見付学校の駐車場と見学順を見る"},
-        {"href": "/blog/20260902-buried-cultural-property-notification/", "label": "磐田市の埋蔵文化財届出を確認する"}
+        {
+          "href": "/life/play-out/facilities-library-parks/",
+          "label": "磐田市の公共施設・図書館・公園を探す"
+        },
+        {
+          "href": "/life/family-grow/parenting-support/",
+          "label": "磐田市の子育て支援を探す"
+        },
+        {
+          "href": "/blog/20260902-mitsuke-school-parking/",
+          "label": "旧見付学校の駐車場と見学順を見る"
+        },
+        {
+          "href": "/blog/20260902-buried-cultural-property-notification/",
+          "label": "磐田市の埋蔵文化財届出を確認する"
+        }
       ]
     },
     {
@@ -271,10 +409,22 @@
       "primary_source": "定期予防接種の種類とスケジュール／磐田市（ページ更新日2026年4月1日）、いわた子育てアプリ／磐田市（ページ更新日2025年7月23日）、接種における注意事項／磐田市、磐田市個別接種協力医療機関を2026-09-03に確認",
       "cover_alt": "磐田市の子ども予防接種を9月にアプリで確認する順番を整理する記事の表紙",
       "related_life": [
-        {"href": "/life/family-grow/child-vaccination/", "label": "磐田市の子どもの予防接種の手続きと確認先"},
-        {"href": "/life/health-medical/vaccinations/", "label": "磐田市の予防接種全体の入口を見る"},
-        {"href": "/life/family-grow/infant-health-check/", "label": "磐田市の乳幼児健診を確認する"},
-        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"}
+        {
+          "href": "/life/family-grow/child-vaccination/",
+          "label": "磐田市の子どもの予防接種の手続きと確認先"
+        },
+        {
+          "href": "/life/health-medical/vaccinations/",
+          "label": "磐田市の予防接種全体の入口を見る"
+        },
+        {
+          "href": "/life/family-grow/infant-health-check/",
+          "label": "磐田市の乳幼児健診を確認する"
+        },
+        {
+          "href": "/life/family-grow/parenting-support/",
+          "label": "磐田市の子育て支援を探す"
+        }
       ]
     },
     {
@@ -289,10 +439,22 @@
       "primary_source": "就学時健康診断／磐田市（ページ更新日2026年8月19日）、令和8年度就学時健康診断日時／磐田市、手続き／磐田市教育委員会を2026-09-03に確認",
       "cover_alt": "磐田市の就学時健康診断の時期、持ち物、通知の流れを整理する記事の表紙",
       "related_life": [
-        {"href": "/life/education/elementary-middle-school/", "label": "小学校・中学校のことを見る"},
-        {"href": "/life/education/school-attendance-support/", "label": "就学支援・就学相談を見る"},
-        {"href": "/life/education/school-zones/", "label": "通学区を確認する"},
-        {"href": "/life/education/educational-consulting/", "label": "教育相談を確認する"}
+        {
+          "href": "/life/education/elementary-middle-school/",
+          "label": "小学校・中学校のことを見る"
+        },
+        {
+          "href": "/life/education/school-attendance-support/",
+          "label": "就学支援・就学相談を見る"
+        },
+        {
+          "href": "/life/education/school-zones/",
+          "label": "通学区を確認する"
+        },
+        {
+          "href": "/life/education/educational-consulting/",
+          "label": "教育相談を確認する"
+        }
       ]
     },
     {
@@ -307,10 +469,22 @@
       "primary_source": "乳児等通園支援事業（こども誰でも通園制度）／磐田市（ページ更新日2026年8月13日）、利用者向け案内、一時預かり事業、幼児教育・保育無償化を2026-09-03に確認",
       "cover_alt": "磐田市のこども誰でも通園制度と一時預かりの違いを整理する記事の表紙",
       "related_life": [
-        {"href": "/life/family-grow/nursery-childcare/", "label": "磐田市の保育園・一時預かりを確認する"},
-        {"href": "/life/family-grow/nursery-school/", "label": "幼稚園・保育園・こども園の入園を見る"},
-        {"href": "/life/family-grow/parenting-support/", "label": "磐田市の子育て支援を探す"},
-        {"href": "/life/troubles-consult/child-consultation/", "label": "子ども・家庭の相談窓口を確認する"}
+        {
+          "href": "/life/family-grow/nursery-childcare/",
+          "label": "磐田市の保育園・一時預かりを確認する"
+        },
+        {
+          "href": "/life/family-grow/nursery-school/",
+          "label": "幼稚園・保育園・こども園の入園を見る"
+        },
+        {
+          "href": "/life/family-grow/parenting-support/",
+          "label": "磐田市の子育て支援を探す"
+        },
+        {
+          "href": "/life/troubles-consult/child-consultation/",
+          "label": "子ども・家庭の相談窓口を確認する"
+        }
       ]
     },
     {
@@ -325,8 +499,14 @@
       "primary_source": "施設ガイド 旧見付学校附磐田文庫／磐田市（ページ更新日2026年6月29日）、旧見付学校／磐田市（ページ更新日2026年3月10日）、史跡旧見付学校附磐田文庫保存活用計画／磐田市（ページ更新日2026年2月5日）を2026-09-02に確認",
       "cover_alt": "旧見付学校の駐車場10台を確認し、家族の見学順を考える記事の表紙",
       "related_life": [
-        {"href": "/life/play-out/parking-access/", "label": "磐田市の施設へ車で出かける前に駐車場・アクセスを確認する"},
-        {"href": "/life/play-out/facilities-library-parks/", "label": "磐田市の公共施設・図書館・公園を探す"}
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ車で出かける前に駐車場・アクセスを確認する"
+        },
+        {
+          "href": "/life/play-out/facilities-library-parks/",
+          "label": "磐田市の公共施設・図書館・公園を探す"
+        }
       ]
     },
     {
@@ -341,8 +521,14 @@
       "primary_source": "開発に伴う埋蔵文化財の取り扱い／磐田市（ページ更新日2026年4月1日）、いわた文化財だより第253号／磐田市（2026年4月1日発行）、埋蔵文化財発掘届出書、遺跡が発見されていない地域（大字）一覧表を2026-09-02に確認",
       "cover_alt": "磐田市の埋蔵文化財届出で地番と地図を確認する記事の表紙",
       "related_life": [
-        {"href": "/life/housing/build-house/", "label": "磐田市で家を建てる前の確認事項"},
-        {"href": "/life/housing/earthquake-demolition/", "label": "磐田市で耐震・解体を考える"}
+        {
+          "href": "/life/housing/build-house/",
+          "label": "磐田市で家を建てる前の確認事項"
+        },
+        {
+          "href": "/life/housing/earthquake-demolition/",
+          "label": "磐田市で耐震・解体を考える"
+        }
       ]
     },
     {
@@ -540,6 +726,28 @@
         {
           "href": "/life/end-of-life/inherited-vacant-house/",
           "label": "磐田市の空き家・実家じまい・相続した家を整理する"
+        }
+      ]
+    },
+    {
+      "slug": "20260911-iwata-four-branch-offices",
+      "date": "2026-09-11",
+      "modified": "2026-09-11",
+      "axis": "fri",
+      "title": "磐田市の4支所窓口でできること｜本庁へ行かずに済む手続き一覧",
+      "description": "磐田市役所本庁まで足を延ばさなくても、福田・竜洋・豊田・豊岡の4支所で住民票や戸籍、市税証明、国保や福祉の諸届が可能です。支所で完結する手続きと本庁が必要な窓口の違い、手続き前の確認事項を実務目線で整理します。",
+      "home_description": "磐田市の福田・竜洋・豊田・豊岡の4支所窓口でできる行政手続きを整理。住民票や税証明は身近な支所を活用して時間と移動を節約します。",
+      "cta": "official",
+      "primary_source": "支所の業務・連絡先／磐田市（ページ更新日2026年4月1日）、庁舎案内／磐田市、福田支所／磐田市を2026-09-11に確認",
+      "cover_alt": "磐田市の4支所窓口でできること｜本庁へ行かずに済む手続き一覧の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/city-hall-branches/",
+          "label": "市役所本庁と各支所の窓口案内を確認する"
+        },
+        {
+          "href": "/life/start-living/certificates/",
+          "label": "各種証明書（住民票・戸籍・印鑑登録）の取得手続きを確認する"
         }
       ]
     }

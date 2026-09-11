@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title1 desc1" data-illustration="iwata-editorial">
+<title id="title1">磐田市役所本庁と4支所の位置関係・取扱業務の対比</title>
+<desc id="desc1">磐田市役所本庁舎と福田・竜洋・豊田・豊岡の4支所における窓口機能と立地を整理した模式図。</desc>
+<rect width="1200" height="675" fill="#eef6f8"/>
+<rect x="50" y="40" width="1100" height="595" rx="24" fill="#ffffff" stroke="#b6d4dc" stroke-width="4"/>
+<text x="90" y="100" font-family="sans-serif" font-size="30" font-weight="700" fill="#124b62">磐田市役所本庁と市内4支所の役割分担</text>
+<text x="90" y="136" font-family="sans-serif" font-size="19" fill="#55717b">日常の証明書・諸届は身近な支所へ、専門的な開発・建築相談は本庁へ</text>
+
+<!-- 本庁ボックス -->
+<rect x="90" y="170" width="320" height="380" rx="16" fill="#f0f7fb" stroke="#2563eb" stroke-width="3"/>
+<text x="250" y="215" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#1e40af">市役所本庁舎（国府台）</text>
+<text x="250" y="245" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#3b82f6">全庁総合・専門判断の拠点</text>
+<line x1="110" y1="265" x2="390" y2="265" stroke="#bfdbfe" stroke-width="2"/>
+<text x="120" y="295" font-family="sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">■ 本庁で扱う専門業務：</text>
+<text x="130" y="325" font-family="sans-serif" font-size="15" fill="#334155">• 都市計画・建築確認・開発許可</text>
+<text x="130" y="355" font-family="sans-serif" font-size="15" fill="#334155">• 農業委員会（農地転用相談）</text>
+<text x="130" y="385" font-family="sans-serif" font-size="15" fill="#334155">• 市税の異議申立・資産税の評価係</text>
+<text x="130" y="415" font-family="sans-serif" font-size="15" fill="#334155">• 専門的な生活困窮・ケースワーク</text>
+<text x="130" y="445" font-family="sans-serif" font-size="15" fill="#334155">• パスポート申請・交付（市民課）</text>
+<text x="130" y="475" font-family="sans-serif" font-size="15" fill="#334155">• 木曜時間外窓口（一部開庁）</text>
+
+<!-- 4支所エリア -->
+<rect x="440" y="170" width="670" height="380" rx="16" fill="#f4fbf7" stroke="#16a34a" stroke-width="3"/>
+<text x="775" y="215" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#15803d">身近な4支所（福田・竜洋・豊田・豊岡）</text>
+<text x="775" y="245" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#22c55e">地域のくらしを守る総合窓口・待ち時間が短い</text>
+<line x1="460" y1="265" x2="1090" y2="265" stroke="#bbf7d0" stroke-width="2"/>
+
+<!-- 4つの支所カード -->
+<g font-family="sans-serif">
+  <!-- 福田 -->
+  <rect x="460" y="285" width="300" height="115" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="475" y="315" font-size="18" font-weight="700" fill="#0f172a">福田支所（福田400）</text>
+  <text x="475" y="340" font-size="14" fill="#475569">住民票・印鑑・税証明・福祉</text>
+  <text x="475" y="365" font-size="14" fill="#64748b">南部沿岸・平置き駐車場直結</text>
+
+  <!-- 竜洋 -->
+  <rect x="780" y="285" width="310" height="115" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="795" y="315" font-size="18" font-weight="700" fill="#0f172a">竜洋支所（岡729-1）</text>
+  <text x="795" y="340" font-size="14" fill="#475569">住民票・印鑑・税証明・国保</text>
+  <text x="795" y="365" font-size="14" fill="#64748b">天竜川河口・体育館・図書館隣接</text>
+
+  <!-- 豊田 -->
+  <rect x="460" y="415" width="300" height="115" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="475" y="445" font-size="18" font-weight="700" fill="#0f172a">豊田支所（森岡380-1）</text>
+  <text x="475" y="470" font-size="14" fill="#475569">住民票・印鑑・税証明・福祉手当</text>
+  <text x="475" y="495" font-size="14" fill="#64748b">JR豊田町駅北・アミューズ豊田近接</text>
+
+  <!-- 豊岡 -->
+  <rect x="780" y="415" width="310" height="115" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="795" y="445" font-size="18" font-weight="700" fill="#0f172a">豊岡支所（下神増98）</text>
+  <text x="795" y="470" font-size="14" fill="#475569">住民票・印鑑・税証明・各種諸届</text>
+  <text x="795" y="495" font-size="14" fill="#64748b">北部丘陵地・本庁まで15kmの重要拠点</text>
+</g>
+
+<text x="600" y="590" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#475569">「本庁へわざわざ行かずに済む書類」を把握することが、移動時間の節約につながる</text>
+</svg>
