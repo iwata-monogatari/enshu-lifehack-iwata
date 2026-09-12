@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" data-illustration="iwata-editorial">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="60" y="50" width="1080" height="80" rx="12" fill="#1e3a8a"/>
+  <text x="600" y="102" fill="#ffffff" font-size="32" font-weight="bold" text-anchor="middle" font-family="sans-serif">トレーニング室利用の4段階ステップ（到着から退室まで）</text>
+  
+  <rect x="80" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="195" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="195" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="195" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">券売機で購入</text>
+  <text x="195" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">エントランス券売機で</text>
+  <text x="195" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">利用券200円を購入</text>
+  
+  <rect x="350" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="465" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="465" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="465" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">窓口受付と着替え</text>
+  <text x="465" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">受付簿に氏名を記入</text>
+  <text x="465" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">更衣室で室内靴に履き替え</text>
+  
+  <rect x="620" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="735" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="735" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="735" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">マシントレーニング</text>
+  <text x="735" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">有酸素・筋力マシン</text>
+  <text x="735" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">使用後は備え付け布で清拭</text>
+  
+  <rect x="890" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="1005" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="1005" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="1005" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">シャワーと退室</text>
+  <text x="1005" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">更衣室シャワーで汗流し</text>
+  <text x="1005" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">21時閉館までに退出</text>
+  
+  <text x="600" y="590" fill="#64748b" font-size="18" text-anchor="middle" font-family="sans-serif">※月曜休館（祝日の場合は翌日）。平日の夜間は会社帰りの利用で混み合う場合があります。</text>
+</svg>

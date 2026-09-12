@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260912-iwata-gym-training-room-usage",
+      "date": "2026-09-12",
+      "modified": "2026-09-12",
+      "axis": "sat",
+      "title": "磐田市総合体育館トレーニング室｜個人利用の手順と料金",
+      "description": "磐田市総合体育館のトレーニング室は一般・大学生1回200円、高校生100円で誰でも利用できます。マシン設備、初回利用時の受付手順、更衣室とシャワー、夜間利用や無料駐車場の動線まで、市民が健康維持に使いこなす段取りを整理します。",
+      "home_description": "磐田市総合体育館のトレーニング室は一般・大学生1回200円、高校生100円で誰でも利用できます。マシン設備、初回利用時の",
+      "cta": "official",
+      "primary_source": "磐田市総合体育館／磐田市（ページ更新日2026年3月10日）を2026-09-12に確認",
+      "cover_alt": "磐田市総合体育館トレーニング室｜個人利用の手順と料金の確認イメージ",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "磐田市内の公園を目的と地区から探す"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260912-kabutozuka-athletic-field-usage",
       "date": "2026-09-12",
       "modified": "2026-09-12",
