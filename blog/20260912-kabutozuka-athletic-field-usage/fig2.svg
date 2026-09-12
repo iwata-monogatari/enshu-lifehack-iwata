@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" data-illustration="iwata-editorial">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="60" y="50" width="1080" height="80" rx="12" fill="#1e3a8a"/>
+  <text x="600" y="102" fill="#ffffff" font-size="32" font-weight="bold" text-anchor="middle" font-family="sans-serif">出発前から利用完了までの4段階ステップ</text>
+  
+  <rect x="80" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="195" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="195" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">1</text>
+  <text x="195" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">空き状況確認</text>
+  <text x="195" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">専用利用の有無を</text>
+  <text x="195" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">事務所予定表で確認</text>
+  
+  <rect x="350" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="465" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="465" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">2</text>
+  <text x="465" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">管理事務所受付</text>
+  <text x="465" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">券売機で券を購入</text>
+  <text x="465" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">窓口で利用簿に記入</text>
+  
+  <rect x="620" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="735" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="735" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">3</text>
+  <text x="735" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">トラック利用</text>
+  <text x="735" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">指定レーン走行</text>
+  <text x="735" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">専用利用者の邪魔回避</text>
+  
+  <rect x="890" y="190" width="230" height="340" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="1005" cy="250" r="32" fill="#2f6ea8"/>
+  <text x="1005" y="260" fill="#ffffff" font-size="24" font-weight="bold" text-anchor="middle" font-family="sans-serif">4</text>
+  <text x="1005" y="320" fill="#0f172a" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">利用終了・退出</text>
+  <text x="1005" y="370" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">着替え・整理体操</text>
+  <text x="1005" y="400" fill="#475569" font-size="16" text-anchor="middle" font-family="sans-serif">利用時間を守り退出</text>
+  
+  <text x="600" y="590" fill="#64748b" font-size="18" text-anchor="middle" font-family="sans-serif">※大会や中学校・高校の記録会開催中は個人利用が制限されます。事前の電話確認が確実です。</text>
+</svg>

@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260912-kabutozuka-athletic-field-usage",
+      "date": "2026-09-12",
+      "modified": "2026-09-12",
+      "axis": "sat",
+      "title": "かぶと塚公園陸上競技場｜個人利用の時間と料金",
+      "description": "磐田市のかぶと塚公園陸上競技場の個人利用は、一般・大学生1回200円、高校生以下100円です。夜間照明、用具貸出、大会等による専用利用の確認順、かぶと塚公園管理事務所への事前確認など、市民が週末に走るための段取りを整理します。",
+      "home_description": "かぶと塚公園陸上競技場の個人利用は一般1回200円。専用利用の確認、照明料、駐車場を暮らしの言葉で整理します。",
+      "cta": "official",
+      "primary_source": "かぶと塚公園陸上競技場／磐田市（ページ更新日2026年3月10日）、施設案内 かぶと塚公園／磐田市（ページ更新日2026年6月15日）を2026-09-12に確認",
+      "cover_alt": "かぶと塚公園陸上競技場のトラックと夜間照明、利用時間と個人利用料金200円を確認する記事の表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "磐田市内の公園を目的と地区から探す"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260909-kabutozuka-kofun-artifacts",
       "date": "2026-09-09",
       "modified": "2026-09-09",
