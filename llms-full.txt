@@ -56,3 +56,5 @@
 - 各記事の出典欄から磐田市公式ページを開き、最新情報を確認してください。
 - [サイトマップ](https://iwata.enshu-lifehack.com/sitemap.xml)
 - [Atomフィード](https://iwata.enshu-lifehack.com/blog/feed.xml)
+
+- [磐田市ウォーキングフットボール｜9月体験会の申込み](https://iwata.enshu-lifehack.com/blog/20260912-iwata-walking-football-entry/)（2026-09-12）：9月27日の無料体験会、9月25日正午締切。メール認証と持ち物を確認。

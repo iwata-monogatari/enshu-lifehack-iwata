@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260912-iwata-walking-football-entry",
+      "date": "2026-09-12",
+      "modified": "2026-09-12",
+      "axis": "sat",
+      "title": "磐田市ウォーキングフットボール｜9月体験会の申込み",
+      "description": "磐田市の9月27日ウォーキングフットボール体験会は無料、先着20名・要申込。締切は9月25日正午です。総合体育館小体育場への行き方、体育館シューズなどの持ち物、申込フォームのメール認証を整理。家族の参加条件と残枠は市公式で確認してください。",
+      "home_description": "9月27日、総合体育館小体育場で無料体験会。9月25日正午の締切と、メール認証・持ち物・家族の段取りを確認。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1008986/1016037.html",
+      "cover_alt": "磐田市ウォーキングフットボール｜9月体験会の申込み。9月25日正午の申込締切と体験参加の準備を整理する記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "駐車場・アクセスの確認"
+        },
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ]
+    },
+    {
       "slug": "20260912-iwata-gym-training-room-usage",
       "date": "2026-09-12",
       "modified": "2026-09-12",
@@ -384,7 +406,7 @@
     {
       "slug": "20260905-iwata-sports-facilities",
       "date": "2026-09-05",
-      "modified": "2026-09-05",
+      "modified": "2026-09-12",
       "axis": "sat",
       "title": "磐田市のスポーツ施設｜初めての選び方",
       "description": "磐田市のスポーツ施設を、体育館・グラウンド・プール・トレーニングの目的別に整理。2026年6月1日から9校で始まった学校体育館の空調、予約・料金・距離の見方を、初めて運動を始める市民の段取りに翻訳します。",
