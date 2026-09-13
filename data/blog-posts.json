@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260913-iwata-plastic-no-mark-recycling",
+      "date": "2026-09-13",
+      "modified": "2026-09-13",
+      "axis": "sun",
+      "title": "磐田市のプラマークなし資源化｜対象になる条件",
+      "description": "磐田市ではプラマークなしの日用品も、プラスチックのみ・大きさ50cm未満・厚さ5mm未満・汚れなしの条件付きで資源化できます。2026年4月の対象拡大と対象外品、テープケースの訂正を整理。分別の手間を認め、家庭の品物一つの材質確認につなげます。",
+      "home_description": "マークなしも条件付きで資源化。材質・寸法・汚れと対象外品を確認し、家庭の品物一つを調べる。",
+      "cta": "official",
+      "primary_source": "磐田市「プラスチック資源の出し方」（2026年8月4日更新）、「家庭ごみ分別ガイドブック」（2026年4月15日更新）を2026-09-13確認。",
+      "cover_alt": "磐田市のプラマークなし資源化｜対象になる条件の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/garbage-sorting-calendar/",
+          "label": "ごみ分別・収集カレンダー"
+        },
+        {
+          "href": "/life/start-living/how-to-garbage/",
+          "label": "ごみの出し方"
+        }
+      ]
+    },
+    {
       "slug": "20260913-iwata-danger-warning-vs-evacuation",
       "date": "2026-09-13",
       "modified": "2026-09-13",

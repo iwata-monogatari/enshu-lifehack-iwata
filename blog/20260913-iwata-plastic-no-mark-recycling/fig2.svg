@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">今日調べる品物は一つ、部品の材質を確認する</title><desc id="desc">保存容器を例に、本体、ふた、パッキンの表示をそれぞれ確認する。構造は模式図。材質が不明なら推測で埋めない。</desc>
+<rect width="960" height="620" rx="24" fill="#f1f7fa"/>
+<g font-family="Meiryo, sans-serif" fill="#173f55">
+<text x="46" y="64" font-size="31" font-weight="bold">今日の一歩：家の品物一つの材質を見る</text>
+<text x="46" y="106" font-size="20">保存容器の模式図／部品の構成や素材は製品ごとに異なります</text>
+<rect x="40" y="140" width="408" height="310" rx="18" fill="white"/>
+<path d="M111 329Q242 303 374 329L354 406Q242 434 131 406Z" fill="#d9edf5" stroke="#0074ae" stroke-width="4"/><ellipse cx="242" cy="329" rx="131" ry="25" fill="#edf7fa" stroke="#0074ae" stroke-width="4"/>
+<ellipse cx="242" cy="265" rx="131" ry="25" fill="none" stroke="#c89645" stroke-width="9"/>
+<path d="M110 190Q242 160 374 190V207Q242 235 110 207Z" fill="#a7dce9" stroke="#0074ae" stroke-width="4"/>
+<g stroke="#496d7d" stroke-width="2" fill="none"><path d="M378 196H478"/><path d="M378 265H478"/><path d="M378 368H478"/></g>
+<g font-size="22"><text x="492" y="193" font-weight="bold">ふた</text><text x="492" y="224">裏面などの材質表示を見る</text><text x="492" y="273" font-weight="bold">パッキン・付属部品</text><text x="492" y="305">本体と同じ材質だと決めない</text><text x="492" y="373" font-weight="bold">本体</text><text x="492" y="405">底面や説明書の材質欄を見る</text></g>
+<rect x="40" y="475" width="880" height="112" rx="16" fill="#e1eef4"/>
+<text x="64" y="516" font-size="23" font-weight="bold">分かった部分と、未確認の部分を分けて考える</text>
+<text x="64" y="556" font-size="20">材質確認の後に、寸法・汚れ・対象外品を市公式で照合する</text>
+</g></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">マークなし製品プラスチックの三条件</title><desc id="desc">材質、寸法、汚れをすべて確認。大きさ50cm未満、厚さ5mm未満。危険物などの対象外品は除く。</desc>
+<rect width="960" height="640" rx="24" fill="#f1f7fa"/>
+<g font-family="Meiryo, sans-serif" fill="#173f55">
+<text x="48" y="66" font-size="31" font-weight="bold">プラマークなし：三条件を全部確認</text>
+<text x="48" y="106" font-size="20">磐田市／2026年9月13日確認　　図は実寸ではありません</text>
+<rect x="36" y="140" width="280" height="320" rx="18" fill="white"/>
+<rect x="340" y="140" width="280" height="320" rx="18" fill="white"/>
+<rect x="644" y="140" width="280" height="320" rx="18" fill="white"/>
+<g fill="#0074ae"><circle cx="76" cy="180" r="23"/><circle cx="380" cy="180" r="23"/><circle cx="684" cy="180" r="23"/></g>
+<g fill="white" font-size="24" text-anchor="middle"><text x="76" y="189">1</text><text x="380" y="189">2</text><text x="684" y="189">3</text></g>
+<g font-size="25" font-weight="bold"><text x="112" y="189">材質</text><text x="416" y="189">寸法</text><text x="720" y="189">汚れ</text></g>
+<path d="M104 259 Q176 230 248 259 L232 325 Q176 347 120 325Z" fill="#d9edf5" stroke="#0074ae" stroke-width="5"/><ellipse cx="176" cy="259" rx="72" ry="19" fill="#f4fbfd" stroke="#0074ae" stroke-width="5"/>
+<path d="M390 248H567V306H390Z" fill="#e2f0f7" stroke="#0074ae" stroke-width="4"/><path d="M390 326H567M390 318V334M567 318V334" fill="none" stroke="#0074ae" stroke-width="3"/><path d="M408 248V269M428 248V259M448 248V269M468 248V259M488 248V269M508 248V259M528 248V269M548 248V259" stroke="#0074ae" stroke-width="2"/>
+<path d="M784 231C780 249 747 277 747 295A37 37 0 0 0 821 295C821 277 788 249 784 231Z" fill="#a7dce9" stroke="#0074ae" stroke-width="4"/><path d="M766 298L780 310L803 280" fill="none" stroke="#fff" stroke-width="7"/>
+<g font-size="23" text-anchor="middle"><text x="176" y="387">プラスチックだけ</text><text x="176" y="425" font-size="18">部品の材質も確認</text><text x="480" y="382">大きさ 50cm未満</text><text x="480" y="418">厚さ 5mm未満</text><text x="784" y="387">汚れなし</text><text x="784" y="425" font-size="18">軽くすすいで落ちるか</text></g>
+<rect x="36" y="487" width="888" height="116" rx="16" fill="#fff1db"/>
+<text x="60" y="528" font-size="24" font-weight="bold">三条件だけで決めず、市の注意事項も確認</text>
+<text x="60" y="569" font-size="21">電池内蔵品などの危険物・土を直接入れたプランター等は対象外</text>
+</g></svg>
