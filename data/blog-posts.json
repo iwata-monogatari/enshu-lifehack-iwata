@@ -6,6 +6,32 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260913-iwata-danger-warning-vs-evacuation",
+      "date": "2026-09-13",
+      "modified": "2026-09-13",
+      "axis": "sun",
+      "title": "磐田市の危険警報と避難指示の違い｜レベル4の読み方",
+      "description": "危険警報はレベル4相当の危険度情報、避難指示は磐田市が地域へ出す避難の呼びかけです。指示がなくても早めに安全を確保する考え方、2026年5月28日の切替と29日の運用開始、家族で発表元を一つ確認する方法を公式資料で整理します。",
+      "home_description": "危険警報はレベル4相当の危険度情報、避難指示は市の避難の呼びかけ。発表元を確認し、指示待ちにしない読み方を整理します。",
+      "cta": "official",
+      "primary_source": "磐田市「防災気象情報が新しくなります」「警戒レベルによる避難情報の発信」、気象庁「新たな防災気象情報について（令和8年～）」および2026年4月14日報道発表を2026-09-13確認。5月28日切替・29日運用開始を区別。",
+      "cover_alt": "磐田市の危険警報と避難指示の違い｜レベル4の読み方の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/emergency/storm-heavy-rain/",
+          "label": "台風・大雨の確認先"
+        },
+        {
+          "href": "/life/emergency/hazard-maps/",
+          "label": "自宅周辺のハザードマップ"
+        },
+        {
+          "href": "/life/emergency/disaster-mail-line/",
+          "label": "災害情報の入手方法"
+        }
+      ]
+    },
+    {
       "slug": "20260912-iwata-walking-football-entry",
       "date": "2026-09-12",
       "modified": "2026-09-12",
@@ -316,7 +342,7 @@
     {
       "slug": "20260906-iwata-disaster-drill-family-check",
       "date": "2026-09-06",
-      "modified": "2026-09-06",
+      "modified": "2026-09-13",
       "axis": "sun",
       "title": "磐田市の防災訓練｜9月6日に家族で確かめる",
       "description": "磐田市の2026年9月6日総合防災訓練で、家族が確かめる項目を整理。安否の示し方、避難先、7日分の備え、1人35回分の携帯トイレ、支援担当、情報の受け取り方を一枚にします。",

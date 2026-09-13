@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">家族で情報の発表元を一つ確認する</title><desc id="desc">普段の通知から詳細を開き、発表元、対象地域や河川、発表時刻を確認する模式図。アプリ名と発表元は同じとは限らず、今日の一歩は発表元を確認すること。実際の通知画面ではない。</desc>
+<rect width="960" height="620" rx="24" fill="#f5f3ed"/>
+<g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#203b4b">
+<text x="48" y="57" font-size="17" letter-spacing="2">磐田市の大雨情報を読む / 02</text>
+<text x="48" y="109" font-size="34" font-weight="bold">今日は「誰が発表した情報？」を確認</text>
+<rect x="54" y="151" width="286" height="322" rx="26" fill="#203b4b"/>
+<rect x="68" y="169" width="258" height="286" rx="16" fill="#fff"/>
+<rect x="151" y="179" width="92" height="7" rx="3" fill="#b8cbd3"/>
+<text x="92" y="228" font-size="21" font-weight="bold">普段見ている通知</text>
+<path d="M92 250H300" stroke="#d7dce0" stroke-width="2"/>
+<text x="92" y="287" font-size="22">情報名を読む</text>
+<text x="92" y="324" font-size="20">見出しだけで</text>
+<text x="92" y="356" font-size="20">判断を止めない</text>
+<rect x="92" y="380" width="208" height="48" rx="10" fill="#e3edf1"/>
+<text x="196" y="412" font-size="23" font-weight="bold" text-anchor="middle">詳細を開く</text>
+<path d="M354 310H400M387 297L400 310L387 323" fill="none" stroke="#527d8d" stroke-width="5" stroke-linecap="round"/>
+<rect x="424" y="151" width="482" height="96" rx="14" fill="#203b4b"/>
+<text x="448" y="189" font-size="18" fill="#d7e9ef">今日、家族で確かめること</text>
+<text x="448" y="226" font-size="28" font-weight="bold" fill="#fff">発表元：気象庁など？ 磐田市？</text>
+<rect x="424" y="265" width="482" height="96" rx="14" fill="#fff" stroke="#cbd6da"/>
+<text x="448" y="304" font-size="24" font-weight="bold">対象：地域・河川など</text>
+<text x="448" y="338" font-size="20">自宅や家族のいる場所との関係を読む</text>
+<rect x="424" y="379" width="482" height="94" rx="14" fill="#fff" stroke="#cbd6da"/>
+<text x="448" y="418" font-size="24" font-weight="bold">発表時刻：いつの情報か</text>
+<text x="448" y="452" font-size="20">共有画像だけに頼らず、公式で再確認</text>
+<text x="48" y="525" font-size="23" font-weight="bold">アプリの名前と、情報の発表元は同じとは限りません。</text>
+<text x="48" y="562" font-size="22">実際の危険が迫るときは、確認の完了を待たず安全確保を。</text>
+<text x="48" y="599" font-size="16">家族で行う確認の提案 / 2026年9月13日 / 実際の通知画面ではありません</text>
+</g></svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">危険警報と避難指示の違い</title><desc id="desc">気象庁などの危険度情報と磐田市の避難の呼びかけを比較。危険警報はレベル4相当、避難指示はレベル4。市の指示がなくても自ら安全確保を判断する。</desc>
+<rect width="960" height="620" rx="24" fill="#f5f3ed"/>
+<g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#203b4b">
+<text x="48" y="57" font-size="17" letter-spacing="2">磐田市の大雨情報を読む / 01</text>
+<text x="48" y="109" font-size="34" font-weight="bold">同じ「4」でも、知らせる役割が違う</text>
+<rect x="48" y="150" width="420" height="318" rx="18" fill="#fff" stroke="#c9c5d9" stroke-width="2"/>
+<rect x="492" y="150" width="420" height="318" rx="18" fill="#fff" stroke="#b8cbd3" stroke-width="2"/>
+<rect x="72" y="174" width="184" height="40" rx="20" fill="#eee8f4"/>
+<text x="92" y="202" font-size="23" font-weight="bold" fill="#64427b">レベル4相当</text>
+<rect x="516" y="174" width="140" height="40" rx="20" fill="#e3edf1"/>
+<text x="536" y="202" font-size="23" font-weight="bold">レベル4</text>
+<text x="76" y="268" font-size="38" font-weight="bold">危険警報</text>
+<text x="520" y="268" font-size="38" font-weight="bold">避難指示</text>
+<path d="M76 291H440M520 291H884" stroke="#d7dce0" stroke-width="2"/>
+<text x="76" y="330" font-size="24">発表元：気象庁など</text>
+<text x="520" y="330" font-size="24">発令元：磐田市</text>
+<text x="76" y="378" font-size="27" font-weight="bold">災害の危険度を知らせる</text>
+<text x="520" y="378" font-size="27" font-weight="bold">対象地域へ避難を呼びかけ</text>
+<text x="76" y="425" font-size="20">危険度と対象を見て避難を判断</text>
+<text x="520" y="425" font-size="20">対象の危険な場所から全員避難</text>
+<rect x="48" y="494" width="864" height="72" rx="14" fill="#203b4b"/>
+<text x="480" y="540" font-size="27" font-weight="bold" text-anchor="middle" fill="#fff">市の指示がなくても、自ら早めの安全確保を判断する</text>
+<text x="48" y="599" font-size="16">市の公式説明をもとに作成 / 2026年9月13日確認 / 現在の発令状況ではありません</text>
+</g></svg>
