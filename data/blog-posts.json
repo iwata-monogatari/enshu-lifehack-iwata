@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260914-iwata-boshi-techo-reservation",
+      "date": "2026-09-14",
+      "modified": "2026-09-14",
+      "axis": "mon",
+      "title": "磐田市の母子手帳予約｜仕事を休む前の準備",
+      "description": "磐田市の母子手帳は母子モで予約し、平日にiプラザ2階で交付。面談と給付手続きは30～60分程度です。通院と仕事調整の負担を踏まえ、往復時間から休みを考える方法、第2子以降の胎児登録、変更時の連絡先を整理。2026年9月14日に市公式案内を確認しました。",
+      "home_description": "母子モの予約枠と面談30～60分を確認。往復も含め、仕事を休む前の段取りを考えます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/ninshin_shussan_shien/1001738.html および https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/ninshin_shussan_shien/1014928.html （2026-09-14確認）",
+      "cover_alt": "磐田市の母子手帳予約｜仕事を休む前の準備の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/family-grow/pregnancy/",
+          "label": "妊娠・出産の手続きガイド"
+        }
+      ]
+    },
+    {
       "slug": "20260914-iwata-stray-cat-surgery-outside-city",
       "date": "2026-09-14",
       "modified": "2026-09-14",
