@@ -6,6 +6,32 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260914-iwata-stray-cat-surgery-outside-city",
+      "date": "2026-09-14",
+      "modified": "2026-09-14",
+      "axis": "mon",
+      "title": "磐田市の野良猫手術補助｜市外の病院も対象に",
+      "description": "磐田市では2026年度から市外の動物病院での野良猫の不妊去勢手術も補助対象です。市内在住などの条件、メス9,000円・オス6,000円の上限、事前申請と立て替えの負担を整理。世話や通院を担う人が、病院を決める前に市へ確認する内容を紹介します。",
+      "home_description": "市外の動物病院も対象となった野良猫手術補助。条件と立て替え、通院の段取りを家計目線で読みます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/pet/1001521.html および補助金交付手続きPDF（2026-09-14確認）",
+      "cover_alt": "磐田市の野良猫手術補助｜市外の病院も対象にの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/troubles-consult/animal-pet-consultation/",
+          "label": "動物・ペットの困りごと相談"
+        },
+        {
+          "href": "/life/start-living/pets-lost-animals/",
+          "label": "ペット・迷子の動物の案内"
+        },
+        {
+          "href": "/life/troubles-consult/",
+          "label": "困りごと相談の一覧"
+        }
+      ]
+    },
+    {
       "slug": "20260913-iwata-plastic-no-mark-recycling",
       "date": "2026-09-13",
       "modified": "2026-09-13",
