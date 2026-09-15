@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260915-iwata-seismic-retrofit-shelter",
+      "date": "2026-09-15",
+      "modified": "2026-09-15",
+      "axis": "tue",
+      "title": "磐田市の耐震補強とシェルター｜実家で比べる",
+      "description": "磐田市の耐震補強は住宅の耐震性を高め、シェルターは設置空間で身を守る備えです。築年や居住状況で助成条件は変わります。2026年度の補強助成の延長、契約前の交付決定、親の暮らしと家族の調整負担を整理。今日は実家の築年を確認するところから始めます。",
+      "home_description": "守る範囲と親の暮らしを比較。今日は築年を確認し、契約前に市へ相談します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1009366.html および https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/jishin_tsunami_sonae/taishin/1002144.html （2026-09-15確認）",
+      "cover_alt": "磐田市の耐震補強とシェルター｜実家で比べるの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/housing/earthquake-demolition/",
+          "label": "耐震・解体の手続きガイド"
+        }
+      ]
+    },
+    {
       "slug": "20260914-iwata-boshi-techo-reservation",
       "date": "2026-09-14",
       "modified": "2026-09-14",

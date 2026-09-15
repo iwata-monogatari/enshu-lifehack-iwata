@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><style>text{font-family:Meiryo,sans-serif;fill:#17384c}.head{font-size:30px;font-weight:700}.label{font-size:25px;font-weight:700}.note{font-size:22px}</style><rect width="960" height="560" rx="24" fill="#f1f6f8"/><title id="title">耐震補強とシェルターの守る範囲</title><desc id="desc">住宅の耐震性を高める補強と、設置空間で身を守るシェルターを二つの家で比較する模式図。</desc>
+<text x="48" y="59" class="head">実家で比べる「守る範囲」</text>
+<rect x="35" y="90" width="435" height="380" rx="18" fill="white"/><rect x="490" y="90" width="435" height="380" rx="18" fill="white"/>
+<text x="65" y="134" class="label">耐震補強</text><text x="520" y="134" class="label">耐震シェルター</text>
+<g fill="none" stroke="#70818d" stroke-width="7" stroke-linejoin="round">
+<path d="M105 250 L250 161 L395 250 M125 240 V390 H375 V240 M125 305 H375 M250 178 V390"/>
+<path d="M560 250 L705 161 L850 250 M580 240 V390 H830 V240 M580 305 H830 M705 178 V300"/>
+</g>
+<g stroke="#0074ae" stroke-width="9"><path d="M130 305 L246 389 M254 306 L369 386 M130 249 L245 304 M253 304 L371 247"/></g>
+<rect x="712" y="312" width="101" height="73" rx="4" fill="#d6eee2" stroke="#27805a" stroke-width="9"/>
+<path d="M727 357 H799 M730 346 V373 M796 344 V373" stroke="#27805a" stroke-width="5" fill="none"/>
+<text x="65" y="440" class="note">住宅の耐震性を高める</text><text x="520" y="440" class="note">設置した空間で身を守る</text>
+<text x="48" y="513" class="note">模式図です。施工箇所・製品性能を示す設計図ではありません。</text>
+<text x="48" y="544" font-size="19">シェルターの外の部屋まで保護する意味ではありません。</text></svg>

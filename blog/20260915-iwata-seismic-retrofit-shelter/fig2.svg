@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><style>text{font-family:Meiryo,sans-serif;fill:#17384c}.head{font-size:30px;font-weight:700}.label{font-size:25px;font-weight:700}.note{font-size:22px}</style><rect width="960" height="560" rx="24" fill="#f1f6f8"/><title id="title">築年の確認と契約を分ける</title><desc id="desc">今日の一歩は築年確認。対象条件を市に相談し、比較をした後、申請と交付決定を経て契約する。補強計画の契約も交付決定より後。</desc>
+<text x="48" y="59" class="head">今日は一つ。その後は順番を守る</text>
+<rect x="45" y="90" width="870" height="95" rx="15" fill="#0074ae"/><text x="72" y="127" style="fill:white;font-size:22px">今日の一歩</text><text x="72" y="166" style="fill:white;font-size:29px;font-weight:700">実家の築年を確認する</text>
+<path d="M480 190 V215 M470 205 L480 215 L490 205" fill="none" stroke="#70818d" stroke-width="4"/>
+<rect x="45" y="223" width="410" height="90" rx="14" fill="white"/><text x="67" y="259" class="label">市へ対象条件を相談</text><text x="67" y="293" class="note">築年・構造・現在の使い方</text>
+<rect x="505" y="223" width="410" height="90" rx="14" fill="white"/><text x="527" y="259" class="label">家族で二案を比較</text><text x="527" y="293" class="note">守る範囲・費用・生活負担</text>
+<path d="M463 268 H494 M484 258 L494 268 L484 278 M710 320 V345 M700 335 L710 345 L720 335" fill="none" stroke="#70818d" stroke-width="4"/>
+<rect x="45" y="355" width="620" height="84" rx="14" fill="#d6eee2"/><text x="70" y="405" class="label">補助金を申請 → 交付決定</text>
+<path d="M676 397 H716 M706 387 L716 397 L706 407" fill="none" stroke="#27805a" stroke-width="5"/>
+<rect x="730" y="355" width="185" height="84" rx="14" fill="white" stroke="#27805a" stroke-width="3"/><text x="787" y="405" class="label">契約</text>
+<text x="48" y="489" class="note">補強計画の契約も、交付決定より先にしない。</text>
+<text x="48" y="529" font-size="20">相談・比較の概念図。個別の申請手順は磐田市へ確認。</text></svg>
