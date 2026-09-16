@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260916-iwata-school-exhibition",
+      "date": "2026-09-16",
+      "modified": "2026-09-16",
+      "axis": "wed",
+      "title": "磐田市歴史文書館の小学校展｜9月30日まで",
+      "description": "磐田市歴史文書館の小学校展は2026年9月30日まで。竜洋支所内で無料・申込不要、土日祝休館です。昭和の学校風景を親と訪ねるために、9月後半の平日候補、16時30分の入館締切、移動と帰宅の段取りを整理。家族で行ける日を一つ選び、市公式で確認します。",
+      "home_description": "9月30日までの小学校展。平日の候補と入館締切を確認し、親と訪ねる時間を考えます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/event/tenji_kanshou_concert/1016698.html および https://www.city.iwata.shizuoka.jp/sports_midokoro/bunkazai/bunkazainitsuite/1015553.html（2026-09-16確認）",
+      "cover_alt": "磐田市歴史文書館の小学校展｜9月30日までの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/cultural-facilities/",
+          "label": "文化施設の開館日・アクセス"
+        }
+      ]
+    },
+    {
       "slug": "20260915-inherited-home-rebuild-subsidy",
       "date": "2026-09-15",
       "modified": "2026-09-15",
@@ -228,7 +246,7 @@
     {
       "slug": "20260909-nakahara-b-kofun-exhibition-access",
       "date": "2026-09-09",
-      "modified": "2026-09-09",
+      "modified": "2026-09-16",
       "axis": "wed",
       "title": "中原B古墳群展の行き方｜磐田市・無料",
       "description": "中原B古墳群展は磐田市埋蔵文化財センターで2026年10月25日まで。8時30分〜17時、祝日・振替休日は休館、無料・申込不要です。駐車10台と磐田駅からのバスを含め、迷わない行き方を整理します。",
