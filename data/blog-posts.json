@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260917-iwata-nursery-application-preparation",
+      "date": "2026-09-17",
+      "modified": "2026-09-17",
+      "axis": "thu",
+      "title": "磐田市の保育園申込み準備｜書類配布は9月18日",
+      "description": "磐田市の2027年4月入園は、書類配布が2026年9月18日、一次募集が10月1〜30日。今日は勤務先に就労証明書の発行日数を確認します。仕事と育児の調整負担を踏まえ、書類集めの順番、配布場所と受付先の違い、電子申請の年表記の注意点を整理します。",
+      "home_description": "9月18日から書類配布。勤務先の発行日数を先に確認し、10月1〜30日の一次募集から逆算します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/hoikuen_youchien_kodomoen/hoikuen/1012764.html および https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/012/764/2027annai.pdf（2026-09-17確認）",
+      "cover_alt": "磐田市の保育園申込み準備｜書類配布は9月18日の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/family-grow/nursery-school/",
+          "label": "幼稚園・保育園・こども園の入園ガイド"
+        }
+      ]
+    },
+    {
       "slug": "20260916-iwata-school-exhibition",
       "date": "2026-09-16",
       "modified": "2026-09-16",
@@ -878,7 +896,7 @@
     {
       "slug": "20260831-hoikuen-vs-ninteikodomoen",
       "date": "2026-08-31",
-      "modified": "2026-08-31",
+      "modified": "2026-09-17",
       "axis": "mon",
       "title": "磐田市の保育園と認定こども園の違いは、0〜2歳では出ない",
       "description": "磐田市の認定こども園は21園、保育園は13園です。0〜2歳の入園ではどちらも3号認定で、申込みも利用調整も保育料表も同じ。違いが出るのは3歳以降と、地域型保育13園との間です。令和8年9月入園の調整中児童数157人の読み方と併せて整理しました。",
