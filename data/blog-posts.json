@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260912-iwata-city-pool-usage-guide",
+      "date": "2026-09-12",
+      "modified": "2026-09-12",
+      "axis": "sat",
+      "title": "磐田市温水プール｜一般個人利用の時間と料金",
+      "description": "磐田市温水プール（御厨）の一般個人利用は大人1回520円、小中学生210円、高齢者310円で誰でも利用できます。25mプール、歩行専用コース、幼児プール、水泳帽着用ルールや無料駐車場まで、市民が健康維持に使いこなす段取りを整理します。",
+      "home_description": "磐田市温水プール（御厨）の一般個人利用は大人1回520円、小中学生210円、高齢者310円で誰でも利用できます。25mプ",
+      "cta": "official",
+      "primary_source": "温水プール／磐田市（ページ更新日2026年3月10日）を2026-09-12に確認",
+      "cover_alt": "磐田市温水プール｜一般個人利用の時間と料金の確認イメージ",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "磐田市内の公園を目的と地区から探す"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260917-iwata-nursery-application-preparation",
       "date": "2026-09-17",
       "modified": "2026-09-17",

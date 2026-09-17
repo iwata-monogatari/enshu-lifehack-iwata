@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" data-illustration="iwata-editorial">
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="60" y="50" width="1080" height="80" rx="12" fill="#0284c7"/>
+  <text x="600" y="102" fill="#ffffff" font-size="32" font-weight="bold" text-anchor="middle" font-family="sans-serif">磐田市温水プールの個人利用料金と区分</text>
+  
+  <rect x="70" y="180" width="320" height="260" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="4"/>
+  <text x="230" y="240" fill="#0284c7" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif">大人（高校生以上）</text>
+  <text x="230" y="330" fill="#1e293b" font-size="60" font-weight="bold" text-anchor="middle" font-family="sans-serif">520円</text>
+  <text x="230" y="390" fill="#64748b" font-size="18" text-anchor="middle" font-family="sans-serif">1回利用・時間無制限</text>
+  
+  <rect x="440" y="180" width="320" height="260" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="4"/>
+  <text x="600" y="240" fill="#0284c7" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif">高齢者（65歳以上）</text>
+  <text x="600" y="330" fill="#1e293b" font-size="60" font-weight="bold" text-anchor="middle" font-family="sans-serif">310円</text>
+  <text x="600" y="390" fill="#64748b" font-size="18" text-anchor="middle" font-family="sans-serif">市内在住者確認あり</text>
+  
+  <rect x="810" y="180" width="320" height="260" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="4"/>
+  <text x="970" y="240" fill="#0284c7" font-size="26" font-weight="bold" text-anchor="middle" font-family="sans-serif">小中学生・幼児</text>
+  <text x="970" y="330" fill="#1e293b" font-size="60" font-weight="bold" text-anchor="middle" font-family="sans-serif">210円</text>
+  <text x="970" y="390" fill="#64748b" font-size="18" text-anchor="middle" font-family="sans-serif">幼児は保護者同伴必須</text>
+  
+  <rect x="70" y="480" width="1060" height="130" rx="12" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="2"/>
+  <text x="600" y="530" fill="#0369a1" font-size="22" font-weight="bold" text-anchor="middle" font-family="sans-serif">入水時の必須持ち物と水泳帽の着用義務</text>
+  <text x="600" y="575" fill="#334155" font-size="20" text-anchor="middle" font-family="sans-serif">水着、水泳帽（スイムキャップ必須）、バスタオル、着替え。ゴーグルは任意着用です。</text>
+</svg>
