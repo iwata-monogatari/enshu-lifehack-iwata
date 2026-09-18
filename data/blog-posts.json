@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260919-kabutozuka-park-sports-guide",
+      "date": "2026-09-19",
+      "modified": "2026-09-19",
+      "axis": "sat",
+      "title": "かぶと塚公園のスポーツ施設｜秋の個人利用と3つの段取り",
+      "description": "かぶと塚公園の陸上競技場・多目的広場・ジョギングコースを個人で使いこなす手順を解説。無料駐車場や夜間照明、用具の準備と予約確認のポイントを整理し、秋の休日に市民が安全に運動を始めるための心得を宅建士の大石浩之がまとめます。",
+      "home_description": "かぶと塚公園の陸上競技場やジョギングコースを個人で使いこなす手順を解説。無料駐車場や夜間照明、用具準備と予約確認のポイントを整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/taiikukan_undoujou/1003460.html および https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/taiikukan_undoujou/1003461.html （2026-09-19確認）",
+      "cover_alt": "かぶと塚公園のスポーツ施設｜秋の個人利用と3つの段取りの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "磐田市内の公園を目的と地区から探す"
+        },
+        {
+          "href": "/life/play-out/parking-access/",
+          "label": "磐田市の施設へ出発する前に駐車場・地図・公共交通を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260918-iwata-oversized-trash-guide",
       "date": "2026-09-18",
       "modified": "2026-09-18",
