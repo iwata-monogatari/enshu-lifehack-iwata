@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260918-iwata-oversized-trash-guide",
+      "date": "2026-09-18",
+      "modified": "2026-09-18",
+      "axis": "fri",
+      "title": "磐田市の粗大ごみ処分｜持ち込みと戸別収集の3比較",
+      "description": "磐田市で粗大ごみや不用品を処分する手順を解説。クリーンセンターへの自己搬入（重量制・予約不要）と戸別有料収集（点数制・事前予約制）の料金・所要時間・運搬負担を3項目で比較し、持ち込めない家電4品目の手続きまで宅建士の大石浩之が整理します。",
+      "home_description": "磐田市での粗大ごみ処分は、クリーンセンターへの自己搬入と戸別有料収集の2つの方法があります。料金・時間・運搬負担の違いを比較して整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyou/gomi_dashikata/1001552.html （2026-09-18確認）",
+      "cover_alt": "磐田市の粗大ごみ処分｜持ち込みと戸別収集の3比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/bulky-garbage-dropoff/",
+          "label": "粗大ごみ自己搬入ガイド"
+        }
+      ]
+    },
+    {
       "slug": "20260912-iwata-city-pool-usage-guide",
       "date": "2026-09-12",
       "modified": "2026-09-12",
