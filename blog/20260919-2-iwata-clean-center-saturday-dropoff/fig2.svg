@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" data-illustration="iwata-editorial" role="img">
+<title>戸別収集と自己搬入のメリット・デメリット比較</title>
+<rect width="960" height="520" rx="24" fill="#f8fafc"/>
+<g font-family="Meiryo, sans-serif">
+<text x="44" y="60" font-size="28" font-weight="bold" fill="#1e293b">粗大ごみ戸別収集 vs クリーンセンター自己搬入の比較</text>
+
+<rect x="44" y="90" width="420" height="380" rx="16" fill="#ffffff" stroke="#0ea5e9" stroke-width="2"/>
+<text x="74" y="135" font-size="22" font-weight="bold" fill="#0ea5e9">戸別収集（電話・ネット事前予約）</text>
+<text x="74" y="180" font-size="16" fill="#334155">【搬出負担】自宅玄関先まで出せば収集車が回収</text>
+<text x="74" y="215" font-size="16" fill="#334155">【日程制約】予約から収集まで1〜2週間程度必要</text>
+<text x="74" y="250" font-size="16" fill="#334155">【点数制限】1回あたり3点〜5点程度の上限あり</text>
+<text x="74" y="285" font-size="16" fill="#334155">【費用体系】品目ごとの収集シール（手数料納付券）</text>
+<text x="74" y="325" font-size="16" fill="#334155">【適する人】自家用車がない、重量物の運搬が困難</text>
+<text x="74" y="375" font-size="15" fill="#0284c7" font-weight="bold">少量かつ計画的な家具入れ替えに最適</text>
+
+<rect x="494" y="90" width="420" height="380" rx="16" fill="#ffffff" stroke="#10b981" stroke-width="2"/>
+<text x="524" y="135" font-size="22" font-weight="bold" fill="#10b981">自己搬入（クリーンセンター持ち込み）</text>
+<text x="524" y="180" font-size="16" fill="#334155">【搬出負担】自力で車載し場内で荷下ろしが必要</text>
+<text x="524" y="215" font-size="16" fill="#334155">【日程制約】受付時間内（土曜午前可）なら即日処分</text>
+<text x="524" y="250" font-size="16" fill="#334155">【点数制限】車両積載可能なら点数無制限で一括持込</text>
+<text x="524" y="285" font-size="16" fill="#334155">【費用体系】持込総重量に基づく従量制（明朗会計）</text>
+<text x="524" y="325" font-size="16" fill="#334155">【適する人】軽トラやミニバンがあり一気に片付けたい</text>
+<text x="524" y="375" font-size="15" fill="#059669" font-weight="bold">実家整理や大掃除などまとまった処分に威力</text>
+</g>
+</svg>

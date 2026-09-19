@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" data-illustration="iwata-editorial" role="img">
+<title>磐田市クリーンセンター土曜自己搬入の流れと計量手順</title>
+<rect width="960" height="520" rx="24" fill="#f0fdf4"/>
+<g font-family="Meiryo, sans-serif">
+<text x="44" y="60" font-size="28" font-weight="bold" fill="#14532d">磐田市クリーンセンター土曜自己搬入の受付・計量手順</text>
+
+<rect x="44" y="90" width="270" height="380" rx="16" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+<text x="74" y="135" font-size="20" font-weight="bold" fill="#16a34a">Step 1：進入と受付計量</text>
+<text x="64" y="175" font-size="14" fill="#334155">• 入口の計量棟（入口側トラックスケール）へ進入</text>
+<text x="64" y="205" font-size="14" fill="#334155">• 運転免許証等で磐田市内居住を確認</text>
+<text x="64" y="235" font-size="14" fill="#334155">• 車両ごと総重量を自動計測</text>
+<text x="64" y="265" font-size="14" fill="#334155">• 搬入受付票を受け取り場内へ</text>
+<rect x="54" y="300" width="250" height="150" rx="8" fill="#f0fdf4"/>
+<text x="64" y="330" font-size="13" font-weight="bold" fill="#15803d">【確認ポイント】</text>
+<text x="64" y="360" font-size="12" fill="#14532d">土曜は午前中（8:30〜11:30）のみ</text>
+<text x="64" y="385" font-size="12" fill="#14532d">受付。開始直後は車列ができやすいため</text>
+<text x="64" y="410" font-size="12" fill="#14532d">9:30〜10:30頃が狙い目となります。</text>
+
+<rect x="344" y="90" width="270" height="380" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="2"/>
+<text x="374" y="135" font-size="20" font-weight="bold" fill="#0284c7">Step 2：品目別の荷下ろし</text>
+<text x="364" y="175" font-size="14" fill="#334155">• 係員の誘導に従い指定プラットホームへ</text>
+<text x="364" y="205" font-size="14" fill="#334155">• 可燃ごみ・粗大ごみ・資源ごみを分別投下</text>
+<text x="364" y="235" font-size="14" fill="#334155">• 剪定枝・金属類は専用ピットへ</text>
+<text x="364" y="265" font-size="14" fill="#334155">• 原則として搬入者自身で積み下ろし</text>
+<rect x="354" y="300" width="250" height="150" rx="8" fill="#f0f9ff"/>
+<text x="364" y="330" font-size="13" font-weight="bold" fill="#0369a1">【車載のコツ】</text>
+<text x="364" y="360" font-size="12" fill="#0c4a6e">最初に降ろす金属・資源を車輪口側へ、</text>
+<text x="364" y="385" font-size="12" fill="#0c4a6e">奥に可燃粗大を積むことで車内での</text>
+<text x="364" y="410" font-size="12" fill="#0c4a6e">荷崩れや右往左往を防げます。</text>
+
+<rect x="644" y="90" width="270" height="380" rx="16" fill="#ffffff" stroke="#b45309" stroke-width="2"/>
+<text x="674" y="135" font-size="20" font-weight="bold" fill="#b45309">Step 3：出口計量と精算</text>
+<text x="664" y="175" font-size="14" fill="#334155">• 出口計量棟のトラックスケールへ移動</text>
+<text x="664" y="205" font-size="14" fill="#334155">• 荷下ろし後の空車重量を計測</text>
+<text x="664" y="235" font-size="14" fill="#334155">• 差引重量（持込ごみ総量）を算出</text>
+<text x="664" y="265" font-size="14" fill="#334155">• 規定の手数料を現金等で精算・領収書</text>
+<rect x="654" y="300" width="250" height="150" rx="8" fill="#fffbeb"/>
+<text x="664" y="330" font-size="13" font-weight="bold" fill="#b45309">【料金基準】</text>
+<text x="664" y="360" font-size="12" fill="#78350f">一般家庭の自己搬入は重量制。</text>
+<text x="664" y="385" font-size="12" fill="#78350f">指定袋に入らない粗大ごみも一括計量で</text>
+<text x="664" y="410" font-size="12" fill="#78350f">効率的に処分できます。</text>
+</g>
+</svg>
