@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260920-autumn-traffic-safety",
+      "date": "2026-09-20",
+      "modified": "2026-09-20",
+      "axis": "sun",
+      "title": "磐田市の秋の交通安全運動2026｜9月21日から",
+      "description": "2026年の秋の全国交通安全運動は9月21〜30日。磐田市の街頭キャンペーンは9月18日の事前日程です。子どもの送迎や親の外出を支える負担を踏まえ、市の年間重点と秋の重点を整理。今日は家族で、普段通る交差点を一つ確認する方法を紹介します。",
+      "home_description": "秋の運動は9月21〜30日。街頭日程との違いと市の重点を確認し、送迎や見守りの負担を増やさず、家族で交差点を一つ確かめます。",
+      "cta": "official",
+      "primary_source": "磐田市「交通安全活動」、令和8年秋の全国交通安全運動実施要綱、交通安全教育センターを2026-09-20に確認",
+      "cover_alt": "磐田市の秋の交通安全運動2026｜9月21日からの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/parents-care/elderly-transportation/",
+          "label": "親の移動・外出支援を確認する"
+        },
+        {
+          "href": "/life/living-soon/transportation/",
+          "label": "磐田市の移動と交通の案内を見る"
+        }
+      ]
+    },
+    {
       "slug": "20260919-2-iwata-clean-center-saturday-dropoff",
       "date": "2026-09-19",
       "modified": "2026-09-19",
@@ -594,7 +616,7 @@
     {
       "slug": "20260905-spocul-iwata-club-difference",
       "date": "2026-09-05",
-      "modified": "2026-09-05",
+      "modified": "2026-09-20",
       "axis": "sat",
       "title": "SPO☆CUL IWATA｜2026年9月、休日部活との違い",
       "description": "SPO☆CUL IWATAと学校部活動の違いを、2026年9月の切替え、月額2,000円からの参加費、別途費用、校区外会場への送迎、保険、申込みの順に保護者向けに整理します。",
