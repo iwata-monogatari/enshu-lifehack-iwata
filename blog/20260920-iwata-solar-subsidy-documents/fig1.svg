@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><title id="title">領収書で最初に見る三つの項目</title><desc id="desc">設置機器名、金額、設置日を確認する模式図。領収日と設置日は別に確認する。</desc><rect width="960" height="560" rx="24" fill="#edf5f8"/><g font-family="Meiryo, sans-serif" fill="#173c51"><text x="44" y="65" font-size="32" font-weight="bold">休日の一歩：設置日のある領収書を探す</text>
+<rect x="52" y="100" width="490" height="358" rx="14" fill="white" stroke="#b8cbd6" stroke-width="2"/>
+<text x="85" y="148" font-size="26" font-weight="bold">領収書（確認箇所の模式図）</text>
+<text x="85" y="195" font-size="22">購入者名：申請する方と照合</text>
+<rect x="75" y="214" width="440" height="55" rx="8" fill="#d9edf6"/><text x="88" y="251" font-size="25">機器名：住宅用太陽光発電</text>
+<rect x="75" y="282" width="440" height="55" rx="8" fill="#d9edf6"/><text x="88" y="319" font-size="25">金額：機器の金額を確認</text>
+<rect x="75" y="350" width="440" height="55" rx="8" fill="#fff0cf" stroke="#c88112" stroke-width="2"/><text x="88" y="387" font-size="25" font-weight="bold">設置日：記載があるか確認</text>
+<path d="M545 378 H590" stroke="#c88112" stroke-width="5"/><circle cx="605" cy="378" r="9" fill="#c88112"/>
+<text x="582" y="165" font-size="25" font-weight="bold">見つからない項目は</text><text x="582" y="203" font-size="25">販売店へ確認</text>
+<text x="582" y="264" font-size="23">販売証明書の方法も</text><text x="582" y="300" font-size="23">市の手引きで確認</text>
+<text x="630" y="386" font-size="25" font-weight="bold">領収日とは別</text>
+<text x="48" y="509" font-size="23">自己判断で日付を書き足さず、不足箇所をメモする。</text>
+</g></svg>

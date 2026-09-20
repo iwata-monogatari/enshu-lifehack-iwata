@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><title id="title">太陽光奨励金は二組の書類を準備</title><desc id="desc">奨励金の共通書類と、そらいろラボへの入会資料を別々に点検して合わせて申請する。</desc><rect width="960" height="620" rx="24" fill="#edf5f8"/><g font-family="Meiryo, sans-serif" fill="#173c51"><text x="42" y="62" font-size="32" font-weight="bold">太陽光の申請書類は、二組に分けて点検</text>
+<rect x="35" y="100" width="430" height="370" rx="18" fill="white" stroke="#9dc4d8" stroke-width="2"/>
+<rect x="495" y="100" width="430" height="370" rx="18" fill="white" stroke="#a0c7b7" stroke-width="2"/>
+<path d="M35 155 H465" stroke="#9dc4d8" stroke-width="2"/><path d="M495 155 H925" stroke="#a0c7b7" stroke-width="2"/>
+<text x="65" y="137" font-size="28" font-weight="bold">奨励金の共通書類</text><text x="525" y="137" font-size="28" font-weight="bold">そらいろラボ入会資料</text>
+<text x="65" y="202" font-size="24">申請書・領収書等</text><text x="65" y="250" font-size="24">設置写真・地図・型番資料</text><text x="65" y="298" font-size="24">振込口座・本人確認資料</text><text x="65" y="346" font-size="24">窓口用チェックリスト</text><text x="65" y="412" font-size="20" fill="#506a78">電子申請はチェックリスト不要</text>
+<text x="525" y="202" font-size="24">入会届</text><text x="525" y="250" font-size="24">太陽光パネルの公称最大出力</text><text x="525" y="298" font-size="24">パワーコンディショナー情報</text><text x="525" y="334" font-size="19" fill="#506a78">メーカー・型式・台数・製造番号</text><text x="525" y="388" font-size="24">発電設備の連携開始日</text><text x="525" y="433" font-size="20" fill="#506a78">既登録などの例外は市へ確認</text>
+<path d="M250 475 V502 H710 V475 M480 502 V526" fill="none" stroke="#0074ae" stroke-width="4"/>
+<text x="210" y="566" font-size="27" font-weight="bold">原則として、申請時に合わせて提出</text>
+</g></svg>
