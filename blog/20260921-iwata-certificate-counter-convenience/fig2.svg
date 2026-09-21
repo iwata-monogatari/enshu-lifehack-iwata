@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" width="960" height="680" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">証明書の取得先を選ぶ流れ</title><desc id="desc">提出先に証明書名を一つ確認し、必要な内容と本人のカードなどの条件を調べて、コンビニか担当課への相談かを選ぶ。</desc>
+<rect width="960" height="680" rx="24" fill="#eff6fa"/><g font-family="Meiryo,sans-serif" fill="#123a52">
+<text x="48" y="62" font-size="31" font-weight="bold">休暇や移動を決める、その前に</text>
+<rect x="105" y="100" width="750" height="99" rx="18" fill="#0074ae"/>
+<text x="480" y="140" text-anchor="middle" font-size="24" fill="white">今日の一歩</text><text x="480" y="178" text-anchor="middle" font-size="29" fill="white" font-weight="bold">提出先に「証明書名」を一つ確認</text>
+<path d="M480 202V236" stroke="#0074ae" stroke-width="5"/><path d="M470 226L480 238L490 226" fill="none" stroke="#0074ae" stroke-width="5"/>
+<rect x="130" y="244" width="700" height="103" rx="18" fill="white" stroke="#b9d7e7" stroke-width="2"/>
+<text x="480" y="285" text-anchor="middle" font-size="24">必要な内容・年度・本人のカード</text><text x="480" y="322" text-anchor="middle" font-size="24">コンビニの対象条件に合う？</text>
+<path d="M480 350V374H257V409M480 374H710V409" fill="none" stroke="#0074ae" stroke-width="5"/>
+<rect x="45" y="418" width="418" height="168" rx="18" fill="white"/><rect x="497" y="418" width="418" height="168" rx="18" fill="white"/>
+<text x="254" y="459" text-anchor="middle" font-size="24">条件が合う</text><text x="254" y="504" text-anchor="middle" font-size="30" font-weight="bold" fill="#0074ae">コンビニを候補に</text><text x="254" y="549" text-anchor="middle" font-size="21">提出期限・停止日も照合</text>
+<text x="706" y="459" text-anchor="middle" font-size="24">合わない・分からない</text><text x="706" y="504" text-anchor="middle" font-size="30" font-weight="bold">市の担当課へ確認</text><text x="706" y="549" text-anchor="middle" font-size="21">古い戸籍・代理取得など</text>
+<text x="48" y="636" font-size="21">取得可否は個別条件で変わります。最後は市公式で確認。</text></g></svg>

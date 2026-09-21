@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">11月2日からの住民票取得比較</title><desc id="desc">窓口300円とコンビニ200円。通常窓口9時から16時30分、コンビニ6時30分から23時。</desc>
+<rect width="960" height="620" rx="24" fill="#eff6fa"/><g font-family="Meiryo,sans-serif" fill="#123a52">
+<text x="48" y="65" font-size="32" font-weight="bold">住民票の写し、どちらで取る？</text><text x="48" y="106" font-size="23">2026年11月2日以降・1通あたり</text>
+<rect x="40" y="145" width="424" height="350" rx="20" fill="white"/><rect x="496" y="145" width="424" height="350" rx="20" fill="white"/>
+<g stroke="#0074ae" fill="none" stroke-width="5"><path d="M82 236V202H152V236M70 240H164" /><path d="M72 199L117 171L162 199"/><path d="M98 209V236M135 209V236"/></g>
+<g stroke="#0074ae" fill="none" stroke-width="5"><rect x="538" y="171" width="82" height="69" rx="6"/><path d="M553 187H605V207H553ZM557 224H601"/></g>
+<text x="188" y="216" font-size="29" font-weight="bold">窓口</text><text x="645" y="216" font-size="29" font-weight="bold">コンビニ</text>
+<text x="80" y="308" font-size="60" font-weight="bold">300円</text><text x="537" y="308" font-size="60" font-weight="bold" fill="#0074ae">200円</text>
+<text x="80" y="372" font-size="29">9:00〜16:30</text><text x="537" y="372" font-size="29">6:30〜23:00</text>
+<text x="80" y="421" font-size="21">通常受付・平日</text><text x="537" y="421" font-size="21">メンテナンス日を除く</text>
+<text x="80" y="460" font-size="20">延長・休日窓口は対象課限定</text><text x="537" y="460" font-size="20">本人のカード・利用条件を確認</text>
+<text x="48" y="546" font-size="23" font-weight="bold">先に確認するのは、提出先が求める「証明書名」</text>
+<text x="48" y="585" font-size="18">磐田市の公表情報をもとに作成｜2026年9月21日確認</text></g></svg>

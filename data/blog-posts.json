@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260921-iwata-certificate-counter-convenience",
+      "date": "2026-09-21",
+      "modified": "2026-09-21",
+      "axis": "mon",
+      "title": "磐田市の証明書取得｜11月改定後の窓口とコンビニ比較",
+      "description": "磐田市は2026年11月2日から証明書のコンビニ交付を100円減額。住民票は200円、窓口の通常受付は9時～16時30分に変わります。料金と時間、取得できる範囲を比較し、休暇や家族の移動を調整する前に、必要な証明書名を一つ確認する方法を紹介します。",
+      "home_description": "11月2日から住民票はコンビニ200円に。窓口と料金・時間・取得条件を比較し、必要な証明書名を一つ確認します。",
+      "cta": "official",
+      "primary_source": "磐田市「証明書コンビ二交付サービス」「市役所窓口の受付時間変更」「窓口業務案内」を2026-09-21確認",
+      "cover_alt": "磐田市の証明書取得｜11月改定後の窓口とコンビニ比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/certificates/",
+          "label": "住民票・戸籍・印鑑などの証明書案内"
+        }
+      ]
+    },
+    {
       "slug": "20260920-iwata-solar-subsidy-documents",
       "date": "2026-09-20",
       "modified": "2026-09-20",
