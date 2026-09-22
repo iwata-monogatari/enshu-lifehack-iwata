@@ -74,3 +74,5 @@
 - [磐田市手話言語条例｜店や窓口で大切にしたいこと](https://iwata.enshu-lifehack.com/blog/20260921-iwata-sign-language-ordinance/)：2026年9月21日公開。本人が希望する伝達方法の確認と、駅前・かたりあの青色点灯日程。
 
 - [磐田市の空き家相談会｜家族で用意する相談メモ](https://iwata.enshu-lifehack.com/blog/20260922-iwata-akiya-consultation-family-memo/)（2026-09-22）：11月23日の空き家相談会に向けた家族の相談メモ。申込期限11月17日16時。
+
+- [磐田市の感震ブレーカー｜増設型と内蔵型を比較](https://iwata.enshu-lifehack.com/blog/20260922-iwata-seismic-breaker-comparison/)（2026-09-22）：内蔵型と増設型の設置条件・工事費込み目安を比較。2026年度の補助受付は終了。今日は分電盤の型番を確認。
