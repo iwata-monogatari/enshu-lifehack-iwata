@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260923-iwata-shiryo-digitalization",
+      "date": "2026-09-23",
+      "modified": "2026-09-23",
+      "axis": "wed",
+      "title": "磐田市「史料を遺す」展｜古文書のデジタル化とは",
+      "description": "古文書のデジタル化は、記録を保存し利用につなげる取り組みです。磐田市歴史文書館の「史料を遺す」展は2026年9月30日まで。原本と画像の違い、守る人の手間を考え、家の古い記録を一つ家族と確かめる方法を紹介。無料・申込不要、土日祝休館です。",
+      "home_description": "9月30日までの展示から、原本・画像・説明の役割を考えます。今日は家の古い記録を一つ家族と確認。9月23日は祝日休館です。",
+      "cta": "official",
+      "primary_source": "磐田市展示案内1016760・文化財課展示情報1015553／2026-09-23確認",
+      "cover_alt": "磐田市「史料を遺す」展｜古文書のデジタル化とはの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/cultural-facilities/",
+          "label": "文化施設の案内"
+        }
+      ]
+    },
+    {
       "slug": "20260922-iwata-seismic-breaker-comparison",
       "date": "2026-09-22",
       "modified": "2026-09-22",
