@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">幹事の相談メモ：希望・未定・文化財課への確認</title><desc id="desc">テーマや形式の希望、まだ決まっていない人数や日程、費用や手続きなどの確認事項を三つに分ける。市の申込用紙ではなく筆者の整理例。</desc>
+<rect width="960" height="620" rx="24" fill="#f5f2eb"/>
+<g font-family="Meiryo,sans-serif" fill="#173e50"><text x="48" y="65" font-size="32" font-weight="bold">「決まっていない」を、そのまま書く</text><text x="48" y="104" font-size="20">幹事の手元で使う相談メモ／筆者の整理例</text>
+<rect x="40" y="150" width="280" height="340" rx="18" fill="#fff"/><rect x="340" y="150" width="280" height="340" rx="18" fill="#fff"/><rect x="640" y="150" width="280" height="340" rx="18" fill="#fff"/>
+<path d="M60 230H300M360 230H600M660 230H900" stroke="#c8d6db" stroke-width="2"/>
+<text x="72" y="205" font-size="28" font-weight="bold">希望</text><text x="372" y="205" font-size="28" font-weight="bold">未定</text><text x="666" y="205" font-size="26" font-weight="bold">文化財課に確認</text>
+<g font-size="24"><text x="72" y="282">地域の歴史</text><text x="72" y="345">平日の日中</text><text x="72" y="408">室内か現地か</text>
+<text x="372" y="282">人数の見込み</text><text x="372" y="345">候補日</text><text x="372" y="408">会場・予約状況</text>
+<text x="672" y="282">実施の条件</text><text x="672" y="345">費用・手続き</text><text x="672" y="408">設備・資料</text></g>
+<text x="72" y="461" font-size="18" fill="#526776">まずテーマを一つに</text><text x="372" y="461" font-size="18" fill="#526776">無理に確定させない</text><text x="672" y="461" font-size="18" fill="#526776">推測で埋めない</text>
+<text x="48" y="543" font-size="24" font-weight="bold">相談したこと ≠ 開催が決まったこと</text><text x="48" y="580" font-size="19">市の申込用紙・必須項目一覧ではありません。日時・内容は個別相談です。</text>
+</g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">文化財出前講座：相談前と相談後の段取り</title><desc id="desc">今日は希望テーマを一つ選ぶ。希望と未定を分け、文化財課へ相談する。日時と内容を相談してから開催を確定する。</desc>
+<rect width="960" height="560" rx="24" fill="#f1f6f7"/>
+<g font-family="Meiryo,sans-serif" fill="#173e50"><text x="48" y="65" font-size="32" font-weight="bold">文化財出前講座の相談準備</text><text x="48" y="103" font-size="20">全員の予定を揃える前に、聞きたいことを一つ。</text></g>
+<g stroke="#23708c" stroke-width="4" fill="none"><path d="M307 278H343m-12-10 12 10-12 10M617 278H653m-12-10 12 10-12 10"/></g>
+<g font-family="Meiryo,sans-serif">
+<rect x="40" y="146" width="264" height="255" rx="20" fill="#fff" stroke="#23708c" stroke-width="3"/>
+<circle cx="86" cy="195" r="24" fill="#23708c"/><text x="79" y="204" font-size="25" fill="#fff">1</text><text x="125" y="202" font-size="23" font-weight="bold" fill="#173e50">今日すること</text>
+<path d="M101 259h104v67H101zM115 277h76m-76 17h55" fill="#eaf3f5" stroke="#23708c" stroke-width="3"/>
+<text x="68" y="367" font-size="24" font-weight="bold" fill="#173e50">テーマを一つ選ぶ</text>
+<rect x="348" y="146" width="264" height="255" rx="20" fill="#fff"/>
+<circle cx="394" cy="195" r="24" fill="#5a7b87"/><text x="387" y="204" font-size="25" fill="#fff">2</text><text x="433" y="202" font-size="23" font-weight="bold" fill="#173e50">メモに分ける</text>
+<text x="394" y="277" font-size="23" fill="#173e50">希望：地区の歴史</text><text x="394" y="316" font-size="23" fill="#526776">未定：日程・会場</text><text x="385" y="367" font-size="22" fill="#173e50">空欄は未定でよい</text>
+<rect x="656" y="146" width="264" height="255" rx="20" fill="#fff"/>
+<circle cx="702" cy="195" r="24" fill="#5a7b87"/><text x="695" y="204" font-size="25" fill="#fff">3</text><text x="741" y="202" font-size="23" font-weight="bold" fill="#173e50">文化財課へ</text>
+<text x="698" y="277" font-size="23" fill="#173e50">日時・内容を相談</text><text x="698" y="316" font-size="23" fill="#526776">実施条件を確認</text><text x="695" y="367" font-size="22" fill="#173e50">開催の確定は後で</text>
+<rect x="40" y="431" width="880" height="82" rx="15" fill="#173e50"/><text x="68" y="466" font-size="23" fill="#fff">講座対応：平日9〜17時／団体向け・個別相談</text><text x="68" y="495" font-size="17" fill="#d7e8ed">条件：いわた文化財だより第258号4頁。準備の順番：筆者提案。</text>
+</g></svg>

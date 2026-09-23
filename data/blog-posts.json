@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260923-iwata-cultural-property-outreach",
+      "date": "2026-09-23",
+      "modified": "2026-09-23",
+      "axis": "wed",
+      "title": "磐田市の文化財出前講座｜幹事の相談準備",
+      "description": "磐田市の文化財出前講座は団体向けで、平日9〜17時に対応。日時・内容は文化財課との個別相談です。2026年9月号の案内をもとに、幹事が希望テーマを一つ決め、日程・会場・人数の希望と未定を分ける準備を整理。申込み先と相談前に確定しない事項も確認します。",
+      "home_description": "団体向けの文化財出前講座。希望テーマを一つ決め、日時・会場の希望と未定を分けて文化財課へ相談する準備。",
+      "cta": "official",
+      "primary_source": "いわた文化財だより第258号4頁、指定文化財と文化財の普及啓発／磐田市を2026-09-23確認",
+      "cover_alt": "磐田市の文化財出前講座｜幹事の相談準備の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/facilities-library-parks/",
+          "label": "公共施設・図書館・公園の案内を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260923-iwata-shiryo-digitalization",
       "date": "2026-09-23",
       "modified": "2026-09-23",
@@ -938,7 +956,7 @@
     {
       "slug": "20260902-mitsuke-school-parking",
       "date": "2026-09-02",
-      "modified": "2026-09-02",
+      "modified": "2026-09-23",
       "axis": "wed",
       "title": "旧見付学校の駐車場は10台｜満車を避ける見学順",
       "description": "旧見付学校の駐車場は10台で、バスも駐車できます。開館は火曜から日曜の9時〜16時30分、入館無料。満車を前提に、初めて車で訪れる家族の見学順と当日の切り替え方を整理します。",
