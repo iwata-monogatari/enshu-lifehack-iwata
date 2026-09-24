@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260924-iwata-kosodate-center-registration",
+      "date": "2026-09-24",
+      "modified": "2026-09-24",
+      "axis": "thu",
+      "title": "磐田市の子育て支援センター｜利用登録統一とは",
+      "description": "磐田市の子育て支援センターは2026年度から利用登録を統一。年度に1度の登録と、施設ごとの開館日・イベント予約の違いを整理します。複数のセンターへ出かける保護者の準備負担を踏まえ、今日は今年度の登録状況を一つ確認。9月18日更新の市公式情報に基づきます。",
+      "home_description": "2026年度から年度に1度の共通登録へ。外出準備の負担を認め、今日は今年度の登録状況を一つ確認します。",
+      "cta": "official",
+      "primary_source": "磐田市 子育て支援センター・施設ガイド のびのび／2026-09-24確認",
+      "cover_alt": "磐田市の子育て支援センター｜利用登録統一とはの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/family-grow/parenting-support/",
+          "label": "子育て支援の案内"
+        }
+      ]
+    },
+    {
       "slug": "20260924-iwata-digital-library-paper-books",
       "date": "2026-09-24",
       "modified": "2026-09-24",
