@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260924-iwata-digital-library-paper-books",
+      "date": "2026-09-24",
+      "modified": "2026-09-24",
+      "axis": "thu",
+      "title": "磐田市の電子図書館と紙の本｜親子読書の比較",
+      "description": "磐田市の貸出上限は紙の図書10冊、電子書籍2点で、どちらも2週間。往復と返却が負担なら電子、手元で何冊か選ぶなら紙が候補です。利用対象、オンライン登録の待ち時間、自動返却を比較し、親子で読みたい一冊を選ぶ段取りと第5次計画案の意見募集を整理します。",
+      "home_description": "紙10冊・電子2点、どちらも2週間。往復と返却の負担を比べ、今日は親子で読みたい一冊を選びます。",
+      "cta": "official",
+      "primary_source": "磐田市第5次計画案意見募集・図書館サービスの向上、市立図書館利用案内・電子書籍サービスご利用ガイド／2026-09-24確認",
+      "cover_alt": "磐田市の電子図書館と紙の本｜親子読書の比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/facilities-library-parks/",
+          "label": "公共施設・図書館の案内を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260923-iwata-cultural-property-outreach",
       "date": "2026-09-23",
       "modified": "2026-09-23",
@@ -836,7 +854,7 @@
     {
       "slug": "20260904-iwata-library-six-facilities",
       "date": "2026-09-04",
-      "modified": "2026-09-04",
+      "modified": "2026-09-24",
       "axis": "fri",
       "title": "磐田市の図書館6施設｜近い館の使い分け",
       "description": "磐田市の図書館6施設は、中央・福田・竜洋・豊岡・にこっと・ながふじです。開館時間、休館日、場所、得意分野、2026年9月の特別展示を比べ、近い館を選ぶ順番に整理します。",

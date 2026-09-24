@@ -99,3 +99,5 @@
 - [磐田市の感震ブレーカー｜増設型と内蔵型を比較](https://iwata.enshu-lifehack.com/blog/20260922-iwata-seismic-breaker-comparison/)（2026-09-22）：内蔵型と増設型の設置条件・工事費込み目安を比較。2026年度の補助受付は終了。今日は分電盤の型番を確認。
 
 - [磐田市の文化財出前講座｜幹事の相談準備](https://iwata.enshu-lifehack.com/blog/20260923-iwata-cultural-property-outreach/)（2026-09-23）：団体向け・平日9〜17時。幹事は希望テーマを一つ決め、日時・内容を文化財課へ個別相談。
+
+- [磐田市の電子図書館と紙の本｜親子読書の比較](https://iwata.enshu-lifehack.com/blog/20260924-iwata-digital-library-paper-books/)（2026-09-24）：紙10冊・電子2点、双方2週間。往復・返却負担とオンライン登録を比較。
