@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260925-iwata-walking-map-weekend",
+      "date": "2026-09-25",
+      "modified": "2026-09-25",
+      "axis": "fri",
+      "title": "磐田市ウォーキングマップ｜週末のコース選び",
+      "description": "磐田市ウォーキングマップは、近所のコースを一つ開くところから。全10コースの探し方と、移動・休憩を含めた週末の時間配分、体力や子どもの様子に合わせた選び方を整理します。9月26日からの健幸いわたWEEKをきっかけに、無理なく帰れる道を考えます。",
+      "home_description": "全10コースから近所のPDFを一つ開き、移動・休憩を含めて週末の時間と体力に合う道を選びます。",
+      "cta": "official",
+      "primary_source": "磐田市「ウォーキングマップ」「健幸いわたDAY＆WEEK」を2026-09-25確認",
+      "cover_alt": "磐田市ウォーキングマップ｜週末のコース選びの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "近所の公園を探す"
+        }
+      ]
+    },
+    {
       "slug": "20260925-ryuyo-kaiko-exhibition",
       "date": "2026-09-25",
       "modified": "2026-09-25",
@@ -236,7 +254,7 @@
     {
       "slug": "20260919-kabutozuka-park-sports-guide",
       "date": "2026-09-19",
-      "modified": "2026-09-19",
+      "modified": "2026-09-25",
       "axis": "sat",
       "title": "かぶと塚公園のスポーツ施設｜秋の個人利用と3つの段取り",
       "description": "かぶと塚公園の陸上競技場・多目的広場・ジョギングコースを個人で使いこなす手順を解説。無料駐車場や夜間照明、用具の準備と予約確認のポイントを整理し、秋の休日に市民が安全に運動を始めるための心得を宅建士の大石浩之がまとめます。",

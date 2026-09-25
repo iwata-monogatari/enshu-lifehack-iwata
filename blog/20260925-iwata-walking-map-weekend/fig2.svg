@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" data-illustration="iwata-editorial"><rect width="960" height="540" rx="24" fill="#f4f8f6"/><g font-family="Meiryo,sans-serif" fill="#173f48">
+<text x="48" y="64" font-size="32" font-weight="bold">歩く時間だけで、予定を埋めない</text>
+<text x="48" y="106" font-size="21">家を出て戻るまで「60分」と仮定した計算例</text>
+<text x="48" y="169" font-size="27" font-weight="bold">60分 − 往復20分 − 余裕10分 ＝ 歩く30分</text>
+<rect x="48" y="210" width="288" height="115" fill="#346c85"/><rect x="336" y="210" width="144" height="115" fill="#f1ce88"/><rect x="480" y="210" width="432" height="115" fill="#267d6b"/>
+<g font-size="24" text-anchor="middle"><text x="192" y="257" fill="#fff">往復移動</text><text x="192" y="297" fill="#fff">20分</text><text x="408" y="257">余裕</text><text x="408" y="297">10分</text><text x="696" y="257" fill="#fff">歩く時間</text><text x="696" y="297" fill="#fff">30分</text></g>
+<text x="48" y="376" font-size="23">移動が長い日は、歩くために使える時間が減ります。</text>
+<text x="48" y="416" font-size="23">残り時間に合わなければ、別の候補や別の日へ。</text>
+<text x="48" y="477" font-size="18">※実在コースの所要時間・推奨運動量ではありません。</text>
+<text x="48" y="505" font-size="18">※体力・体調・同行者・当日の状況に合わせて判断してください。</text>
+</g></svg>
