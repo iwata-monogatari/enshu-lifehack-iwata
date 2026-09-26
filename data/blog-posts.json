@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260926-ecofes-iwata-family-booth",
+      "date": "2026-09-26",
+      "modified": "2026-09-26",
+      "axis": "sat",
+      "title": "エコフェスいわた2026｜親子で回る館内の選び方",
+      "description": "エコフェスいわた2026は10月4日11〜16時、ららぽーと磐田で開催。申込不要です。親子で寄りたいブースを一つ選び、買い物と階の移動を組み合わせる考え方を紹介。手回し発電、廃材アート、読み聞かせの場所と時間、材料費、公式案内の確認先を整理します。",
+      "home_description": "10月4日、ららぽーと磐田で開催。買い物と子連れ移動の負担を増やさず、寄りたいブースを一つ選びます。",
+      "cta": "official",
+      "primary_source": "磐田市「エコフェスいわた2026」、ブース出展詳細・位置図を2026-09-26確認",
+      "cover_alt": "エコフェスいわた2026｜親子で回る館内の選び方の記事表紙",
+      "related_life": [
+        {
+          "href": "/blog/20260925-ryuyo-kaiko-exhibition/",
+          "label": "親子で出かけるカイコ展"
+        },
+        {
+          "href": "/blog/20260913-iwata-plastic-no-mark-recycling/",
+          "label": "家のプラスチック資源化を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260926-iwata-hometown-sports-festival",
       "date": "2026-09-26",
       "modified": "2026-09-26",
