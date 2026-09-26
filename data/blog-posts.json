@@ -6,6 +6,32 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260926-iwata-hometown-sports-festival",
+      "date": "2026-09-26",
+      "modified": "2026-09-26",
+      "axis": "sat",
+      "title": "第2回いわたホームタウンスポーツフェスティバル｜申込",
+      "description": "第2回いわたホームタウンスポーツフェスティバルは10月12日、アミューズ豊田で開催。市内小学1〜4年生が対象、無料100人で超過時は抽選、申込は10月2日17時までです。4種目から3種目を体験する条件と、子どもの希望、送迎、持ち物を確認します。",
+      "home_description": "小1〜4が対象、10月2日17時締切。4種目から3種目を体験する催しの条件と、子どもの希望、送迎、持ち物を整理します。",
+      "cta": "official",
+      "primary_source": "磐田市「第2回いわたホームタウンスポーツフェスティバル」「施設ガイド アミューズ豊田」を2026-09-26確認",
+      "cover_alt": "子どもが四つの球技のカードを選び、隣で保護者が話を聞くイメージ",
+      "related_life": [
+        {
+          "href": "/blog/20260905-iwata-sports-facilities/",
+          "label": "磐田市のスポーツ施設を選ぶ"
+        },
+        {
+          "href": "/blog/20260925-iwata-walking-map-weekend/",
+          "label": "週末のウォーキングコースを選ぶ"
+        },
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "近所の公園を探す"
+        }
+      ]
+    },
+    {
       "slug": "20260925-iwata-walking-map-weekend",
       "date": "2026-09-25",
       "modified": "2026-09-25",
@@ -878,7 +904,7 @@
     {
       "slug": "20260905-iwata-sports-facilities",
       "date": "2026-09-05",
-      "modified": "2026-09-12",
+      "modified": "2026-09-26",
       "axis": "sat",
       "title": "磐田市のスポーツ施設｜初めての選び方",
       "description": "磐田市のスポーツ施設を、体育館・グラウンド・プール・トレーニングの目的別に整理。2026年6月1日から9校で始まった学校体育館の空調、予約・料金・距離の見方を、初めて運動を始める市民の段取りに翻訳します。",
