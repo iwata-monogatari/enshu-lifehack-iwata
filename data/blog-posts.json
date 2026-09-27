@@ -6,6 +6,32 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260927-iwata-water-payment-comparison",
+      "date": "2026-09-27",
+      "modified": "2026-09-27",
+      "axis": "sun",
+      "title": "磐田市の水道料金｜口座振替とスマホ払い比較",
+      "description": "磐田市の水道料金は、毎回の操作を減らす口座振替と、納付書ごとに払うスマホ払いを家族の確認負担で比べます。スマホ払いは領収書が出ません。2026年8月31日のJ-Coin受付終了、対応5アプリ、変更時の注意を整理。今日は領収書が必要か一つ確認します。",
+      "home_description": "領収書の要否と、家族が支払い済みを確認する負担で比較。J-Coin受付終了後の対応方法を整理します。",
+      "cta": "official",
+      "primary_source": "磐田市「お支払い方法」「上下水道料金センターインターネット受付」を2026-09-27確認",
+      "cover_alt": "磐田市の水道料金、口座振替とスマホ払いの比較記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/water-sewer/",
+          "label": "水道・下水道の手続き案内"
+        },
+        {
+          "href": "/blog/20260921-iwata-certificate-counter-convenience/",
+          "label": "証明書の窓口とコンビニを比較"
+        },
+        {
+          "href": "/blog/20260911-iwata-four-branch-offices/",
+          "label": "磐田市の4支所窓口の案内"
+        }
+      ]
+    },
+    {
       "slug": "20260926-ecofes-iwata-family-booth",
       "date": "2026-09-26",
       "modified": "2026-09-26",
@@ -222,7 +248,7 @@
     {
       "slug": "20260921-iwata-certificate-counter-convenience",
       "date": "2026-09-21",
-      "modified": "2026-09-21",
+      "modified": "2026-09-27",
       "axis": "mon",
       "title": "磐田市の証明書取得｜11月改定後の窓口とコンビニ比較",
       "description": "磐田市は2026年11月2日から証明書のコンビニ交付を100円減額。住民票は200円、窓口の通常受付は9時～16時30分に変わります。料金と時間、取得できる範囲を比較し、休暇や家族の移動を調整する前に、必要な証明書名を一つ確認する方法を紹介します。",
