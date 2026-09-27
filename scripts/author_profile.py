@@ -11,6 +11,7 @@ build_blog.py から毎回呼ばれる（冪等）。単体でも実行できる
 人物・運営主体の内容を変えるときは、このファイルの定数だけを直す（森町版にも同じファイルがある）。
 """
 import glob
+import html
 import json
 import os
 import re
@@ -128,9 +129,41 @@ def _fix_jsonld(src, errors, label):
     return _JSONLD.sub(repl, src)
 
 
+def _meta(src, pattern):
+    m = re.search(pattern, src, re.S | re.I)
+    return html.unescape(m.group(1)).strip() if m else ""
+
+
+def _ensure_article_jsonld(src):
+    """記事に author を持つ JSON-LD が無ければ、最小の BlogPosting を head に足す。"""
+    if '"author"' in src:
+        return src
+    url = _meta(src, r'<link rel="canonical" href="([^"]+)"')
+    m = re.search(r"/blog/(\d{4})(\d{2})(\d{2})-", url)
+    if not url or not m:
+        return src
+    headline = _meta(src, r'<meta property="og:title" content="([^"]*)"') or _meta(src, r"<title>(.*?)</title>")
+    node = {"@context": "https://schema.org", "@type": "BlogPosting", "@id": url + "#article",
+            "headline": headline, "url": url, "mainEntityOfPage": url,
+            "datePublished": "%s-%s-%s" % m.groups()}
+    desc = _meta(src, r'<meta name="description" content="([^"]*)"')
+    if desc:
+        node["description"] = desc
+    image = _meta(src, r'<meta property="og:image" content="([^"]+)"')
+    if image:
+        node["image"] = image
+    node["author"] = dict(PERSON)
+    node["publisher"] = dict(ORG)
+    text = json.dumps(node, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    i = src.find("</head>")
+    if i < 0:
+        return src
+    return src[:i] + '<script type="application/ld+json">' + text + "</script>\n" + src[i:]
+
+
 def apply_to_html(src, label="", errors=None):
     errors = [] if errors is None else errors
-    return _fix_jsonld(_fix_html(src), errors, label)
+    return _ensure_article_jsonld(_fix_jsonld(_fix_html(src), errors, label))
 
 
 def apply_all(root, check=False, extra_paths=()):
