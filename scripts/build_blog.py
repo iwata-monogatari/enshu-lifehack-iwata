@@ -34,6 +34,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import author_profile  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
 PARTS_DIR = os.path.join(ROOT, "parts")
@@ -236,7 +239,7 @@ def build_index(posts, parts):
         {
             "@type": "Blog", "@id": "%s/blog/#blog" % SITE, "url": "%s/blog/" % SITE,
             "name": "磐田ブログ", "description": lead, "inLanguage": "ja",
-            "publisher": {"@type": "Organization", "name": "富士ヶ丘サービス株式会社"},
+            "publisher": author_profile.ORG,
             "blogPost": [
                 {
                     "@type": "BlogPosting", "@id": "%s/blog/%s/#article" % (SITE, p["slug"]),
@@ -244,7 +247,7 @@ def build_index(posts, parts):
                     "description": p["description"], "datePublished": p["date"],
                     "dateModified": p.get("modified", p["date"]),
                     "image": "%s/blog/%s/cover.jpg" % (SITE, p["slug"]),
-                    "author": {"@type": "Person", "name": "大石浩之", "url": AUTHOR_URL},
+                    "author": author_profile.PERSON,
                 }
                 for p in sorted_posts
             ],
@@ -426,6 +429,12 @@ def main():
         feed_note = "更新"
         article_note = "%d件更新" % update_article_discovery(posts)
         sitemap_note = "更新" if update_sitemap(posts) else "変更なし"
+        # 著者欄・JSON-LD author を人物情報の正本（oishi-hiroyuki.org）へそろえる（冪等）
+        n_author, author_errors = author_profile.apply_all(
+            ROOT, extra_paths=[os.path.join(ROOT, "author", "oishi-hiroyuki", "index.html")])
+        for e in author_errors:
+            print("  [著者欄] " + e)
+        article_note += " / 著者欄 %d件更新" % n_author
     print(
         "記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s / Atom: %s / 関連導線: %s / sitemap.xml: %s"
         % (len(posts), "（未書き込み:--check）" if args.check else "", feed_note, article_note, sitemap_note)
