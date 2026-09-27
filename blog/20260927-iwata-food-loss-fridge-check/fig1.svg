@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial"><rect width="960" height="560" rx="24" fill="#f0f6f8"/><style>text{font-family:Meiryo,sans-serif;fill:#183f51}.title{font-size:32px;font-weight:bold}.label{font-size:25px;font-weight:bold}.small{font-size:21px}.note{font-size:19px}</style><title>買い物前、一食分だけ決める</title><text x="48" y="62" class="title">買い物前、一食分だけ決める</text><text x="48" y="99" class="small">保存方法・期限・開封の有無を確認してから</text>
+<rect x="48" y="136" width="245" height="330" rx="20" fill="white" stroke="#56839a" stroke-width="3"/><path d="M48 264H293M77 177V230M77 294V365" fill="none" stroke="#56839a" stroke-width="7"/>
+<rect x="112" y="305" width="140" height="104" rx="12" fill="#d9ebcd"/><ellipse cx="182" cy="355" rx="43" ry="33" fill="#75a761"/><path d="M146 359Q180 317 214 359M182 323V386" fill="none" stroke="#416d38" stroke-width="3"/><text x="94" y="445" class="small">冷蔵庫を見る</text>
+<path d="M307 299H342L329 286M342 299L329 312" fill="none" stroke="#197ea0" stroke-width="5"/>
+<rect x="365" y="136" width="545" height="94" rx="16" fill="#fff"/><text x="389" y="173" class="label">1　先に使いたい食材を一つ</text><text x="424" y="208" class="small">例：キャベツ</text>
+<path d="M632 237V259L620 248M632 259L644 248" fill="none" stroke="#197ea0" stroke-width="4"/>
+<rect x="365" y="270" width="545" height="94" rx="16" fill="#fff"/><text x="389" y="307" class="label">2　使う食事と人数を決める</text><text x="424" y="342" class="small">例：日曜の夕食、家で食べる人の分</text>
+<path d="M632 371V393L620 382M632 393L644 382" fill="none" stroke="#197ea0" stroke-width="4"/>
+<rect x="365" y="404" width="545" height="94" rx="16" fill="#d9ebcd"/><text x="389" y="441" class="label">3　不足分だけ買い物メモへ</text><text x="424" y="477" class="small">家にある物は、買い足さない</text>
+<text x="48" y="534" class="note">筆者の提案。食べられるか不明な食品を無理に使わない。</text></svg>

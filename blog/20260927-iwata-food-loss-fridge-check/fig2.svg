@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial"><rect width="960" height="560" rx="24" fill="#f0f6f8"/><style>text{font-family:Meiryo,sans-serif;fill:#183f51}.title{font-size:32px;font-weight:bold}.label{font-size:25px;font-weight:bold}.small{font-size:21px}.note{font-size:19px}</style><title>家にあるキャベツから考える、二つの一食メモ</title><text x="48" y="62" class="title">家にある物から、一食メモを作る</text><text x="48" y="101" class="small">架空の例：先に使う食材はキャベツ。どちらか一案を選ぶ。</text>
+<rect x="48" y="137" width="410" height="342" rx="20" fill="white"/><rect x="502" y="137" width="410" height="342" rx="20" fill="white"/>
+<text x="75" y="184" class="label">A　キャベツと卵の炒め物</text><text x="529" y="184" class="label">B　キャベツと豆腐の汁物</text>
+<path d="M78 207H428M532 207H882" stroke="#c1d5df" stroke-width="2"/>
+<text x="78" y="249" class="small">先に使う：キャベツ</text><text x="78" y="295" class="small">家にある：卵・必要な調味料</text><text x="78" y="341" class="small">不足分：なし</text>
+<text x="532" y="249" class="small">先に使う：キャベツ</text><text x="532" y="295" class="small">家にある：必要な調味料</text><text x="532" y="341" class="small">不足分：豆腐</text>
+<rect x="78" y="372" width="350" height="72" rx="14" fill="#d9ebcd"/><text x="112" y="417" class="label">この料理の買い足しなし</text>
+<rect x="532" y="372" width="350" height="72" rx="14" fill="#e2edf4"/><text x="586" y="417" class="label">買うのは豆腐だけ</text>
+<text x="48" y="523" class="note">材料・量は家族の条件に合わせて調整。保存状態や期限も確認する。</text></svg>
