@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">家族で作る居住歴メモ</title><desc id="desc">最後に住んだ日、転居した日、その後の使い方を分ける。記憶と書類を区別し、未確認の欄を残して市に証明方法を確かめる。</desc>
+<rect width="960" height="600" rx="24" fill="#f8f5ed"/>
+<g font-family="Meiryo,sans-serif" fill="#213e4b"><text x="48" y="66" font-size="32" font-weight="bold">今日の一歩：最後に住んだ日を一つ確認</text>
+<rect x="52" y="104" width="856" height="382" rx="18" fill="#fff" stroke="#b1c5cc" stroke-width="2"/>
+<path d="M84 202H875M84 295H875M84 388H875" stroke="#d5e0e4" stroke-width="2"/>
+<text x="90" y="161" font-size="27" font-weight="bold">最後に住んだ日</text><text x="432" y="161" font-size="24">年　　月　　日 ／ 日付未確認</text>
+<text x="90" y="252" font-size="27" font-weight="bold">転居した日</text><text x="432" y="252" font-size="24">居住を終えた日と分けて記録</text>
+<text x="90" y="345" font-size="27" font-weight="bold">その後の使い方</text><text x="432" y="345" font-size="24">荷物・宿泊など、実態を伝える</text>
+<text x="90" y="438" font-size="27" font-weight="bold">日付の出所</text><text x="432" y="438" font-size="24">家族の記憶 ／ 書類名</text>
+<text x="480" y="533" text-anchor="middle" font-size="25" font-weight="bold">分からない欄は「未確認」のままで。</text>
+<text x="480" y="572" text-anchor="middle" font-size="21">これは相談用メモです。申請の証明方法は磐田市へ確認してください。</text></g></svg>

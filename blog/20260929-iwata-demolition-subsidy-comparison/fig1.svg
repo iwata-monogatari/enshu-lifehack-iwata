@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">実家の居住歴から、解体補助の相談を分ける</title><desc id="desc">自己居住用の木造住宅と、2015年5月26日前から未使用の危険空き家では確認する条件が違う。日付だけで交付は決まらない。</desc>
+<rect width="960" height="640" rx="24" fill="#f1f7fa"/>
+<g font-family="Meiryo,sans-serif" fill="#183d52"><text x="48" y="64" font-size="32" font-weight="bold">補助額の前に、居住歴を見る</text>
+<path d="M440 137 480 105 520 137V183H440Z" fill="#fff" stroke="#1679a2" stroke-width="4"/><path d="M471 183V154H490V183" fill="#b5dce8"/>
+<text x="480" y="229" text-anchor="middle" font-size="26">最後に誰が、いつまで住んでいた？</text>
+<path d="M480 247V271H250V298M480 271H710V298" fill="none" stroke="#6594a9" stroke-width="4"/>
+<rect x="42" y="299" width="426" height="228" rx="18" fill="#fff" stroke="#1679a2" stroke-width="2"/>
+<rect x="492" y="299" width="426" height="228" rx="18" fill="#fff" stroke="#92732d" stroke-width="2"/>
+<text x="68" y="343" font-size="27" font-weight="bold">自己居住用の木造住宅</text><text x="68" y="388" font-size="23">申請日前1年未満の転居も含む</text><text x="68" y="435" font-size="23">建築年・耐震性・住み替え等</text><text x="68" y="485" font-size="25" fill="#116587">→ 建築グループへ確認</text>
+<text x="516" y="343" font-size="27" font-weight="bold">危険空き家等</text><text x="516" y="388" font-size="23">2015年5月26日前から未使用</text><text x="516" y="435" font-size="23">市の現地判定・権利関係等</text><text x="516" y="485" font-size="25" fill="#775b1c">→ 住宅管理グループへ確認</text>
+<text x="480" y="580" text-anchor="middle" font-size="25" font-weight="bold">日付は相談の入口。交付には他の要件もあります。</text><text x="480" y="614" text-anchor="middle" font-size="18">磐田市の公式情報をもとに編集／2026年9月29日確認</text></g></svg>
