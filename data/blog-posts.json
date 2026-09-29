@@ -6,6 +6,28 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260929-iwata-fixed-ramp-rent-buy",
+      "date": "2026-09-29",
+      "modified": "2026-09-29",
+      "axis": "fri",
+      "title": "磐田市の固定用スロープ｜借りる・買うを比較",
+      "description": "磐田市で段差解消に使う固定用スロープを、介護保険の福祉用具貸与・販売と住宅改修の違いから整理します。置き場所、期間、身体状況、住まいの条件を確認し、借りる・買う・工事するを一度で決めず、ケアマネジャーや事業者へ相談する順序を紹介します。",
+      "home_description": "固定用スロープを借りる・買う・住宅改修する違いを、身体状況、期間、設置方法、住まいの条件で整理します。",
+      "cta": "official",
+      "primary_source": "福祉用具の貸与・購入／磐田市、住宅改修／磐田市、介護保険における福祉用具／厚生労働省を2026-09-29に確認",
+      "cover_alt": "磐田市の固定用スロープ｜借りる・買うを比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/troubles-consult/care-consultation/",
+          "label": "介護の相談先を確認する"
+        },
+        {
+          "href": "/life/end-of-life/inherited-vacant-house/",
+          "label": "住まいと実家の相談先を確認する"
+        }
+      ]
+    },
+    {
       "slug": "20260928-iwata-jinseikaigi-family-wishes",
       "date": "2026-09-28",
       "modified": "2026-09-28",
