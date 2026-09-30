@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20260930-nakano-hakusan-shirozake",
+      "date": "2026-09-30",
+      "modified": "2026-09-30",
+      "axis": "wed",
+      "title": "中野白山神社の白酒とは｜磐田の秋を支える仕込み",
+      "description": "中野白山神社の白酒は、新米で造り神前へ供えるお酒です。磐田市豊浜中野で、地区から選ばれた3人の杜氏が例祭の約1か月前から仕込む習俗を紹介。氏子の準備と祭りの願いを子どもに伝える言葉、市の4分41秒の記録映像の開き方を整理します。",
+      "home_description": "新米から白酒を造る3人の杜氏と氏子の準備を知る。今日は市の記録映像を一つ開く。",
+      "cta": "official",
+      "primary_source": "磐田市「無形民俗文化財」「市指定文化財」（2026-09-30確認）",
+      "cover_alt": "中野白山神社の白酒とは｜磐田の秋を支える仕込みの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ]
+    },
+    {
       "slug": "20260930-totomi-kokubunji-visit-construction",
       "date": "2026-09-30",
       "modified": "2026-09-30",
