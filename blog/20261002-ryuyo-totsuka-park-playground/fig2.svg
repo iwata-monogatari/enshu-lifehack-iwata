@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial" role="img"><style>text{font-family:Meiryo,sans-serif;fill:#163c52}.title{font-size:30px;font-weight:700}.label{font-size:25px;font-weight:700}.small{font-size:20px}.note{font-size:18px}</style><rect width="960" height="560" rx="24" fill="#f0f7fa"/><title>公式地図から竜洋十束公園の入口を確かめる順番</title><text x="42" y="58" class="title">今日の一歩は「公式地図で入口を確認」</text><text x="42" y="95" class="small">磐田市宮本233-1 ／ 位置ピンと進入口は別に見る</text>
+<rect x="40" y="130" width="390" height="290" rx="18" fill="white"/>
+<path d="M80 210H390M130 160V390M80 355H390" stroke="#c9d8df" stroke-width="27" fill="none"/><rect x="190" y="240" width="182" height="76" rx="10" fill="#e0efd6"/>
+<path d="M280 160C230 160 230 211 280 257C330 211 330 160 280 160" fill="#0074ae"/><circle cx="280" cy="190" r="12" fill="white"/>
+<text x="230" y="295" class="small">公園の位置</text><text x="172" y="390" class="note">入口はどこから？</text>
+<rect x="477" y="132" width="439" height="76" rx="12" fill="#deedf5"/><text x="503" y="178" class="label">1 市の施設ガイドを開く</text><path d="M694 215V232" stroke="#0074ae" stroke-width="5"/>
+<rect x="477" y="240" width="439" height="76" rx="12" fill="#deedf5"/><text x="503" y="286" class="label">2 地図で道路と入口を見る</text><path d="M694 323V340" stroke="#0074ae" stroke-width="5"/>
+<rect x="477" y="348" width="439" height="76" rx="12" fill="#deedf5"/><text x="503" y="394" class="label">3 現地の案内と照合する</text>
+<text x="42" y="471" class="small">到着後は、トイレの位置と遊具の注意表示を確認。</text><text x="42" y="512" class="note">確認手順の概念図です。道路や園内の実際の形・距離は示していません。</text></svg>

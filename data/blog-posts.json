@@ -6,6 +6,23 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261002-ryuyo-totsuka-park-playground",
+      "date": "2026-10-02",
+      "axis": "fri",
+      "title": "竜洋十束公園の遊具｜親子で出かける前の確認",
+      "description": "竜洋十束公園は2026年3月に複合遊具を更新。磐田市宮本233-1にあり、駐車場・多目的トイレ・車いす対応の出入り口が案内されています。遊具の種類と現地で確かめたい条件を分け、親子の外出前に公式地図で入口を確認する順番を整理します。",
+      "home_description": "2026年3月に更新された遊具と、トイレ・入口を親子の段取りで確認。",
+      "cta": "official",
+      "primary_source": "磐田市施設ガイド1003428・広報いわた令和8年4月号1016347を2026-10-02確認",
+      "cover_alt": "竜洋十束公園の遊具｜親子で出かける前の確認の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "磐田市の公園を探す"
+        }
+      ]
+    },
+    {
       "slug": "20261001-iwata-school-loan-payment-timing",
       "date": "2026-10-01",
       "modified": "2026-10-01",
