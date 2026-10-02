@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261002-iwata-electronic-circular-board",
+      "date": "2026-10-02",
+      "modified": "2026-10-02",
+      "axis": "fri",
+      "title": "磐田市の電子回覧板とは｜紙を待たずに読める範囲",
+      "description": "磐田市の電子回覧板は、市内全域へ配付・回覧する文書を公式サイトで読める仕組みです。地区だよりや広報いわたは別リンクから確認します。2026年10月2日に掲載範囲を照合し、紙の回覧との使い分け、見逃しを減らす読み方、公式ページを保存する一歩を整理しました。",
+      "home_description": "市全域の回覧文書、地区だより、地域独自の連絡を分けて確認。今日の一歩は公式ページの保存です。",
+      "cta": "official",
+      "primary_source": "電子回覧板、交流センターだより／地域づくり協議会だより／磐田市（2026-10-02確認）",
+      "cover_alt": "磐田市の電子回覧板とは｜紙を待たずに読める範囲の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/city-hall-branches/",
+          "label": "磐田市役所と各支所の窓口案内"
+        }
+      ]
+    },
+    {
       "slug": "20261002-ryuyo-totsuka-park-playground",
       "date": "2026-10-02",
       "axis": "fri",
