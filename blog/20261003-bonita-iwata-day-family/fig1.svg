@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><style>text{font-family:Meiryo,"Noto Sans JP",sans-serif;fill:#183b4d}.title{font-size:32px;font-weight:700}.head{font-size:27px;font-weight:700}.copy{font-size:23px}.small{font-size:20px}.white{fill:white}</style><rect width="1000" height="600" rx="24" fill="#f2f7fa"/><title id="title">磐田デーの開催対象と市民無料招待</title><desc id="desc">イベントはどなたでも。無料招待は磐田市在住者200人、18歳以下は人数上限なし。申込方法は最新案内で確認。</desc>
+<text x="50" y="62" class="title">同じ家族でも、招待条件は一人ずつ</text>
+<rect x="50" y="95" width="420" height="252" rx="18" fill="white" stroke="#c9dce7" stroke-width="2"/>
+<rect x="500" y="95" width="450" height="252" rx="18" fill="#e4f2f9" stroke="#0074ae" stroke-width="2"/>
+<text x="78" y="140" class="head">イベントの対象</text><text x="78" y="193" class="title">どなたでも</text>
+<path d="M110 226l50-20 50 20v63H110Z" fill="#d5e9ed"/><circle cx="140" cy="248" r="12" fill="#0074ae"/><path d="M124 282v-12q16-18 32 0v12" fill="#0074ae"/><circle cx="178" cy="258" r="9" fill="#d88946"/><path d="M165 283v-10q13-13 26 0v10" fill="#d88946"/>
+<text x="230" y="249" class="copy">市外の同行者は</text><text x="230" y="284" class="copy">観戦方法を確認</text>
+<text x="528" y="140" class="head">磐田市民無料招待</text><text x="528" y="191" class="title">市内在住者 200人</text>
+<text x="528" y="244" class="copy">18歳以下は人数上限なし</text><text x="528" y="291" class="small">上限なし ≠ 申込不要</text>
+<rect x="50" y="380" width="900" height="147" rx="18" fill="#fff1dc"/>
+<text x="78" y="423" class="head">家庭のメモ：同行者の住所・年齢を分ける</text>
+<text x="78" y="465" class="copy">申込期限・残枠は、市のページ本文では不明</text>
+<text x="78" y="503" class="small">最新条件は市公式ページ → 申込フォームで確認</text>
+<text x="50" y="570" class="small">市公式情報を2026年10月3日確認 ／ 磐田ライフハック</text></svg>

@@ -104,7 +104,7 @@ def _walk(node, key=None):
     nid = str(node.get("@id", ""))
     is_oishi = "大石" in str(node.get("name", "")) or nid == PERSON_ID or nid.endswith("/author/oishi-hiroyuki/#person") or nid.endswith("/about/author/#person")
     if is_oishi and t in (None, "Person"):
-        return dict(PERSON)
+        return {**PERSON, **{k: node[k] for k in ("sameAs", "jobTitle", "image") if k in node}}
     if _is_org_self(node) or nid == ORG_ID:
         return dict(ORG)
     return {k: _walk(v, k) for k, v in node.items()}

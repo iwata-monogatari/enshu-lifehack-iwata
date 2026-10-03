@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><style>text{font-family:Meiryo,"Noto Sans JP",sans-serif;fill:#183b4d}.title{font-size:32px;font-weight:700}.head{font-size:27px;font-weight:700}.copy{font-size:23px}.small{font-size:20px}.white{fill:white}</style><rect width="1000" height="600" rx="24" fill="#f2f7fa"/><title id="title">ボニータ観戦日の家庭用時間図</title><desc id="desc">昼食、移動と入場、13時から15時の観戦、退場と帰宅を分ける。前後の時間は未定でもよく、家庭と会場案内で確認する。</desc>
+<text x="50" y="62" class="title">13～15時の前後にも、家族の時間がある</text>
+<path d="M115 316H885" stroke="#a8becb" stroke-width="8"/>
+<rect x="50" y="134" width="210" height="220" rx="18" fill="white" stroke="#c9dce7" stroke-width="2"/>
+<rect x="280" y="134" width="210" height="220" rx="18" fill="white" stroke="#c9dce7" stroke-width="2"/>
+<rect x="510" y="134" width="210" height="220" rx="18" fill="#0074ae"/>
+<rect x="740" y="134" width="210" height="220" rx="18" fill="white" stroke="#c9dce7" stroke-width="2"/>
+<text x="77" y="183" class="head">昼食</text><text x="77" y="232" class="copy">家か移動途中か</text><text x="77" y="273" class="small">飲食の規則は</text><text x="77" y="305" class="small">最新案内で確認</text>
+<text x="304" y="183" class="head">移動・入場</text><text x="304" y="232" class="copy">出発時刻は未定</text><text x="304" y="273" class="small">開門・受付・</text><text x="304" y="305" class="small">交通を調べる</text>
+<text x="537" y="183" class="head white">試合観戦</text><text x="537" y="236" class="title white">13～15時</text><text x="537" y="279" class="small white">10月25日（日）</text><text x="537" y="314" class="small white">市が示す開催時間</text>
+<text x="764" y="183" class="head">退場・帰宅</text><text x="764" y="232" class="copy">帰宅時刻は未定</text><text x="764" y="273" class="small">15時に帰れる</text><text x="764" y="305" class="small">とは限らない</text>
+<rect x="50" y="400" width="900" height="115" rx="18" fill="#fff1dc"/><text x="78" y="444" class="head">今日の一歩：動かしにくい予定を一つ照合</text><text x="78" y="485" class="copy">習い事・勤務・きょうだいの用事のうち、一つから</text>
+<text x="50" y="560" class="small">家庭用の整理図です。主催者の進行表・集合時刻ではありません。</text></svg>
