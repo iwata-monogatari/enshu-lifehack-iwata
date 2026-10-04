@@ -5,3 +5,6 @@ node_modules/
 .wrangler/
 err.txt
 scratchpad/
+
+__pycache__/
+*.pyc
