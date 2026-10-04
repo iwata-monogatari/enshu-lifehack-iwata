@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261004-iwata-life-experience-tour-family",
+      "date": "2026-10-04",
+      "modified": "2026-10-04",
+      "axis": "sun",
+      "title": "いわたの暮らし体験ツアー｜申込前の家族メモ",
+      "description": "いわたの暮らし体験ツアーは2026年11月7～8日開催、申込期限は10月18日です。対象地域の表記差、無料に含まれない食事代、家族の予定と住居見学の質問を整理。東京圏で移住を検討する家族が、現地で確かめたいことを一つ書くための申込前メモです。",
+      "home_description": "申込期限は10月18日。参加条件と家族の予定、食事代を確認し、現地で確かめたいことを一つ書きます。",
+      "cta": "official",
+      "primary_source": "磐田市いわたの暮らし体験ツアー（2026年10月2日更新）・オンライン移住相談を2026-10-04確認",
+      "cover_alt": "いわたの暮らし体験ツアー｜申込前の家族メモの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/living-soon/",
+          "label": "移住前の暮らしの確認先"
+        }
+      ]
+    },
+    {
       "slug": "20261004-iwata-otasukego-destinations",
       "date": "2026-10-04",
       "modified": "2026-10-04",
