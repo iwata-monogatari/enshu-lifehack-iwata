@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261005-iwata-designated-garbage-bag-shortage",
+      "date": "2026-10-05",
+      "modified": "2026-10-05",
+      "axis": "mon",
+      "title": "磐田市の指定ごみ袋不足｜10月末までの例外",
+      "description": "磐田市の指定ごみ袋が入手できない場合、2026年10月31日までは条件を満たす透明・半透明の袋を使えます。可燃6～45リットル、不燃6～30リットル、記名3項目と使えない袋を整理。買い回る前に手元の袋を確認し、分別・収集日は市公式で確かめます。",
+      "home_description": "10月31日までの袋の例外。容量・記名・使えない袋を確認します。",
+      "cta": "official",
+      "primary_source": "磐田市臨時措置延長第5版と収集カレンダーを2026-10-05確認",
+      "cover_alt": "磐田市の指定ごみ袋不足｜10月末までの例外の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/start-living/garbage-sorting-calendar/",
+          "label": "ごみ分別・収集カレンダー"
+        }
+      ]
+    },
+    {
       "slug": "20261005-iwata-kokuho-pension-bank-comparison",
       "date": "2026-10-05",
       "modified": "2026-10-05",
