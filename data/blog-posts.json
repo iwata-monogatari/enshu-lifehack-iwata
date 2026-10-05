@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261005-iwata-kokuho-pension-bank-comparison",
+      "date": "2026-10-05",
+      "modified": "2026-10-05",
+      "axis": "mon",
+      "title": "磐田市の国保税｜年金天引きと口座振替を比較",
+      "description": "磐田市の国保税は年金天引きが年6回、普通徴収の口座振替が年8回または一括です。10月は本徴収月、2026年度第4期は11月2日、第5期は11月30日。回数と時期、残高確認の負担、変更手続きの条件を比べ、今日は通知書の徴収方法だけ確認します。",
+      "home_description": "年金天引き年6回と口座振替年8回を比較。11月2日・30日の納期と変更条件を確認します。",
+      "cta": "official",
+      "primary_source": "磐田市「国民健康保険税の納付」「市税の納付方法・納期限」を2026-10-05確認",
+      "cover_alt": "磐田市の国保税｜年金天引きと口座振替を比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/work-life/national-health-insurance-tax/",
+          "label": "国民健康保険税の手続き案内"
+        }
+      ]
+    },
+    {
       "slug": "20261004-iwata-life-experience-tour-family",
       "date": "2026-10-04",
       "modified": "2026-10-04",
