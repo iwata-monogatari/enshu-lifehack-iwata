@@ -36,7 +36,7 @@ ORG = {
                  {"@type": "Organization", "name": "公益社団法人 不動産保証協会"}],
     "sameAs": ["https://www.fujigaoka-service.info/", "https://fudosan.atawi.link/", "https://oishi-hiroyuki.org/",
                "https://iwata.enshu-lifehack.com/", "https://www.facebook.com/realestatefujigaokaservice/",
-               "https://www.homes.co.jp/realtor/mid-144301hQA24Pw1v0pM/", "https://iqrafudosan.com/companies/7405"],
+               "https://www.homes.co.jp/realtor/mid-144301hQA24Pw1v0pM/", "https://iqrafudosan.com/companies/7405", "https://share.google/JvfsXQE82HymM6k8k"],
 }  # logo は未確定のため省略（推測で埋めない）
 LD = '<script type="application/ld+json" id="fgo-organization">%s</script>' % json.dumps(ORG, ensure_ascii=False, separators=(",", ":"))
 CSS = '<link rel="stylesheet" href="/assets/site.css?v=20260828a">'
@@ -76,7 +76,9 @@ for p in sorted(glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True)):
     s = rd(p); n = s
     if pat.search(s):
         n = pat.sub(lambda m: m.group(1) + NEW_HEAD + m.group(2), s, count=1)
-    elif 'id="fgo-organization"' not in s and "</head>" in s and rel != "404.html":
+    elif 'id="fgo-organization"' in s:
+        n = re.sub(r'<script type="application/ld\+json" id="fgo-organization">.*?</script>', lambda m: LD, s, count=1, flags=re.S)
+    elif "</head>" in s and rel != "404.html":
         n = s.replace("</head>", LD + "</head>", 1)
     save("head", rel, s, n); s = n
     if 'class="post-author post-author-profile"' in s and "<!-- operator-credentials -->" not in s:
