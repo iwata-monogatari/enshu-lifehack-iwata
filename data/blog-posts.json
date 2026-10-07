@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261007-kaketsuka-matsuri-family-plan",
+      "date": "2026-10-07",
+      "modified": "2026-10-07",
+      "axis": "wed",
+      "title": "掛塚まつり2026｜親子で訪ねる秋の文化財",
+      "description": "掛塚まつりは2026年10月17日・18日、貴船神社周辺で開催予定です。県指定の屋台囃子を親子で楽しむため、家族の予定と往復の負担から訪問日を選びます。運行時刻・交通規制・駐車場の未確認事項、音の楽しみ方、市公式での確認先を整理します。",
+      "home_description": "10月17・18日の掛塚まつり。屋台囃子を楽しむ訪問日を、家族の予定から選びます。",
+      "cta": "official",
+      "primary_source": "磐田市公式1002003（2026年度年間予定）、1002041、1002067を2026-10-07確認",
+      "cover_alt": "掛塚まつり2026｜親子で訪ねる秋の文化財の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ]
+    },
+    {
       "slug": "20261006-iwata-heir-representative-form-preparation",
       "date": "2026-10-06",
       "modified": "2026-10-06",

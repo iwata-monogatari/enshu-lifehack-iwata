@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc"><title id="title">家族の訪問日を選ぶ</title><desc id="desc">10月17日土曜日と18日日曜日から、家庭の予定に合う候補日を選ぶ図。</desc><rect width="960" height="600" rx="24" fill="#f5f0e7"/><g font-family="Meiryo, sans-serif" fill="#173e4b"><text x="55" y="65" font-size="32" font-weight="bold">掛塚まつり 2026｜家族の候補日</text><text x="55" y="106" font-size="22">貴船神社周辺・開催予定日から選ぶ</text>
+<rect x="55" y="142" width="410" height="200" rx="18" fill="#fff"/><rect x="495" y="142" width="410" height="200" rx="18" fill="#fff"/>
+<rect x="55" y="142" width="410" height="54" rx="15" fill="#176d92"/><rect x="495" y="142" width="410" height="54" rx="15" fill="#aa6538"/>
+<text x="260" y="179" text-anchor="middle" font-size="24" fill="#fff">土曜日</text><text x="700" y="179" text-anchor="middle" font-size="24" fill="#fff">日曜日</text>
+<text x="260" y="273" text-anchor="middle" font-size="61" font-weight="bold">10 / 17</text><text x="700" y="273" text-anchor="middle" font-size="61" font-weight="bold">10 / 18</text>
+<text x="260" y="318" text-anchor="middle" font-size="21">同行できる大人は？</text><text x="700" y="318" text-anchor="middle" font-size="21">帰宅後の予定は？</text>
+<path d="M260 350 L260 370 L700 370 L700 350 M480 370 L480 401" fill="none" stroke="#56766e" stroke-width="4"/>
+<rect x="100" y="407" width="760" height="110" rx="18" fill="#dcebe3"/><text x="480" y="450" text-anchor="middle" font-size="27" font-weight="bold">食事・休息・帰りの余力で、候補日を一つ</text><text x="480" y="488" text-anchor="middle" font-size="21">出発時刻は当日の交通・運行案内を確認してから</text>
+<text x="55" y="562" font-size="18">出典：磐田市の2026年度年間予定（2026年10月7日確認）</text></g></svg>
