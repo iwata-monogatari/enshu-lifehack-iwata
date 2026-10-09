@@ -6,6 +6,24 @@
   "_build": "python scripts/build_blog.py （検査のみなら --check）。品質ゲートに1件でも引っかかると /blog/index.html は生成されない。",
   "posts": [
     {
+      "slug": "20261009-iwata-kurashi-shigoto-family-consultation",
+      "date": "2026-10-09",
+      "modified": "2026-10-09",
+      "axis": "fri",
+      "title": "磐田市くらしと仕事相談センター｜家族だけでも相談できる？",
+      "description": "本人が来所できない場合などは、磐田市くらしと仕事相談センターへ家族からも相談できます。申請や支援決定との違い、電話で確認する範囲、iプラザ3階の窓口と2026年11月2日の受付時間変更を整理。家計を支える家族が、今日確かめる一歩を示します。",
+      "home_description": "本人が来所できない場合などは家族からも相談可能。相談範囲と11月2日の窓口時間変更を確認します。",
+      "cta": "official",
+      "primary_source": "磐田市公式1016716（2026年9月28日更新）、1012080を2026-10-09確認",
+      "cover_alt": "磐田市くらしと仕事相談センター｜家族だけでも相談できる？の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/troubles-consult/living-costs-trouble/",
+          "label": "生活費に困ったときの相談先"
+        }
+      ]
+    },
+    {
       "slug": "20261009-jokoji-senju-kannon-hamamatsu",
       "date": "2026-10-09",
       "modified": "2026-10-09",
@@ -320,7 +338,7 @@
     {
       "slug": "20260928-iwata-jinseikaigi-family-wishes",
       "date": "2026-09-28",
-      "modified": "2026-10-04",
+      "modified": "2026-10-09",
       "axis": "mon",
       "title": "磐田市の人生会議とは｜親の希望を決めつけない備え",
       "description": "磐田市の人生会議は、希望する医療やケアを家族や医療者と繰り返し共有する取り組みです。親の答えを急がず、大切にしたいことを一つメモする方法を紹介。2026年10月31日の講座案内、家族の負担を分ける記録、地域包括支援センターへの相談も整理します。",
