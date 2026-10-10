@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">今日は興味のある分野を一つ選ぶ</title><desc id="desc">分野を選んだ後に候補の対象者、日付、会場を読み、費用、申込方法、期限を公式案内で確認する。大石浩之による探し方の提案。</desc>
+<rect width="960" height="560" rx="24" fill="#f0f6fa"/>
+<g font-family="Meiryo, sans-serif" fill="#173e54"><text x="48" y="65" font-size="30" font-weight="bold">学びの庭｜探す範囲を決める順番</text><text x="48" y="105" font-size="20">大石の整理案。市が定める申込手順ではありません。</text>
+<rect x="48" y="138" width="864" height="123" rx="18" fill="#0074ae"/><circle cx="107" cy="197" r="29" fill="white"/><text x="97" y="208" font-size="30" font-weight="bold">1</text><text x="165" y="181" font-size="22" fill="white">今日すること</text><text x="165" y="226" font-size="32" font-weight="bold" fill="white">興味のある分野を一つ選ぶ</text>
+<path d="M108 270v24m-9-9 9 9 9-9" stroke="#628298" stroke-width="4" fill="none"/>
+<rect x="48" y="305" width="864" height="88" rx="15" fill="white"/><circle cx="107" cy="349" r="27" fill="#e3f0f7"/><text x="97" y="360" font-size="28">2</text><text x="165" y="359" font-size="26">候補が見つかったら、対象・日付・会場</text>
+<path d="M108 401v23m-9-9 9 9 9-9" stroke="#628298" stroke-width="4" fill="none"/>
+<rect x="48" y="435" width="864" height="88" rx="15" fill="white"/><circle cx="107" cy="479" r="27" fill="#e3f0f7"/><text x="97" y="490" font-size="28">3</text><text x="165" y="489" font-size="26">費用・申込方法・期限は、公式案内へ</text></g></svg>
