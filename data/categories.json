@@ -52,25 +52,22 @@
             "online": null,
             "konbini": null,
             "counter": "県内警察署窓口で運転経歴証明書を申請",
-            "cost": "お助け号運賃が半額",
+            "cost": "65歳以上の市民が運転経歴証明書を提示すると半額",
             "tel": "0538-37-4751",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html"
           },
           "faq": [
             {
-              "q": "免許返納したらお助け号は安くなる?",
-              "a": "運転経歴証明書を提示すると運賃が半額に。免許取消・失効から5年以内が対象。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "免許返納の手続きはどこでする?",
-              "a": "県内の警察署免許窓口で運転経歴証明書を申請する。詳細は磐田市公式サイトで確認を。"
+              "q": "お助け号の免許返納割引は誰が対象ですか？",
+              "a": "運転経歴証明書を持つ65歳以上の市民が対象です。乗車時に提示すると運賃が半額になります。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "県内警察署窓口で運転経歴証明書を申請。電話：0538-37-4751"
+          "counter_info": "県内警察署窓口で運転経歴証明書を申請。電話：0538-37-4751",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "disaster-risk",
@@ -113,28 +110,25 @@
             "phone"
           ],
           "conclusion": {
-            "online": "LINEで転入出届の事前申請可",
+            "online": "LINEは事前入力のみ。本庁市民課への来庁が必要",
             "konbini": null,
-            "counter": "本庁舎1階市民課、本人確認書類持参",
+            "counter": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可",
             "cost": null,
             "tel": "0538-37-4816",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html"
           },
           "faq": [
             {
-              "q": "引っ越しの届出はオンラインでできる?",
-              "a": "LINE公式アカウントで転入・転出・転居届の事前申請ができる。窓口では最終手続きが必要。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "転入届はどこで手続きする?",
-              "a": "本庁舎1階市民課、または福田・竜洋・豊岡支所で手続きできる。詳細は磐田市公式サイトで確認を。"
+              "q": "LINEの入力だけで住所変更は終わりますか？",
+              "a": "完了しません。二次元バーコードと必要書類を持参し、本庁市民課で手続きします。支所はLINE事前申請に対応していません。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
-          "online_note": "LINEで転入出届の事前申請可",
+          "online_note": "LINEは事前入力のみ。本庁市民課への来庁が必要",
           "time_estimate": "n/a",
-          "counter_info": "本庁舎1階市民課、本人確認書類持参。電話：0538-37-4816"
+          "counter_info": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "school-districts",
@@ -255,7 +249,7 @@
             "online": "戸別収集はLINEで電子申請可能",
             "konbini": null,
             "counter": "持ち込みは中遠広域粗大ごみ処理施設(磐田市新貝59-1)、袋・箱は持ち帰り",
-            "cost": "持ち込みは車両重量別520円〜、戸別収集は基本1,040円+品物代210円/個",
+            "cost": "不燃ごみ持込は車両の最大積載重量別に520円〜2,090円",
             "tel": "0538-37-4812",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html"
           },
@@ -273,11 +267,12 @@
               "a": "基本料金1,040円に品物1個につき210円が加算される(家電リサイクル品は別料金)。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "戸別収集はLINEで電子申請可能",
           "time_estimate": "n/a",
-          "counter_info": "持ち込みは中遠広域粗大ごみ処理施設(磐田市新貝59-1)、袋・箱は持ち帰り。電話：0538-37-4812"
+          "counter_info": "持ち込みは中遠広域粗大ごみ処理施設(磐田市新貝59-1)、袋・箱は持ち帰り。電話：0538-37-4812",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "certificates",
@@ -290,7 +285,7 @@
           ],
           "conclusion": {
             "online": "スマホ申請で住民票等を郵送取得可能",
-            "konbini": "マイナンバーカードでコンビニ交付可能(1通300円〜450円)",
+            "konbini": "住民票等300円。2026年11月2日から200円（戸籍は別額）",
             "counter": "本庁舎1階市民課ほか各支所、受付は平日8時30分〜17時15分",
             "cost": "住民票の写し1通300円",
             "tel": "0538-37-4816",
@@ -310,11 +305,12 @@
               "a": "スマートフォンから申請し郵送で受け取れるサービスがある。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "スマホ申請で住民票等を郵送取得可能",
           "time_estimate": "n/a",
-          "counter_info": "本庁舎1階市民課ほか各支所、受付は平日8時30分〜17時15分。電話：0538-37-4816"
+          "counter_info": "本庁舎1階市民課ほか各支所、受付は平日8時30分〜17時15分。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "city-hall-branches",
@@ -517,32 +513,25 @@
             "counter"
           ],
           "conclusion": {
-            "online": "転入・転出・転居届はLINEで事前申請可能（二次元バーコード発行）",
+            "online": "LINEは事前入力のみ。本庁市民課への来庁が必要",
             "konbini": null,
-            "counter": "本庁舎1階市民課・各支所市民生活課で届出（転出証明書と本人確認書類持参）",
+            "counter": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可",
             "cost": null,
             "tel": "0538-37-4816",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html"
           },
           "faq": [
             {
-              "q": "転入届はオンラインでできる？",
-              "a": "磐田市LINE公式アカウントで事前申請ができ、二次元バーコードを窓口で読み込めば手続きが簡略化されます。詳細は磐田市公式サイトで確認を"
-            },
-            {
-              "q": "転入届の持ち物は？",
-              "a": "転出証明書と本人確認書類が必要です。窓口は本庁舎1階市民課または各支所市民生活課です。詳細は磐田市公式サイトで確認を"
-            },
-            {
-              "q": "住所変更の問い合わせ先は？",
-              "a": "市民課(0538-37-4816)。福田・竜洋・豊岡の各支所でも受付しています。詳細は磐田市公式サイトで確認を"
+              "q": "LINEの入力だけで住所変更は終わりますか？",
+              "a": "完了しません。二次元バーコードと必要書類を持参し、本庁市民課で手続きします。支所はLINE事前申請に対応していません。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
-          "online_note": "転入・転出・転居届はLINEで事前申請可能（二次元バーコード発行）",
+          "online_note": "LINEは事前入力のみ。本庁市民課への来庁が必要",
           "time_estimate": "n/a",
-          "counter_info": "本庁舎1階市民課・各支所市民生活課で届出（転出証明書と本人確認書類持参）。電話：0538-37-4816"
+          "counter_info": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "mynumber",
@@ -554,7 +543,7 @@
           ],
           "conclusion": {
             "online": null,
-            "konbini": "住民票等はコンビニのマルチコピー機で取得可（1通300円〜）",
+            "konbini": "住民票等300円。2026年11月2日から200円（戸籍は別額）",
             "counter": "本庁舎1階市民課交付窓口で受取（交付通知書・本人確認書類持参）",
             "cost": "初回発行無料。紛失後の再交付は1,000円",
             "tel": "0538-37-4816",
@@ -574,11 +563,12 @@
               "a": "初回発行は無料です。紛失後の再交付は1,000円かかります。詳細は磐田市公式サイトで確認を"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "partial",
-          "online_note": "住民票等はコンビニのマルチコピー機で取得可（1通300円〜）",
+          "online_note": "住民票等300円。2026年11月2日から200円（戸籍は別額）",
           "time_estimate": "n/a",
-          "counter_info": "本庁舎1階市民課交付窓口で受取（交付通知書・本人確認書類持参）。電話：0538-37-4816"
+          "counter_info": "本庁舎1階市民課交付窓口で受取（交付通知書・本人確認書類持参）。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "pets-lost-animals",
@@ -664,7 +654,7 @@
           ],
           "conclusion": {
             "online": "電子申請で住民票の写しなどを申請可能",
-            "konbini": "マイナンバーカードでコンビニ交付、1通300円",
+            "konbini": "住民票等300円。2026年11月2日から200円（戸籍は別額）",
             "counter": "市民課窓口（本庁1階）で本人確認書類提示、平日受付",
             "cost": "1通300円",
             "tel": "0538-37-4816",
@@ -684,11 +674,12 @@
               "a": "磐田市の電子申請サービスで住民票の写しなどを申請できます。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "電子申請で住民票の写しなどを申請可能",
           "time_estimate": "n/a",
-          "counter_info": "市民課窓口（本庁1階）で本人確認書類提示、平日受付。電話：0538-37-4816"
+          "counter_info": "市民課窓口（本庁1階）で本人確認書類提示、平日受付。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "water-sewer",
@@ -919,34 +910,29 @@
           "label": "固定資産税（土地・家屋）",
           "url": "https://iwata.enshu-lifehack.com/life/housing/property-tax/",
           "channels": [
-            "online",
-            "konbini",
             "counter",
             "phone"
           ],
           "conclusion": {
-            "online": "証明書はマイナンバーカードで電子申請・郵送受取可能",
-            "konbini": "証明書はコンビニ交付、納付もコンビニ払い可能",
-            "counter": "本庁舎市民税課で証明書申請・納付が可能",
+            "online": null,
+            "konbini": null,
+            "counter": "評価・公課証明は市民税課・各支所で請求。郵便請求も可",
             "cost": "証明書は1件300円",
             "tel": "0538-37-3767",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html"
           },
           "faq": [
             {
-              "q": "固定資産税の証明書はコンビニで取れますか？",
-              "a": "マイナンバーカードがあればコンビニ交付サービスで取得可能。詳細は磐田市公式サイトで確認を"
-            },
-            {
-              "q": "固定資産税はコンビニで払えますか？",
-              "a": "バーコード付き納付書があればコンビニ納付可能（30万円超は不可）。詳細は磐田市公式サイトで確認を"
+              "q": "固定資産評価証明書はコンビニで取れますか？",
+              "a": "コンビニ交付の対象ではありません。市民税課・各支所または郵便請求を利用し、必要書類を確認してください。"
             }
           ],
-          "conclusion_status": "machine-verified",
-          "online_status": "yes",
-          "online_note": "証明書はマイナンバーカードで電子申請・郵送受取可能",
+          "conclusion_status": "editor-reviewed",
+          "online_status": "no",
+          "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "本庁舎市民税課で証明書申請・納付が可能。電話：0538-37-3767"
+          "counter_info": "評価・公課証明は市民税課・各支所で請求。郵便請求も可。電話：0538-37-3767",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "public-housing-consultation",
@@ -1006,30 +992,29 @@
           "label": "家を売りたい",
           "url": "https://iwata.enshu-lifehack.com/life/housing/sell-house/",
           "channels": [
-            "online",
-            "konbini",
             "counter",
             "phone"
           ],
           "conclusion": {
-            "online": "評価証明書はマイナンバーカードで電子申請・郵送受取可能",
-            "konbini": "証明書はコンビニ交付サービスで取得可能",
-            "counter": "市民税課で証明書を申請、本人確認書類が必要",
+            "online": null,
+            "konbini": null,
+            "counter": "評価・公課証明は市民税課・各支所で請求。郵便請求も可",
             "cost": "証明書は1件300円",
             "tel": "0538-37-3767",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html"
           },
           "faq": [
             {
-              "q": "家を売る前に固定資産税の証明書は必要ですか？",
-              "a": "評価証明書等は売却時の必要書類。市民税課(0538-37-3767)で取得可。詳細は磐田市公式サイトで確認を"
+              "q": "固定資産評価証明書はコンビニで取れますか？",
+              "a": "コンビニ交付の対象ではありません。市民税課・各支所または郵便請求を利用し、必要書類を確認してください。"
             }
           ],
-          "conclusion_status": "machine-verified",
-          "online_status": "yes",
-          "online_note": "評価証明書はマイナンバーカードで電子申請・郵送受取可能",
+          "conclusion_status": "editor-reviewed",
+          "online_status": "no",
+          "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "市民税課で証明書を申請、本人確認書類が必要。電話：0538-37-3767"
+          "counter_info": "評価・公課証明は市民税課・各支所で請求。郵便請求も可。電話：0538-37-3767",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "vacant-house",
@@ -1812,15 +1797,16 @@
           "label": "教育相談",
           "url": "https://iwata.enshu-lifehack.com/life/education/educational-consulting/",
           "channels": [
+            "counter",
             "phone"
           ],
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": null,
+            "counter": "児童生徒支援課で電話・面談相談。平日8:30〜17:15",
             "cost": null,
             "tel": "0538-37-4923",
-            "source": "https://www.city.iwata.shizuoka.jp/kyoiku/1014889/1014893/1015836.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/kyoiku_sodan/1001791.html"
           },
           "faq": [
             {
@@ -1832,11 +1818,12 @@
               "a": "教育部児童生徒支援課が不登校支援プランの相談窓口を担当。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "電話：0538-37-4923"
+          "counter_info": "児童生徒支援課で電話・面談相談。平日8:30〜17:15。電話：0538-37-4923",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "elementary-middle-school",
@@ -2335,26 +2322,23 @@
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": "磐田市急患センター（上大之郷51）で受診、受診前に要電話",
+            "counter": "急患センター。月〜土曜の夜間受付19:15〜22:00。日祝等は日中、夜間診療なし",
             "cost": null,
             "tel": "0538-32-5267",
             "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
           },
           "faq": [
             {
-              "q": "休日に急病になったらどこに行けばいい？",
-              "a": "磐田市急患センター（上大之郷51、電話0538-32-5267）へ事前に電話のうえ受診します。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "休日当番医の受付時間は？",
-              "a": "休日は午前8時45分～11時30分、午後1時45分～4時30分が受付時間です。詳細は磐田市公式サイトで確認を。"
+              "q": "急患センターを受診する前に何を確認しますか？",
+              "a": "電話0538-32-5267で事前に相談し、受付時間を確認してください。月〜土曜の夜間受付は19:15〜22:00。日曜・祝日等の夜間診療はありません。緊急時は119番です。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "磐田市急患センター（上大之郷51）で受診、受診前に要電話。電話：0538-32-5267"
+          "counter_info": "急患センター。月〜土曜の夜間受付19:15〜22:00。日祝等は日中、夜間診療なし。電話：0538-32-5267",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "mental-health-consulting",
@@ -2399,26 +2383,23 @@
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": "磐田市急患センター（上大之郷51）で受診、受診前に要電話",
+            "counter": "急患センター。月〜土曜の夜間受付19:15〜22:00。日祝等は日中、夜間診療なし",
             "cost": null,
             "tel": "0538-32-5267",
             "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
           },
           "faq": [
             {
-              "q": "夜間に急病になったらどこに連絡すればいい？",
-              "a": "磐田市急患センター（電話0538-32-5267）へまず電話します。夜間（月～土）受付は19時15分～22時。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "夜間救急は何科が対応している？",
-              "a": "夜間は内科・小児科が対応しています。詳細は磐田市公式サイトで確認を。"
+              "q": "急患センターを受診する前に何を確認しますか？",
+              "a": "電話0538-32-5267で事前に相談し、受付時間を確認してください。月〜土曜の夜間受付は19:15〜22:00。日曜・祝日等の夜間診療はありません。緊急時は119番です。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "磐田市急患センター（上大之郷51）で受診、受診前に要電話。電話：0538-32-5267"
+          "counter_info": "急患センター。月〜土曜の夜間受付19:15〜22:00。日祝等は日中、夜間診療なし。電話：0538-32-5267",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "vaccinations",
@@ -2793,7 +2774,7 @@
             }
           ],
           "conclusion_status": "machine-verified",
-          "online_status": "n/a",
+          "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
           "counter_info": "西庁舎1階農林水産課農林水産振興グループ、平日8時30分〜17時15分。電話：0538-37-4813"
@@ -2813,7 +2794,7 @@
             "counter": "本庁舎 企画部の移住相談担当、平日8時30分〜17時15分",
             "cost": null,
             "tel": "0538-37-4805",
-            "source": "https://www.city.iwata.shizuoka.jp/iiwatashi/1014830.html"
+            "source": "https://www.city.iwata.shizuoka.jp/iiwatashi/1014847.html"
           },
           "faq": [
             {
@@ -2825,11 +2806,12 @@
               "a": "移住相談窓口など一部制度は電話・メール・オンラインでも相談可能。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "電話・メール・窓口・オンラインで相談可能(移住相談窓口の例)",
           "time_estimate": "n/a",
-          "counter_info": "本庁舎 企画部の移住相談担当、平日8時30分〜17時15分。電話：0538-37-4805"
+          "counter_info": "本庁舎 企画部の移住相談担当、平日8時30分〜17時15分。電話：0538-37-4805",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "tax",
@@ -2875,7 +2857,7 @@
           ],
           "conclusion": {
             "online": "マイナンバーカードで本人確認しスマホ申請、証明書は郵送で受取可",
-            "konbini": "マイナンバーカードでコンビニのマルチコピー機から取得可(毎日6時30分〜23時)",
+            "konbini": "所得・課税証明のみ。納税・固定資産評価証明は対象外",
             "counter": "市民税課・各支所窓口で申請可",
             "cost": "所得・課税・納税証明書は各300円、完納証明書300円",
             "tel": "0538-37-3767",
@@ -2883,19 +2865,16 @@
           },
           "faq": [
             {
-              "q": "納税証明書 コンビニで取れる",
-              "a": "マイナンバーカードがあれば毎日6時30分〜23時、コンビニのマルチコピー機で取得可能。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "所得証明書 発行 手数料",
-              "a": "1年度1件につき300円。詳細は磐田市公式サイトで確認を。"
+              "q": "税の証明書はすべてコンビニで取得できますか？",
+              "a": "対象は条件を満たす所得・課税証明書です。納税証明書や固定資産評価証明書は対象外です。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "マイナンバーカードで本人確認しスマホ申請、証明書は郵送で受取可",
           "time_estimate": "n/a",
-          "counter_info": "市民税課・各支所窓口で申請可。電話：0538-37-3767"
+          "counter_info": "市民税課・各支所窓口で申請可。電話：0538-37-3767",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "tax-guide",
@@ -3126,11 +3105,12 @@
           "label": "高齢者の移動手段",
           "url": "https://iwata.enshu-lifehack.com/life/parents-care/elderly-transportation/",
           "channels": [
+            "online",
             "counter",
             "phone"
           ],
           "conclusion": {
-            "online": null,
+            "online": "高齢者等タクシー助成は市公式ページから電子申請可",
             "konbini": null,
             "counter": "高齢者支援課給付グループ(iプラザ3階)で申請",
             "cost": "助成券48枚/年、1枚600円、1乗車2枚まで",
@@ -3139,19 +3119,16 @@
           },
           "faq": [
             {
-              "q": "高齢者のタクシー助成はいくらもらえる？",
-              "a": "要支援・要介護の方に年48枚（1枚600円）の助成券。1乗車2枚まで使えます。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "助成の申請はどこでする？",
-              "a": "高齢者支援課給付グループ(iプラザ3階)で申請します。詳細は磐田市公式サイトで確認を。"
+              "q": "タクシー助成はオンライン申請できますか？",
+              "a": "市公式ページに電子申請の入口があります。要介護・要支援などの要件と所得制限を確認してください。"
             }
           ],
-          "conclusion_status": "machine-verified",
-          "online_status": "no",
-          "online_note": null,
+          "conclusion_status": "editor-reviewed",
+          "online_status": "yes",
+          "online_note": "高齢者等タクシー助成は市公式ページから電子申請可",
           "time_estimate": "n/a",
-          "counter_info": "高齢者支援課給付グループ(iプラザ3階)で申請。電話：0538-37-4869"
+          "counter_info": "高齢者支援課給付グループ(iプラザ3階)で申請。電話：0538-37-4869",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "find-nursing-home",
@@ -3390,7 +3367,7 @@
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": "磐田市急患センター、平日夜間19:30-22:30",
+            "counter": "月〜土の夜間受付19:15〜22:00。日祝の夜間診療なし",
             "cost": null,
             "tel": "0538-32-5267",
             "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
@@ -3425,11 +3402,12 @@
               "a": "緊急性が高いと感じたら呼んで構いません。迷うときのために#7119・#8000があります。ためらって重症化させないことの方が大切です。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "磐田市急患センター、平日夜間19:30-22:30。電話：0538-32-5267"
+          "counter_info": "月〜土の夜間受付19:15〜22:00。日祝の夜間診療なし。電話：0538-32-5267",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "evacuation-centers",
@@ -4256,10 +4234,10 @@
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": "死亡届提出後、相続人代表者届出等の手続きが必要",
+            "counter": "市のおくやみガイドで、必要な手続きと担当窓口を確認",
             "cost": null,
             "tel": "0538-37-4816",
-            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/juuminhyou/1001309.html"
+            "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html"
           },
           "faq": [
             {
@@ -4271,11 +4249,12 @@
               "a": "固定資産の名義人が死亡した際に資産税課へ提出する。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "no",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "死亡届提出後、相続人代表者届出等の手続きが必要。電話：0538-37-4816"
+          "counter_info": "市のおくやみガイドで、必要な手続きと担当窓口を確認。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "grave-memorial",
@@ -4614,28 +4593,25 @@
             "counter"
           ],
           "conclusion": {
-            "online": "LINE事前申請で二次元コード発行、来庁は必要",
+            "online": "LINEは事前入力のみ。本庁市民課への来庁が必要",
             "konbini": null,
-            "counter": "本庁市民課または福田・竜洋・豊岡各支所、本人確認書類持参",
+            "counter": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可",
             "cost": null,
             "tel": "0538-37-4816",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html"
           },
           "faq": [
             {
-              "q": "転出届はオンラインで完結できる？",
-              "a": "LINE事前申請でバーコードを発行できますが、最終的に窓口来庁が必要です。詳細は磐田市公式サイトで確認を。"
-            },
-            {
-              "q": "転出届の窓口はどこ？",
-              "a": "本庁舎1階市民課、または福田・竜洋・豊岡の各支所です。本人確認書類が必要です。詳細は磐田市公式サイトで確認を。"
+              "q": "LINEの入力だけで住所変更は終わりますか？",
+              "a": "完了しません。二次元バーコードと必要書類を持参し、本庁市民課で手続きします。支所はLINE事前申請に対応していません。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
-          "online_note": "LINE事前申請で二次元コード発行、来庁は必要",
+          "online_note": "LINEは事前入力のみ。本庁市民課への来庁が必要",
           "time_estimate": "n/a",
-          "counter_info": "本庁市民課または福田・竜洋・豊岡各支所、本人確認書類持参。電話：0538-37-4816"
+          "counter_info": "国内異動は本庁・福田・竜洋・豊岡。豊田は不可。電話：0538-37-4816",
+          "last_checked": "2026-10-12"
         },
         {
           "id": "moving-away",

@@ -1,0 +1,644 @@
+{
+  "checked_at": "2026-10-12",
+  "scope": "掲載中の市公式リンクの到達性を点検。以下の事項は本文を照合して更新。到達性確認のみのページは本文の確認日を変更しない。",
+  "content_updates": {
+    "life/start-living/moving-address-change": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "life/start-living/moved-in": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "life/living-soon/moving-decided": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "life/moving-out/move-out-notice": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "life/moving-out/moving-away": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "tools/moving-checklist": {
+      "title": "引っ越し前に、届出日と受付窓口を確認",
+      "bullets": [
+        "転入・市内転居は新住所に住み始めてから14日以内。転出届は、新住所に住み始める日の14日前から提出できます。",
+        "国内の住所異動は本庁市民課・福田・竜洋・豊岡支所で受付。豊田支所では扱いません。外国人の方の住所異動や国外への転出などは本庁市民課で確認してください。",
+        "LINEは届出書の事前入力です。入力だけでは手続きは終わらず、二次元バーコードと必要書類を持って本庁市民課へ来庁します。各支所はLINE事前申請に対応していません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+          "label": "転入届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+          "label": "転出届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "住民票の異動届の事前申請"
+        }
+      ]
+    },
+    "life/start-living/city-hall-branches": {
+      "title": "支所によって扱う手続きが異なります",
+      "bullets": [
+        "転入・転出・市内転居などの住所異動は、豊田支所では扱っていません。国内の住所異動は福田・竜洋・豊岡支所または本庁市民課へ。",
+        "出生届・死亡届を受け付ける支所は豊岡支所です。外国人の方の住所異動やLINEの事前申請を使う届出は、本庁市民課へ進んでください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002357.html",
+          "label": "支所の業務・連絡先"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+          "label": "LINE事前申請の対応窓口"
+        }
+      ]
+    },
+    "life/start-living/resident-registration": {
+      "title": "11月2日から、コンビニ交付の手数料が変わります",
+      "bullets": [
+        "2026年10月12日現在、住民票の写し・住民票記載事項証明書・印鑑登録証明書・戸籍の附票・所得証明書・課税証明書のコンビニ交付は1通300円。2026年11月2日以降は200円になります。",
+        "戸籍謄抄本のコンビニ交付は、同日から450円→350円。これはコンビニ交付の改定で、窓口交付の手数料とは分けて確認してください。",
+        "所得・課税証明書には年度・住所などの条件があります。納税証明書や固定資産評価証明書は、コンビニ交付の対象証明書に含まれません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "証明書コンビニ交付サービス"
+        }
+      ]
+    },
+    "life/start-living/certificates": {
+      "title": "11月2日から、コンビニ交付の手数料が変わります",
+      "bullets": [
+        "2026年10月12日現在、住民票の写し・住民票記載事項証明書・印鑑登録証明書・戸籍の附票・所得証明書・課税証明書のコンビニ交付は1通300円。2026年11月2日以降は200円になります。",
+        "戸籍謄抄本のコンビニ交付は、同日から450円→350円。これはコンビニ交付の改定で、窓口交付の手数料とは分けて確認してください。",
+        "所得・課税証明書には年度・住所などの条件があります。納税証明書や固定資産評価証明書は、コンビニ交付の対象証明書に含まれません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "証明書コンビニ交付サービス"
+        }
+      ]
+    },
+    "life/start-living/mynumber": {
+      "title": "11月2日から、コンビニ交付の手数料が変わります",
+      "bullets": [
+        "2026年10月12日現在、住民票の写し・住民票記載事項証明書・印鑑登録証明書・戸籍の附票・所得証明書・課税証明書のコンビニ交付は1通300円。2026年11月2日以降は200円になります。",
+        "戸籍謄抄本のコンビニ交付は、同日から450円→350円。これはコンビニ交付の改定で、窓口交付の手数料とは分けて確認してください。",
+        "所得・課税証明書には年度・住所などの条件があります。納税証明書や固定資産評価証明書は、コンビニ交付の対象証明書に含まれません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "証明書コンビニ交付サービス"
+        }
+      ]
+    },
+    "life/work-life/tax-certificates": {
+      "title": "11月2日から、コンビニ交付の手数料が変わります",
+      "bullets": [
+        "2026年10月12日現在、住民票の写し・住民票記載事項証明書・印鑑登録証明書・戸籍の附票・所得証明書・課税証明書のコンビニ交付は1通300円。2026年11月2日以降は200円になります。",
+        "戸籍謄抄本のコンビニ交付は、同日から450円→350円。これはコンビニ交付の改定で、窓口交付の手数料とは分けて確認してください。",
+        "所得・課税証明書には年度・住所などの条件があります。納税証明書や固定資産評価証明書は、コンビニ交付の対象証明書に含まれません。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "証明書コンビニ交付サービス"
+        }
+      ]
+    },
+    "life/housing/property-tax": {
+      "title": "固定資産の証明書は、取得方法を分けて確認",
+      "bullets": [
+        "固定資産評価証明書・公課証明書は、市民税課または各支所で請求できます。郵便請求の方法も市が案内しています。手数料は納税義務者・年度・土地と家屋の別ごとに300円です。",
+        "固定資産評価証明書・公課証明書は、コンビニ交付の対象に含まれません。相続人が請求するときは、相続関係が分かる書類も確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html",
+          "label": "固定資産税に関する証明および閲覧"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "コンビニで取得できる証明書"
+        }
+      ]
+    },
+    "life/housing/sell-house": {
+      "title": "固定資産の証明書は、取得方法を分けて確認",
+      "bullets": [
+        "固定資産評価証明書・公課証明書は、市民税課または各支所で請求できます。郵便請求の方法も市が案内しています。手数料は納税義務者・年度・土地と家屋の別ごとに300円です。",
+        "固定資産評価証明書・公課証明書は、コンビニ交付の対象に含まれません。相続人が請求するときは、相続関係が分かる書類も確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html",
+          "label": "固定資産税に関する証明および閲覧"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+          "label": "コンビニで取得できる証明書"
+        }
+      ]
+    },
+    "life/education/educational-consulting": {
+      "title": "教育相談は児童生徒支援課へ",
+      "bullets": [
+        "いじめや不登校などの相談は、児童生徒支援課が電話・面談で受け付けています。電話0538-37-4923、平日8:30〜17:15（祝日を除く）です。",
+        "教育支援センターへの相談は0538-33-5198、平日8:30〜17:00。利用対象や入級の流れを、学校・保護者・センターで確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/kyoiku_sodan/1001791.html",
+          "label": "いじめ、非行などの問題行動や不登校"
+        }
+      ]
+    },
+    "life/education/school-expense-support": {
+      "title": "就学援助は学年・入学年度ごとに申請",
+      "bullets": [
+        "2026年度の在校生は随時、オンラインで申請できます。電子申請が難しい場合は在籍校または教育総務課へ相談してください。",
+        "2027年度の新小学1年生は2027年4月30日まで。就学時健診の通知に同封された案内を確認します。在校生の2027年度申請は2026年度3学期に受付予定です。",
+        "入学準備のための新入学児童生徒学用品費と、在学中の学用品費は別の費目。購入時期と支給時期を分け、教育総務課（0538-37-4821）へ確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/shuugakuenjo/1001782.html",
+          "label": "就学援助制度"
+        }
+      ]
+    },
+    "life/education": {
+      "title": "就学援助は学年・入学年度ごとに申請",
+      "bullets": [
+        "2026年度の在校生は随時、オンラインで申請できます。電子申請が難しい場合は在籍校または教育総務課へ相談してください。",
+        "2027年度の新小学1年生は2027年4月30日まで。就学時健診の通知に同封された案内を確認します。在校生の2027年度申請は2026年度3学期に受付予定です。",
+        "入学準備のための新入学児童生徒学用品費と、在学中の学用品費は別の費目。購入時期と支給時期を分け、教育総務課（0538-37-4821）へ確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/shuugakuenjo/1001782.html",
+          "label": "就学援助制度"
+        }
+      ]
+    },
+    "life/education/school-attendance-support": {
+      "title": "2027年4月入学に向けた就学時健診",
+      "bullets": [
+        "2027年4月に小学校へ入学する子どもの健診案内は、2026年9月中に水色の封筒で郵送されています。届いていない場合は児童生徒支援課（0538-37-4923）へ連絡してください。",
+        "健診の会場・日時は通知書で確認します。通学区域や入学・学区外就学の相談は学校教育課（0538-37-2760）が担当します。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kyoiku/1014989/1007280.html",
+          "label": "就学時健康診断"
+        }
+      ]
+    },
+    "life/end-of-life/bereavement": {
+      "title": "死亡届と、その後のおくやみ手続き",
+      "bullets": [
+        "死亡届は、死亡の事実を知った日を含めて7日以内（国外で死亡した場合は3か月以内）。本庁舎1階市民課または豊岡支所で受け付けます。",
+        "磐田市聖苑で火葬する場合は、死亡届の提出前に予約が必要です。土日祝の届出は本庁宿直室で8:30〜17:00に預かります。",
+        "その後の健康保険・年金・税などは、亡くなった方の状況で必要な手続きが変わります。市の「おくやみガイド」で持ち物と担当窓口を確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html",
+          "label": "死亡届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html",
+          "label": "磐田市おくやみガイド"
+        }
+      ]
+    },
+    "life/end-of-life/bereavement-procedures": {
+      "title": "死亡届と、その後のおくやみ手続き",
+      "bullets": [
+        "死亡届は、死亡の事実を知った日を含めて7日以内（国外で死亡した場合は3か月以内）。本庁舎1階市民課または豊岡支所で受け付けます。",
+        "磐田市聖苑で火葬する場合は、死亡届の提出前に予約が必要です。土日祝の届出は本庁宿直室で8:30〜17:00に預かります。",
+        "その後の健康保険・年金・税などは、亡くなった方の状況で必要な手続きが変わります。市の「おくやみガイド」で持ち物と担当窓口を確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html",
+          "label": "死亡届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html",
+          "label": "磐田市おくやみガイド"
+        }
+      ]
+    },
+    "life/end-of-life/after-death-procedures": {
+      "title": "死亡届と、その後のおくやみ手続き",
+      "bullets": [
+        "死亡届は、死亡の事実を知った日を含めて7日以内（国外で死亡した場合は3か月以内）。本庁舎1階市民課または豊岡支所で受け付けます。",
+        "磐田市聖苑で火葬する場合は、死亡届の提出前に予約が必要です。土日祝の届出は本庁宿直室で8:30〜17:00に預かります。",
+        "その後の健康保険・年金・税などは、亡くなった方の状況で必要な手続きが変わります。市の「おくやみガイド」で持ち物と担当窓口を確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html",
+          "label": "死亡届"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html",
+          "label": "磐田市おくやみガイド"
+        }
+      ]
+    },
+    "life/emergency/emergency-medical": {
+      "title": "急患センターは受付時間と診療時間が異なります",
+      "bullets": [
+        "受診前に急患センター（0538-32-5267）へ電話してください。夜間は月〜土曜の受付19:15〜22:00、診療19:30〜22:30です。日曜・祝日・年末年始の夜間診療はありません。",
+        "日曜・祝日・年末年始は、受付8:45〜11:30／13:45〜16:30、診療9:00〜12:00／14:00〜17:00。緊急時は119番、受診を迷う場合は救急安心電話相談#7119も確認できます。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html",
+          "label": "救急診療"
+        }
+      ]
+    },
+    "life/parents-care/elderly-transportation": {
+      "title": "高齢者等のタクシー助成は電子申請にも対応",
+      "bullets": [
+        "助成券は年48枚が上限、1枚600円で1乗車につき2枚まで。要介護・要支援などの要件と所得制限があり、すべての高齢者が対象ではありません。",
+        "市公式ページから電子申請できます。助成券等は原則として本人住所へ郵送され、窓口で受け取る場合には本人確認や委任の条件があります。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001891.html",
+          "label": "高齢者等在宅福祉サービス"
+        }
+      ]
+    },
+    "life/start-living/public-transit": {
+      "title": "お助け号の登録・予約条件を確認",
+      "bullets": [
+        "2026年7月1日から運行内容が改正されています。路線ごとの時刻・指定施設は、市公式ページの最新パンフレットで確認してください。",
+        "施設入所を理由とする場合は、住民票と異なる施設住所での登録も可能です。登録住所は住民票の住所か施設の住所のどちらか一方です。",
+        "磐田中央線・豊田線はネット予約に対応。「行き」は2時間前、「帰り」は1時間前まで、9時以前の便は前日17時までの予約が必要です。運賃半額は運転経歴証明書を持つ65歳以上の市民が対象です。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html",
+          "label": "デマンド型乗合タクシー"
+        }
+      ]
+    },
+    "life/living-soon/transportation": {
+      "title": "お助け号の登録・予約条件を確認",
+      "bullets": [
+        "2026年7月1日から運行内容が改正されています。路線ごとの時刻・指定施設は、市公式ページの最新パンフレットで確認してください。",
+        "施設入所を理由とする場合は、住民票と異なる施設住所での登録も可能です。登録住所は住民票の住所か施設の住所のどちらか一方です。",
+        "磐田中央線・豊田線はネット予約に対応。「行き」は2時間前、「帰り」は1時間前まで、9時以前の便は前日17時までの予約が必要です。運賃半額は運転経歴証明書を持つ65歳以上の市民が対象です。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html",
+          "label": "デマンド型乗合タクシー"
+        }
+      ]
+    },
+    "life/living-soon/bus-license-return": {
+      "title": "お助け号の登録・予約条件を確認",
+      "bullets": [
+        "2026年7月1日から運行内容が改正されています。路線ごとの時刻・指定施設は、市公式ページの最新パンフレットで確認してください。",
+        "施設入所を理由とする場合は、住民票と異なる施設住所での登録も可能です。登録住所は住民票の住所か施設の住所のどちらか一方です。",
+        "磐田中央線・豊田線はネット予約に対応。「行き」は2時間前、「帰り」は1時間前まで、9時以前の便は前日17時までの予約が必要です。運賃半額は運転経歴証明書を持つ65歳以上の市民が対象です。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html",
+          "label": "デマンド型乗合タクシー"
+        }
+      ]
+    },
+    "life/start-living/how-to-garbage": {
+      "title": "引っ越し・実家の片付けは、ごみの量と種類を先に確認",
+      "bullets": [
+        "粗大ごみの戸別収集は、原則1世帯につき月1回。引っ越し・解体で出る大量ごみは対象外です。原則、希望日の2週間前までにLINEまたは電話で予約してください。",
+        "戸別収集は基本1,040円＋1個210円。家電リサイクル対象品は運搬料1個1,100円とリサイクル券が別途必要です。当日の追加はできません。",
+        "可燃ごみの自己搬入はクリーンセンターへ。家庭からの自己搬入は土曜休場です。金属・小型家電などの持込先は中遠広域粗大ごみ処理施設で、料金・受付日も異なります。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+          "label": "粗大ごみの戸別収集"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+          "label": "磐田市クリーンセンター"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+          "label": "金物・小型電化製品等の持ち込み"
+        }
+      ]
+    },
+    "life/moving-out/bulk-garbage-cleaning": {
+      "title": "引っ越し・実家の片付けは、ごみの量と種類を先に確認",
+      "bullets": [
+        "粗大ごみの戸別収集は、原則1世帯につき月1回。引っ越し・解体で出る大量ごみは対象外です。原則、希望日の2週間前までにLINEまたは電話で予約してください。",
+        "戸別収集は基本1,040円＋1個210円。家電リサイクル対象品は運搬料1個1,100円とリサイクル券が別途必要です。当日の追加はできません。",
+        "可燃ごみの自己搬入はクリーンセンターへ。家庭からの自己搬入は土曜休場です。金属・小型家電などの持込先は中遠広域粗大ごみ処理施設で、料金・受付日も異なります。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+          "label": "粗大ごみの戸別収集"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+          "label": "磐田市クリーンセンター"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+          "label": "金物・小型電化製品等の持ち込み"
+        }
+      ]
+    },
+    "life/housing/clean-parents-house": {
+      "title": "引っ越し・実家の片付けは、ごみの量と種類を先に確認",
+      "bullets": [
+        "粗大ごみの戸別収集は、原則1世帯につき月1回。引っ越し・解体で出る大量ごみは対象外です。原則、希望日の2週間前までにLINEまたは電話で予約してください。",
+        "戸別収集は基本1,040円＋1個210円。家電リサイクル対象品は運搬料1個1,100円とリサイクル券が別途必要です。当日の追加はできません。",
+        "可燃ごみの自己搬入はクリーンセンターへ。家庭からの自己搬入は土曜休場です。金属・小型家電などの持込先は中遠広域粗大ごみ処理施設で、料金・受付日も異なります。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+          "label": "粗大ごみの戸別収集"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+          "label": "磐田市クリーンセンター"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+          "label": "金物・小型電化製品等の持ち込み"
+        }
+      ]
+    },
+    "life/start-living/bulky-garbage-dropoff": {
+      "title": "可燃ごみと不燃ごみは別の施設へ",
+      "bullets": [
+        "可燃ごみ：磐田市クリーンセンター（刑部島301）。10kgあたり157円、計算後の10円未満は切り捨て。平日8:30〜16:15、第2・第4日曜と所定の祝日は8:30〜12:45。土曜、第1・第3・第5日曜、年末年始は家庭の自己搬入を受け付けません。",
+        "金属・小型電化製品など：中遠広域粗大ごみ処理施設（新貝59-1）。平日9:00〜12:00／13:00〜16:30、土日祝・年末年始休み。車両の最大積載重量で520円〜2,090円です。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+          "label": "磐田市クリーンセンター"
+        },
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+          "label": "金物・小型電化製品等の持ち込み"
+        }
+      ]
+    },
+    "life/housing/municipal-housing": {
+      "title": "市営住宅の募集期間を確認",
+      "bullets": [
+        "市が公表している定期募集の受付期間は2026年10月5日〜10月12日です。申込方法は電子申込または建築住宅課窓口。窓口提出は平日8:30〜17:15に限られます。",
+        "はまぼう団地は通年で随時募集しています。募集戸数、世帯人数・収入などの条件は建築住宅課（0538-37-4851）へ確認してください。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001503/1001504.html",
+          "label": "市営住宅入居者の募集"
+        }
+      ]
+    },
+    "life/health-medical/holiday-night-emergency-care": {
+      "title": "急患センターは受付時間と診療時間が異なります",
+      "bullets": [
+        "受診前に急患センター（0538-32-5267）へ電話してください。夜間は月〜土曜の受付19:15〜22:00、診療19:30〜22:30です。日曜・祝日・年末年始の夜間診療はありません。",
+        "日曜・祝日・年末年始は、受付8:45〜11:30／13:45〜16:30、診療9:00〜12:00／14:00〜17:00。緊急時は119番、受診を迷う場合は救急安心電話相談#7119も確認できます。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html",
+          "label": "救急診療"
+        }
+      ]
+    },
+    "life/health-medical/night-holiday-medical": {
+      "title": "急患センターは受付時間と診療時間が異なります",
+      "bullets": [
+        "受診前に急患センター（0538-32-5267）へ電話してください。夜間は月〜土曜の受付19:15〜22:00、診療19:30〜22:30です。日曜・祝日・年末年始の夜間診療はありません。",
+        "日曜・祝日・年末年始は、受付8:45〜11:30／13:45〜16:30、診療9:00〜12:00／14:00〜17:00。緊急時は119番、受診を迷う場合は救急安心電話相談#7119も確認できます。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html",
+          "label": "救急診療"
+        }
+      ]
+    }
+  },
+  "link_replacements": {
+    "https://www.city.iwata.shizuoka.jp/kyoiku/1014889/1014893/1015836.html": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/kyoiku_sodan/1001791.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyou/gomi_dashikata/1001551.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_kankyou/gomi_dashikata/1001552.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001438.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1001614.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/sports_undou/1001601.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/sports_undou/1001602.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/rikujou/1003448.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/taiikukan_undoujou/1003460.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/taiikukan_undoujou/1003461.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sports_shisetsu/index.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/index.html",
+    "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1008986/1016037.html": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1017017.html",
+    "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/011/699/inin.pdf": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisan_toshikeikakuzei/1011699.html",
+    "https://www.city.iwata.shizuoka.jp/event/tenji_kanshou_concert/1016698.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html",
+    "https://www.city.iwata.shizuoka.jp/event/tenji_kanshou_concert/1016760.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html",
+    "https://www.city.iwata.shizuoka.jp/kagyou/koen.html": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/house.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/index.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/kaigo.html": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/kosodate.html": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/soudan.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/tax.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/index.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi/transfer.html": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html"
+  },
+  "referral_pages": {
+    "moving": "life/living-soon life/living-soon/moving-decided life/living-soon/want-to-live life/start-living life/start-living/moving-address-change life/start-living/moved-in tools/moving-checklist life/housing/buy-house life/housing",
+    "out": "life/moving-out life/moving-out/move-out-notice life/moving-out/moving-away life/moving-out/bulk-garbage-cleaning",
+    "inheritance": "life/end-of-life life/end-of-life/after-death-procedures life/end-of-life/bereavement life/end-of-life/bereavement-procedures life/end-of-life/inheritance life/end-of-life/inherited-house life/end-of-life/inherited-vacant-house life/end-of-life/house-became-vacant life/end-of-life/property-tax-inheritance life/end-of-life/pension-inheritance",
+    "learning": "life/education life/education/elementary-middle-school life/education/study-facilities life/education/school-expense-support life/education/school-district-transfer life/living-soon/school-districts life/moving-out/school-nursery-procedures"
+  },
+  "article_corrections": [
+    {
+      "slug": "20260919-2-iwata-clean-center-saturday-dropoff",
+      "reason": "旧記事の「家庭ごみを土曜午前に持ち込める」という案内は誤りでした。受付日・料金・分別先を市公式情報に基づき訂正しました。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001438.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html"
+      ]
+    },
+    {
+      "slug": "20260918-iwata-oversized-trash-guide",
+      "reason": "旧記事の処理券購入、立ち会い不要、持ち込み先・受付時間に関する記載を訂正しました。戸別収集と可燃・不燃の持ち込みを分けて案内します。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001438.html",
+        "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html"
+      ]
+    },
+    {
+      "slug": "20260912-iwata-gym-training-room-usage",
+      "reason": "旧記事の料金、休場日、初回講習不要という記載を訂正しました。トレーニング室は高校生以上で、初回利用前の講習会参加が必要です。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html"
+      ]
+    },
+    {
+      "slug": "20260912-iwata-city-pool-usage-guide",
+      "reason": "旧記事の所在地、年齢別料金、利用時間、持ち物の一部に誤りがありました。磐田温水プールの市公式施設案内に基づいて訂正しました。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/pool/1003483.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html"
+      ]
+    },
+    {
+      "slug": "20260912-kabutozuka-athletic-field-usage",
+      "reason": "旧記事の個人利用料金、休場日、電話番号を訂正しました。公式資料で確認できなかった夜間照明・更衣室等の断定も取り下げました。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/rikujou/1003448.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html"
+      ]
+    },
+    {
+      "slug": "20260919-kabutozuka-park-sports-guide",
+      "reason": "公園内施設の料金と利用条件を再確認しました。公式資料で確認できないジョギングコースの距離・材質、テニスコート等の記載は削除しました。",
+      "sources": [
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+        "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/rikujou/1003448.html"
+      ]
+    }
+  ],
+  "event_updates": [
+    {
+      "slug": "20260916-iwata-school-exhibition",
+      "update": "本文は2026年9月時点の展示紹介です。掲載していた展示期間は終了しています。現在の開館・展示内容は歴史文書館の公式施設案内で確認してください。",
+      "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html"
+    },
+    {
+      "slug": "20260923-iwata-shiryo-digitalization",
+      "update": "本文は2026年9月時点の展示と資料利用の紹介です。展示期間は終了しています。資料の閲覧方法や現在の展示は歴史文書館の公式施設案内から確認してください。",
+      "source": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html"
+    },
+    {
+      "slug": "20260912-iwata-walking-football-entry",
+      "update": "市は2026年11月28日（土）10:00〜12:00、総合体育館小体育場での体験会を案内しています。無料・先着24人で、申込期間は11月1日〜20日です。10月12日現在は申込開始前です。9月27日の体験会は終了しており、以下の本文は過去の案内です。",
+      "source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1017017.html"
+    }
+  ]
+}

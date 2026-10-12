@@ -1,0 +1,208 @@
+{
+  "changed_html": 154,
+  "new_errors": [],
+  "preexisting_errors": [],
+  "checked_urls": [
+    {
+      "url": "https://baikyaku.atawi.link/",
+      "status": 200,
+      "final_url": "https://baikyaku.atawi.link/"
+    },
+    {
+      "url": "https://fudosan.atawi.link/",
+      "status": 200,
+      "final_url": "https://fudosan.atawi.link/"
+    },
+    {
+      "url": "https://fudosan.atawi.link/souzoku/",
+      "status": 200,
+      "final_url": "https://fudosan.atawi.link/souzoku/"
+    },
+    {
+      "url": "https://math.atawi.link/",
+      "status": 200,
+      "final_url": "https://math.atawi.link/"
+    },
+    {
+      "url": "https://oishi-hiroyuki.org/infaer",
+      "status": 200,
+      "final_url": "https://oishi-hiroyuki.org/infaer"
+    },
+    {
+      "url": "https://shinchikubukken.atawi.link/",
+      "status": 200,
+      "final_url": "https://shinchikubukken.atawi.link/"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/bousai_anzen/kyuukyuu/1001214.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/kaigohoken/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001891.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1001891.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/shuugakuenjo/1001782.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/shuugakuenjo/1001782.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/kyoiku_sodan/1001791.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_soudan/kyoiku_sodan/1001791.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001438.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001438.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001440.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/gomi/1001449.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001503/1001504.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/1001503/1001504.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/juutaku_pet_seikatsu/juutaku/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/1013168.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001317.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001318.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koseki_juuminhyou_inkan/todokede/1001324.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/koutsuu/jidousha_taxi/1001580.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/mynumber/1006310.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/1009197.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisan_toshikeikakuzei/1011699.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/koteishisan_toshikeikakuzei/1011699.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/zeikin/shizei_shoumei/1006295.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kyoiku/1014989/1007280.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/kyoiku/1014989/1007280.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002357.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/soshikikikou/1002357.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003153.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/index.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/index.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/okunaishisetsu/1003474.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/pool/1003483.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/pool/1003483.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/rikujou/1003448.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/sporte_midokoro/rikujou/1003448.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003514.html"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1017017.html",
+      "status": 200,
+      "final_url": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1017017.html"
+    }
+  ],
+  "url_failures": []
+}

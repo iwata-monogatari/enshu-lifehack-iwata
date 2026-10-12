@@ -20,10 +20,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATEGORIES_PATH = os.path.join(ROOT, "data", "categories.json")
 
 LABELS = {
-    "online": ("&#x1F310;", "オンライン可"),
+    "online": ("&#x1F310;", "ネットで確認・手続き"),
     "konbini": ("&#x1F3EA;", "コンビニ可"),
     "counter": ("&#x1F3DB;", "窓口"),
-    "phone": ("&#x1F4DE;", "電話で完結"),
+    "phone": ("&#x1F4DE;", "電話で相談・確認"),
 }
 ORDER = ["online", "konbini", "counter", "phone"]
 

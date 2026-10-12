@@ -150,11 +150,18 @@ def audit(posts):
             problems.append((slug, "編集本文(post-editorial-body)が無い、または直後に action-grid が無い"))
         else:
             count = visible_chars(body.group(1))
-            if count < MIN_EDITORIAL_CHARS:
-                problems.append((slug, "編集本文が %d 文字。最低 %d 文字に未達" % (count, MIN_EDITORIAL_CHARS)))
+            # 事実訂正は、誤記を残したり文字数のために推測で補ったりしない。
+            # 台帳の訂正理由・更新日と、読者に見える訂正告知を必須にする。
+            correction = bool(p.get("correction_notice"))
+            if correction and (not p.get("modified") or html.escape(p["correction_notice"]) not in src):
+                problems.append((slug, "訂正記事には更新日と台帳に一致する訂正告知が必要"))
+            min_chars = 800 if correction else MIN_EDITORIAL_CHARS
+            min_paragraphs = 8 if correction else MIN_PARAGRAPHS
+            if count < min_chars:
+                problems.append((slug, "編集本文が %d 文字。最低 %d 文字に未達" % (count, min_chars)))
             paragraph_count = len(re.findall(r"<p(?:\s|>)", body.group(1)))
-            if paragraph_count < MIN_PARAGRAPHS:
-                problems.append((slug, "編集本文の段落が %d。%d段落未満" % (paragraph_count, MIN_PARAGRAPHS)))
+            if paragraph_count < min_paragraphs:
+                problems.append((slug, "編集本文の段落が %d。%d段落未満" % (paragraph_count, min_paragraphs)))
 
         m = re.search(r'<ul class="post-sources">(.*?)</ul>', src, re.S)
         official_links = re.findall(
@@ -167,8 +174,9 @@ def audit(posts):
             problems.append((slug, "著者表記(post-author)が無い"))
         if "/assets/blog.css" not in src:
             problems.append((slug, "ブログ用CSS(/assets/blog.css)を読み込んでいない"))
-        if not os.path.isfile(os.path.join(d, "cover.jpg")):
-            problems.append((slug, "表紙 cover.jpg が無い"))
+        cover = p.get("cover", "cover.jpg")
+        if cover not in ("cover.jpg", "cover.svg") or not os.path.isfile(os.path.join(d, cover)):
+            problems.append((slug, "指定された表紙ファイルが無い、または未対応の形式"))
         for number in (1, 2):
             fig_path = os.path.join(d, "fig%d.svg" % number)
             if not os.path.isfile(fig_path):
@@ -207,7 +215,7 @@ def build_index(posts, parts):
         items.append(
             '<li class="post-item" id="post-%s">'
             '<a class="post-item-link" href="/blog/%s/">'
-            '<img class="post-item-thumb" src="/blog/%s/cover.jpg" alt="" width="760" height="760" loading="lazy" decoding="async">'
+            '<img class="post-item-thumb" src="/blog/%s/%s" alt="" width="760" height="760" loading="lazy" decoding="async">'
             '<span class="post-item-body">'
             '<span class="post-item-date"><time datetime="%s">%s</time></span>'
             "%s"
@@ -215,7 +223,7 @@ def build_index(posts, parts):
             '<span class="post-item-desc">%s</span>'
             "</span></a></li>"
             % (
-                p["slug"], p["slug"], p["slug"], p["date"], p["date"].replace("-", "."),
+                p["slug"], p["slug"], p["slug"], p.get("cover", "cover.jpg"), p["date"], p["date"].replace("-", "."),
                 badge, html.escape(p["title"]), html.escape(p["description"]),
             )
         )
@@ -223,7 +231,7 @@ def build_index(posts, parts):
     lead = "静岡県磐田市の暮らし・手続き・住まい・地区について、市の公表情報を確認しながら書いています。"
     index_title = "磐田ブログ｜暮らし・住まい・手続きを一次情報で読む"
     newest = sorted_posts[0] if sorted_posts else None
-    index_image = "%s/blog/%s/cover.jpg" % (SITE, newest["slug"]) if newest else "%s/favicon.svg" % SITE
+    index_image = "%s/blog/%s/%s" % (SITE, newest["slug"], newest.get("cover", "cover.jpg")) if newest else "%s/favicon.svg" % SITE
     topic_links = []
     seen_axes = set()
     for p in sorted_posts:
@@ -246,7 +254,7 @@ def build_index(posts, parts):
                     "url": "%s/blog/%s/" % (SITE, p["slug"]), "headline": p["title"],
                     "description": p["description"], "datePublished": p["date"],
                     "dateModified": p.get("modified", p["date"]),
-                    "image": "%s/blog/%s/cover.jpg" % (SITE, p["slug"]),
+                    "image": "%s/blog/%s/%s" % (SITE, p["slug"], p.get("cover", "cover.jpg")),
                     "author": author_profile.PERSON,
                 }
                 for p in sorted_posts
@@ -329,6 +337,8 @@ def update_article_discovery(posts):
             new = pattern.sub(lambda m: block, new)
         else:
             new = new.replace('<div class="post-author-box">', block + '\n<div class="post-author-box">', 1)
+            if '<!-- BLOG_RELATED:START -->' not in new:
+                new = new.replace('<aside class="post-author post-author-profile"', block + '\n<aside class="post-author post-author-profile"', 1)
         if 'type="application/atom+xml"' not in new:
             new = new.replace("</head>", '<link rel="alternate" type="application/atom+xml" title="磐田ブログ" href="/blog/feed.xml">\n</head>', 1)
         if 'name="robots"' not in new:
@@ -378,8 +388,8 @@ def update_sitemap(posts):
     lines = [SITEMAP_START, "  <url><loc>%s/blog/</loc><lastmod>%s</lastmod></url>" % (SITE, newest_modified)]
     for p in sorted(posts, key=lambda x: x["date"], reverse=True):
         lines.append(
-            "  <url><loc>%s/blog/%s/</loc><lastmod>%s</lastmod><image:image><image:loc>%s/blog/%s/cover.jpg</image:loc><image:title>%s</image:title></image:image></url>"
-            % (SITE, p["slug"], p.get("modified", p["date"]), SITE, p["slug"], html.escape(p["title"]))
+            "  <url><loc>%s/blog/%s/</loc><lastmod>%s</lastmod><image:image><image:loc>%s/blog/%s/%s</image:loc><image:title>%s</image:title></image:image></url>"
+            % (SITE, p["slug"], p.get("modified", p["date"]), SITE, p["slug"], p.get("cover", "cover.jpg"), html.escape(p["title"]))
         )
     lines.append(SITEMAP_END)
     block = eol.join(lines)

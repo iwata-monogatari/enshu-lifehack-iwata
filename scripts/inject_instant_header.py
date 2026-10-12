@@ -25,9 +25,8 @@ MARKER_RE = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
 BADGES_END = "<!-- CHANNEL-BADGES:END -->"
 
 STATUS_LABEL = {
-    "yes": ("オンライン申請：できます", "ih-yes"),
-    "partial": ("オンライン申請：一部可能（コンビニ等）", "ih-partial"),
-    "no": ("オンライン申請：窓口のみ", "ih-no"),
+    "yes": ("オンラインでできること：", "ih-yes"),
+    "partial": ("コンビニでできること：", "ih-partial"),
 }
 
 
@@ -50,14 +49,14 @@ def build_box(item):
     if status in STATUS_LABEL:
         label, cls = STATUS_LABEL[status]
         note = item.get("online_note")
-        text = label + (("　" + html.escape(note)) if note else "")
+        text = label + (html.escape(note) if note else "詳細は公式ページで確認")
         rows.append(
             '<div class="ih-row %s"><span class="ih-icon" aria-hidden="true">📱</span>%s</div>' % (cls, text)
         )
 
     if item.get("counter_info"):
         rows.append(
-            '<div class="ih-row"><span class="ih-icon" aria-hidden="true">📍</span>窓口：%s</div>'
+            '<div class="ih-row"><span class="ih-icon" aria-hidden="true">📍</span>窓口・連絡先：%s</div>'
             % html.escape(item["counter_info"])
         )
 

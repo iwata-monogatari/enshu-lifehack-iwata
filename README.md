@@ -72,6 +72,12 @@ git add -A && git commit && git push                 # 10. main へ push → Clo
 
 内容が本当に一次情報かどうかは機械では判定できない。最終確認は執筆者が行う。
 
+既存記事の事実訂正では、誤記を残したり長さを満たすために未確認情報を補ったりしない。
+台帳に `correction_notice`（読者に表示する訂正理由）と `modified` を記録した記事は、
+本文800文字・8段落を下限とする。訂正告知の本文との一致、および出典・図版など他のゲートは引き続き必須。
+2026年10月12日の照合記録は `reports/official-content-review-20261012.json` を参照。
+表紙を図解で作る場合は `cover: "cover.svg"` を指定できる（省略時は従来どおり `cover.jpg`）。
+
 ### 禁止語
 
 `build_blog.py` の `BANNED_WORDS` に「政策」を入れてある（森町版から引き継ぎ）。
