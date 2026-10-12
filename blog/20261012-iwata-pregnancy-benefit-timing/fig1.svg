@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">妊婦支援給付金の2つの流れ</title><desc id="desc">1回目は認定申請日の翌月末に5万円。2回目は8か月頃の案内を確認し、32週から胎児数を届け出て、受付日の翌月末に胎児数かける5万円を支給。</desc>
+<rect width="960" height="600" rx="24" fill="#f6f3eb"/>
+<g font-family="Meiryo, sans-serif" fill="#243d39"><text x="48" y="66" font-size="30" font-weight="bold">出産前から確認できる、2回の給付</text><text x="48" y="104" font-size="19">磐田市｜案内・申請・支給はそれぞれ別の時期</text>
+<rect x="48" y="145" width="864" height="160" rx="18" fill="#fff"/><text x="72" y="184" font-size="23" font-weight="bold">1回目</text>
+<rect x="72" y="207" width="380" height="70" rx="12" fill="#e0eee7"/><text x="94" y="236" font-size="20">妊娠届提出時に面談・申請</text><text x="94" y="262" font-size="17">妊婦給付認定と給付金を併せて申請</text>
+<path d="M470 242h50m-12-9 12 9-12 9" fill="none" stroke="#397265" stroke-width="4"/>
+<text x="548" y="235" font-size="21">認定申請日の翌月末</text><text x="548" y="270" font-size="28" font-weight="bold">5万円</text>
+<rect x="48" y="327" width="864" height="193" rx="18" fill="#fff"/><text x="72" y="366" font-size="23" font-weight="bold">2回目</text>
+<text x="72" y="404" font-size="21">8か月頃に案内</text><text x="72" y="446" font-size="21" font-weight="bold">32週から届出</text><text x="72" y="479" font-size="18">案内に沿って胎児数を申告</text>
+<path d="M400 434h105m-12-9 12 9-12 9" fill="none" stroke="#397265" stroke-width="4"/>
+<text x="548" y="416" font-size="21">届出受付日の翌月末</text><text x="548" y="456" font-size="28" font-weight="bold">胎児数 × 5万円</text><text x="548" y="489" font-size="17">出産前の入金を保証するものではありません</text>
+<text x="48" y="560" font-size="17">住所などの条件あり。出典：磐田市「妊婦のための支援給付制度」／2026年10月12日確認</text></g></svg>

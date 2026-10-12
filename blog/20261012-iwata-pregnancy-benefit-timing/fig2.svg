@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">受付月と入金月を分ける家計メモ</title><desc id="desc">説明用の例。2026年10月に2回目の届出を受け付けた場合、支給の目安は11月末。10月の用品代は給付より前に支払うため、予定を別々に考える。</desc>
+<rect width="960" height="600" rx="24" fill="#f6f3eb"/>
+<g font-family="Meiryo, sans-serif" fill="#243d39"><text x="48" y="66" font-size="30" font-weight="bold">家計メモは「出る日」と「入る日」を別々に</text><text x="48" y="108" font-size="19">仮の例：2026年10月に2回目の届出が受け付けられた場合</text>
+<rect x="48" y="150" width="864" height="312" rx="18" fill="white"/>
+<rect x="267" y="166" width="277" height="60" rx="10" fill="#e0eee7"/><rect x="562" y="166" width="334" height="60" rx="10" fill="#e0eee7"/>
+<text x="360" y="205" font-size="25" font-weight="bold">10月</text><text x="676" y="205" font-size="25" font-weight="bold">11月</text>
+<text x="70" y="281" font-size="21">2回目の届出</text><circle cx="328" cy="275" r="10" fill="#397265"/><text x="350" y="283" font-size="20">受付</text>
+<path d="M404 275h275m-12-9 12 9-12 9" fill="none" stroke="#397265" stroke-width="4"/><text x="701" y="283" font-size="20">月末に支給</text>
+<path d="M65 319h828" stroke="#d9dfdb"/>
+<text x="70" y="366" font-size="21">用品代の支払い</text><rect x="298" y="339" width="202" height="49" rx="10" fill="#f5dfce"/><text x="318" y="370" font-size="20">仮に10月中なら</text>
+<text x="298" y="427" font-size="21" font-weight="bold">支払いが給付より先になる</text>
+<text x="48" y="510" font-size="21">買う日だけでなく、口座からお金が出る日を確認。</text><text x="48" y="547" font-size="18">個別の入金日は市の通知で確認。出産前に間に合うとは限りません。</text><text x="48" y="578" font-size="16">支給時期の出典：磐田市「妊婦のための支援給付制度」／2026年10月12日確認</text></g></svg>
