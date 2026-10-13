@@ -445,6 +445,11 @@ def main():
         for e in author_errors:
             print("  [著者欄] " + e)
         article_note += " / 著者欄 %d件更新" % n_author
+        import discovery_links
+        _changed, _nlinks = discovery_links.apply(ROOT, "iwata.enshu-lifehack.com", ("/blog/",), ("/life/", "/tools/", "/checklist/"))
+        article_note += " / 記事への導線 %d本" % _nlinks
+        from datetime import datetime, timezone, timedelta
+        discovery_links.update_sitemap(ROOT, _changed, datetime.now(timezone(timedelta(hours=9))).date().isoformat())
     print(
         "記事 %d 件 / 品質ゲート未達 0 / 一覧: blog/index.html%s / Atom: %s / 関連導線: %s / sitemap.xml: %s"
         % (len(posts), "（未書き込み:--check）" if args.check else "", feed_note, article_note, sitemap_note)
