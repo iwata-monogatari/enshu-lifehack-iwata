@@ -10,7 +10,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/education/school-meals/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/school-zones/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/study-facilities/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/disaster-mail-line/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/earthquake/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/</loc><lastmod>2026-10-14</lastmod></url>
@@ -78,7 +78,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/elderly-transportation/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/find-nursing-home/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/long-term-care-insurance/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/cultural-facilities/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/find-parks/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/kids-playgrounds/</loc></url>
@@ -86,7 +86,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/rent-public-facilities/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/sports-facilities/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/swimming-pools/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/visit-library/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/visit-library/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/city-hall-branches/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/dog-registration/</loc></url>
@@ -278,7 +278,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261016-iwata-owakarenouta-screening/</loc><lastmod>2026-10-16</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261016-iwata-owakarenouta-screening/cover.jpg</image:loc><image:title>磐田市「お別れの歌」上映会｜11月21日に地元を再発見</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261015-iwata-disaster-experience-family/</loc><lastmod>2026-10-15</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261015-iwata-disaster-experience-family/cover.jpg</image:loc><image:title>磐田市の防災体験｜10月24日の親子参加準備</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261014-iwata-art-festival-junior-nicotto/</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261014-iwata-art-festival-junior-nicotto/cover.jpg</image:loc><image:title>磐田市芸術祭2026｜にこっとで親子の秋鑑賞</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261014-iwata-sumo-history/</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261014-iwata-sumo-history/cover.jpg</image:loc><image:title>磐田の相撲の歴史｜古記録で知る地域の暮らし</image:title></image:image></url>

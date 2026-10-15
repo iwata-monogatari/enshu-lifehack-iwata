@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-16",
+  "query": "磐田市 お別れの歌 上映会",
+  "intent": "local",
+  "principle": "原則1。一言メモ空欄のため選択",
+  "opinion_paragraph": "大石の視点冒頭：無料でも、家族の午後はただではない。",
+  "experience": "なし・意見として記述",
+  "answer": "磐田市で撮影された映画「お別れの歌」の上映会は、2026年11月21日（土）、中央図書館内の視聴覚ホールで開催予定です。13時30分開場、14時上映、16時監督挨拶、16時30分閉会。無料・事前申込制・先着100名で、締切は11月17日ですが定員で受付終了です。今日は開催日を家族と共有し、申込み前に市公式ページで受付状況を確認してください。",
+  "h2": [
+    "遠出が難しい家族にも、地元を見直す午後はつくれる",
+    "公式案内で確認した開催日・費用・申込期限",
+    "映画の中で、いつもの磐田が別の表情を持つ",
+    "上映後の監督挨拶まで含めて、午後を考える",
+    "中央図書館へ行く段取りは、鑑賞の予定と分ける",
+    "良い点——近くで鑑賞し、つくり手の視点も聞ける",
+    "注文したい点——無料という言葉の外にある負担も見たい",
+    "対案・結論——今日は11月21日を家族と共有する",
+    "大石の視点——無料でも、家族の午後はただではない",
+    "よくある質問"
+  ],
+  "faq": [
+    "「お別れの歌」上映会は、いつ、どこで開かれますか。",
+    "無料なら申込みをせず、当日行っても見られますか。",
+    "子どもや市外に住む家族も参加できますか。"
+  ],
+  "internal_links": [
+    "20260904-iwata-library-six-facilities",
+    "20261014-iwata-art-festival-junior-nicotto",
+    "20261009-jokoji-senju-kannon-hamamatsu"
+  ],
+  "backlink": "20260904-iwata-library-six-facilities",
+  "images": {
+    "cover.jpg": "指定スクリプトの表紙",
+    "fig1.svg": "当日の時刻表",
+    "fig2.svg": "家族への共有と申込みを分ける図"
+  },
+  "sources": [
+    "https://www.city.iwata.shizuoka.jp/event/kouza_kyoushitsu/1017066.html",
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/toshokan/1003486.html"
+  ],
+  "self_review": {
+    "status": "pass",
+    "body_chars": 5509,
+    "paragraphs": 37,
+    "answer_chars": 171,
+    "jsonld": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage",
+      "Person"
+    ],
+    "official_http": [
+      200,
+      200
+    ],
+    "review_fixes": [
+      "関連記事の寺名を定光寺へ訂正",
+      "生成処理で外れる著者写真を復元",
+      "共通headの無関係な変更を除外"
+    ],
+    "unexpected_fact": "映画上映だけでなく監督による磐田の魅力紹介がある",
+    "assertion": "無料でも、家族の午後はただではない。",
+    "hesitation": "外出準備の案内をどこまで書くか迷う。",
+    "unconfirmed": [
+      "残席数",
+      "途中入退場",
+      "家族分の申込入力方法",
+      "作品の個別ロケ地点"
+    ],
+    "memo_conflicts": "なし",
+    "search_index": "既存155件を収録するsearch-index.jsonは変更なし。禁止語0件。今回のブログ由来レコードなし。",
+    "temporary_files": "作成なし"
+  }
+}
