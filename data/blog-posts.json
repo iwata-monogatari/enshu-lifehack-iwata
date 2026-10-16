@@ -1953,6 +1953,26 @@
           "label": "図書館の利用案内"
         }
       ]
+    },
+    {
+      "slug": "20261016-toyoda-kaori-kinmokusei",
+      "date": "2026-10-16",
+      "modified": "2026-10-16",
+      "axis": "fri",
+      "title": "豊田香りの公園のキンモクセイ｜見頃はいつ？",
+      "description": "豊田香りの公園のキンモクセイは、市の2024年9月広報では9月下旬～10月中旬が見頃。2026年の開花状況とは分けて読みます。豊田町駅からの距離や施設案内の確認先を整理し、家事や仕事の合間に秋を楽しむ家族の予定づくりにつなげます。",
+      "query": "豊田香りの公園 キンモクセイ 見頃",
+      "intent": "know",
+      "home_description": "市広報の見頃の目安と、訪問日の開花状況を分けて読む秋の案内。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/014/065/koho9-1.pdf / https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003411.html (2026-10-16)",
+      "cover_alt": "豊田香りの公園のキンモクセイ｜見頃はいつ？の表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ]
     }
   ]
 }
