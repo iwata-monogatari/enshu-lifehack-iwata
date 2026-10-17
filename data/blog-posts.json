@@ -1973,6 +1973,26 @@
           "label": "遊ぶ・使う・出かける"
         }
       ]
+    },
+    {
+      "slug": "20261017-iwata-sporec-family-preparation",
+      "date": "2026-10-17",
+      "modified": "2026-10-17",
+      "axis": "sat",
+      "title": "磐田スポレク健康フェスティバル｜親子の参加準備",
+      "description": "磐田スポレク健康フェスティバルは2026年10月18日開催予定。申込不要・無料、受付は13時までです。ピックルボールなどの年齢条件と雨天時の扱い、駐車場を整理。親子で最初に試す種目を一つ選ぶ、前日の準備を案内します。",
+      "query": "磐田スポレク健康フェスティバル 参加方法",
+      "intent": "do",
+      "home_description": "年齢条件と受付時刻を確認し、親子で試す一種目を選ぶ。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1008986/1015623.html / https://www.city.iwata.shizuoka.jp/shisetsu_guide/koen_shisetsu/kouen/1003357.html (2026-10-17)",
+      "cover_alt": "磐田スポレク健康フェスティバル｜親子の参加準備の表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ]
     }
   ]
 }
