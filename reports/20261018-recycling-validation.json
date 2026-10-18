@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "slug": "20261018-iwata-recycling-station-comparison",
+  "visible_chars": 5815,
+  "paragraphs": 46,
+  "jsonld_types": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "Organization",
+    "Person"
+  ],
+  "images": [
+    "cover.jpg",
+    "fig1.svg",
+    "fig2.svg"
+  ],
+  "checks": "pass: body, no nested div, 3 FAQ, answer length, JSON, dates, unique title/slug, internal links, reverse link, feed/sitemap, llms, local images, SVG XML, author photo, prohibited phrases",
+  "sources": [
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001466.html",
+      "status": 200,
+      "bytes": 34792,
+      "sha256": "240ad430c7ebb669fd7a20fdee56c2f2b0d1d941ed154f9d871d93f48710824d"
+    },
+    {
+      "url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003156.html",
+      "status": 200,
+      "bytes": 25220,
+      "sha256": "14a664830f2a062909f8987a211d530ec626fee56074f0235898fa063f4aea36"
+    },
+    {
+      "url": "https://www.env.go.jp/page_00966.html",
+      "status": 200,
+      "bytes": 43003,
+      "sha256": "d913f8bb41a46bdfe431db307a169473de497540f9c87c7baa45476ff9cd2d95"
+    }
+  ],
+  "editorial_review": "pass: facts and opinions separate; surprising fact is constant-only items; clear claim about transport; uncertainty explicitly stated; principle 1, no experience; Ryuyo time discrepancy retained without inference",
+  "independent_banned_word_scan": "pass: rg found 0 in publication HTML/SVG/JSON/sitemap/feed/llms; shared search-index.json byte-equivalent to HEAD, 0 blog records, 0 existing occurrences",
+  "layout": "PASS: controller HTTP preview; desktop 1280x900 and mobile 390x844. Cover, both illustrations, tables and author photo checked. No horizontal overflow. Mobile SVG text enlarged and visually rechecked at both widths.",
+  "git_base": "HEAD and origin/main synchronized before publication",
+  "files": {
+    "blog/20261018-iwata-recycling-station-comparison/cover.jpg": "bf641884e3d49b6dcbceedb061d4529987e10ebcfa1f490146ec372eb8a7d7ed",
+    "blog/20261018-iwata-recycling-station-comparison/fig1.svg": "871eb242e4e3d6ade87d219a134ca95946765c1d0231a34f831c02ac5274ad6c",
+    "blog/20261018-iwata-recycling-station-comparison/fig2.svg": "ff86a624de1dfa13655e3aa37d91216bd120308b6b99c40f49d7aaaa96a53c02",
+    "blog/20261018-iwata-recycling-station-comparison/index.html": "caba475b56cdaa0ba71978b6874c2075f9570efca7e7e7711ac1af18807d045e"
+  },
+  "corrections": [
+    "Enlarged SVG text for mobile readability",
+    "Preserved original CRLF conventions and removed duplicate CR in sitemap"
+  ],
+  "build_blog_check": "記事 93 件 / 品質ゲート未達 0 / 一覧: blog/index.html（未書き込み:--check） / Atom: 未更新:--check / 関連導線: 未更新:--check / sitemap.xml: 未更新:--check"
+}

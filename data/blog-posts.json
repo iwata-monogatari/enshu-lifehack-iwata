@@ -1993,6 +1993,21 @@
           "label": "遊ぶ・使う・出かける"
         }
       ]
+    },
+    {
+      "slug": "20261018-iwata-recycling-station-comparison",
+      "date": "2026-10-18",
+      "modified": "2026-10-18",
+      "axis": "sun",
+      "title": "磐田市リサイクルステーション｜常設と月1回を比較",
+      "description": "磐田市のリサイクルステーションを常設と月1回で比較。受入品目、開設日、移動の負担から、家族の予定に合う回収先を選びます。竜洋の終了時刻は公式ページ間で異なるため断定せず、確認先を案内。今日は出したい一品の受入先を確かめます。",
+      "query": "磐田市 リサイクルステーション 常設 月1回 違い",
+      "intent": "compare",
+      "home_description": "品目・日時・移動の負担で常設と月1回を比較。竜洋の終了時刻は市へ確認。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001466.html / https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003156.html / https://www.env.go.jp/page_00966.html (2026-10-18)",
+      "cover_alt": "磐田市リサイクルステーション｜常設と月1回を比較の記事表紙",
+      "related_life": []
     }
   ]
 }
