@@ -2008,6 +2008,21 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/1001466.html / https://www.city.iwata.shizuoka.jp/shisetsu_guide/kurashi/gomi_recycle/1003156.html / https://www.env.go.jp/page_00966.html (2026-10-18)",
       "cover_alt": "磐田市リサイクルステーション｜常設と月1回を比較の記事表紙",
       "related_life": []
+    },
+    {
+      "slug": "20261019-iwata-hatachi-no-postcard",
+      "date": "2026-10-19",
+      "modified": "2026-10-19",
+      "axis": "mon",
+      "title": "磐田市の二十歳の集い2027｜案内はがきは届く？",
+      "description": "磐田市の2027年「二十歳の集い」は案内はがきを送付しません。市公式LINEと市ホームページでの情報提供、市外転出者の参加、生年月日の対象範囲を確認。帰省や送迎の調整を始める家族へ、本人が公式案内を読む一歩を伝えます。",
+      "query": "磐田市 二十歳の集い 案内はがき",
+      "intent": "know",
+      "home_description": "案内はがきを待つ家族へ。本人が公式情報を確認する入口を整理。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/1008841/1016189.html / https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/1008841/index.html (2026-10-19)",
+      "cover_alt": "磐田市の二十歳の集い2027｜案内はがきは届く？の記事表紙",
+      "related_life": []
     }
   ]
 }
