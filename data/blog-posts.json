@@ -2023,6 +2023,21 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/1008841/1016189.html / https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/chiiki_kouryuu/1008841/index.html (2026-10-19)",
       "cover_alt": "磐田市の二十歳の集い2027｜案内はがきは届く？の記事表紙",
       "related_life": []
+    },
+    {
+      "slug": "20261019-iwata-disability-deduction-phone",
+      "date": "2026-10-19",
+      "modified": "2026-10-19",
+      "axis": "mon",
+      "title": "磐田市の障害者控除認定書｜親の申請前に電話確認",
+      "description": "磐田市の障害者控除対象者認定書は、65歳以上の要支援・要介護認定だけでは対象が決まりません。家族が来庁する前の電話確認、必要書類、受取りの段取りを整理。11月2日からの窓口時間変更を踏まえ、今日は対象年と発行対象を担当課へ確認します。",
+      "query": "磐田市 障害者控除対象者認定書 申請",
+      "intent": "do",
+      "home_description": "介護と仕事を調整する家族へ。休みを取る前に、対象年と発行対象を電話で確認します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/hojo_josei_yuushi/1006252.html / https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/1016465.html (2026-10-19)",
+      "cover_alt": "磐田市の障害者控除認定書｜親の申請前に電話確認の記事表紙",
+      "related_life": ""
     }
   ]
 }
