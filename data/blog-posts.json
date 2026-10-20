@@ -2038,6 +2038,21 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/hojo_josei_yuushi/1006252.html / https://www.city.iwata.shizuoka.jp/shiseijouhou/soshikiannai/1016465.html (2026-10-19)",
       "cover_alt": "磐田市の障害者控除認定書｜親の申請前に電話確認の記事表紙",
       "related_life": ""
+    },
+    {
+      "slug": "20261020-iwata-inheritance-consultation-comparison",
+      "date": "2026-10-20",
+      "modified": "2026-10-20",
+      "axis": "tue",
+      "title": "磐田市の相続相談｜司法書士と弁護士を比較",
+      "description": "磐田市の相続相談を、司法書士と弁護士の相談内容・利用条件・曜日で比較。11月の日曜定例枠も確認し、家族が休みを取る前に相談先を選ぶ材料を整理します。市内在住の当事者が対象で、日程・予約状況は市へ確認が必要です。",
+      "query": "磐田市 相続相談 司法書士 弁護士 違い",
+      "intent": "compare",
+      "home_description": "相談内容と休める曜日から、家族に合う相談先を比べます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/gyousei_soudan/1001630.html",
+      "cover_alt": "磐田市の相続相談｜司法書士と弁護士を比較の記事表紙",
+      "related_life": []
     }
   ]
 }
