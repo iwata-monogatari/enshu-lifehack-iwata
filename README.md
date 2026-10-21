@@ -62,6 +62,14 @@ python scripts/ensure_canonical.py                    # 9. 全公開HTMLのcanon
 git add -A && git commit && git push                 # 10. main へ push → Cloudflare が自動デプロイ
 ```
 
+### 記事からの回遊・相談案内（2026-10-21）
+
+`build_blog.py` はトップの「最新記事」3件も台帳から更新します。「暮らしのおすすめ記事」は `scripts/blog_navigation.py` の `RECOMMENDED` で選びます。
+関連記事は `CURATED_RELATED` の編集指定を優先し、それ以外は本文タイトルのテーマ・共通の手続きガイド・テーマ軸から選びます。無関係な新着2件を一律に差し込まない設計です。
+不動産の案内は `CONSULTATIONS` に明示した記事だけに1件表示し、該当する相談ページのカルテ見本へリンクします。記事別UTMと既存計測用の `data-track-click` を付与します。
+ブログ記事の共通フッターは「運営者・関連サイトを見る」で展開できます。共通部品の外側に置くため、`inject_parts.py` での更新後も維持されます。
+回帰チェック：`python scripts/test_blog_navigation.py`。
+
 ### 品質ゲート（`build_blog.py` が機械で見る範囲）
 
 編集本文5,000文字以上／段落35以上／磐田市公式（`www.city.iwata.shizuoka.jp`）の出典2本以上／

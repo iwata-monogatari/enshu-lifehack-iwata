@@ -54,5 +54,17 @@ body:not(.hub) .post-item-desc,body.hub .post-item-desc{display:block;font-size:
 .post-related-card strong{font-size:14px;line-height:1.6;color:var(--green-d)}
 @media(max-width:600px){.blog-topics{align-items:flex-start;flex-direction:column}.blog-topics a{width:100%;border-radius:9px}.post-related-grid{grid-template-columns:1fr}.post-related-card{min-height:76px!important}}
 
+/* A quiet, article-specific next step. No sticky banners or popups. */
+.post-consultation{margin:24px 0;padding:20px;background:#f3f7f6;border:1px solid #d7e3df;border-radius:10px;overflow-wrap:anywhere}
+.post-consultation .post-consultation-label{margin:0 0 8px;font-size:13px;color:#4b6058}
+.post-consultation h2{margin:0 0 10px;padding:0;border:0;font-size:19px;line-height:1.6;color:#234e42}
+.post-consultation p{margin:8px 0;line-height:1.85}
+.post-consultation>a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 0;font-weight:700;text-underline-offset:4px}
+.post-consultation .post-consultation-note{font-size:13px;color:#4b6058}
+.post-network{margin:28px auto 0;border-top:1px solid #d7e3df;background:#f7f7f2}
+.post-network>summary{max-width:980px;margin:auto;padding:18px 22px;min-height:44px;cursor:pointer;font-size:14px;color:#3e514b;line-height:1.8}
+.post-network>summary:focus-visible,.post-consultation>a:focus-visible{outline:3px solid #087cac;outline-offset:3px}
+@media(max-width:600px){.post-consultation{padding:16px}.post-consultation h2{font-size:17px}}
+
 /* Payment timing comparison tables */
 .post-payment-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:16px;table-layout:fixed}.post-payment-table caption{text-align:left;font-weight:700;margin-bottom:10px}.post-payment-table th,.post-payment-table td{padding:12px;border:1px solid #d8e3e8;text-align:left;vertical-align:top;overflow-wrap:anywhere}.post-payment-table thead th{background:#eaf3f8}.post-payment-table tbody th{background:#f5f8fa}@media(max-width:600px){.post-payment-table{font-size:13px}.post-payment-table th,.post-payment-table td{padding:7px}}

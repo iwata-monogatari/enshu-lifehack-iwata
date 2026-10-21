@@ -36,6 +36,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import author_profile  # noqa: E402
+import blog_navigation
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "data", "blog-posts.json")
@@ -51,7 +52,7 @@ SITE_NAME = "磐田ライフハック"
 HOME_LABEL = "磐田ライフハック"
 AUTHOR_URL = SITE + "/author/oishi-hiroyuki/"
 OFFICIAL_PREFIX = "https://www.city.iwata.shizuoka.jp/"
-CSS_HREF = "/assets/blog.css?v=20260828c"
+CSS_HREF = blog_navigation.CSS_HREF
 FIG_MARKER = 'data-illustration="iwata-editorial"'
 
 MIN_EDITORIAL_CHARS = 5000
@@ -318,7 +319,7 @@ def build_related_block(current, posts):
     cards = []
     for related in current.get("related_life", []):
         cards.append('<a class="post-related-card" href="%s"><span>手続きガイド</span><strong>%s</strong></a>' % (html.escape(related["href"]), html.escape(related["label"])))
-    others = [p for p in sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True) if p["slug"] != current["slug"]][:2]
+    others = blog_navigation.related_posts(current, posts)
     for p in others:
         cards.append('<a class="post-related-card" href="/blog/%s/"><span>磐田ブログ</span><strong>%s</strong></a>' % (html.escape(p["slug"]), html.escape(p["title"])))
     return '<!-- BLOG_RELATED:START --><section class="post-related" aria-labelledby="post-related-title"><h2 class="sec" id="post-related-title">関連記事・次に読む</h2><div class="post-related-grid">%s</div></section><!-- BLOG_RELATED:END -->' % "".join(cards)
@@ -330,7 +331,7 @@ def update_article_discovery(posts):
         path = os.path.join(BLOG_DIR, p["slug"], "index.html")
         with open(path, encoding="utf-8", newline="") as f:
             src = f.read()
-        new = src
+        new = blog_navigation.update_article(src, p)
         block = build_related_block(p, posts)
         pattern = re.compile(r"<!-- BLOG_RELATED:START -->.*?<!-- BLOG_RELATED:END -->", re.S)
         if pattern.search(new):
@@ -432,6 +433,7 @@ def main():
     article_note = "未更新:--check"
     feed_note = "未更新:--check"
     if not args.check:
+        blog_navigation.update_home(ROOT, posts, AXIS_LABEL)
         with open(out, "w", encoding="utf-8", newline="") as f:
             f.write(html_out)
         with open(FEED, "w", encoding="utf-8", newline="") as f:
