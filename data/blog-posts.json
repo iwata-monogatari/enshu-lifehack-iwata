@@ -2053,6 +2053,21 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/gyousei_soudan/1001630.html",
       "cover_alt": "磐田市の相続相談｜司法書士と弁護士を比較の記事表紙",
       "related_life": []
+    },
+    {
+      "slug": "20261021-iwata-cultural-festival",
+      "date": "2026-10-21",
+      "modified": "2026-10-21",
+      "axis": "wed",
+      "title": "いわた文化財フェスティバル2026とは",
+      "description": "いわた文化財フェスティバル2026は11月29日開催。埋蔵文化財センター開館40周年を機に、出土品を守り調べる仕事を知る行事です。企画ごとに対象・申込条件が異なります。職業体験と展示解説の内容を整理し、家族で開催日を共有する材料を紹介します。",
+      "query": "いわた文化財フェスティバル2026",
+      "intent": "know",
+      "home_description": "出土品を守り調べる仕事から、開館40周年の行事を知ります。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/event/moyooshi_matsuri/1016833.html",
+      "cover_alt": "いわた文化財フェスティバル2026とはの記事表紙",
+      "related_life": []
     }
   ]
 }
