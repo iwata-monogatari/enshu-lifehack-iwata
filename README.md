@@ -109,3 +109,15 @@ fri=地区めぐり／sat=スポーツ・イベント／sun=移住・暮らし�
 
 本サイトは磐田市公式サイトではありません。最新・正確な情報は磐田市公式サイトをご確認ください。
 運営：富士ヶ丘サービス ／ 代表：大石浩之
+
+### ブログ検索・テーマ絞り込み（2026-10-22）
+
+`python scripts/build_blog.py` は記事台帳から `blog/search-index.json` も生成します。
+トップの検索は従来の `search-index.json` と合わせて読み込み、手続き・相談ガイドとブログ記事を別々に順位付けします。
+記事公開時に既存のブログ生成コマンドを実行すれば検索対象も同期されます。記事本文の全文は検索データに含めません。
+回帰検査：`node scripts/test-search.mjs` と `node scripts/test-site-search.mjs`。
+
+ブログ一覧のテーマ選択は `assets/blog-filter.js` と `assets/blog-filter.css` が担当します。
+`?theme=tue` のようなURLで選択を共有でき、ブラウザーの戻る操作にも対応します。
+JavaScriptが無効な場合は全記事と従来のテーマ別ジャンプリンクを表示します。
+一覧の項目・テーマ・件数は `scripts/build_blog.py` が台帳から生成するため、生成後HTMLを手編集しません。

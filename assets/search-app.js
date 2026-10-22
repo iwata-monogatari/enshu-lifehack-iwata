@@ -1,9 +1,16 @@
-import { searchTopics } from '/assets/search-core.mjs';
+import { searchSite } from '/assets/site-search.mjs';
 
 let indexPromise = null;
 function loadIndex() {
   if (!indexPromise) {
-    indexPromise = fetch('/search-index.json').then((res) => res.json());
+    indexPromise = Promise.all(['/search-index.json', '/blog/search-index.json'].map(async (url) => {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error('Search index unavailable');
+      return res.json();
+    })).then((groups) => groups.flat()).catch((error) => {
+      indexPromise = null;
+      throw error;
+    });
   }
   return indexPromise;
 }
@@ -71,11 +78,12 @@ const TOP_TASKS = [
   { emoji: '🏥', label: '休日・夜間の病院', href: '/life/health-medical/holiday-night-emergency-care/' },
 ];
 
-function renderHitList(safeQuery, matched) {
-  return `<h2>「${safeQuery}」の候補</h2><ul>${matched
+function renderHitList(label, matched) {
+  if (!matched.length) return '';
+  return `<h3>${label}</h3><ul>${matched
     .map(
       (page) =>
-        `<li><a class="search-hit" href="${page.href}"><span class="result-ic" aria-hidden="true">${page.icon}</span><span><strong>${page.title}</strong><span>${page.category}</span></span><span aria-hidden="true">›</span></a></li>`
+        `<li><a class="search-hit" href="${escapeHtml(page.href)}"><span class="result-ic" aria-hidden="true">${escapeHtml(page.icon)}</span><span><strong>${escapeHtml(page.title)}</strong><span>${escapeHtml(page.category)}</span></span><span aria-hidden="true">›</span></a></li>`
     )
     .join('')}</ul>`;
 }
@@ -92,36 +100,32 @@ function renderNoHits(safeQuery) {
   );
 }
 
-// 断片一致の再検索: スペース区切りの先頭語のみで再試行する(元検索は既にN-gram部分一致を
-// 含んでいるため、単語区切りが無いクエリをさらに短く刻んでもノイズが増えるだけで行わない)
-function fallbackRetryQuery(value) {
-  const tokens = value.split(/[\s　]+/).filter(Boolean);
-  if (tokens.length > 1) return tokens[0];
-  return null;
-}
+let searchRequest = 0;
 
 async function runSearch(query) {
   const resultsEl = document.getElementById('search-results');
   if (!resultsEl) return;
+  const request = ++searchRequest;
   const value = (query || '').trim();
   if (!value) {
     resultsEl.innerHTML = '';
     return;
   }
-  const items = await loadIndex();
-  let matched = searchTopics(items, value);
-
-  if (!matched.length) {
-    const retryQuery = fallbackRetryQuery(value);
-    if (retryQuery) {
-      matched = searchTopics(items, retryQuery);
-    }
+  let items;
+  try {
+    items = await loadIndex();
+  } catch (error) {
+    if (request === searchRequest) resultsEl.innerHTML = '<p role="status">検索データを読み込めませんでした。通信状況を確認して、もう一度「探す」を押してください。</p>';
+    return;
   }
+  if (request !== searchRequest) return;
+  const matched = searchSite(items, value);
+  const count = matched.guides.length + matched.articles.length;
 
   trackSearch(value);
-  logSearchQuery(value, matched.length);
+  logSearchQuery(value, count);
   const safeQuery = escapeHtml(value);
-  resultsEl.innerHTML = matched.length ? renderHitList(safeQuery, matched) : renderNoHits(safeQuery);
+  resultsEl.innerHTML = count ? `<h2>「${safeQuery}」の候補</h2>` + renderHitList('手続き・相談ガイド', matched.guides) + renderHitList('ブログ記事', matched.articles) : renderNoHits(safeQuery);
 }
 
 window.iwataSiteSearch = function iwataSiteSearch(event) {
@@ -134,7 +138,7 @@ window.iwataSiteSearch = function iwataSiteSearch(event) {
 document.addEventListener('DOMContentLoaded', () => {
   const input = document.getElementById('site-search-input');
   const initial = new URLSearchParams(window.location.search).get('q') || '';
-  loadIndex();
+  loadIndex().catch(() => {});
   if (input && initial) {
     input.value = initial;
     runSearch(initial);

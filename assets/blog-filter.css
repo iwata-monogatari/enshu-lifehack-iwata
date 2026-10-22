@@ -1,0 +1,6 @@
+.blog-filter{margin:20px 0;padding:16px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.blog-filter[hidden],.blog-topics[hidden],.post-list>.post-item[hidden]{display:none!important}
+.blog-filter label{display:block;margin-bottom:8px;font-weight:800;color:var(--green-d)}
+.blog-filter select{width:100%;max-width:420px;min-height:44px;padding:10px;border:1px solid #80958c;border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:16px}
+.blog-filter select:focus-visible{outline:3px solid #0059ae;outline-offset:3px}
+.blog-filter p{margin:10px 0 0;font-size:14px;color:var(--mut)}

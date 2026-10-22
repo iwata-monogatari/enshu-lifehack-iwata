@@ -214,7 +214,7 @@ def build_index(posts, parts):
         axis = AXIS_LABEL.get(p.get("axis"), "")
         badge = '<span class="post-axis">%s</span>' % html.escape(axis) if axis else ""
         items.append(
-            '<li class="post-item" id="post-%s">'
+            '<li class="post-item" id="post-%s" data-axis="%s">'
             '<a class="post-item-link" href="/blog/%s/">'
             '<img class="post-item-thumb" src="/blog/%s/%s" alt="" width="760" height="760" loading="lazy" decoding="async">'
             '<span class="post-item-body">'
@@ -224,7 +224,7 @@ def build_index(posts, parts):
             '<span class="post-item-desc">%s</span>'
             "</span></a></li>"
             % (
-                p["slug"], p["slug"], p["slug"], p.get("cover", "cover.jpg"), p["date"], p["date"].replace("-", "."),
+                p["slug"], p["axis"], p["slug"], p["slug"], p.get("cover", "cover.jpg"), p["date"], p["date"].replace("-", "."),
                 badge, html.escape(p["title"]), html.escape(p["description"]),
             )
         )
@@ -242,7 +242,15 @@ def build_index(posts, parts):
         seen_axes.add(axis)
         topic_links.append('<a href="#post-%s">%s</a>' % (html.escape(p["slug"]), html.escape(AXIS_LABEL.get(axis, axis))))
     topic_nav = '<nav class="blog-topics" aria-label="ブログのテーマ"><span>テーマから読む</span>%s</nav>' % "".join(topic_links) if topic_links else ""
-    body = '%s<ul class="post-list">%s</ul><p class="blog-feed-link"><a href="/blog/feed.xml">新着記事をAtomフィードで受け取る</a></p>' % (topic_nav, "".join(items)) if items else '<p class="lead">記事はまだありません。</p>'
+    options = ['<option value="">すべてのテーマ（%d件）</option>' % len(posts)]
+    for axis, label in AXIS_LABEL.items():
+        count = sum(p["axis"] == axis for p in posts)
+        if count:
+            options.append('<option value="%s">%s（%d件）</option>' % (axis, html.escape(label), count))
+    filters = ('<div class="blog-filter" hidden><label for="blog-theme">テーマで絞り込む</label>'
+               '<select id="blog-theme" aria-controls="blog-post-list">%s</select>'
+               '<p id="blog-filter-status" role="status" aria-live="polite">%d件の記事を表示</p></div>') % ("".join(options), len(posts))
+    body = '%s%s<ul class="post-list" id="blog-post-list">%s</ul><p class="blog-feed-link"><a href="/blog/feed.xml">新着記事をAtomフィードで受け取る</a></p>' % (filters, topic_nav, "".join(items)) if items else '<p class="lead">記事はまだありません。</p>'
 
     graph = [
         {
@@ -289,6 +297,8 @@ def build_index(posts, parts):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 {part_markup("head-css", parts["head-css"])}
 <link rel="stylesheet" href="{CSS_HREF}">
+<link rel="stylesheet" href="/assets/blog-filter.css?v=20261022">
+<script defer src="/assets/blog-filter.js?v=20261022"></script>
 </head><body>
 {part_markup("header", parts["header"])}
 {part_markup("disclaimer", parts["disclaimer"])}
@@ -436,6 +446,15 @@ def main():
         blog_navigation.update_home(ROOT, posts, AXIS_LABEL)
         with open(out, "w", encoding="utf-8", newline="") as f:
             f.write(html_out)
+        # Keep article search synchronized whenever the ledger is published.
+        search_items = [
+            {"href": "/blog/%s/" % p["slug"], "kind": "blog", "icon": "📝",
+             "title": p["title"], "category": AXIS_LABEL[p["axis"]],
+             "synonyms": [], "lead": p["description"]}
+            for p in sorted(posts, key=lambda p: (p["date"], p["slug"]), reverse=True)
+        ]
+        with open(os.path.join(BLOG_DIR, "search-index.json"), "w", encoding="utf-8", newline="") as f:
+            json.dump(search_items, f, ensure_ascii=False, separators=(",", ":"))
         with open(FEED, "w", encoding="utf-8", newline="") as f:
             f.write(build_feed(posts))
         feed_note = "更新"
