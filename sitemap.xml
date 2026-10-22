@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://iwata.enshu-lifehack.com/life/family-grow/single-parent-support/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://iwata.enshu-lifehack.com/life/family-grow/developmental-support/</loc>
@@ -278,7 +278,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261022-iwata-single-parent-cafe/</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261022-iwata-single-parent-cafe/cover.jpg</image:loc><image:title>磐田市ひとり親家庭おしゃべりカフェ｜託児と申込準備</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261021-iwata-cultural-festival/</loc><lastmod>2026-10-21</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261021-iwata-cultural-festival/cover.jpg</image:loc><image:title>いわた文化財フェスティバル2026とは</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261020-iwata-inheritance-consultation-comparison/</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261020-iwata-inheritance-consultation-comparison/cover.jpg</image:loc><image:title>磐田市の相続相談｜司法書士と弁護士を比較</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261019-iwata-hatachi-no-postcard/</loc><lastmod>2026-10-19</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261019-iwata-hatachi-no-postcard/cover.jpg</image:loc><image:title>磐田市の二十歳の集い2027｜案内はがきは届く？</image:title></image:image></url>

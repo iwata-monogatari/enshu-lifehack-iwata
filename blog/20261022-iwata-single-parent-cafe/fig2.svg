@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">託児を希望する子どもの条件を照合</title><desc id="desc">子どもごとに6か月以上の未就学児か確認し、希望人数が1家族2名までか照合。対象外のきょうだいの同伴や不明点は市へ確認。条件に合っても予約確定ではない。</desc>
+<rect width="900" height="660" rx="24" fill="#f5f3ec"/>
+<g font-family="Meiryo, sans-serif" fill="#183e50">
+<text x="45" y="60" font-size="29" font-weight="bold">託児は「年齢」と「人数」を確認</text>
+<text x="45" y="100" font-size="20">子ども一人ずつのメモから、申込準備を始める</text>
+<rect x="45" y="133" width="810" height="98" rx="16" fill="white"/>
+<circle cx="92" cy="181" r="25" fill="#0074ae"/><text x="92" y="190" text-anchor="middle" fill="white" font-size="25">1</text>
+<text x="138" y="174" font-size="25" font-weight="bold">6か月以上の未就学児ですか？</text>
+<text x="138" y="210" font-size="20">年齢だけでなく、就学状況も確認</text>
+<path d="M450 240V262M438 252L450 264 462 252" fill="none" stroke="#537383" stroke-width="4"/>
+<rect x="45" y="276" width="810" height="98" rx="16" fill="white"/>
+<circle cx="92" cy="324" r="25" fill="#0074ae"/><text x="92" y="333" text-anchor="middle" fill="white" font-size="25">2</text>
+<text x="138" y="317" font-size="25" font-weight="bold">託児希望は1家族2名までですか？</text>
+<text x="138" y="353" font-size="20">きょうだいがいる場合も、一人ずつ照合</text>
+<rect x="45" y="405" width="393" height="155" rx="16" fill="#deedf1"/>
+<rect x="459" y="405" width="396" height="155" rx="16" fill="#f0e4d3"/>
+<text x="67" y="444" font-size="24" font-weight="bold">条件に合う場合</text>
+<text x="67" y="484" font-size="20">公式フォームの案内へ進む</text>
+<text x="67" y="522" font-size="20">予約確定とは限りません</text>
+<text x="481" y="444" font-size="24" font-weight="bold">対象外・分からない場合</text>
+<text x="481" y="484" font-size="20">同伴の可否などを市へ確認</text>
+<text x="481" y="522" font-size="20">例外があるとは推測しない</text>
+<text x="45" y="603" font-size="21">問い合わせ：こども未来課 給付グループ 0538-37-4896</text>
+<text x="45" y="637" font-size="16">出典：磐田市イベント案内（2026年10月22日確認）</text>
+</g></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">申込期限と開催日は別々に記録</title><desc id="desc">2026年11月20日金曜が申込期限。11月28日土曜14時から16時が開催。iプラザ2階健康づくり室。定員到達時は申込不可。</desc>
+<rect width="900" height="600" rx="24" fill="#eef5f7"/>
+<g font-family="Meiryo, sans-serif" fill="#183e50">
+<text x="48" y="65" font-size="29" font-weight="bold">二つの日付を、予定表へ</text>
+<text x="48" y="103" font-size="20">磐田市ひとり親家庭おしゃべりカフェ · 2026年</text>
+<rect x="48" y="145" width="355" height="270" rx="18" fill="white"/>
+<rect x="497" y="145" width="355" height="270" rx="18" fill="white"/>
+<path d="M48 175Q48 145 78 145H373Q403 145 403 175V214H48Z" fill="#986231"/>
+<path d="M497 175Q497 145 527 145H822Q852 145 852 175V214H497Z" fill="#0074ae"/>
+<text x="225" y="190" text-anchor="middle" fill="white" font-size="25">申込期限</text>
+<text x="674" y="190" text-anchor="middle" fill="white" font-size="25">開催日</text>
+<text x="225" y="281" text-anchor="middle" font-size="49" font-weight="bold">11/20</text>
+<text x="225" y="322" text-anchor="middle" font-size="24">金曜日</text>
+<text x="225" y="374" text-anchor="middle" font-size="20">公式ページからフォームへ</text>
+<text x="674" y="281" text-anchor="middle" font-size="49" font-weight="bold">11/28</text>
+<text x="674" y="322" text-anchor="middle" font-size="24">土曜日 · 14:00–16:00</text>
+<text x="674" y="374" text-anchor="middle" font-size="20">iプラザ2階 健康づくり室</text>
+<path d="M422 280H475M461 267L475 280 461 293" fill="none" stroke="#537383" stroke-width="4"/>
+<rect x="48" y="441" width="804" height="106" rx="14" fill="#dbeaf0"/>
+<text x="72" y="478" font-size="23" font-weight="bold">締切前でも、定員に達すると申込不可</text>
+<text x="72" y="517" font-size="21">申込前に、対象・託児条件と受付状況を確認。</text>
+<text x="48" y="578" font-size="16">出典：磐田市イベント案内（2026年10月22日確認）</text>
+</g></svg>

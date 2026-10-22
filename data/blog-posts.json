@@ -2068,6 +2068,26 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/event/moyooshi_matsuri/1016833.html",
       "cover_alt": "いわた文化財フェスティバル2026とはの記事表紙",
       "related_life": []
+    },
+    {
+      "slug": "20261022-iwata-single-parent-cafe",
+      "date": "2026-10-22",
+      "modified": "2026-10-22",
+      "axis": "thu",
+      "title": "磐田市ひとり親家庭おしゃべりカフェ｜託児と申込準備",
+      "description": "磐田市ひとり親家庭おしゃべりカフェは11月28日開催、申込期限は11月20日です。対象は市内在住のひとり親家庭の母親。託児の年齢・人数条件を照合し、仕事と育児の予定を組む前に確認することを整理します。",
+      "query": "磐田市 ひとり親家庭おしゃべりカフェ 申込み",
+      "intent": "do",
+      "home_description": "託児の年齢・人数条件と、申込み前の予定確認を整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kosodate_kyouiku/kosodate_hojo_josei_yuushi/hitorioya_shien/1015667.html",
+      "cover_alt": "磐田市ひとり親家庭おしゃべりカフェ｜託児と申込準備の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/family-grow/single-parent-support/",
+          "label": "ひとり親家庭の支援"
+        }
+      ]
     }
   ]
 }
