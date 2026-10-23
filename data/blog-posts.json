@@ -517,7 +517,7 @@
     {
       "slug": "20260925-iwata-walking-map-weekend",
       "date": "2026-09-25",
-      "modified": "2026-09-25",
+      "modified": "2026-10-23",
       "axis": "fri",
       "title": "磐田市ウォーキングマップ｜週末のコース選び",
       "description": "磐田市ウォーキングマップは、近所のコースを一つ開くところから。全10コースの探し方と、移動・休憩を含めた週末の時間配分、体力や子どもの様子に合わせた選び方を整理します。9月26日からの健幸いわたWEEKをきっかけに、無理なく帰れる道を考えます。",
@@ -2086,6 +2086,26 @@
         {
           "href": "/life/family-grow/single-parent-support/",
           "label": "ひとり親家庭の支援"
+        }
+      ]
+    },
+    {
+      "slug": "20261023-shishigahana-autumn",
+      "date": "2026-10-23",
+      "modified": "2026-10-23",
+      "axis": "fri",
+      "title": "獅子ヶ鼻公園の紅葉｜磐田・豊岡の秋を訪ねる",
+      "description": "獅子ヶ鼻公園の紅葉は、磐田市の花ごよみでは11月下旬～12月上旬が目安です。豊岡地区の所在地、駐車場、駅やICからの移動時間を公式情報で整理。現在の色づきと季節案内を分け、家族の外出準備に使える読み方を紹介します。",
+      "query": "獅子ヶ鼻公園 紅葉",
+      "intent": "local",
+      "home_description": "紅葉の季節案内と、豊岡への移動・設備の読み方を整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/kankou/1002006.html",
+      "cover_alt": "獅子ヶ鼻公園の紅葉｜磐田・豊岡の秋を訪ねるの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/find-parks/",
+          "label": "近所の公園を探す"
         }
       ]
     }
