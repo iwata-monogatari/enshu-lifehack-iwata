@@ -247,9 +247,15 @@ def build_index(posts, parts):
         count = sum(p["axis"] == axis for p in posts)
         if count:
             options.append('<option value="%s">%s（%d件）</option>' % (axis, html.escape(label), count))
-    filters = ('<div class="blog-filter" hidden><label for="blog-theme">テーマで絞り込む</label>'
+    filters = ('<div class="blog-filter" hidden><form class="blog-keyword-search" role="search">'
+               '<label for="blog-query">記事をキーワードで探す</label>'
+               '<div class="blog-query-row"><input id="blog-query" type="search" name="q" placeholder="例：相続、証明書、ひとり親" aria-controls="blog-post-list">'
+               '<button type="submit">記事を探す</button></div></form>'
+               '<label for="blog-theme">テーマで絞り込む</label>'
                '<select id="blog-theme" aria-controls="blog-post-list">%s</select>'
-               '<p id="blog-filter-status" role="status" aria-live="polite">%d件の記事を表示</p></div>') % ("".join(options), len(posts))
+               '<p id="blog-filter-status" role="status" aria-live="polite">%d件の記事を表示</p>'
+               '<p id="blog-no-results" hidden>一致する記事がありません。言葉を短くするか、テーマの絞り込みを解除してください。</p>'
+               '<button id="blog-clear" type="button" hidden>絞り込みを解除</button></div>') % ("".join(options), len(posts))
     body = '%s%s<ul class="post-list" id="blog-post-list">%s</ul><p class="blog-feed-link"><a href="/blog/feed.xml">新着記事をAtomフィードで受け取る</a></p>' % (filters, topic_nav, "".join(items)) if items else '<p class="lead">記事はまだありません。</p>'
 
     graph = [
@@ -297,8 +303,8 @@ def build_index(posts, parts):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 {part_markup("head-css", parts["head-css"])}
 <link rel="stylesheet" href="{CSS_HREF}">
-<link rel="stylesheet" href="/assets/blog-filter.css?v=20261022">
-<script defer src="/assets/blog-filter.js?v=20261022"></script>
+<link rel="stylesheet" href="/assets/blog-filter.css?v=20261023">
+<script type="module" src="/assets/blog-filter.js?v=20261023"></script>
 </head><body>
 {part_markup("header", parts["header"])}
 {part_markup("disclaimer", parts["disclaimer"])}

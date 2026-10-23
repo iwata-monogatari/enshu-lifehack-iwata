@@ -1,4 +1,5 @@
 import { searchSite } from '/assets/site-search.mjs';
+import { searchBlogArticles } from '/assets/blog-search.mjs';
 
 let indexPromise = null;
 function loadIndex() {
@@ -125,7 +126,10 @@ async function runSearch(query) {
   trackSearch(value);
   logSearchQuery(value, count);
   const safeQuery = escapeHtml(value);
-  resultsEl.innerHTML = count ? `<h2>「${safeQuery}」の候補</h2>` + renderHitList('手続き・相談ガイド', matched.guides) + renderHitList('ブログ記事', matched.articles) : renderNoHits(safeQuery);
+  const articleCount = searchBlogArticles(items.filter(item => item.kind === 'blog'), value).length;
+  const moreArticles = matched.articles.length && articleCount > matched.articles.length
+    ? `<p><a class="search-hit" href="/blog/?q=${encodeURIComponent(value)}">ブログ記事の続きを見る（全${articleCount}件）<span aria-hidden="true"> →</span></a></p>` : '';
+  resultsEl.innerHTML = count ? `<h2>「${safeQuery}」の候補</h2>` + renderHitList('手続き・相談ガイド', matched.guides) + renderHitList('ブログ記事', matched.articles) + moreArticles : renderNoHits(safeQuery);
 }
 
 window.iwataSiteSearch = function iwataSiteSearch(event) {
