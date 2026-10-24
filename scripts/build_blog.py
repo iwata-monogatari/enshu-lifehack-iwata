@@ -213,6 +213,7 @@ def build_index(posts, parts):
     for p in sorted_posts:
         axis = AXIS_LABEL.get(p.get("axis"), "")
         badge = '<span class="post-axis">%s</span>' % html.escape(axis) if axis else ""
+        date_notice = ('<span class="post-item-date">%s</span>' % html.escape(p["event_date_notice"])) if p.get("event_date_notice") else ""
         items.append(
             '<li class="post-item" id="post-%s" data-axis="%s">'
             '<a class="post-item-link" href="/blog/%s/">'
@@ -220,12 +221,13 @@ def build_index(posts, parts):
             '<span class="post-item-body">'
             '<span class="post-item-date"><time datetime="%s">%s</time></span>'
             "%s"
+            "%s"
             '<span class="post-item-title">%s</span>'
             '<span class="post-item-desc">%s</span>'
             "</span></a></li>"
             % (
                 p["slug"], p["axis"], p["slug"], p["slug"], p.get("cover", "cover.jpg"), p["date"], p["date"].replace("-", "."),
-                badge, html.escape(p["title"]), html.escape(p["description"]),
+                badge, date_notice, html.escape(p["title"]), html.escape(p["description"]),
             )
         )
 
