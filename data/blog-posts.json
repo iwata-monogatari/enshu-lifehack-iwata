@@ -2108,6 +2108,21 @@
           "label": "近所の公園を探す"
         }
       ]
+    },
+    {
+      "slug": "20261024-iwata-game-sports-comparison",
+      "date": "2026-10-24",
+      "modified": "2026-10-24",
+      "axis": "sat",
+      "title": "磐田市テレビゲームスポーツ｜体験会とサポーターの違い",
+      "description": "磐田市テレビゲームスポーツの体験会と交流サポーターを、役割・予定・暮らしの負担から比較。11月20日の養成講座は開催予定で、受付開始とは別です。初心者が楽しむ入口と支える入口を分け、今日は希望する関わり方を一つ考えます。",
+      "query": "磐田市 テレビゲームスポーツ 体験会 サポーター 違い",
+      "intent": "compare",
+      "home_description": "楽しむ側と支える側を比較。11月の講座予定と受付状況を分けて確認します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1015447/1015450.html / https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1015447/1015448.html (2026-10-24)",
+      "cover_alt": "磐田市テレビゲームスポーツ｜体験会とサポーターの違いの記事表紙",
+      "related_life": ""
     }
   ]
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" data-illustration="iwata-editorial" aria-labelledby="title desc"><title id="title">体験会と交流サポーターの役割比較</title><desc id="desc">体験会は遊びと交流を試す場、サポーターは開催や操作説明を支える役割。</desc><rect width="900" height="620" rx="24" fill="#eef5f7"/><g font-family="Meiryo,sans-serif" fill="#173d50"><text x="48" y="64" font-size="30" font-weight="bold">楽しむ入口と、支える入口</text>
+<rect x="36" y="100" width="400" height="450" rx="20" fill="white"/><rect x="464" y="100" width="400" height="450" rx="20" fill="white"/>
+<text x="66" y="152" font-size="28" font-weight="bold">体験会</text><text x="494" y="152" font-size="28" font-weight="bold">交流サポーター</text>
+<rect x="185" y="195" width="196" height="120" rx="10" fill="#173d50"/><rect x="196" y="206" width="174" height="96" fill="#b7dce7"/><circle cx="286" cy="251" r="22" fill="#e8a44e"/><path d="M250 315h65m-32 0v22" stroke="#173d50" stroke-width="9"/>
+<circle cx="112" cy="242" r="29" fill="#e8a44e"/><path d="M90 288h44l15 74H76z" fill="#237e9c"/><path d="M130 297l46-28" stroke="#237e9c" stroke-width="18" stroke-linecap="round"/><rect x="173" y="249" width="15" height="33" rx="5" fill="#173d50"/>
+<rect x="642" y="195" width="178" height="120" rx="10" fill="#173d50"/><rect x="653" y="206" width="156" height="96" fill="#b7dce7"/><path d="M675 255l30 23 50-46" fill="none" stroke="#237e9c" stroke-width="12"/>
+<circle cx="547" cy="242" r="29" fill="#e8a44e"/><path d="M525 288h44l15 74h-73z" fill="#477565"/><path d="M567 297l62-47" stroke="#477565" stroke-width="18" stroke-linecap="round"/>
+<text x="66" y="410" font-size="25">遊びを試す・人と交流する</text><text x="66" y="460" font-size="22">各回の内容と条件を確認</text>
+<text x="494" y="410" font-size="25">開催・補助・操作説明</text><text x="494" y="460" font-size="22">受講後の役割も確認</text>
+<text x="48" y="590" font-size="23">どちらも初心者に入口。役割は同じではありません。</text></g></svg>
