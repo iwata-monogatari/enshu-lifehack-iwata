@@ -35,6 +35,7 @@ COPY = {
     'sell-rent-keep': ('実家を売る・貸す・残す。まだ決まっていない方へ', '家の価格の目安、管理の負担、確認すべき課題を実家カルテで整理します。ご家族で判断するための材料としてご利用ください。', '実家の選択肢とカルテの見本を見る'),
 }
 CURATED_RELATED = {
+    '20261025-iwata-fire-alarm-check': ['20260922-iwata-seismic-breaker-comparison', '20260906-iwata-disaster-drill-family-check'],
     # From clearing the house to managing it, then deciding its future.
     '20260828-bulky-garbage-estate-cleanout': ['20261013-iwata-akiya-mimawari', '20260829-akiya-bank-vs-okoshi-project'],
     '20260918-iwata-oversized-trash-guide': ['20260828-bulky-garbage-estate-cleanout', '20261013-iwata-akiya-mimawari'],

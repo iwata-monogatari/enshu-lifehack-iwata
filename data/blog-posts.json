@@ -2124,6 +2124,26 @@
       "primary_source": "https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1015447/1015450.html / https://www.city.iwata.shizuoka.jp/kenkou_fukushi/koureisha_fukushi/shien/1015447/1015448.html (2026-10-24)",
       "cover_alt": "磐田市テレビゲームスポーツ｜体験会とサポーターの違いの記事表紙",
       "related_life": ""
+    },
+    {
+      "slug": "20261025-iwata-fire-alarm-check",
+      "date": "2026-10-25",
+      "modified": "2026-10-25",
+      "axis": "sun",
+      "title": "磐田市の住宅用火災警報器点検｜秋の休日に音を確認",
+      "description": "磐田市の住宅用火災警報器は、機種の説明書に従いボタンかひもで作動を確認します。秋の火災予防運動を前に、休日の点検手順、反応がない場合の確認先、家族への記録を整理。高い所で無理をせず、今日できる一台の確認から始めます。",
+      "query": "磐田市 住宅用火災警報器 点検",
+      "intent": "do",
+      "home_description": "秋の休日に作動確認。反応がないときの確認先と家族への記録を整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/1013969/kaji_sonae/1001166.html / https://www.city.iwata.shizuoka.jp/bousai_anzen/bouhan/1014477.html / https://www.pref.kanagawa.jp/docs/kd8/cnt/f100187/documents/autumn.html (2026-10-25)",
+      "cover_alt": "磐田市の住宅用火災警報器点検｜秋の休日に音を確認の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/emergency/fire-ambulance/",
+          "label": "消防・救急の確認先"
+        }
+      ]
     }
   ]
 }

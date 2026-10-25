@@ -15,7 +15,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/earthquake/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/road-river-info/</loc></url>
@@ -278,7 +278,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/cover.jpg</image:loc><image:title>磐田市の住宅用火災警報器点検｜秋の休日に音を確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261024-iwata-game-sports-comparison/</loc><lastmod>2026-10-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261024-iwata-game-sports-comparison/cover.jpg</image:loc><image:title>磐田市テレビゲームスポーツ｜体験会とサポーターの違い</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261023-shishigahana-autumn/</loc><lastmod>2026-10-23</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261023-shishigahana-autumn/cover.jpg</image:loc><image:title>獅子ヶ鼻公園の紅葉｜磐田・豊岡の秋を訪ねる</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261022-iwata-single-parent-cafe/</loc><lastmod>2026-10-22</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261022-iwata-single-parent-cafe/cover.jpg</image:loc><image:title>磐田市ひとり親家庭おしゃべりカフェ｜託児と申込準備</image:title></image:image></url>
