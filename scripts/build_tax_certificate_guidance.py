@@ -27,7 +27,9 @@ def render(data):
              '#tax-certificate-guidance th,#tax-certificate-guidance td{border:1px solid #cbd5dc;padding:12px;text-align:left;vertical-align:top;line-height:1.8}'
              '#tax-certificate-guidance thead{background:#e8f2f5}#tax-certificate-guidance th[scope=row]{width:16%}'
              '#tax-certificate-guidance .tax-sources a{margin:0;min-height:44px;display:inline-flex;align-items:center}'
-             '#tax-certificate-guidance .tax-sources li{margin:6px 0}</style>')
+             '#tax-certificate-guidance .tax-sources li{margin:6px 0}'
+             '@media(max-width:720px){body:not(.hub) .hero-visual{flex-direction:column;align-items:stretch}}'
+             '</style>')
     steps = ''.join('<li>%s</li>' % esc(s) for s in data['steps'])
     rows = ''.join('<tr><th scope="row">%s</th><td>%s</td><td>%s</td></tr>' %
                    (esc(m['name']), esc(m['conditions']), esc(m['next'])) for m in data['methods'])
