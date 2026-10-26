@@ -133,5 +133,5 @@ JavaScriptが無効な場合は全記事と従来のテーマ別ジャンプリ�
 ### 税の証明書の限定生成
 
 年度・住所・取得方法の説明は `data/tax-certificate-guidance.json`、FAQと冒頭の取得方法は `data/categories.json` の対象項目で管理します。
-`python scripts/build_tax_certificate_guidance.py` で対象HTMLの限定ブロック・FAQ本文/JSON-LD・リードと概要を同期し、`--check` で一致を検査できます。
+`python scripts/build_tax_certificate_guidance.py` で対象HTMLの限定ブロック・冒頭のページ内リンク・FAQ本文/JSON-LD・リードと概要を同期し、`--check` で一致を検査できます。
 内容更新後は `node scripts/build-search-index.mjs` を実行し、変更時のsitemap・改善履歴も確認します。旧snapshot・D1を再取得する全サイト生成は不要です。

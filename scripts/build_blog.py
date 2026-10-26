@@ -322,7 +322,7 @@ def build_index(posts, parts):
 
 def build_feed(posts):
     sorted_posts = sorted(posts, key=lambda x: (x["date"], x["slug"]), reverse=True)
-    updated = (sorted_posts[0].get("modified", sorted_posts[0]["date"]) if sorted_posts else "2026-08-28") + "T00:00:00+09:00"
+    updated = max((p.get("modified", p["date"]) for p in sorted_posts), default="2026-08-28") + "T00:00:00+09:00"
     entries = []
     for p in sorted_posts:
         url = "%s/blog/%s/" % (SITE, p["slug"])

@@ -28,6 +28,9 @@ def render(data):
              '#tax-certificate-guidance thead{background:#e8f2f5}#tax-certificate-guidance th[scope=row]{width:16%}'
              '#tax-certificate-guidance .tax-sources a{margin:0;min-height:44px;display:inline-flex;align-items:center}'
              '#tax-certificate-guidance .tax-sources li{margin:6px 0}'
+             'body:not(.hub) .tax-section-nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}'
+             'body:not(.hub) .tax-section-nav a{display:flex;align-items:center;min-height:44px;padding:10px 12px;line-height:1.6;border:1px solid #cfe4f1;border-radius:8px;background:#f6fafc}'
+             '#tax-certificate-guidance,#tax-methods-heading,#tax-faq{scroll-margin-top:16px}'
              '@media(max-width:720px){body:not(.hub) .hero-visual{flex-direction:column;align-items:stretch}}'
              '</style>')
     steps = ''.join('<li>%s</li>' % esc(s) for s in data['steps'])
@@ -38,7 +41,7 @@ def render(data):
     return (START + style + '<section id="tax-certificate-guidance" aria-labelledby="tax-certificate-heading">'
             '<h2 class="sec" id="tax-certificate-heading">%s</h2><p>年度・取得方法の確認日：<time datetime="%s">%s</time></p>' %
             (esc(data['heading']), data['checked'], data['checked'].replace('-', '/')) +
-            '<h3>%s</h3><ol>%s</ol><h3>取得方法の選択表</h3><p>表は横にスクロールできます。</p>' % (esc(data['example_heading']), steps) +
+            '<h3>%s</h3><ol>%s</ol><h3 id="tax-methods-heading">取得方法の選択表</h3><p>表は横にスクロールできます。</p>' % (esc(data['example_heading']), steps) +
             '<div class="tax-table-scroll" tabindex="0" role="region" aria-label="税証明の取得方法の比較表">'
             '<table><caption>所得・課税証明の取得方法と条件</caption><thead><tr><th scope="col">方法</th><th scope="col">年度・住所</th>'
             '<th scope="col">本人・代理と次の確認</th></tr></thead><tbody>%s</tbody></table></div>' % rows +
@@ -54,15 +57,20 @@ def transform(src, data, item):
         old = '<div class="note">マイナンバーカードをお持ちの場合、最新年度の所得・課税（非課税）証明書はコンビニで取得可能です。</div>'
         assert src.count(old) == 1, 'Tax guidance insertion point missing'
         src = src.replace(old, block, 1)
-    src, n = re.subn(r'<p class="lead">.*?</p>', '<p class="lead">%s</p>' % esc(data['lead']), src, count=1, flags=re.S)
+    src = re.sub(r'<!-- TAX-NAV:START -->.*?<!-- TAX-NAV:END -->', '', src, flags=re.S)
+    nav = ('<!-- TAX-NAV:START --><nav class="tax-section-nav" aria-label="税の証明書ページ内の案内">'
+           '<a href="#tax-certificate-guidance">年度・住所を確認</a>'
+           '<a href="#tax-methods-heading">取得方法を比較</a>'
+           '<a href="#tax-faq">よくある質問</a></nav><!-- TAX-NAV:END -->')
+    src, n = re.subn(r'<p class="lead">.*?</p>', lambda _: '<p class="lead">%s</p>' % esc(data['lead']) + nav, src, count=1, flags=re.S)
     assert n == 1
     for attr in ['name="description"', 'property="og:description"', 'name="twitter:description"']:
         src, n = re.subn(r'(<meta '+re.escape(attr)+r' content=")[^"]*(">)', lambda m:m[1]+esc(data['lead'])+m[2], src, count=1)
         assert n == 1, attr
-    faq = '<h2 class="sec">不安を先につぶすQ&A</h2><div class="qa">' + ''.join(
+    faq = '<h2 class="sec" id="tax-faq">不安を先につぶすQ&A</h2><div class="qa">' + ''.join(
         '<details%s><summary>%s</summary><p>%s</p></details>' % (' open' if i == 0 else '', esc(f['q']), esc(f['a']))
         for i, f in enumerate(item['faq'])) + '</div>'
-    src, n = re.subn(r'<h2 class="sec">不安を先につぶすQ&A</h2><div class="qa">.*?</div>(?=<h2 class="sec">タイプ別)', lambda _:faq, src, count=1, flags=re.S)
+    src, n = re.subn(r'<h2 class="sec"(?: id="tax-faq")?>不安を先につぶすQ&A</h2><div class="qa">.*?</div>(?=<h2 class="sec">タイプ別)', lambda _:faq, src, count=1, flags=re.S)
     assert n == 1, 'FAQ display insertion point missing'
     ld = '<!-- FAQ-JSONLD:START --><script type="application/ld+json">'+build_jsonld(item['faq'])+'</script><!-- FAQ-JSONLD:END -->'
     src, n = re.subn(r'<!-- FAQ-JSONLD:START -->.*?<!-- FAQ-JSONLD:END -->', lambda _:ld, src, count=1, flags=re.S)
