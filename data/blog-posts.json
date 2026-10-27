@@ -1,4 +1,4 @@
-﻿{
+{
   "_note": "磐田ブログの記事台帳。記事の実体は blog/<slug>/index.html（手書き）。ここに1件足して python scripts/build_blog.py を実行すると /blog/ の一覧に載る。slug は YYYYMMDD-テーマ英語。",
   "_url_convention": "記事URLはディレクトリ方式 /blog/{slug}/ 。森町ライフハック・ATAWI FUDOSAN と同じ運用に揃えている。",
   "_axis": "曜日別テーマ軸: mon=手続き・制度 / tue=空き家・実家・相続 / wed=歴史・文化財 / thu=子育て・学び / fri=地区めぐり / sat=スポーツ・イベント / sun=移住・暮らし・データ",
@@ -2143,6 +2143,24 @@
         {
           "href": "/life/emergency/fire-ambulance/",
           "label": "消防・救急の確認先"
+        }
+      ]
+    },
+    {
+      "slug": "20261027-iwata-vacant-house-pipe-freezing",
+      "date": "2026-10-27",
+      "modified": "2026-10-27",
+      "axis": "tue",
+      "title": "磐田市の空き家の水道管凍結｜冬前の備え",
+      "description": "磐田市内の空き家を遠方から管理する家族へ。冬の寒波を前に、止水栓の位置と露出した水道管を確認する順番を、市の案内に沿って整理します。漏水や修理の相談先も紹介します。",
+      "home_description": "空き家の水道管を冬前に確認。止水栓の場所から家族で共有します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/jougesuidou/jousuidou/1006213.html (2026-10-27)",
+      "cover_alt": "磐田市の空き家の水道管凍結｜冬前の備えの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/housing/",
+          "label": "家・住まいの手続きと相談先"
         }
       ]
     }
