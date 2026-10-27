@@ -1,0 +1,30 @@
+{
+  "scheduled_date": "2026-10-26",
+  "created_on": "2026-10-27",
+  "run_id": "2241fa4da3664af49c58e2edafdf0332",
+  "query": "磐田市 里親制度とは",
+  "principles": [
+    5
+  ],
+  "experience": "なし。意見として明示。",
+  "sources": [
+    "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/ikuji_soudan/1006972.html",
+    "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/ikuji_soudan/1007933.html"
+  ],
+  "source_checked": "2026-10-27",
+  "backlink": "blog\\20260924-iwata-kosodate-center-registration\\index.html",
+  "failure_evidence": "Original completion event status=error, duration_ms=570, checkpoint_stage=null. No Oct 26 ledger entry or draft found.",
+  "root_cause": "Original log does not contain an exception; exact CLI failure cause cannot be determined from this file.",
+  "recovery": "Recreated the previously selected topic in a clean origin/main worktree; preserved original repository edits.",
+  "validation": {
+    "quality_articles": 103,
+    "quality_errors": 0,
+    "navigation_tests": 4,
+    "search_tests": 20,
+    "site_search": "pass",
+    "blog_search": "pass",
+    "canonical_pages": 270,
+    "editorial_chars": 5969,
+    "editorial_paragraphs": 39
+  }
+}

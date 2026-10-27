@@ -29,7 +29,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/inherited-house/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/pension-inheritance/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/property-tax-inheritance/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/child-allowance/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/child-vaccination/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/childbirth/</loc></url>
@@ -280,6 +280,7 @@
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261027-iwata-vacant-house-pipe-freezing/</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261027-iwata-vacant-house-pipe-freezing/cover.jpg</image:loc><image:title>磐田市の空き家の水道管凍結｜冬前の備え</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261026-iwata-foster-family-first-step/</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261026-iwata-foster-family-first-step/cover.jpg</image:loc><image:title>磐田市の里親制度とは｜10月に知る家庭の支え</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/cover.jpg</image:loc><image:title>磐田市の住宅用火災警報器点検｜秋の休日に音を確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261024-iwata-game-sports-comparison/</loc><lastmod>2026-10-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261024-iwata-game-sports-comparison/cover.jpg</image:loc><image:title>磐田市テレビゲームスポーツ｜体験会とサポーターの違い</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261023-shishigahana-autumn/</loc><lastmod>2026-10-23</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261023-shishigahana-autumn/cover.jpg</image:loc><image:title>獅子ヶ鼻公園の紅葉｜磐田・豊岡の秋を訪ねる</image:title></image:image></url>

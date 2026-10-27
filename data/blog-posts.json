@@ -2163,6 +2163,27 @@
           "label": "家・住まいの手続きと相談先"
         }
       ]
+    },
+    {
+      "slug": "20261026-iwata-foster-family-first-step",
+      "date": "2026-10-26",
+      "modified": "2026-10-27",
+      "axis": "mon",
+      "title": "磐田市の里親制度とは｜10月に知る家庭の支え",
+      "description": "磐田市の里親制度は、家庭で暮らすことが難しい子どもを家庭環境で養育する仕組みです。制度の入口と相談先、家族で確認する生活の条件、入学時給付の調べ方を整理。10月の里親月間をきっかけに、申請を急がず一つの質問を準備します。",
+      "query": "磐田市 里親制度とは",
+      "intent": "know",
+      "home_description": "里親制度の入口と相談先。家族で考える前に質問を一つ整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/ikuji_soudan/1006972.html / https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/ikuji_soudan/1007933.html (2026-10-27)",
+      "cover_alt": "磐田市の里親制度とは｜10月に知る家庭の支えの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/family-grow/",
+          "label": "子育て・教育の案内"
+        }
+      ],
+      "run_id": "2241fa4da3664af49c58e2edafdf0332"
     }
   ]
 }
