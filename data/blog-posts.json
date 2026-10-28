@@ -2200,6 +2200,27 @@
       "cover_alt": "旧赤松家記念館の秋展示｜磐田と掛川の家族史の記事表紙",
       "related_life": "",
       "run_id": "0f30a737d13c4146928746167d708408"
+    },
+    {
+      "slug": "20261028-iwata-virtual-tour",
+      "date": "2026-10-28",
+      "modified": "2026-10-28",
+      "axis": "wed",
+      "title": "バーチャルツアー・磐田｜旧見付学校で秋の文化財体験",
+      "description": "バーチャルツアー・磐田は2026年10月31日10時～正午、旧見付学校で開催予定。申込不要で、マインクラフトで再現した文化財を体験します。家族の予定に入れるため、開催枠と体験時間の違い、別企画との区別、公式確認先を整理します。",
+      "query": "バーチャルツアー 磐田",
+      "intent": "local",
+      "home_description": "10月31日午前、旧見付学校で申込不要のデジタル文化財体験。家族の予定を組む前に。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/002/024/dayori259.pdf / https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003509.html (2026-10-28)",
+      "cover_alt": "バーチャルツアー・磐田｜旧見付学校で秋の文化財体験の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "おでかけ・文化の案内"
+        }
+      ],
+      "run_id": "8a0b2a40fb6d43e4bb41f35668ba7df2"
     }
   ]
 }
