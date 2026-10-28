@@ -2184,6 +2184,22 @@
         }
       ],
       "run_id": "2241fa4da3664af49c58e2edafdf0332"
+    },
+    {
+      "slug": "20261028-akamatsu-autumn-exhibition",
+      "date": "2026-10-28",
+      "modified": "2026-10-28",
+      "axis": "wed",
+      "title": "旧赤松家記念館の秋展示｜磐田と掛川の家族史",
+      "description": "旧赤松家記念館・米蔵の秋展示は2026年10月1日～12月27日。掛川の山﨑家と赤松家を、赤松浪江の婚姻とその後からたどる展示です。無料の入館案内と休館日の読み方を整理し、外出を調整する家族が今日できる候補日の開館確認につなげます。",
+      "query": "旧赤松家記念館 秋 展示",
+      "intent": "local",
+      "home_description": "米蔵の秋展示から家族史に触れる。会期と休館条件を分け、無理のない候補日を考えます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/bunkazai/bunkazainitsuite/1015553.html / https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003506.html (2026-10-28)",
+      "cover_alt": "旧赤松家記念館の秋展示｜磐田と掛川の家族史の記事表紙",
+      "related_life": "",
+      "run_id": "0f30a737d13c4146928746167d708408"
     }
   ]
 }

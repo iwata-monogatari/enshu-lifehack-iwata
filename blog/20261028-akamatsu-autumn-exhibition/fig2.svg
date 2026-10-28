@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">会期と開館条件は、別々に読む</title><desc id="desc">展示会期は2026年10月1日から12月27日。通常開館は火曜から日曜9時から16時30分。月曜と祝日翌日の休館には例外がある。候補日を決めて市公式案内で確認する。</desc>
+<rect width="960" height="680" rx="24" fill="#f0f6f8"/>
+<g font-family="Meiryo, sans-serif" fill="#183e4b">
+<text x="50" y="65" font-size="32" font-weight="bold">会期と開館条件は、別々に読む</text>
+<text x="50" y="106" font-size="21">旧赤松家記念館・米蔵の秋展示</text>
+<rect x="50" y="140" width="860" height="142" rx="16" fill="#0074ae"/>
+<text x="80" y="183" font-size="23" fill="white">展示会期 2026年</text>
+<text x="80" y="245" font-size="42" font-weight="bold" fill="white">10月1日 ─── 12月27日</text>
+<rect x="50" y="306" width="860" height="206" rx="16" fill="white" stroke="#abc3cc" stroke-width="2"/>
+<text x="80" y="350" font-size="23">施設の通常開館</text>
+<text x="80" y="397" font-size="32" font-weight="bold">火〜日曜　9:00〜16:30</text>
+<text x="80" y="442" font-size="22">月曜・祝日翌日の休館には例外があります。</text>
+<text x="80" y="478" font-size="22">会期内でも、毎日入れるわけではありません。</text>
+<path d="M480 524v24m-10-10 10 10 10-10" fill="none" stroke="#0074ae" stroke-width="4"/>
+<rect x="50" y="561" width="860" height="59" rx="12" fill="#ddebdc"/>
+<text x="480" y="600" text-anchor="middle" font-size="26" font-weight="bold">今日の一歩：候補日の開館条件を市公式で確認</text>
+<text x="50" y="655" font-size="16" fill="#586b70">出典：磐田市 展示情報・旧赤松家記念館施設ガイド／2026年10月28日確認</text>
+</g></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" data-illustration="iwata-editorial" role="img" aria-labelledby="title desc">
+<title id="title">二つの家を、婚姻という入口から見る</title><desc id="desc">掛川松ヶ岡の山﨑家と磐田の赤松家。展示題名は赤松浪江の婚姻とその後を示す。系図ではない。会場は旧赤松家記念館・米蔵。</desc>
+<rect width="960" height="600" rx="24" fill="#f5f2e9"/>
+<g font-family="Meiryo, sans-serif" fill="#183e4b">
+<text x="50" y="66" font-size="30" font-weight="bold">二つの家を、婚姻という入口から見る</text>
+<text x="50" y="104" font-size="20" fill="#586b70">2026年 秋展示の題名から分かること</text>
+<rect x="50" y="145" width="360" height="170" rx="18" fill="#fff" stroke="#b58a55" stroke-width="2"/>
+<rect x="550" y="145" width="360" height="170" rx="18" fill="#fff" stroke="#0074ae" stroke-width="2"/>
+<path d="M410 230H550" stroke="#82928f" stroke-width="4" stroke-dasharray="8 7"/>
+<text x="230" y="202" text-anchor="middle" font-size="23">掛川松ヶ岡</text>
+<text x="230" y="264" text-anchor="middle" font-size="42" font-weight="bold">山﨑家</text>
+<text x="730" y="202" text-anchor="middle" font-size="23">磐田</text>
+<text x="730" y="264" text-anchor="middle" font-size="42" font-weight="bold">赤松家</text>
+<rect x="125" y="352" width="710" height="92" rx="14" fill="#e2edf0"/>
+<text x="480" y="390" text-anchor="middle" font-size="22">展示の入口</text>
+<text x="480" y="424" text-anchor="middle" font-size="28" font-weight="bold">9女・赤松浪江の婚姻とその後</text>
+<text x="50" y="492" font-size="23">会場：旧赤松家記念館・米蔵</text>
+<text x="50" y="536" font-size="19" fill="#586b70">系図ではありません。人物関係や経緯は現地の資料で確認します。</text>
+<text x="50" y="573" font-size="16" fill="#586b70">出典：磐田市「文化財課展示・イベント情報」／2026年10月28日確認</text>
+</g></svg>

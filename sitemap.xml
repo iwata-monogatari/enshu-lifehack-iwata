@@ -78,7 +78,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/elderly-transportation/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/find-nursing-home/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/long-term-care-insurance/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/cultural-facilities/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/find-parks/</loc><lastmod>2026-10-23</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/kids-playgrounds/</loc></url>
@@ -279,6 +279,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/cover.jpg</image:loc><image:title>旧赤松家記念館の秋展示｜磐田と掛川の家族史</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261027-iwata-vacant-house-pipe-freezing/</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261027-iwata-vacant-house-pipe-freezing/cover.jpg</image:loc><image:title>磐田市の空き家の水道管凍結｜冬前の備え</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261026-iwata-foster-family-first-step/</loc><lastmod>2026-10-27</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261026-iwata-foster-family-first-step/cover.jpg</image:loc><image:title>磐田市の里親制度とは｜10月に知る家庭の支え</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/</loc><lastmod>2026-10-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261025-iwata-fire-alarm-check/cover.jpg</image:loc><image:title>磐田市の住宅用火災警報器点検｜秋の休日に音を確認</image:title></image:image></url>
