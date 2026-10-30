@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc" data-illustration="iwata-editorial">
+<title id="title">申込状況に応じた確認</title><desc id="desc">申込済みの人は参加案内の集合と持ち物を確認。未申込の人は追加受付の有無を学校へ問い合わせる。</desc>
+<rect width="900" height="480" rx="24" fill="#f5f8fa"/><text x="50" y="65" font-size="32" fill="#174c60">準備は申込状況で分ける</text>
+<rect x="45" y="105" width="385" height="250" rx="18" fill="#dceee8"/><rect x="470" y="105" width="385" height="250" rx="18" fill="#f8e9d8"/>
+<text x="75" y="165" font-size="32" fill="#205849">申込済み</text><text x="75" y="235" font-size="25" fill="#253f48">受け取った案内で</text><text x="75" y="285" font-size="25" fill="#253f48">集合・持ち物を確認</text>
+<text x="500" y="165" font-size="32" fill="#855331">未申込</text><text x="500" y="235" font-size="25" fill="#253f48">追加受付の有無を</text><text x="500" y="285" font-size="25" fill="#253f48">旧見付学校に確認</text>
+<text x="50" y="420" font-size="25" fill="#384f53">旧見付学校：0538-32-4511</text></svg>

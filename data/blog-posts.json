@@ -2221,6 +2221,27 @@
         }
       ],
       "run_id": "8a0b2a40fb6d43e4bb41f35668ba7df2"
+    },
+    {
+      "slug": "20261030-mitsuke-kimono-walk",
+      "date": "2026-10-30",
+      "modified": "2026-10-30",
+      "axis": "fri",
+      "title": "旧見付学校の着物散策｜11月1日の予定を確認",
+      "description": "11月1日午前の着物散策は事前申込制で、申込締切は10月13日。追加受付は未確認です。申込状況ごとに旧見付学校へ確認したいことを整理します。",
+      "query": "旧見付学校 着物 散策 2026",
+      "intent": "local",
+      "home_description": "11月1日午前の着物散策は事前申込制で、申込締切は10月13日。追加受付は未確認です。申込状況ごとに旧見付学校へ確認したいことを整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/_res/projects/default_project/_page_/001/016/256/2026_schedule.pdf",
+      "cover_alt": "旧見付学校の着物散策の日程と受付確認を示す表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "おでかけ・文化の案内"
+        }
+      ],
+      "run_id": "45fe2bfcf8664479b1282bea9712eb09"
     }
   ]
 }
