@@ -2242,6 +2242,22 @@
         }
       ],
       "run_id": "45fe2bfcf8664479b1282bea9712eb09"
+    },
+    {
+      "slug": "20261031-iwata-molkky-entry",
+      "date": "2026-10-31",
+      "modified": "2026-10-31",
+      "axis": "sat",
+      "title": "磐田モルック大会の申込み｜3人の予定をそろえる",
+      "description": "磐田モルック大会は11月21日開催。市内在住・在勤・在学の小学3年生以上、3名以上で申し込みます。期限は11月9日18時、応募多数は抽選。家族や友人の予定調整、費用、会場、申込後の確認を整理し、今日は参加候補者の予定を聞く一歩につなげます。",
+      "query": "磐田モルック大会 申込み",
+      "intent": "do",
+      "home_description": "3名以上で申し込む11月の大会。学年と予定を照合し、抽選と参加確定を分けて準備します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/sports_machizukuri/1008986/1015938.html",
+      "cover_alt": "磐田モルック大会の申込み｜3人の予定をそろえるの記事表紙",
+      "related_life": [],
+      "run_id": "821882d5014746acbc5a2284fabd74a5"
     }
   ]
 }
