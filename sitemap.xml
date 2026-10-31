@@ -37,7 +37,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/marriage/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/adult-vaccination/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/dental-care/</loc></url>
@@ -95,7 +95,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/mynumber/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/public-transit/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/resident-registration/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/water-sewer/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/water-sewer/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/</loc><lastmod>2026-10-14</lastmod></url>
@@ -278,7 +278,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261030-mitsuke-kimono-walk/</loc><lastmod>2026-10-30</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261030-mitsuke-kimono-walk/cover.jpg</image:loc><image:title>旧見付学校の着物散策｜11月1日の予定を確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/cover.jpg</image:loc><image:title>旧赤松家記念館の秋展示｜磐田と掛川の家族史</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261028-iwata-virtual-tour/</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261028-iwata-virtual-tour/cover.jpg</image:loc><image:title>バーチャルツアー・磐田｜旧見付学校で秋の文化財体験</image:title></image:image></url>
@@ -341,7 +341,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260921-iwata-certificate-counter-convenience/</loc><lastmod>2026-10-30</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260921-iwata-certificate-counter-convenience/cover.jpg</image:loc><image:title>磐田市の証明書取得｜11月改定後の窓口とコンビニ比較</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260920-iwata-solar-subsidy-documents/</loc><lastmod>2026-09-20</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260920-iwata-solar-subsidy-documents/cover.jpg</image:loc><image:title>磐田市の太陽光補助金申請｜休日に揃える書類</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260920-autumn-traffic-safety/</loc><lastmod>2026-09-20</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260920-autumn-traffic-safety/cover.jpg</image:loc><image:title>磐田市の秋の交通安全運動2026｜9月21日から</image:title></image:image></url>
-  <url><loc>https://iwata.enshu-lifehack.com/blog/20260919-2-iwata-clean-center-saturday-dropoff/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260919-2-iwata-clean-center-saturday-dropoff/cover.svg</image:loc><image:title>磐田市クリーンセンターは土曜持込不可｜家庭ごみの受付日</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20260919-2-iwata-clean-center-saturday-dropoff/</loc><lastmod>2026-10-31</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260919-2-iwata-clean-center-saturday-dropoff/cover.svg</image:loc><image:title>磐田市クリーンセンターは土曜持込不可｜家庭ごみの受付日</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260919-kabutozuka-park-sports-guide/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260919-kabutozuka-park-sports-guide/cover.svg</image:loc><image:title>かぶと塚公園のスポーツ施設｜料金と利用前の確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260918-iwata-oversized-trash-guide/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260918-iwata-oversized-trash-guide/cover.svg</image:loc><image:title>磐田市の粗大ごみ｜戸別収集と持ち込みの料金・手順</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260917-iwata-nursery-application-preparation/</loc><lastmod>2026-10-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260917-iwata-nursery-application-preparation/cover.jpg</image:loc><image:title>磐田市の保育園申込み準備｜書類配布は9月18日</image:title></image:image></url>
