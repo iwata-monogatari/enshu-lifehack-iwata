@@ -16,7 +16,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/road-river-info/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/storm-heavy-rain/</loc><lastmod>2026-10-14</lastmod></url>
@@ -278,7 +278,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-01</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261031-iwata-molkky-entry/</loc><lastmod>2026-10-31</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261031-iwata-molkky-entry/cover.jpg</image:loc><image:title>磐田モルック大会の申込み｜3人の予定をそろえる</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261030-mitsuke-kimono-walk/</loc><lastmod>2026-10-30</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261030-mitsuke-kimono-walk/cover.jpg</image:loc><image:title>旧見付学校の着物散策｜11月1日の予定を確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261028-akamatsu-autumn-exhibition/cover.jpg</image:loc><image:title>旧赤松家記念館の秋展示｜磐田と掛川の家族史</image:title></image:image></url>
@@ -387,5 +387,6 @@
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/</loc><lastmod>2026-10-01</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260827-child-allowance-highschool/cover.jpg</image:loc><image:title>磐田市の児童手当、高校生年代まで月1万円。第3子以降は月3万円</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20260827-five-districts/</loc><lastmod>2026-09-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20260827-five-districts/cover.jpg</image:loc><image:title>磐田市は南北27キロある。市役所と四つの支所から、暮らしの距離を測る</image:title></image:image></url>
   <!-- BLOG:END -->
+<url><loc>https://iwata.enshu-lifehack.com/blog/20261101-iwata-hazard-map-housing-comparison/</loc><lastmod>2026-11-01</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261101-iwata-hazard-map-housing-comparison/cover.jpg</image:loc><image:title>磐田市ハザードマップ｜洪水と津波を住まい選びで比較</image:title></image:image></url>
 </urlset>
 

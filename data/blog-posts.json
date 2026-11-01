@@ -2258,6 +2258,27 @@
       "cover_alt": "磐田モルック大会の申込み｜3人の予定をそろえるの記事表紙",
       "related_life": [],
       "run_id": "821882d5014746acbc5a2284fabd74a5"
+    },
+    {
+      "slug": "20261101-iwata-hazard-map-housing-comparison",
+      "date": "2026-11-01",
+      "modified": "2026-11-01",
+      "axis": "sun",
+      "title": "磐田市ハザードマップ｜洪水と津波を住まい選びで比較",
+      "description": "磐田市の洪水と津波のハザードマップは、同じ住所でも別々に照合します。天竜川と太田川水系の資料の違い、津波の図の入口、凡例と確認日の残し方を整理。11月5日の津波防災の日を前に、候補住宅一つの比較メモを作り、家族の次の質問につなげます。",
+      "query": "磐田市 ハザードマップ 洪水 津波 違い",
+      "intent": "compare",
+      "home_description": "同じ住所を洪水と津波の図で比較。資料名・凡例・確認日をそろえ、家族の次の質問を整理します。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/ooame_sonae/1005987.html",
+      "cover_alt": "磐田市ハザードマップ｜洪水と津波を住まい選びで比較の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/emergency/hazard-maps/",
+          "label": "ハザードマップの公式情報を探す"
+        }
+      ],
+      "run_id": "18d387f56084489db400a006dcf68c09"
     }
   ]
 }
