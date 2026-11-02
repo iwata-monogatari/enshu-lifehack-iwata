@@ -3456,7 +3456,7 @@
           "conclusion": {
             "online": "指定避難所一覧表(地区別)をオンラインで確認可能",
             "konbini": null,
-            "counter": "最寄りの指定避難所へ直接避難",
+            "counter": "避難先は災害の種類に応じて確認。危険が迫るときは安全確保を最優先",
             "cost": null,
             "tel": null,
             "source": "https://www.city.iwata.shizuoka.jp/bousai_anzen/bousai/hinanjo/index.html"
@@ -3487,11 +3487,11 @@
               "a": "避難所の開設状況は災害時に市の防災情報などで知らされます。防災メールやSNSを登録しておくと受け取りやすく、迷うときは危機管理課へ。詳細は磐田市公式サイトで確認を。"
             }
           ],
-          "conclusion_status": "machine-verified",
+          "conclusion_status": "editor-reviewed",
           "online_status": "yes",
           "online_note": "指定避難所一覧表(地区別)をオンラインで確認可能",
           "time_estimate": "n/a",
-          "counter_info": "最寄りの指定避難所へ直接避難"
+          "counter_info": "避難先は災害の種類に応じて確認。危険が迫るときは安全確保を最優先"
         },
         {
           "id": "evacuation-hazard-map",
