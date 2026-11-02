@@ -170,7 +170,7 @@
     {
       "slug": "20261005-iwata-kokuho-pension-bank-comparison",
       "date": "2026-10-05",
-      "modified": "2026-10-14",
+      "modified": "2026-11-02",
       "axis": "mon",
       "title": "磐田市の国民健康保険税｜年金天引きと口座振替の違い",
       "description": "磐田市の国保税は年金天引きが年6回、普通徴収の口座振替が年8回または一括です。10月は本徴収月、2026年度第4期は11月2日、第5期は11月30日。回数と時期、残高確認の負担、変更手続きの条件を比べ、今日は通知書の徴収方法だけ確認します。",
@@ -2279,6 +2279,27 @@
         }
       ],
       "run_id": "18d387f56084489db400a006dcf68c09"
+    },
+    {
+      "slug": "20261102-iwata-nenkin-deduction-certificate",
+      "date": "2026-11-02",
+      "modified": "2026-11-02",
+      "axis": "mon",
+      "title": "磐田市の国民年金控除証明書｜年末調整前の準備",
+      "description": "国民年金の控除証明書は、納付時期と電子・郵送の受取方法で届く日が変わります。磐田市で家族分の保険料を払った方へ、2026年分の送付予定、書類を探す順番、勤務先に確認する内容を整理。今日は証明書の受取方法を一つ確かめます。",
+      "query": "磐田市 国民年金 控除証明書 年末調整",
+      "intent": "do",
+      "home_description": "電子か郵送かを先に確認。家族分の控除証明書を探す手間と提出前の段取りを整理します。",
+      "cta": "official",
+      "primary_source": "https://www.nenkin.go.jp/service/kokunen/hokenryo/koujo/R8koujo/soufu.html",
+      "cover_alt": "磐田市の国民年金控除証明書｜年末調整前の準備の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/troubles-consult/",
+          "label": "暮らしの相談先を探す"
+        }
+      ],
+      "run_id": "882f8c9faf1c413db91fa644fc49aed7"
     }
   ]
 }
