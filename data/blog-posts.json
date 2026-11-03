@@ -2318,6 +2318,27 @@
           "label": "固定資産税・都市計画税の案内"
         }
       ]
+    },
+    {
+      "slug": "20261103-iwata-end-of-life-note-letter",
+      "date": "2026-11-03",
+      "modified": "2026-11-03",
+      "axis": "tue",
+      "title": "磐田市の終活ノートとレター｜配布方法の違い",
+      "description": "磐田市の終活ノートは冊子配布を終了し、PDFを印刷して利用します。あんしんレターは市民相談センターと各地域包括支援センターで配布。入手方法と記入欄の違いを比べ、親と実家の情報を整理する家族の負担を減らす、今日の一歩を考えます。",
+      "query": "磐田市 終活 ノート レター 違い",
+      "intent": "compare",
+      "home_description": "ノートはPDF、レターは窓口配布も。家族が資料を手元に用意する方法を比べます。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/nayami_soudan/kurashi_soudan/1007805.html",
+      "cover_alt": "磐田市の終活ノートとレター｜配布方法の違いの記事表紙",
+      "related_life": [
+        {
+          "href": "/life/troubles-consult/",
+          "label": "暮らしの相談先を探す"
+        }
+      ],
+      "run_id": "e0deb946c58c4479bc1fe4f19c1de7fd"
     }
   ]
 }
