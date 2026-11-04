@@ -2339,6 +2339,27 @@
         }
       ],
       "run_id": "e0deb946c58c4479bc1fe4f19c1de7fd"
+    },
+    {
+      "slug": "20261104-fuhachimangu-sculptures",
+      "date": "2026-11-04",
+      "modified": "2026-11-04",
+      "axis": "wed",
+      "title": "府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点",
+      "description": "磐田市中泉の府八幡宮に伝わる神像4体、王の舞面、狛犬、獅子頭。市の資料にある写真と寸法から7点の内訳を読み、桐でできた舞面を親子で見つけます。",
+      "query": "府八幡宮所蔵彫刻群とは",
+      "intent": "know",
+      "home_description": "桐の舞面は縦22センチ。指定7点の内訳を市の写真でたどります。",
+      "cta": "official",
+      "primary_source": "https://www.city.iwata.shizuoka.jp/sports_midokoro/bunkazai/bunkazainitsuite/1002039.html",
+      "cover_alt": "府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点の記事表紙",
+      "related_life": [
+        {
+          "href": "/life/play-out/",
+          "label": "遊ぶ・使う・出かける"
+        }
+      ],
+      "run_id": "4ecc4fb27df649cda3a386e0cbfaffb2"
     }
   ]
 }
