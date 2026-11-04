@@ -12,7 +12,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/education/study-facilities/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/disaster-mail-line/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/earthquake/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/earthquake/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/emergency-medical/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/</loc><lastmod>2026-10-25</lastmod></url>
@@ -96,7 +96,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/public-transit/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/resident-registration/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/water-sewer/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/</loc><lastmod>2026-10-14</lastmod></url>
@@ -189,9 +189,12 @@
     <lastmod>2026-10-14</lastmod>
 
   </url>
-  <url>
-    <loc>https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/</loc>
-    <lastmod>2026-10-14</lastmod>
+  <url>
+
+    <loc>https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/</loc>
+
+    <lastmod>2026-11-05</lastmod>
+
   </url>
   <url>
 
@@ -386,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/cover.jpg</image:loc><image:title>磐田市の津波避難タワー｜避難できる高さはどこで分かる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/cover.jpg</image:loc><image:title>府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/cover.jpg</image:loc><image:title>磐田市の放課後児童クラブ｜月64時間未満でも申請できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/</loc><lastmod>2026-11-03</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/cover.jpg</image:loc><image:title>磐田市の空き家解体と固定資産税｜年末前の判断材料</image:title></image:image></url>
