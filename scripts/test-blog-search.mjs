@@ -23,5 +23,8 @@ for (const axis of ['mon','tue','wed','thu','fri','sat','sun']) {
 assert.equal(searchBlogArticles(items,'').length,posts.length);
 assert.ok(searchBlogArticles(items,'ひとり親','thu').some(p=>p.href==='/blog/20261022-iwata-single-parent-cafe/'));
 assert.equal(searchBlogArticles(items,'zxqvzzxxx').length,0);
+assert.equal(searchBlogArticles(items,'zzzz189xyz').length,0);
+assert.ok(searchBlogArticles(items,'189').some(item=>item.title.includes('189')));
+assert.equal(searchBlogArticles([{title:'識別子 ABC189X'}],'abc189x').length,1);
 assert.equal(searchBlogArticles(items,'<script>alert("x")</script>').length,0);
 console.log('PASS: full result continuation, previously omitted article, 7 themes, combined filters, empty/no-hit/special input');

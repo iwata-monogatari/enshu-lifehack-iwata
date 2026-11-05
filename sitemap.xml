@@ -100,7 +100,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/</loc><lastmod>2026-10-14</lastmod></url>
@@ -391,6 +391,7 @@
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/cover.jpg</image:loc><image:title>磐田市の津波避難タワー｜避難できる高さはどこで分かる？</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/cover.jpg</image:loc><image:title>磐田市の児童虐待相談｜確信がなくても189に電話できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/cover.jpg</image:loc><image:title>府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/cover.jpg</image:loc><image:title>磐田市の放課後児童クラブ｜月64時間未満でも申請できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/</loc><lastmod>2026-11-03</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/cover.jpg</image:loc><image:title>磐田市の空き家解体と固定資産税｜年末前の判断材料</image:title></image:image></url>

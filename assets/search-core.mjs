@@ -42,15 +42,17 @@ export function scoreItem(item, rawQuery) {
   const compact = normalizeQuery(rawQuery);
   if (!compact) return 0;
   const isShort = compact.length <= SHORT_QUERY_MAX;
+  // 混在する英数字の識別子は、途中の数字だけで無関係な候補を出さない。
+  const allowNgram = !(/^[a-z0-9]+$/i.test(rawQuery.trim()) && /[a-z]/i.test(compact) && /\d/.test(compact));
 
   let synonymScore = 0;
   for (const syn of item.synonyms || []) {
-    synonymScore = Math.max(synonymScore, fieldMatchScore(syn, compact, WEIGHTS.synonyms, true));
+    synonymScore = Math.max(synonymScore, fieldMatchScore(syn, compact, WEIGHTS.synonyms, allowNgram));
   }
-  const titleScore = fieldMatchScore(item.title, compact, WEIGHTS.title, true);
-  const categoryScore = fieldMatchScore(item.category, compact, WEIGHTS.category, isShort ? false : true);
+  const titleScore = fieldMatchScore(item.title, compact, WEIGHTS.title, allowNgram);
+  const categoryScore = fieldMatchScore(item.category, compact, WEIGHTS.category, allowNgram && !isShort);
   // 短語入力時は synonyms/title の完全一致・前方一致を最優先し、lead 由来の弱いN-gram一致は使わない
-  const leadScore = fieldMatchScore(item.lead, compact, WEIGHTS.lead, !isShort);
+  const leadScore = fieldMatchScore(item.lead, compact, WEIGHTS.lead, allowNgram && !isShort);
 
   return synonymScore + titleScore + categoryScore + leadScore;
 }
