@@ -96,7 +96,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/public-transit/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/resident-registration/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/water-sewer/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/animal-pet-consultation/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/</loc><lastmod>2026-10-14</lastmod></url>
@@ -193,7 +193,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/</loc>
 
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-06</lastmod>
 
   </url>
   <url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261106-iwata-ninomiya-statue-exhibition/</loc><lastmod>2026-11-06</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261106-iwata-ninomiya-statue-exhibition/cover.jpg</image:loc><image:title>磐田市の二宮金次郎像展｜16体から地区を知る</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/cover.jpg</image:loc><image:title>磐田市の津波避難タワー｜避難できる高さはどこで分かる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/cover.jpg</image:loc><image:title>磐田市の児童虐待相談｜確信がなくても189に電話できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/cover.jpg</image:loc><image:title>府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点</image:title></image:image></url>
