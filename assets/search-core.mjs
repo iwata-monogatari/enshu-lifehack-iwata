@@ -43,7 +43,7 @@ export function scoreItem(item, rawQuery) {
   if (!compact) return 0;
   const isShort = compact.length <= SHORT_QUERY_MAX;
   // 混在する英数字の識別子は、途中の数字だけで無関係な候補を出さない。
-  const allowNgram = !(/^[a-z0-9]+$/i.test(rawQuery.trim()) && /[a-z]/i.test(compact) && /\d/.test(compact));
+  const allowNgram = !(/^[a-z0-9_-]+$/i.test(rawQuery.trim()) && /[a-z]/i.test(compact) && /\d/.test(compact));
 
   let synonymScore = 0;
   for (const syn of item.synonyms || []) {
