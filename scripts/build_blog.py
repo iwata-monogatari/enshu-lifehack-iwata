@@ -457,7 +457,7 @@ def main():
         # Keep article search synchronized whenever the ledger is published.
         search_items = [
             {"href": "/blog/%s/" % p["slug"], "kind": "blog", "icon": "📝",
-             "title": p["title"], "category": AXIS_LABEL[p["axis"]],
+             "title": p["title"], "date": p["date"], "category": AXIS_LABEL[p["axis"]],
              "synonyms": [], "lead": p["description"]}
             for p in sorted(posts, key=lambda p: (p["date"], p["slug"]), reverse=True)
         ]
