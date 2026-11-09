@@ -2476,6 +2476,22 @@
       "primary_source": "磐田市公式1016921・1013007を2026-11-09確認",
       "cover_alt": "電子証明書更新後いつ使える？磐田市の目安の記事表紙",
       "related_life": []
+    },
+    {
+      "slug": "20261109-iwata-koseki-wide-area-issuance",
+      "date": "2026-11-09",
+      "axis": "mon",
+      "title": "本籍が遠くても磐田市役所で戸籍謄本が取れる｜広域交付の使い方",
+      "description": "本籍地が遠方でも、磐田市役所本庁の市民課で戸籍謄本・除籍謄本を請求できる広域交付。請求できる人と証明書の範囲、手数料、支所では受け付けない点や写真付き本人確認の注意を、2026年11月9日に市公式で確認して整理しました。",
+      "home_description": "本籍が遠くても戸籍謄本は本庁市民課で請求できます。支所では受け付けない点など、使う前の条件を整理。",
+      "cta": "official",
+      "primary_source": "磐田市公式1013202・1001302・1001300を2026-11-09確認",
+      "cover": "cover.svg",
+      "cover_alt": "本籍が遠くても磐田市役所で戸籍謄本が取れる｜広域交付の使い方の記事表紙",
+      "related_life": [
+        {"href": "/life/start-living/certificates/", "label": "各種証明書を取りたい"},
+        {"href": "/life/start-living/city-hall-branches/", "label": "市役所・支所・出張所の場所と受付時間"}
+      ]
     }
   ]
 }
