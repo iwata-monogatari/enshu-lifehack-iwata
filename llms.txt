@@ -203,3 +203,5 @@ https://iwata.enshu-lifehack.com/blog/20261020-iwata-inheritance-consultation-co
 - [磐田市の二宮金次郎像展｜16体から地区を知る](https://iwata.enshu-lifehack.com/blog/20261106-iwata-ninomiya-statue-exhibition/): 2026-11-06。小学校と旧小学校跡に残る像を写真で知る展示。
 
 - [磐田市図書館フェスティバル2026｜申込は必要？](https://iwata.enshu-lifehack.com/blog/20261108-iwata-library-festival-entry/): 2026-11-08。7企画の事前申込と、希望する日・回・個別条件の確認。
+
+- [電子証明書更新後いつ使える？磐田市の目安](https://iwata.enshu-lifehack.com/blog/20261109-iwata-electronic-certificate-wait/): 2026-11-09。期限内更新の利用再開目安と、期限経過後・スマホ側の追加確認を整理。
