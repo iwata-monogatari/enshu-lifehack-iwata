@@ -17,7 +17,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/evacuation-centers/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/fire-ambulance/</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/hazard-maps/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/emergency/pet-disaster-prevention/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/road-river-info/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/emergency/storm-heavy-rain/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/</loc></url>
@@ -319,7 +319,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/start-living/pets-lost-animals/</loc>
 
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-11-11</lastmod>
 
   </url>
   <url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/</loc><lastmod>2026-11-11</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/cover.svg</image:loc><image:title>磐田市の犬の登録と狂犬病予防注射｜登録手数料3,000円・済票550円と届出の段取り</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261110-iwata-elderly-flu-vaccine/</loc><lastmod>2026-11-10</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261110-iwata-elderly-flu-vaccine/cover.svg</image:loc><image:title>磐田市の高齢者インフルエンザ予防接種｜自己負担1,600円と対象の確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261109-iwata-electronic-certificate-wait/</loc><lastmod>2026-11-09</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261109-iwata-electronic-certificate-wait/cover.jpg</image:loc><image:title>電子証明書更新後いつ使える？磐田市の目安</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261109-iwata-koseki-wide-area-issuance/</loc><lastmod>2026-11-09</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261109-iwata-koseki-wide-area-issuance/cover.svg</image:loc><image:title>本籍が遠くても磐田市役所で戸籍謄本が取れる｜広域交付の使い方</image:title></image:image></url>
