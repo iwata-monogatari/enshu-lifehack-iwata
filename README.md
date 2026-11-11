@@ -1,11 +1,11 @@
 # enshu-lifehack-iwata
 
 磐田ライフハック（遠州ライフハック 磐田版）の **静的サイト** リポジトリ。
-公開先：`https://iwata.enshu-lifehack.com/`（Cloudflare Pages）
+公開先：`https://iwata.enshu-lifehack.com/`（Cloudflare Workers）
 
 ## 構成
 
-静的HTMLのみ。Cloudflare Pages の **Build output directory = `/`**（ビルド不要）で配信する。
+静的HTMLと `src/worker.js` を、`wrangler.toml` の ASSETS と custom_domain で配信します。main の更新を GitHub 連携 Workers Builds が公開します。旧Pagesの説明は現行の公開経路ではありません。
 
 ```
 index.html              トップ（くらしの場面・目的から選ぶ）
@@ -20,13 +20,16 @@ favicon.svg
 
 ## 生成方法（再生成手順）
 
-このサイトは Cloudflare Workers + D1 で動く本番（`iwata-hack`）の公開ページを
-クロールして静的化したスナップショットである。元データを更新したら再生成する。
+現在のガイド本文は `life/` のHTML、即答欄とFAQの生成元は `data/categories.json` です。旧 `iwata-hack` のD1・snapshotを読み直す一括上書きは行いません。
 
-1. 本番 `iwata-hack` を最新化（クロール／デプロイ）
-2. `iwata-hack` リポジトリ内の `scripts/snapshot.mjs`（または scratchpad の同等スクリプト）を
-   Node で実行し、このディレクトリへ出力
-3. 差分を commit / push → Cloudflare Pages が自動デプロイ
+1. 根拠となる公式本文と現行HTMLを照合し、変更する説明・確認範囲を限定する。
+2. HTMLの回答と `categories.json` のFAQ・conclusionを同じ差分で更新する。既存の専門窓口・施設時間と一般行政窓口を混同しない。
+3. 必要に応じて `derive_instant_header_fields.py`、`inject_instant_header.py`、`inject_faq_jsonld.py`、`build_tax_certificate_guidance.py --check` を実行する。
+4. ブログ本文と台帳を更新した場合は下記のブログbuild、検索インデックス生成、関連回帰を行う。
+5. `python scripts/audit_guide_consistency.py` でFAQ三者・内部リンクとアンカー・画像・canonical・動作しない旧評価ボタンの再混入を検査する（検査用依存：BeautifulSoup4）。候補のPC・狭幅表示と変更した機能を実ブラウザーで確認する。
+6. 最新mainのSHAを再確認し、他者の更新を保持した通常のfast-forward反映を行う。Workers Buildsの対象SHA成功と本番の固有本文・画面を確認する。Direct Upload、force pushは使わない。
+
+期限付きの案内は、開催予定日・申込期限・実施結果を分けて記載します。予定日の経過だけで「実施済み」「中止」「受付終了」を推測しません。旧公式告知が取得できない場合、現在の関連情報を過去の出来事の証明と取り違えないよう表示します。
 
 ## ブログ `/blog/`
 

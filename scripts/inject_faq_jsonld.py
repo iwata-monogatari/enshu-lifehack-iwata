@@ -49,7 +49,7 @@ def url_to_path(url):
 
 
 def main():
-    with open(CATEGORIES_PATH, encoding="utf-8") as f:
+    with open(CATEGORIES_PATH, encoding="utf-8", newline="") as f:
         root = json.load(f)
 
     changed = []
@@ -68,7 +68,7 @@ def main():
                 skipped_no_faq.append(item["url"])
                 continue
 
-            with open(filepath, encoding="utf-8") as f:
+            with open(filepath, encoding="utf-8", newline="") as f:
                 html = f.read()
 
             script_html = '<script type="application/ld+json">%s</script>' % build_jsonld(faq)

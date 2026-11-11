@@ -52,7 +52,11 @@ def main():
                 re.S,
             )
             replacement = "<!-- PART:%s:START -->%s<!-- PART:%s:END -->" % (name, content, name)
-            new_html, n = pattern.subn(lambda m: replacement, new_html)
+            # Keep original CRLF/CRCRLF/LF when the component content is unchanged.
+            def replace_part(match):
+                normalize = lambda text: re.sub(r"\r+\n|\r", "\n", text)
+                return match.group(0) if normalize(match.group(0)) == normalize(replacement) else replacement
+            new_html, n = pattern.subn(replace_part, new_html)
             total_markers[name] += n
         if new_html != html:
             with open(path, "w", encoding="utf-8", newline="") as f:

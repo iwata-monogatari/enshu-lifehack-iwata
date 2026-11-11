@@ -66,7 +66,7 @@ def build_box(item):
 
 
 def main():
-    with open(CATEGORIES_PATH, encoding="utf-8") as f:
+    with open(CATEGORIES_PATH, encoding="utf-8", newline="") as f:
         root = json.load(f)
 
     changed = []
@@ -86,7 +86,7 @@ def main():
                 skipped_empty.append(item["url"])
                 continue
 
-            with open(filepath, encoding="utf-8") as f:
+            with open(filepath, encoding="utf-8", newline="") as f:
                 html_src = f.read()
 
             marker_block = START + box_html + END

@@ -36,7 +36,7 @@ body:not(.hub) .lead{font-size:15px;color:var(--mut);margin:0 0 14px}
 body:not(.hub) .breadcrumb{font-size:13px;margin:0 0 10px}
 body:not(.hub) .breadcrumb a{display:inline-flex;align-items:center;min-height:44px;padding:6px 2px;margin:-6px -2px}
 body:not(.hub) .hero{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:10px 0 18px}
-body:not(.hub) .hero-visual{min-height:155px;background:linear-gradient(135deg,rgba(0,116,174,.94),rgba(21,80,60,.84)),radial-gradient(circle at 20% 35%,rgba(255,255,255,.28),transparent 30%),linear-gradient(0deg,#e9f4f7,#fff);color:#fff;padding:22px 18px;display:flex;align-items:flex-end}
+body:not(.hub) .hero-visual{min-height:155px;background:linear-gradient(135deg,rgba(0,116,174,.94),rgba(21,80,60,.84)),radial-gradient(circle at 20% 35%,rgba(255,255,255,.28),transparent 30%),linear-gradient(0deg,#e9f4f7,#fff);color:#fff;padding:22px 18px;display:flex;flex-direction:column;align-items:stretch}
 body:not(.hub) .hero-visual h1{color:#fff;margin:0;font-size:29px;line-height:1.28;max-width:660px;text-shadow:0 1px 8px rgba(0,0,0,.18)}
 body:not(.hub) .checklist-box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;margin:18px 0}
 body:not(.hub) .checklist-box.is-complete{border-color:var(--green);background:#f3faf6}
