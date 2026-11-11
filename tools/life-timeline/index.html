@@ -24,13 +24,13 @@
 <main id="main"><div class="wrap">
 <p class="breadcrumb"><a href="/">磐田ライフハック</a> ／ ライフイベント・タイムライン</p>
 <h1>ライフイベント・タイムライン</h1>
-<p class="lead">結婚・妊娠がわかった時期を選ぶと、いつ何の手続きが必要かを時系列で確認できます。</p>
+<p class="lead">婚姻届を出す予定月・医療機関から案内された出産予定月を選び、準備する手続きを確認できます。予定月は目安です。出生後の期限は実際の出生日を基準に確認し、このツールから出産日や申請期限を計算しないでください。</p>
 
 <noscript>
 <h2 class="sec">結婚</h2>
 <ul><li><a href="/life/family-grow/marriage/">婚姻届を提出する（時期の決まりはなし、必要なタイミングで）</a></li><li><a href="/life/start-living/mynumber/">氏名・住所変更に伴うマイナンバーカードの手続き</a></li><li><a href="/life/work-life/national-health-insurance-tax/">健康保険（国保）の変更</a></li><li><a href="/life/work-life/resident-tax/">住民税の氏名変更</a></li></ul>
 <h2 class="sec">妊娠・出産</h2>
-<ul><li><a href="/life/family-grow/pregnancy/">妊娠届を出す（妊娠がわかったらすぐ）</a></li><li><a href="/life/family-grow/infant-health-check/">妊婦健診・乳幼児健診の予定を確認</a></li><li><a href="/life/family-grow/childbirth/">出生届を提出する（生まれてから14日以内）</a></li><li><a href="/life/family-grow/child-allowance/">児童手当を申請する</a></li><li><a href="/life/family-grow/child-allowance-medical/">こども医療費助成を申請する</a></li><li><a href="/life/family-grow/child-vaccination/">予防接種のスケジュールを確認する</a></li><li><a href="/life/family-grow/nursery-school/">（復職予定の場合）保育園を探す</a></li></ul>
+<ul><li><a href="/life/family-grow/pregnancy/">妊娠届を出す（妊娠がわかったらすぐ）</a></li><li><a href="/life/family-grow/pregnancy/">妊婦健診の受診票・予定を確認</a></li><li><a href="/life/family-grow/infant-health-check/">出生後の乳幼児健診を確認</a></li><li><a href="/life/family-grow/childbirth/">出生届を提出する（生まれてから14日以内）</a></li><li><a href="/life/family-grow/child-allowance/">児童手当を申請する</a></li><li><a href="/life/family-grow/child-allowance-medical/">こども医療費助成を申請する</a></li><li><a href="/life/family-grow/child-vaccination/">予防接種のスケジュールを確認する</a></li><li><a href="/life/family-grow/nursery-school/">（復職予定の場合）保育園を探す</a></li></ul>
 </noscript>
 
 <div id="lt-app"></div>
@@ -363,23 +363,23 @@ body:not(.hub) .fgo-managed-footer__inner {
         { offset: 0, when: '婚姻届を出す月', title: '婚姻届を提出する', href: '/life/family-grow/marriage/' },
         { offset: 0, when: '同じ頃', title: '氏名・住所変更に伴うマイナンバーカードの手続き', href: '/life/start-living/mynumber/' },
         { offset: 0, when: '同じ頃', title: '健康保険（国保）の変更を確認', href: '/life/work-life/national-health-insurance-tax/' },
-        { offset: 1, when: '1ヶ月以内の目安', title: '年金の氏名変更手続きを確認', href: '/life/work-life/nhk-pension/' },
-        { offset: 1, when: '1ヶ月以内の目安', title: '住民税の氏名・宛先変更を確認', href: '/life/work-life/resident-tax/' }
+        { offset: 0, when: '変更が必要か早めに確認', title: '年金の氏名変更手続きを確認', href: '/life/work-life/nhk-pension/' },
+        { offset: 0, when: '変更が必要か早めに確認', title: '住民税の氏名・宛先変更を確認', href: '/life/work-life/resident-tax/' }
       ]
     },
     {
       id: 'baby',
       label: '妊娠・出産',
-      triggerLabel: '妊娠がわかった月',
+      triggerLabel: '出産予定月（医療機関の案内）',
       events: [
-        { offset: 0, when: '妊娠がわかったら', title: '妊娠届を出す', href: '/life/family-grow/pregnancy/' },
-        { offset: 2, when: '2ヶ月後ごろ', title: '妊婦健診の予定を確認', href: '/life/family-grow/infant-health-check/' },
-        { offset: 9, when: '出産予定月ごろ', title: '出産・入院の準備を進める', href: '/life/family-grow/childbirth/' },
-        { offset: 9, when: '生まれてから14日以内', title: '出生届を提出する', href: '/life/family-grow/childbirth/' },
-        { offset: 9, when: '出生後すぐ', title: '児童手当を申請する', href: '/life/family-grow/child-allowance/' },
-        { offset: 9, when: '出生後すぐ', title: 'こども医療費助成を申請する', href: '/life/family-grow/child-allowance-medical/' },
-        { offset: 10, when: '生後1ヶ月頃から', title: '予防接種のスケジュールを確認する', href: '/life/family-grow/child-vaccination/' },
-        { offset: 10, when: '復職予定がある場合', title: '保育園を探す', href: '/life/family-grow/nursery-school/' }
+        { offset: null, when: '妊娠がわかったら・早めに', title: '妊娠届を出す', href: '/life/family-grow/pregnancy/' },
+        { offset: null, when: '妊娠中・医療機関の指示に合わせて', title: '妊婦健診の受診票・予定を確認', href: '/life/family-grow/pregnancy/' },
+        { offset: 0, when: '出産予定月までに・余裕を持って', title: '出産・入院の準備を進める', href: '/life/family-grow/childbirth/' },
+        { offset: null, when: '実際に生まれた日から14日以内', title: '出生届を提出する', href: '/life/family-grow/childbirth/' },
+        { offset: null, when: '出生後・期限はリンク先で確認', title: '児童手当を申請する', href: '/life/family-grow/child-allowance/' },
+        { offset: null, when: '出生後・期限はリンク先で確認', title: 'こども医療費助成を申請する', href: '/life/family-grow/child-allowance-medical/' },
+        { offset: null, when: '出生後・接種時期は医療機関に確認', title: '予防接種のスケジュールを確認する', href: '/life/family-grow/child-vaccination/' },
+        { offset: null, when: '復職予定と入園募集時期に合わせて早めに', title: '保育園を探す', href: '/life/family-grow/nursery-school/' }
       ]
     }
   ];
@@ -436,7 +436,7 @@ body:not(.hub) .fgo-managed-footer__inner {
     el.innerHTML = track.events.map(function(ev) {
       var m = (startMonth + ev.offset) % 12;
       return (
-        '<div class="lt-card"><p class="lt-when">' + MONTH_NAMES[m] + '頃・' + esc(ev.when) + '</p>' +
+        '<div class="lt-card"><p class="lt-when">' + (ev.offset === null ? '' : MONTH_NAMES[m] + '頃・') + esc(ev.when) + '</p>' +
         '<p class="lt-title">' + esc(ev.title) + '</p>' +
         '<a class="official-link" href="' + ev.href + '"><span>くわしく見る</span></a></div>'
       );
