@@ -1202,7 +1202,7 @@
           "conclusion": {
             "online": null,
             "konbini": null,
-            "counter": "ごみの処分方法はごみ対策課へ。空き家・住宅の相談は別の担当窓口",
+            "counter": "ごみの処分方法はごみ資源循環課へ。空き家・住宅の相談は別の担当窓口",
             "cost": null,
             "tel": "0538-37-4812",
             "source": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014173/index.html"
@@ -1233,7 +1233,7 @@
           "online_status": "n/a",
           "online_note": null,
           "time_estimate": "n/a",
-          "counter_info": "ごみの処分方法はごみ対策課へ。空き家・住宅の相談は別の担当窓口。電話：0538-37-4812"
+          "counter_info": "ごみの処分方法はごみ資源循環課へ。空き家・住宅の相談は別の担当窓口。電話：0538-37-4812"
         },
         {
           "id": "earthquake-demolition",

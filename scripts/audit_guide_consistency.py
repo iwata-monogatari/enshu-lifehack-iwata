@@ -130,6 +130,8 @@ def audit():
         calls = [a.get('href') for a in soup.select('.cta-row a[href^="tel:"]')]
         if 'tel:' + telephone not in calls:
             errors.append([name, 'reviewed-telephone-button', calls])
+        if name == 'housing/clean-parents-house' and not any('ごみ資源循環課' in a.get_text() for a in soup.select('.cta-row a[href^="tel:"]')):
+            errors.append([name, 'reviewed-department-name'])
     for name, marker in {
         'start-living/public-transit': 'trial-reservation-update',
         'troubles-consult/farmland': 'farmland-bank-scope',
