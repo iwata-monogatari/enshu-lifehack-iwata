@@ -29,14 +29,14 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/inherited-house/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/pension-inheritance/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/end-of-life/property-tax-inheritance/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/child-allowance/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/child-vaccination/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/childbirth/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/infant-health-check/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/marriage/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/adult-vaccination/</loc><lastmod>2026-11-10</lastmod></url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kodomo-iryo/</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kodomo-iryo/cover.svg</image:loc><image:title>磐田市のこども医療費助成｜高校生年代まで通院・入院が無料、受給者証と払い戻しの手続き</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/</loc><lastmod>2026-11-13</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/cover.svg</image:loc><image:title>磐田市の粗大ごみ戸別収集の申し込み手順｜希望日の2週間前までにLINEか電話で予約</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/</loc><lastmod>2026-11-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/cover.svg</image:loc><image:title>磐田市のファミリー・サポート・センター｜利用料は1時間600円から、対象は0歳から小学6年生</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/</loc><lastmod>2026-11-11</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/cover.svg</image:loc><image:title>磐田市の犬の登録と狂犬病予防注射｜登録手数料3,000円・済票550円と届出の段取り</image:title></image:image></url>
