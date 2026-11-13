@@ -90,7 +90,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/</loc><lastmod>2026-10-21</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/city-hall-branches/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/dog-registration/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/how-to-garbage/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/how-to-garbage/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/moved-in/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/mynumber/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/public-transit/</loc><lastmod>2026-11-11</lastmod></url>
@@ -193,7 +193,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/start-living/bulky-garbage-dropoff/</loc>
 
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
 
   </url>
   <url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/</loc><lastmod>2026-11-13</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/cover.svg</image:loc><image:title>磐田市の粗大ごみ戸別収集の申し込み手順｜希望日の2週間前までにLINEか電話で予約</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/</loc><lastmod>2026-11-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/cover.svg</image:loc><image:title>磐田市のファミリー・サポート・センター｜利用料は1時間600円から、対象は0歳から小学6年生</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/</loc><lastmod>2026-11-11</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261111-iwata-dog-registration-rabies/cover.svg</image:loc><image:title>磐田市の犬の登録と狂犬病予防注射｜登録手数料3,000円・済票550円と届出の段取り</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261110-iwata-elderly-flu-vaccine/</loc><lastmod>2026-11-10</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261110-iwata-elderly-flu-vaccine/cover.svg</image:loc><image:title>磐田市の高齢者インフルエンザ予防接種｜自己負担1,600円と対象の確認</image:title></image:image></url>
