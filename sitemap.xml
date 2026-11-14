@@ -34,7 +34,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/child-vaccination/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/childbirth/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/infant-health-check/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/marriage/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/marriage/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/</loc><lastmod>2026-11-11</lastmod></url>
@@ -91,7 +91,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/city-hall-branches/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/dog-registration/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/how-to-garbage/</loc><lastmod>2026-11-13</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/moved-in/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/start-living/moved-in/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/mynumber/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/public-transit/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/start-living/resident-registration/</loc><lastmod>2026-11-04</lastmod></url>
@@ -390,6 +390,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kekkon-shinseikatsu/</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kekkon-shinseikatsu/cover.svg</image:loc><image:title>磐田市の結婚新生活支援事業助成金｜夫婦とも39歳以下・所得500万円未満の新婚世帯へ最大60万円</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kodomo-iryo/</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kodomo-iryo/cover.svg</image:loc><image:title>磐田市のこども医療費助成｜高校生年代まで通院・入院が無料、受給者証と払い戻しの手続き</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/</loc><lastmod>2026-11-13</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261113-iwata-sodai-gomi-kobetsu/cover.svg</image:loc><image:title>磐田市の粗大ごみ戸別収集の申し込み手順｜希望日の2週間前までにLINEか電話で予約</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/</loc><lastmod>2026-11-12</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261112-iwata-family-support-center/cover.svg</image:loc><image:title>磐田市のファミリー・サポート・センター｜利用料は1時間600円から、対象は0歳から小学6年生</image:title></image:image></url>
