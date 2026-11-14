@@ -12,6 +12,7 @@ from collections import Counter
 from bs4 import BeautifulSoup
 from derive_instant_header_fields import derive
 from inject_instant_header import build_box
+from inject_channel_badges import build_badges_html
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = 'https://iwata.enshu-lifehack.com'
@@ -99,6 +100,10 @@ def audit():
             total += 1
             path = ROOT / urllib.parse.urlparse(item['url']).path.strip('/') / 'index.html'
             soup = documents[path]
+            expected_badges = BeautifulSoup(build_badges_html(item.get('channels', [])), 'html.parser')
+            badges = lambda document: [normalized(node.get_text(' ', strip=True)) for node in document.select('.channel-badge')]
+            if badges(soup) != badges(expected_badges):
+                errors.append([item['id'], 'channel-badges-vs-source'])
             faq = visible_faq(soup)
             if faq != item.get('faq', []):
                 errors.append([item['id'], 'visible-faq-vs-source'])
