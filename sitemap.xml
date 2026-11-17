@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://iwata.enshu-lifehack.com/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/author/oishi-hiroyuki/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/education/after-school-club/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/education/after-school-club/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/educational-consulting/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/elementary-middle-school/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/education/school-attendance-support/</loc></url>
@@ -101,10 +101,10 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/cannot-pay-tax/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/care-consultation/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/child-consultation/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/</loc></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/job-change/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/job-recruitment/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/nhk-pension/</loc><lastmod>2026-11-13</lastmod></url>
@@ -165,7 +165,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/start-living/certificates/</loc>
 
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-18</lastmod>
 
   </url>
   <url>
@@ -298,7 +298,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/health-medical/disability-services/</loc>
 
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-11-18</lastmod>
 
   </url>
   <url>
@@ -389,7 +389,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261117-iwata-shingles-vaccine/</loc><lastmod>2026-11-17</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261117-iwata-shingles-vaccine/cover.svg</image:loc><image:title>磐田市の帯状疱疹予防接種｜令和8年度の対象は65歳と70歳からの5歳刻み、生ワクチン4,500円・不活化ワクチン1回16,500円</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261116-iwata-gomi-bunbetsu-app/</loc><lastmod>2026-11-16</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261116-iwata-gomi-bunbetsu-app/cover.svg</image:loc><image:title>磐田市のごみ分別アプリ「しっぺいのゴミチェッカー」と収集日の確認方法｜ダウンロード不要・3言語対応</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kekkon-shinseikatsu/</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261114-iwata-kekkon-shinseikatsu/cover.svg</image:loc><image:title>磐田市の結婚新生活支援事業助成金｜夫婦とも39歳以下・所得500万円未満の新婚世帯へ最大60万円</image:title></image:image></url>
@@ -407,7 +407,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-tsunami-tower-height/cover.jpg</image:loc><image:title>磐田市の津波避難タワー｜避難できる高さはどこで分かる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/</loc><lastmod>2026-11-05</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261105-iwata-child-abuse-consultation-189/cover.jpg</image:loc><image:title>磐田市の児童虐待相談｜確信がなくても189に電話できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/</loc><lastmod>2026-11-04</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-fuhachimangu-sculptures/cover.jpg</image:loc><image:title>府八幡宮所蔵彫刻群とは｜磐田に伝わる神像と面など7点</image:title></image:image></url>
-  <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/</loc><lastmod>2026-11-14</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/cover.jpg</image:loc><image:title>磐田市の放課後児童クラブ｜月64時間未満でも申請できる？</image:title></image:image></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261104-iwata-child-club-64-hours/cover.jpg</image:loc><image:title>磐田市の放課後児童クラブ｜月64時間未満でも申請できる？</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/</loc><lastmod>2026-11-03</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-demolition-property-tax/cover.jpg</image:loc><image:title>磐田市の空き家解体と固定資産税｜年末前の判断材料</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-end-of-life-note-letter/</loc><lastmod>2026-11-03</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261103-iwata-end-of-life-note-letter/cover.jpg</image:loc><image:title>磐田市の終活ノートとレター｜配布方法の違い</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261102-iwata-nenkin-deduction-certificate/</loc><lastmod>2026-11-02</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261102-iwata-nenkin-deduction-certificate/cover.jpg</image:loc><image:title>磐田市の国民年金控除証明書｜年末調整前の準備</image:title></image:image></url>
