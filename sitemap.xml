@@ -36,7 +36,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/infant-health-check/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/marriage/</loc><lastmod>2026-11-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/nursery-school/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-11-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/parenting-support/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/family-grow/pregnancy/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/adult-vaccination/</loc><lastmod>2026-11-17</lastmod></url>
@@ -284,7 +284,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/health-medical/vaccinations/</loc>
 
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-18</lastmod>
 
   </url>
   <url>
@@ -390,6 +390,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
   <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-child-flu-vaccine/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-child-flu-vaccine/cover.svg</image:loc><image:title>磐田市の子どものインフルエンザ予防接種｜市の助成は高齢者のみ、子どもは任意接種で費用は医療機関ごとに確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-tokutei-kenshin-jushinken/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-tokutei-kenshin-jushinken/cover.svg</image:loc><image:title>磐田市の特定健診・がん検診の受診券｜案内が届く人・申込が要る人、集団バス検診は11月末まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261117-iwata-shingles-vaccine/</loc><lastmod>2026-11-17</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261117-iwata-shingles-vaccine/cover.svg</image:loc><image:title>磐田市の帯状疱疹予防接種｜令和8年度の対象は65歳と70歳からの5歳刻み、生ワクチン4,500円・不活化ワクチン1回16,500円</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261116-iwata-gomi-bunbetsu-app/</loc><lastmod>2026-11-16</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261116-iwata-gomi-bunbetsu-app/cover.svg</image:loc><image:title>磐田市のごみ分別アプリ「しっぺいのゴミチェッカー」と収集日の確認方法｜ダウンロード不要・3言語対応</image:title></image:image></url>
