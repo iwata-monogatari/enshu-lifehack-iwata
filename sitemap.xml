@@ -43,7 +43,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/dental-care/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/disability-welfare/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/find-hospitals/</loc><lastmod>2026-11-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/health-checkups/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/health-checkups/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/health-promotion/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/mental-health-consulting/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/night-holiday-medical/</loc></url>
@@ -277,7 +277,7 @@
 
     <loc>https://iwata.enshu-lifehack.com/life/health-medical/cancer-specific-checkups/</loc>
 
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-20</lastmod>
 
   </url>
   <url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261120-iwata-appearance-care/</loc><lastmod>2026-11-20</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261120-iwata-appearance-care/cover.svg</image:loc><image:title>磐田市のがん患者アピアランスケア助成｜医療用ウィッグ上限2万円・人工乳房は上限10万円、申請は購入した年度末まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261119-iwata-sango-care/</loc><lastmod>2026-11-19</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261119-iwata-sango-care/cover.svg</image:loc><image:title>磐田市の産後ケア事業｜宿泊・通所・訪問の3タイプ、利用料の2割負担で産後1年未満まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-child-flu-vaccine/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-child-flu-vaccine/cover.svg</image:loc><image:title>磐田市の子どものインフルエンザ予防接種｜市の助成は高齢者のみ、子どもは任意接種で費用は医療機関ごとに確認</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-tokutei-kenshin-jushinken/</loc><lastmod>2026-11-18</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261118-iwata-tokutei-kenshin-jushinken/cover.svg</image:loc><image:title>磐田市の特定健診・がん検診の受診券｜案内が届く人・申込が要る人、集団バス検診は11月末まで</image:title></image:image></url>
