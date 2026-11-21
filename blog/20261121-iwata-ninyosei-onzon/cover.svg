@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf3e3"/><stop offset="1" stop-color="#f7d9b0"/></linearGradient></defs>
+<rect width="760" height="760" fill="url(#g)"/>
+<path d="M0 640 Q190 590 380 640 T760 640 V760 H0 Z" fill="#e8873a" opacity="0.35"/>
+<path d="M0 680 Q190 635 380 680 T760 680 V760 H0 Z" fill="#e8873a" opacity="0.55"/>
+<rect x="96" y="120" width="568" height="430" rx="26" fill="#ffffff"/>
+<rect x="140" y="160" width="180" height="40" rx="20" fill="#2e6f5e"/>
+<text x="230" y="188" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">手続き・制度</text>
+<text x="140" y="262" font-family="Meiryo, sans-serif" font-size="37" font-weight="bold" fill="#222222">磐田市の不妊治療費助成は</text>
+<text x="140" y="312" font-family="Meiryo, sans-serif" font-size="37" font-weight="bold" fill="#222222">「妊孕性温存」が入口</text>
+<text x="140" y="382" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">胚・卵子凍結は上限<tspan fill="#e8873a" font-weight="bold">40万円</tspan></text>
+<text x="140" y="424" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">温存後の治療も上限<tspan fill="#e8873a" font-weight="bold">30万円</tspan></text>
+<text x="140" y="466" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">申請期限は治療年度の末日まで</text>
+<text x="380" y="716" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="19" fill="#5a4632">磐田ライフハック iwata.enshu-lifehack.com</text>
+</svg>
