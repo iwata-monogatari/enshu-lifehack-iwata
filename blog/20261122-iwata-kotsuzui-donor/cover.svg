@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f3ee"/><stop offset="1" stop-color="#cfe8d8"/></linearGradient></defs>
+<rect width="760" height="760" fill="url(#g)"/>
+<path d="M0 640 Q190 590 380 640 T760 640 V760 H0 Z" fill="#2e6f5e" opacity="0.30"/>
+<path d="M0 680 Q190 635 380 680 T760 680 V760 H0 Z" fill="#2e6f5e" opacity="0.50"/>
+<rect x="96" y="120" width="568" height="430" rx="26" fill="#ffffff"/>
+<rect x="140" y="160" width="180" height="40" rx="20" fill="#2e6f5e"/>
+<text x="230" y="188" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">手続き・制度</text>
+<text x="140" y="262" font-family="Meiryo, sans-serif" font-size="37" font-weight="bold" fill="#222222">磐田市の骨髄移植</text>
+<text x="140" y="312" font-family="Meiryo, sans-serif" font-size="37" font-weight="bold" fill="#222222">ドナー助成</text>
+<text x="140" y="382" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">ドナーは1日<tspan fill="#e8873a" font-weight="bold">2万円</tspan>・上限<tspan fill="#e8873a" font-weight="bold">14万円</tspan></text>
+<text x="140" y="424" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">事業所にも1日<tspan fill="#e8873a" font-weight="bold">1万円</tspan>・上限7万円</text>
+<text x="140" y="466" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">申請は提供完了の翌日から1年以内</text>
+<text x="380" y="716" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="19" fill="#33503f">磐田ライフハック iwata.enshu-lifehack.com</text>
+</svg>
