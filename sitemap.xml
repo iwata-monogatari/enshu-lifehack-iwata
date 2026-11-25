@@ -104,13 +104,13 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/disability-consultation/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/living-costs-trouble/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/vacant-house-consultation/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/</loc><lastmod>2026-11-26</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/job-change/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/job-recruitment/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/nhk-pension/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/start-business/</loc><lastmod>2026-11-13</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/start-farming/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/subsidies/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/work-life/subsidies/</loc><lastmod>2026-11-26</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/work-life/tax/</loc><lastmod>2026-11-13</lastmod></url>
   <url>
 
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261126-iwata-lifeline-kyojinka/</loc><lastmod>2026-11-26</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261126-iwata-lifeline-kyojinka/cover.svg</image:loc><image:title>磐田市の中小企業ライフライン強靭化支援補助金｜設備費の2分の1・上限200万円、申請は令和9年2月28日まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/</loc><lastmod>2026-11-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/cover.svg</image:loc><image:title>磐田市の浄化槽設置補助金｜5人槽は上限33万2千円・宅内配管は上限33万円、単独槽からの転換は撤去費も対象</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/</loc><lastmod>2026-11-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/cover.svg</image:loc><image:title>磐田市のこどもの居場所づくり補助金｜食事提供は上限20万円・学習支援と遊びは5万円、対象経費の2分の1を民間団体に助成</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261123-iwata-hochoki-josei/</loc><lastmod>2026-11-23</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261123-iwata-hochoki-josei/cover.svg</image:loc><image:title>磐田市の高齢者補聴器購入費助成｜65歳以上・両耳30デシベル以上が対象、購入費の2分の1・上限3万円で申請は購入前に</image:title></image:image></url>
