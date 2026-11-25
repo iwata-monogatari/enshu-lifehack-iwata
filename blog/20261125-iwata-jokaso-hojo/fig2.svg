@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" data-illustration="iwata-editorial">
+<rect width="760" height="560" fill="#edf5fa"/>
+<text x="40" y="56" font-family="Meiryo, sans-serif" font-size="26" font-weight="bold" fill="#222222">申請から振込までの流れ（磐田市）</text>
+<rect x="40" y="84" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="108" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">1. 対象区域の確認</text><text x="64" y="130" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">設置予定地が対象区域か、上下水道総務課の窓口等で確認</text>
+<rect x="40" y="150" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="174" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">2. 交付申請</text><text x="64" y="196" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">施工業者を経由して提出。期限は対象年度の1月末まで・着工前に</text>
+<rect x="40" y="216" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="240" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">3. 交付額の決定通知</text><text x="64" y="262" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">市から補助金の交付額決定通知書（様式第4号）が届く</text>
+<rect x="40" y="282" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="306" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">4. 設置工事</text><text x="64" y="328" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">着手前に浄化槽本体の写真を撮影し、年度内に工事を完了</text>
+<rect x="40" y="348" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="372" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">5. 完了報告</text><text x="64" y="394" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">工事完了から10日以内、または対象年度の3月20日まで</text>
+<rect x="40" y="414" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="438" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">6. 交付額の確定通知</text><text x="64" y="460" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">市が内容を確認し、交付額確定通知書を通知</text>
+<rect x="40" y="480" width="680" height="56" rx="12" fill="#ffffff"/><text x="64" y="504" font-family="Meiryo, sans-serif" font-size="19" font-weight="bold" fill="#2f6f9f">7. 補助金の振込</text><text x="64" y="526" font-family="Meiryo, sans-serif" font-size="15" fill="#555555">完了報告書で指定した金融機関の口座へ振込</text>
+<text x="40" y="548" font-family="Meiryo, sans-serif" font-size="15" fill="#777777">出典：磐田市「浄化槽設置整備事業 補助金交付申請の手引き」（令和8年度）</text>
+</svg>

@@ -47,8 +47,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/health-promotion/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/mental-health-consulting/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/health-medical/night-holiday-medical/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/housing/</loc><lastmod>2026-10-27</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/housing/build-house/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/housing/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/housing/build-house/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/buy-house/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/clean-parents-house/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/earthquake-demolition/</loc><lastmod>2026-11-14</lastmod></url>
@@ -80,7 +80,7 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/parents-care/long-term-care-insurance/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/cultural-facilities/</loc><lastmod>2026-11-11</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/find-parks/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/play-out/find-parks/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/kids-playgrounds/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/parking-access/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/play-out/rent-public-facilities/</loc><lastmod>2026-11-05</lastmod></url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-24</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/</loc><lastmod>2026-11-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/cover.svg</image:loc><image:title>磐田市の浄化槽設置補助金｜5人槽は上限33万2千円・宅内配管は上限33万円、単独槽からの転換は撤去費も対象</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/</loc><lastmod>2026-11-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/cover.svg</image:loc><image:title>磐田市のこどもの居場所づくり補助金｜食事提供は上限20万円・学習支援と遊びは5万円、対象経費の2分の1を民間団体に助成</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261123-iwata-hochoki-josei/</loc><lastmod>2026-11-23</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261123-iwata-hochoki-josei/cover.svg</image:loc><image:title>磐田市の高齢者補聴器購入費助成｜65歳以上・両耳30デシベル以上が対象、購入費の2分の1・上限3万円で申請は購入前に</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261122-iwata-kotsuzui-donor/</loc><lastmod>2026-11-23</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261122-iwata-kotsuzui-donor/cover.svg</image:loc><image:title>磐田市の骨髄移植ドナー助成｜ドナーは1日2万円・上限14万円、対象の勤務先事業所は1日1万円、申請は提供完了日の翌日から1年以内</image:title></image:image></url>
