@@ -56,8 +56,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/rent-house/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/sell-house/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/housing/vacant-house/</loc></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/</loc><lastmod>2026-10-14</lastmod></url>
-  <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/about-iwata/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/about-iwata/</loc><lastmod>2026-11-27</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/disaster-risk/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/moving-decided/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/living-soon/school-districts/</loc><lastmod>2026-11-11</lastmod></url>
@@ -389,7 +389,8 @@
   <url><loc>https://iwata.enshu-lifehack.com/links/</loc></url>
   <url><loc>https://iwata.enshu-lifehack.com/life/troubles-consult/foreign-resident-consultation/</loc></url>
   <!-- BLOG:START 以下は scripts/build_blog.py が生成する。手で編集しない -->
-  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://iwata.enshu-lifehack.com/blog/20261127-iwata-iju-shugyo-shienkin/</loc><lastmod>2026-11-27</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261127-iwata-iju-shugyo-shienkin/cover.svg</image:loc><image:title>磐田市の移住・就業支援金｜世帯100万円・単身60万円、18歳未満1人につき100万円加算で1世帯最大400万円、申請は2027年1月15日まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261126-iwata-lifeline-kyojinka/</loc><lastmod>2026-11-26</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261126-iwata-lifeline-kyojinka/cover.svg</image:loc><image:title>磐田市の中小企業ライフライン強靭化支援補助金｜設備費の2分の1・上限200万円、申請は令和9年2月28日まで</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/</loc><lastmod>2026-11-25</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261125-iwata-jokaso-hojo/cover.svg</image:loc><image:title>磐田市の浄化槽設置補助金｜5人槽は上限33万2千円・宅内配管は上限33万円、単独槽からの転換は撤去費も対象</image:title></image:image></url>
   <url><loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/</loc><lastmod>2026-11-24</lastmod><image:image><image:loc>https://iwata.enshu-lifehack.com/blog/20261124-iwata-kodomo-ibasho-hojo/cover.svg</image:loc><image:title>磐田市のこどもの居場所づくり補助金｜食事提供は上限20万円・学習支援と遊びは5万円、対象経費の2分の1を民間団体に助成</image:title></image:image></url>
