@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf3e7"/><stop offset="1" stop-color="#fbe3c8"/></linearGradient></defs>
+<rect width="760" height="760" fill="url(#g)"/>
+<path d="M0 640 Q190 590 380 640 T760 640 V760 H0 Z" fill="#e8873a" opacity="0.25"/>
+<path d="M0 680 Q190 635 380 680 T760 680 V760 H0 Z" fill="#e8873a" opacity="0.45"/>
+<rect x="96" y="120" width="568" height="430" rx="26" fill="#ffffff"/>
+<rect x="140" y="160" width="220" height="40" rx="20" fill="#e8873a"/>
+<text x="250" y="188" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">子育て・学び</text>
+<text x="140" y="258" font-family="Meiryo, sans-serif" font-size="35" font-weight="bold" fill="#222222">磐田市 ひとり親家庭</text>
+<text x="140" y="306" font-family="Meiryo, sans-serif" font-size="35" font-weight="bold" fill="#222222">自立支援給付金</text>
+<text x="140" y="376" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">教育訓練は受講料の<tspan fill="#e8873a" font-weight="bold">60％</tspan></text>
+<text x="140" y="418" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">修業中は月<tspan fill="#e8873a" font-weight="bold">10万円</tspan>を支給</text>
+<text x="140" y="460" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">支給は最長<tspan fill="#e8873a" font-weight="bold">4年</tspan>・事前相談が入口</text>
+<text x="380" y="716" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="19" fill="#9a5a1d">磐田ライフハック iwata.enshu-lifehack.com</text>
+</svg>
