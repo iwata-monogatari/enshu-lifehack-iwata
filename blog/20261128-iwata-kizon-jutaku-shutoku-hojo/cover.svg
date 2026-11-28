@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f1f8"/><stop offset="1" stop-color="#c9dff2"/></linearGradient></defs>
+<rect width="760" height="760" fill="url(#g)"/>
+<path d="M0 640 Q190 590 380 640 T760 640 V760 H0 Z" fill="#2f6db3" opacity="0.28"/>
+<path d="M0 680 Q190 635 380 680 T760 680 V760 H0 Z" fill="#2f6db3" opacity="0.48"/>
+<rect x="96" y="110" width="568" height="450" rx="26" fill="#ffffff"/>
+<rect x="140" y="150" width="170" height="40" rx="20" fill="#2f6db3"/>
+<text x="225" y="178" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">手続き・制度</text>
+<text x="140" y="246" font-family="Meiryo, sans-serif" font-size="33" font-weight="bold" fill="#222222">磐田市 既存住宅取得等</text>
+<text x="140" y="294" font-family="Meiryo, sans-serif" font-size="33" font-weight="bold" fill="#222222">事業費補助金</text>
+<text x="140" y="356" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">若者・子育て世帯は上限<tspan fill="#e8873a" font-weight="bold">150万円</tspan></text>
+<text x="140" y="398" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">購入費の<tspan fill="#e8873a" font-weight="bold">1割</tspan>＋リフォーム費の<tspan fill="#e8873a" font-weight="bold">半額</tspan></text>
+<text x="140" y="440" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">それ以外はリフォーム上限<tspan fill="#e8873a" font-weight="bold">50万円</tspan></text>
+<text x="140" y="482" font-family="Meiryo, sans-serif" font-size="24" fill="#444444">中古戸建を買って直して住む方へ</text>
+<text x="380" y="716" text-anchor="middle" font-family="Meiryo, sans-serif" font-size="19" fill="#1d4e79">磐田ライフハック iwata.enshu-lifehack.com</text>
+</svg>
