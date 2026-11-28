@@ -11,6 +11,7 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://iwata.enshu-lifehack.com/#website","url":"https://iwata.enshu-lifehack.com/","name":"磐田ライフハック","description":"磐田市の手続き、相談先、防災、子育て、介護、住まいを暮らしの場面から整理する非公式ナビです。","inLanguage":"ja","publisher":{"@id":"https://iwata.enshu-lifehack.com/#publisher"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://iwata.enshu-lifehack.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://iwata.enshu-lifehack.com/#publisher","name":"富士ヶ丘サービス株式会社","url":"https://www.fujigaoka-service.co.jp/","telephone":"+81-538-31-3308","address":{"@type":"PostalAddress","streetAddress":"見付5789番地1","addressLocality":"磐田市","addressRegion":"静岡県","addressCountry":"JP"}},{"@type":"FAQPage","@id":"https://iwata.enshu-lifehack.com/#faq","mainEntity":[{"@type":"Question","name":"磐田ライフハックは磐田市の公式サイトですか。","acceptedAnswer":{"@type":"Answer","text":"いいえ。磐田ライフハックは富士ヶ丘サービス株式会社が運営する非公式の案内サイトで、磐田市役所とは関係ありません。制度の詳細、金額、期限、申請の可否は必ず磐田市公式サイトまたは担当窓口でご確認ください。"}},{"@type":"Question","name":"磐田市に引っ越してきたら、何から手続きすればよいですか。","acceptedAnswer":{"@type":"Answer","text":"転入届の提出を起点に、マイナンバーカードの住所変更、水道の開始、ごみの分別と収集日の確認、お子さんがいる場合は学校・保育園の手続きへ進みます。「引っ越しチェックリスト」で、転入・転出・市内転居それぞれのやることを順番に確認できます。"}},{"@type":"Question","name":"ごみの分別や収集日はどこで調べられますか。","acceptedAnswer":{"@type":"Answer","text":"「ごみ分別クイック検索」で品目名を入力すると、その場で分別区分を確認できます。収集日は地区ごとに異なるため、最終的には磐田市の収集カレンダーでご確認ください。"}},{"@type":"Question","name":"磐田市の休日や夜間に診てもらえる病院を知りたいです。","acceptedAnswer":{"@type":"Answer","text":"「休日・夜間の当番医」のページに、救急診療所の連絡先と当番医の調べ方をまとめています。生命に関わる緊急時は迷わず119番へ通報してください。"}},{"@type":"Question","name":"磐田市の実家が空き家になりました。まず何を確認すればよいですか。","acceptedAnswer":{"@type":"Answer","text":"売る・貸す・残すを決める前に、名義（相続登記が済んでいるか）、道路と接道、境界、農地かどうか、抵当権の残りを確認する順番を整理すると進めやすくなります。磐田市の空き家に関する制度は「空き家がある」のページから公式情報へ進めます。"}}]}]}</script>
 <link rel="stylesheet" href="/assets/family-home-referral.css?v=20261004">
 <link rel="stylesheet" href="/assets/life-resources.css?v=20261012">
+<script defer src="https://enshu-lifehack.com/weekend-events.js"></script>
 </head>
 <body class="hub home">
 <!-- PART:header:START --><a class="skip-link" href="#main">本文へスキップ</a><header class="site"><div class="wrap"><a class="logo" href="/">磐田ライフハック</a><span class="tag">磐田市の暮らしと手続きが、すぐわかる</span><nav class="site-nav" aria-label="主要メニュー"><a href="/blog/"><span aria-hidden="true">✍️</span>ブログ</a></nav><button type="button" id="font-size-toggle" class="font-size-toggle" aria-pressed="false">文字 大</button></div></header><script>(function(){var KEY='enshu-font-large';var btn=document.getElementById('font-size-toggle');function apply(on){document.documentElement.classList.toggle('font-large',on);if(btn){btn.setAttribute('aria-pressed',on?'true':'false');btn.textContent=on?'文字 標準':'文字 大';}}apply(localStorage.getItem(KEY)==='1');if(btn){btn.addEventListener('click',function(){var on=!document.documentElement.classList.contains('font-large');apply(on);try{localStorage.setItem(KEY,on?'1':'0');}catch(e){}});}})();</script><!-- PART:header:END -->
@@ -23,6 +24,13 @@
 <a class="pillar-card" href="/blog/"><span class="pillar-icon" aria-hidden="true">✍️</span><span class="pillar-text"><span class="pillar-title">ブログ</span><span class="pillar-desc">市の公表情報を確かめ、暮らしの判断材料を読む</span></span></a>
 <a class="pillar-card" href="#family-home-consultation"><span class="pillar-icon" aria-hidden="true">🏡</span><span class="pillar-text"><span class="pillar-title">家と土地</span><span class="pillar-desc">実家・空き家・相続の整理を相談する</span></span></a>
 </nav>
+<section id="weekend-events" class="official-update" data-weekend-events="iwata" aria-labelledby="weekend-events-title">
+  <p class="eyebrow">磐田市のお出かけ</p>
+  <h2 id="weekend-events-title">磐田市の週末イベント</h2>
+  <p data-weekend-status role="status">公式情報を確認しています。</p>
+  <ul data-weekend-list></ul>
+  <p><a href="https://enshu-lifehack.com/weekend-events/#iwata">遠州の週末イベント一覧で磐田市を見る</a>・<a href="https://www.city.iwata.shizuoka.jp/event/">磐田市公式のイベント情報を見る</a></p>
+</section>
 <section class="official-update" aria-labelledby="seasonal-guide-title">
 <h2 class="sec" id="seasonal-guide-title">磐田のクリスマスイベント・年末年始のお知らせ（2026〜2027年）</h2>
 <h3 id="seasonal-christmas-title">2026年12月のクリスマスイベント</h3><ul>
